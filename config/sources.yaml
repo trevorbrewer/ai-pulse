@@ -1,0 +1,77 @@
+blogs:
+  - name: a16z
+    url: https://a16z.com/feed/
+    tags: [vc, industry]
+
+  - name: Anthropic News
+    url: https://www.anthropic.com/news/rss.xml
+    tags: [research, safety]
+
+  - name: OpenAI Blog
+    url: https://openai.com/blog/rss.xml
+    tags: [research, industry]
+
+  - name: Google AI Blog
+    url: https://blog.research.google/feeds/posts/default?alt=rss
+    tags: [research, industry]
+
+  - name: Simon Willison
+    url: https://simonwillison.net/atom/everything/
+    tags: [tools, commentary]
+
+nitter:
+  # Tried in order; first live response per handle wins.
+  # Keep this list fresh: https://github.com/zedeus/nitter/wiki/Instances
+  instances:
+    - nitter.privacydev.net
+    - nitter.poast.org
+    - nitter.cz
+    - nitter.1d4.us
+    - xcancel.com
+
+arxiv:
+  category: cs.AI
+  # Additional sub-categories to pull alongside cs.AI
+  extra_categories:
+    - cs.LG
+    - cs.CL
+  max_results: 50
+
+hackernews:
+  endpoint: https://hn.algolia.com/api/v1/search
+  query: AI OR "machine learning" OR LLM
+  min_points: 50
+  tags: story
+
+people:
+  - name: Andrej Karpathy
+    blog_rss: https://karpathy.github.io/feed.xml
+    twitter: karpathy
+
+  - name: Yann LeCun
+    blog_rss: ""
+    twitter: ylecun
+
+  - name: François Chollet
+    blog_rss: ""
+    twitter: fchollet
+
+  - name: Lilian Weng
+    blog_rss: https://lilianweng.github.io/index.xml
+    twitter: lilianweng
+
+  - name: Sebastian Raschka
+    blog_rss: https://magazine.sebastianraschka.com/feed
+    twitter: rasbt
+
+  - name: Jeremy Howard
+    blog_rss: https://www.fast.ai/index.xml
+    twitter: jeremyphoward
+
+  - name: Ethan Mollick
+    blog_rss: https://www.oneusefulthing.org/feed
+    twitter: emollick
+
+  - name: Chip Huyen
+    blog_rss: https://huyenchip.com/feed.xml
+    twitter: chipro

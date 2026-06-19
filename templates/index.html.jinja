@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Pulse</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>AI Pulse</h1>
+      <p class="tagline">Daily AI news digests and weekly syntheses</p>
+    </header>
+
+    <main>
+      <section>
+        <h2>Daily Digests</h2>
+        {% if daily %}
+        <ul class="digest-list">
+          {% for entry in daily %}
+          <li>
+            <a class="label" href="daily/{{ entry.date }}.html">{{ entry.date_fmt }}</a>
+            <span class="meta">{{ entry.digest | length }} theme{% if entry.digest | length != 1 %}s{% endif %}</span>
+          </li>
+          {% endfor %}
+        </ul>
+        {% else %}
+        <p class="empty">No daily digests yet.</p>
+        {% endif %}
+      </section>
+
+      <section>
+        <h2>Weekly Syntheses</h2>
+        {% if weekly %}
+        <ul class="digest-list">
+          {% for entry in weekly %}
+          <li>
+            <a class="label" href="weekly/{{ entry.date }}.html">Week ending {{ entry.date_fmt }}</a>
+            <span class="meta">{{ entry.days_included | length }} day{% if entry.days_included | length != 1 %}s{% endif %}</span>
+          </li>
+          {% endfor %}
+        </ul>
+        {% else %}
+        <p class="empty">No weekly syntheses yet.</p>
+        {% endif %}
+      </section>
+    </main>
+
+    <footer>Generated {{ generated_at }}</footer>
+  </div>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Pulse — {{ date_fmt }}</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>AI Pulse</h1>
+      <nav><a href="../index.html">← All digests</a></nav>
+    </header>
+
+    <main>
+      <h1 class="page-title">{{ date_fmt }}</h1>
+
+      {% if digest %}
+        {% for theme in digest %}
+        <section class="theme-section">
+          <h2>{{ theme.theme }}</h2>
+          {% for story in theme.stories %}
+          <div class="story">
+            <p class="story-title">
+              <a href="{{ story.url }}">{{ story.title }}</a><span class="source">{{ story.source }}</span>
+            </p>
+            <p>{{ story.paragraph }}</p>
+          </div>
+          {% endfor %}
+        </section>
+        {% endfor %}
+      {% else %}
+        <p class="empty">No stories for this day.</p>
+      {% endif %}
+    </main>
+
+    <footer>Generated {{ generated_at }}</footer>
+  </div>
+</body>
+</html>

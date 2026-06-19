@@ -1,0 +1,41 @@
+name: Weekly AI Pulse Synthesis
+
+on:
+  schedule:
+    - cron: "0 13 * * 0"  # Sunday 09:00 ET (UTC-4 summer) / 08:00 ET (UTC-5 winter)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  synthesise:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Weekly synthesis
+        run: python scripts/weekly_synthesis.py
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+
+      - name: Build site
+        run: python scripts/build_site.py
+
+      - name: Commit and push
+        run: |
+          git config user.name "ai-pulse[bot]"
+          git config user.email "ai-pulse[bot]@users.noreply.github.com"
+          git add archive/ docs/
+          git diff --cached --quiet || git commit -m "chore: weekly synthesis $(date -u +%Y-%m-%d)"
+          git push

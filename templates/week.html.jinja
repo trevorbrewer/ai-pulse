@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Pulse — Week ending {{ date_fmt }}</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>AI Pulse</h1>
+      <nav><a href="../index.html">← All digests</a></nav>
+    </header>
+
+    <main>
+      <h1 class="page-title">Week ending {{ date_fmt }}</h1>
+      {% if days_included %}
+      <p class="days-covered">
+        {{ days_included | length }} day{% if days_included | length != 1 %}s{% endif %}:
+        {{ days_included | join(" · ") }}
+      </p>
+      {% endif %}
+
+      {% if themes %}
+      <section>
+        <h2>This week's themes</h2>
+        {% for theme in themes %}
+        <div class="theme-block">
+          <h3>{{ theme.name }}</h3>
+          <p>{{ theme.summary }}</p>
+          {% if theme.key_stories %}
+          <ul class="key-stories">
+            {% for story in theme.key_stories %}
+            <li><a href="{{ story.url }}">{{ story.title }}</a></li>
+            {% endfor %}
+          </ul>
+          {% endif %}
+        </div>
+        {% endfor %}
+      </section>
+      {% endif %}
+
+      {% if project_idea %}
+      <section>
+        <h2>Build something</h2>
+        <div class="card">
+          <h3>{{ project_idea.title }}</h3>
+          <p>{{ project_idea.description }}</p>
+          <p class="meta-line"><strong>Time:</strong> {{ project_idea.estimated_time }}
+            {% if project_idea.theme %} &nbsp;·&nbsp; <strong>Theme:</strong> {{ project_idea.theme }}{% endif %}
+          </p>
+          {% if project_idea.skills_practiced %}
+          <ul class="skill-tags">
+            {% for skill in project_idea.skills_practiced %}
+            <li>{{ skill }}</li>
+            {% endfor %}
+          </ul>
+          {% endif %}
+        </div>
+      </section>
+      {% endif %}
+
+      {% if discussion_question %}
+      <section>
+        <h2>Worth thinking about</h2>
+        <div class="card">
+          <p class="discussion-q">{{ discussion_question.question }}</p>
+          <p>{{ discussion_question.context }}</p>
+        </div>
+      </section>
+      {% endif %}
+    </main>
+
+    <footer>Generated {{ generated_at }}</footer>
+  </div>
+</body>
+</html>
