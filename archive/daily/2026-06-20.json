@@ -1,13 +1,13 @@
 {
   "date": "2026-06-20",
-  "generated_at": "2026-06-20T03:20:43.049673+00:00",
+  "generated_at": "2026-06-20T12:26:20.298866+00:00",
   "source_counts": {
     "rss_feeds": 1,
     "arxiv": 0,
-    "hackernews": 17,
+    "hackernews": 14,
     "nitter": 0,
-    "total_raw": 18,
-    "total_deduped": 17
+    "total_raw": 15,
+    "total_deduped": 15
   },
   "items": [
     {
@@ -18,13 +18,23 @@
       "summary_raw": "The real valuable capability MCP offers over skills/CLI is isolating the auth flow outside of the agent\u2019s context window, and potentially out of the harness completely. [...]\nMaybe the idealized form of MCP is just an auth gateway for the API and nothing else. That\u2019d still be a win.\n&mdash; Sean Lynch, comment on Hacker News\n\n    Tags: model-context-protocol, llms, ai, generative-ai, skills"
     },
     {
+      "title": "China will have a Fable 5-class AI model before next year",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/elon-musk-says-that-china-will-have-a-fable-5-class-ai-model-probably-q1-next-year-ceo-of-chinese-anthropic-rival-says-it-wont-take-that-long",
+      "source": "Hacker News",
+      "published": "2026-06-20T04:33:24+00:00",
+      "summary_raw": "",
+      "points": 10,
+      "num_comments": 2,
+      "hn_url": "https://news.ycombinator.com/item?id=48606364"
+    },
+    {
       "title": "I solved my mystery fatigue with AI",
       "url": "https://metalearn.substack.com/p/i-solved-my-mystery-fatigue-with-ai",
       "source": "Hacker News",
       "published": "2026-06-20T00:47:54+00:00",
       "summary_raw": "",
-      "points": 31,
-      "num_comments": 15,
+      "points": 33,
+      "num_comments": 21,
       "hn_url": "https://news.ycombinator.com/item?id=48605117"
     },
     {
@@ -33,9 +43,19 @@
       "source": "Hacker News",
       "published": "2026-06-19T23:54:54+00:00",
       "summary_raw": "",
-      "points": 22,
-      "num_comments": 8,
+      "points": 34,
+      "num_comments": 12,
       "hn_url": "https://news.ycombinator.com/item?id=48604741"
+    },
+    {
+      "title": "The AI startup with no AI: Aussie boss jailed for misleading investors",
+      "url": "https://www.smh.com.au/technology/australian-start-up-boss-who-faked-revenue-gets-nine-years-jail-20260618-p60847.html",
+      "source": "Hacker News",
+      "published": "2026-06-19T23:04:04+00:00",
+      "summary_raw": "",
+      "points": 10,
+      "num_comments": 4,
+      "hn_url": "https://news.ycombinator.com/item?id=48604326"
     },
     {
       "title": "Hide Secrets from AI Agents and NPM install using Airgap",
@@ -43,7 +63,7 @@
       "source": "Hacker News",
       "published": "2026-06-19T20:24:59+00:00",
       "summary_raw": "",
-      "points": 16,
+      "points": 19,
       "num_comments": 1,
       "hn_url": "https://news.ycombinator.com/item?id=48602862"
     },
@@ -53,8 +73,8 @@
       "source": "Hacker News",
       "published": "2026-06-19T19:57:18+00:00",
       "summary_raw": "<a href=\"https:&#x2F;&#x2F;archive.ph&#x2F;z24oE\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.ph&#x2F;z24oE</a>",
-      "points": 94,
-      "num_comments": 85,
+      "points": 114,
+      "num_comments": 99,
       "hn_url": "https://news.ycombinator.com/item?id=48602571"
     },
     {
@@ -63,9 +83,19 @@
       "source": "Hacker News",
       "published": "2026-06-19T18:00:48+00:00",
       "summary_raw": "",
-      "points": 205,
-      "num_comments": 274,
+      "points": 226,
+      "num_comments": 292,
       "hn_url": "https://news.ycombinator.com/item?id=48601286"
+    },
+    {
+      "title": "Ask HN: What is the coolest tech progress outside AI?",
+      "url": "https://news.ycombinator.com/item?id=48601097",
+      "source": "Hacker News",
+      "published": "2026-06-19T17:47:05+00:00",
+      "summary_raw": "AI and agents are taking up most of the oxygen lately.<p>What recent non-AI technology progress are you excited about, and why?",
+      "points": 10,
+      "num_comments": 7,
+      "hn_url": "https://news.ycombinator.com/item?id=48601097"
     },
     {
       "title": "A new bill takes aim at government pressure to silence lawful online speech",
@@ -73,8 +103,8 @@
       "source": "Hacker News",
       "published": "2026-06-19T17:34:28+00:00",
       "summary_raw": "",
-      "points": 251,
-      "num_comments": 121,
+      "points": 283,
+      "num_comments": 125,
       "hn_url": "https://news.ycombinator.com/item?id=48600950"
     },
     {
@@ -93,8 +123,8 @@
       "source": "Hacker News",
       "published": "2026-06-19T16:52:54+00:00",
       "summary_raw": "",
-      "points": 18,
-      "num_comments": 3,
+      "points": 38,
+      "num_comments": 11,
       "hn_url": "https://news.ycombinator.com/item?id=48600531"
     },
     {
@@ -103,8 +133,8 @@
       "source": "Hacker News",
       "published": "2026-06-19T16:04:42+00:00",
       "summary_raw": "",
-      "points": 413,
-      "num_comments": 162,
+      "points": 428,
+      "num_comments": 167,
       "hn_url": "https://news.ycombinator.com/item?id=48600107"
     },
     {
@@ -113,8 +143,8 @@
       "source": "Hacker News",
       "published": "2026-06-19T16:03:15+00:00",
       "summary_raw": "",
-      "points": 485,
-      "num_comments": 336,
+      "points": 719,
+      "num_comments": 496,
       "hn_url": "https://news.ycombinator.com/item?id=48600093"
     },
     {
@@ -123,59 +153,9 @@
       "source": "Hacker News",
       "published": "2026-06-19T13:01:52+00:00",
       "summary_raw": "",
-      "points": 26,
+      "points": 30,
       "num_comments": 8,
       "hn_url": "https://news.ycombinator.com/item?id=48598086"
-    },
-    {
-      "title": "Pentagon used Elon Musk's Grok AI to fire 2k missiles at Iran, official says",
-      "url": "https://www.independent.co.uk/news/world/americas/us-politics/elon-musk-grok-ai-iran-missiles-pentagon-b2997321.html",
-      "source": "Hacker News",
-      "published": "2026-06-19T10:38:36+00:00",
-      "summary_raw": "",
-      "points": 22,
-      "num_comments": 5,
-      "hn_url": "https://news.ycombinator.com/item?id=48597030"
-    },
-    {
-      "title": "Bernie Sanders unveils $7T plan to give Americans control of AI industry",
-      "url": "https://arstechnica.com/tech-policy/2026/06/bernie-sanders-unveils-7-trillion-plan-to-give-americans-control-of-ai-industry/",
-      "source": "Hacker News",
-      "published": "2026-06-19T07:09:29+00:00",
-      "summary_raw": "",
-      "points": 11,
-      "num_comments": 14,
-      "hn_url": "https://news.ycombinator.com/item?id=48595691"
-    },
-    {
-      "title": "Generative AI Is Having Its Herbalife Moment",
-      "url": "https://www.whatwelo.st/p/generative-ai-is-having-its-herbalife",
-      "source": "Hacker News",
-      "published": "2026-06-19T05:37:51+00:00",
-      "summary_raw": "",
-      "points": 67,
-      "num_comments": 61,
-      "hn_url": "https://news.ycombinator.com/item?id=48595144"
-    },
-    {
-      "title": "It Is Trivially Easy to Use Reddit to Manipulate AI Search",
-      "url": "https://www.404media.co/it-is-trivially-easy-to-use-reddit-to-manipulate-ai-search-research-suggests/",
-      "source": "Hacker News",
-      "published": "2026-06-19T05:26:28+00:00",
-      "summary_raw": "",
-      "points": 11,
-      "num_comments": 1,
-      "hn_url": "https://news.ycombinator.com/item?id=48595077"
-    },
-    {
-      "title": "Amazon employees say they're facing termination for backing data center limits",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/952180/amazon-seattle-data-center-moratorium-aecj-disciplinary-action",
-      "source": "Hacker News",
-      "published": "2026-06-19T04:53:37+00:00",
-      "summary_raw": "",
-      "points": 36,
-      "num_comments": 16,
-      "hn_url": "https://news.ycombinator.com/item?id=48594893"
     }
   ]
 }
