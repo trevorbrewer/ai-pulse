@@ -70,7 +70,12 @@ def _fetch_page(endpoint: str, params: dict, page: int) -> dict | None:
             timeout=_FETCH_TIMEOUT,
         )
         resp.raise_for_status()
-        return resp.json()
+        data = resp.json()
+        # Algolia returns HTTP 200 with {"code":N,"message":"..."} on bad filter params
+        if "hits" not in data:
+            logger.error("HN Algolia error (page %d): %s", page, data.get("message", data))
+            return None
+        return data
     except Exception as exc:
         logger.error("HN Algolia request failed (page %d): %s", page, exc)
         return None
@@ -84,16 +89,25 @@ def fetch(config: dict, *, cutoff: datetime | None = None) -> list[dict]:
     if cutoff is None:
         cutoff = datetime.now(timezone.utc) - timedelta(hours=24)
 
-    endpoint = config.get("endpoint", "https://hn.algolia.com/api/v1/search")
+    # search_by_date ranks by recency rather than relevance — correct for a daily digest.
+    # The /search endpoint's relevance ranking interacts badly with numericFilters and
+    # returns far fewer results than expected when combined with a date cutoff.
+    endpoint = config.get("endpoint", "https://hn.algolia.com/api/v1/search_by_date")
     query = config.get("query", "AI")
     min_points = int(config.get("min_points", 0))
     tags = config.get("tags", "story")
 
-    # Push time and points filters to the API so we transfer only relevant hits
+    # `points` is not in hn.algolia.com's numericAttributesForFiltering — using it in
+    # numericFilters returns an HTTP 200 error body with no hits; filter client-side instead.
     cutoff_ts = math.floor(cutoff.timestamp())
     numeric_filters = f"created_at_i>{cutoff_ts}"
-    if min_points:
-        numeric_filters += f",points>={min_points}"
+
+    # ── verbose pre-filter diagnostic ──────────────────────────────────────
+    logger.debug(
+        "HN: cutoff=%s (unix=%d) | query=%r | min_points=%d (client-side) | numericFilters=%r",
+        cutoff.isoformat(), cutoff_ts, query, min_points, numeric_filters,
+    )
+    # ───────────────────────────────────────────────────────────────────────
 
     base_params = {
         "query": query,
@@ -113,11 +127,29 @@ def fetch(config: dict, *, cutoff: datetime | None = None) -> list[dict]:
         hits = data.get("hits", [])
         nb_pages = data.get("nbPages", 1)
 
+        # ── verbose per-hit diagnostic ──────────────────────────────────────
+        logger.debug(
+            "HN page %d: HTTP OK | total_hits=%d | nb_pages=%d | hits_this_page=%d",
+            page, data.get("nbHits", "?"), nb_pages, len(hits),
+        )
+        if logger.isEnabledFor(logging.DEBUG):
+            for hit in hits:
+                logger.debug(
+                    "  pts=%-4s  created=%s  %r",
+                    hit.get("points", "?"),
+                    hit.get("created_at", "?"),
+                    (hit.get("title") or "")[:70],
+                )
+        # ───────────────────────────────────────────────────────────────────
+
         for hit in hits:
             oid = hit.get("objectID", "")
             if oid in seen_ids:
                 continue
             seen_ids.add(oid)
+            if min_points and (hit.get("points") or 0) < min_points:
+                logger.debug("  [SKIP pts=%s < %d] %r", hit.get("points"), min_points, (hit.get("title") or "")[:60])
+                continue
             items.append(_normalize(hit))
 
         logger.info(

@@ -95,6 +95,25 @@ def fetch(config: dict, *, cutoff: datetime | None = None) -> list[dict]:
             logger.warning("Malformed arXiv response: %s", feed.bozo_exception)
             return []
 
+        # ── verbose pre-filter diagnostic ──────────────────────────────────
+        http_status = getattr(feed, "status", "n/a")
+        logger.debug(
+            "arXiv: HTTP %s | bozo=%s | entries_before_filter=%d | cutoff=%s",
+            http_status, feed.bozo, len(feed.entries), cutoff.isoformat(),
+        )
+        if logger.isEnabledFor(logging.DEBUG):
+            now = datetime.now(timezone.utc)
+            for e in feed.entries:
+                pub = _parse_published(e)
+                title_snip = getattr(e, "title", "").replace("\n", " ")[:70]
+                if pub is None:
+                    logger.debug("  [KEEP no-date] pub=None | %r", title_snip)
+                else:
+                    age_h = (now - pub).total_seconds() / 3600
+                    verdict = "KEEP" if pub >= cutoff else "SKIP"
+                    logger.debug("  [%s] pub=%s  age=%.1fh | %r", verdict, pub.isoformat(), age_h, title_snip)
+        # ───────────────────────────────────────────────────────────────────
+
         items = []
         seen_urls: set[str] = set()
         for entry in feed.entries:

@@ -1,18 +1,19 @@
 blogs:
-  - name: a16z
-    url: https://a16z.com/feed/
-    tags: [vc, industry]
+  # a16z: feed at a16z.com/feed/ returns invalid XML (404); no working alternative found
+  # - name: a16z
+  #   url: https://a16z.com/feed/
 
-  - name: Anthropic News
-    url: https://www.anthropic.com/news/rss.xml
-    tags: [research, safety]
+  # Anthropic News: no RSS/Atom feed exists (Next.js site); follow via Twitter instead
+  # - name: Anthropic News
+  #   url: https://www.anthropic.com/news/rss.xml
 
   - name: OpenAI Blog
     url: https://openai.com/blog/rss.xml
     tags: [research, industry]
 
+  # Updated from blog.research.google (stale since 2024) to the live Google blog AI feed
   - name: Google AI Blog
-    url: https://blog.research.google/feeds/posts/default?alt=rss
+    url: https://blog.google/technology/ai/rss/
     tags: [research, industry]
 
   - name: Simon Willison
@@ -38,12 +39,22 @@ arxiv:
   max_results: 50
 
 hackernews:
-  endpoint: https://hn.algolia.com/api/v1/search
-  query: AI OR "machine learning" OR LLM
-  min_points: 50
+  # search_by_date ranks by recency; /search ranks by relevance and under-returns with date filters.
+  # Algolia on hn.algolia.com treats OR as a literal word — use a single keyword, not boolean syntax.
+  # "AI" is broad enough to catch AI/ML stories; Claude's summarise step filters out noise.
+  endpoint: https://hn.algolia.com/api/v1/search_by_date
+  query: AI
+  # min_points applied client-side (points is not in numericAttributesForFiltering on this index)
+  # 10 is realistic for stories that are only a few hours old at 11:00 UTC cron time
+  min_points: 10
   tags: story
 
 people:
+  - name: Anthropic
+    twitter: AnthropicAI
+    # No RSS feed exists; fall back to scraping the news index when nitter is unavailable
+    news_url: https://www.anthropic.com/news
+
   - name: Andrej Karpathy
     blog_rss: https://karpathy.github.io/feed.xml
     twitter: karpathy

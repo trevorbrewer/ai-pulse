@@ -18,7 +18,9 @@ from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
 import feedparser
+import requests
 import yaml
+from bs4 import BeautifulSoup
 
 logger = logging.getLogger(__name__)
 
@@ -139,6 +141,85 @@ def _fetch_blog_fallback(person_name: str, blog_url: str, cutoff: datetime) -> l
     return items
 
 
+# ── HTML news scraper fallback ───────────────────────────────────────────────
+
+_SCRAPE_TIMEOUT = 15
+_MONTH_FMT = "%b %d, %Y"    # "Jun 17, 2026"
+
+
+def _fetch_html_news(person_name: str, url: str, cutoff: datetime) -> list[dict]:
+    """Scrape an HTML news index page as a last-resort fallback when nitter fails.
+
+    Understands the anthropic.com/news layout (FeaturedGrid and PublicationList
+    components), but degrades gracefully on any other structure: it looks for
+    <a href> tags containing a <time> element and either a heading or a <span>
+    whose class includes the word "title".  Unknown layouts produce an empty list.
+    Never raises.
+    """
+    try:
+        resp = requests.get(
+            url,
+            headers={"User-Agent": "Mozilla/5.0 (compatible; ai-pulse/1.0)"},
+            timeout=_SCRAPE_TIMEOUT,
+        )
+        resp.raise_for_status()
+        soup = BeautifulSoup(resp.text, "html.parser")
+
+        seen_urls: set[str] = set()
+        items: list[dict] = []
+
+        for a in soup.find_all("a", href=re.compile(r"^/news/")):
+            # ── date ──────────────────────────────────────────────────────────
+            time_el = a.find("time")
+            pub: datetime | None = None
+            if time_el:
+                try:
+                    pub = datetime.strptime(
+                        time_el.get_text(strip=True), _MONTH_FMT
+                    ).replace(tzinfo=timezone.utc)
+                except ValueError:
+                    pass
+
+            if pub is not None and pub < cutoff:
+                continue
+
+            # ── title ─────────────────────────────────────────────────────────
+            heading = a.find(["h2", "h3", "h4", "h5", "h6"])
+            if heading:
+                title = heading.get_text(strip=True)
+            else:
+                # PublicationList pattern: title is the last <span> inside the anchor
+                # (preceded by a category <span> and a <time>)
+                spans = a.find_all("span", recursive=True)
+                title = spans[-1].get_text(strip=True) if spans else ""
+
+            if not title:
+                continue
+
+            full_url = f"https://www.anthropic.com{a['href']}"
+            if full_url in seen_urls:
+                continue
+            seen_urls.add(full_url)
+
+            items.append({
+                "title": title,
+                "url": full_url,
+                "source": f"Anthropic News",
+                "published": pub.isoformat() if pub else None,
+                "summary_raw": "",
+                "person": person_name,
+            })
+
+        logger.info(
+            "%s HTML scrape (%s): %d item(s) in last 24 h", person_name, url, len(items)
+        )
+        return items
+
+    except Exception as exc:
+        logger.warning("HTML news scrape failed for %s (%s): %s", person_name, url, exc)
+        return []
+
+
 # ── public API ───────────────────────────────────────────────────────────────
 
 def fetch(people: list[dict], instances: list[str], *, cutoff: datetime | None = None) -> list[dict]:
@@ -159,9 +240,13 @@ def fetch(people: list[dict], instances: list[str], *, cutoff: datetime | None =
             nitter_items = _fetch_nitter(handle, name, instances, cutoff)
 
             if nitter_items is None:
+                news_url = (person.get("news_url") or "").strip()
+                has_fallback = bool(news_url or blog_url)
                 logger.warning("All Nitter instances failed for @%s%s",
-                               handle, "; trying blog fallback" if blog_url else "")
-                if blog_url:
+                               handle, "; trying fallback" if has_fallback else "")
+                if news_url:
+                    results.extend(_fetch_html_news(name, news_url, cutoff))
+                elif blog_url:
                     results.extend(_fetch_blog_fallback(name, blog_url, cutoff))
             else:
                 results.extend(nitter_items)
