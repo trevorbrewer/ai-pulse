@@ -1,0 +1,21 @@
+{
+  "date": "2026-06-20",
+  "generated_at": "2026-06-20T02:11:12.637287+00:00",
+  "source_counts": {
+    "rss_feeds": 1,
+    "arxiv": 0,
+    "hackernews": 0,
+    "nitter": 0,
+    "total_raw": 1,
+    "total_deduped": 1
+  },
+  "items": [
+    {
+      "title": "Quoting Sean Lynch",
+      "url": "https://simonwillison.net/2026/Jun/19/sean-lynch/#atom-everything",
+      "source": "Simon Willison",
+      "published": "2026-06-19T22:45:49+00:00",
+      "summary_raw": "The real valuable capability MCP offers over skills/CLI is isolating the auth flow outside of the agent\u2019s context window, and potentially out of the harness completely. [...]\nMaybe the idealized form of MCP is just an auth gateway for the API and nothing else. That\u2019d still be a win.\n&mdash; Sean Lynch, comment on Hacker News\n\n    Tags: model-context-protocol, llms, ai, generative-ai, skills"
+    }
+  ]
+}
