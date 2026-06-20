@@ -1,12 +1,12 @@
 [
   {
-    "theme": "AI Tools & Protocols",
+    "theme": "AI Tooling & Infrastructure",
     "stories": [
       {
         "title": "Quoting Sean Lynch",
         "url": "https://simonwillison.net/2026/Jun/19/sean-lynch/#atom-everything",
         "source": "Simon Willison",
-        "paragraph": "Simon Willison highlighted a Hacker News comment by Sean Lynch arguing that the most meaningful advantage of the Model Context Protocol (MCP) over traditional skills or CLI integrations is its ability to isolate authentication flows outside of an agent's context window. Lynch suggests that keeping auth out of the context window reduces complexity and potential exposure, and that even a stripped-down version of MCP functioning solely as an auth gateway for an API would represent a net improvement. The observation reframes MCP's value proposition away from broad tool-calling capabilities and toward a narrower, security-oriented use case."
+        "paragraph": "Simon Willison highlighted a Hacker News comment from Sean Lynch arguing that the most practical value of the Model Context Protocol (MCP) is its ability to isolate authentication flows outside an agent's context window, and potentially outside the execution harness entirely. Lynch suggests that even a stripped-down version of MCP functioning solely as an auth gateway for APIs would represent a net improvement over current approaches. The observation reframes MCP's significance away from broad tool-integration narratives and toward a narrower, more concrete problem: keeping credentials and auth state out of the token stream that language models process."
       }
     ]
   }
