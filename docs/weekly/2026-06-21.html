@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Pulse — Week ending Sunday, June 21, 2026</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>AI Pulse</h1>
+      <nav><a href="../index.html">← All digests</a></nav>
+    </header>
+
+    <main>
+      <h1 class="page-title">Week ending Sunday, June 21, 2026</h1>
+      
+      <p class="days-covered">
+        2 days:
+        2026-06-20 · 2026-06-21
+      </p>
+      
+
+      
+      <section>
+        <h2>This week's themes</h2>
+        
+        <div class="theme-block">
+          <h3>AI Cost Discipline and Pricing Friction</h3>
+          <p>A recurring pattern this week involves the economic reality of deploying AI at scale pushing back against earlier assumptions of frictionless adoption. Anthropic's decision to pause token-based billing for its Claude Agent SDK signals that per-token pricing models do not map cleanly onto multi-step agentic workflows, where token consumption is difficult to predict or bound. The Financial Times report on companies scaling back AI deployments reinforces that budget overruns are becoming a practical constraint, not just a theoretical concern. Together, these developments suggest the industry is entering a cost-discipline phase where the unit economics of AI deployment are being scrutinized more carefully than in earlier adoption cycles.</p>
+          
+          <ul class="key-stories">
+            
+            <li><a href="https://arstechnica.com/ai/2026/06/anthropic-pauses-token-based-billing-for-its-claude-agent-sdk/">Anthropic pauses token-based billing for its Claude Agent SDK</a></li>
+            
+            <li><a href="https://www.ft.com/content/1d37cc08-e0aa-45a4-a45d-4ad282529314">Companies rein in AI usage as costs strain budgets</a></li>
+            
+          </ul>
+          
+        </div>
+        
+        <div class="theme-block">
+          <h3>Agentic AI Architecture and Reliability in Production</h3>
+          <p>Several pieces this week addressed the practical engineering challenges of building agentic systems that behave predictably outside controlled environments. The Bayer engineering article on Martin Fowler's site provided detailed patterns for error handling, retries, and observability in multi-agent LLM pipelines, grounding the discussion in production experience rather than speculation. The MCP-focused commentary from Sean Lynch, highlighted by Simon Willison, reframed the protocol's core value as authentication isolation rather than general tool integration — a narrower but more defensible claim. The release of Persona.js with native WebMCP support adds a concrete tooling artifact to this space, suggesting the agent interface layer is beginning to stabilize around emerging protocols.</p>
+          
+          <ul class="key-stories">
+            
+            <li><a href="https://martinfowler.com/articles/reliable-llm-bayer.html">Building reliable agentic AI systems</a></li>
+            
+            <li><a href="https://simonwillison.net/2026/Jun/19/sean-lynch/#atom-everything">Quoting Sean Lynch (on MCP and authentication isolation)</a></li>
+            
+            <li><a href="https://www.persona-chat.dev/">Show HN: Persona.js – a vanilla-JS agent UI library with native WebMCP (MIT)</a></li>
+            
+          </ul>
+          
+        </div>
+        
+        <div class="theme-block">
+          <h3>Skill Atrophy, Professional Disclosure, and the Human Cost of AI Assistance</h3>
+          <p>A cluster of stories this week examined what happens to human capability and professional identity as AI tools become embedded in daily work. The Nature survey of early empirical research found measurable skill atrophy in writing, coding, and navigation tasks among participants who relied on AI assistance, providing preliminary quantitative grounding for a concern that has previously been largely anecdotal. James Bach's argument about the reputational risk of disclosing AI use in professional writing adds a social dimension: practitioners may face disincentives to transparency even when their output is high quality. Vini Brasil's post on rejecting AI-generated code that technically works extends this to code review, suggesting that correctness alone is an insufficient standard for professional output and that maintaining human judgment in the loop has ongoing costs worth paying.</p>
+          
+          <ul class="key-stories">
+            
+            <li><a href="https://www.nature.com/articles/d41586-026-01947-1">Is AI ruining our skills? Early results are in – and they're not good</a></li>
+            
+            <li><a href="https://www.satisfice.com/blog/archives/488148">Public Service Announcement: Don't Say You Use AI for Writing</a></li>
+            
+            <li><a href="https://vinibrasil.com/when-i-reject-ai-code-even-if-it-works/">When I reject AI code even if it works</a></li>
+            
+          </ul>
+          
+        </div>
+        
+        <div class="theme-block">
+          <h3>AI Security Tooling and Offensive Capability Debates</h3>
+          <p>The security domain produced several noteworthy developments this week spanning both defensive and offensive applications. Aikido Security's Code Audit feature represents an attempt to move AI-assisted vulnerability detection beyond single-line static analysis toward multi-step attack path tracing, addressing a longstanding false-positive problem. Greg Kroah-Hartman's endorsement of AI-generated bug reports as now genuinely useful for the Linux kernel marks a meaningful shift in community reception of AI security contributions. Argus Red's release of a post-trained penetration testing model explicitly designed to perform offensive tasks rather than refuse them opens a substantive debate about whether AI safety restrictions on offensive security tooling help or harm the practitioner community that depends on such tools.</p>
+          
+          <ul class="key-stories">
+            
+            <li><a href="https://www.aikido.dev/blog/introducing-code-audit-find-complex-vulnerabilities-hidden-in-your-codebase">Aikido Code Audit: Find Complex Vulnerabilities Hidden in Your Codebase</a></li>
+            
+            <li><a href="https://www.theregister.com/software/2026/03/26/linux-kernel-czar-says-ai-bug-reports-arent-slop-anymore/5226256">Linux Maintainer Greg Kroah-Hartman Says AI Tools Now Useful, Finding Real Bugs</a></li>
+            
+            <li><a href="https://www.argusred.com/cli">Show HN: We post-trained a model that pen tests instead of refusing</a></li>
+            
+          </ul>
+          
+        </div>
+        
+      </section>
+      
+
+      
+      <section>
+        <h2>Build something</h2>
+        <div class="card">
+          <h3>Minimal Agentic Pipeline with Explicit Error Handling and Observability</h3>
+          <p>Build a small multi-step agentic workflow using the OpenAI Assistants API or Anthropic's Claude API (free tier) that completes a realistic task — such as fetching a GitHub issue, summarizing it, and drafting a response — with explicit retry logic, structured logging of each tool call and its outcome, and a simple dashboard (a local HTML file or terminal output) that shows the agent's decision trace. The goal is to practice the reliability patterns described in the Bayer article: making failures visible, recoverable, and auditable rather than silently swallowed.</p>
+          <p class="meta-line"><strong>Time:</strong> a weekend
+             &nbsp;·&nbsp; <strong>Theme:</strong> Agentic AI Architecture and Reliability in Production
+          </p>
+          
+          <ul class="skill-tags">
+            
+            <li>LLM API tool-use and function calling</li>
+            
+            <li>Retry logic and exponential backoff implementation</li>
+            
+            <li>Structured logging and observability for agent steps</li>
+            
+            <li>Prompt design for multi-step task decomposition</li>
+            
+            <li>Error classification (recoverable vs. terminal failures)</li>
+            
+          </ul>
+          
+        </div>
+      </section>
+      
+
+      
+      <section>
+        <h2>Worth thinking about</h2>
+        <div class="card">
+          <p class="discussion-q">When an agentic system fails partway through a multi-step task, how should the system decide whether to retry from the last successful checkpoint, restart from the beginning, or surface the failure to a human — and what information would need to be captured at runtime to make that decision reliably?</p>
+          <p>Token-based billing pauses and production reliability articles both point to the same underlying problem: agentic workflows are stateful in ways that make failure recovery genuinely hard to design, and the cost of getting it wrong compounds across steps.</p>
+        </div>
+      </section>
+      
+    </main>
+
+    <footer>Generated 2026-06-21 15:12 UTC</footer>
+  </div>
+</body>
+</html>
