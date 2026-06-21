@@ -1,0 +1,94 @@
+{
+  "date": "2026-06-21",
+  "generated_at": "2026-06-21T13:03:51.304343+00:00",
+  "source_counts": {
+    "rss_feeds": 0,
+    "arxiv": 0,
+    "hackernews": 8,
+    "nitter": 0,
+    "total_raw": 8,
+    "total_deduped": 8
+  },
+  "items": [
+    {
+      "title": "The 100k Whys of AI",
+      "url": "https://lcamtuf.substack.com/p/the-100000-whys-of-ai",
+      "source": "Hacker News",
+      "published": "2026-06-21T05:45:21+00:00",
+      "summary_raw": "",
+      "points": 121,
+      "num_comments": 68,
+      "hn_url": "https://news.ycombinator.com/item?id=48616017"
+    },
+    {
+      "title": "Public Service Announcement: Don't Say You Use AI for Writing",
+      "url": "https://www.satisfice.com/blog/archives/488148",
+      "source": "Hacker News",
+      "published": "2026-06-21T04:50:46+00:00",
+      "summary_raw": "",
+      "points": 38,
+      "num_comments": 46,
+      "hn_url": "https://news.ycombinator.com/item?id=48615776"
+    },
+    {
+      "title": "Building reliable agentic AI systems",
+      "url": "https://martinfowler.com/articles/reliable-llm-bayer.html",
+      "source": "Hacker News",
+      "published": "2026-06-21T04:28:39+00:00",
+      "summary_raw": "",
+      "points": 116,
+      "num_comments": 26,
+      "hn_url": "https://news.ycombinator.com/item?id=48615680"
+    },
+    {
+      "title": "When I reject AI code even if it works",
+      "url": "https://vinibrasil.com/when-i-reject-ai-code-even-if-it-works/",
+      "source": "Hacker News",
+      "published": "2026-06-21T00:58:13+00:00",
+      "summary_raw": "",
+      "points": 199,
+      "num_comments": 130,
+      "hn_url": "https://news.ycombinator.com/item?id=48614631"
+    },
+    {
+      "title": "Why Amazon hates 'human-in-the-loop' AI governance",
+      "url": "https://www.theregister.com/security/2026/06/20/why-amazon-hates-human-in-the-loop-ai-governance/5258639",
+      "source": "Hacker News",
+      "published": "2026-06-20T22:48:40+00:00",
+      "summary_raw": "",
+      "points": 10,
+      "num_comments": 1,
+      "hn_url": "https://news.ycombinator.com/item?id=48613719"
+    },
+    {
+      "title": "Show HN: Persona.js \u2013 a vanilla-JS agent UI library with native WebMCP (MIT)",
+      "url": "https://www.persona-chat.dev/",
+      "source": "Hacker News",
+      "published": "2026-06-20T19:32:56+00:00",
+      "summary_raw": "Hey everyone. My cofounder and I are formally open sourcing (MIT) persona.js. It&#x27;s a VanillaJS library that helps anyone build agentic experiences on the web, without a framework dependency, and full WebMCP support<p>So, why&#x27;d we do this?<p>1) We&#x27;re super fans of the web and the browser can do a ton today<p>2) We&#x27;ve seen AI builds be way overly complex because the FE requires a large project within an existing app OR the site wasn&#x27;t using a framework to begin with<p>If you&#x27;ve been a part of huge apps with multiple frameworks inside them, or work inside CMS &#x2F; website builders &#x2F; ecomm platforms... you know what we&#x27;re talking about. A &quot;simple&quot; AI feature disrupts your life for months<p>If you have a singular React codebase and can&#x27;t possibly imagine building an interface without JSX, nothing to see here! You already have a lot of great options that are really cool too. Check out Assistant UI &#x2F; CopilotKit &#x2F; AI Elements which are all MIT<p>----<p>Some specifics:<p>Persona has a ~15 kB brotli to first paint (the full widget lazy-loads on first click) while being able to render most of the primary agent experiences you see on the web: from &#x27;Fin&#x27; (pill launcher) to &#x27;Claude&#x27; (fullscreen assistant) to &#x27;Shopify Sidekick&#x27; (docked)<p>You can run it in Shadow DOM isolated mode so existing styles play nice<p>Everything has hooks and events, so you can add unique flavor (and easily share back!) in a few lines<p>We have a ton of demos on the library site, along with all the knobs to play with how each aspect renders. Tool and reasoning, custom loading animations, voice, approval UX, etc<p>We&#x27;ve also added a ton of examples across agent and frontend stacks<p>Check out the code @ <a href=\"https:&#x2F;&#x2F;github.com&#x2F;runtypelabs&#x2F;persona\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;runtypelabs&#x2F;persona</a><p>Feedback and contributions welcome!",
+      "points": 11,
+      "num_comments": 13,
+      "hn_url": "https://news.ycombinator.com/item?id=48612231"
+    },
+    {
+      "title": "The frontier is open-source today",
+      "url": "https://www.southbridge.ai/blog/offmute-v2-glm-vs-opus",
+      "source": "Hacker News",
+      "published": "2026-06-20T16:52:24+00:00",
+      "summary_raw": "",
+      "points": 23,
+      "num_comments": 12,
+      "hn_url": "https://news.ycombinator.com/item?id=48610739"
+    },
+    {
+      "title": "Show HN: We post-trained a model that pen tests instead of refusing",
+      "url": "https://www.argusred.com/cli",
+      "source": "Hacker News",
+      "published": "2026-06-20T13:49:03+00:00",
+      "summary_raw": "Anthropic and OpenAI&#x27;s publicly available models are explicitly guard-railed so that they refuse offensive tasks. And their cyber-focussed models are gated for enterprises. This leaves SMEs and mid market open to major vulnerabilities.<p>AI can be used as both an adversarial and defensive tool in the world of cyber. A worst case outcome is if only the adversaries have access.<p>Meanwhile, most existing AI cyber tools are just wrappers. The problem is that they still have all the guardrails on from the foundation model where they will inherit its refusals.<p>For this project we&#x27;ve post-trained a specific model on a decade of capture-the-flag contests. This won&#x27;t be made available to anyone and everyone, but we do believe that responsible SMEs and midmarket companies also need access to these tools in order to identify key vulnerabilities in their systems; not just enterprises.<p>We have developed two modes that run over a CLI:<p>\u2022 Security scan: a read-only audit of your local codebase for vulnerabilities. It only reports what it can tie to a specific file and line, so you&#x27;re not wading through vibes-based findings.<p>\u2022 Pen test: an active adversarial mode that will try to break a live system in a sandboxed environment. It proves each vulnerability by running the exploit and showing the request it sent and the response your code gave back, not a confidence score. Currently gated.<p>To show what the scan does, we pointed it at Bank of Anthos and it found an integer overflow in the transfer path: amount is an int, and amount + fee can overflow negative, so the balance check passes and you move funds you don&#x27;t have. Plus the usual auth and secrets issues. (Bank of Anthos is Google&#x27;s open-source bank. It&#x27;s a known app and some of it is intentionally weak, which is the point: you can clone it and re-run the scan yourself instead of trusting a screenshot)<p>The base model is a Kimi K2.6 (open weights). We didn&#x27;t pretrain from scratch. We post-trained it ourselves, SFT on CTF writeups, then RL with verifiable rewards against actual exploit checks.<p>How the harness works:<p>Along with the model we built the harness to support this. The harness runs on a multi-agent swarm: an orchestrator splits the job across subagents running in parallel, each owning a slice, then synthesising one report.<p>The CLI is a local binary (brew&#x2F;curl). It reads your code locally, then sends context to our inference API over TLS tcpdump it and you&#x27;ll see exactly what leaves and where. Install is free; and you can run a scan for free up to 2m tokens, then need to pay for tokens beyond this.<p>For full disclosure this is a product part of Cosine (YC W23)<p>Up for debate: tool safety, e.g. domain verification is one method that proves control but not necessarily permission. How would you gate a pen-test tool given that?",
+      "points": 84,
+      "num_comments": 37,
+      "hn_url": "https://news.ycombinator.com/item?id=48609231"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+[
+  {
+    "theme": "AI in Practice: Code, Writing, and Workflow",
+    "stories": [
+      {
+        "title": "Public Service Announcement: Don't Say You Use AI for Writing",
+        "url": "https://www.satisfice.com/blog/archives/488148",
+        "source": "Hacker News",
+        "paragraph": "Testing consultant James Bach argues that disclosing AI use in professional writing carries significant reputational risk, even when the output is accurate and well-edited. His core claim is that readers interpret AI-assisted writing as a signal of reduced intellectual ownership and care, regardless of the actual quality. The post draws a distinction between using AI as a research or drafting tool privately versus publicly labeling the result, suggesting the disclosure itself changes how the work is evaluated."
+      },
+      {
+        "title": "When I reject AI code even if it works",
+        "url": "https://vinibrasil.com/when-i-reject-ai-code-even-if-it-works/",
+        "source": "Hacker News",
+        "paragraph": "Software engineer Vini Brasil describes criteria for rejecting AI-generated code during code review even when it produces correct output, focusing on maintainability, readability, and conceptual fit with the existing codebase. The post highlights that working code is a necessary but not sufficient condition for acceptance, and that AI tools tend to produce verbose or idiomatically foreign solutions that accumulate technical debt. This perspective is notable because it frames AI code review not as a question of correctness but of long-term engineering cost."
+      },
+      {
+        "title": "The 100k Whys of AI",
+        "url": "https://lcamtuf.substack.com/p/the-100000-whys-of-ai",
+        "source": "Hacker News",
+        "paragraph": "Security researcher Michal Zalewski reflects on the practical limits of asking AI systems explanatory questions, noting that while models can answer many individual \"why\" questions correctly, their responses break down at depth and across long chains of reasoning. The essay uses the metaphor of a 100,000-question deep inquiry to illustrate how surface-level competence diverges from genuine causal understanding. The piece is notable for its focus on the epistemological gap between fluent explanation and actual comprehension in current large language models."
+      }
+    ]
+  },
+  {
+    "theme": "Agentic AI Systems and Tooling",
+    "stories": [
+      {
+        "title": "Building reliable agentic AI systems",
+        "url": "https://martinfowler.com/articles/reliable-llm-bayer.html",
+        "source": "Hacker News",
+        "paragraph": "Published on Martin Fowler's site, this article by engineers at Bayer details practical patterns for building agentic LLM systems that behave reliably in production, with a focus on error handling, retries, and observability. The authors describe a multi-agent architecture used internally at Bayer and discuss how non-determinism in LLM outputs requires different reliability strategies than traditional software. Concrete techniques covered include structured output validation, fallback chains, and logging intermediate reasoning steps to diagnose failures."
+      },
+      {
+        "title": "Show HN: Persona.js – a vanilla-JS agent UI library with native WebMCP (MIT)",
+        "url": "https://www.persona-chat.dev/",
+        "source": "Hacker News",
+        "paragraph": "Two cofounders have open-sourced Persona.js under the MIT license, a vanilla JavaScript library for building agentic web interfaces without requiring a frontend framework such as React or Vue. The library includes native support for WebMCP, a protocol for connecting web interfaces to AI agents, and is designed to reduce the complexity that has characterized many AI frontend builds. The framework-free approach is intended to lower the barrier for developers who want agentic UI components without adopting a full framework stack."
+      }
+    ]
+  },
+  {
+    "theme": "AI Governance and Safety",
+    "stories": [
+      {
+        "title": "Why Amazon hates 'human-in-the-loop' AI governance",
+        "url": "https://www.theregister.com/security/2026/06/20/why-amazon-hates-human-in-the-loop-ai-governance/5258639",
+        "source": "Hacker News",
+        "paragraph": "The Register reports that Amazon has publicly criticized human-in-the-loop requirements in AI governance frameworks, arguing that mandatory human review of every AI decision does not scale and can create a false sense of oversight without improving outcomes. Amazon's position, articulated in policy discussions, is that governance should instead focus on pre-deployment testing and post-deployment monitoring rather than per-decision human checkpoints. The stance is notable because it runs counter to guidance from several regulatory bodies in the EU and US that have emphasized human oversight as a core safety mechanism."
+      }
+    ]
+  },
+  {
+    "theme": "Model Releases and Open-Source Research",
+    "stories": [
+      {
+        "title": "The frontier is open-source today",
+        "url": "https://www.southbridge.ai/blog/offmute-v2-glm-vs-opus",
+        "source": "Hacker News",
+        "paragraph": "Southbridge AI published a comparison between GLM, an open-source model from Zhipu AI, and Anthropic's Claude Opus on the Offmute v2 transcription and meeting-analysis task. The post argues that as of this evaluation, the open-source GLM model matched or exceeded Opus on several metrics relevant to audio and transcript processing, a domain where closed frontier models have historically held a clear lead. The comparison is framed as evidence that the performance gap between open and closed models has narrowed enough to make open-source viable for production use cases previously reserved for frontier APIs."
+      },
+      {
+        "title": "Show HN: We post-trained a model that pen tests instead of refusing",
+        "url": "https://www.argusred.com/cli",
+        "source": "Hacker News",
+        "paragraph": "Argus Red has released a command-line tool built on a post-trained model designed to perform offensive cybersecurity tasks, specifically penetration testing, rather than refusing them as general-purpose models from Anthropic and OpenAI typically do. The team argues that restricting offensive AI capabilities to enterprise-gated products leaves small and medium-sized businesses unable to assess their own vulnerabilities, while adversaries face no such restrictions. The model was post-trained rather than fine-tuned from scratch, and is positioned as a defensive tool for security practitioners who need to simulate real attacks on their own infrastructure."
+      }
+    ]
+  }
+]
