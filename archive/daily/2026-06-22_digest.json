@@ -1,0 +1,153 @@
+[
+  {
+    "theme": "Industry News",
+    "stories": [
+      {
+        "title": "Samsung Electronics brings ChatGPT and Codex to employees",
+        "url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
+        "source": "OpenAI Blog",
+        "paragraph": "Samsung Electronics has deployed ChatGPT Enterprise and Codex to employees across its global workforce, in what OpenAI describes as one of its largest enterprise rollouts to date. The deployment gives Samsung staff access to both conversational AI and code-generation capabilities under OpenAI's enterprise data-privacy terms. The move follows Samsung's earlier public ban on generative AI tools after a source-code leak incident in 2023, making the formal enterprise agreement a notable shift in the company's internal policy stance."
+      },
+      {
+        "title": "Secretive Wall Street Powerhouse Jane Street Seizes AI Spotlight",
+        "url": "https://www.wsj.com/tech/ai/jane-street-ai-wall-street-bdfcc81a",
+        "source": "Hacker News",
+        "paragraph": "Jane Street, the high-frequency trading firm long known for its preference for secrecy, is drawing attention for its expanding use of AI in trading and research operations. The Wall Street Journal reports that the firm has been integrating machine-learning systems more visibly into its workflow, a departure from the tight-lipped culture it has historically maintained. Jane Street's revenues have grown substantially in recent years, and its AI investments are increasingly being cited alongside those of major technology companies."
+      },
+      {
+        "title": "The anatomy of an AI-native org",
+        "url": "https://ajeygore.in/content/the-anatomy-of-an-ai-native-org",
+        "source": "Hacker News",
+        "paragraph": "A practitioner essay by Ajey Gore outlines what distinguishes an AI-native organization from one that has merely added AI tools on top of existing processes. The piece argues that AI-native orgs restructure decision-making, hiring, and product cycles around model capabilities rather than retrofitting them, pointing to reduced headcount per unit of output as a measurable marker. The analysis is notable because it frames organizational design choices rather than technical ones as the primary differentiator."
+      },
+      {
+        "title": "The early hiring funnel is now breaking on both ends",
+        "url": "https://hbr.org/2026/06/ai-has-broken-hiring-heres-how-to-fix-it",
+        "source": "Hacker News",
+        "paragraph": "A Harvard Business Review piece describes how AI tools are simultaneously enabling candidates to mass-apply and auto-generate application materials while recruiters use AI screening to filter at scale, creating a dynamic where neither side is engaging meaningfully with the other. The article cites data showing application volumes at some companies have increased several-fold without a corresponding rise in qualified-candidate conversions. The authors suggest structured work-sample assessments and staged human review as correctives."
+      }
+    ]
+  },
+  {
+    "theme": "AI Policy & Regulation",
+    "stories": [
+      {
+        "title": "Bill that would mandate AI chip location tracking gains industry support",
+        "url": "https://www.nbcnews.com/tech/tech-news/chips-security-act-gains-industry-support-letter-rcna350500",
+        "source": "Hacker News",
+        "paragraph": "The Chips Security Act, which would require location-tracking mechanisms on advanced AI chips to prevent diversion to restricted countries, has received a letter of support from several technology industry players. The bill targets chips subject to U.S. export controls, particularly those bound for entities that could transfer them to China or other restricted destinations. Industry backing is notable because chip-makers have historically resisted hardware-level tracking mandates, citing implementation costs and privacy concerns."
+      },
+      {
+        "title": "New Super Pac Aims to Rally Tech Workers to Help Limit A.I",
+        "url": "https://www.nytimes.com/2026/06/18/technology/ai-super-pac-guardrails-alliance.html",
+        "source": "Hacker News",
+        "paragraph": "A new political action committee called the Guardrails Alliance is organizing tech workers to lobby for legislation that would impose restrictions on the development and deployment of AI systems. The group is using the super PAC structure to fund political advertising and candidate support, targeting races where AI regulation is a live legislative issue. The effort reflects a growing organized faction within the technology industry that is in tension with companies like Google, Meta, and OpenAI that have lobbied against broad AI restrictions."
+      },
+      {
+        "title": "Tech Workers Are Fighting Against Silicon Valley's AI Push",
+        "url": "https://www.techpolicy.press/tech-workers-are-fighting-against-silicon-valleys-ai-push/",
+        "source": "Hacker News",
+        "paragraph": "Tech Policy Press profiles a coalition of engineers, researchers, and product managers who are publicly dissenting from their employers' positions on AI development pace and governance. The piece documents specific instances of workers signing open letters, testifying before legislatures, and in some cases leaving jobs over disagreements about safety practices. The article notes that the dissent is concentrated among employees at larger AI-focused firms rather than at traditional enterprise software companies."
+      },
+      {
+        "title": "Data centers become the face of AI backlash",
+        "url": "https://www.axios.com/2026/06/22/ai-data-center-backlash-poll",
+        "source": "Hacker News",
+        "paragraph": "An Axios poll finds that public opposition to new data center construction has grown, with respondents citing concerns about water consumption, electricity demand, and local land use as primary objections. The survey shows that a majority of respondents in communities near proposed data center sites oppose new builds, even when economic benefits such as jobs and tax revenue are presented. The findings are significant for AI infrastructure expansion plans because most major model training and inference facilities require large new data center campuses."
+      }
+    ]
+  },
+  {
+    "theme": "Safety Research",
+    "stories": [
+      {
+        "title": "Securing the Future of AI Agents",
+        "url": "https://deepmind.google/blog/securing-the-future-of-ai-agents/",
+        "source": "Hacker News",
+        "paragraph": "Google DeepMind published a technical blog post outlining its framework for securing AI agents that operate with tool access and multi-step autonomy. The post identifies prompt injection, credential misuse, and unintended side-effects as the three primary threat categories for agentic systems. DeepMind describes a set of mitigations including constrained action spaces, human-in-the-loop checkpoints, and sandboxed execution environments, framing these as engineering requirements rather than optional safety additions."
+      },
+      {
+        "title": "Nvidia Halos",
+        "url": "https://www.nvidia.com/en-us/ai-trust-center/halos/autonomous-vehicles/",
+        "source": "Hacker News",
+        "paragraph": "Nvidia has published details on Halos, its safety system architecture designed specifically for autonomous vehicle AI pipelines. Halos is described as a hierarchical runtime monitor that checks the outputs of perception, prediction, and planning models against a set of formal safety constraints before commands are sent to vehicle actuators. The system is positioned as a layer that can work alongside existing autonomy stacks rather than replacing them, and Nvidia has made portions of the framework available to automotive partners."
+      },
+      {
+        "title": "Sakana Fugu",
+        "url": "https://sakana.ai/fugu/",
+        "source": "Hacker News",
+        "paragraph": "Sakana AI released Fugu, a research project exploring interpretability and controlled generation in language models. The project takes its name from the Japanese puffer fish, a reference to precise handling required to make the fish safe to eat, and applies the metaphor to the challenge of extracting useful model capabilities while suppressing harmful outputs. Sakana published model weights and evaluation benchmarks alongside the release, allowing external researchers to test the methods independently."
+      }
+    ]
+  },
+  {
+    "theme": "Open-Source Tools",
+    "stories": [
+      {
+        "title": "sqlite-utils 4.0rc1 adds migrations and nested transactions",
+        "url": "https://simonwillison.net/2026/Jun/21/sqlite-utils-40rc1/#atom-everything",
+        "source": "Simon Willison",
+        "paragraph": "Simon Willison released sqlite-utils 4.0rc1, the first release candidate for a major version of his Python library and CLI tool for working with SQLite databases. The headline additions in this version are a migrations system and support for nested transactions, both of which address common pain points for developers managing schema evolution in SQLite-backed applications. The library already provided higher-level abstractions over Python's standard sqlite3 package, including automatic table creation from JSON data and complex table transformation utilities."
+      },
+      {
+        "title": "sqlite-utils 4.0rc1",
+        "url": "https://simonwillison.net/2026/Jun/21/sqlite-utils/#atom-everything",
+        "source": "Simon Willison",
+        "paragraph": "This is a release announcement post for sqlite-utils 4.0rc1 on Simon Willison's blog, pointing readers to the detailed changelog and feature writeup published separately. The post is tagged under the sqlite-utils project category and serves as the canonical release note entry for the version. The release candidate designation means the API is considered stable but the author is soliciting community feedback before the final 4.0 tag."
+      },
+      {
+        "title": "Temporary Cloudflare Accounts for AI agents",
+        "url": "https://simonwillison.net/2026/Jun/21/temporary-cloudflare-accounts/#atom-everything",
+        "source": "Simon Willison",
+        "paragraph": "Cloudflare introduced a feature allowing developers to deploy a Workers project without first creating a Cloudflare account, using a single command: `npx wrangler deploy --temporary`. Simon Willison notes that while the announcement frames the feature around AI agent use cases, the underlying capability is useful for any developer who wants a quick ephemeral deployment for testing or demonstration purposes. The temporary deployment is automatically cleaned up after a set period, lowering the friction for one-off or exploratory infrastructure work."
+      },
+      {
+        "title": "I built Ponytrail, a local audit trail for AI coding-agent edits",
+        "url": "https://github.com/0xroylee/ponytrail",
+        "source": "Hacker News",
+        "paragraph": "A developer published Ponytrail, an open-source tool that records a local audit trail of file edits made by AI coding agents such as those built on the Claude or GPT APIs. The tool intercepts write operations and logs them with timestamps, diff summaries, and agent attribution so developers can review what an agent changed and roll back individual edits. The project addresses a gap in current agentic coding tools, which typically lack fine-grained, persistent change histories independent of git commits."
+      },
+      {
+        "title": "Show HN: Selector Forge – browser extension for AI-generated resilient selectors",
+        "url": "https://github.com/Intuned/selector-forge",
+        "source": "Hacker News",
+        "paragraph": "The Intuned team released Selector Forge as an open-source browser extension that uses AI to generate CSS and XPath selectors intended to remain stable as web page structures change. The extension is aimed at developers building web automation and scraping workflows where brittle selectors are a recurring maintenance problem. The project is available on GitHub and the team also operates a hosted version at selectorforge.ai for users who prefer not to self-host."
+      },
+      {
+        "title": "Apertus – Open Foundation Model for Sovereign AI",
+        "url": "https://apertvs.ai/",
+        "source": "Hacker News",
+        "paragraph": "Apertus is a new open foundation model project positioned under the framing of sovereign AI, meaning it is designed for organizations that want to run capable language models on their own infrastructure without dependency on U.S.-based cloud providers. The project publishes model weights openly and emphasizes multilingual capability and the ability to fine-tune on domain-specific corpora. The sovereign AI framing reflects growing demand from European and other non-U.S. governments and enterprises for AI infrastructure they can audit and control independently."
+      },
+      {
+        "title": "Show HN: Jacobi–IDE for Abaqus subroutine with analytical tests and AI diagnosis",
+        "url": "https://jacobee.netlify.app/",
+        "source": "Hacker News",
+        "paragraph": "A graduate student in computational mechanics built Jacobi, a specialized IDE for writing and debugging Abaqus UMAT Fortran subroutines used in multi-physics finite element simulations. The tool includes built-in analytical test cases and an AI diagnosis layer that interprets Abaqus error messages, which are notoriously opaque, and suggests likely causes. The project was motivated by the developer's own experience spending a disproportionate share of research time on debugging rather than on the underlying material science problems."
+      },
+      {
+        "title": "Show HN: CleverCrow: give tokens to your favorite projects",
+        "url": "https://clevercrow.io",
+        "source": "Hacker News",
+        "paragraph": "CleverCrow is a new platform that lets supporters allocate tokens to specific GitHub repositories or individual issues to direct AI-assisted development work toward features or fixes they care about. The creator, Zack, describes the project as a response to the problem of AI-generated pull requests that miss maintainer priorities, proposing token allocation as a signal of community intent. The platform handles pooling logic to aggregate token weight across supporters before surfacing prioritized work items to maintainers."
+      }
+    ]
+  },
+  {
+    "theme": "AI Economics & Sustainability",
+    "stories": [
+      {
+        "title": "The AI Conundrum: We are living in highly subsidized, interesting times",
+        "url": "https://news.ycombinator.com/item?id=48622280",
+        "source": "Hacker News",
+        "paragraph": "A Hacker News discussion post traces the trajectory of large language models from research curiosity to widely used developer tools in under a decade, and examines the financial dynamics sustaining the current AI market. The author argues that current pricing for AI inference is heavily subsidized by venture capital and hyperscaler losses, and that the industry is approaching a point where unit economics will force either price increases or capability reductions. The post specifically calls out models like Claude Sonnet and Opus as examples of tools that have become daily drivers for programmers but that are priced below their true cost of operation."
+      },
+      {
+        "title": "The Coming Enshittification of AI",
+        "url": "https://www.damianmr.com/posts/the-coming-enshittification-of-ai",
+        "source": "Hacker News",
+        "paragraph": "Drawing on Cory Doctorow's enshittification framework, this essay applies the pattern — platforms first serve users, then extract value from them — to AI products and services. The author argues that current AI products are in the user-friendly phase because companies are still competing for market share, and predicts that once network effects and switching costs accumulate, quality degradation and monetization pressure will follow. The piece cites the historical progression of search, social media, and app stores as precedents."
+      }
+    ]
+  }
+]

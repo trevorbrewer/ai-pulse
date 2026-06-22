@@ -1,0 +1,212 @@
+{
+  "date": "2026-06-22",
+  "generated_at": "2026-06-22T15:49:58.333485+00:00",
+  "source_counts": {
+    "rss_feeds": 4,
+    "arxiv": 0,
+    "hackernews": 17,
+    "nitter": 0,
+    "total_raw": 21,
+    "total_deduped": 21
+  },
+  "items": [
+    {
+      "title": "Samsung Electronics brings ChatGPT and Codex to employees",
+      "url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
+      "source": "OpenAI Blog",
+      "published": "2026-06-21T23:00:00+00:00",
+      "summary_raw": "Samsung Electronics deploys ChatGPT Enterprise and Codex to employees worldwide, marking one of OpenAI\u2019s largest enterprise AI rollouts."
+    },
+    {
+      "title": "sqlite-utils 4.0rc1 adds migrations and nested transactions",
+      "url": "https://simonwillison.net/2026/Jun/21/sqlite-utils-40rc1/#atom-everything",
+      "source": "Simon Willison",
+      "published": "2026-06-21T23:35:47+00:00",
+      "summary_raw": "sqlite-utils is my combined Python library and CLI tool for working with SQLite databases. It provides an extensive set of higher-level operations on top of Python's default sqlite3 package, including support for complex table transformations, automatic table creation from JSON data and a whole lot more.\nI released sqlite-utils 4.0rc1, the first release candidate for sqlite-utils v4. The major version bump indicates some (minor) backwards incompatible changes, so I'm interested in having people try this out before I commit to a stable release.\nNew feature: migrations\nThere are two significant new features in this RC compared to the previous 4.0 alphas.\nThe first is support for database migrations. This isn't a completely new implementation - it's a slightly modified port of the sqlite-migrate package I released a few years ago. I think that package has proved itself over time, so I'm now ready to bundle it with sqlite-utils directly.\nHere's what a set of migrations in a migrations.py file looks like:\nfrom sqlite_utils import Database, Migrations\n\nmigrations = Migrations(\"creatures\")\n\n@migrations()\ndef create_table(db):\n    db[\"creatures\"].create(\n        {\"id\": int, \"name\": str, \"species\": str},\n        pk=\"id\",\n    )\n\n@migrations()\ndef add_weight(db):\n    db[\"creatures\"].add_column(\"weight\", float)\nThis defines a set of two migrations, one creating the creatures table and another adding a column to it.\nYou can then run those migrations either using Python:\ndb = Database(\"creatures.db\")\nmigrations.apply(db)\nOr with the command-line migrate command:\nsqlite-utils migrate creatures.db migrations.py\nThe system is deliberately small: it doesn't provide reverse migrations, so any mistakes you make should be fixed by deploying a fresh migration to undo them.\nIts predecessor has been used by LLM and various other projects for several years, so I'm confident that the design is stable and works well.\nThe new migrations feature is documented here.\nNew feature: db.atomic() transactions\nThis feature is a lot less exercised than migrations, so it deserves more attention from testers.\nPreviously, sqlite-utils mostly left transaction management up to its users, via a with db.conn: construct that reused the sqlite3 mechanism directly.\nSQLite supports nested transactions in the form of savepoints, so I wanted an abstraction that could make those as easy to use as possible.\nI borrowed the terminology \"atomic\" from Django and Peewee. Here's what the new API looks like:\nwith db.atomic():\n    db.table(\"dogs\").insert({\"id\": 1, \"name\": \"Cleo\"}, pk=\"id\")\n    try:\n        with db.atomic():\n            db.table(\"dogs\").insert({\"id\": 2, \"name\": \"Pancakes\"})\n            raise ValueError(\"skip this one\")\n    except ValueError:\n        pass\n    db.table(\"dogs\").insert({\"id\": 3, \"name\": \"Marnie\"})\nMore details in the documentation.\nBackwards incompatible changes\nThe backwards incompatible changes in v4 were described in the alpha release notes. For 4.0a0:\n\n\nUpsert operations now use SQLite's INSERT ... ON CONFLICT SET syntax on all SQLite versions later than 3.23.1. This is a very slight breaking change for apps that depend on the previous INSERT OR IGNORE followed by UPDATE behavior. (#652)\nPython library users can opt-in to the previous implementation by passing use_old_upsert=True to the Database() constructor, see Alternative upserts using INSERT OR IGNORE.\nDropped support for Python 3.8, added support for Python 3.13. (#646)\n\nsqlite-utils tui is now provided by the sqlite-utils-tui plugin. (#648)\nTest suite now also runs against SQLite 3.23.1, the last version (from 2018-04-10) before the new INSERT ... ON CONFLICT SET syntax was added. (#654)\n\n\nAnd for 4.0a1:\n\n\n\nBreaking change: The db.table(table_name) method now only works with tables. To access a SQL view use db.view(view_name) instead. (#657)\nThe table.insert_all() and table.upsert_all() methods can now accept an iterator of lists or tuples as an alternative to dictionaries. The first item should be a list/tuple of column names. See Inserting data from a list or tuple iterator for details. (#672)\n\nBreaking change: The default floating point column type has been changed from FLOAT to REAL, which is the correct SQLite type for floating point values. This affects auto-detected columns when inserting data. (#645)\nNow uses pyproject.toml in place of setup.py for packaging. (#675)\nTables in the Python API now do a much better job of remembering the primary key and other schema details from when they were first created. (#655)\n\nBreaking change: The table.convert() and sqlite-utils convert mechanisms no longer skip values that evaluate to False. Previously the --skip-false option was needed, this has been removed. (#542)\n\nBreaking change: Tables created by this library now wrap table and column names in \"double-quotes\" in the schema. Previously they would use [square-braces]. (#677)\nThe --functions CLI argument now accepts a path to a Python file in addition to accepting a string full of Python code. It can also now be specified multiple times. (#659)\n\nBreaking change: Type detection is now the default behavior for the insert and upsert CLI commands when importing CSV or TSV data. Previously all columns were treated as TEXT unless the --detect-types flag was passed. Use the new --no-detect-types flag to restore the old behavior. The SQLITE_UTILS_DETECT_TYPES environment variable has been removed. (#679)\n\n\nTry it out\nYou can install the new RC like this:\npip install sqlite-utils==4.0rc1\nOr try the CLI version directly with uvx like this:\nuvx --with sqlite-utils==4.0rc1 sqlite-utils --help\nCome chat with us about it in the sqlite-utils Discord channel, or file any bugs in GitHub Issues.\n    \n        Tags: migrations, projects, sqlite, sqlite-utils, annotated-release-notes"
+    },
+    {
+      "title": "sqlite-utils 4.0rc1",
+      "url": "https://simonwillison.net/2026/Jun/21/sqlite-utils/#atom-everything",
+      "source": "Simon Willison",
+      "published": "2026-06-21T23:30:04+00:00",
+      "summary_raw": "Release: sqlite-utils 4.0rc1\n        See sqlite-utils 4.0rc1 adds migrations and nested transactions.\n    \n    \n        Tags: sqlite-utils"
+    },
+    {
+      "title": "Temporary Cloudflare Accounts for AI agents",
+      "url": "https://simonwillison.net/2026/Jun/21/temporary-cloudflare-accounts/#atom-everything",
+      "source": "Simon Willison",
+      "published": "2026-06-21T22:01:04+00:00",
+      "summary_raw": "Temporary Cloudflare Accounts for AI agents\nThe announcement says this is \"for AI agents\" but (as is pretty common these days) the AI hook isn't really necessary, this is an interesting feature for everyone else as well.\nShort version: you can now create a Cloudflare Workers project and run this, without even creating a Cloudflare account:\nnpx wrangler deploy --temporary\n\nCloudflare will deploy the application to a new, ephemeral project which will stay live for 60 minutes.\nI had GPT-5.5 xhigh in Codex Desktop build this test application providing a tool for following HTTP redirects and returning the final destination. The temporary deployment worked as advertised.\nRunning the deployment spits out the URL to a page for claiming the new project, for if you want it to last for more than 60 minutes. Here's what that claim screen looks like:\n\n\n    Via Hacker News\n\n\n    Tags: cloudflare"
+    },
+    {
+      "title": "I built Ponytrail, a local audit trail for AI coding-agent edits",
+      "url": "https://github.com/0xroylee/ponytrail",
+      "source": "Hacker News",
+      "published": "2026-06-22T14:54:59+00:00",
+      "summary_raw": "",
+      "points": 15,
+      "num_comments": 7,
+      "hn_url": "https://news.ycombinator.com/item?id=48631043"
+    },
+    {
+      "title": "Show HN: Selector Forge \u2013 browser extension for AI-generated resilient selectors",
+      "url": "https://github.com/Intuned/selector-forge",
+      "source": "Hacker News",
+      "published": "2026-06-22T14:21:24+00:00",
+      "summary_raw": "Hi HN, I&#x27;m Ahmad from the Intuned (<a href=\"https:&#x2F;&#x2F;intunedhq.com\">https:&#x2F;&#x2F;intunedhq.com</a>) team. Today, we&#x27;re releasing and open-sourcing Selector Forge (<a href=\"https:&#x2F;&#x2F;selectorforge.ai&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;selectorforge.ai&#x2F;</a>), a browser extension that generates reliable CSS&#x2F;XPath selectors using AI.<p>You can use it to create a selector for a single element or for an array of elements. The selectors it creates are meant to be &quot;semantic&quot; and more resilient to page changes than what Chrome DevTool\u2019s \u201cCopy Selector\u201d (and other similar extensions) give you. Those tend to hand you something brittle like `#top &gt; div.w-100.ph0-l.ph3.ph4-m &gt; h1 &gt; span`, which can break with a minimal page change. Selector Forge aims for selectors that don&#x27;t break as easily. Here are some selectors that Selector Forge created:  `&#x2F;&#x2F;div[@aria-label=&quot;Showing weekly downloads&quot;]&#x2F;&#x2F;p[@aria-live=&quot;polite&quot;]` (item selector) and `&#x2F;&#x2F;*[local-name()=&#x27;svg&#x27; and @aria-label=&quot;Download statistics&quot;]&#x2F;following-sibling::div`   (list selector).<p>Here is a video demo of using the extension: <a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=8IjjeDQkKmo\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=8IjjeDQkKmo</a><p>Selector Forge on Chrome: <a href=\"https:&#x2F;&#x2F;chromewebstore.google.com&#x2F;detail&#x2F;lbendfnlmhdakbeblajoffkfmafbfaha\" rel=\"nofollow\">https:&#x2F;&#x2F;chromewebstore.google.com&#x2F;detail&#x2F;lbendfnlmhdakbeblaj...</a><p>Selector Forge on Firefox: \n<a href=\"https:&#x2F;&#x2F;addons.mozilla.org&#x2F;en-US&#x2F;firefox&#x2F;addon&#x2F;selector-forge&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;addons.mozilla.org&#x2F;en-US&#x2F;firefox&#x2F;addon&#x2F;selector-forg...</a><p>Selector Forge code: \n<a href=\"https:&#x2F;&#x2F;github.com&#x2F;Intuned&#x2F;selector-forge\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;Intuned&#x2F;selector-forge</a><p>Backstory: For the past couple of years we&#x27;ve been building Intuned Agent, a coding agent for building and maintaining browser automations. We quickly figured out that the most fragile part of any browser code is usually the selectors and that creating good selectors can go a long way towards improving the quality and reliability of the automation itself.<p>So we abstracted selector creation into its own agent, wrapped it as a tool, and let our codegen agent call it. LLMs by default don&#x27;t do a great job generating good selectors, so this turned out to be really useful and improved the code our agent generates.<p>We recently thought that this piece (the selector agent&#x2F;creation) is useful on its own (outside our platform) so we packaged it as a browser extension. That\u2019s this post!<p>Selector Forge is open source, and the version in the browser stores (Chrome and Firefox) is free for up to 200 selectors&#x2F;month. Unlimited usage is part of our paid plans.<p>We realize most developers aren&#x27;t writing this kind of code by hand anymore, so the next step is exposing this functionality in a way coding agents can call directly, over a CLI or MCP. Here&#x27;s our roadmap: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;Intuned&#x2F;selector-forge#roadmap\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;Intuned&#x2F;selector-forge#roadmap</a><p>Excited to hear your thoughts, questions, and feedback!",
+      "points": 12,
+      "num_comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=48630515"
+    },
+    {
+      "title": "Nvidia Halos",
+      "url": "https://www.nvidia.com/en-us/ai-trust-center/halos/autonomous-vehicles/",
+      "source": "Hacker News",
+      "published": "2026-06-22T13:57:49+00:00",
+      "summary_raw": "",
+      "points": 45,
+      "num_comments": 25,
+      "hn_url": "https://news.ycombinator.com/item?id=48630220"
+    },
+    {
+      "title": "The Coming Enshittification of AI",
+      "url": "https://www.damianmr.com/posts/the-coming-enshittification-of-ai",
+      "source": "Hacker News",
+      "published": "2026-06-22T13:44:33+00:00",
+      "summary_raw": "",
+      "points": 16,
+      "num_comments": 7,
+      "hn_url": "https://news.ycombinator.com/item?id=48630044"
+    },
+    {
+      "title": "Data centers become the face of AI backlash",
+      "url": "https://www.axios.com/2026/06/22/ai-data-center-backlash-poll",
+      "source": "Hacker News",
+      "published": "2026-06-22T09:13:44+00:00",
+      "summary_raw": "",
+      "points": 11,
+      "num_comments": 2,
+      "hn_url": "https://news.ycombinator.com/item?id=48627730"
+    },
+    {
+      "title": "Sakana Fugu",
+      "url": "https://sakana.ai/fugu/",
+      "source": "Hacker News",
+      "published": "2026-06-22T02:08:18+00:00",
+      "summary_raw": "",
+      "points": 180,
+      "num_comments": 103,
+      "hn_url": "https://news.ycombinator.com/item?id=48624782"
+    },
+    {
+      "title": "New Super Pac Aims to Rally Tech Workers to Help Limit A.I",
+      "url": "https://www.nytimes.com/2026/06/18/technology/ai-super-pac-guardrails-alliance.html",
+      "source": "Hacker News",
+      "published": "2026-06-22T00:04:52+00:00",
+      "summary_raw": "",
+      "points": 19,
+      "num_comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=48623915"
+    },
+    {
+      "title": "Tech Workers Are Fighting Against Silicon Valley's AI Push",
+      "url": "https://www.techpolicy.press/tech-workers-are-fighting-against-silicon-valleys-ai-push/",
+      "source": "Hacker News",
+      "published": "2026-06-21T23:29:51+00:00",
+      "summary_raw": "",
+      "points": 42,
+      "num_comments": 12,
+      "hn_url": "https://news.ycombinator.com/item?id=48623695"
+    },
+    {
+      "title": "Bill that would mandate AI chip location tracking gains industry support",
+      "url": "https://www.nbcnews.com/tech/tech-news/chips-security-act-gains-industry-support-letter-rcna350500",
+      "source": "Hacker News",
+      "published": "2026-06-21T23:03:15+00:00",
+      "summary_raw": "",
+      "points": 11,
+      "num_comments": 3,
+      "hn_url": "https://news.ycombinator.com/item?id=48623494"
+    },
+    {
+      "title": "The anatomy of an AI-native org",
+      "url": "https://ajeygore.in/content/the-anatomy-of-an-ai-native-org",
+      "source": "Hacker News",
+      "published": "2026-06-21T21:34:19+00:00",
+      "summary_raw": "",
+      "points": 36,
+      "num_comments": 37,
+      "hn_url": "https://news.ycombinator.com/item?id=48622815"
+    },
+    {
+      "title": "Apertus \u2013 Open Foundation Model for Sovereign AI",
+      "url": "https://apertvs.ai/",
+      "source": "Hacker News",
+      "published": "2026-06-21T21:29:43+00:00",
+      "summary_raw": "",
+      "points": 491,
+      "num_comments": 165,
+      "hn_url": "https://news.ycombinator.com/item?id=48622778"
+    },
+    {
+      "title": "Securing the Future of AI Agents",
+      "url": "https://deepmind.google/blog/securing-the-future-of-ai-agents/",
+      "source": "Hacker News",
+      "published": "2026-06-21T21:10:24+00:00",
+      "summary_raw": "",
+      "points": 10,
+      "num_comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=48622625"
+    },
+    {
+      "title": "The AI Conundrum: We are living in highly subsidized, interesting times",
+      "url": "https://news.ycombinator.com/item?id=48622280",
+      "source": "Hacker News",
+      "published": "2026-06-21T20:24:13+00:00",
+      "summary_raw": "If you trace the timeline of how LLMs went from a technologist&#x27;s dream to early text-generation toys, to the world-shifting launch of ChatGPT, and finally to the daily drivers of modern programming (Sonnet, Opus), it has taken less than a decade. It\u2019s a thrilling, almost unbelievable tale.<p>Let&#x27;s look at how we got here, and the wall the industry is currently hitting.<p>- The Dream Phase (2010-2016). By the dawn of the last decade (2011), an interesting thing was happening. The two platforms, Wikipedia and Stack Overflow, had started gaining tremendous traction, folks were collaborating on these platforms to openly exchange knowledge. Looking back, this feels like a more ideal, community-driven path for humanity \u2014 one we abandoned for the centralized architecture we have today.<p>- The Disruption Phase (2016-2021). A perfect storm of unrelated events paved the way for AI. By 2017, new programmers were growing deeply frustrated by Stack Overflow&#x27;s rigid policies, subjective question rejections, and senior coder pedantry. In retrospect, those strict moderators carved the first stones of what would later become Copilot and ChatGPT. If the community won&#x27;t answer a beginner&#x27;s question without downvoting it, a private LLM gladly will.<p>Add to this Google&#x27;s landmark 2017 paper &quot;Attention Is All You Need&quot; which unlocked the Transformer architecture, and the forced isolation of COVID-19 in 2020. The ground was suddenly fertile for virtual assistants that could act as isolated developers&#x27; programming partners.<p>- The Hook Phase (2023-2025). The launch of ChatGPT left no doubt about how easy the &quot;hook&quot; would be. For non-technical folks, it was pure magic. It didn&#x27;t take long for specialized LLMs like Copilot, Claude and Deepseek to become an indispensable part of the programmer&#x27;s toolbox. Meanwhile, OpenAI was still advertising its &quot;non-profit&quot; roots, and the consensus was that this was purely about empowering humanity.<p>- The Endgame Phase (2025-present&#x2F;future). AI companies had miscalculated a lot of things by this time. They were optimizing for the &quot;long-term&quot; but as John Maynard Keynes rightly said many years ago, <i>&quot;In the long-term, we are all dead&quot;</i>. The VCs are losing patience today because while the technology itself has gained massive ubiquity and appreciation, the revenues aren&#x27;t coming as fast. The hook had sort of worked but failed to fully work.<p>Most frontier models like Sonnet, Opus and GPT 5.5 are still running on &#x27;subsidized mode&#x27;. The amount of monthly subscription they charge users (USD 10&#x2F;20&#x2F;30 per month) is a pittance compared to all the compute and RAM needed to run those &quot;thinking...&quot; and &quot;pondering...&quot; tokens. In order to truly show profits in the books and come out of subsidized mode, they must charge on the scaling of input&#x2F;output tokens and that appears to be difficult. Very few companies might be able to sustain such unlimited budget for unpredictable hardware scaling, the recent Uber story shows exactly what happens when they try doing this.<p>The frontier models are trying to replace something which could never be successfully delegated or automated in entire human history - the highest cognitive skills of human brain like reasoning, deduction and logic. Yet, the efforts are on and the goals are long term. The conundrum is that if they stop subsidizing, the hook phase may be undone - there is a strong possibility of folks reverting back to older ways of Wikipedia&#x2F;Stack Overflow or pivot entirely to open source <i>dry&#x2F;academic</i> models like Llama and Qwen which can run locally on their own hardware. And yet, they also can&#x27;t keep subsidizing and draining the funds indefinitely.<p>What happens when the subsidy mirror cracks?",
+      "points": 10,
+      "num_comments": 1,
+      "hn_url": "https://news.ycombinator.com/item?id=48622280"
+    },
+    {
+      "title": "Secretive Wall Street Powerhouse Jane Street Seizes AI Spotlight",
+      "url": "https://www.wsj.com/tech/ai/jane-street-ai-wall-street-bdfcc81a",
+      "source": "Hacker News",
+      "published": "2026-06-21T19:12:07+00:00",
+      "summary_raw": "",
+      "points": 12,
+      "num_comments": 2,
+      "hn_url": "https://news.ycombinator.com/item?id=48621706"
+    },
+    {
+      "title": "Show HN: CleverCrow: give tokens to your favorite projects",
+      "url": "https://clevercrow.io",
+      "source": "Hacker News",
+      "published": "2026-06-21T19:06:07+00:00",
+      "summary_raw": "Howdy all. I&#x27;m Zack :wave:. I&#x27;ve been thinking about the problem of misguided AI pull requests and figured I&#x27;d throw a possible solution out there for feedback. Basically, CleverCrow lets supporters give tokens to a GitHub repo (or set of issues in that repo) for the maintainers to use to build&#x2F;fix stuff. The fun implementation challenges have been around implementing the pooling dynamics and keeping the maintainers in charge while the backers are motivated to support their work.",
+      "points": 39,
+      "num_comments": 57,
+      "hn_url": "https://news.ycombinator.com/item?id=48621645"
+    },
+    {
+      "title": "Show HN: Jacobi\u2013IDE for Abaqus subroutine with analytical tests and AI diagnosis",
+      "url": "https://jacobee.netlify.app/",
+      "source": "Hacker News",
+      "published": "2026-06-21T16:20:46+00:00",
+      "summary_raw": "I write Abaqus UMAT subroutines as a graduate student in computational mechanics. These are complex multi-physics simulation models using Abaqus Fortran subroutines (UMAT ~ mechanical behavior, UMATHT ~ heat&#x2F;diffusion and a lot more) that simulate how different material systems fail under high temperature or manufacturing processes.<p>However, the entire process has been quite challenging, 80-90% of time is actually spent on how make Abaqus CAE simulate a physics you already know on paper or what are the correct subroutines and variables you should use. Huge time is also spent on diving deep into the .sta .msg files to figure out and debug why a simulation failed. The software or current tooling (IDE ~ which is VS Code etc built for software engineering, not computational physics or mechanics) doesn&#x27;t tell you why the simulation run into a segmentation error, or warn you when your damage variable being 1 (fully damaged) will lead to a zero division error. Silent mistakes or errors propagate through your simulation silently, and the physics is completely wrong (or worse, physics make sense, but wrong nonetheless). The documentation is terse and complex, haven&#x27;t changed for a decade, offering basic linear elastic examples only.<p>The entire way computational engineers approach their work is with a touch&#x2F;sense of secrecy. Codes are hidden behind NDAs and various policies. Although, this makes sense from a national security standpoint. It slows down and stifle innovation in the field. Codes are not shared like the way software engineers do, repositories are private, .odb files are hidden, Less resources for tutorials on complex multi-physics simulations. This is why Dr. Fei Fei Li in her recent post on world models, identifying the &quot;simulate&quot; part of the world model taxonomy (the other two is a planner and a renderer) as the linchpin of a world model (read here <a href=\"https:&#x2F;&#x2F;x.com&#x2F;drfeifei&#x2F;status&#x2F;2062247238143996275\" rel=\"nofollow\">https:&#x2F;&#x2F;x.com&#x2F;drfeifei&#x2F;status&#x2F;2062247238143996275</a>) with orders of magnitude of less available data available to effectively train world models.<p>On occasions, engineers classify some of these problems as a &quot;skill issue&quot;, which I believe is a wrong mindset to have. However, having prior experience building software and webapps, I know how important the tooling and community is to the entire software ecosystem (think open-source projects on Github, Modules&#x2F;Packages you can easily pip install, and tutorials from legends like Karpathy and a lot more).<p>With the Jacobi Physics IDE, I am building that tooling and ecosystem for physics simulation. Due to my current knowledge of Abaqus, that is what I start with. But eventually, following feedback and engagement from users, this will expand to cover multiple physics solvers out there (COMSOL, NASTRAN, LS-DYNA....I want to hear more from you guys in the comment) that enable users and researchers to write subroutines and user-defined material behavior for their own unique simulations.<p>I will love to hear from you guys, download the IDE at <a href=\"https:&#x2F;&#x2F;jacobee.netlify.app&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;jacobee.netlify.app&#x2F;</a>.\nThanks.",
+      "points": 18,
+      "num_comments": 6,
+      "hn_url": "https://news.ycombinator.com/item?id=48620188"
+    },
+    {
+      "title": "The early hiring funnel is now breaking on both ends",
+      "url": "https://hbr.org/2026/06/ai-has-broken-hiring-heres-how-to-fix-it",
+      "source": "Hacker News",
+      "published": "2026-06-21T16:14:54+00:00",
+      "summary_raw": "",
+      "points": 110,
+      "num_comments": 196,
+      "hn_url": "https://news.ycombinator.com/item?id=48620142"
+    }
+  ]
+}
