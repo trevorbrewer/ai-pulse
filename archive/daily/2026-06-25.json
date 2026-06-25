@@ -1,0 +1,165 @@
+{
+  "date": "2026-06-25",
+  "generated_at": "2026-06-25T18:58:04.416998+00:00",
+  "source_counts": {
+    "rss_feeds": 3,
+    "arxiv": 0,
+    "hackernews": 13,
+    "nitter": 0,
+    "total_raw": 16,
+    "total_deduped": 16
+  },
+  "items": [
+    {
+      "title": "How agents are transforming work",
+      "url": "https://openai.com/index/how-agents-are-transforming-work",
+      "source": "OpenAI Blog",
+      "published": "2026-06-25T02:00:00+00:00",
+      "summary_raw": "A new OpenAI research paper shows how AI agents are transforming work, enabling longer, more complex tasks and expanding productivity across roles."
+    },
+    {
+      "title": "Our latest Google Finance upgrades, including a new app",
+      "url": "https://blog.google/products-and-platforms/products/search/google-finance-updates-june-2026/",
+      "source": "Google AI Blog",
+      "published": "2026-06-25T16:00:00+00:00",
+      "summary_raw": "The Google Finance logo, surrounded by elements of the user interface"
+    },
+    {
+      "title": "simonw/browser-compat-db",
+      "url": "https://simonwillison.net/2026/Jun/24/browser-compat-db/#atom-everything",
+      "source": "Simon Willison",
+      "published": "2026-06-24T23:59:03+00:00",
+      "summary_raw": "simonw/browser-compat-db\nInspired by Mozilla's new MDN MCP service - source code here - I decided to try converting their comprehensive mdn/browser-compat-data repository full of browser compatibility data into a SQLite database.\nThis new GitHub repo includes a Claude Code for web (Opus 4.8) generated script for doing that using sqlite-utils.\nI wanted the resulting ~66MB SQLite database to be available via the GitHub CDN with open CORS headers. GitHub releases don't have those, but any file stored in a regular GitHub repository does - so I had Codex Desktop (GPT-5.5) build a GitHub Actions workflow that builds the database and then force-pushes it to a db \"orphan\" branch.\nYou can download the resulting database from here, and since it's hosted with open CORS headers you can also explore it with Datasette Lite.\n\n\n    Tags: github, mozilla, projects, github-actions, datasette-lite, ai-assisted-programming, model-context-protocol, mdn"
+    },
+    {
+      "title": "Show HN: OpenKnowledge \u2013 open source AI-first alternative to Obsidian/Notion",
+      "url": "https://openknowledge.ai/",
+      "source": "Hacker News",
+      "published": "2026-06-25T16:04:46+00:00",
+      "summary_raw": "",
+      "points": 21,
+      "num_comments": 6,
+      "hn_url": "https://news.ycombinator.com/item?id=48675435"
+    },
+    {
+      "title": "Ford AI hiccups push carmaker to rehire \u2018gray beard\u2019 inspectors",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-25/ford-has-been-rehiring-quality-inspectors-after-ai-fell-short",
+      "source": "Hacker News",
+      "published": "2026-06-25T14:58:50+00:00",
+      "summary_raw": "<a href=\"https:&#x2F;&#x2F;archive.ph&#x2F;DI4Cq\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.ph&#x2F;DI4Cq</a>",
+      "points": 532,
+      "num_comments": 274,
+      "hn_url": "https://news.ycombinator.com/item?id=48674446"
+    },
+    {
+      "title": "Political bias in AI: Where the AI models stand",
+      "url": "https://trakkr.ai/bias",
+      "source": "Hacker News",
+      "published": "2026-06-25T13:08:31+00:00",
+      "summary_raw": "",
+      "points": 43,
+      "num_comments": 112,
+      "hn_url": "https://news.ycombinator.com/item?id=48672779"
+    },
+    {
+      "title": "Why Does Everyone Hate AI?",
+      "url": "https://paulkrugman.substack.com/p/why-does-everyone-hate-ai",
+      "source": "Hacker News",
+      "published": "2026-06-25T12:59:10+00:00",
+      "summary_raw": "",
+      "points": 72,
+      "num_comments": 125,
+      "hn_url": "https://news.ycombinator.com/item?id=48672694"
+    },
+    {
+      "title": "Show HN: Secs-man, a secrets manager you can (not) rely on",
+      "url": "https://github.com/Fran314/secrets-manager-rs",
+      "source": "Hacker News",
+      "published": "2026-06-25T12:30:36+00:00",
+      "summary_raw": "This is a tool to manage encrypted local backups of secrets. The core idea is that it aims to be usable without depending on it, meaning that even if the software disappeared from the face of Earth tomorrow, your data would still be recoverable.<p>It also integrates nicely with NixOS (which is what I use, though it does not require NixOS to be used).<p>I have summed up a bit of explanation and some answers to reasonable questions in a blog post: <a href=\"https:&#x2F;&#x2F;baldino.dev&#x2F;blog&#x2F;secs-man&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;baldino.dev&#x2F;blog&#x2F;secs-man&#x2F;</a>",
+      "points": 27,
+      "num_comments": 17,
+      "hn_url": "https://news.ycombinator.com/item?id=48672389"
+    },
+    {
+      "title": "Show HN: Turn native language audio into flashcards and shadowing practice",
+      "url": "https://lingochunk.com/try",
+      "source": "Hacker News",
+      "published": "2026-06-25T11:29:13+00:00",
+      "summary_raw": "Here is a tool I built initially for myself to help with my German and Greek language studies. It started as a hack for creating Anki cards from native language audio. It extracts the words, finds their base forms (lemmas) and groups the examples by the lemma. At some point I realised that I have a transcription with word level timestamps that opens a lot of other opportunities. So I added a mode to click the first and last word in the transcript and it starts looping with the right gap and repeat count.<p>Another feature I use a lot is selecting an audio fragment, sending a predefined prompt to an AI to &quot;explain grammar&quot; or &quot;explain nuances of meaning&quot; and I still experimenting with prompts.<p>And because shadowing is so easy I also use it as a player to improve my English pronunciation. (I am not a native English speaker.)<p>I made a quick video showing the workflow for creating Anki cards and shadowing: <a href=\"https:&#x2F;&#x2F;youtu.be&#x2F;TaR58uuDBvU?si=o5aGLAi2S-BZ7Zy9\" rel=\"nofollow\">https:&#x2F;&#x2F;youtu.be&#x2F;TaR58uuDBvU?si=o5aGLAi2S-BZ7Zy9</a><p>The app supports 15 input languages (Japanese and Chinese are the latest experimental additions), and more than 30 output languages.<p>I would really appreciate it if you could try it <a href=\"https:&#x2F;&#x2F;lingochunk.com&#x2F;try\" rel=\"nofollow\">https:&#x2F;&#x2F;lingochunk.com&#x2F;try</a>. I know there are other tools with similar functionality but I created something that fits my workflow and it is fun to build.<p>Also I struggled to find public domain audio for the try page. I&#x27;d be grateful if anyone could point me to public domain sources (I used LibriVox, Wikimedia and FSI courses), or if you&#x27;re a creator, let me feature some of your own recordings with credits and links.",
+      "points": 59,
+      "num_comments": 27,
+      "hn_url": "https://news.ycombinator.com/item?id=48671886"
+    },
+    {
+      "title": "The A.I.-Design Aesthetic That's Taking over the Internet",
+      "url": "https://www.newyorker.com/culture/infinite-scroll/the-ai-design-aesthetic-thats-taking-over-the-internet",
+      "source": "Hacker News",
+      "published": "2026-06-25T10:59:39+00:00",
+      "summary_raw": "",
+      "points": 14,
+      "num_comments": 8,
+      "hn_url": "https://news.ycombinator.com/item?id=48671684"
+    },
+    {
+      "title": "Aisle Discovers 6 New CVEs in Curl, Including the Oldest Issue Ever Reported",
+      "url": "https://aisle.com/blog/aisle-discovers-6-new-cves-in-curl-including-the-oldest-issue-ever-reported",
+      "source": "Hacker News",
+      "published": "2026-06-25T08:07:54+00:00",
+      "summary_raw": "",
+      "points": 34,
+      "num_comments": 25,
+      "hn_url": "https://news.ycombinator.com/item?id=48670411"
+    },
+    {
+      "title": "Anthropic Accuses Alibaba of \u2018Illicitly\u2019 Accessing AI Models",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-24/anthropic-accuses-alibaba-of-illicitly-accessing-its-ai-models",
+      "source": "Hacker News",
+      "published": "2026-06-25T00:02:41+00:00",
+      "summary_raw": "",
+      "points": 17,
+      "num_comments": 9,
+      "hn_url": "https://news.ycombinator.com/item?id=48667069"
+    },
+    {
+      "title": "Chinese Supercomputer Overtakes U.S. as World's Fastest",
+      "url": "https://www.wsj.com/tech/ai/chinese-supercomputer-overtakes-u-s-as-worlds-fastest-d0f8dbff",
+      "source": "Hacker News",
+      "published": "2026-06-24T22:22:33+00:00",
+      "summary_raw": "",
+      "points": 10,
+      "num_comments": 4,
+      "hn_url": "https://news.ycombinator.com/item?id=48666314"
+    },
+    {
+      "title": "A24 Knows You're Mad About the Google AI Collab",
+      "url": "https://www.wired.com/story/a24-knows-youre-mad-about-the-google-ai-collab/",
+      "source": "Hacker News",
+      "published": "2026-06-24T22:07:07+00:00",
+      "summary_raw": "",
+      "points": 11,
+      "num_comments": 2,
+      "hn_url": "https://news.ycombinator.com/item?id=48666178"
+    },
+    {
+      "title": "OpenAI Codex bombards SSDs with needless write operations",
+      "url": "https://www.theregister.com/ai-and-ml/2026/06/23/openai-codex-bombards-ssds-with-needless-write-operations-costing-millions/5260402",
+      "source": "Hacker News",
+      "published": "2026-06-24T21:32:15+00:00",
+      "summary_raw": "",
+      "points": 20,
+      "num_comments": 1,
+      "hn_url": "https://news.ycombinator.com/item?id=48665875"
+    },
+    {
+      "title": "Anthropic says Alibaba illicitly extracted Claude AI model capabilities",
+      "url": "https://www.reuters.com/world/china/anthropic-says-alibaba-illicitly-extracted-claude-ai-model-capabilities-2026-06-24/",
+      "source": "Hacker News",
+      "published": "2026-06-24T19:48:01+00:00",
+      "summary_raw": "",
+      "points": 721,
+      "num_comments": 1164,
+      "hn_url": "https://news.ycombinator.com/item?id=48664814"
+    }
+  ]
+}
