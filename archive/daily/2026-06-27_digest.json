@@ -1,0 +1,216 @@
+[
+  {
+    "theme": "Model Releases & Access",
+    "stories": [
+      {
+        "title": "Quoting OpenAI",
+        "url": "https://simonwillison.net/2026/Jun/26/openai/#atom-everything",
+        "source": "Simon Willison",
+        "paragraph": "OpenAI has announced a limited preview of the GPT-5.6 series, consisting of three models: Sol (flagship), Terra (balanced), and Luna (fast and low-cost). Terra is positioned as offering performance comparable to GPT-5.5 at half the price, while Luna targets cost-sensitive use cases. OpenAI says it plans to make all three models generally available in the coming weeks."
+      },
+      {
+        "title": "U.S. government will decide who gets to use GPT-5.6",
+        "url": "https://www.washingtonpost.com/technology/2026/06/26/openai-says-us-government-will-vet-users-its-latest-ai-model/",
+        "source": "Hacker News",
+        "paragraph": "The U.S. government will play a vetting role in determining which organizations gain access to OpenAI's GPT-5.6 models during the initial release period. This arrangement marks a notable shift in how frontier model access is governed, inserting federal oversight into what has typically been a commercial decision. The move parallels a similar arrangement for Anthropic's Mythos model, suggesting an emerging pattern of government-mediated access controls for high-capability AI systems."
+      },
+      {
+        "title": "U.S. allows Anthropic to release Mythos AI to 'trusted' US organizations",
+        "url": "https://www.semafor.com/article/06/27/2026/us-releases-powerful-anthropic-model-mythos-to-some-us-companies",
+        "source": "Hacker News",
+        "paragraph": "The U.S. government has approved Anthropic to release its Mythos model to a restricted set of trusted American organizations. The arrangement reflects growing federal interest in controlling distribution of frontier AI capabilities, particularly those deemed sensitive enough to warrant vetting. Mythos had been withheld from general release pending this government review process."
+      }
+    ]
+  },
+  {
+    "theme": "AI Agents & Coding Tools",
+    "stories": [
+      {
+        "title": "Using Local Coding Agents",
+        "url": "https://magazine.sebastianraschka.com/p/using-local-coding-agents",
+        "source": "Sebastian Raschka",
+        "paragraph": "Sebastian Raschka has published a practical guide on running open-weight models within local coding harnesses as alternatives to subscription-based services like Claude Code and OpenAI Codex. The piece addresses a growing practitioner interest in reducing vendor dependency and inference costs by running models locally. It covers how existing open-weight models can be integrated into coding agent frameworks that previously assumed proprietary API access."
+      },
+      {
+        "title": "Show HN: Smart model routing directly in Claude, Codex and Cursor",
+        "url": "https://github.com/workweave/router",
+        "source": "Hacker News",
+        "paragraph": "Workweave has released an open-source model router designed to sit inside coding agents such as Claude Code, Codex, and Cursor, routing individual requests to whichever model is best suited to handle them. The tool operates locally and aims to reduce cost and latency by avoiding over-provisioning every request to the most capable — and most expensive — model available. A demo video shows the router running within a standard coding agent workflow without modifications to the agent itself."
+      },
+      {
+        "title": "AgentKits – 60 production-ready AI agent blueprints with guardrails",
+        "url": "https://www.agent-kits.com",
+        "source": "Hacker News",
+        "paragraph": "AgentKits is a new resource offering 60 pre-built AI agent blueprints intended for production deployment, each bundled with guardrails. The collection targets developers who want to move quickly from prototype to deployed agent without designing safety boundaries from scratch. The site positions itself as a practical shortcut for teams building on top of existing LLM APIs."
+      },
+      {
+        "title": "Great experiment testing how good AIs are getting at very ambitious end-to-end coding tasks",
+        "url": "https://twitter.com/emollick/status/2070537422027342085",
+        "source": "Twitter/@emollick",
+        "paragraph": "A coding benchmark described by Ethan Mollick found that Anthropic's Opus 4.7, running for 14 hours, produced a software package estimated to require 2 to 17 weeks of human engineering effort. The run cost $251 in inference spend. The underlying paper, from Epoch AI, provides a methodology for measuring end-to-end autonomous coding performance on ambitious, multi-component tasks."
+      }
+    ]
+  },
+  {
+    "theme": "Open-Source & Inference Optimization",
+    "stories": [
+      {
+        "title": "DeepSeek open-sources inference optimizations with 60–85% faster generation [pdf]",
+        "url": "https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf",
+        "source": "Hacker News",
+        "paragraph": "DeepSeek has published a paper and accompanying open-source code describing DSpark, a set of inference optimizations that the company claims achieve 60 to 85 percent faster token generation compared to baseline approaches. The release continues DeepSeek's pattern of sharing systems-level work publicly alongside its model research. Faster inference at this scale has direct implications for cost and throughput for anyone running DeepSeek models in production."
+      },
+      {
+        "title": "The gap between open weights LLMs and closed source LLMs",
+        "url": "https://blog.doubleword.ai/frontier-os-llm",
+        "source": "Hacker News",
+        "paragraph": "A blog post from Doubleword AI examines the current performance gap between publicly available open-weight models and proprietary frontier models, analyzing where the differences are most pronounced. The analysis is notable because it attempts to quantify the gap across task categories rather than relying on a single aggregate benchmark score. The post argues the gap is narrowing in some domains while remaining significant in others, particularly in complex reasoning."
+      }
+    ]
+  },
+  {
+    "theme": "AI Safety, Security & Governance",
+    "stories": [
+      {
+        "title": "What happened after 2,000 people tried to hack my AI assistant",
+        "url": "https://simonwillison.net/2026/Jun/26/hack-my-ai-assistant/#atom-everything",
+        "source": "Simon Willison",
+        "paragraph": "Fernando Irarrázaval ran a public red-teaming challenge on hackmyclaw.com, inviting people to extract a secret held by his OpenClaw AI assistant via email. Over roughly 2,000 participants sending 6,000 attempts, no one succeeded in leaking the secret, though the exercise cost approximately $500 in token spend and triggered a Google account suspension due to high inbound email volume. The result offers a limited but concrete data point on the robustness of prompt-injection defenses in a real deployment context."
+      },
+      {
+        "title": "Incident Report: CVE-2026-LGTM",
+        "url": "https://simonwillison.net/2026/Jun/26/incident-report/#atom-everything",
+        "source": "Simon Willison",
+        "paragraph": "Andrew Nesbitt has written a fictional but technically grounded incident report describing a scenario in which two competing AI code-review agents become locked in a disagreement loop on a single pull request, generating 340 comments and accumulating $41,255 in inference costs before Finance revokes both API keys. The satirical report uses the format of a real postmortem to highlight genuine risks of deploying autonomous agents in shared, multi-vendor environments. It surfaces questions about accountability and circuit-breaker design that are relevant to anyone operating AI agents in CI/CD pipelines."
+      },
+      {
+        "title": "Quoting Dean W. Ball",
+        "url": "https://simonwillison.net/2026/Jun/26/dean-w-ball/#atom-everything",
+        "source": "Simon Willison",
+        "paragraph": "Simon Willison has highlighted an observation by Dean W. Ball about the economics of frontier model releases: a significant share of development costs must be recouped in the short window between release and the model becoming sub-frontier, making regulatory or procedural delays directly costly. The argument frames government vetting processes — such as those now being applied to GPT-5.6 and Mythos — as having non-trivial economic consequences for developers. Ball's point adds context to the broader debate about how to balance access controls against commercial and competitive realities."
+      },
+      {
+        "title": "The AI industry is pouring millions into US elections",
+        "url": "https://www.bloodinthemachine.com/p/the-ai-industry-is-pouring-hundreds",
+        "source": "Hacker News",
+        "paragraph": "A report from Blood in the Machine documents substantial political spending by AI companies and their executives in U.S. electoral contests. The piece argues that the industry's political donations are not incidental but are aimed at shaping the regulatory environment for AI development and deployment. Specific dollar figures are cited, though the article's broader claim is that the scale of this spending is increasing relative to prior election cycles."
+      }
+    ]
+  },
+  {
+    "theme": "AI Criticism & Social Impact",
+    "stories": [
+      {
+        "title": "AI Erodes a Legacy of Reading",
+        "url": "https://molochinations.substack.com/p/ai-erodes-a-legacy-of-reading",
+        "source": "Hacker News",
+        "paragraph": "A Substack essay argues that widespread reliance on AI-generated summaries and responses is degrading the practice of sustained reading, particularly among younger users who may never develop the habit of engaging with long-form text. The author frames this as a cumulative cultural loss rather than a one-time disruption, drawing on observations about how reading habits form and atrophy. The piece does not present quantitative data but contributes to a growing body of qualitative critique about AI's effects on information consumption."
+      },
+      {
+        "title": "The AI backlash is only getting started",
+        "url": "https://www.economist.com/leaders/2026/06/25/the-ai-backlash-is-only-getting-started",
+        "source": "Hacker News",
+        "paragraph": "The Economist's leaders section argues that public skepticism toward AI is intensifying and is unlikely to be a passing phase, pointing to concerns spanning labor displacement, misinformation, and the concentration of AI power in a small number of companies. The editorial notes that early adopter enthusiasm has not translated into broad public trust, and that political and regulatory pressure is building in multiple jurisdictions simultaneously. The piece positions the current moment as an early stage of a longer cycle of societal contestation over AI."
+      },
+      {
+        "title": "Quoting Timothy B. Lee",
+        "url": "https://simonwillison.net/2026/Jun/26/timothy-b-lee/#atom-everything",
+        "source": "Simon Willison",
+        "paragraph": "Timothy B. Lee has pushed back on the claim that using LLMs requires no skill or learning curve, comparing it to saying that management requires no skill because employees follow instructions. Willison highlighted the quote as a concise rebuttal to a recurring argument that prompting is trivial. The analogy draws on the well-documented complexity of directing human teams to make the point that directing AI systems involves analogous judgment and craft."
+      },
+      {
+        "title": "It may be obvious, but a lot of the first reaction to the gains in AI capability is going to be 'just muddling through'",
+        "url": "https://twitter.com/emollick/status/2070545915341914397",
+        "source": "Twitter/@emollick",
+        "paragraph": "Ethan Mollick has noted that organizational responses to rapid AI capability gains are more likely to resemble ad hoc improvisation than deliberate strategy, consistent with how humans generally respond to fast-moving and complex change. The observation draws on behavioral and organizational research rather than AI-specific literature. Mollick frames this not as a failure of leadership but as a predictable feature of how institutions adapt under uncertainty."
+      },
+      {
+        "title": "Many companies could build their own Workday or whatever, too, using open source alternatives",
+        "url": "https://twitter.com/emollick/status/2070553325439680991",
+        "source": "Twitter/@emollick",
+        "paragraph": "Ethan Mollick has argued that the question of whether companies should build their own AI systems rather than buy commercial offerings mirrors the longstanding enterprise software debate, with the same structural reasons — upgrade cycles, integration costs, operational overhead — pushing most organizations toward purchasing rather than building. He notes that AI compounds these dynamics because model upgrade cycles run in weeks rather than years. The comment responds to discussions about open-source AI adoption in enterprise settings."
+      }
+    ]
+  },
+  {
+    "theme": "Research Papers & Benchmarks",
+    "stories": [
+      {
+        "title": "AI in mathematics is forcing big questions",
+        "url": "https://spectrum.ieee.org/ai-in-mathematics",
+        "source": "Hacker News",
+        "paragraph": "IEEE Spectrum has published a feature examining how AI systems capable of producing and verifying mathematical proofs are raising fundamental questions about the nature of mathematical understanding and the role of human mathematicians. The article discusses formal verification tools and large language models being applied to open problems, and quotes several researchers about what it means to claim a proof has been found when the reasoning is not human-readable. The piece does not assert that AI has solved any major open problem but documents the field's growing unease with AI's encroachment on a domain previously considered resistant to automation."
+      },
+      {
+        "title": "If your benchmark relies on a static dataset... then it is fundamentally measuring memorization/retrieval",
+        "url": "https://twitter.com/fchollet/status/2070554884999692698",
+        "source": "Twitter/@fchollet",
+        "paragraph": "François Chollet has restated his long-running argument that benchmarks built on static datasets or distributions well-represented in training data measure memorization and retrieval rather than general reasoning ability. The point is particularly relevant as many widely cited LLM benchmarks use fixed test sets that predate the models being evaluated. Chollet distinguishes between retrieval benchmarks — which he says have legitimate uses — and benchmarks claimed to measure intelligence."
+      },
+      {
+        "title": "Autonomy isn't the ability to act without human supervision",
+        "url": "https://twitter.com/fchollet/status/2070507776259022872",
+        "source": "Twitter/@fchollet",
+        "paragraph": "François Chollet has proposed a definition of AI autonomy centered on the capacity to learn without human bottlenecks, rather than simply the ability to act without supervision. Under this framing, a system that depends entirely on human-generated training data and human-designed RL environments remains an imprint of human knowledge regardless of how independently it operates at inference time. The distinction has implications for how researchers and policymakers assess the capabilities and risks of current AI systems."
+      },
+      {
+        "title": "Finally, AI finds its ultimate uncontroversial use — diffusion model trained on burger recipes",
+        "url": "https://twitter.com/emollick/status/2070541631653023799",
+        "source": "Twitter/@emollick",
+        "paragraph": "Researchers have trained a diffusion model on burger recipes that, according to a paper highlighted by Ethan Mollick, independently recovers the structure of a Big Mac without being explicitly told to do so, and generates novel burgers optimized for taste, sustainability, or nutrition. The work is presented as a demonstration of unsupervised concept discovery in structured recipe data. While the application is light, the underlying methodology — using generative models to explore combinatorial design spaces — has parallels in drug discovery and materials science."
+      },
+      {
+        "title": "Paper: epoch.ai/files/MirrorCode",
+        "url": "https://twitter.com/emollick/status/2070538214595535348",
+        "source": "Twitter/@emollick",
+        "paragraph": "Epoch AI has released a paper, linked by Ethan Mollick, that appears to provide the methodological foundation for evaluating end-to-end autonomous coding performance, referenced in connection with the Opus 4.7 coding benchmark results. The paper is hosted directly on Epoch AI's domain, indicating it is an independent research publication rather than a preprint from a model developer. Further details on its specific methodology were not available in the source summary."
+      }
+    ]
+  },
+  {
+    "theme": "Ancient Texts & AI",
+    "stories": [
+      {
+        "title": "One of the recovered passages, read for the first time in two thousand years",
+        "url": "https://twitter.com/emollick/status/2070729413520396475",
+        "source": "Twitter/@emollick",
+        "paragraph": "The Herculaneum scroll project has announced the first complete reading of a fused Herculaneum scroll, with one recovered passage containing the text: 'Having...strained ourselves to the utmost through research and learning...possessing the same practical wisdom.' The scroll was destroyed in the 79 AD eruption of Vesuvius and has been unreadable for roughly two thousand years. The reading was made possible through AI-assisted virtual unwrapping techniques developed as part of the Vesuvius Challenge, which offered prizes for deciphering the carbonized papyri without physically unrolling them."
+      }
+    ]
+  },
+  {
+    "theme": "Off-Topic & Non-AI Stories",
+    "stories": [
+      {
+        "title": "Aircraft crashes into Beijing's tallest skyscraper, triggering evacuations",
+        "url": "https://www.dailymail.com/news/article-15932611/Aircraft-crashes-Beijings-tallest-skyscraper-triggering-evacuations.html",
+        "source": "Hacker News",
+        "paragraph": "An aircraft struck Beijing's tallest skyscraper, prompting evacuations of the building and surrounding area. Details on the type of aircraft, casualties, and structural damage to the building were not fully available in the source summary at time of publication. The incident appeared in an AI-focused news feed without clear connection to AI topics."
+      },
+      {
+        "title": "Roblox parental controls are a dystopian security disaster",
+        "url": "https://news.ycombinator.com/item?id=48690591",
+        "source": "Hacker News",
+        "paragraph": "A parent posted to Hacker News describing how their 14-year-old daughter's Roblox account was compromised by an attacker who added themselves as a linked parent account, gaining access to parental controls, without the actual parent receiving any email alerts despite the account being tied to their address. The incident occurred on June 24, 2026, and raises questions about the security design of Roblox's family linking feature. The post generated significant discussion about platform accountability for minors' account security."
+      },
+      {
+        "title": "If you wanted to do the same in SF, you could start by extending Treasure Island",
+        "url": "https://twitter.com/fchollet/status/2070614739944980677",
+        "source": "Twitter/@fchollet",
+        "paragraph": "François Chollet posted a series of tweets discussing land reclamation as a potential approach to addressing San Francisco's land scarcity, noting that extending Treasure Island could be economically viable even if the resulting land would be worth roughly 10 times less per unit than land in SF proper. He drew comparisons to Tokyo Bay reclamation projects, observing that land reclamation tends to start with separated islands to avoid disrupting existing coastline infrastructure such as docks. The thread is unrelated to AI topics."
+      },
+      {
+        "title": "A good chunk of Tokyo is also reclaimed from the bay",
+        "url": "https://twitter.com/fchollet/status/2070611679281557992",
+        "source": "Twitter/@fchollet",
+        "paragraph": "In the same thread, Chollet noted that Tokyo's land reclamation peaked in the 1960s and 1970s alongside broader infrastructure construction, and has slowed since due to diminishing returns and conflicts with existing coastline uses rather than regulatory barriers. He argued that simultaneous city-building and land reclamation are complementary in a way that is harder to replicate once a city is already established. This post is not related to AI."
+      },
+      {
+        "title": "This is also why a lot of land reclamation in Tokyo bay first takes the form of fully-separated islands",
+        "url": "https://twitter.com/fchollet/status/2070612257684570535",
+        "source": "Twitter/@fchollet",
+        "paragraph": "Chollet continued his thread on urban land reclamation by explaining that building fully separated islands first — rather than extending existing coastlines — avoids disrupting established port and dock infrastructure. He used Tokyo Bay as the illustrative example, where several artificial islands were constructed independently before being connected to the mainland. This post is not related to AI."
+      }
+    ]
+  }
+]
