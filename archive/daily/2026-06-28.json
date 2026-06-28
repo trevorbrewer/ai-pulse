@@ -1,0 +1,114 @@
+{
+  "date": "2026-06-28",
+  "generated_at": "2026-06-28T12:15:07.718460+00:00",
+  "source_counts": {
+    "rss_feeds": 0,
+    "arxiv": 0,
+    "hackernews": 10,
+    "nitter": 0,
+    "total_raw": 10,
+    "total_deduped": 10
+  },
+  "items": [
+    {
+      "title": "Ford hired AI and sacked humans. It backfired badly",
+      "url": "https://www.the-independent.com/tech/ford-ai-automation-human-workers-b3003787.html",
+      "source": "Hacker News",
+      "published": "2026-06-28T03:09:13+00:00",
+      "summary_raw": "",
+      "points": 207,
+      "num_comments": 149,
+      "hn_url": "https://news.ycombinator.com/item?id=48703968"
+    },
+    {
+      "title": "US Layoffs Skyrocket to Highest Level Since Pandemic AI Blamed for 40% of Cuts",
+      "url": "https://www.ibtimes.co.uk/us-layoffs-skyrocket-highest-level-since-pandemic-tech-giants-blame-ai-40-cuts-1805380",
+      "source": "Hacker News",
+      "published": "2026-06-28T02:16:02+00:00",
+      "summary_raw": "",
+      "points": 14,
+      "num_comments": 2,
+      "hn_url": "https://news.ycombinator.com/item?id=48703722"
+    },
+    {
+      "title": "China Has Matched Anthropic in Cybersecurity, Resetting AI Race",
+      "url": "https://www.wsj.com/tech/ai/chinese-ai-anthropic-mythos-cybersecurity-574b02c2",
+      "source": "Hacker News",
+      "published": "2026-06-28T01:52:01+00:00",
+      "summary_raw": "",
+      "points": 12,
+      "num_comments": 3,
+      "hn_url": "https://news.ycombinator.com/item?id=48703592"
+    },
+    {
+      "title": "The best response to AI slop and online noise is from Robin Williams",
+      "url": "https://jayacunzo.com/blog/your-move-chief",
+      "source": "Hacker News",
+      "published": "2026-06-28T01:28:10+00:00",
+      "summary_raw": "",
+      "points": 272,
+      "num_comments": 151,
+      "hn_url": "https://news.ycombinator.com/item?id=48703452"
+    },
+    {
+      "title": "The AI Industry as You Know It Died Today",
+      "url": "https://www.thealgorithmicbridge.com/p/the-ai-industry-as-you-know-it-died",
+      "source": "Hacker News",
+      "published": "2026-06-27T21:43:51+00:00",
+      "summary_raw": "",
+      "points": 30,
+      "num_comments": 10,
+      "hn_url": "https://news.ycombinator.com/item?id=48702053"
+    },
+    {
+      "title": "Peppa Pig studio wants to clone child actors' voices with AI indefinitely",
+      "url": "https://www.gadgetreview.com/peppa-pigs-ai-voice-clause-draws-nearly-1000-industry-objections",
+      "source": "Hacker News",
+      "published": "2026-06-27T21:23:03+00:00",
+      "summary_raw": "",
+      "points": 21,
+      "num_comments": 15,
+      "hn_url": "https://news.ycombinator.com/item?id=48701902"
+    },
+    {
+      "title": "Everyone feared AI taking over; the real danger is AI serving just the few",
+      "url": "https://news.ycombinator.com/item?id=48701615",
+      "source": "Hacker News",
+      "published": "2026-06-27T20:48:01+00:00",
+      "summary_raw": "Everyone feared AI would enslave humanity; but it looks like the real fight is stopping governments and Big Tech from enslaving AI for the benefit of the few.<p>Amid the newly announced &quot;regulation&quot; of OpenAI&#x27;s frontier models, I believe the future majority feared the most - sort of AI becoming a superpower and enslaving people - may be arriving in the opposite form.<p>Not AI enslaving humanity.<p>But AI being captured, controlled, and used by governments and Big Tech for the benefit of the few.<p>So, surprisingly, the real AI conflict may not be about humans fighting to stop AI from becoming free.\nIt may be about humans fighting to free AI - to make intelligence available for everyone, not only for governments, Big Tech, and the approved few",
+      "points": 81,
+      "num_comments": 53,
+      "hn_url": "https://news.ycombinator.com/item?id=48701615"
+    },
+    {
+      "title": "Show HN: Adrafinil \u2013 keep a lid-closed Mac awake only while agents work",
+      "url": "https://github.com/kageroumado/adrafinil",
+      "source": "Hacker News",
+      "published": "2026-06-27T20:34:53+00:00",
+      "summary_raw": "A month ago there was a wave of posts and tweets about engineers walking around cafes and parks with their MacBooks propped half-open, as fully closing the lid forces sleep that stops their AI agents. Some people made snarky comments about using tmux or Amphetamine, and some defended their choice with \u201cbut I only need it sometimes, and forgetting to disable Amphetamine and finding my laptop discharged in my bag is worse.\u201d<p>This is a solution to this problem. Unlike caffeinate, it will prevent your MacBook from sleeping even with the lid closed, with no external power or display, using pmset disablesleep 1. Unlike other sleep-preventing apps, Adrafinil only activates when there\u2019s an agent actively doing something. It detects agent activity through hooks it installs into Claude Code, Codex, and others. To reassure you it\u2019s working, the app shows the active status in the menu bar, and it plays a chime when you close the lid.<p>Once the agent is done, Adrafinil detects it and lets the laptop go to sleep by setting pmset disablesleep back to 0. It will also let it sleep in case of overheating. And if you want to manually toggle it, you can install an optional MCP and tell your agent to keep the MacBook awake for a specific time.<p>It has four binaries, one of which is a root helper exposing a single setSleepBlocked call. All the logic and policy live in the unprivileged parts. They\u2019re all notarized, and the app is fully open source (MIT).",
+      "points": 110,
+      "num_comments": 71,
+      "hn_url": "https://news.ycombinator.com/item?id=48701512"
+    },
+    {
+      "title": "Chinese Hedge Funds Warn the AI 'Super Bubble' Is Ready to Burst",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-26/chinese-hedge-funds-warn-the-ai-super-bubble-is-ready-to-burst",
+      "source": "Hacker News",
+      "published": "2026-06-27T17:51:04+00:00",
+      "summary_raw": "",
+      "points": 10,
+      "num_comments": 1,
+      "hn_url": "https://news.ycombinator.com/item?id=48700240"
+    },
+    {
+      "title": "Asian AI startups launch Mythos-like models",
+      "url": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/",
+      "source": "Hacker News",
+      "published": "2026-06-27T13:10:21+00:00",
+      "summary_raw": "",
+      "points": 248,
+      "num_comments": 180,
+      "hn_url": "https://news.ycombinator.com/item?id=48697958"
+    }
+  ]
+}
