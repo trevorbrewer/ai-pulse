@@ -1,0 +1,202 @@
+{
+  "date": "2026-06-29",
+  "generated_at": "2026-06-29T14:49:31.370710+00:00",
+  "source_counts": {
+    "rss_feeds": 4,
+    "arxiv": 0,
+    "hackernews": 16,
+    "nitter": 0,
+    "total_raw": 20,
+    "total_deduped": 20
+  },
+  "items": [
+    {
+      "title": "Mapping Europe\u2019s AI Workforce Opportunity",
+      "url": "https://openai.com/index/mapping-ai-jobs-transition-eu",
+      "source": "OpenAI Blog",
+      "published": "2026-06-29T07:00:00+00:00",
+      "summary_raw": "A new OpenAI report maps how AI could reshape jobs across the EU, highlighting which occupations may face automation, growth, or workflow changes."
+    },
+    {
+      "title": "HP Inc. launches Frontier strategic partnership with OpenAI",
+      "url": "https://openai.com/index/hp-frontier-partnership",
+      "source": "OpenAI Blog",
+      "published": "2026-06-28T17:00:00+00:00",
+      "summary_raw": "HP Inc. scales its OpenAI Frontier partnership to deploy AI across customer experiences, software development, and enterprise operations."
+    },
+    {
+      "title": "Quoting Jon Udell",
+      "url": "https://simonwillison.net/2026/Jun/28/jon-udell/#atom-everything",
+      "source": "Simon Willison",
+      "published": "2026-06-28T21:57:41+00:00",
+      "summary_raw": "Human Agent in the loop\nI dislike the phrase \u201chuman in the loop\u201d because it cedes authority to the machines. Let\u2019s flip the narrative. It\u2019s our loop, we work the same way we always have, now we recruit agents to join the team. An agent-assisted process need not be a black box that takes in prompts and emits features. [...]\nLet\u2019s do agentic software development like that. Not as a loop we\u2019ve been excluded from, instead as one we invite agents into.\n&mdash; Jon Udell, \u201cDoctor, it hurts when agents create unreviewable PRs.\u201d \u201cDon\u2019t do that.\u201d\n\n    Tags: jon-udell, coding-agents, generative-ai, agentic-engineering, ai, llms"
+    },
+    {
+      "title": "Hack Your Summer",
+      "url": "https://simonwillison.net/2026/Jun/28/hack-your-summer/#atom-everything",
+      "source": "Simon Willison",
+      "published": "2026-06-28T19:26:11+00:00",
+      "summary_raw": "Hack Your Summer\nI learned about this initiative from DJ Patil this morning:\n\nIt\u2019s a 4-week, high-velocity production sprint for undergraduate students, graduate students, and recent graduates who want to build something real this summer.\nYou\u2019ll learn how to identify a project, make steady progress, get support from mentors and peers, and create tangible, public-facing work you can actually show future employers.\n\nHack Your Summer is partly a reaction to the internship crisis facing US college students this year. There are way fewer available internships than usual, as companies have reduced their hiring ambitions and teams have less capacity to coach interns.\nHack Your Summer provides an alternative path for the many students who didn't catch one of those rare internships.\nA second (free) cohort starts on July 13th, and the deadline for students to apply is July 8th. They're also accepting volunteers to help mentor the students.\n\n\n    Tags: careers"
+    },
+    {
+      "title": "Why did one day of AI cost more than a month of servers?",
+      "url": "https://junueno.dev/en/retry-storm-rebilled-llm-cost/",
+      "source": "Hacker News",
+      "published": "2026-06-29T14:16:16+00:00",
+      "summary_raw": "",
+      "points": 14,
+      "num_comments": 10,
+      "hn_url": "https://news.ycombinator.com/item?id=48719578"
+    },
+    {
+      "title": "Tidal AI Policy",
+      "url": "https://tidal.com/ai-policy",
+      "source": "Hacker News",
+      "published": "2026-06-29T13:09:03+00:00",
+      "summary_raw": "",
+      "points": 128,
+      "num_comments": 128,
+      "hn_url": "https://news.ycombinator.com/item?id=48718840"
+    },
+    {
+      "title": "Anthropic CEO: Open-Source AI is getting dangerous (2023)",
+      "url": "https://xcancel.com/coinbureau/status/2071330294452666695",
+      "source": "Hacker News",
+      "published": "2026-06-29T09:11:33+00:00",
+      "summary_raw": "",
+      "points": 39,
+      "num_comments": 19,
+      "hn_url": "https://news.ycombinator.com/item?id=48716750"
+    },
+    {
+      "title": "AI boom risks global financial crash, warn central bankers",
+      "url": "https://www.telegraph.co.uk/business/2026/06/28/ai-boom-risks-global-financial-crash-central-bankers-warn/",
+      "source": "Hacker News",
+      "published": "2026-06-29T01:25:04+00:00",
+      "summary_raw": "",
+      "points": 143,
+      "num_comments": 181,
+      "hn_url": "https://news.ycombinator.com/item?id=48713697"
+    },
+    {
+      "title": "Sophon PFG-1: a monolithic-3D AI ASIC with 330 GB of on-die DRAM and no HBM",
+      "url": "https://www.phantafield.com/whitepaper",
+      "source": "Hacker News",
+      "published": "2026-06-29T01:23:38+00:00",
+      "summary_raw": "",
+      "points": 28,
+      "num_comments": 34,
+      "hn_url": "https://news.ycombinator.com/item?id=48713686"
+    },
+    {
+      "title": "Better Images of AI",
+      "url": "https://betterimagesofai.org/",
+      "source": "Hacker News",
+      "published": "2026-06-28T23:50:58+00:00",
+      "summary_raw": "",
+      "points": 55,
+      "num_comments": 30,
+      "hn_url": "https://news.ycombinator.com/item?id=48713051"
+    },
+    {
+      "title": "We need tech news sources which exclude AI",
+      "url": "https://news.ycombinator.com/item?id=48713041",
+      "source": "Hacker News",
+      "published": "2026-06-28T23:49:50+00:00",
+      "summary_raw": "Its now clear that we need to preserve tech press for non AI related things. Techmeme for example is now completely overrun with AI stories.<p>HN is getting closer to that every day.<p>If AI kickback deals, phony new model ratings, high RAM prices and your surprise at how you think you coded something with AI and it was AMAZING! even though it doesnt work is all there is count me out.<p>We need a filter on existing tech news sites or an alternative press.",
+      "points": 127,
+      "num_comments": 74,
+      "hn_url": "https://news.ycombinator.com/item?id=48713041"
+    },
+    {
+      "title": "AI Agent Triggers Nuclear Strike After Getting Outmaneuvered in Civilization VI",
+      "url": "https://decrypt.co/371877/ai-agent-nuclear-strike-civilization-vi-benchmark",
+      "source": "Hacker News",
+      "published": "2026-06-28T23:16:53+00:00",
+      "summary_raw": "",
+      "points": 14,
+      "num_comments": 2,
+      "hn_url": "https://news.ycombinator.com/item?id=48712791"
+    },
+    {
+      "title": "France Is Too Hot for Shutters and Ceiling Fans",
+      "url": "https://www.theatlantic.com/ideas/2026/06/france-air-conditioning-failure/687723/",
+      "source": "Hacker News",
+      "published": "2026-06-28T21:06:34+00:00",
+      "summary_raw": "",
+      "points": 11,
+      "num_comments": 2,
+      "hn_url": "https://news.ycombinator.com/item?id=48711651"
+    },
+    {
+      "title": "Show HN: NanoEuler \u2013 GPT-2 scale model in pure C/CUDA from scratch",
+      "url": "https://github.com/JustVugg/nanoeuler",
+      "source": "Hacker News",
+      "published": "2026-06-28T19:38:14+00:00",
+      "summary_raw": "Hi everyone,<p>I started working on nanoeuler after the ban of anthropic&#x27;s fable because my ambition and dream is to work in the AI   field in anthropic. The two interesting reasons that led me to create nanoeuler were (1) interfacing with llm does not mean understanding how they are composed and (2), working on llm with a very low-level layer to understand the correlation between parameters and data and growth of the model and how the GPU works and how some layers can be optimized.<p>So I started working on it with a research aspect by making nanoeuler grow more and more but doing one step after another starting from Shakespeare.txt and understanding what a text generation model understands at 23 million parameters. For example, nanoeuler at that number had understood that Name: started a line and wrote that line with sense.<p>I wrote everything in CUDA because I wanted to not use any intermediary between the model in training and inference and what it had to do. Then the use of SFT and much more, even if in small ways, were really useful to understand the various step to make an llm like a chatbot.Any feedback, help, or suggestions are absolutely welcome!",
+      "points": 52,
+      "num_comments": 21,
+      "hn_url": "https://news.ycombinator.com/item?id=48710778"
+    },
+    {
+      "title": "Ford rehires 'gray beard' engineers after AI falls short",
+      "url": "https://techcrunch.com/2026/06/28/ford-rehires-gray-beard-engineers-after-ai-falls-short/",
+      "source": "Hacker News",
+      "published": "2026-06-28T19:35:57+00:00",
+      "summary_raw": "",
+      "points": 133,
+      "num_comments": 3,
+      "hn_url": "https://news.ycombinator.com/item?id=48710749"
+    },
+    {
+      "title": "Computer-Aided Language Development in Nonspeaking Children (1968) [pdf]",
+      "url": "https://archive.org/details/colby1968-computer-aided-language-development-in-non-speaking-children",
+      "source": "Hacker News",
+      "published": "2026-06-28T18:59:53+00:00",
+      "summary_raw": "<a href=\"http:&#x2F;&#x2F;i.stanford.edu&#x2F;pub&#x2F;cstr&#x2F;reports&#x2F;cs&#x2F;tr&#x2F;68&#x2F;85&#x2F;CS-TR-68-85.pdf\" rel=\"nofollow\">http:&#x2F;&#x2F;i.stanford.edu&#x2F;pub&#x2F;cstr&#x2F;reports&#x2F;cs&#x2F;tr&#x2F;68&#x2F;85&#x2F;CS-TR-68-...</a>",
+      "points": 28,
+      "num_comments": 1,
+      "hn_url": "https://news.ycombinator.com/item?id=48710350"
+    },
+    {
+      "title": "China Resets AI Race",
+      "url": "https://www.wsj.com/tech/ai/chinese-ai-anthropic-mythos-cybersecurity-574b02c2",
+      "source": "Hacker News",
+      "published": "2026-06-28T18:49:23+00:00",
+      "summary_raw": "",
+      "points": 12,
+      "num_comments": 3,
+      "hn_url": "https://news.ycombinator.com/item?id=48710244"
+    },
+    {
+      "title": "Librepods: AirPods liberated",
+      "url": "https://github.com/librepods-org/librepods",
+      "source": "Hacker News",
+      "published": "2026-06-28T18:48:53+00:00",
+      "summary_raw": "",
+      "points": 443,
+      "num_comments": 159,
+      "hn_url": "https://news.ycombinator.com/item?id=48710232"
+    },
+    {
+      "title": "Professor denounces mass AI fraud on an exam at Brown",
+      "url": "https://english.elpais.com/education/2026-06-28/ai-fraud-at-brown-university-academic-integrity-is-at-risk.html",
+      "source": "Hacker News",
+      "published": "2026-06-28T16:41:12+00:00",
+      "summary_raw": "",
+      "points": 486,
+      "num_comments": 634,
+      "hn_url": "https://news.ycombinator.com/item?id=48708991"
+    },
+    {
+      "title": "Reflections on software engineering in the age of AI",
+      "url": "https://adiamond.me/2026/06/software-engineering-in-the-age-of-ai/",
+      "source": "Hacker News",
+      "published": "2026-06-28T16:17:38+00:00",
+      "summary_raw": "",
+      "points": 100,
+      "num_comments": 94,
+      "hn_url": "https://news.ycombinator.com/item?id=48708721"
+    }
+  ]
+}
