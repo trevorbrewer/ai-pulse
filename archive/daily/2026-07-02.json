@@ -1,0 +1,256 @@
+{
+  "date": "2026-07-02",
+  "generated_at": "2026-07-02T15:35:54.825626+00:00",
+  "source_counts": {
+    "rss_feeds": 2,
+    "arxiv": 44,
+    "hackernews": 26,
+    "nitter": 0,
+    "total_raw": 72,
+    "total_deduped": 72,
+    "total_saved": 25
+  },
+  "items": [
+    {
+      "title": "Launch HN: Manufact (YC S25) \u2013 MCP Cloud",
+      "url": "https://manufact.com",
+      "source": "Hacker News",
+      "published": "2026-07-02T15:11:20+00:00",
+      "summary_raw": "Hi HN, we are Pietro and Luigi, cofounders of Manufact (<a href=\"https:&#x2F;&#x2F;manufact.com\">https:&#x2F;&#x2F;manufact.com</a>), a cloud for MCP apps and servers. We used to be called mcp-use, and still build open source SDKs for MCP under that name: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;mcp-use&#x2F;mcp-use\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;mcp-use&#x2F;mcp-use</a>. We did a Show HN about that last year: <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=44747229\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=44747229</a>.<p>Today we want to tell you about our cloud product, Manufact, which is to mcp-use as Vercel is to Next.js. Manufact is an MCP vertical cloud designed for dev teams putting MCP Apps and servers in production.You can ship, iterate on, test and monitor your MCPs, and get them ready for the store submissions. All with the best developer and agent experience in mind.<p>Here is a demo video of the product: <a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=R2rbr5OT9LI\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=R2rbr5OT9LI</a>.<p>We have been working on MCP since April 2025. Our first focus was making it easy to build agents that could use any MCP server, and a lot of people started using our SDKs. Then the harness revolution kicked off: Claude Code, Claude Cowork, ChatGPT, Codex, OpenCode started shipping agent harnesses that made most standalone agent frameworks redundant. That pushed us to the other side of the connection, the servers. If agents were going to consolidate into a few harnesses, then first-class integration with the rest of a company&#x27;s systems (i.e. MCP) would become the thing that mattered, so we started building up our server SDKs.<p>Then in succession:<p>1. Oct 2025. ChatGPT Apps SDK. OpenAI brings app UIs to ChatGPT, built on top of MCP and the work of mcp-ui.\n2. Late 2025. The stores open. ChatGPT starts accepting app submissions, Claude grows its connector directory with selected partners.\n3. Jan 2026. MCP Apps becomes official. SEP-1865 merges as the first MCP extension (io.modelcontextprotocol&#x2F;ui): one UI standard any host can render.<p>Today, all the major clients fully support MCP and are opening marketplaces of reviewed MCPs that can be one click installed. All major tech companies have an MCP server, and many of those are reporting that already 15+% of their usage comes from their MCP, and we start to have a good way to distribute them just now.<p>MCP can return fully interactive UIs. So companies can (1) display data in more meaningful ways to their users (e.g. analytics, ecommerce) and (2) display their branding in some of the most used products on the planet (ChatGPT, Claude etc). Numbers: an engineer at Amplitude reported that their MCP saw a 2x increase in retention after adding UI to their MCP.<p>Clients (Claude, ChatGPT, Cursor) are starting to dynamically present MCP servers&#x2F;apps to users, based on their intent. Products will be organically discovered on the chats!<p>We feel that MCP is reaching its maturity moment. Now that MCPs are starting to be easy to install and discover, there is going to be a huge incentive for users to use them and for companies to create them:<p>1 - Most work is already done from AI chats, this is not going to stop, MCP gives you a way to interact with products without manually using their dashboards.<p>2 - MCP allows you to bring the context together in one place: you can read an email, create a ticket while plugged into the source code of your product, or your knowledge base. Aggregation of products that was not possible before, will happen in the chat, orchestrated by increasingly intelligent models.<p>If AI apps (Codex, Claude Desktop) are the new browsers, as PG said in a recent tweet <a href=\"https:&#x2F;&#x2F;x.com&#x2F;paulg&#x2F;status&#x2F;2069080429236191504\" rel=\"nofollow\">https:&#x2F;&#x2F;x.com&#x2F;paulg&#x2F;status&#x2F;2069080429236191504</a>, then MCPs are the new websites.<p>But there is a catch:<p>- Submission process on the stores is still quite tricky, manual and takes up valuable time.\n- Hardly anybody knows how to design a good MCP: most of them are 1:1 proxies of the API and are abandoned, since being one shotted a few months ago.\n- The MCP Spec advances quickly and it is not easy to keep track of the changes, and what they mean for your server.\n- Auth is still a mystery for most teams (API key in the URL ???).\n- Most companies are not even aware that MCPs can return interactive UIs.\n- Clients still have to consolidate behavior, some do dynamic tool discovery, some don&#x27;t, some persist authentication properly some don&#x27;t.<p>We built Manufact and mcp-use to solve these problems.\nOur SDKs help them build good MCPs, our inspector helps them test locally, and our cloud helps them ship&#x2F;publish and monitor them in production.<p>To deploy on Manufact you just need to connect a Github app, pick the repo, we&#x27;ll detect the framework you are working with and get you a live MCP url as soon as possible.<p>In our platform, that live URL will be used to give you a chat where you can try&#x2F;debug your MCP immediately and share it with your team. If you push an update on a new experimental branch, you&#x27;ll be able to test that as well thanks to preview deployments.<p>Once your server is ready to go live, we help you make sure that it does not break. You can configure automated tests that will take your MCP server, install it in ChatGPT and Claude and test it. We do not test the model, we test the client (model + harness). This way you reliably know if your server breaks where people use it.<p>Since publishing on the store is a major distribution unlock for companies (your MCP can be dynamically discovered and one click installed across Claude\nproducts, and ChatGPT), we collected a set of requirements that will keep your submission from being rejected. You check this locally before going through the actual review process.<p>Once your server is live, you&#x27;ll want to understand how it is used. Our analytics are designed for MCP, so you&#x27;ll know how many users are hitting\nyour MCP, how many tool calls you receive, from which client.<p>You can try out <a href=\"https:&#x2F;&#x2F;manufact.com\">https:&#x2F;&#x2F;manufact.com</a> for free today. We have usage-based pricing and on our free account we give free credits for you to try it out. If you have an\nMCP already, just connect your Github repo and deploy, if not you can build one using our skill and SDKs pretty simply (we will guide you in the onboarding).<p>We would love to hear feedback about the product in the comments, and hear thoughts from everyone about MCP. Thanks! :)",
+      "points": 13,
+      "num_comments": 1,
+      "hn_url": "https://news.ycombinator.com/item?id=48762862"
+    },
+    {
+      "title": "Show HN: Mail Memories \u2013 A desktop app to rescue photos from Gmail",
+      "url": "https://mailmemories.com",
+      "source": "Hacker News",
+      "published": "2026-07-02T14:16:57+00:00",
+      "summary_raw": "Hey HN, I\u2019m the creator of Mail Memories. Like many of you, I&#x27;ve had my Gmail address for more than 20 years. A few years ago, I got curious and wanted to see what photos were buried deep in my account. I ended up finding lots of &quot;lost&quot; pictures of old friends, family members, and a ridiculous number of vintage memes.<p>I originally built and launched this as a SaaS, but even with code and policies in place that kept users&#x27; photos private, I figured everyone would feel more comfortable with a desktop app.<p>So, I threw out the server architecture and completely rewrote it as a 100% local desktop app for Mac and Windows.<p>How it works now: The app connects directly to Google&#x27;s server from your computer, processes everything entirely on your system, and saves photos straight to your hard drive.<p>You can download your 50 oldest photos for free (no credit card required) just to see what&#x27;s in there. If you want to download all the pictures in your account, it&#x27;s a one-time payment of $29. No subscriptions.<p>If you have an old, pre-2010 Gmail account, definitely give it a spin. You&#x27;ll be surprised at what you find deep in your archive.<p>I&#x27;d love to hear your feedback on the layout, scanning performance, or anything else.<p>TL;DR: I turned my SaaS into a local desktop app (Mac&#x2F;Windows) that recovers decades of forgotten photos from your Gmail. 100% local, no cloud, no subscriptions, no AI.",
+      "points": 26,
+      "num_comments": 10,
+      "hn_url": "https://news.ycombinator.com/item?id=48762000"
+    },
+    {
+      "title": "AI can't be listed as inventor on patent applications, Japan's top court rules",
+      "url": "https://japannews.yomiuri.co.jp/science-nature/technology/20260306-314930/",
+      "source": "Hacker News",
+      "published": "2026-07-02T13:43:41+00:00",
+      "summary_raw": "",
+      "points": 105,
+      "num_comments": 37,
+      "hn_url": "https://news.ycombinator.com/item?id=48761536"
+    },
+    {
+      "title": "In the age of algorithms and AI, is traditional media democracy's defence?",
+      "url": "https://www.martenscentre.eu/media-mentions/in-the-age-of-algorithms-and-ai-is-traditional-media-democracys-last-line-of-defence/",
+      "source": "Hacker News",
+      "published": "2026-07-02T13:16:54+00:00",
+      "summary_raw": "",
+      "points": 13,
+      "num_comments": 20,
+      "hn_url": "https://news.ycombinator.com/item?id=48761088"
+    },
+    {
+      "title": "AI fake news complaining about how AI fake news is the death of real news",
+      "url": "https://www.niemanlab.org/2026/07/now-were-getting-ai-fake-news-complaining-about-how-ai-fake-news-is-the-death-of-real-news/",
+      "source": "Hacker News",
+      "published": "2026-07-02T12:40:36+00:00",
+      "summary_raw": "",
+      "points": 125,
+      "num_comments": 41,
+      "hn_url": "https://news.ycombinator.com/item?id=48760598"
+    },
+    {
+      "title": "Will tech giants ever let us opt out of AI search features?",
+      "url": "https://www.fastcompany.com/91561463/google-ai-overviews-users-opt-out-will-that-change",
+      "source": "Hacker News",
+      "published": "2026-07-02T12:01:41+00:00",
+      "summary_raw": "",
+      "points": 11,
+      "num_comments": 4,
+      "hn_url": "https://news.ycombinator.com/item?id=48760093"
+    },
+    {
+      "title": "OpenAI \u2018in early talks to give 5% stake to US government\u2019",
+      "url": "https://www.theguardian.com/technology/2026/jul/02/openai-stake-us-government-ai-sam-altman",
+      "source": "Hacker News",
+      "published": "2026-07-02T11:16:31+00:00",
+      "summary_raw": "",
+      "points": 59,
+      "num_comments": 89,
+      "hn_url": "https://news.ycombinator.com/item?id=48759623"
+    },
+    {
+      "title": "Meta building cloud business to sell excess AI capacity",
+      "url": "https://www.reuters.com/business/meta-sell-excess-ai-computing-capacity-via-cloud-business-bloomberg-news-reports-2026-07-01/",
+      "source": "Hacker News",
+      "published": "2026-07-02T10:43:41+00:00",
+      "summary_raw": "",
+      "points": 26,
+      "num_comments": 62,
+      "hn_url": "https://news.ycombinator.com/item?id=48759329"
+    },
+    {
+      "title": "The gauge broke: devs felt 20% faster with AI, measured 19% slower (2025)",
+      "url": "https://intrepidkarthi.com/writing/the-gauge-broke/",
+      "source": "Hacker News",
+      "published": "2026-07-02T06:44:34+00:00",
+      "summary_raw": "",
+      "points": 74,
+      "num_comments": 92,
+      "hn_url": "https://news.ycombinator.com/item?id=48757440"
+    },
+    {
+      "title": "Why is Apple asking me to pay more for Big Tech's AI obsession?",
+      "url": "https://www.theverge.com/report/958678/apple-consumer-price-increase-ai-big-tech",
+      "source": "Hacker News",
+      "published": "2026-07-02T03:05:38+00:00",
+      "summary_raw": "",
+      "points": 10,
+      "num_comments": 5,
+      "hn_url": "https://news.ycombinator.com/item?id=48756002"
+    },
+    {
+      "title": "Senior SWE-Bench: open-source benchmark that assesses agents as senior engineers",
+      "url": "https://senior-swe-bench.snorkel.ai/",
+      "source": "Hacker News",
+      "published": "2026-07-02T02:55:16+00:00",
+      "summary_raw": "",
+      "points": 121,
+      "num_comments": 86,
+      "hn_url": "https://news.ycombinator.com/item?id=48755928"
+    },
+    {
+      "title": "I'm Begging You to Leave Your AI Note-Taker at Home",
+      "url": "https://www.joanwestenberg.com/p/im-begging-you-to-leave-your-ai-note",
+      "source": "Hacker News",
+      "published": "2026-07-02T01:46:59+00:00",
+      "summary_raw": "",
+      "points": 20,
+      "num_comments": 18,
+      "hn_url": "https://news.ycombinator.com/item?id=48755439"
+    },
+    {
+      "title": "Meta caps internal AI token spending",
+      "url": "https://mlq.ai/news/meta-caps-internal-ai-token-spending-after-costs-approach-billions-in-2026/",
+      "source": "Hacker News",
+      "published": "2026-07-01T23:58:48+00:00",
+      "summary_raw": "",
+      "points": 144,
+      "num_comments": 139,
+      "hn_url": "https://news.ycombinator.com/item?id=48754713"
+    },
+    {
+      "title": "I'm opening VSCode less and less every day",
+      "url": "https://news.ycombinator.com/item?id=48754232",
+      "source": "Hacker News",
+      "published": "2026-07-01T22:56:56+00:00",
+      "summary_raw": "I&#x27;ve been a dev for close to 9 years now, always spending my time inside VSCode.<p>When the AI extension came in, I started writing less code, reading more.<p>When Claude Desktop app came in, I did not like it, stuck with the VSCode extension.<p>Then the app got better, and the extension got worse. so I switched my focus to that instead of the code editor.<p>I now view the diffs in the Claude app instead of VSCode, and only switch to VSCode for a more thorough review.<p>Now VSCode ships with a new view, similar to that of Claude.<p>I rarely open VSCode now. I rarely write code now.<p>I miss writing code.",
+      "points": 18,
+      "num_comments": 13,
+      "hn_url": "https://news.ycombinator.com/item?id=48754232"
+    },
+    {
+      "title": "Weird Al declined 'a nice pile of money' to star in AI ad",
+      "url": "https://www.avclub.com/weird-al-yankovic-ai-commercial-exit",
+      "source": "Hacker News",
+      "published": "2026-07-01T22:41:08+00:00",
+      "summary_raw": "",
+      "points": 27,
+      "num_comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=48754099"
+    },
+    {
+      "title": "Opening up 'Zero-Knowledge Proof' technology to promote privacy in age assurance",
+      "url": "https://blog.google/innovation-and-ai/technology/safety-security/opening-up-zero-knowledge-proof-technology-to-promote-privacy-in-age-assurance/",
+      "source": "Hacker News",
+      "published": "2026-07-01T22:27:47+00:00",
+      "summary_raw": "",
+      "points": 212,
+      "num_comments": 230,
+      "hn_url": "https://news.ycombinator.com/item?id=48753979"
+    },
+    {
+      "title": "'It's like having a dumb friend': Young San Franciscans hate AI",
+      "url": "https://www.sfgate.com/tech/article/san-francisco-ai-backlash-22325141.php",
+      "source": "Hacker News",
+      "published": "2026-07-01T22:22:14+00:00",
+      "summary_raw": "",
+      "points": 45,
+      "num_comments": 15,
+      "hn_url": "https://news.ycombinator.com/item?id=48753927"
+    },
+    {
+      "title": "Your Site, your rules: new AI traffic options for all customers",
+      "url": "https://blog.cloudflare.com/content-independence-day-ai-options/",
+      "source": "Hacker News",
+      "published": "2026-07-01T22:13:44+00:00",
+      "summary_raw": "",
+      "points": 11,
+      "num_comments": 7,
+      "hn_url": "https://news.ycombinator.com/item?id=48753831"
+    },
+    {
+      "title": "ZCode \u2013 Harness for GLM-5.2",
+      "url": "https://zcode.z.ai/en",
+      "source": "Hacker News",
+      "published": "2026-07-01T22:03:36+00:00",
+      "summary_raw": "",
+      "points": 467,
+      "num_comments": 317,
+      "hn_url": "https://news.ycombinator.com/item?id=48753715"
+    },
+    {
+      "title": "House Rules Committee blocks Massie-Khanna amendment to cut Israel aid",
+      "url": "https://www.washingtonexaminer.com/policy/foreign-policy/4631610/massie-khanna-amendment-israel-aid/",
+      "source": "Hacker News",
+      "published": "2026-07-01T21:13:34+00:00",
+      "summary_raw": "",
+      "points": 15,
+      "num_comments": 2,
+      "hn_url": "https://news.ycombinator.com/item?id=48753194"
+    },
+    {
+      "title": "OpenWiki: CLI that writes and maintains agent documentation for your codebase",
+      "url": "https://github.com/langchain-ai/openwiki",
+      "source": "Hacker News",
+      "published": "2026-07-01T20:51:52+00:00",
+      "summary_raw": "",
+      "points": 40,
+      "num_comments": 11,
+      "hn_url": "https://news.ycombinator.com/item?id=48752949"
+    },
+    {
+      "title": "ZCode: Claude Code from the Makers of GLM",
+      "url": "https://zcode.z.ai/cn",
+      "source": "Hacker News",
+      "published": "2026-07-01T19:11:38+00:00",
+      "summary_raw": "",
+      "points": 274,
+      "num_comments": 14,
+      "hn_url": "https://news.ycombinator.com/item?id=48751752"
+    },
+    {
+      "title": "The latest AI news we announced in June 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/",
+      "source": "Google AI Blog",
+      "published": "2026-07-01T18:15:00+00:00",
+      "summary_raw": "June Pixel Drop hero"
+    },
+    {
+      "title": "Measuring the Gap Between Human and LLM Research Ideas",
+      "url": "https://arxiv.org/abs/2607.01233v1",
+      "source": "arXiv",
+      "published": "2026-07-01T17:59:56+00:00",
+      "summary_raw": "LLMs are increasingly used to brainstorm research ideas, but existing evaluations mostly judge individual ideas by novelty, feasibility, or expert preference. We instead ask: how far are current LLM-generated ideas from human researchers? To characterize this gap, we build a large-scale evaluation framework for ideation from high-quality human research papers. For each paper, we reverse-engineer a small set of closely related prior works that likely inspired its core idea. LLMs are then prompted to generate a new idea from the set of paper titles and summaries. We introduce a two-axis research-taste taxonomy to profile each idea by its opportunity pattern and research paradigm, and use it to quantify the divergence between human and LLM ideas. Across idea sets generated by different LLMs, we observe a consistent distributional gap: LLM ideas are disproportionately concentrated around bridge-like opportunities and synthesis methods, whereas the human paper reference distribution spreads more broadly across ways of framing gaps and constructing contributions. This result suggests that strong LLMs can produce a range of reasonable ideas, but that range remains narrower than, and systematically shifted relative to, human research taste."
+    },
+    {
+      "title": "Is One Layer Enough? Training A Single Transformer Layer Can Match Full-Parameter RL Training",
+      "url": "https://arxiv.org/abs/2607.01232v1",
+      "source": "arXiv",
+      "published": "2026-07-01T17:59:54+00:00",
+      "summary_raw": "Reinforcement learning (RL) has become a central component of post-training large language models (LLMs), yet little is understood about how RL adaptation is distributed across transformer layers. Existing approaches typically update all model parameters uniformly, implicitly assuming that every layer contributes similarly to the gains obtained during RL post-training. In this work, we challenge this assumption through a systematic layer-wise study of RL training. Surprisingly, we find that training a single transformer layer can recover most of the gains achieved by full-parameter RL training, and in some cases even surpass it. To quantify this phenomenon, we introduce the quantity layer contribution, which measures the fraction of full RL improvement recovered by training a layer in isolation. Across seven models spanning two model families (Qwen3, Qwen2.5), three RL algorithms (GRPO, GiGPO, Dr. GRPO), and multiple task domains including mathematical reasoning, code generation, and agentic decision-making, we observe a remarkably stable pattern: RL gains are highly concentrated in a small subset of, and in many cases even a single, transformer layers. More strikingly, the same structural pattern consistently emerges: high-contribution layers concentrate in the middle of the transformer stack, while layers near the input and output ends contribute substantially less. The resulting layer rankings remain strongly correlated across datasets, tasks, model families, and RL algorithms."
+    }
+  ]
+}
