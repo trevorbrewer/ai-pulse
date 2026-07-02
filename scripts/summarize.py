@@ -22,6 +22,7 @@ logger = logging.getLogger(__name__)
 _ARCHIVE_DIR = Path(__file__).parent.parent / "archive" / "daily"
 _MODEL = "claude-sonnet-4-6"
 _MAX_TOKENS = 8192
+_CHUNK_SIZE = 12
 
 _SYSTEM_PROMPT = """\
 You are a thoughtful editor for a daily AI news digest aimed at practitioners.
@@ -73,6 +74,59 @@ def _build_user_message(items: list[dict]) -> str:
     return "\n".join(lines)
 
 
+def _parse_response_text(raw_text: str) -> str:
+    """Strip markdown code fences if the model added them despite instructions."""
+    if raw_text.startswith("```"):
+        raw_text = raw_text.split("```", 2)[1]
+        if raw_text.startswith("json"):
+            raw_text = raw_text[4:]
+        raw_text = raw_text.rsplit("```", 1)[0].strip()
+    return raw_text
+
+
+def _summarise_chunk(
+    client: anthropic.Anthropic,
+    items: list[dict],
+    date_str: str,
+    chunk_idx: int,
+) -> list[dict] | None:
+    """Call Claude for one chunk of items. Returns themed groups or None on parse failure."""
+    response = client.messages.create(
+        model=_MODEL,
+        max_tokens=_MAX_TOKENS,
+        system=_SYSTEM_PROMPT,
+        messages=[{"role": "user", "content": _build_user_message(items)}],
+    )
+
+    raw_text = _parse_response_text(response.content[0].text.strip())
+
+    try:
+        return json.loads(raw_text)
+    except json.JSONDecodeError as exc:
+        logger.warning(
+            "JSON parse failed for chunk %d (%s) — saving raw response and skipping",
+            chunk_idx, exc,
+        )
+        raw_path = _ARCHIVE_DIR / f"{date_str}_raw_response_chunk{chunk_idx}.txt"
+        raw_path.write_text(raw_text, encoding="utf-8")
+        logger.warning("Raw response saved to %s", raw_path)
+        return None
+
+
+def _merge_themes(all_chunks: list[list[dict]]) -> list[dict]:
+    """Merge themed groups from multiple chunks, combining stories under shared theme names."""
+    merged: dict[str, list[dict]] = {}
+    order: list[str] = []
+    for chunk in all_chunks:
+        for group in chunk:
+            theme = group.get("theme", "Uncategorised")
+            if theme not in merged:
+                merged[theme] = []
+                order.append(theme)
+            merged[theme].extend(group.get("stories", []))
+    return [{"theme": t, "stories": merged[t]} for t in order]
+
+
 def run(date_str: str) -> Path:
     raw_path = _ARCHIVE_DIR / f"{date_str}.json"
     if not raw_path.exists():
@@ -86,33 +140,23 @@ def run(date_str: str) -> Path:
         logger.warning("No items in %s — writing empty digest", raw_path)
         digest: list[dict] = []
     else:
-        logger.info("Summarising %d items with %s…", len(items), _MODEL)
+        chunks = [items[i:i + _CHUNK_SIZE] for i in range(0, len(items), _CHUNK_SIZE)]
+        logger.info(
+            "Summarising %d items in %d chunk(s) of up to %d with %s…",
+            len(items), len(chunks), _CHUNK_SIZE, _MODEL,
+        )
         client = anthropic.Anthropic()
 
-        response = client.messages.create(
-            model=_MODEL,
-            max_tokens=_MAX_TOKENS,
-            system=_SYSTEM_PROMPT,
-            messages=[{"role": "user", "content": _build_user_message(items)}],
-        )
+        chunk_results: list[list[dict]] = []
+        for idx, chunk in enumerate(chunks, 1):
+            logger.info("  Chunk %d/%d (%d items)…", idx, len(chunks), len(chunk))
+            result = _summarise_chunk(client, chunk, date_str, idx)
+            if result is not None:
+                chunk_results.append(result)
+            else:
+                logger.warning("  Chunk %d skipped due to parse failure.", idx)
 
-        raw_text = response.content[0].text.strip()
-
-        # Strip markdown code fences if the model added them despite instructions
-        if raw_text.startswith("```"):
-            raw_text = raw_text.split("```", 2)[1]
-            if raw_text.startswith("json"):
-                raw_text = raw_text[4:]
-            raw_text = raw_text.rsplit("```", 1)[0].strip()
-
-        try:
-            digest = json.loads(raw_text)
-        except json.JSONDecodeError as exc:
-            logger.error(
-                "Claude returned non-JSON output (%s)\n\nFirst 500 chars:\n%s",
-                exc, raw_text[:500],
-            )
-            sys.exit(1)
+        digest = _merge_themes(chunk_results)
 
     out_path = _ARCHIVE_DIR / f"{date_str}_digest.json"
     out_path.write_text(json.dumps(digest, indent=2, ensure_ascii=False))
