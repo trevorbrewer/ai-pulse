@@ -45,6 +45,9 @@ def run(date_str: str) -> Path:
 
     deduped = list(seen_urls.values()) + no_url_items
 
+    deduped.sort(key=lambda x: x.get("published") or "", reverse=True)
+    items = deduped[:25]
+
     source_counts = {
         "rss_feeds": len(rss_items),
         "arxiv": len(arxiv_items),
@@ -52,11 +55,12 @@ def run(date_str: str) -> Path:
         "nitter": len(nitter_items),
         "total_raw": len(all_items),
         "total_deduped": len(deduped),
+        "total_saved": len(items),
     }
 
     logger.info(
-        "Fetched %d items total, %d after dedup  (rss: %d, arxiv: %d, hn: %d, nitter: %d)",
-        len(all_items), len(deduped),
+        "Fetched %d items total, %d after dedup, %d saved  (rss: %d, arxiv: %d, hn: %d, nitter: %d)",
+        len(all_items), len(deduped), len(items),
         len(rss_items), len(arxiv_items), len(hn_items), len(nitter_items),
     )
 
@@ -67,10 +71,10 @@ def run(date_str: str) -> Path:
         "date": date_str,
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "source_counts": source_counts,
-        "items": deduped,
+        "items": items,
     }, indent=2, default=str))
 
-    logger.info("Wrote %d items to %s", len(deduped), out_path)
+    logger.info("Wrote %d items to %s", len(items), out_path)
     return out_path
 
 

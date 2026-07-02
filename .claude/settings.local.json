@@ -5,7 +5,8 @@
       "Bash(python -)",
       "Skill(claude-api)",
       "Bash(python3 *)",
-      "Bash(pip3 install *)"
+      "Bash(pip3 install *)",
+      "Bash(gh run *)"
     ]
   }
 }
