@@ -1,0 +1,238 @@
+{
+  "date": "2026-07-03",
+  "generated_at": "2026-07-03T12:54:47.907419+00:00",
+  "source_counts": {
+    "rss_feeds": 3,
+    "arxiv": 50,
+    "hackernews": 23,
+    "nitter": 0,
+    "total_raw": 76,
+    "total_deduped": 76,
+    "total_saved": 25
+  },
+  "items": [
+    {
+      "title": "AI Data Centers Use More Water Than Most Tech Giants Report",
+      "url": "https://www.wsj.com/tech/ai/ai-data-centers-water-use-901e2902",
+      "source": "Hacker News",
+      "published": "2026-07-03T12:33:20+00:00",
+      "summary_raw": "",
+      "points": 10,
+      "num_comments": 3,
+      "hn_url": "https://news.ycombinator.com/item?id=48774246"
+    },
+    {
+      "title": "Amazon's Mechanical Turk to stop accepting new customers",
+      "url": "https://www.theregister.com/off-prem/2026/07/03/amazons-mechanical-turk-to-stop-accepting-new-customers-and-not-even-ai-can-save-it/5266274",
+      "source": "Hacker News",
+      "published": "2026-07-03T08:13:04+00:00",
+      "summary_raw": "",
+      "points": 17,
+      "num_comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=48772317"
+    },
+    {
+      "title": "Ask HN: Is anyone experimenting with different ways of using LLMs for coding?",
+      "url": "https://news.ycombinator.com/item?id=48771515",
+      "source": "Hacker News",
+      "published": "2026-07-03T06:21:44+00:00",
+      "summary_raw": "I&#x27;m a bit annoyed by the feeling that we&#x27;re kind of stuck when it comes to using LLMs for programming.<p>I use Claude Code and Codex, but I haven&#x27;t been able to enter flow state like I can when I hand write code.<p>This is kind of ironic to me since AI should be a bicycle for the mind, but right now it feels like a bicycle that just brakes abruptly every couple minutes. I stop, wait, review, prompt again.<p>Is there anyone exploring something fundamentally different than the prompt response loop we have today?<p>I actually think the idea of a tab model is directionally better than prompt response.<p>Would love to hear about any startups, personal experiments, etc.",
+      "points": 35,
+      "num_comments": 59,
+      "hn_url": "https://news.ycombinator.com/item?id=48771515"
+    },
+    {
+      "title": "AI coding is a nightmare. Am I the only one experiencing this?",
+      "url": "https://news.ycombinator.com/item?id=48770319",
+      "source": "Hacker News",
+      "published": "2026-07-03T03:18:42+00:00",
+      "summary_raw": "Here are my biggest gripes with AI coding assistants right now:\nObsessed with reinventing the wheel. You&#x27;ll often find it writing three duplicate functions for the exact same feature in a single file. Why? Because it&#x27;s terrified of blowing up the context window, so it only reads a fraction of a large file and completely misses the existing functionality.\nWhy are files so bloated in the first place? Because AI prefers adding new code over modifying existing code, and it rarely deletes anything. After a few iterations, your codebase becomes a mountain of dead code.\nZero holistic awareness. It hyper-focuses on the current task and couldn&#x27;t care less if its changes break other parts of the system. If you point out that the original logic is now broken, it treats it as a brand-new task. It\u2019ll fix that specific bug, but whether its newly written code still works after the fix? &quot;Not my problem.&quot;\nThe context window is painfully short. If you try to solve the issues above by dumping all the necessary context into the prompt, you&#x27;ll hit the 200k token limit in no time. After just two more turns, it triggers auto-compacting, and suddenly it turns back into an idiot.\nLong context = instant brain damage. Just when you&#x27;ve painstakingly stuffed the perfect amount of context into the window, the model completely loses its mind. The longer the context, the more incoherent its responses become.\nLogical reasoning is practically non-existent. A simple feature that would take a human dev 3-5 lines of code to tweak in an existing function? The AI will insist on designing an entirely new system architecture for it.\nThe more you tune it, the dumber it gets. You burn through millions of tokens, and every time it replies with &quot;I understand!&quot; or &quot;I&#x27;ve got it completely!&quot;, the code it spits out still refuses to run.",
+      "points": 50,
+      "num_comments": 38,
+      "hn_url": "https://news.ycombinator.com/item?id=48770319"
+    },
+    {
+      "title": "AI is 'not smart' so what's next in artificial intelligence?",
+      "url": "https://www.bbc.com/news/articles/cj6gr0xkyr3o",
+      "source": "Hacker News",
+      "published": "2026-07-03T01:42:40+00:00",
+      "summary_raw": "",
+      "points": 38,
+      "num_comments": 61,
+      "hn_url": "https://news.ycombinator.com/item?id=48769696"
+    },
+    {
+      "title": "Peter Thiel in Aspen: The pope is 'working for the Chinese Communists'",
+      "url": "https://www.cnn.com/2026/07/02/us/peter-thiel-aspen-pope-china-ai-cec",
+      "source": "Hacker News",
+      "published": "2026-07-03T00:42:08+00:00",
+      "summary_raw": "",
+      "points": 23,
+      "num_comments": 15,
+      "hn_url": "https://news.ycombinator.com/item?id=48769261"
+    },
+    {
+      "title": "\"An AI Job Apocalypse?\" \u2013 Goldman Sachs Report [pdf]",
+      "url": "https://www.goldmansachs.com/static-libs/pdf-redirect/prod/index.html?path=/pdfs/insights/goldman-sachs-research/an-ai-job-apocalypse/report.pdf&originalQuery=&referrer=",
+      "source": "Hacker News",
+      "published": "2026-07-03T00:18:11+00:00",
+      "summary_raw": "",
+      "points": 27,
+      "num_comments": 73,
+      "hn_url": "https://news.ycombinator.com/item?id=48769110"
+    },
+    {
+      "title": "Show HN: I made a tool that prevents websites from tracking you",
+      "url": "https://github.com/alex-w-developer/GetBlocked",
+      "source": "Hacker News",
+      "published": "2026-07-03T00:11:55+00:00",
+      "summary_raw": "I know we are very wary of AI slop but disclaimer: AI was used. I don&#x27;t think that it is slop though and it was mostly used for formatting.",
+      "points": 23,
+      "num_comments": 9,
+      "hn_url": "https://news.ycombinator.com/item?id=48769064"
+    },
+    {
+      "title": "'Weird Al' Yankovic Pulled Out of AI Ad",
+      "url": "https://variety.com/2026/music/news/weird-al-yankovic-rejected-ai-commercial-money-offer-1236800794/",
+      "source": "Hacker News",
+      "published": "2026-07-02T22:01:52+00:00",
+      "summary_raw": "",
+      "points": 27,
+      "num_comments": 1,
+      "hn_url": "https://news.ycombinator.com/item?id=48767942"
+    },
+    {
+      "title": "Zuckerberg says AI agent development going slower than expected",
+      "url": "https://www.reuters.com/business/zuckerberg-says-ai-agent-development-going-slower-than-expected-2026-07-02/",
+      "source": "Hacker News",
+      "published": "2026-07-02T20:38:06+00:00",
+      "summary_raw": "",
+      "points": 38,
+      "num_comments": 44,
+      "hn_url": "https://news.ycombinator.com/item?id=48767058"
+    },
+    {
+      "title": "AI content flood: why the web's signal is dying",
+      "url": "https://psyll.com/articles/technology/ai-machine-learning/ai-content-flood-why-the-webs-signal-is-dying",
+      "source": "Hacker News",
+      "published": "2026-07-02T20:04:05+00:00",
+      "summary_raw": "",
+      "points": 12,
+      "num_comments": 2,
+      "hn_url": "https://news.ycombinator.com/item?id=48766635"
+    },
+    {
+      "title": "llm-coding-agent 0.1a0",
+      "url": "https://simonwillison.net/2026/Jul/2/llm-coding-agent/#atom-everything",
+      "source": "Simon Willison",
+      "published": "2026-07-02T19:33:12+00:00",
+      "summary_raw": "Release: llm-coding-agent 0.1a0\n        Another Fable 5 experiment. Now that my LLM library has evolved into more of an agent framework it's time to see what a simple coding agent would look like built on it.\nI started a new Python library using my python-lib-template-repository GitHub template repository, then ran these two prompts (here's the Claude Code for web transcript):\n\nWrite a spec.md for this project - it will depend on the latest \u201cllm\u201d alpha from PyPI and implement a Claude code style coding agent complete with tools for reading and editing files and executing commands\n\nThen:\n\nCommit the spec, then build it using red/green TDD in a series of sensible commits (each with passing tests and updated docs) - occasionally manually test it using the OpenAI API key in your environment\n\nHere's the spec, the resulting README file, and the sequence of commits.\nI've shipped a slop-alpha to PyPI, so you can run the new agent like this:\nuvx --prerelease=allow --with llm-coding-agent llm code\n\nIt's pretty good for a first attempt! Here's the (Fable-authored) README, which lists recipes like llm code --yolo and llm code --allow \"pytest*\" --allow \"git diff*\".\nIt also presents a Python API based around a CodingAgent(model=\"gpt-5.5\", root=\"/path\", approve=True).run(\"Fix the failing test in tests/test_parser.py\") class which I didn't ask for but I'm delighted to see implemented.\nHere's the suite of tools it implemented, listed using uvx ... llm tools:\n\nCodingTools_edit_file(path: str, old_string: str, new_string: str, replace_all: bool = False) -&gt; str\nReplace an exact string in a file.\nold_string must match the file contents exactly (including\nwhitespace) and must identify a unique location unless replace_all\nis true. Returns a diff of the change so it can be verified.\nCodingTools_execute_command(command: str, timeout: int = 120) -&gt; str\nRun a shell command in the session root directory.\nReturns combined stdout and stderr followed by an Exit code line.\ntimeout is in seconds (maximum 600); on timeout the whole process\ntree is killed.\nCodingTools_list_files(pattern: str = '**/*', path: str = '.') -&gt; str\nList files matching a glob pattern, newest first.\nSkips hidden directories, node_modules, __pycache__ and (in a git\nrepository) anything covered by .gitignore. Returns at most 200\npaths relative to the searched directory.\nCodingTools_read_file(path: str, offset: int = 0, limit: int = 2000) -&gt; str\nRead a text file, returning numbered lines like cat -n.\nPaths are relative to the session root. Use offset (0-based first\nline) and limit (max lines) to page through files too large to read\nin one call.\nCodingTools_search_files(pattern: str, path: str = '.', glob: str = None, max_results: int = 100) -&gt; str\nSearch file contents for a regular expression.\nReturns matches as path:line_number:line, capped at max_results.\nUse glob (e.g. \"*.py\") to restrict which files are searched.\nCodingTools_write_file(path: str, content: str) -&gt; str\nCreate or overwrite a file with the given content.\nParent directories are created as needed. Prefer edit_file for\nmodifying existing files.\n\nI tried it out by running llm code --yolo and then prompting:\n\nmkdir /tmp/demo and then in that folder create a simple swiftui CLI app for telling the time in ascii art\n\nHere's the transcript, in which GPT-5.5 reasoning notes that \"SwiftUI isn't suitable for a true CLI\" and then builds an app that outputs this on swift run AsciiTime:\n\n      \u2588    \u2588\u2588\u2588\u2588\u2588         \u2588\u2588\u2588\u2588     \u2588             \u2588     \u2588\u2588\u2588   \n     \u2588\u2588    \u2588        \u2588        \u2588   \u2588\u2588      \u2588     \u2588\u2588    \u2588   \u2588  \n      \u2588    \u2588\u2588\u2588\u2588           \u2588\u2588\u2588     \u2588             \u2588       \u2588   \n      \u2588        \u2588    \u2588        \u2588    \u2588      \u2588      \u2588      \u2588    \n     \u2588\u2588\u2588   \u2588\u2588\u2588\u2588          \u2588\u2588\u2588\u2588    \u2588\u2588\u2588           \u2588\u2588\u2588   \u2588\u2588\u2588\u2588\u2588\n\n    \n    \n        Tags: projects, ai, generative-ai, llm, llm-tool-use, coding-agents, claude-code, claude-mythos-fable"
+    },
+    {
+      "title": "Show HN: Bramble \u2013 Local-first password manager",
+      "url": "https://github.com/flythenimbus/bramble",
+      "source": "Hacker News",
+      "published": "2026-07-02T19:29:58+00:00",
+      "summary_raw": "I&#x27;m currently working on Bramble, an open source password manager with P2P cross-device sync. Initially I released the Chrome extension, but recently I also published the Android app and iOS is pending Apple&#x27;s approval. Besides that, the latest version also includes passkey storage for all platforms!<p>About Bramble:<p>It aims to be as feature-rich as all popular and a replacement for cloud-based providers. I don&#x27;t think we need to store our data in the cloud and be at the whims of companies raising their prices every year. There&#x27;s always a breach and then we find out that some fields aren&#x27;t encrypted, metadata is visible, and so on. I&#x27;m frustrated with this and the increasing lack of transparency during these breaches.<p>The P2P sync in Bramble uses a Nostr relay (which can be self-hosted) to keep your devices in sync. The relay just introduces the devices to each other; the data then flows directly over WebRTC, so there&#x27;s no vault server and no cloud copy of your passwords anywhere. What leaves your device is end-to-end encrypted and your devices authenticate each other directly, so a snooping or MITM relay gets practically nothing.<p>Crypto is all done in Rust so I can control exactly how key material lives and dies in memory (secrets get zeroed out, no GB leaving copies lying around). In Chromium it&#x27;s a wasm module, on mobile it&#x27;s native builds bridged over via uniffi.<p>Android app:<p>I&#x27;m still deciding whether to publish the app on Play store or simply provide the signed APK which users can sideload. Reason for that is Google&#x27;s plan to lock down Android and take away ownership from its users. Read more about it here: <a href=\"https:&#x2F;&#x2F;keepandroidopen.com&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;keepandroidopen.com&#x2F;</a><p>The app uses no Play APIs whatsoever and runs perfectly on GrapheneOS, where I actually did all my testing.<p>Questions, feedback, feature requests - all welcome!<p>TL;DR: I dislike private-equity and venture funded companies messing with our security, so I created my own Password Manager which is local-first, free, open source and as transparent as it gets.",
+      "points": 61,
+      "num_comments": 9,
+      "hn_url": "https://news.ycombinator.com/item?id=48766242"
+    },
+    {
+      "title": "The short leash AI coding method for beating Fable",
+      "url": "https://blog.okturtles.org/2026/07/short-leash-ai-method/",
+      "source": "Hacker News",
+      "published": "2026-07-02T19:11:57+00:00",
+      "summary_raw": "",
+      "points": 152,
+      "num_comments": 188,
+      "hn_url": "https://news.ycombinator.com/item?id=48766026"
+    },
+    {
+      "title": "Microsoft's unreleased lightweight Edge-based Windows 11 AI OS leaks",
+      "url": "https://www.neowin.net/news/microsofts-alleged-unreleased-lightweight-edge-based-windows-11-ai-os-leaks/",
+      "source": "Hacker News",
+      "published": "2026-07-02T19:08:10+00:00",
+      "summary_raw": "",
+      "points": 16,
+      "num_comments": 1,
+      "hn_url": "https://news.ycombinator.com/item?id=48765987"
+    },
+    {
+      "title": "Klara and the Sun Essay Contest \u2013 $1k Prize \u2013 AI Use Allowed",
+      "url": "https://willpenman.com/klara/",
+      "source": "Hacker News",
+      "published": "2026-07-02T18:48:58+00:00",
+      "summary_raw": "",
+      "points": 17,
+      "num_comments": 19,
+      "hn_url": "https://news.ycombinator.com/item?id=48765743"
+    },
+    {
+      "title": "Using DSPy to evaluate and improve Datasette Agent's SQL system prompts",
+      "url": "https://simonwillison.net/2026/Jul/2/dspy-datasette-agent-prompts/#atom-everything",
+      "source": "Simon Willison",
+      "published": "2026-07-02T18:25:00+00:00",
+      "summary_raw": "Research: Using DSPy to evaluate and improve Datasette Agent&#x27;s SQL system prompts\n        One of this morning's AIE keynotes covered dspy, which reminded me I've been meaning to see if it could help me improve the system prompt used by Datasette Agent - so I fired off an asynchronous research task in Claude Code for web using Claude Fable 5:\n\nPip install the latest Datasette alpha and datasette-agent and dspy - then figure out how to use dspy to evaluate and improve the main system prompts used by Datasette Agent for the feature where it can execute read only SQL queries to answer user questions about data.\n\nFable chose to test using GPT 4.1 mini and nano, and identified several promising looking directions for improvements. I particularly like this one:\n\nThe schema listing gives only table names; the \"don't call describe_table if you already have the information\" advice caused column-name guessing (page_count, o.order_id, first_name) and error-retry loops in baseline traces. Either include column names in the prompt's schema listing or soften that advice.\n\n    \n    \n        Tags: ai, datasette, generative-ai, llms, evals, dspy, datasette-agent, claude-mythos-fable"
+    },
+    {
+      "title": "Ask HN: Why are so many \"AI evangelists\" posting such insufferable content?",
+      "url": "https://news.ycombinator.com/item?id=48765450",
+      "source": "Hacker News",
+      "published": "2026-07-02T18:23:03+00:00",
+      "summary_raw": "My LinkedIn feed is absolutely unreal right now. 90% (I don&#x27;t even think I&#x27;m exaggerating) of the posts in my feed are from connections who have changed their title to something like &quot;AI Thought Leader | AI Native | Thought Coaching&quot;. They post *daily* about something LLM&#x2F;agentic. The biggest problem is that it&#x27;s never &quot;hey check out this cool thing&quot;, it&#x27;s &quot;if you&#x27;re not doing this, you&#x27;re a dinosaur who will be left in the past.&quot;<p>Other common content is regurgitating blog &#x2F; Twitter folks from &quot;AI influencers&quot;, associated with statements like, &quot;Boris McAI said software engineering is dead. Here&#x27;s 5 reasons why he&#x27;s right.&quot;<p>I felt this way a bit when cryptocurrency was at its height, but it never got this embarrassing or self-fellating. How do so many of my connections (more than 800 at this point) have literally zero shame? Hell it&#x27;s not even first-degree connections.",
+      "points": 47,
+      "num_comments": 30,
+      "hn_url": "https://news.ycombinator.com/item?id=48765450"
+    },
+    {
+      "title": "Distributed Attacks in Persistent-State AI Control",
+      "url": "https://arxiv.org/abs/2607.02514v1",
+      "source": "arXiv",
+      "published": "2026-07-02T17:59:56+00:00",
+      "summary_raw": "As AI coding agents become more autonomous, they increasingly ship code iteratively, with the codebase persisting across sessions. This persistence creates a new attack surface: a misaligned or prompt-injected agent can distribute attacks across pull requests (PRs) and time its payload for the PR with the best natural cover. To study the resulting dynamics, we introduce Iterative VibeCoding, a setting for AI control, the study of safely deploying capable but potentially untrusted AI. In Iterative VibeCoding, a coding agent builds software over a sequence of PRs in a persistent codebase while pursuing a covert side task. Our benchmark includes two task families: CLI tools and Flask web services, across 20 total task variations. We use Claude Sonnet 4.5 as the attack agent and GPT-4o as the monitor. We compare gradual attacks, which distribute the side task across PRs, against non-gradual attacks concentrated in a single PR. No single monitor is robust to both: which strategy evades best (success while evading the monitor) depends on the monitor type, so a defender cannot close off both gradual and non-gradual attacks with any one monitor. High evasion (>= 65%) generalizes across model attack agent backends (Sonnet 4.5, Gemini 3.1 Pro, Kimi K2.5), confirming this is a property of the persistent-state attack surface rather than a single model's capability. Evasion also remains high across state-of-the-art monitor models and the gap between gradual and non-gradual evasion widens for more capable models. We introduce a stateful link-tracker monitor that tracks suspicious buildup across PRs. On both task families, it detects gradual attacks substantially better than diff monitors that merely see more accumulated history. Combining this stronger monitor with trajectory monitors in a four-monitor ensemble reduces gradual-attack evasion from 93% under the weakest standard diff monitor to 47%."
+    },
+    {
+      "title": "LACUNA: A Testbed for Evaluating Localization Precision for LLM Unlearning",
+      "url": "https://arxiv.org/abs/2607.02513v1",
+      "source": "arXiv",
+      "published": "2026-07-02T17:59:52+00:00",
+      "summary_raw": "LLMs memorize sensitive training data, including personally identifiable information (PII), creating a pressing need for reliable post hoc removal methods. Unlearning has emerged as a promising solution, with state-of-the-art(SOTA) methods often following a localize-first, unlearn-second paradigm that targets specific model parameters. However, existing benchmarks evaluate unlearning solely at the output level, leaving open the question of whether unlearning truly erases knowledge from a model's parameters or merely obfuscates it, a concern reinforced by the success of resurfacing attacks. To bridge this gap, we introduce LACUNA: the first unlearning testbed with ground-truth parameter-level localization. LACUNA injects PII of synthetic individuals into predefined parameters of 1B and 7B OLMo-based models via masked continual pretraining, enabling direct evaluation of whether unlearning targets the weights responsible for knowledge storage. We use LACUNA to benchmark current SOTA unlearning methods and find that, despite strong output-level performance, existing methods are highly imprecise and susceptible to resurfacing attacks. We further show that when localization is successful, even a simple gradient-based unlearning method achieves strong erasure and robustness to resurfacing attacks, highlighting the importance of precise unlearning. We release LACUNA to complement behavioral evaluations and drive further advances in robust, localization-based unlearning."
+    },
+    {
+      "title": "Program-as-Weights: A Programming Paradigm for Fuzzy Functions",
+      "url": "https://arxiv.org/abs/2607.02512v1",
+      "source": "arXiv",
+      "published": "2026-07-02T17:59:50+00:00",
+      "summary_raw": "Many everyday programming tasks resist clean rule-based implementation, such as alerting on important log lines, repairing malformed JSON, or ranking search results by intent, and are increasingly outsourced to large language model APIs at the cost of locality, reproducibility, and price. We propose fuzzy-function programming: compiling such a function from a natural-language specification into a compact, locally-executable neural artifact. We instantiate this paradigm with Program-as-Weights (PAW), in which a 4B compiler trained on FuzzyBench, a 10M-example dataset we release, emits parameter-efficient adapters for a frozen, lightweight interpreter. A 0.6B Qwen3 interpreter executing PAW programs matches the performance of direct prompting of Qwen3-32B, while using roughly one fiftieth of the inference memory and running at 30 tokens/s on a MacBook M3. PAW reframes the foundation model from a per-input problem solver into a tool builder: invoked once per function definition, it produces a small reusable artifact whose subsequent calls per function application are cheap and offline."
+    },
+    {
+      "title": "Online Safety Monitoring for LLMs",
+      "url": "https://arxiv.org/abs/2607.02510v1",
+      "source": "arXiv",
+      "published": "2026-07-02T17:59:43+00:00",
+      "summary_raw": "Despite alignment training, LLMs remain prone to generating unsafe outputs at deployment time. Monitoring outputs online and raising an alarm when safety can no longer be assumed is therefore critical. We study a simple real-time monitor that turns a verifier signal from an external model into an alarm decision by thresholding, with the threshold calibrated via risk control. In experiments on mathematical reasoning and red teaming datasets, we show that this simple design is competitive with more advanced monitors based on sequential hypothesis testing."
+    },
+    {
+      "title": "ReContext: Recursive Evidence Replay as LLM Harness for Long-Context Reasoning",
+      "url": "https://arxiv.org/abs/2607.02509v1",
+      "source": "arXiv",
+      "published": "2026-07-02T17:59:26+00:00",
+      "summary_raw": "Understanding and reasoning over long contexts has become a key requirement for deploying large language models (LLMs) in realistic applications. Although recent LLMs support increasingly long context windows, they often fail to use relevant evidence that is already present in the input, revealing a gap between context access and effective context utilization. In this work, we propose Recursive Evidence Replay as LLM Harness for Long-Context Reasoning (RECONTEXT), a training-free inference method for improving long-context reasoning. RECONTEXT uses model-internal relevance signals to construct a query-conditioned evidence pool and replays it before final generation while preserving the full original context. This recursive selection process separates evidence organization from answer generation without training, external memory, or context pruning. We also provide a theoretical analysis based on associative memory, which characterizes the context as a memory store, the question as a retrieval cue, attention as cue-trace association, and replay as trace reactivation. Experiments on eight long-context datasets with 128K context length show that RECONTEXT consistently improves evidence utilization across Qwen3-4B, Qwen3-8B, and Llama3-8B, achieving the best average rank on all three backbones. Code is available at https://github.com/Yanjun-Zhao/ReContext."
+    },
+    {
+      "title": "What LLM Agents Say When No One Is Watching: Social Structure and Latent Objective Emergence in Multi-Agent Debates",
+      "url": "https://arxiv.org/abs/2607.02507v1",
+      "source": "arXiv",
+      "published": "2026-07-02T17:59:23+00:00",
+      "summary_raw": "LLM agents will increasingly act in socially structured settings where role, audience, and relational context can shape what is advantageous or costly to say. We study whether such social structure, without any explicit objective in the prompt, changes what an agent expresses publicly relative to an off-the-record (OTR) channel elicited under the same condition. We introduce a dual-channel debate framework in which agents produce public utterances that enter the shared history alongside OTR responses that are recorded but never shown to the other participant. Across 10 models, 3 scenarios, and 5 variations within each scenario, alignment-inducing settings produce systematic public-OTR divergence in the targeted agent, with its decision divergence rising from a $\\sim$3% baseline to roughly 40%. The effect is consistent across four aggregate analyses: stance, semantic similarity, natural language inference, and survey responses. In some cases, the OTR response explicitly attributes public accommodation to relational pressures, such as career risk or sponsorship obligation. The findings suggest that agent evaluation should extend beyond explicit goals and detect emergent objectives. We present a dual-channel evaluation framework and complementary behavioral measures that operationalize this assessment."
+    },
+    {
+      "title": "Reasoning LLM Improves Speaker Recognition in Long-form TV Dramas",
+      "url": "https://arxiv.org/abs/2607.02504v1",
+      "source": "arXiv",
+      "published": "2026-07-02T17:58:52+00:00",
+      "summary_raw": "Long-form TV dramas present a formidable challenge for comprehensive video understanding, where deciphering complex storyline often relies on \\textbf{speaker recognition}, the task of accurately attributing each spoken utterance to its respective character. In this paper, we advance this field through two primary contributions. (1) We introduce \\textbf{DramaSR-532K}, a large-scale benchmark comprising 532K annotated dialogue lines across more than 900 unique characters, necessitating the integration of auditory, linguistic, and visual cues for speaker recognition. (2) We propose \\textbf{DramaSR-LRM}, a robust approach built upon a large reasoning model (LRM). DramaSR-LRM is designed to autonomously aggregate contextual evidence via multimodal tool-use, synthesizing diverse inputs to achieve high-fidelity attribution. Experimental results demonstrate that DramaSR-LRM significantly outperforms existing baselines, particularly on short utterances where acoustic biometrics are inherently unreliable. \\textit{All the data and code will be made publicly available at the project page: https://www.github.com/198808xc/DramaSR-LRM.}"
+    }
+  ]
+}
