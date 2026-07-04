@@ -1,0 +1,221 @@
+[
+  {
+    "theme": "Model Releases",
+    "stories": [
+      {
+        "title": "Leanstral 1.5: Proof abundance for all",
+        "url": "https://mistral.ai/news/leanstral-1-5/",
+        "source": "Hacker News",
+        "paragraph": "Mistral has released Leanstral 1.5, a model designed to generate formal mathematical proofs at scale using the Lean proof assistant. The release targets researchers and engineers who need high-volume proof generation, positioning formal verification as a more accessible workflow. Mistral frames the model around 'proof abundance,' suggesting it can produce enough candidate proofs to make formal verification practical for a wider range of problems."
+      }
+    ]
+  },
+  {
+    "theme": "Open-Source Tools",
+    "stories": [
+      {
+        "title": "Save Claude Code Tokens with Smart Routing",
+        "url": "https://github.com/regolo-ai/brick-SR1",
+        "source": "Hacker News",
+        "paragraph": "Regolo AI has published Brick SR1, an open-source smart routing layer for Claude Code that aims to reduce token consumption by directing simpler sub-tasks to cheaper or smaller models. The tool is notable because token costs in agentic coding sessions can accumulate quickly, and routing strategies offer a practical way to manage expenses without changing the primary model. The project is hosted on GitHub and is described as a lightweight middleware layer insertable into existing Claude Code workflows."
+      },
+      {
+        "title": "Open Source AI Gap Map",
+        "url": "https://simonwillison.net/2026/Jul/3/open-source-ai-gap-map/#atom-everything",
+        "source": "Simon Willison",
+        "paragraph": "Current AI, a non-profit founded at the AI Action Summit in Paris in February 2025 and backed by $400 million in committed capital, has released version 0.1 of its Open Source AI Gap Map. The map indexes 421 products in depth, covering 266 software entries, and aims to identify where open-source alternatives to proprietary AI systems are absent or underdeveloped. The project is positioned as a public-interest resource to guide contributors and funders toward gaps in the open-source AI ecosystem."
+      }
+    ]
+  },
+  {
+    "theme": "Research Papers",
+    "stories": [
+      {
+        "title": "New serious vulnerabilities spiked around release of Claude Mythos Preview",
+        "url": "https://epoch.ai/data-insights/cve-severity-spike",
+        "source": "Hacker News",
+        "paragraph": "Epoch AI has published a data insight showing that the number of newly reported serious CVEs spiked in the period surrounding the release of Claude Mythos Preview. The analysis raises the question of whether AI coding assistants contribute to an increase in vulnerability introduction, though correlation with a single model release does not establish causation. The finding adds to ongoing discussion about the security implications of AI-assisted software development at scale."
+      },
+      {
+        "title": "The bottleneck might be the air in the room",
+        "url": "https://blog.mikebowler.ca/2026/07/03/co2-and-decision-making/",
+        "source": "Hacker News",
+        "paragraph": "Mike Bowler's post examines research linking elevated indoor CO2 levels to measurable declines in cognitive performance and decision-making quality, arguing this could be an overlooked bottleneck in knowledge-work environments including AI development teams. Studies cited show that CO2 concentrations above 1,000 ppm, common in poorly ventilated meeting rooms, correlate with reduced performance on decision-making tasks. The post is notable in an AI context because it raises a human-factors constraint that no model improvement can address."
+      }
+    ]
+  },
+  {
+    "theme": "Performance and Cost Benchmarks",
+    "stories": [
+      {
+        "title": "Performance per dollar is getting faster and cheaper",
+        "url": "https://www.wafer.ai/blog/glm52-amd",
+        "source": "Hacker News",
+        "paragraph": "Wafer AI has published a blog post benchmarking GLM-52 running on AMD hardware, framing the results as evidence that performance-per-dollar for large language model inference continues to improve rapidly. The post provides specific throughput and cost figures comparing AMD-based deployments to prior reference points, contributing to a growing body of evidence that inference economics are shifting away from Nvidia-only configurations. The analysis is relevant for practitioners making infrastructure decisions as AMD's GPU software stack matures."
+      }
+    ]
+  },
+  {
+    "theme": "Security Research",
+    "stories": [
+      {
+        "title": "Elevating Privileges from Firefox to Android Root",
+        "url": "https://rootme.nebusec.ai/",
+        "source": "Hacker News",
+        "paragraph": "Nebusec has published a write-up describing a privilege escalation chain that moves from a compromised Firefox browser process on Android all the way to root access. The research is notable because it demonstrates a multi-stage exploit path on a widely deployed mobile platform, and because it was surfaced through the RootMe challenge platform. The post details the specific vulnerability classes exploited at each stage of the chain, providing a concrete reference for Android and browser security practitioners."
+      }
+    ]
+  },
+  {
+    "theme": "AI and Developer Workflow",
+    "stories": [
+      {
+        "title": "Agentic coding notes from Galapagos Island",
+        "url": "https://danluu.com/ai-coding/#appendix-agentic-loops-and-writing-this-post",
+        "source": "Hacker News",
+        "paragraph": "Dan Luu has published an extended set of notes on using agentic coding loops in practice, written partly while working remotely from the Galapagos Islands. The appendix section focuses on the mechanics of agentic loops and the experience of delegating writing and coding tasks to AI agents over an extended period. Luu provides specific observations about where agentic systems succeed and fail, making the piece a useful practitioner account rather than a conceptual overview."
+      },
+      {
+        "title": "Coding without AI: a revolutionary new way to work",
+        "url": "https://isaaclyman.com/blog/posts/coding-without-ai/",
+        "source": "Hacker News",
+        "paragraph": "Isaac Lyman's post, titled with deliberate irony, describes his experience returning to coding without AI assistance after a period of heavy tool use. He argues that working without AI sharpened his problem-solving skills and gave him a clearer sense of his own competence, while also being slower and more effortful. The piece is notable as a practitioner reflection on the trade-offs of AI-assisted development, contributing to a broader conversation about skill atrophy and dependency."
+      }
+    ]
+  },
+  {
+    "theme": "AI Creative Writing",
+    "stories": [
+      {
+        "title": "2026 Unslop AI-Written Fiction Contest Results",
+        "url": "https://www.hyperstitionai.com/unslop-results",
+        "source": "Hacker News",
+        "paragraph": "Hyperstition AI has published the results of its 2026 Unslop contest, which challenged entrants to produce AI-written fiction that avoids the generic, formulaic qualities — colloquially called 'slop' — associated with standard model outputs. The contest is notable because it frames quality AI writing as a deliberate craft problem requiring human curation and prompting skill rather than mere generation. The published results include winning entries and commentary on what distinguished them from typical AI-generated prose."
+      }
+    ]
+  },
+  {
+    "theme": "Industry and Policy",
+    "stories": [
+      {
+        "title": "AI First: How the Federal Government Is Prioritizing AI over People and Planet",
+        "url": "https://stopgreedbuildgreen.climateandcommunity.org/assets/posts/ai-first",
+        "source": "Hacker News",
+        "paragraph": "The Climate and Community Project has published a report arguing that U.S. federal policy under the current administration systematically prioritizes AI infrastructure investment over environmental protections and social spending. The report documents specific policy decisions and budget allocations that it contends subordinate climate and community goals to AI data center expansion. It is notable as a structured critique from a climate-focused policy organization rather than a technology publication, bringing a different analytical lens to AI governance debates."
+      },
+      {
+        "title": "Quoting Josh W. Comeau",
+        "url": "https://simonwillison.net/2026/Jul/3/josh-w-comeau/#atom-everything",
+        "source": "Simon Willison",
+        "paragraph": "Developer educator Josh W. Comeau has reported that sales of his third course, Whimsical Animations, are tracking at roughly one-third the volume of a typical course launch, and that his two existing courses have also seen significant year-over-year sales declines. Comeau attributes much of the drop to AI, citing both reduced demand for developer skills and uncertainty among learners about whether human expertise will remain valuable. Simon Willison highlighted the quote as an early concrete data point in a broader pattern of AI affecting the market for technical education."
+      }
+    ]
+  },
+  {
+    "theme": "Model Releases & Benchmarks",
+    "stories": [
+      {
+        "title": "Meta AI chief says their coming LLM has caught up with OpenAI's flagship model",
+        "url": "https://www.businessinsider.com/meta-ai-model-catches-up-openai-gpt-5-says-2026-7",
+        "source": "Hacker News",
+        "paragraph": "Meta's AI chief Yann LeCun has claimed that the company's forthcoming large language model has reached performance parity with OpenAI's current flagship, GPT-5. The statement, made publicly, signals that Meta believes its open-weights strategy has closed a gap that previously appeared substantial. No independent benchmark results have been published to verify the claim, making it notable primarily as a competitive positioning signal ahead of the model's release."
+      },
+      {
+        "title": "June 2026 newsletter",
+        "url": "https://simonwillison.net/2026/Jul/3/june-newsletter/#atom-everything",
+        "source": "Simon Willison",
+        "paragraph": "Simon Willison's June 2026 sponsors-only newsletter surveys the current state of notable model releases, identifying Claude Fable 5, GPT-5.6, and GLM-5.2 as the headline entries, with GLM-5.2 described as the best currently available open-weights model. The newsletter also covers US export restrictions affecting AI hardware, a technique called tokenmaxxing falling out of favor, and Willison's own projects including Datasette Apps and updates to sqlite-utils and shot-scraper. The summary offers a useful snapshot of the model landscape as of late June 2026 from a practitioner's perspective."
+      }
+    ]
+  },
+  {
+    "theme": "AI Agent Tooling & Developer Practices",
+    "stories": [
+      {
+        "title": "Fable's judgement",
+        "url": "https://simonwillison.net/2026/Jul/3/judgement/#atom-everything",
+        "source": "Simon Willison",
+        "paragraph": "Simon Willison shared a tip from a fireside chat with Cat Wu and Thariq Shihipar of Anthropic's Claude Code team, suggesting that Claude's Fable model performs better when given latitude to exercise its own judgment rather than being given prescriptive instructions. The specific example involved test management: rather than mandating when to run automated tests, users can let Fable decide, such as restricting automated testing to larger features. The advice points toward a broader shift in how practitioners are learning to prompt agentic coding tools."
+      },
+      {
+        "title": "Anatomy of Persistent Memory's 3 Layers: Comparing ContextNest, Mem0 and Zep",
+        "url": "https://promptowl.ai/resources/persistent-memory-ai-agents/",
+        "source": "Hacker News",
+        "paragraph": "A technical writeup on PromptOwl breaks down persistent memory in AI agents into three architectural layers and compares three implementations: ContextNest, Mem0, and Zep. The piece is notable because persistent memory remains one of the less standardized components in production agent stacks, with each tool taking a different approach to storage, retrieval, and context injection. The comparison gives developers a concrete framework for evaluating which solution fits their latency and recall requirements."
+      },
+      {
+        "title": "Kagi Changelog (July 2): Heads, tails, and an AI toggle",
+        "url": "https://kagi.com/changelog#10959",
+        "source": "Hacker News",
+        "paragraph": "Kagi's July 2 changelog introduces an AI toggle that lets users switch AI-assisted features on or off at the search level, giving finer-grained control than a global setting. The update is part of Kagi's ongoing effort to let users decide how much AI processing is applied to their search results. The addition reflects a growing design pattern among search and productivity tools of treating AI as an opt-in layer rather than a default behavior."
+      }
+    ]
+  },
+  {
+    "theme": "AI Economics & Productivity",
+    "stories": [
+      {
+        "title": "AI inference is obviously profitable",
+        "url": "https://www.seangoedecke.com/ai-inference-is-obviously-profitable/",
+        "source": "Hacker News",
+        "paragraph": "Engineer Sean Goedecke argues that AI inference is clearly profitable for large providers, pushing back against narratives that suggest the economics are unsustainable. The post examines cost structures around GPU utilization and token pricing, contending that the unit economics at scale favor inference providers even at current competitive prices. The piece is notable for making a straightforward case against the prevailing skepticism without relying on projected future efficiencies."
+      },
+      {
+        "title": "AI's $2.2T deficit fix is already half fake, economists say",
+        "url": "https://fortune.com/2026/07/02/ai-productivity-deficit-national-debt-brookings-fed-study/",
+        "source": "Hacker News",
+        "paragraph": "Economists at Brookings and the Federal Reserve have assessed claims that AI-driven productivity gains could reduce the US national deficit by $2.2 trillion, and found roughly half of those projections rest on assumptions that do not hold under scrutiny. The study questions whether AI productivity benefits will materialize at the scale and speed required to affect fiscal projections meaningfully. The finding adds to a body of research urging caution when translating firm-level efficiency gains into macroeconomic forecasts."
+      },
+      {
+        "title": "AI saves about 3% of your hours, and almost none of it reaches the money",
+        "url": "https://okaneland.com/study/ai-productivity-roi-at-work/",
+        "source": "Hacker News",
+        "paragraph": "A study summarized on OkaneLand finds that AI tools save workers roughly 3% of their working hours on average, but that this time saving rarely translates into measurable financial returns for employers. The research attributes the gap to the fact that saved time is typically absorbed into existing tasks rather than converted into additional output or headcount reduction. The 3% figure is consistent with some prior academic work but stands in contrast to the much larger productivity claims made in vendor and policy contexts."
+      }
+    ]
+  },
+  {
+    "theme": "AI Limitations & Skepticism",
+    "stories": [
+      {
+        "title": "It Still Can't Do My Job: Four Years of Moving Goalposts (2022–2026)",
+        "url": "https://publicznyprofil.github.io/ai_cant_do_your_work/",
+        "source": "Hacker News",
+        "paragraph": "A retrospective essay tracks the recurring pattern from 2022 to 2026 in which predictions that AI would automate specific professional tasks were followed by revised, harder-to-reach benchmarks once those tasks were partly handled. The author argues that the goalposts for what counts as genuine job displacement have shifted repeatedly without resolution, keeping the debate perpetually deferred. The piece documents specific examples across a four-year window, making it a useful reference for understanding how discourse around AI capability has evolved."
+      },
+      {
+        "title": "Show HN: I built a website showing the likelihood of the AI bubble to pop",
+        "url": "https://laurentiugabriel.github.io/is-ai-hype-cooling-down/",
+        "source": "Hacker News",
+        "paragraph": "Developer Laurentiu Gabriel built a publicly accessible dashboard that aggregates quantitative signals to estimate the probability of a cooldown in AI investment activity. The tool pulls quarterly CapEx figures from the five largest hyperscalers and combines them with data on data center construction and sovereign fund investment to produce a composite index. The project is notable for attempting to operationalize a qualitative debate — whether an AI bubble exists — into a trackable, data-driven metric."
+      }
+    ]
+  },
+  {
+    "theme": "Human Factors & Education",
+    "stories": [
+      {
+        "title": "AI coding is addictive. Engineers are paying the price",
+        "url": "https://leaddev.com/ai/ai-coding-is-addictive-engineers-are-paying-the-price",
+        "source": "Hacker News",
+        "paragraph": "A piece in LeadDev reports that some engineers are developing dependency-like relationships with AI coding assistants, accepting generated code without fully understanding it and losing confidence in their own unassisted ability. The article draws on interviews with developers who describe difficulty returning to manual coding after extended use of tools like GitHub Copilot or Claude Code. The concern raised is not about job loss but about skill atrophy, particularly among engineers earlier in their careers who have less foundational experience to draw on."
+      },
+      {
+        "title": "Instead of banning AI, I made a classroom contract with my students",
+        "url": "https://www.science.org/content/article/instead-banning-ai-i-made-classroom-contract-my-students",
+        "source": "Hacker News",
+        "paragraph": "A science educator writing in Science magazine describes replacing a blanket AI prohibition with a negotiated classroom contract that defines specific conditions under which students may use AI tools. The contract approach requires students to document when and how they used AI, and to demonstrate understanding of the underlying concepts independently. The method is presented as a practical middle ground at a time when enforcement of outright bans has proven difficult and student AI use is widespread."
+      }
+    ]
+  },
+  {
+    "theme": "Industry Commentary",
+    "stories": [
+      {
+        "title": "Please stop the AI confidence theater",
+        "url": "https://www.elenaverna.com/p/please-stop-the-ai-confidence-theater",
+        "paragraph": "Elena Verna's essay calls out a pattern she terms 'AI confidence theater,' in which executives and practitioners project certainty about AI outcomes that the underlying evidence does not support. The piece argues that performative confidence undermines honest assessment of what AI tools can and cannot reliably deliver in production settings. Verna specifically targets the disconnect between public-facing AI narratives and the messy, uncertain reality practitioners encounter when deploying these systems. The post gained traction on Hacker News, suggesting the critique resonates with a technical audience familiar with the gap between AI demos and real-world results."
+      }
+    ]
+  }
+]

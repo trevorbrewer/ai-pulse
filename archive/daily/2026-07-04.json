@@ -1,0 +1,253 @@
+{
+  "date": "2026-07-04",
+  "generated_at": "2026-07-04T12:04:49.739534+00:00",
+  "source_counts": {
+    "rss_feeds": 4,
+    "arxiv": 0,
+    "hackernews": 23,
+    "nitter": 0,
+    "total_raw": 27,
+    "total_deduped": 26,
+    "total_saved": 25
+  },
+  "items": [
+    {
+      "title": "The bottleneck might be the air in the room",
+      "url": "https://blog.mikebowler.ca/2026/07/03/co2-and-decision-making/",
+      "source": "Hacker News",
+      "published": "2026-07-04T06:32:28+00:00",
+      "summary_raw": "",
+      "points": 375,
+      "num_comments": 217,
+      "hn_url": "https://news.ycombinator.com/item?id=48783117"
+    },
+    {
+      "title": "2026 Unslop AI-Written Fiction Contest Results",
+      "url": "https://www.hyperstitionai.com/unslop-results",
+      "source": "Hacker News",
+      "published": "2026-07-04T05:37:25+00:00",
+      "summary_raw": "",
+      "points": 25,
+      "num_comments": 77,
+      "hn_url": "https://news.ycombinator.com/item?id=48782890"
+    },
+    {
+      "title": "Agentic coding notes from Galapagos Island",
+      "url": "https://danluu.com/ai-coding/#appendix-agentic-loops-and-writing-this-post",
+      "source": "Hacker News",
+      "published": "2026-07-04T04:37:15+00:00",
+      "summary_raw": "",
+      "points": 109,
+      "num_comments": 51,
+      "hn_url": "https://news.ycombinator.com/item?id=48782671"
+    },
+    {
+      "title": "Save Claude Code Tokens with Smart Routing",
+      "url": "https://github.com/regolo-ai/brick-SR1",
+      "source": "Hacker News",
+      "published": "2026-07-03T22:39:24+00:00",
+      "summary_raw": "",
+      "points": 11,
+      "num_comments": 3,
+      "hn_url": "https://news.ycombinator.com/item?id=48780858"
+    },
+    {
+      "title": "Elevating Privileges from Firefox to Android Root",
+      "url": "https://rootme.nebusec.ai/",
+      "source": "Hacker News",
+      "published": "2026-07-03T22:39:22+00:00",
+      "summary_raw": "",
+      "points": 14,
+      "num_comments": 5,
+      "hn_url": "https://news.ycombinator.com/item?id=48780857"
+    },
+    {
+      "title": "Leanstral 1.5: Proof abundance for all",
+      "url": "https://mistral.ai/news/leanstral-1-5/",
+      "source": "Hacker News",
+      "published": "2026-07-03T22:33:10+00:00",
+      "summary_raw": "",
+      "points": 261,
+      "num_comments": 76,
+      "hn_url": "https://news.ycombinator.com/item?id=48780801"
+    },
+    {
+      "title": "Coding without AI: a revolutionary new way to work",
+      "url": "https://isaaclyman.com/blog/posts/coding-without-ai/",
+      "source": "Hacker News",
+      "published": "2026-07-03T22:26:47+00:00",
+      "summary_raw": "",
+      "points": 25,
+      "num_comments": 6,
+      "hn_url": "https://news.ycombinator.com/item?id=48780754"
+    },
+    {
+      "title": "Open Source AI Gap Map",
+      "url": "https://simonwillison.net/2026/Jul/3/open-source-ai-gap-map/#atom-everything",
+      "source": "Simon Willison",
+      "published": "2026-07-03T22:04:31+00:00",
+      "summary_raw": "Open Source AI Gap Map\nCurrent AI is \"a global partnership building a public option for AI\", founded as a non-profit at the AI Action Summit in Paris in February 2025 and backed by serious capital ($400m already committed).\nThey launched their Gap Map a couple of days ago - an attempt at indexing the current state of open source AI:\n\nThe Gap Map v0.1 details 421 products in depth: 266 software tools and libraries, 85 models, 50 datasets, and 20 hardware projects, produced by 228 organizations. These products are organized into 14 categories across 3 layers of the stack (model components, product / UX, and infrastructure). The remaining 24,400 artifacts constitute the uncategorized long tail of the open source AI ecosystem, and will carry no score until they are researched and cited.\n\nThe map itself is interesting to explore, but I'm more excited about the underlying data - released under an MIT license in the currentai-org/os-ai-map GitHub account: 1,184 YAML files plus the notebooks, schemas and other scripts used to help gather them.\nSince the files are on GitHub you can use Datasette Lite to explore some of them - here are 16,185 GitHub repos the project is tracking as a CSV file loaded into Datasette Lite.\n\n\n    Tags: open-source, ai, datasette-lite, generative-ai, local-llms, llms"
+    },
+    {
+      "title": "Performance per dollar is getting faster and cheaper",
+      "url": "https://www.wafer.ai/blog/glm52-amd",
+      "source": "Hacker News",
+      "published": "2026-07-03T21:49:06+00:00",
+      "summary_raw": "",
+      "points": 267,
+      "num_comments": 95,
+      "hn_url": "https://news.ycombinator.com/item?id=48780417"
+    },
+    {
+      "title": "Quoting Josh W. Comeau",
+      "url": "https://simonwillison.net/2026/Jul/3/josh-w-comeau/#atom-everything",
+      "source": "Simon Willison",
+      "published": "2026-07-03T21:25:52+00:00",
+      "summary_raw": "I just launched my third course, Whimsical Animations, and so far, it\u2019s on track to sell roughly \u2153 as many copies as a typical course launch.\nIt\u2019s a similar story with my two existing courses. Sales are down significantly from last year.\nThere are likely a lot of reasons for this, but I think the biggest is AI. There\u2019s sort of a double whammy with AI:\n\nMany people are wondering whether developer jobs will even exist in a few months, so they\u2019re reluctant to spend time/money learning new dev skills.\nEven if they do want to learn new dev skills, LLMs can provide personalized tutoring, so there\u2019s less incentive to buy a paid course.\n\n[...] I\u2019ve spoken to a few course creators now, and we\u2019re all seeing the same trend. Revenue down 50%+. Fewer people engaging with our content. People switching to LLMs, which slurp up all of our work and regurgitate it, without consent or compensation.\n&mdash; Josh W. Comeau, via Salma Alam-Naylor\n\n    Tags: ai-ethics, llms, ai, generative-ai, careers, josh-comeau"
+    },
+    {
+      "title": "AI First: How the Federal Government Is Prioritizing AI over People and Planet",
+      "url": "https://stopgreedbuildgreen.climateandcommunity.org/posts/ai-first",
+      "source": "Hacker News",
+      "published": "2026-07-03T21:21:08+00:00",
+      "summary_raw": "",
+      "points": 32,
+      "num_comments": 24,
+      "hn_url": "https://news.ycombinator.com/item?id=48780128"
+    },
+    {
+      "title": "New serious vulnerabilities spiked around release of Claude Mythos Preview",
+      "url": "https://epoch.ai/data-insights/cve-severity-spike",
+      "source": "Hacker News",
+      "published": "2026-07-03T21:16:16+00:00",
+      "summary_raw": "",
+      "points": 118,
+      "num_comments": 46,
+      "hn_url": "https://news.ycombinator.com/item?id=48780056"
+    },
+    {
+      "title": "AI inference is obviously profitable",
+      "url": "https://www.seangoedecke.com/ai-inference-is-obviously-profitable/",
+      "source": "Hacker News",
+      "published": "2026-07-03T21:14:33+00:00",
+      "summary_raw": "",
+      "points": 11,
+      "num_comments": 9,
+      "hn_url": "https://news.ycombinator.com/item?id=48780033"
+    },
+    {
+      "title": "Meta AI chief says their coming LLM has caught up with OpenAI's flagship model",
+      "url": "https://www.businessinsider.com/meta-ai-model-catches-up-openai-gpt-5-says-2026-7",
+      "source": "Hacker News",
+      "published": "2026-07-03T21:00:18+00:00",
+      "summary_raw": "",
+      "points": 14,
+      "num_comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=48779898"
+    },
+    {
+      "title": "Kagi Changelog (July 2): Heads, tails, and an AI toggle",
+      "url": "https://kagi.com/changelog#10959",
+      "source": "Hacker News",
+      "published": "2026-07-03T20:08:01+00:00",
+      "summary_raw": "",
+      "points": 62,
+      "num_comments": 12,
+      "hn_url": "https://news.ycombinator.com/item?id=48779352"
+    },
+    {
+      "title": "Fable's judgement",
+      "url": "https://simonwillison.net/2026/Jul/3/judgement/#atom-everything",
+      "source": "Simon Willison",
+      "published": "2026-07-03T18:51:06+00:00",
+      "summary_raw": "One of the most interesting tips I got from the Fireside Chat I hosted with Cat Wu and Thariq Shihipar from the Claude Code team at AIE on Wednesday was to let Fable (and to a certain extent Opus) use their own judgement rather than dictating how they should work.\nThe example they gave was testing. You can tell Fable \"only use automated testing for larger features, don't update and run tests for small copy or design changes\" - but it's better to just tell Fable to use its own judgement when deciding to write tests instead.\nJesse Vincent just gave me a related tip to help avoid burning too many of those valuable Fable tokens in the few days we have left before the prices go up. Tell Fable to use other models for smaller tasks, applying its own judgement about which model to use.\nI prompted Claude Code just now with:\n\nFor all coding tasks use your judgement to decide an appropriate lower power model and run that in a subagent\n\nClaude saved this memory file in ~/.claude/projects/name-of-project/memory/delegate-coding-to-subagents.md:\n\n---\nname: delegate-coding-to-subagents\ndescription: Simon wants coding tasks delegated to subagents running an appropriately lower-power model\nmetadata: \n  node_type: memory\n  type: feedback\n  originSessionId: 30068d78-43a9-4fb1-bb29-9799e18c526a\n---\n\nStated by Simon on 2026-07-03: \"For all coding tasks use your judgement to\ndecide an appropriate lower power model and run that in a subagent.\"\nWhy: cost/efficiency \u2014 implementation work rarely needs the top-tier\nmodel; judgment, review, and synthesis stay with the main loop.\nHow to apply: when a task in this project is primarily writing/editing\ncode, spawn an Agent with a model override (sonnet for substantive\nimplementation, haiku for trivial/mechanical edits) and a self-contained\nprompt; review the result in the main loop before committing. Design,\nauditing, data synthesis, and anything judgment-heavy stays in the main\nmodel. See also [[project-goals]].\n\nSo far it seems to be working well. I'm getting a ton of work done and my Fable allowance is shrinking less quickly than before.\n\n    Tags: claude, ai, claude-code, llms, prompt-engineering, coding-agents, generative-ai, claude-mythos-fable, anthropic"
+    },
+    {
+      "title": "AI's $2.2T deficit fix is already half fake, economists say",
+      "url": "https://fortune.com/2026/07/02/ai-productivity-deficit-national-debt-brookings-fed-study/",
+      "source": "Hacker News",
+      "published": "2026-07-03T17:21:59+00:00",
+      "summary_raw": "",
+      "points": 13,
+      "num_comments": 1,
+      "hn_url": "https://news.ycombinator.com/item?id=48777450"
+    },
+    {
+      "title": "AI saves about 3% of your hours, and almost none of it reaches the money",
+      "url": "https://okaneland.com/study/ai-productivity-roi-at-work/",
+      "source": "Hacker News",
+      "published": "2026-07-03T17:03:22+00:00",
+      "summary_raw": "",
+      "points": 75,
+      "num_comments": 90,
+      "hn_url": "https://news.ycombinator.com/item?id=48777257"
+    },
+    {
+      "title": "It Still Can't Do My Job: Four Years of Moving Goalposts (2022\u20132026)",
+      "url": "https://publicznyprofil.github.io/ai_cant_do_your_work/",
+      "source": "Hacker News",
+      "published": "2026-07-03T15:02:23+00:00",
+      "summary_raw": "",
+      "points": 52,
+      "num_comments": 127,
+      "hn_url": "https://news.ycombinator.com/item?id=48775909"
+    },
+    {
+      "title": "AI coding is addictive. Engineers are paying the price",
+      "url": "https://leaddev.com/ai/ai-coding-is-addictive-engineers-are-paying-the-price",
+      "source": "Hacker News",
+      "published": "2026-07-03T14:54:33+00:00",
+      "summary_raw": "",
+      "points": 45,
+      "num_comments": 38,
+      "hn_url": "https://news.ycombinator.com/item?id=48775800"
+    },
+    {
+      "title": "June 2026 newsletter",
+      "url": "https://simonwillison.net/2026/Jul/3/june-newsletter/#atom-everything",
+      "source": "Simon Willison",
+      "published": "2026-07-03T14:50:50+00:00",
+      "summary_raw": "The June edition of my sponsors-only monthly newsletter is out. If you are a sponsor (or if you start a sponsorship now) you can access it here.\nThis month:\n\nClaude Fable 5, GPT-5.6, and US export restrictions\nGLM-5.2 is the new best open weights model\nTokenmaxxing is so over\nDatasette Apps\nsqlite-utils and shot-scraper and Datasette\nMiscellaneous WASM projects\nOther model releases\nWhat I'm using\n\nHere's a copy of the May newsletter as a preview of what you'll get. Pay $10/month to stay a month ahead of the free copy!\n\n    Tags: newsletter"
+    },
+    {
+      "title": "Instead of banning AI, I made a classroom contract with my students",
+      "url": "https://www.science.org/content/article/instead-banning-ai-i-made-classroom-contract-my-students",
+      "source": "Hacker News",
+      "published": "2026-07-03T14:28:33+00:00",
+      "summary_raw": "",
+      "points": 75,
+      "num_comments": 85,
+      "hn_url": "https://news.ycombinator.com/item?id=48775499"
+    },
+    {
+      "title": "Anatomy of Persistent Memory's 3 Layers: Comparing ContextNest, Mem0 and Zep",
+      "url": "https://promptowl.ai/resources/persistent-memory-ai-agents/",
+      "source": "Hacker News",
+      "published": "2026-07-03T14:27:21+00:00",
+      "summary_raw": "",
+      "points": 23,
+      "num_comments": 3,
+      "hn_url": "https://news.ycombinator.com/item?id=48775483"
+    },
+    {
+      "title": "Show HN: I built a website showing the likelihood of the AI bubble to pop",
+      "url": "https://laurentiugabriel.github.io/is-ai-hype-cooling-down/",
+      "source": "Hacker News",
+      "published": "2026-07-03T12:55:34+00:00",
+      "summary_raw": "I built a web page that aggregates data about data center buildup, sovereign fund investments into AI and bottlenecks. The objective is to predict AI race cooldown by looking at a potential decrease of activity involving these elements. \nThe website looks at the quarterly forms from the 5 biggest hyperscalers and adds their CapEx into the mix, calculating a composite index in the end showing how likely it is for the AI race to slow down. \nEnjoy!",
+      "points": 11,
+      "num_comments": 6,
+      "hn_url": "https://news.ycombinator.com/item?id=48774462"
+    },
+    {
+      "title": "Please stop the AI confidence theater",
+      "url": "https://www.elenaverna.com/p/please-stop-the-ai-confidence-theater",
+      "source": "Hacker News",
+      "published": "2026-07-03T12:51:17+00:00",
+      "summary_raw": "",
+      "points": 231,
+      "num_comments": 250,
+      "hn_url": "https://news.ycombinator.com/item?id=48774414"
+    }
+  ]
+}
