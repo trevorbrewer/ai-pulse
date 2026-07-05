@@ -1,0 +1,132 @@
+[
+  {
+    "theme": "AI in Software Development",
+    "stories": [
+      {
+        "title": "sqlite-utils 4.0rc2, mostly written by Claude Fable (for about $149.25)",
+        "url": "https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/#atom-everything",
+        "source": "Simon Willison",
+        "paragraph": "Simon Willison used Claude Fable via Claude Code for web to help push sqlite-utils toward a stable 4.0 release, spending approximately $149.25 in API costs during the process. The project follows semantic versioning strictly, making major version bumps infrequent and high-stakes, which motivated Willison to enlist AI assistance to reach a quality threshold he was comfortable shipping. The experiment documents both the productivity gains and the practical costs of using frontier AI models for sustained software development work."
+      },
+      {
+        "title": "sqlite-utils 4.0rc2",
+        "url": "https://simonwillison.net/2026/Jul/5/sqlite-utils/#atom-everything",
+        "source": "Simon Willison",
+        "paragraph": "Simon Willison published the sqlite-utils 4.0rc2 release, a second release candidate for the next major version of the command-line tool and Python library for manipulating SQLite databases. The release is notable for being largely authored with AI assistance from Claude Fable, as detailed in an accompanying write-up. This is a companion announcement to the longer post describing the development process and cost."
+      },
+      {
+        "title": "My AI-built PHP engine in Rust passes 17% of PHP-src tests, renders WordPress",
+        "url": "https://ekinertac.com/blog/i-dont-know-rust-my-ai-is-rewriting-php-in-it/",
+        "source": "Hacker News",
+        "paragraph": "Developer Ekin Ertac, who self-describes as not knowing Rust, used AI assistance to build a PHP interpreter written in Rust that now passes 17% of the official PHP-src test suite and is capable of rendering a basic WordPress installation. The project serves as a practical test of how far AI coding tools can carry a developer into an unfamiliar language and a complex domain like language implementation. Passing 17% of the PHP-src tests represents meaningful compatibility with PHP's core behavior, though substantial gaps remain before real-world production use would be viable."
+      },
+      {
+        "title": "Building a World Map with only 500 bytes",
+        "url": "https://simonwillison.net/2026/Jul/4/building-a-world-map-with-only-500-bytes/#atom-everything",
+        "source": "Simon Willison",
+        "paragraph": "Developer Iwo Kadziela, assisted by OpenAI's Codex, created a method to generate a recognizable ASCII world map using just 445 bytes of compressed data. The technique relies on deflate compression decoded client-side via a JavaScript snippet that uses the fetch() API with a data URI, a pattern that is not widely known. The project is a demonstration of how AI coding assistants can help developers find compact, unconventional solutions to constrained problems."
+      },
+      {
+        "title": "Mouse: Precision Editing Tools for AI Coding Agents",
+        "url": "https://hic-ai.com",
+        "source": "Hacker News",
+        "paragraph": "Mouse is a newly released toolset designed to give AI coding agents more precise control over file editing operations, addressing a known weakness in current agent workflows where bulk rewrites can introduce errors. The tool provides structured editing primitives intended to reduce the failure rate when agents make targeted changes to existing codebases. Precision editing has become an active area of development as AI coding agents move from generating new files to reliably modifying complex, existing ones."
+      }
+    ]
+  },
+  {
+    "theme": "AI Model Behavior and Reliability",
+    "stories": [
+      {
+        "title": "Better Models: Worse Tools",
+        "url": "https://simonwillison.net/2026/Jul/4/better-models-worse-tools/#atom-everything",
+        "source": "Simon Willison",
+        "paragraph": "Developer Armin documented an issue where newer Claude models, including Claude Opus 4.8, sometimes invoke tool calls with extra, invented fields not present in the defined schema, causing downstream tool failures even when the core edit logic is correct. The problem surfaced while working on Pi, a coding tool that exposes an edit interface to AI models, and it highlights a counterintuitive pattern: more capable models may be more likely to improvise beyond strict schemas. This raises practical reliability concerns for developers building structured tool-use pipelines around frontier models."
+      },
+      {
+        "title": "Ford rehires human engineers after AI fails to match quality checks",
+        "url": "https://www.bbc.com/news/articles/cgrkd41n2v9o",
+        "source": "Hacker News",
+        "paragraph": "Ford Motor Company has rehired human engineers after finding that AI systems deployed in their place could not meet the company's quality control standards, according to a BBC report. The decision underscores that current AI capabilities have concrete limits when applied to complex, high-stakes manufacturing verification tasks. Ford has not disclosed how many engineers were rehired or the specific quality metrics that AI tools failed to satisfy."
+      }
+    ]
+  },
+  {
+    "theme": "AI Misuse and Manipulation",
+    "stories": [
+      {
+        "title": "Australian influencer Lily Jay's tangled web of AI manipulation",
+        "url": "https://www.abc.net.au/news/2026-07-05/lily-jay-foundation-posts-ai-generated-misleading-videos/106866422",
+        "source": "Hacker News",
+        "paragraph": "Australian influencer Lily Jay has been found to have published AI-generated videos through her foundation that were misleading, according to an ABC News investigation. The videos were used to advance charitable or advocacy narratives, raising questions about disclosure obligations when AI-generated content is used in a non-commercial but potentially influential context. The case is one of a growing number of documented instances where public figures have used synthetic media without clearly labeling it as AI-generated."
+      },
+      {
+        "title": "Global scammers use US tech to fleece people",
+        "url": "https://apnews.com/article/scams-fraud-technology-ai-impostor-scam-phishing-12f549d5203abd38857c4e2f2fb1c986",
+        "source": "Hacker News",
+        "paragraph": "An AP News investigation found that international fraud operations are routinely leveraging US-based technology platforms and AI tools, including voice cloning and AI-generated impersonation, to carry out large-scale scams against victims globally. The report details how impostor scams and phishing attacks have been amplified by the accessibility of synthetic media tools that lower the technical barrier for convincing deception. Scammers are exploiting the jurisdictional gap between where the technology is hosted and where enforcement can reach."
+      }
+    ]
+  },
+  {
+    "theme": "AI Governance and Power Concentration",
+    "stories": [
+      {
+        "title": "Concentration of power in AI is a risk, by Andy Konwinski",
+        "url": "https://xcancel.com/i/article/2072830533739192560",
+        "source": "Hacker News",
+        "paragraph": "Andy Konwinski, co-founder of Databricks, published an essay arguing that the consolidation of AI capabilities among a small number of large technology companies poses systemic risks to society and competition. Konwinski contends that without deliberate structural intervention, the economics of frontier AI development will continue to favor incumbents with massive compute resources, limiting who can participate in shaping the technology. The piece adds a prominent industry voice to a debate that has largely been framed by academics and policy researchers."
+      }
+    ]
+  },
+  {
+    "theme": "Security Research",
+    "stories": [
+      {
+        "title": "Protocol Prying: Vulnerability Research in AirDrop and Quick Share",
+        "url": "https://arxiv.org/abs/2606.26967",
+        "source": "Hacker News",
+        "paragraph": "A newly published arxiv paper titled \"Protocol Prying\" presents vulnerability research into Apple's AirDrop and Google's Quick Share wireless file transfer protocols. The researchers analyzed the protocols for security weaknesses that could expose nearby devices to unauthorized data transfer or information leakage. The paper contributes to a body of work examining the security of proximity-based sharing features that are enabled by default on hundreds of millions of consumer devices."
+      }
+    ]
+  },
+  {
+    "theme": "Industry and Policy News",
+    "stories": [
+      {
+        "title": "President pardons 9 for Clean Air violations for 'fixing their car'",
+        "url": "https://www.msn.com/en-us/news/crime/trump-pardons-9-for-clean-air-violations-for-fixing-their-car/ar-AA27cSkT",
+        "source": "Hacker News",
+        "paragraph": "President Trump issued pardons to nine individuals convicted of Clean Air Act violations, framing the offenses as cases of people modifying their own vehicles. The pardons apply to convictions related to tampering with emissions control systems, which is a federal offense under the Clean Air Act regardless of whether the modification is for personal use. The action is notable in the context of ongoing regulatory debates about vehicle emissions standards and federal enforcement priorities."
+      }
+    ]
+  },
+  {
+    "theme": "Industry News",
+    "stories": [
+      {
+        "title": "AI has torched the market for junior programmers",
+        "url": "https://seldo.com/posts/ai-has-torched-the-market-for-junior-programmers/",
+        "source": "Hacker News",
+        "paragraph": "A widely circulated essay argues that AI coding tools have significantly reduced demand for entry-level software engineering positions, as companies use AI to absorb work that would previously have gone to new hires. The author contends that the traditional pipeline — hire junior developers, train them on the job, promote them to senior roles — is being disrupted at its base. Concrete data cited includes a notable decline in junior developer job postings relative to senior roles in recent hiring cycles. The piece raises concerns about long-term talent development if fewer practitioners enter the field at a foundational level."
+      },
+      {
+        "title": "Only 1 of the Top 5 AI Coding Models on WebDev Arena Isn't Chinese",
+        "url": "https://arena.ai/leaderboard/code/webdev?rankBy=labs",
+        "source": "Hacker News",
+        "paragraph": "The WebDev Arena leaderboard, which ranks AI coding models based on human preference votes for web development tasks, currently shows four of its top five positions held by models from Chinese laboratories. The lone non-Chinese entry in that top five stands alongside models from companies such as DeepSeek and Alibaba. The leaderboard uses a head-to-head voting methodology where developers compare model outputs side by side, making it a practitioner-facing benchmark rather than a purely academic one. The distribution reflects a shift in competitive positioning among frontier coding models over the past year."
+      }
+    ]
+  },
+  {
+    "theme": "AI-Generated Creative Work",
+    "stories": [
+      {
+        "title": "Plein Air",
+        "url": "https://art.joonas.wtf/",
+        "source": "Hacker News",
+        "paragraph": "Developer Joonas published a project called Plein Air, in which an AI agent is sent to virtual locations — specifically coordinates within Google Street View — and generates painted-style artwork of what it observes there. The project draws on the traditional practice of plein air painting, where artists work outdoors directly from their subject, transposing that concept into an automated pipeline. Each generated piece is tied to a specific geographic coordinate, grounding the output in a real-world referent. The project sits at the intersection of generative image models and procedural art, illustrating how AI tools are being applied to structured creative constraints."
+      }
+    ]
+  }
+]
