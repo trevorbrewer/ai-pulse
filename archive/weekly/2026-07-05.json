@@ -1,0 +1,102 @@
+{
+  "week_ending": "2026-07-05",
+  "generated_at": "2026-07-05T14:45:53.744418+00:00",
+  "days_included": [
+    "2026-06-29",
+    "2026-07-02",
+    "2026-07-03",
+    "2026-07-04",
+    "2026-07-05"
+  ],
+  "themes": [
+    {
+      "name": "AI Coding Tools: Productivity Gaps, Failure Modes, and Workflow Reckoning",
+      "summary": "This week produced a dense cluster of evidence that the productivity promises of AI coding assistants are more complicated than commonly presented. A 2025 study resurfaced showing developers felt 20% faster while measuring 19% slower, a separate study found AI saves roughly 3% of working hours with little financial translation, and Hacker News threads catalogued concrete failure modes including context-window avoidance generating duplicate functions and the inability to maintain developer flow state. At the same time, practitioners published hands-on accounts ranging from Simon Willison spending $149 in API costs to push a major sqlite-utils release, to a developer building a PHP interpreter in Rust without knowing the language, suggesting the tools do enable work that would otherwise be blocked. The week also surfaced Ford rehiring experienced engineers after AI fell short on quality checks, grounding the developer-tool discussion in a real industrial consequence. Taken together, the coverage reveals a field actively negotiating the difference between AI as a capable collaborator and AI as a productivity multiplier.",
+      "key_stories": [
+        {
+          "title": "The gauge broke: devs felt 20% faster with AI, measured 19% slower",
+          "url": "https://intrepidkarthi.com/writing/the-gauge-broke/"
+        },
+        {
+          "title": "AI coding is a nightmare. Am I the only one experiencing this?",
+          "url": "https://news.ycombinator.com/item?id=48770319"
+        },
+        {
+          "title": "sqlite-utils 4.0rc2, mostly written by Claude Fable (for about $149.25)",
+          "url": "https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/#atom-everything"
+        }
+      ]
+    },
+    {
+      "name": "AI Economics: Infrastructure Costs, Labor Displacement, and Contested Productivity Claims",
+      "summary": "A recurring thread across the week was the growing tension between the scale of AI investment and the difficulty of demonstrating proportional returns. Meta capped internal token spending after costs approached billions, a retry storm caused one developer's daily API bill to exceed a month of server costs, and economists at Brookings and the Federal Reserve found roughly half of a widely cited $2.2 trillion productivity projection rests on unsupported assumptions. Meanwhile, Amazon's Mechanical Turk closing to new customers marked a symbolic endpoint for one labor model that AI has displaced, while a Goldman Sachs report and an OpenAI analysis of EU labor markets examined where human work goes next. The week also surfaced junior programmer market erosion and Josh Comeau's reported course sales declines as specific, named data points for how AI is redistributing economic value in technical education and software hiring.",
+      "key_stories": [
+        {
+          "title": "AI's $2.2T deficit fix is already half fake, economists say",
+          "url": "https://fortune.com/2026/07/02/ai-productivity-deficit-national-debt-brookings-fed-study/"
+        },
+        {
+          "title": "Amazon's Mechanical Turk to stop accepting new customers",
+          "url": "https://www.theregister.com/off-prem/2026/07/03/amazons-mechanical-turk-to-stop-accepting-new-customers-and-not-even-ai-can-save-it/5266274"
+        },
+        {
+          "title": "AI has torched the market for junior programmers",
+          "url": "https://seldo.com/posts/ai-has-torched-the-market-for-junior-programmers/"
+        }
+      ]
+    },
+    {
+      "name": "AI Content Integrity and Misinformation",
+      "summary": "The week produced several distinct but related signals about AI's effect on the information environment. Nieman Lab documented a self-referential loop in which AI-generated articles decrying AI misinformation are themselves low-quality AI output, while an ABC News investigation found an Australian influencer publishing AI-generated misleading videos through a foundation. AP News reported that international fraud operations are using US-based AI tools including voice cloning for large-scale impostor scams. The Better Images of AI initiative and the Martens Centre piece on traditional media both argued, from different angles, that the symbolic and epistemic infrastructure around AI requires deliberate curation to remain reliable. Collectively, the coverage suggests that the misinformation challenge from AI-generated content is moving from theoretical concern to documented, recurring phenomenon across multiple domains.",
+      "key_stories": [
+        {
+          "title": "AI fake news complaining about how AI fake news is the death of real news",
+          "url": "https://www.niemanlab.org/2026/07/now-were-getting-ai-fake-news-complaining-about-how-ai-fake-news-is-the-death-of-real-news/"
+        },
+        {
+          "title": "Australian influencer Lily Jay's tangled web of AI manipulation",
+          "url": "https://www.abc.net.au/news/2026-07-05/lily-jay-foundation-posts-ai-generated-misleading-videos/106866422"
+        },
+        {
+          "title": "Global scammers use US tech to fleece people",
+          "url": "https://apnews.com/article/scams-fraud-technology-ai-impostor-scam-phishing-12f549d5203abd38857c4e2f2fb1c986"
+        }
+      ]
+    },
+    {
+      "name": "AI Power Concentration and Governance",
+      "summary": "Several stories this week converged on questions about who controls AI infrastructure and what that concentration means. OpenAI is reportedly discussing giving the US government a 5% equity stake during its nonprofit-to-for-profit restructuring, a structurally novel arrangement. Databricks co-founder Andy Konwinski published an essay arguing that consolidation among a small number of frontier labs poses systemic risks without structural intervention. The WebDev Arena leaderboard showed four of the top five AI coding models coming from Chinese laboratories, a concrete capability signal with geopolitical weight. Central bankers separately warned that concentrated capital flows into a small number of AI companies could create systemic financial instability. Together these developments describe an environment where capability, capital, and governance questions about AI are becoming harder to treat as separate problems.",
+      "key_stories": [
+        {
+          "title": "OpenAI 'in early talks to give 5% stake to US government'",
+          "url": "https://www.theguardian.com/technology/2026/jul/02/openai-stake-us-government-ai-sam-altman"
+        },
+        {
+          "title": "Concentration of power in AI is a risk, by Andy Konwinski",
+          "url": "https://xcancel.com/i/article/2072830533739192560"
+        },
+        {
+          "title": "Only 1 of the Top 5 AI Coding Models on WebDev Arena Isn't Chinese",
+          "url": "https://arena.ai/leaderboard/code/webdev?rankBy=labs"
+        }
+      ]
+    }
+  ],
+  "project_idea": {
+    "title": "Measure Your Own AI Coding Productivity with a Structured Task Journal",
+    "theme": "AI Coding Tools: Productivity Gaps, Failure Modes, and Workflow Reckoning",
+    "description": "Replicate the methodology behind the 'gauge broke' study at personal scale: select 10 representative coding tasks from your own work or from a public benchmark like SWE-Bench Lite, complete five with an AI assistant (Claude via API free tier or a local model via Ollama) and five without, and record both your subjective time estimate and wall-clock time for each. Use Python with the `time` module and a simple SQLite log (via sqlite-utils) to store task descriptions, perceived duration, actual duration, and AI-assisted boolean, then produce a summary table showing the gap between felt and measured speed across both conditions.",
+    "estimated_time": "a weekend",
+    "skills_practiced": [
+      "experimental design and self-measurement methodology",
+      "SQLite data logging with sqlite-utils",
+      "LLM API integration via free-tier access or local inference",
+      "basic statistical summarization in Python",
+      "prompt scoping and task decomposition for AI-assisted coding"
+    ]
+  },
+  "discussion_question": {
+    "question": "If AI coding assistants make developers feel faster while objective measurements show them moving slower, what does that tell us about which metrics organizations should use to evaluate AI tool adoption — and are there plausible mechanisms by which the subjective and objective measures could both be correct simultaneously?",
+    "context": "The 'gauge broke' study and the 3% time-savings research both found a disconnect between perceived and measured productivity, but organizations adopting AI tools typically rely on developer satisfaction surveys rather than controlled task timing. Understanding whether this gap reflects measurement error, genuinely different value dimensions, or a systematic bias in self-assessment matters for any team trying to make evidence-based decisions about AI tooling."
+  }
+}
