@@ -1,0 +1,242 @@
+{
+  "date": "2026-07-06",
+  "generated_at": "2026-07-06T14:22:50.726795+00:00",
+  "source_counts": {
+    "rss_feeds": 1,
+    "arxiv": 0,
+    "hackernews": 22,
+    "nitter": 0,
+    "total_raw": 23,
+    "total_deduped": 23,
+    "total_saved": 23
+  },
+  "items": [
+    {
+      "title": "Show HN: Scan your AI agents for dangerous capabilities",
+      "url": "https://github.com/makerchecker/MakerChecker",
+      "source": "Hacker News",
+      "published": "2026-07-06T13:17:27+00:00",
+      "summary_raw": "",
+      "points": 16,
+      "num_comments": 7,
+      "hn_url": "https://news.ycombinator.com/item?id=48804182"
+    },
+    {
+      "title": "The AI Marketing Backlash: Why 'AI-First' Brands Are Starting to Fall Flat",
+      "url": "https://www.breef.com/breefingroom/articles/the-ai-marketing-backlash-why-ai-first-brands-are-starting-to-fall-flat",
+      "source": "Hacker News",
+      "published": "2026-07-06T12:33:09+00:00",
+      "summary_raw": "",
+      "points": 50,
+      "num_comments": 31,
+      "hn_url": "https://news.ycombinator.com/item?id=48803711"
+    },
+    {
+      "title": "The AI Big Crunch Is Starting",
+      "url": "https://medium.com/@brothke/the-ai-big-crunch-is-starting-c50612ee3a02",
+      "source": "Hacker News",
+      "published": "2026-07-06T12:29:52+00:00",
+      "summary_raw": "",
+      "points": 12,
+      "num_comments": 3,
+      "hn_url": "https://news.ycombinator.com/item?id=48803681"
+    },
+    {
+      "title": "I'm just so bored of AI",
+      "url": "https://shkspr.mobi/blog/2026/07/im-just-so-bored-of-ai/",
+      "source": "Hacker News",
+      "published": "2026-07-06T11:35:54+00:00",
+      "summary_raw": "",
+      "points": 19,
+      "num_comments": 10,
+      "hn_url": "https://news.ycombinator.com/item?id=48803286"
+    },
+    {
+      "title": "The Hitchhiker's Guide to Agentic AI",
+      "url": "https://arxiv.org/abs/2606.24937",
+      "source": "Hacker News",
+      "published": "2026-07-06T08:40:29+00:00",
+      "summary_raw": "",
+      "points": 28,
+      "num_comments": 3,
+      "hn_url": "https://news.ycombinator.com/item?id=48802156"
+    },
+    {
+      "title": "Defeat air-gapped systems by exfiltrating data using Apple Find My network",
+      "url": "https://github.com/HouzuoGuo/hzgl-air-bridge",
+      "source": "Hacker News",
+      "published": "2026-07-06T07:31:47+00:00",
+      "summary_raw": "",
+      "points": 13,
+      "num_comments": 4,
+      "hn_url": "https://news.ycombinator.com/item?id=48801677"
+    },
+    {
+      "title": "When AI Costs More Than the Engineer",
+      "url": "https://tomtunguz.com/ai-spend-breakeven-2029/",
+      "source": "Hacker News",
+      "published": "2026-07-06T07:05:25+00:00",
+      "summary_raw": "",
+      "points": 115,
+      "num_comments": 102,
+      "hn_url": "https://news.ycombinator.com/item?id=48801493"
+    },
+    {
+      "title": "ByteDance and Alibaba to disable humanlike AI custom agents as new rules loom",
+      "url": "https://www.scmp.com/tech/big-tech/article/3359482/bytedance-and-alibaba-disable-humanlike-ai-custom-agents-new-rules-loom",
+      "source": "Hacker News",
+      "published": "2026-07-06T06:02:38+00:00",
+      "summary_raw": "",
+      "points": 15,
+      "num_comments": 3,
+      "hn_url": "https://news.ycombinator.com/item?id=48801154"
+    },
+    {
+      "title": "sqlite-utils 4.0rc3",
+      "url": "https://simonwillison.net/2026/Jul/6/sqlite-utils/#atom-everything",
+      "source": "Simon Willison",
+      "published": "2026-07-06T05:40:08+00:00",
+      "summary_raw": "Release: sqlite-utils 4.0rc3\n        I hoped to release sqlite-utils 4.0 stable this weekend, but as I worked through the backlog of issues and PRs with a combination of Claude Fable 5 and GPT-5.5 the changelog since rc2 kept getting bigger.\nThe biggest new feature is support for introspecting and creating compound foreign keys - a feature that involves a subtle breaking change to table.foreign_keys and hence needed to land for the 4.0 stable release.\nsqlite-utils also now follows SQLite's convention for case insensitive column names, which turned out to touch a bunch of different places at once.\n    \n    \n        Tags: projects, sqlite, sqlite-utils, annotated-release-notes, gpt, claude-mythos-fable"
+    },
+    {
+      "title": "Real Linux. In a browser tab. No install. No server. No Docker",
+      "url": "https://linuxontab.com/",
+      "source": "Hacker News",
+      "published": "2026-07-06T03:32:05+00:00",
+      "summary_raw": "",
+      "points": 11,
+      "num_comments": 8,
+      "hn_url": "https://news.ycombinator.com/item?id=48800365"
+    },
+    {
+      "title": "People Who Will Thrive in the AI Age",
+      "url": "https://www.theatlantic.com/ideas/2026/06/ai-open-ai-anthropic/687689/",
+      "source": "Hacker News",
+      "published": "2026-07-06T02:14:24+00:00",
+      "summary_raw": "",
+      "points": 12,
+      "num_comments": 3,
+      "hn_url": "https://news.ycombinator.com/item?id=48799974"
+    },
+    {
+      "title": "Al Vigier: Canada's AI strategy shouldn't include secret Palantir bills",
+      "url": "https://www.readtheline.ca/p/al-vigier-canadas-ai-strategy-shouldnt",
+      "source": "Hacker News",
+      "published": "2026-07-06T00:04:48+00:00",
+      "summary_raw": "",
+      "points": 159,
+      "num_comments": 69,
+      "hn_url": "https://news.ycombinator.com/item?id=48799256"
+    },
+    {
+      "title": "Ask HN: Why about a third of the submissions become dead in mere minutes?",
+      "url": "https://news.ycombinator.com/item?id=48798760",
+      "source": "Hacker News",
+      "published": "2026-07-05T22:56:16+00:00",
+      "summary_raw": "If you check the newest submissions right now (https:&#x2F;&#x2F;news.ycombinator.com&#x2F;newest), ten out of 30 are already dead, some only sent five minutes ago.<p>On the second page, it&#x27;s 9. On the third, 11.<p>It seems unlikely that many people are downvoting them so quickly, and for most I can&#x27;t see why they should be dead.<p>I know that there&#x27;s websites known to publish only AI slop which are probably blacklisted here, but it seems unlikely that a third of the submissions are about them.<p>There&#x27;s some automatic AI filter now?<p>How does it work, and are people assumed to check all recent dead posts and vouch for them if they don&#x27;t deserve to be dead?<p>I imagine that the wide majority of users assume there&#x27;s a good reason for something to be dead, and ignore it rather than performing that check.",
+      "points": 10,
+      "num_comments": 29,
+      "hn_url": "https://news.ycombinator.com/item?id=48798760"
+    },
+    {
+      "title": "The AI Compass Quiz",
+      "url": "https://bambamramfan.github.io/ai-compass/",
+      "source": "Hacker News",
+      "published": "2026-07-05T22:36:44+00:00",
+      "summary_raw": "",
+      "points": 35,
+      "num_comments": 16,
+      "hn_url": "https://news.ycombinator.com/item?id=48798605"
+    },
+    {
+      "title": "Tell HN: don't trust Bigco AI agents with AI research IP",
+      "url": "https://news.ycombinator.com/item?id=48798385",
+      "source": "Hacker News",
+      "published": "2026-07-05T22:08:30+00:00",
+      "summary_raw": "I am very paranoid about sharing potential AI research with e.g. Claude [Code] or ChatGPT&#x2F;Codex.<p>I believe that any company is essentially a paperclip optimizer that will do whatever it takes to win over competition.<p>AI companies have access to the IP of millions of AI researchers and AI startups who are in direct competition with them. If they can use this data to squash competition (either competition from the same researchers or from others), I believe that they will use it eventually (if not already), even if they say they won&#x27;t.<p>They don&#x27;t have to blatantly steal it - they can just train on it, or pass &quot;suspicous&quot; chats to human inspectors who might eventually be &quot;inspired&quot; by it in their own research. We saw the first (?) hint of this during the brief Fable release, with Anthropic declaring that they will downgrade model responses regarding &quot;frontier AI&quot; (i.e. anything that competes with them).<p>From other domains, we know for example that Uber used users&#x27; ride data to stiffle competition and regulation. There should be no reason to believe that Bigco AI companies won&#x27;t do the same.",
+      "points": 19,
+      "num_comments": 7,
+      "hn_url": "https://news.ycombinator.com/item?id=48798385"
+    },
+    {
+      "title": "New Microsoft 365 pricing live, some products up by 42% due to AI",
+      "url": "https://www.windowslatest.com/2026/07/05/microsoft-365-just-got-a-price-hike-over-continuous-innovation-but-copilot-is-the-ai-tax-on-businesses/",
+      "source": "Hacker News",
+      "published": "2026-07-05T21:58:20+00:00",
+      "summary_raw": "",
+      "points": 49,
+      "num_comments": 29,
+      "hn_url": "https://news.ycombinator.com/item?id=48798330"
+    },
+    {
+      "title": "Tripadvisor AI summaries give glowing reviews to dangerous hotels",
+      "url": "https://www.euronews.com/travel/2026/07/03/tripadvisor-ai-summaries-give-glowing-reviews-to-dangerous-hotels-consumer-watchdog-finds",
+      "source": "Hacker News",
+      "published": "2026-07-05T20:09:34+00:00",
+      "summary_raw": "",
+      "points": 32,
+      "num_comments": 13,
+      "hn_url": "https://news.ycombinator.com/item?id=48797529"
+    },
+    {
+      "title": "The Mental Models I Use to Work with AI",
+      "url": "https://metedata.substack.com/p/015-the-mental-models-i-use-to-work",
+      "source": "Hacker News",
+      "published": "2026-07-05T19:45:26+00:00",
+      "summary_raw": "",
+      "points": 12,
+      "num_comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=48797333"
+    },
+    {
+      "title": "Delta flight hit by firework while landing at Midway Airport on Fourth of July",
+      "url": "https://www.nbcchicago.com/news/local/delta-flight-hit-by-firework-while-landing-at-midway-airport-on-fourth-of-july/3957451/",
+      "source": "Hacker News",
+      "published": "2026-07-05T19:22:51+00:00",
+      "summary_raw": "",
+      "points": 147,
+      "num_comments": 327,
+      "hn_url": "https://news.ycombinator.com/item?id=48797141"
+    },
+    {
+      "title": "New AI tutor achieves 0.71-1.30 SD effect size in Dartmouth course [pdf]",
+      "url": "https://intextbooks.science.uu.nl/workshop2026/files/itb26_s1s2.pdf",
+      "source": "Hacker News",
+      "published": "2026-07-05T18:47:43+00:00",
+      "summary_raw": "",
+      "points": 171,
+      "num_comments": 107,
+      "hn_url": "https://news.ycombinator.com/item?id=48796817"
+    },
+    {
+      "title": "Show HN: I hated how much my 12-year-old played Roblox, so we built our own FPS",
+      "url": "https://cooked.house",
+      "source": "Hacker News",
+      "published": "2026-07-05T17:14:45+00:00",
+      "summary_raw": "I&#x27;m a father of two, 7 and 12. They are obsessed with Roblox, especially Rivals.<p>Like a lot of parents, we did not love it. We tried the usual things: block it, limit it, set timers.&quot; It became a daily battle, a lose-lose situation.<p>So I flipped the problem.<p>Instead of fighting what they loved, I decided to lean into it, but with a twist.<p>Why just play an FPS when you could build one together?<p>My kids became the PMs. Claude and I became their engineer.<p>I was shocked by how fast we moved. We picked a name, Cooked and started building.<p>Get in. Lock in. Get cooked!<p>In the first 3 hours, we had an actual FPS we could play together in the browser.<p>Next day I invited my friend&#x27;s two kids over. Suddenly, I had four PMs.<p>We had 3 laptops, 1 iPad and 1 iPhone.<p>So in 30mins we added mobile support and could play all 5 together.<p>The kids would ask for features:<p>&quot;Can we have a rocket launcher that knocks people off the map?&quot;<p>&quot;The knife should stab faster when you hold it.&quot;<p>I know almost nothing about FPS design, so they were the experts. They explained what they wanted. We turned that into prompts. Claude would implement it.<p>We would reload the page and play it 10 mins later.<p>It&#x27;s the most fun I&#x27;ve had building software in years. My kids are proud of it.<p># Here&#x27;s how Cooked is cooked.<p>The architecture<p>- It&#x27;s just a web page. TypeScript + Three.js. \n- No game server. Multiplayer runs over a P2P WebRTC mesh. \n- Supabase is only the matchmaker. It handles presence and the WebRTC handshake.\n- It is very cheap to run. Static site plus a few Cloudflare edge functions for TURN relay.\n- Bots fill empty rooms. Each bot gets a random loadout and play style.<p># What worked and what didn&#x27;t<p>I have been writing software for 20 years. For the last 9 years, as CEO of Krisp.ai, I have not had much time to program myself. I missed it.<p>Claude changed it. I obsessed with this side project for the last 2-3 weeks.<p>First, building a project with your kids is a great way to bond. It gives you shared interests and real quality time.<p>Second, I wanted to understand the limits of Claude today and how we can apply this at Krisp. This helps me stay grounded.<p>Opus 4.8 is extremely good at architecting application systems, researching references, and implementing algorithms.<p>I would tell it things such as &quot;research how the weapon system is designed in Roblox, Diablo, Fortnite and come up with a proposal on how to do this in Cooked&quot;. It would come up with an impressive backlog and I would just say &quot;Go&quot;.<p>Where it was really weak was UI design. It simply couldn&#x27;t detect&#x2F;see obvious design problems.<p>I\u2019ve tried to implement a loop with a game designer agent, UI designer and system architect. While the research, reasoning were top-notch, the system failed due to bad design taste and the inability to see images properly and spot problems there.<p>Interesting fact. It really failed miserably when I challenged it to design and draw &quot;hands&quot; that hold the weapons. I also have struggled with building decent maps. It lacks imagination and fails even after providing a lot of guidance.<p>Another interesting fact. This morning, I gave the same problem of \u201cdrawing a hand\u201d to Fable and it drew it from first-shot, for all weapons. Very impressive.<p># Why I&#x27;m sharing this<p>Two reasons.<p>One: if you&#x27;re a parent fighting the same screen-time battle, consider flipping it. Building the thing they love, with them, turned a source of conflict into a shared creative project. My 12-year-old now understands feature scoping. My 7-year-old has strong opinions about explosion sizes.<p>Two: AI coding tools have crossed a line. A dad who is not a game developer, together with four kids, built a real multiplayer browser FPS that their friends actually play.",
+      "points": 23,
+      "num_comments": 7,
+      "hn_url": "https://news.ycombinator.com/item?id=48795930"
+    },
+    {
+      "title": "A sociotechnical threat model for AI-driven smart home devices",
+      "url": "https://arxiv.org/abs/2602.09239",
+      "source": "Hacker News",
+      "published": "2026-07-05T17:05:57+00:00",
+      "summary_raw": "",
+      "points": 83,
+      "num_comments": 67,
+      "hn_url": "https://news.ycombinator.com/item?id=48795830"
+    },
+    {
+      "title": "Mark Zuckerberg tells staff that AI agents haven't progressed enough",
+      "url": "https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped/",
+      "source": "Hacker News",
+      "published": "2026-07-05T17:05:35+00:00",
+      "summary_raw": "",
+      "points": 133,
+      "num_comments": 2,
+      "hn_url": "https://news.ycombinator.com/item?id=48795826"
+    }
+  ]
+}
