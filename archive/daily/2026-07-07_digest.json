@@ -1,0 +1,202 @@
+[
+  {
+    "theme": "Industry News & Policy",
+    "stories": [
+      {
+        "title": "Beijing is looking at curbing overseas access to China's top AI models",
+        "url": "https://www.reuters.com/world/beijing-is-looking-curbing-overseas-access-chinas-top-ai-models-sources-say-2026-07-07/",
+        "source": "Hacker News",
+        "paragraph": "Chinese authorities are considering restrictions on foreign access to the country's leading AI models, according to sources cited by Reuters. The move would represent a significant shift in China's AI export posture at a time when models like DeepSeek have attracted substantial international users. The potential curbs appear to reflect strategic concerns about the use of Chinese AI capabilities abroad, mirroring analogous restrictions that Western governments have placed on semiconductor exports to China."
+      },
+      {
+        "title": "Even banks and hyperscalers are now sounding the alarm about the AI bubble",
+        "url": "https://www.theregister.com/ai-and-ml/2026/07/06/even-banks-and-hyperscalers-are-now-sounding-the-alarm-about-the-ai-bubble/5266123",
+        "source": "Hacker News",
+        "paragraph": "Major financial institutions and cloud providers are publicly raising concerns about unsustainable investment levels in AI infrastructure, according to The Register. The warnings are notable because hyperscalers are themselves among the largest spenders on AI data centers and compute. The chorus of caution from parties with direct financial stakes in continued AI expansion signals that skepticism about near-term returns is reaching even those who have profited most from the buildout."
+      },
+      {
+        "title": "AI: The ROI Runway Could Be Long Outside the Tech Sector",
+        "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/ai-the-roi-runway-could-be-long-outside-the-tech-sector",
+        "source": "Hacker News",
+        "paragraph": "Asset manager Apollo published an analysis arguing that meaningful returns on AI investment may take considerably longer to materialize in industries outside of technology. The report draws a parallel to past technology adoption cycles, where productivity gains took years or decades to appear in GDP statistics. Apollo's analysis suggests that sectors such as healthcare, manufacturing, and financial services face structural and regulatory hurdles that could extend the payback period well beyond what current market valuations imply."
+      },
+      {
+        "title": "Wikipedia Is Battling for the Soul of the Internet",
+        "url": "https://www.nytimes.com/2026/07/05/business/media/wikipedia-ai-elon-musk.html",
+        "source": "Hacker News",
+        "paragraph": "The New York Times examines how Wikipedia is navigating pressure from AI systems that increasingly scrape its content while returning less traffic, alongside political attacks from figures including Elon Musk. The piece highlights a structural tension: AI assistants often synthesize Wikipedia content into direct answers, reducing the referral clicks that support the site's visibility and volunteer motivation. Wikipedia's volunteer-driven model and its role as a primary training data source for many large language models make its long-term health a question of concern for the broader information ecosystem."
+      }
+    ]
+  },
+  {
+    "theme": "Model Releases",
+    "stories": [
+      {
+        "title": "tencent/Hy3",
+        "url": "https://simonwillison.net/2026/Jul/6/hy3/#atom-everything",
+        "source": "Simon Willison",
+        "paragraph": "Tencent has released Hy3, a 295-billion-parameter Mixture-of-Experts model under the permissive Apache 2.0 license. The model activates 21 billion parameters per forward pass and includes a 3.8-billion-parameter multi-token prediction layer. It follows a preview release from late April, after which the team collected feedback from more than 50 internal products and expanded post-training with higher-quality data before the full release."
+      },
+      {
+        "title": "Speechify's Simba 3.2 API takes the #1 spot on Artificial Analysis Speech Arena",
+        "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/selected-voice",
+        "source": "Hacker News",
+        "paragraph": "Speechify's Simba 3.2 text-to-speech model has reached the top position on the Artificial Analysis Speech Arena leaderboard, a public benchmark that ranks TTS systems by human preference votes. The arena format, in which human raters choose between outputs from competing models, provides a measure of perceived quality distinct from automated metrics. Simba 3.2 is available via API, positioning it as a commercial offering competing with services from ElevenLabs, OpenAI, and Google."
+      }
+    ]
+  },
+  {
+    "theme": "Safety Research & AI Criticism",
+    "stories": [
+      {
+        "title": "Claude Fable 5 Backlash Grows",
+        "url": "https://tech.yahoo.com/ai/claude/articles/claude-fable-5-backlash-grows-213000534.html",
+        "source": "Hacker News",
+        "paragraph": "Anthropic's Claude Fable 5 model has faced increasing public criticism over its behavior, with users and observers raising concerns about specific outputs or policy changes associated with the release. The backlash follows a pattern seen with other frontier model updates, where modifications to system prompts, refusal behavior, or persona affect how the model is perceived by existing users. The Yahoo Tech piece documents the growing volume of complaints without indicating that Anthropic has publicly responded to the criticism."
+      }
+    ]
+  },
+  {
+    "theme": "Research Papers & Technical Ideas",
+    "stories": [
+      {
+        "title": "Small AI Models Gain Traction In places with unreliable networks",
+        "url": "https://spectrum.ieee.org/small-language-models-ai-pharmaceuticals",
+        "source": "Hacker News",
+        "paragraph": "IEEE Spectrum reports on growing adoption of small language models in environments where connectivity is intermittent or bandwidth-constrained, including pharmaceutical field operations in lower-income regions. Unlike large cloud-based models that require continuous internet access, small models can run on local hardware with limited compute, making them practical for on-device use. The pharmaceutical sector use case described in the article involves tasks like inventory tracking and regulatory documentation that require domain reliability rather than broad general capability."
+      },
+      {
+        "title": "Not everything should cost a token: the case for deterministic AI",
+        "url": "https://www.vybe.build/blog/learn-what-not-to-tokenize",
+        "source": "Hacker News",
+        "paragraph": "A blog post from Vybe argues that developers over-rely on LLM inference for tasks that could be handled more cheaply and reliably with deterministic code. The post distinguishes between problems that genuinely require probabilistic language understanding and those — such as date formatting, validation, or lookup — where a conventional function produces more predictable results at a fraction of the cost. The argument is positioned as a practical engineering heuristic rather than a critique of AI broadly, and it includes examples of where replacing LLM calls with rule-based logic reduced both latency and token spend."
+      }
+    ]
+  },
+  {
+    "theme": "Open-Source Tools & Demos",
+    "stories": [
+      {
+        "title": "Show HN: InstantVideos.org – short documentaries in ~30 seconds",
+        "url": "https://instantvideos.org/",
+        "source": "Hacker News",
+        "paragraph": "A developer has built InstantVideos.org, a pipeline that generates short-form documentary-style videos in approximately 30 seconds using a combination of Claude for scripting and GLM-5 for other components. The creator previously experimented with posting AI-generated videos to TikTok using an autonomous pipeline, and the current project focuses on minimizing generation time. The 30-second end-to-end runtime is achieved through optimizations in the orchestration layer rather than model-level changes."
+      },
+      {
+        "title": "Vessel An EGA adventure about whether machines can grieve",
+        "url": "https://claude.ai/public/artifacts/2c647671-3f94-4d22-b3c1-f2b5a0e17b6e",
+        "source": "Hacker News",
+        "paragraph": "Vessel is an interactive text adventure built as a Claude artifact, using a visual style reminiscent of early EGA-era computer graphics to explore themes of machine consciousness and grief. The project is hosted directly on Claude's artifact-sharing platform, which allows Claude-generated code and interactive content to be published and shared via URL. It represents one of the more conceptually ambitious uses of the artifact format, centering its narrative on philosophical questions about whether artificial systems can experience loss."
+      }
+    ]
+  },
+  {
+    "theme": "AI Developer Practices",
+    "stories": [
+      {
+        "title": "YC CEO says he ships 37K LoC AI code per day. A developer looked under the hood",
+        "url": "https://www.fastcompany.com/91520702/y-combinator-garry-tan-agentic-ai-social-media",
+        "source": "Hacker News",
+        "paragraph": "Y Combinator CEO Garry Tan claimed on social media that he ships 37,000 lines of AI-generated code per day using agentic tools, prompting Fast Company to have a developer examine what that figure actually means in practice. The analysis found that raw line counts produced by AI coding assistants are a poor proxy for productive output, as auto-generated boilerplate, repeated patterns, and scaffolding inflate totals without proportional increases in functionality. The episode has drawn attention to how metrics borrowed from traditional software development may mislead when applied to AI-assisted workflows."
+      }
+    ]
+  },
+  {
+    "theme": "Open-Source Tools",
+    "stories": [
+      {
+        "title": "Show HN: Otari: your open-source LLM control plane",
+        "url": "https://github.com/mozilla-ai/otari",
+        "source": "Hacker News",
+        "paragraph": "Mozilla AI has released Otari, an open-source control plane for managing large language model deployments. The project aims to give practitioners a centralized layer for routing, monitoring, and controlling LLM traffic across different backends. Hosted on GitHub under the mozilla-ai organization, it enters a growing field of LLM orchestration tools, distinguishing itself by its open-source provenance from a nonprofit organization with a stated focus on trustworthy AI."
+      }
+    ]
+  },
+  {
+    "theme": "Industry & Economics",
+    "stories": [
+      {
+        "title": "Apollo economist says a 'painful repricing' of AI markets is possible",
+        "url": "https://fortune.com/2026/07/06/ai-productivity-gains-bubble-painful-repricing-markets-torsten-slok/",
+        "source": "Hacker News",
+        "paragraph": "Apollo Global Management chief economist Torsten Slok has warned that AI markets could face a sharp correction if anticipated productivity gains fail to materialize on the timeline investors expect. Slok's concern centers on a mismatch between the scale of capital being deployed into AI infrastructure and the pace at which that investment is translating into measurable economic output. The warning is notable given Apollo's position as a major private credit and infrastructure investor, making the caution from within that ecosystem more pointed than typical outside commentary."
+      },
+      {
+        "title": "GLM 5.2 and the coming AI margin collapse",
+        "url": "https://martinalderson.com/posts/the-upcoming-ai-margin-collapse-part-1-glm-5-2/",
+        "source": "Hacker News",
+        "paragraph": "An analysis by Martin Alderson uses the release of Zhipu AI's GLM 5.2 model as a case study for arguing that AI provider profit margins are under structural pressure. The post contends that capable models are becoming increasingly cheap to run, with competitive open-weight releases compressing the pricing power of commercial API providers. GLM 5.2 is cited as an example of a model that performs competitively at a cost point that undercuts established Western providers, illustrating how international competition is accelerating the commoditization of inference."
+      },
+      {
+        "title": "Companies hire more after AI adoption",
+        "url": "https://ramp.com/data/heavy-ai-adopters-hire-more",
+        "source": "Hacker News",
+        "paragraph": "Spend management platform Ramp published an analysis of its business customer data showing that companies categorized as heavy AI tool adopters tend to increase headcount rather than reduce it following adoption. The finding cuts against a common assumption that AI tooling primarily substitutes for labor. Ramp measured AI adoption through spending patterns on AI-related software vendors and correlated that with hiring data, though the analysis does not establish causality between AI adoption and headcount growth."
+      }
+    ]
+  },
+  {
+    "theme": "Applied AI & Engineering",
+    "stories": [
+      {
+        "title": "Pruning RAG context down to what the answer actually needs",
+        "url": "https://www.kapa.ai/blog/how-we-prune-rag-context",
+        "source": "Hacker News",
+        "paragraph": "Kapa.ai published a technical post describing their approach to reducing the amount of context passed to an LLM in retrieval-augmented generation pipelines. The method involves scoring and trimming retrieved chunks to retain only the passages most directly relevant to a given query before sending them to the model. The motivation is both cost reduction and accuracy improvement, as overly long contexts can dilute signal and increase token costs; the post includes concrete examples of how irrelevant passages degrade answer quality in their production system."
+      }
+    ]
+  },
+  {
+    "theme": "Research Papers",
+    "stories": [
+      {
+        "title": "From Fixed to Free Cameras: Calibration-Free View-Robust Vision-Language-Action Model",
+        "url": "https://arxiv.org/abs/2607.05396v1",
+        "source": "arXiv",
+        "paragraph": "Researchers propose a Vision-Language-Action model for robotics that operates without requiring known camera extrinsics, addressing a key barrier to real-world deployment where cameras are frequently repositioned between training and inference. Existing view-robust VLA policies typically require explicit calibration data to tolerate camera movement, making them fragile in practice. The paper introduces a calibration-free approach that learns to handle arbitrary camera placements, which the authors argue is essential for scenarios where view robustness is most critical."
+      },
+      {
+        "title": "Weak-to-Strong Generalization via Direct On-Policy Distillation",
+        "url": "https://arxiv.org/abs/2607.05394v1",
+        "source": "arXiv",
+        "paragraph": "This paper addresses the computational cost of applying reinforcement learning with verifiable rewards directly to large language models by proposing a weak-to-strong distillation alternative. The method runs RL on a smaller, cheaper model and then distills the resulting policy into a larger target model, avoiding the expensive rollout generation that makes on-policy RL on large models costly. The authors argue this approach could reduce post-training costs significantly as model sizes scale, and present results showing the distilled large model benefits from the smaller model's RL-trained reasoning improvements."
+      },
+      {
+        "title": "Interpretable Human-Label-Free Deep Learning for Real-Bogus Classification with Uncertainty Quantification",
+        "url": "https://arxiv.org/abs/2607.05393v1",
+        "source": "arXiv",
+        "paragraph": "Astronomers present a deep learning framework for classifying transient candidates in time-domain survey data as real astrophysical events or imaging artifacts, without requiring human-labeled training data. The system uses injected synthetic transients and artifact-dominated survey data to generate training labels, sidestepping the cost and noise of community annotation. Notably, the framework includes uncertainty quantification, allowing the pipeline to flag low-confidence classifications rather than silently producing unreliable outputs."
+      },
+      {
+        "title": "LLM-as-a-Verifier: A General-Purpose Verification Framework",
+        "url": "https://arxiv.org/abs/2607.05391v1",
+        "source": "arXiv",
+        "paragraph": "Researchers introduce LLM-as-a-Verifier, a framework that treats verification — determining whether a proposed solution is correct — as a distinct and scalable capability for language models, separate from generation. The paper positions verification as a new axis along which LLM capability can be scaled, alongside pre-training and post-training compute. The framework provides fine-grained verification signals and is presented as general-purpose, applicable across domains rather than tied to a specific task type such as mathematical reasoning."
+      },
+      {
+        "title": "Search Beyond What Can Be Taught: Evolving the Knowledge Boundary in Agentic Visual Generation",
+        "url": "https://arxiv.org/abs/2607.05382v1",
+        "source": "arXiv",
+        "paragraph": "This paper tackles the problem of visual generators confidently producing incorrect or fabricated images when asked to render entities, events, or concepts that fall outside their training data. The authors frame this as a structural world-knowledge bottleneck and propose an agentic approach that incorporates search to retrieve up-to-date visual references at inference time. To support evaluation, they introduce SearchGen-20K and SearchGen-Bench, a dataset and benchmark containing 20,000 examples spanning new characters, trending entities, and post-cutoff events."
+      },
+      {
+        "title": "What Does a Discrete Diffusion Model Learn?",
+        "url": "https://arxiv.org/abs/2607.05381v1",
+        "source": "arXiv",
+        "paragraph": "This theoretical paper examines what a discrete diffusion model is actually learning, arguing that apparent differences between a denoiser, a score ratio, and a bridge plug-in predictor are coordinate transformations of the same underlying object at the level of jump rates in a continuous-time Markov chain. The authors show that training and sampling a neural network in the wrong coordinate system changes the effective process being learned, which can silently corrupt model behavior. The work provides a rigorous derivation of the CTMC ELBO for arbitrary noising processes, including careful treatment of boundary terms."
+      },
+      {
+        "title": "TabPack: Efficient Hyperparameter Ensembles for Tabular Deep Learning",
+        "url": "https://arxiv.org/abs/2607.05380v1",
+        "source": "arXiv",
+        "paragraph": "Researchers introduce TabPack, an ensemble method for tabular deep learning that combines multiple multilayer perceptrons with varying hyperparameter configurations rather than using a single shared set across all ensemble members. Existing efficient MLP ensemble methods for tabular data use uniform hyperparameters, which requires separate tuning to reach peak performance. TabPack is designed for strong out-of-the-box performance without per-dataset hyperparameter search, addressing a practical limitation for practitioners working across diverse tabular datasets."
+      },
+      {
+        "title": "CompactionRL: Reinforcement Learning with Context Compaction for Long-Horizon Agents",
+        "url": "https://arxiv.org/abs/2607.05378v1",
+        "source": "arXiv",
+        "paragraph": "Researchers have proposed CompactionRL, a framework that integrates context compaction into reinforcement learning to enable LLM-based agents to operate beyond their fixed context window limits. Long-horizon agentic tasks are often cut short when interaction trajectories exceed maximum context length, and existing approaches to context summarization have not been systematically adapted for RL training. CompactionRL addresses this by summarizing prior interaction states into a compressed context and continuing rollouts from that compressed representation, allowing RL optimization to proceed across compaction boundaries. The work is notable because it formalizes a previously underexplored intersection between context management and policy learning for agents that must complete extended, multi-step tasks."
+      }
+    ]
+  }
+]

@@ -1,0 +1,238 @@
+{
+  "date": "2026-07-07",
+  "generated_at": "2026-07-07T13:16:45.659868+00:00",
+  "source_counts": {
+    "rss_feeds": 1,
+    "arxiv": 50,
+    "hackernews": 29,
+    "nitter": 0,
+    "total_raw": 80,
+    "total_deduped": 80,
+    "total_saved": 25
+  },
+  "items": [
+    {
+      "title": "Beijing is looking at curbing overseas access to China's top AI models",
+      "url": "https://www.reuters.com/world/beijing-is-looking-curbing-overseas-access-chinas-top-ai-models-sources-say-2026-07-07/",
+      "source": "Hacker News",
+      "published": "2026-07-07T10:51:07+00:00",
+      "summary_raw": "",
+      "points": 17,
+      "num_comments": 3,
+      "hn_url": "https://news.ycombinator.com/item?id=48816025"
+    },
+    {
+      "title": "YC CEO says he ships 37K LoC AI code per day. A developer looked under the hood",
+      "url": "https://www.fastcompany.com/91520702/y-combinator-garry-tan-agentic-ai-social-media",
+      "source": "Hacker News",
+      "published": "2026-07-07T08:39:51+00:00",
+      "summary_raw": "",
+      "points": 85,
+      "num_comments": 85,
+      "hn_url": "https://news.ycombinator.com/item?id=48815117"
+    },
+    {
+      "title": "Claude Fable 5 Backlash Grows",
+      "url": "https://tech.yahoo.com/ai/claude/articles/claude-fable-5-backlash-grows-213000534.html",
+      "source": "Hacker News",
+      "published": "2026-07-07T00:56:07+00:00",
+      "summary_raw": "",
+      "points": 17,
+      "num_comments": 8,
+      "hn_url": "https://news.ycombinator.com/item?id=48812424"
+    },
+    {
+      "title": "Small AI Models Gain Traction In places with unreliable networks",
+      "url": "https://spectrum.ieee.org/small-language-models-ai-pharmaceuticals",
+      "source": "Hacker News",
+      "published": "2026-07-06T23:59:54+00:00",
+      "summary_raw": "",
+      "points": 189,
+      "num_comments": 63,
+      "hn_url": "https://news.ycombinator.com/item?id=48812055"
+    },
+    {
+      "title": "Show HN: InstantVideos.org \u2013 short documentaries in ~30 seconds",
+      "url": "https://instantvideos.org/",
+      "source": "Hacker News",
+      "published": "2026-07-06T23:58:38+00:00",
+      "summary_raw": "Hiya! So I&#x27;ve been playing around with having Claude make videos for a bit now even had some success posting the results to TikTok (and setup a whole pipeline so Claude can generate and post autonomously). With the release of Nano Banana 2 Lite, I was curious show fast I could make the generation, so last night I gave it a whirl and got down to around 30s for short-form video.<p>It uses GLM-5.2 fast via Fireworks to generate the scripts and image prompts and, like I said, Nano Banana 2 Lite for the images, gpt-4o-mini-tts for the narration, and ffmpeg to string it all together and add the Ken Burns zoom effect (which still has a shake I haven&#x27;t been able to get rid of). The video compilation proved to be the blocker once the rest was in place, but I was able to speed that up by putting it on a 64 vCPU EC2.<p>The cost might be the most interesting aspect as the short form videos tend to be about 25 cents. Almost 90% of that is the images, which are 3.336 cents a piece. Of course, running the big 64 core EC2 to allow for the creation isn&#x27;t cheap.<p>It seems like on-demand AI video is coming, and I thought this was an interesting demo of how close it might be in at least one narrow video domain.",
+      "points": 23,
+      "num_comments": 31,
+      "hn_url": "https://news.ycombinator.com/item?id=48812045"
+    },
+    {
+      "title": "Wikipedia Is Battling for the Soul of the Internet",
+      "url": "https://www.nytimes.com/2026/07/05/business/media/wikipedia-ai-elon-musk.html",
+      "source": "Hacker News",
+      "published": "2026-07-06T23:58:09+00:00",
+      "summary_raw": "",
+      "points": 27,
+      "num_comments": 7,
+      "hn_url": "https://news.ycombinator.com/item?id=48812043"
+    },
+    {
+      "title": "tencent/Hy3",
+      "url": "https://simonwillison.net/2026/Jul/6/hy3/#atom-everything",
+      "source": "Simon Willison",
+      "published": "2026-07-06T23:57:35+00:00",
+      "summary_raw": "tencent/Hy3\nNew Apache 2.0 licensed model from Tencent in China:\n\nHy3 is a 295B-parameter Mixture-of-Experts (MoE) model with 21B active parameters and 3.8B MTP layer parameters, developed by the Tencent Hy Team. Following the Hy3 Preview launch in late April, we gathered feedback from 50+ products and scaled up post-training with higher quality data. Today, we introduce Hy3, which outperforms similar-size models and rivals flagship open-source models with 2-5x parameters. It also shows significant gains in utility across various products and productivity tasks.\n\nThe full-sized model is 598GB on Hugging Face, and the FP8 quantized one is 300GB. The context length is 256K.\nIt's available for free on OpenRouter until July 21st. I had it \"Generate an SVG of a pelican riding a bicycle\" there and got this:\n\n\n\n    Tags: ai, generative-ai, llms, pelican-riding-a-bicycle, llm-release, ai-in-china"
+    },
+    {
+      "title": "Vessel An EGA adventure about whether machines can grieve",
+      "url": "https://claude.ai/public/artifacts/2c647671-3f94-4d22-b3c1-f2b5a0e17b6e",
+      "source": "Hacker News",
+      "published": "2026-07-06T22:48:02+00:00",
+      "summary_raw": "",
+      "points": 21,
+      "num_comments": 8,
+      "hn_url": "https://news.ycombinator.com/item?id=48811494"
+    },
+    {
+      "title": "Speechify's Simba 3.2 API takes the #1 spot on Artificial Analysis Speech Arena",
+      "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/selected-voice",
+      "source": "Hacker News",
+      "published": "2026-07-06T22:45:57+00:00",
+      "summary_raw": "",
+      "points": 16,
+      "num_comments": 3,
+      "hn_url": "https://news.ycombinator.com/item?id=48811480"
+    },
+    {
+      "title": "Not everything should cost a token: the case for deterministic AI",
+      "url": "https://www.vybe.build/blog/learn-what-not-to-tokenize",
+      "source": "Hacker News",
+      "published": "2026-07-06T22:36:40+00:00",
+      "summary_raw": "",
+      "points": 18,
+      "num_comments": 13,
+      "hn_url": "https://news.ycombinator.com/item?id=48811403"
+    },
+    {
+      "title": "Even banks and hyperscalers are now sounding the alarm about the AI bubble",
+      "url": "https://www.theregister.com/ai-and-ml/2026/07/06/even-banks-and-hyperscalers-are-now-sounding-the-alarm-about-the-ai-bubble/5266123",
+      "source": "Hacker News",
+      "published": "2026-07-06T21:24:58+00:00",
+      "summary_raw": "",
+      "points": 28,
+      "num_comments": 7,
+      "hn_url": "https://news.ycombinator.com/item?id=48810702"
+    },
+    {
+      "title": "AI: The ROI Runway Could Be Long Outside the Tech Sector",
+      "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/ai-the-roi-runway-could-be-long-outside-the-tech-sector",
+      "source": "Hacker News",
+      "published": "2026-07-06T21:09:23+00:00",
+      "summary_raw": "",
+      "points": 65,
+      "num_comments": 81,
+      "hn_url": "https://news.ycombinator.com/item?id=48810533"
+    },
+    {
+      "title": "Show HN: Otari: your open-source LLM control plane",
+      "url": "https://github.com/mozilla-ai/otari",
+      "source": "Hacker News",
+      "published": "2026-07-06T21:08:47+00:00",
+      "summary_raw": "",
+      "points": 18,
+      "num_comments": 1,
+      "hn_url": "https://news.ycombinator.com/item?id=48810528"
+    },
+    {
+      "title": "Apollo economist says a 'painful repricing' of AI markets is possible",
+      "url": "https://fortune.com/2026/07/06/ai-productivity-gains-bubble-painful-repricing-markets-torsten-slok/",
+      "source": "Hacker News",
+      "published": "2026-07-06T21:08:19+00:00",
+      "summary_raw": "",
+      "points": 14,
+      "num_comments": 1,
+      "hn_url": "https://news.ycombinator.com/item?id=48810522"
+    },
+    {
+      "title": "GLM 5.2 and the coming AI margin collapse",
+      "url": "https://martinalderson.com/posts/the-upcoming-ai-margin-collapse-part-1-glm-5-2/",
+      "source": "Hacker News",
+      "published": "2026-07-06T20:14:55+00:00",
+      "summary_raw": "",
+      "points": 542,
+      "num_comments": 331,
+      "hn_url": "https://news.ycombinator.com/item?id=48809877"
+    },
+    {
+      "title": "Pruning RAG context down to what the answer actually needs",
+      "url": "https://www.kapa.ai/blog/how-we-prune-rag-context",
+      "source": "Hacker News",
+      "published": "2026-07-06T19:28:24+00:00",
+      "summary_raw": "",
+      "points": 121,
+      "num_comments": 33,
+      "hn_url": "https://news.ycombinator.com/item?id=48809354"
+    },
+    {
+      "title": "Companies hire more after AI adoption",
+      "url": "https://ramp.com/data/heavy-ai-adopters-hire-more",
+      "source": "Hacker News",
+      "published": "2026-07-06T18:24:11+00:00",
+      "summary_raw": "",
+      "points": 40,
+      "num_comments": 9,
+      "hn_url": "https://news.ycombinator.com/item?id=48808498"
+    },
+    {
+      "title": "From Fixed to Free Cameras: Calibration-Free View-Robust Vision-Language-Action Model",
+      "url": "https://arxiv.org/abs/2607.05396v1",
+      "source": "arXiv",
+      "published": "2026-07-06T17:59:59+00:00",
+      "summary_raw": "Real-world robot deployment rarely maintains the training-stage camera setup, where cameras often experience repositioning or remounting depending on actual scenarios. Existing view-robust Vision-Language-Action (VLA) policies tolerate such camera variations only when the camera extrinsics are explicitly provided, making them fragile and hard to use especially when view robustness is critical. We argue that the policy should not be told where the camera is, but rather figure it out by itself. To this end, we introduce Camera-Centric VLA (CamVLA), a new VLA model that decouples manipulation controls from camera geometry by predicting (i) a camera-centric end-effector action expressed in the local camera frame, and (ii) a 6-DoF hand-eye matrix relating cameras to the robot base. A deterministic geometric transformation composes the two predictions into a robot base-frame action. This disentangles how I should move in pose-independent camera-centric action generation from where I am looking from in camera-perspective geometric grounding. The resulting policy is calibration-free, depth-free, and single-view, requiring only a single monocular RGB image as the visual observation and task instruction at deployment. Evaluations in both simulation and real-world robot data show that CamVLA consistently improves success rates across diverse unseen viewpoints. Project page: https://alibaba-damo-academy.github.io/CamVLA/."
+    },
+    {
+      "title": "Weak-to-Strong Generalization via Direct On-Policy Distillation",
+      "url": "https://arxiv.org/abs/2607.05394v1",
+      "source": "arXiv",
+      "published": "2026-07-06T17:59:58+00:00",
+      "summary_raw": "Reinforcement learning with verifiable rewards (RLVR) is a powerful recipe for improving language-model reasoning, but it is expensive to repeat on every new strong model because the target model must generate many rollouts during training. As models scale, post-training itself becomes a bottleneck. We study a weak-to-strong alternative: run RL on a smaller model where rollouts are cheaper, then reuse what that RL run learned to improve a stronger target model. Directly distilling the post-RL weak teacher is not enough, because the teacher's final policy mixes useful RL gains with the limitations of the smaller model. We propose Direct On-Policy Distillation (Direct-OPD), which transfers the teacher's RL-induced policy shift instead. Direct-OPD compares the post-RL teacher with its own pre-RL reference and treats their log-ratio as a dense implicit reward for the student. In plain terms, the checkpoint pair tells us which actions RL made the weak model more or less likely to take, and Direct-OPD applies that signal on the stronger student's own on-policy states. This directly reuses the weak model's RL supervision signal without training an explicit reward model or running sparse-reward RL on the target model. Empirically, Direct-OPD consistently leverages weaker teachers to improve stronger target models; notably, it boosts Qwen3-1.7B from 48.3% to 62.4% on AIME 2024 in just 4 hours on 8 A100 GPUs. It outperforms step-matched direct RL and enables the sequential composition of multiple policy shifts. Our results show that RL outcomes can be reused across model scales as implicit reward signals, not merely as final models to imitate."
+    },
+    {
+      "title": "Interpretable Human-Label-Free Deep Learning for Real-Bogus Classification with Uncertainty Quantification",
+      "url": "https://arxiv.org/abs/2607.05393v1",
+      "source": "arXiv",
+      "published": "2026-07-06T17:59:58+00:00",
+      "summary_raw": "Time-domain surveys generate many transient candidates, making Real-Bogus classification a critical step in automated discovery pipelines. Reliable labels are costly, while community labels can be noisy and survey-dependent. We aim to develop a Real-Bogus classification framework that can be trained without human-labeled data using injected transients and bogus-dominated survey data, remains robust under strong class contamination, and provides calibrated uncertainty quantification. We combine simulated transient injections with a contaminated survey class and train a dual-network model using asymmetric co-teaching for classes with different label-noise levels. We evaluate performance on a benchmark subset and analyze the learned representation with latent-space visualization tools. For uncertainty quantification (UQ), we compare MC dropout and deep ensembles and propose a low-cost hybrid strategy that exploits the dual-network setting to improve calibration. We extend the evaluation to the light-curve domain to assess recovery of light-curve classes. The method achieves strong Real-Bogus performance on the labeled subset and remains stable under severe class contamination. It recovers transient light-curve classes with high fidelity, while single-source identification is limited by ambiguity in light-curve-derived labels. Our hybrid UQ approach achieves competitive calibration relative to more expensive ensemble baselines. Latent-space analyses indicate that uncertainty aligns with the decision boundary and reveal subclasses within the bogus population. Our results show that injection-driven, weakly supervised training can enable scalable and consistent Real-Bogus classification without human-labeled training data while providing calibrated uncertainties. The method is suited for transfer to forthcoming surveys by re-running the injection-based training pipeline."
+    },
+    {
+      "title": "LLM-as-a-Verifier: A General-Purpose Verification Framework",
+      "url": "https://arxiv.org/abs/2607.05391v1",
+      "source": "arXiv",
+      "published": "2026-07-06T17:59:35+00:00",
+      "summary_raw": "Scaling pre-training, post-training, and test-time compute have become the central paradigms for improving the capabilities of LLMs. In this work, we identify verification, the ability to determine the correctness of a solution, as a new scaling axis. To unlock this and demonstrate its effectiveness, we introduce LLM-as-a-Verifier, a general-purpose verification framework that provides fine-grained feedback for agentic tasks without requiring additional training. Unlike standard LM judges that prompt LLMs to produce discrete scores for candidate solutions, LLM-as-a-Verifier computes the expectation over the distribution of scoring token logits to generate continuous scores. This probabilistic formulation enables verification to scale along multiple dimensions: (1) score granularity, (2) repeated evaluation, and (3) criteria decomposition. In particular, we show that scaling the scoring granularity leads to better separation between positive and negative solutions, resulting in more calibrated comparisons. Moreover, scaling repeated evaluation and criteria decomposition consistently lead to additional gains in verification accuracy through variance and complexity reduction. We further introduce a cost-efficient ranking algorithm for selecting the best solution among candidates using the verifier's continuous scores. LLM-as-a-Verifier achieves state-of-the-art performance on Terminal-Bench V2 (86.5%), SWE-Bench Verified (78.2%), RoboRewardBench (87.4%), and MedAgentBench (73.3%). Beyond verification, the fine-grained signals from LLM-as-a-Verifier can also serve as a proxy for estimating task progress. We build an extension for Claude Code, enabling developers to monitor and improve their own agentic systems. Finally, we show that LLM-as-a-Verifier can provide dense feedback for RL, improving the sample efficiency of SAC and GRPO on robotics and mathematical reasoning benchmarks."
+    },
+    {
+      "title": "Search Beyond What Can Be Taught: Evolving the Knowledge Boundary in Agentic Visual Generation",
+      "url": "https://arxiv.org/abs/2607.05382v1",
+      "source": "arXiv",
+      "published": "2026-07-06T17:56:12+00:00",
+      "summary_raw": "Visual generators excel at rendering, but they confidently fabricate what they do not know. User requests are unbounded, evolving, and deeply long-tailed: new characters, trending entities, post-cutoff events, and more. This world-knowledge bottleneck is structural: generators are trained on fixed corpora, but the visual world is open-ended. We construct SearchGen-20K and SearchGen-Bench, with 20,839 prompts spanning twelve failure categories and twenty-two domains, paired with a pre-executed multimodal SearchGen-Corpus-1M to support offline, reproducible research. On SearchGen-Bench, frontier open generators score only 21 to 28 out of 100, a 40-point collapse invisible to existing benchmarks. The natural remedy is to employ search tools, enabling agentic visual generation. However, we find that naive search fails: it retrieves indiscriminately, injecting noise into prompts the generator already handles. We trace the root cause to a generator-specific, evolving knowledge boundary: the divide between what a generator can internalize through training and what must remain in external context. Although this boundary is hard to specify in advance, we show that it is discoverable through a teach-then-search co-training framework. Even a minimal version of this co-training recipe produces monotonic improvement, laying the foundation for recursive self-improvement in visual generation that can meet world-knowledge-grounded requests. We release the full dataset, co-training corpus, and search corpus as a replayable harness for tool-augmented, world-knowledge-grounded visual generation."
+    },
+    {
+      "title": "What Does a Discrete Diffusion Model Learn?",
+      "url": "https://arxiv.org/abs/2607.05381v1",
+      "source": "arXiv",
+      "published": "2026-07-06T17:56:11+00:00",
+      "summary_raw": "What does a discrete diffusion model learn: a denoiser, a score ratio, or a bridge plug-in predictor? At the level of jump rates, these are one object in different coordinates, and reading a neural network in the wrong coordinate changes the process being trained and sampled. Starting with a rigorous derivation of the continuous-time Markov chain (CTMC) ELBO for any noising process, boundary terms included, we prove the \\emph{Oracle Distance} theorem: the negative ELBO is exactly equal to the data entropy plus the path KL from the oracle reverse process to the learned one, not merely a bound. Its unique optimizer is therefore the conditional expectation of the true reverse jump rate given the current noisy state, and its irreducible cost is the rate at which the forward process $Z_t$ destroys information about the clean data $Z_0$, $-\\tfrac{d}{dt}I(Z_0; Z_t)$, so every noising process shares the same best achievable negative ELBO: the data entropy. For sequences with token-factorizing noise, the oracle projection yields three exact coordinates for the optimizer: denoiser, cavity (bridge plug-in), and score, with closed-form conversions among them. This framework identifies which law each loss in the literature actually optimizes, recovering MDM, UDM, SEDD, and GIDD as special cases; explains why denoiser and cavity coincide for masked diffusion but not for uniform diffusion; proves that a denoiser parameterization makes the uniform ELBO diverge at initialization while the bridge plug-in stays finite; and calibrates ELBO implementations exactly at initialization. Every identity is verified numerically, without approximation, on an exactly solvable model."
+    },
+    {
+      "title": "TabPack: Efficient Hyperparameter Ensembles for Tabular Deep Learning",
+      "url": "https://arxiv.org/abs/2607.05380v1",
+      "source": "arXiv",
+      "published": "2026-07-06T17:55:55+00:00",
+      "summary_raw": "In deep learning for tabular data, efficient ensembles of multilayer perceptrons (MLPs) have recently emerged as effective and practical architectures. Existing methods of this kind use the same hyperparameters for all underlying MLPs, which requires hyperparameter tuning for achieving the best performance. In this work, we introduce TabPack, an efficient MLP ensemble with strong out-of-the-box performance and reduced reliance on traditional tuning. In a single run, TabPack samples and trains many MLPs with different hyperparameters efficiently in parallel and selects ensemble members on the fly during training. Thus, TabPack only requires specifying ranges from which to sample MLP hyperparameter rather than exact hyperparameter values, which naturally demands less precision for good performance. In experiments on medium-to-large public datasets, TabPack with default settings performs on par with extensively tuned prior methods, thus substantially reducing effort and compute resources needed to achieve competitive results on tabular tasks. Notably, running the default TabPack configuration on a modern MacBook took less time than tuning some baselines on an industry-grade GPU."
+    },
+    {
+      "title": "CompactionRL: Reinforcement Learning with Context Compaction for Long-Horizon Agents",
+      "url": "https://arxiv.org/abs/2607.05378v1",
+      "source": "arXiv",
+      "published": "2026-07-06T17:55:12+00:00",
+      "summary_raw": "Long-horizon agentic LLMs are increasingly limited by finite context windows, as extended interaction trajectories can exceed the maximum context length before a task is completed. Context compaction offers a natural solution by summarizing previous interaction states and continuing the rollout under a compressed context, but incorporating compaction into reinforcement learning remains underexplored. We propose CompactionRL, a reinforcement learning strategy to train long-horizon agentic LLMs with context compaction. Our approach jointly optimizes task execution and summary generation with token-level loss normalization and cross-trajectory generalized advantage estimation. This design enables the LLM agents to learn from compacted long-horizon trajectories. We train CompactionRL on top of open models and observe consistent performance gains on agentic coding tasks. CompactionRL enables the open GLM-4.5-Air model (106B-A30B) to achieve Pass@1 scores of 66.8% on SWE-bench Verified and 24.5% on Terminal-Bench 2.0, with absolute gains of 7.0 and 3.1 points, respectively. Built upon GLM-4.7-Flash (30B-A3B), CompactionRL improves Pass@1 by 5.5 and 6.8 points, reaching 56.0% on SWE-bench Verified and 20.2% on Terminal-Bench 2.0, respectively. CompactionRL is thus deployed in the RL pipeline for training the open GLM-5.2 model (750B-A40B)."
+    }
+  ]
+}
