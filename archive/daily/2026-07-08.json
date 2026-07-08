@@ -1,0 +1,226 @@
+{
+  "date": "2026-07-08",
+  "generated_at": "2026-07-08T12:18:30.929274+00:00",
+  "source_counts": {
+    "rss_feeds": 4,
+    "arxiv": 50,
+    "hackernews": 23,
+    "nitter": 0,
+    "total_raw": 77,
+    "total_deduped": 77,
+    "total_saved": 25
+  },
+  "items": [
+    {
+      "title": "ZML/LLMD alpha \u2013 cross platform LLM server",
+      "url": "https://zml.ai/posts/llmd/",
+      "source": "Hacker News",
+      "published": "2026-07-08T08:58:48+00:00",
+      "summary_raw": "",
+      "points": 14,
+      "num_comments": 3,
+      "hn_url": "https://news.ycombinator.com/item?id=48829412"
+    },
+    {
+      "title": "GitLost: We Tricked GitHub's AI Agent into Leaking Private Repos",
+      "url": "https://noma.security/blog/gitlost-how-we-tricked-githubs-ai-agent-into-leaking-private-repos/",
+      "source": "Hacker News",
+      "published": "2026-07-08T05:25:35+00:00",
+      "summary_raw": "",
+      "points": 267,
+      "num_comments": 104,
+      "hn_url": "https://news.ycombinator.com/item?id=48827858"
+    },
+    {
+      "title": "Maine librarians are helping patrons resist AI and Big Tech",
+      "url": "https://www.bangordailynews.com/2026/07/02/midcoast/midcoast-culture/maine-librarians-are-helping-patrons-resist-ai-joam40zk0w/",
+      "source": "Hacker News",
+      "published": "2026-07-08T03:23:25+00:00",
+      "summary_raw": "",
+      "points": 19,
+      "num_comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=48827094"
+    },
+    {
+      "title": "We won $92,337 bug bounty using a single kernel 0-day",
+      "url": "https://nebusec.ai/research/ionstack-part-2/",
+      "source": "Hacker News",
+      "published": "2026-07-08T01:37:10+00:00",
+      "summary_raw": "",
+      "points": 12,
+      "num_comments": 3,
+      "hn_url": "https://news.ycombinator.com/item?id=48826404"
+    },
+    {
+      "title": "Honey, We Bought an AI Story",
+      "url": "https://www.bona-books.com/news/we-bought-an-ai-story",
+      "source": "Hacker News",
+      "published": "2026-07-08T00:01:18+00:00",
+      "summary_raw": "",
+      "points": 39,
+      "num_comments": 15,
+      "hn_url": "https://news.ycombinator.com/item?id=48825694"
+    },
+    {
+      "title": "US manufacturers' energy costs soar because of AI data center demand",
+      "url": "https://arstechnica.com/tech-policy/2026/07/us-manufacturers-energy-costs-soar-because-of-ai-data-center-demand/",
+      "source": "Hacker News",
+      "published": "2026-07-07T21:07:29+00:00",
+      "summary_raw": "",
+      "points": 34,
+      "num_comments": 6,
+      "hn_url": "https://news.ycombinator.com/item?id=48823772"
+    },
+    {
+      "title": "We charge $10k a week to delete AI-generated code",
+      "url": "https://odra.dev/slopfix/",
+      "source": "Hacker News",
+      "published": "2026-07-07T20:35:42+00:00",
+      "summary_raw": "",
+      "points": 279,
+      "num_comments": 185,
+      "hn_url": "https://news.ycombinator.com/item?id=48823359"
+    },
+    {
+      "title": "Re: I'm Begging You to Leave Your AI Note-Taker at Home",
+      "url": "https://firesphere.dev/articles/yes-actually-i-do-fucking-mind",
+      "source": "Hacker News",
+      "published": "2026-07-07T20:10:13+00:00",
+      "summary_raw": "",
+      "points": 60,
+      "num_comments": 91,
+      "hn_url": "https://news.ycombinator.com/item?id=48823024"
+    },
+    {
+      "title": "Abnormal.ai Response to Anthropic Lawsuit",
+      "url": "https://abnormal.ai/blog/abnormal-response-to-anthropic-lawsuit",
+      "source": "Hacker News",
+      "published": "2026-07-07T19:40:13+00:00",
+      "summary_raw": "",
+      "points": 11,
+      "num_comments": 2,
+      "hn_url": "https://news.ycombinator.com/item?id=48822694"
+    },
+    {
+      "title": "sqlite-utils 4.0, now with database schema migrations",
+      "url": "https://simonwillison.net/2026/Jul/7/sqlite-utils-4/#atom-everything",
+      "source": "Simon Willison",
+      "published": "2026-07-07T19:32:57+00:00",
+      "summary_raw": "This morning I released sqlite-utils 4.0, the 124th release of that project and the first major version bump since 3.0 in November 2020. In addition to some small but significant breaking changes (described in this upgrade guide), this version introduces three major features: database migrations, nested transactions (via a new db.atomic() method), and support for compound foreign keys.\nDatabase schema migrations using sqlite-utils\nSchema migrations define a sequence of changes to be made to a SQLite database, plus a mechanism for tracking which migrations have been applied and applying any that are found to be pending.\nMigrations are defined in Python files using the sqlite-utils Python library, which includes a powerful table.transform() method providing enhanced alter table capabilities that are not supported by SQLite's ALTER TABLE statement.\n(table.transform() implements the pattern recommended by the SQLite documentation - create a new temporary table with the new schema, copy across the data, then drop the old table and rename the temporary one in its place.)\nHere's an example migration file which creates a table called creatures, adds an additional column to it in a second step, then changes the types of two of the columns in a third:\nfrom sqlite_utils import Migrations\n\nmigrations = Migrations(\"creatures\")\n\n@migrations()\ndef create_table(db):\n    db[\"creatures\"].create(\n        {\"id\": int, \"name\": str, \"species\": str},\n        pk=\"id\",\n    )\n\n@migrations()\ndef add_weight(db):\n    db[\"creatures\"].add_column(\"weight\", float)\n\n@migrations()\ndef change_column_types(db):\n    db[\"creatures\"].transform(types={\"species\": int, \"weight\": str})\nSave that as migrations.py and run it against a fresh database like this:\nuvx sqlite-utils migrate data.db migrations.py\nThen if you check the schema of that database:\nuvx sqlite-utils schema data.db\nYou'll see this SQL:\nCREATE TABLE \"_sqlite_migrations\" (\n   \"id\" INTEGER PRIMARY KEY,\n   \"migration_set\" TEXT,\n   \"name\" TEXT,\n   \"applied_at\" TEXT\n);\nCREATE UNIQUE INDEX \"idx__sqlite_migrations_migration_set_name\"\n    ON \"_sqlite_migrations\" (\"migration_set\", \"name\");\nCREATE TABLE \"creatures\" (\n   \"id\" INTEGER PRIMARY KEY,\n   \"name\" TEXT,\n   \"species\" INTEGER,\n   \"weight\" TEXT\n);\nThe _sqlite_migrations table is used to keep track of which migration functions have been run. The creatures table above is the schema after all three migrations have been applied.\nTo see a list of migrations, both pending and applied, run this:\nuvx sqlite-utils migrate data.db migrations.py --list\nOutput:\nMigrations for: creatures\n\n  Applied:\n    create_table - 2026-07-07 17:58:41.360051+00:00\n    add_weight - 2026-07-07 17:58:41.360608+00:00\n    change_column_types - 2026-07-07 18:01:15.802000+00:00\n\n  Pending:\n    (none)\n\nIf you don't specify a migrations file, the sqlite-utils migrate data.db command will scan the current directory and its subdirectories for files called migrations.py and apply any Migrations() instances it finds in them.\nYou can also execute migrations from Python code using the migrations.apply(db) method, which is useful for building tools that manage their own database schemas over multiple versions. My own LLM tool has been using a version of this pattern for several years now, as shown in llm/embeddings_migrations.py.\nPrior art\nMy favorite implementation of this pattern remains Django's Migrations, developed by Andrew Godwin based on his earlier project South. Fun fact: Andrew, Russ Keith-Magee, and I presented our competing approaches to schema migrations for Django on the Schema Evolution panel at the very first DjangoCon back in 2008! My attempt was called dmigrations, developed with a team at Global Radio in London.\nDjango's migrations can be automatically generated from model definitions and include the ability to roll back to a previous version. The sqlite-utils approach is deliberately simpler: unlike Django, sqlite-utils encourages programmatic table creation rather than a model definition ORM, so there isn't anything we can use to automatically generate migrations.\nI decided to skip rollback, since in my experience it's a feature that is rarely used. With a SQLite project, an easy way to achieve rollback is to create a copy of your database file before you apply the migrations!\nMigrating from sqlite-migrate\nThe design of sqlite-utils migrations is three years old now - I had originally released it as a separate package called sqlite-migrate, which never quite graduated beyond a beta release.\nI've used that package in enough places now that I'm confident in the design, so I've decided to promote it to a feature of sqlite-utils to make it available by default to all of the other tools in the growing sqlite-utils/Datasette/LLM ecosystem.\nI made one last release of sqlite-migrate, which switches it to depend on sqlite-utils&gt;=4 and replaces the __init__.py file with the following:\nfrom sqlite_utils import Migrations\n\n__all__ = [\"Migrations\"]\nAny existing project that depends on sqlite-migrate should continue to work without alterations.\nEverything else in sqlite-utils 4.0\nHere are the release notes for this version, with some inline annotations:\n\nThe 4.0 release includes some minor backwards-incompatible fixes (hence the major version number bump) and introduces three major new features:\n\n\nDatabase migrations, providing a structured mechanism for evolving a project\u2019s schema over time. (#752)\n\n\nI think of migrations as the signature new feature, hence this blog post.\n\n\n\nNested transaction support via db.atomic(), plus numerous improvements to how transactions work across the library. (#755)\n\n\nsqlite-utils has long had a confused relationship with database transactions, partly because when I started designing the library back in 2018 I didn't yet have a great feel for how those worked in SQLite itself.\nAdding migrations to the core library made me determined to finally crack this nut, since transactions make migration systems a whole lot safer and easier to reason about.\nI ended up building this around a db.atomic() context manager which looks like this:\nwith db.atomic():\n    db.table(\"dogs\").insert({\"id\": 1, \"name\": \"Cleo\"}, pk=\"id\")\n    db.table(\"dogs\").insert({\"id\": 2, \"name\": \"Pancakes\"})\nSQLite supports Savepoints, and as a result db.atomic() can be nested to carry out transactions inside of transactions. It's pretty neat!\n\n\nSupport for compound foreign keys, including creation, transformation and introspection through table.foreign_keys. (#594)\n\n\nThis came about when I asked a coding agent to review all open issues and PRs for things that should be included in a 4.0 release since they would represent breaking changes if I added them later, and it correctly identified that compound foreign keys were exactly that kind of feature.\nI started with a breaking change to the table.foreign_keys introspection method, and then decided to see if Claude Fable 5 could handle the more fiddly job of integrating compound foreign key creation into the library. The API design it helped create felt exactly right to me - consistent with how the rest of the library worked already.\n\nOther notable changes include:\n\nUpserts now use SQLite\u2019s INSERT ... ON CONFLICT ... DO UPDATE SET syntax, detect existing table primary keys automatically and reject records that are missing required primary key values. (#652)\n\n\nThis was the change that first pushed me to consider a breaking-change 4.0 version bump. I built this to help support sqlite-chronicle, which uses triggers to keep track of rows in a table that have been inserted, updated or deleted.\n\n\n\ndb.query() now executes immediately and rejects statements that do not return rows; use db.execute() for writes and DDL.\n\n\nProbably the most disruptive breaking change - I've had to update a few places in my own code to switch from db.query() to db.execute() as a result.\n\n\nCSV and TSV imports now detect column types by default, while inserts into existing tables preserve those tables\u2019 column types. (#679)\n\n\nThe sqlite-utils insert data.db creatures creatures.csv --detect-types flag was a later addition to allow column types (text, integer, real) to be automatically detected based on the data in a CSV. It should be the default, and releasing a 4.0 means I can make it so.\n\n\n\ntable.extract() and extracts= no longer create lookup table records for all-null values. (#186)\n\n\nThe oldest issue addressed by this release - the underlying bug was opened (by me) in October 2020.\n\nSee Upgrading from 3.x to 4.0 for details on backwards-incompatible changes.\nThe detailed release notes for the features and fixes shipped during the 4.0 pre-release cycle are available in 4.0a0, 4.0a1, 4.0rc1, 4.0rc2, 4.0rc3 and 4.0rc4.\n\nThe upgrade guide was entirely written by Claude Fable 5, Claude Opus 4.8 and GPT-5.5. The same is true of the release notes.\nThis is the kind of documentation I've slowly become comfortable outsourcing to the robots. It doesn't need to convince people of anything, or express any opinions - its job is to be as accurate and detailed as possible. I've reviewed the release notes closely and can confirm they are accurate and comprehensive.\nClaude Fable 5 helped a lot\nI released the first alpha of sqlite-utils 4.0 over a year ago. I've been dragging my heels on the stable release because of the amount of work it would take to track down and clean up the many other minor design flaws that a major version number allowed me to take on.\nAssistance from Claude Fable 5 (and to a lesser extent Opus 4.8 and GPT-5.5) gave me just the boost I needed to overcome inertia and make the most of the time I could afford to spend on this library.\nFable has really good taste in API design, and is relentlessly proactive if you give it a more open goal. My most successful prompt was a review task that I issued against what I thought was the last release candidate:\n\nreview the changes on main since the last tagged 3.x release - I am about to ship them as sqlite-utils 4.0, a stable version that promises no backwards-incompatible fixes for a very long time.\nreview the changelog and upgrade guide, and write yourself scratch scripts to try out all of the new features in v4 - save those scripts but don't commit them\n\nI tried this with GPT-5.5 xhigh in Codex Desktop and Fable 5 in Claude Code.\nGPT-5.5 wrote 5 Python scripts and didn't turn up anything particularly interesting - its final report is here.\nFable 5 wrote 12 scripts, identified 4 release blockers and 10 additional issues in its report, and built a neat combined repro script, which, when run, output the following:\n=== 1. Failed db.execute() write leaves an implicit transaction open ===\n  in_transaction after failed write: True\n  BUG: table 'other' silently lost when connection closed\n\n=== 2. Leading ';' bypasses the query() first-token scanner ===\n  BUG: raised OperationalError: no such savepoint: sqlite_utils_query\n  BUG: row persisted despite rollback (count=1)\n\n=== 3. Rejected write PRAGMA via query() still takes effect ===\n  BUG: user_version=5 after 'rejected' statement (docs say no effect)\n\n=== 4. Implicit compound FK resolves pk columns in table order, not PK order ===\n  BUG: other_columns reported as ('b', 'a'), should be ('a', 'b')\n  BUG: transform of valid data raised IntegrityError: FOREIGN KEY constraint failed\n\n=== 5. ForeignKey (now a dataclass) is no longer hashable ===\n  BUG: cannot use 'sqlite_utils.db.ForeignKey' as a set element (unhashable type: 'ForeignKey')\n\n=== 6. Mixed ForeignKey objects and tuples in foreign_keys= rejected ===\n  BUG: foreign_keys= should be a list of tuples\n\n=== 7. insert --csv into an EXISTING table transforms its column types ===\n  BUG: existing zip '01234' is now 1234 (column type: int)\n\n=== 8. insert(pk=, alter=True) regression: InvalidColumns before alter runs ===\n  BUG: InvalidColumns: Invalid primary key column ['id'] for table t with columns ['a']\n\n=== 9. migrate --stop-before an already-applied migration applies everything ===\n  BUG: m2 was applied despite --stop-before m1 (m1 already applied)\n\n=== 10. ensure_autocommit_on() silently commits an open transaction ===\n  BUG: row survived rollback (count=1) - transaction was committed\n\nI found myself agreeing with almost all of them. Here's the PR with 16 commits where we worked through them in turn.\nThere's no doubt in my mind that sqlite-utils 4.0 is a significantly higher-quality release than if I had built it without the assistance of the latest frontier models.\n    \n        Tags: schema-migrations, projects, sqlite, ai, sqlite-utils, annotated-release-notes, generative-ai, llms, ai-assisted-programming, anthropic, claude, agentic-engineering, claude-mythos-fable"
+    },
+    {
+      "title": "Muse Image: Image Generation Built for Your World",
+      "url": "https://about.fb.com/news/2026/07/introducing-muse-image-meta-ai/",
+      "source": "Hacker News",
+      "published": "2026-07-07T18:40:13+00:00",
+      "summary_raw": "",
+      "points": 15,
+      "num_comments": 5,
+      "hn_url": "https://news.ycombinator.com/item?id=48821795"
+    },
+    {
+      "title": "AI Meets Cryptography 1: What AI Found in Cloudflare's Circl",
+      "url": "https://blog.zksecurity.xyz/posts/circl-bugs/",
+      "source": "Hacker News",
+      "published": "2026-07-07T18:36:35+00:00",
+      "summary_raw": "",
+      "points": 108,
+      "num_comments": 12,
+      "hn_url": "https://news.ycombinator.com/item?id=48821749"
+    },
+    {
+      "title": "ELSA3D: Elastic Semantic Anchoring for Unified 3D Understanding and Generation",
+      "url": "https://arxiv.org/abs/2607.06565v1",
+      "source": "arXiv",
+      "published": "2026-07-07T17:59:50+00:00",
+      "summary_raw": "Unified 3D foundation models aspire to generate 3D assets and reason about them in language within a single backbone, but their text-3D interaction remains largely implicit. Existing methods concatenate text and 3D tokens into a flat sequence and rely on self-attention, collapsing coarse structural cues and fine geometric details into one undifferentiated representation. We introduce ELSA3D, a unified 3D model that addresses this with elastic semantic anchoring, structuring language and geometric reasoning jointly along matched abstraction scales. ELSA3D represents geometry with a scale-aware octree tokenizer and introduces Anchor Tokens, sparse cross-modal units that select semantic cues, route them to the most relevant 3D scale, retrieve scale-specific geometric evidence, and write the fused signal back into the unified representation, keeping interaction sparse yet precise. A lightweight per-block router makes both computation and reasoning elastic, choosing which text tokens instantiate anchors at which geometric scale so that cross-modal capacity concentrates where alignment is most needed. ELSA3D achieves state-of-the-art performance across image-to-3D generation, text-to-3D generation, and 3D captioning, outperforming the strongest unified baseline while roughly halving FLOPs and inference latency relative to the non-elastic version of the same model."
+    },
+    {
+      "title": "Graph Convolutional Attention: A Spectral Perspective on Graph Denoising and Diffusion",
+      "url": "https://arxiv.org/abs/2607.06546v1",
+      "source": "arXiv",
+      "published": "2026-07-07T17:52:17+00:00",
+      "summary_raw": "Denoising graphs is a fundamental problem in graph learning and the core operation of graph diffusion models. Attention-based architectures like graph transformers have recently shown promise in denoising graphs. However, our principled understanding of attention-based graph denoising remains limited, making it unclear whether standard attention is the right mechanism for this task. Here we show that, under a denoising objective, linear attention is suboptimal and can only learn an average spectral denoising filter over the training distribution. This creates a fundamental limitation as graphs often vary spectrally across the distribution. To overcome this limitation, we introduce Spectral Attention, which directly utilizes the input graph spectrum and provably outperforms linear attention by a margin governed by the spectral diversity of the distribution. We then derive Graph Convolutional Attention (GCA), a practical and permutation-equivariant realization of this idea that implements spectral denoising through graph-filtered queries and keys. For stochastic block models, GCA provably matches the idealized Spectral Attention mechanism. We further show that the softmax operation, that follows the attention, provides additional denoising by approximately projecting noisy eigenvectors onto the clean eigenspace. Empirically, replacing linear attention with GCA consistently improves graph denoising and diffusion on synthetic and real datasets, with gains strongly correlated with spectral diversity. In DiGress, GCA matches standard graph-transformer performance without computing expensive structural features, and when combined with the recently proposed PEARL positional encodings, avoids explicit eigendecomposition computations resulting in faster inference without degrading quality. The code can be found here: github.com/shervinkhalafi/graph_conv_att"
+    },
+    {
+      "title": "Rethinking Indic AI from a Lens of Cultural Heritage Preservation",
+      "url": "https://arxiv.org/abs/2607.06544v1",
+      "source": "arXiv",
+      "published": "2026-07-07T17:51:10+00:00",
+      "summary_raw": "As Artificial Intelligence (AI) makes inroads into different parts of the Indian subcontinent, there is significant interest in studying how AI impacts the linguistic and cultural foundations of this civilization. AI is seen as a ''double-edged sword'' where on the one hand, it can enable access and inclusion for a large population, on the other, it can homogenize worldviews and exclude underrepresented languages and worldviews. In this paper, we try to characterize this problem by addressing the extensive characteristic nature of Indian linguistics and the way they closely connect to cultural practices and worldview. We then perform a longitudinal survey of how Natural Language Processing (NLP) techniques have evolved in this space, tracing the historical development of Indic NLP, covering key milestones, methodological shifts, and resource creation efforts. In addition, the paper also examines the structural and sociolinguistic characteristics of Indian languages, such as rich morphology, complex scripts and grammar rules, diglossia, and large dialectal variation, and explains how these create unique challenges for building AI foundation models. We then discuss the growing role of Indic foundation models and analyze how these models address these long-standing resource and representation gaps. Finally, we propose a research direction called 'Culture Sensing', which re-imagines AI based on hermeneutic reasoning. Culture Sensing aims to address open problems such as ensuring equitable performance across low-resource languages and producing outputs that are culturally meaningful. By bringing together past work, current techniques, and emerging trends, this paper outlines research directions that can guide the next phase of Indic NLP and contribute to the development of more robust and inclusive Indic foundation models."
+    },
+    {
+      "title": "Anthropic is launching Claude Cowork on mobile and web",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/961978/anthropic-claude-cowork-mobile-web",
+      "source": "Hacker News",
+      "published": "2026-07-07T17:50:22+00:00",
+      "summary_raw": "",
+      "points": 16,
+      "num_comments": 1,
+      "hn_url": "https://news.ycombinator.com/item?id=48821162"
+    },
+    {
+      "title": "On the feasibility of dependency parsing of non-human sequences without a gold standard. Is evaluation possible in other species?",
+      "url": "https://arxiv.org/abs/2607.06542v1",
+      "source": "arXiv",
+      "published": "2026-07-07T17:47:26+00:00",
+      "summary_raw": "Dependency parsing consists of finding a tree representation for a sequence. Unsupervised dependency parsing aims to develop parsing methods without a gold standard during model training. In human languages, an unsupervised parser can be evaluated because some gold standard is usually available or can be created. For other species, a gold standard is unknown. Thus one may conclude that it is impossible to determine the accuracy of an unsupervised parser and, consequently, dependency parsing is unfeasible in other species. However, here we apply recent advances in network science to demonstrate that the proportion of correct edges retrieved by a parser must be high for the sequences of vocalizations or gestures that non-human primates produce due to the fast decay of the sequence length distribution. In contrast, human language sequences lack that property. Therefore, evaluation without a gold standard is feasible in non-human primates but a hard problem in humans."
+    },
+    {
+      "title": "Hierarchical Acoustic-Semantic Modeling: Modality Separation and Semantic Coherence for Full-Duplex SLMs",
+      "url": "https://arxiv.org/abs/2607.06540v1",
+      "source": "arXiv",
+      "published": "2026-07-07T17:43:36+00:00",
+      "summary_raw": "Developing seamless, high-performance, native intelligent full-duplex Spoken Language Models (SLMs) remains a critical challenge and long-standing goal for the speech and NLP community. Despite notable progress, recent endeavors are fundamentally constrained by severe modality interference, which causes substantial knowledge degradation and compromises semantic integrity -- ultimately making full-duplex SLMs feel unnatural and unintelligent. In this paper, through an exhaustive fine-grained analysis of model optimization dynamics, we uncover the root cause of such performance degradation, revealing that modality interference arises from inherent gradient conflicts between acoustic and semantic modeling when the two modalities are forced to share a deep parameter space. Guided by this key insight, we introduce Lychee-FD, a native end-to-end full-duplex framework designed to mitigate modality interference. Importantly, we propose a hierarchical parameter separation strategy that decouples conflicting modalities in deep layers while preserving cross-modality coherence via a dedicated semantic alignment channel. Extensive experiments on multiple full-duplex benchmarks demonstrate that our method significantly advances the state of the art, yielding substantial improvements in both speech intelligence (+7.4% on Spoken QA) and full-duplex interaction fluidity (+28.5% on FullDuplexBench 1.5) without compromising inference efficiency. To the best of our knowledge, this work is the first to achieve two key advances: 1) uncovering and elucidating the root cause of modality interference in full-duplex SLMs, and 2) designing an elegant hierarchical model together with a practical solution for seamless, high-performance, native intelligent full-duplex SLMs."
+    },
+    {
+      "title": "GraphBU: MILP Instance Generation with Graph-Native Block Units",
+      "url": "https://arxiv.org/abs/2607.06532v1",
+      "source": "arXiv",
+      "published": "2026-07-07T17:39:06+00:00",
+      "summary_raw": "Mixed-integer linear programming (MILP) instances used for solver development are hard to obtain when models come from private or application-specific pipelines. A generator must keep the structure that solvers and learned policies rely on. Existing general generators usually choose their generation unit from a formulation template, summary statistics, local graph edits, or blocks found after recombination. These units do not explicitly record how a local part of the MILP is coupled to the rest of the instance. We propose GraphBU, a graph-native generator whose basic unit is a local subproblem plus its interface. The method promotes coupling nodes into master constraints or boundary variables and uses the resulting block units for compatibility-checked replacement. The analysis focuses on the properties needed by this construction: promotion separates interfaces, replacement can preserve feasibility under an interface-slack condition, and the graph construction is invariant to row-column permutations. On MILP instances generation, this unit keeps graph statistics close to the source family, preserves feasibility on most datasets, and improves downstream Predict-and-Search training. Genrated by GraphBU, The average graph-statistical similarity was approximately 0.934, the average feasibility was approximately 96.7%, and the average increase in the main index of downstream PS was approximately 8.0%."
+    },
+    {
+      "title": "The Large Cancer Assistant (LCA): A Model-Agnostic Orchestration Framework for Scalable Clinical Decision Support in Oncology",
+      "url": "https://arxiv.org/abs/2607.06531v1",
+      "source": "arXiv",
+      "published": "2026-07-07T17:38:47+00:00",
+      "summary_raw": "- Objective: Multimodal deep learning models in oncology are currently limited by monolithic designs that rigidly couple data ingestion, clinical routing, and artificial intelligence (AI) inference. To address this inflexibility, we propose the Large Cancer Assistant (LCA), a model-agnostic, post-hoc orchestration framework designed for scalable clinical decision support. - Methods: The LCA is mathematically formalized as a 7-tuple architecture grounded in the principle of Algorithmic Impermeability, ensuring the orchestration logic remains strictly independent of underlying black-box AI models. We introduce the Entry Theory, leveraging Geometric Deep Learning (GDL) to standardize multimodal patient data along distinct structural and medical axes. The system dynamically orchestrates data via a Cancer Switching Module and intentionally isolates the core AI execution from volatile hospital IT infrastructures by outputting a Standardized Intermediate Payload (SIP). - Results: A Proof of Concept (PoC) validated the orchestration logic across four technical scenarios. The framework executed a nominal flow with negligible orchestration overhead. It empirically demonstrated algorithmic impermeability by maintaining an invariant routing projection during AI model swaps, and it validated strict failure-safety by achieving a 100\\% recall rate in generating targeted Supplementary Data Requests (SDR) under injected data anomalies. Multi-protocol execution capability was also successfully verified. - Conclusion: By structurally decoupling multimodal ingestion from feature inference, the LCA provides a highly adaptable and modular orchestration foundation. The SIP establishes a clear architectural boundary, natively setting the stage for downstream Electronic Medical Record (EMR) interoperability as an independent future paradigm."
+    },
+    {
+      "title": "Life Style Levels: Neighborhood Delineation using Geospatial Data",
+      "url": "https://arxiv.org/abs/2607.06529v1",
+      "source": "arXiv",
+      "published": "2026-07-07T17:37:03+00:00",
+      "summary_raw": "Fine-scale socioeconomic information is often unavailable across rapidly ur-banizing regions of the developing world, like India, limiting the ability to delineate intra-urban variations in affluence and deprivation. This study pro-poses a scalable, grid-based urban delineation framework using building morphology derived from open-source satellite imagery. Urban areas across 59 Indian cities and towns are partitioned into high-resolution spatial grids and characterized using interpretable morphological indicators, which are combined into a transparent, rule-based scoring framework to delineate areas with contrasting levels of urban affluence. The resulting classifications are validated through ground-level Google Street View observations, revealing a sharp contrast between the grid classes which are consistent with the ex-pected effects of the lifestyle affluence indicators. We further investigate density-based clustering of building footprints in Mumbai to identify dense urban settlements, demonstrating that the resulting clusters exhibit substan-tial spatial overlap with known informal settlements across the city. Finally, we conduct an exploratory analysis mapping consumer loan delinquency across the derived affluence classes. By relying entirely on publicly available geospatial data, the proposed framework provides a scalable, interpretable, and cost-effective approach for granular urban affluence mapping across In-dian cities."
+    },
+    {
+      "title": "RSF-GLLM: Bridging the Semantic Gap in Multi-Hop Knowledge Graph QA via Recurrent Soft-Flow and Decoupled LLM Generation",
+      "url": "https://arxiv.org/abs/2607.06527v1",
+      "source": "arXiv",
+      "published": "2026-07-07T17:32:36+00:00",
+      "summary_raw": "Multi-hop Question Answering over Knowledge Graphs faces a critical challenge: traditional retrieve-then-read pipelines break differentiability, preventing the retriever from learning to bridge the semantic gap where intermediate nodes lack lexical overlap with the query. To address this, we propose RSF-GLLM, a framework decoupling differentiable graph reasoning from answer generation. Our Recurrent Soft-Flow (RSF) module employs a GRU-guided query updater to propagate continuous relevance scores, utilizing a dynamic gating mechanism to traverse semantically dissimilar bridge nodes via structural cues. We introduce flow sparsity regularization to theoretically guarantee convergence from soft probabilities to discrete reasoning paths. These paths are extracted and textualized to fine-tune a Large Language Model (LLM), ensuring generation is grounded in factual topology. Experiments on WebQSP and CWQ demonstrate that RSF-GLLM achieves competitive performance with superior inference efficiency compared to LLM based computationally expensive approaches."
+    },
+    {
+      "title": "DepthWeave-KV: Token-Adaptive Cross-Layer Residual Factorization for Long-Context KV Cache Compression",
+      "url": "https://arxiv.org/abs/2607.06523v1",
+      "source": "arXiv",
+      "published": "2026-07-07T17:29:01+00:00",
+      "summary_raw": "Long-context language model inference is increasingly limited by the memory bandwidth and capacity required to store key-value caches, yet existing compression methods often apply uniform budgets across layers or tokens and degrade retrieval when lexical cues and semantic states require different preservation. We introduce DepthWeave-KV, a token-adaptive cache compression method that factorizes key and value states across neighboring transformer layers using shared low-rank channel bases while retaining lightweight token-specific residuals where attention behavior is sensitive. DepthWeave-KV combines cross-depth residual factorization with a token-conditional depth router that allocates higher reconstruction rank to instruction-bearing and retrieval-critical tokens, and uses calibration-free online error tracking from attention-output probes to adapt compression during generation without retraining the base model. A fused CUDA implementation jointly performs basis lookup, residual dequantization, and attention projection to reduce decode-time memory traffic. Across LongBench, Needle-in-a-Haystack, L-Eval, and long-form QA and summarization benchmarks, DepthWeave-KV achieves near-full-cache task quality with substantially lower memory use, improving average score and retrieval accuracy over prior compressed caches while reaching 8.3x KV memory reduction and 72.8 tokens per second at 64K context."
+    },
+    {
+      "title": "Bridging Physical Reasoning and Task Generalization via Visual Action Outcome Reasoning Alignment",
+      "url": "https://arxiv.org/abs/2607.06522v1",
+      "source": "arXiv",
+      "published": "2026-07-07T17:27:59+00:00",
+      "summary_raw": "Vision-language models (VLMs) struggle to generalize in interactive physical reasoning, particularly under unseen tasks and environments. Two key failure modes are prominent: hallucinated chain-of-thought (CoT) reasoning that contradicts physical reality, and misalignment between the model's reasoning and actions. We present VAORA (Visual Action Outcome Reasoning Alignment), a novel reward design that directly addresses both issues. VAORA introduces two complementary rewards: Visual Alignment Reward, which anchors VLM reasoning to the visual context independent of the agent action itself, and Visual-Action Alignment Reward, which grounds reasoning in the visual outcome induced by the model's action. Together, these rewards suppress hallucinated CoT and reduce the gap between reasoning and behavior. To improve training stability, we further employ smooth, dense rewards by estimating success probabilities using a pre-trained in-domain expert agent. Experiments on PHYRE and Virtual Tool support our performances across novel-task and unseen-environment settings, confirming that grounded and generalizable physical intelligence can be induced through VAORA."
+    },
+    {
+      "title": "FreqDepthKV: Frequency-Guided Depth Sharing for Robust KV Cache Compression in Long-Context LLM Inference",
+      "url": "https://arxiv.org/abs/2607.06519v1",
+      "source": "arXiv",
+      "published": "2026-07-07T17:26:28+00:00",
+      "summary_raw": "Long-context LLM inference is increasingly limited by the memory and bandwidth cost of KV caches, yet aggressive compression can remove the layer-specific evidence needed for retrieval and multi-step reasoning. We introduce FreqDepthKV, an inference-time cache compression method that factorizes adjacent-layer KV states into shared low-frequency depth components and sparse high-frequency residuals. A lightweight online probe assigns attention heads to shared-depth, residual-depth, or exact cache modes according to their contribution to reconstruction-sensitive attention logits, allowing the compression policy to adapt to prompt structure without retraining. Across long-context question answering, needle retrieval, summarization, and code generation benchmarks, FreqDepthKV preserves task accuracy under substantially smaller cache budgets. With a 32k-token prefill window, FreqDepthKV reaches 58.3 Exact Match, 63.0 F1, 32.5 ROUGE-L, and 48.1 pass@1, closely matching full KV while outperforming prior compressed-cache methods. It also improves decoding throughput to 70.4 tokens/s, reduces TTFT to 2.06 seconds, and lowers peak KV memory to 6.2 GB, achieving a 3.9x effective compression ratio."
+    }
+  ]
+}
