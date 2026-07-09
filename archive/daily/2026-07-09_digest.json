@@ -1,0 +1,202 @@
+[
+  {
+    "theme": "Model Releases & Product Updates",
+    "stories": [
+      {
+        "title": "Introducing GPT‑Live",
+        "url": "https://simonwillison.net/2026/Jul/8/introducing-gptlive/#atom-everything",
+        "source": "Simon Willison",
+        "paragraph": "OpenAI has upgraded the model powering ChatGPT's voice mode, releasing what it calls GPT-Live. The new model can delegate harder tasks — including those requiring web search or deeper reasoning — to GPT-5.5 in the background and surface the results to the user. Simon Willison reports having had preview access via the iPhone app for several weeks, describing the model's performance as notably improved over its predecessor."
+      }
+    ]
+  },
+  {
+    "theme": "Agentic Coding & Software Engineering",
+    "stories": [
+      {
+        "title": "Rewriting Bun in Rust",
+        "url": "https://simonwillison.net/2026/Jul/8/rewriting-bun-in-rust/#atom-everything",
+        "source": "Simon Willison",
+        "paragraph": "Bun creator Jarred Sumner published a detailed account of how he used agentic AI tooling to rewrite Bun from Zig to Rust, a process he completed faster than he wrote the blog post describing it. The workflow involved dynamic task orchestration, trial runs, and adversarial review passes — techniques that represent a more structured approach to AI-assisted large-scale refactoring than simple code completion. Sumner has been promising the post since May 9, 2026, making the elapsed writing time longer than the rewrite itself."
+      },
+      {
+        "title": "AI changes the economics of software rewrites",
+        "url": "https://thetruthasiseeitnow.com/ai-slop-starts-with-the-codebase-itself/",
+        "source": "Hacker News",
+        "paragraph": "A post argues that AI coding tools are shifting the cost-benefit calculus around software rewrites, making previously prohibitive rewrites more financially viable. The author contends that the real risk is not AI-generated code per se, but that AI amplifies the problems already latent in poorly structured codebases, producing what the author calls \"AI slop\" rooted in existing technical debt. The piece urges teams to treat codebase quality as a prerequisite before deploying AI coding agents at scale."
+      },
+      {
+        "title": "Agentic test processes, LLM benchmarks, and other notes on agentic coding fr",
+        "url": "https://danluu.com/ai-coding/#llm-variance",
+        "source": "Hacker News",
+        "paragraph": "Dan Luu published detailed notes on his experience using agentic coding tools, focusing on how benchmark results for LLMs can obscure high variance in real-world coding tasks. He examines how testing methodologies for agentic systems differ from standard LLM evaluations, and highlights that variance across runs — not just mean performance — is a critical factor practitioners need to account for. The post includes quantitative observations on how different models behave across repeated attempts at the same coding problems."
+      },
+      {
+        "title": "Show HN: FableCut – A browser video editor AI agents can drive (zero deps)",
+        "url": "https://github.com/ronak-create/FableCut",
+        "source": "Hacker News",
+        "paragraph": "FableCut is an open-source, browser-based video editor built to be controllable by AI agents, with no external dependencies. The project exposes a structured API surface that allows LLM-based agents to perform editing operations such as cutting, trimming, and sequencing video clips programmatically. Its zero-dependency design means it can run entirely client-side, which the developer positions as an advantage for agentic workflows that require predictable, self-contained environments."
+      }
+    ]
+  },
+  {
+    "theme": "AI in the Workplace & Enterprise",
+    "stories": [
+      {
+        "title": "AI bills are baffling the C-suite after shift to usage-based pricing",
+        "url": "https://www.theregister.com/ai-and-ml/2026/07/03/ai-bills-are-baffling-the-c-suite-after-shift-to-usage-based-pricing/5266383",
+        "source": "Hacker News",
+        "paragraph": "The Register reports that enterprise executives are struggling to predict and interpret AI costs as vendors shift from flat-rate subscriptions to usage-based pricing models. Unlike traditional software licensing, token- and compute-based billing can produce invoices that fluctuate significantly month to month depending on workload, making budgeting difficult. Finance and IT leaders at several unnamed companies described receiving bills they could not reconcile with their internal usage estimates."
+      },
+      {
+        "title": "Quoting Kenton Varda",
+        "url": "https://simonwillison.net/2026/Jul/8/kenton-varda/#atom-everything",
+        "source": "Simon Willison",
+        "paragraph": "Kenton Varda, an engineer whose views were highlighted by Simon Willison, announced a moratorium on AI-written pull request descriptions, commit messages, and issue tickets on his team. His rationale is that AI-generated change descriptions tended to restate details visible in the code diff while omitting the higher-level context — the \"why\" — that reviewers need to understand the purpose of a change. The policy reflects a growing practitioner concern that AI tools optimized for generating text can degrade the information density of engineering communication."
+      }
+    ]
+  },
+  {
+    "theme": "AI in Education",
+    "stories": [
+      {
+        "title": "Suspecting AI cheating, Ivy League prof ordered in-person final; scores fell 50%",
+        "url": "https://arstechnica.com/ai/2026/07/we-cannot-choose-to-become-idiots-the-ai-cheating-scandal-roiling-brown-university/",
+        "source": "Hacker News",
+        "paragraph": "A Brown University professor, suspecting widespread AI use on assignments, required students to sit an in-person final exam, after which scores dropped by approximately 50% compared to prior assessments. The incident has become a flashpoint in an ongoing debate at the university about academic integrity and the undetected reliance on AI tools during remote or take-home evaluations. The professor was quoted as saying \"we cannot choose to become idiots,\" framing unmonitored AI use as a threat to genuine learning outcomes."
+      }
+    ]
+  },
+  {
+    "theme": "AI Safety, Misuse & Disinformation",
+    "stories": [
+      {
+        "title": "AI software that generates 'rage bait' developed by Germany's far-right AfD",
+        "url": "https://www.irishtimes.com/world/europe/2026/07/08/ai-software-that-generates-rage-bait-developed-by-germanys-far-right-afd/",
+        "source": "Hacker News",
+        "paragraph": "Germany's far-right Alternative für Deutschland party has developed AI software designed to generate emotionally provocative content — referred to as \"rage bait\" — intended to drive engagement on social media platforms. The Irish Times report describes the tool as an internal party development, marking one of the first confirmed cases of a European political party building proprietary AI for targeted emotional manipulation at scale. The disclosure raises questions about the adequacy of existing EU regulations, including the AI Act, in addressing politically motivated generative AI misuse."
+      },
+      {
+        "title": "Most nurses say AI isn't good enough to trust with patient care, survey finds",
+        "url": "https://www.washingtonpost.com/technology/2026/07/07/most-nurses-say-ai-isnt-good-enough-trust-with-patient-care-survey/",
+        "source": "Hacker News",
+        "paragraph": "A survey reported by the Washington Post found that a majority of nurses do not believe current AI systems are reliable enough to be trusted with direct patient care decisions. The survey did not identify a specific sample size in the summary, but the findings align with broader concerns from clinical professionals about AI error rates and accountability gaps in high-stakes medical environments. Nurses cited concerns about AI making errors in clinical judgment that a trained human would avoid, and about unclear lines of responsibility when AI-generated recommendations contribute to adverse outcomes."
+      }
+    ]
+  },
+  {
+    "theme": "Infrastructure & Energy",
+    "stories": [
+      {
+        "title": "What's slowing down the AI buildout",
+        "url": "https://www.worksinprogress.news/p/ai-is-bottlenecked-by-the-grid",
+        "source": "Hacker News",
+        "paragraph": "A Works in Progress analysis argues that electrical grid capacity — not chip supply or software development — is now the primary constraint on expanding AI data center infrastructure. The piece details how grid interconnection queues in the United States can take years to navigate, with some projects waiting five or more years for approval to connect large power loads to the transmission network. The author contends that this bottleneck is structural and will not be resolved quickly by private investment alone, pointing to regulatory and permitting processes as the core obstacle."
+      },
+      {
+        "title": "Meta datacenter contractor flushed contaminated water",
+        "url": "https://www.theguardian.com/us-news/2026/jul/08/meta-datacenter-ai-wyoming-water",
+        "source": "Hacker News",
+        "paragraph": "A contractor working on a Meta data center in Wyoming discharged contaminated water, according to a report by The Guardian. The incident highlights the environmental footprint of large-scale AI infrastructure construction, which requires substantial water and land resources at sites often located in areas with limited regulatory oversight capacity. Meta has not publicly detailed the nature of the contaminants or the volume of water involved, and it is unclear whether state or federal agencies have initiated a formal investigation."
+      }
+    ]
+  },
+  {
+    "theme": "Model Releases",
+    "stories": [
+      {
+        "title": "Grok 4.5",
+        "url": "https://x.ai/news/grok-4-5",
+        "source": "Hacker News",
+        "paragraph": "xAI released Grok 4.5, the latest iteration of its Grok model series. The announcement was picked up via Cursor's blog, indicating the model is available or being evaluated within third-party developer tooling. The release continues xAI's cadence of model updates following Grok 4, though specific benchmark comparisons and capability details were not elaborated in the summary."
+      }
+    ]
+  },
+  {
+    "theme": "Research Papers",
+    "stories": [
+      {
+        "title": "Accurate, Interdisciplinary and Transparent Structure-property Understanding with Deep Native Structural Reasoning",
+        "url": "https://arxiv.org/abs/2607.07708v1",
+        "source": "arXiv",
+        "paragraph": "Researchers propose a framework for modeling structure-property relationships across biology, chemistry, and materials science using what they call deep native structural reasoning. The approach aims to make model reasoning mechanistically interpretable by grounding inference in physical and chemical constraints such as stereochemistry, bonding, symmetry, and energetics. This is notable because most deep learning approaches to molecular and materials property prediction treat the model as a black box, whereas this work targets transparent, principle-grounded explanations."
+      },
+      {
+        "title": "Co-LMLM: Continuous-Query Limited Memory Language Models",
+        "url": "https://arxiv.org/abs/2607.07707v1",
+        "source": "arXiv",
+        "paragraph": "The paper introduces Co-LMLM, an extension of limited memory language models (LMLMs), which externalize factual knowledge to a knowledge base rather than encoding it in model weights during pretraining. The proposed continuous-query mechanism allows the model to retrieve from the knowledge base dynamically throughout generation, addressing limitations of the original LMLM paradigm. This design enables finer-grained knowledge control compared to conventional LLMs, a property useful for applications requiring verifiable or updatable factual content."
+      },
+      {
+        "title": "The Key to Going Linear: Analysis-Driven Transformer Linearization",
+        "url": "https://arxiv.org/abs/2607.07706v1",
+        "source": "arXiv",
+        "paragraph": "This paper investigates how to replace the quadratic causal self-attention mechanism in transformers with linear alternatives without degrading model quality. Working under a strict frozen-backbone regime — where model weights are not retrained — the authors isolate the role of state update design and show that standard softmax attention relies on key-dependent, rank-1 orthogonal projections. The findings provide a principled basis for selecting which linearization components preserve performance, addressing a gap in the existing post-hoc linearization literature."
+      },
+      {
+        "title": "From Noisy Traces to Root Causes: Structural Trajectory Analysis and Causal Extraction for Agent Optimization",
+        "url": "https://arxiv.org/abs/2607.07702v1",
+        "source": "arXiv",
+        "paragraph": "The paper addresses the challenge of using execution traces from long-horizon AI agents to diagnose failures and improve agent policies via LLM-based optimizers. Raw trace collections are often redundant and heterogeneous, making direct use for optimization inefficient and prone to overfitting. The authors propose structural trajectory analysis and causal extraction methods to surface root causes from noisy traces, aiming to make reflection-based agent optimization more reliable and data-efficient."
+      },
+      {
+        "title": "Breaking Database Lock-in: Agentic Regeneration of High Performance Storage Readers for Database Bypass",
+        "url": "https://arxiv.org/abs/2607.07696v1",
+        "source": "arXiv",
+        "paragraph": "Researchers present Jailbreak, a system that bypasses database engines entirely by reading storage files directly, circumventing the bottleneck imposed by drivers like JDBC and ODBC when handling bulk columnar analytics workloads. The approach uses agentic code generation to regenerate high-performance storage readers, enabling analytical queries to skip query execution layers not designed for such access patterns. This is notable because database driver lock-in is a longstanding constraint for data-intensive pipelines that rely on external storage systems."
+      },
+      {
+        "title": "Institutional Red-Teaming: Deployment Rules, Not Just Models, Causally Shape Multi-Agent AI Safety",
+        "url": "https://arxiv.org/abs/2607.07695v1",
+        "source": "arXiv",
+        "paragraph": "The paper introduces institutional red-teaming, a methodology that tests deployment rules in multi-agent AI systems by holding agents, objectives, and task state fixed while varying a single rule at a time. The authors instantiate this approach with IABench-CA, a benchmark covering 228 contexts, five canonical rules, and seven model providers, to evaluate how collective agent behavior changes causally in response to rule changes. The work argues that safety analysis focused solely on model capabilities misses a significant source of risk: the institutional and policy layer governing how agents are deployed."
+      },
+      {
+        "title": "Selective Timestep Weighting and Advantage-Based Replay for Sample-Efficient Diffusion RLHF",
+        "url": "https://arxiv.org/abs/2607.07693v1",
+        "source": "arXiv",
+        "paragraph": "This paper proposes two techniques — selective timestep weighting and advantage-based replay — to reduce the feedback inefficiency of applying reinforcement learning from human feedback (RLHF) to diffusion models. Existing diffusion RLHF methods typically require large numbers of reward model evaluations for each update, limiting practical use in settings where labeled feedback is scarce. The selective weighting scheme focuses training signal on the most informative diffusion timesteps, while advantage-based replay prioritizes high-quality generated samples for reuse, together reducing overall feedback requirements."
+      },
+      {
+        "title": "Agon: Competitive Cross-Model RL with Implicit Rival Grading of Reasoning",
+        "url": "https://arxiv.org/abs/2607.07690v1",
+        "source": "arXiv",
+        "paragraph": "Agon introduces a competitive reinforcement learning setup in which two language models grade each other's reasoning traces rather than only evaluating final answers. Standard verifiable-reward approaches such as GRPO grade only the output, which the authors argue incentivizes longer responses on hard problems rather than better reasoning. In the Agon framework, both models attempt the same problem and each serves as the other's implicit grader, creating a signal for trace quality without requiring human-labeled examples of good reasoning."
+      },
+      {
+        "title": "ECGLight: Compute-Light Framework For Paper ECG Digitization and Myocardial Infarction Screening",
+        "url": "https://arxiv.org/abs/2607.07683v1",
+        "source": "arXiv",
+        "paragraph": "Researchers have proposed ECGLight, a lightweight AI framework designed to digitize paper ECG printouts and screen for myocardial infarction in resource-constrained clinical settings. The work addresses a practical gap: many remote clinics still rely on physical ECG printouts due to limited internet connectivity and low computational capacity, placing them outside the reach of existing AI diagnostic tools. ECGLight is specifically architected to run under these constraints, enabling digitization and analysis without requiring cloud infrastructure or high-end hardware. The framework targets cardiovascular disease screening, with myocardial infarction — a time-sensitive condition — as its primary clinical use case."
+      }
+    ]
+  },
+  {
+    "theme": "Open-Source Tools",
+    "stories": [
+      {
+        "title": "Show HN: Requirements Engineering with Formal Verification",
+        "url": "https://fizzbee.ai/",
+        "source": "Hacker News",
+        "paragraph": "A developer launched fizzbee.ai, a new application built on top of the open-source formal methods system fizzbee.io, which has been in development for several years. The tool applies formal verification to requirements engineering: given a user prompt, it asks clarifying questions, converts the requirements into formal specifications, and then uses those specifications to generate precise instructions for coding agents. The approach is notable for introducing formal verification — a technique common in safety-critical software — into the earlier, requirements-gathering stage of AI-assisted development."
+      },
+      {
+        "title": "Show HN: Microsoft releases Flint, a visualization language for AI agents",
+        "url": "https://microsoft.github.io/flint-chart/#/",
+        "source": "Hacker News",
+        "paragraph": "Microsoft released Flint, a domain-specific visualization language designed to make it easier for AI agents to generate reliable and well-formatted charts. The release addresses a known tension: simple chart specifications tend to produce low-quality visuals due to reliance on system defaults, while detailed specifications can be verbose and difficult for agents to handle consistently. Flint introduces an intermediate abstraction layer that aims to make agent-generated chart specs both concise and capable of producing high-quality outputs."
+      }
+    ]
+  },
+  {
+    "theme": "Community and Industry Discussion",
+    "stories": [
+      {
+        "title": "Ask HN: Another \"Hacker News\" with less AI and more human-focused hacking news?",
+        "url": "https://news.ycombinator.com/item?id=48834961",
+        "source": "Hacker News",
+        "paragraph": "A Hacker News user posted asking for alternatives to the site that feature less AI content and more user-centric, human-in-the-loop technical discussion. The post reflects a sentiment among a portion of the developer community that AI-focused content has come to dominate forums previously associated with broader technical topics. The thread mentions lobste.rs as a historically relevant alternative and prompted community members to share other aggregators, highlighting ongoing tension in technical communities over the volume and tone of AI coverage."
+      }
+    ]
+  }
+]

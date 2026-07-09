@@ -1,0 +1,229 @@
+{
+  "date": "2026-07-09",
+  "generated_at": "2026-07-09T13:46:56.535661+00:00",
+  "source_counts": {
+    "rss_feeds": 3,
+    "arxiv": 50,
+    "hackernews": 15,
+    "nitter": 0,
+    "total_raw": 68,
+    "total_deduped": 68,
+    "total_saved": 25
+  },
+  "items": [
+    {
+      "title": "Show HN: FableCut \u2013 A browser video editor AI agents can drive (zero deps)",
+      "url": "https://github.com/ronak-create/FableCut",
+      "source": "Hacker News",
+      "published": "2026-07-09T13:23:10+00:00",
+      "summary_raw": "",
+      "points": 12,
+      "num_comments": 3,
+      "hn_url": "https://news.ycombinator.com/item?id=48845422"
+    },
+    {
+      "title": "AI changes the economics of software rewrites",
+      "url": "https://thetruthasiseeitnow.com/ai-slop-starts-with-the-codebase-itself/",
+      "source": "Hacker News",
+      "published": "2026-07-09T05:46:50+00:00",
+      "summary_raw": "",
+      "points": 41,
+      "num_comments": 58,
+      "hn_url": "https://news.ycombinator.com/item?id=48841446"
+    },
+    {
+      "title": "AI software that generates 'rage bait' developed by Germany's far-right AfD",
+      "url": "https://www.irishtimes.com/world/europe/2026/07/08/ai-software-that-generates-rage-bait-developed-by-germanys-far-right-afd/",
+      "source": "Hacker News",
+      "published": "2026-07-09T05:17:30+00:00",
+      "summary_raw": "",
+      "points": 20,
+      "num_comments": 2,
+      "hn_url": "https://news.ycombinator.com/item?id=48841275"
+    },
+    {
+      "title": "What's slowing down the AI buildout",
+      "url": "https://www.worksinprogress.news/p/ai-is-bottlenecked-by-the-grid",
+      "source": "Hacker News",
+      "published": "2026-07-09T03:26:02+00:00",
+      "summary_raw": "",
+      "points": 30,
+      "num_comments": 56,
+      "hn_url": "https://news.ycombinator.com/item?id=48840620"
+    },
+    {
+      "title": "AI bills are baffling the C-suite after shift to usage-based pricing",
+      "url": "https://www.theregister.com/ai-and-ml/2026/07/03/ai-bills-are-baffling-the-c-suite-after-shift-to-usage-based-pricing/5266383",
+      "source": "Hacker News",
+      "published": "2026-07-09T00:19:18+00:00",
+      "summary_raw": "",
+      "points": 10,
+      "num_comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=48839285"
+    },
+    {
+      "title": "Rewriting Bun in Rust",
+      "url": "https://simonwillison.net/2026/Jul/8/rewriting-bun-in-rust/#atom-everything",
+      "source": "Simon Willison",
+      "published": "2026-07-08T23:57:21+00:00",
+      "summary_raw": "Rewriting Bun in Rust\nJarred Sumner has been promising this blog post (since May 9th) about his Zig to Rust rewrite of Bun for significantly longer than it took him to finish the rewrite.\nHonestly, it was worth the wait. This is a detailed description of an extremely sophisticated piece of agentic engineering, featuring dynamic workflows, trial runs, adversarial review and all sorts of other interesting tricks.\nJarred spends the first half of the post praising Zig for getting Bun this far. Then we get to a core idea in the piece, emphasis mine:\n\nOur bugfix list felt bad and I was tired of going to sleep worrying about crashes in Bun. I don't blame Zig for that - other users of Zig don't have the bugs we had, and mixing GC with manually-managed memory is an uncommon enough thing for software to need that no language really designs for it. We wouldn't have gotten this far if not for Zig, and I'll always be grateful. Until very recently, programming language choice was a one-way decision for a project like Bun.\n\nEveryone knows you should never stop the world and rewrite a large piece of software from the ground up. Joel Spolsky highlighted that in Things You Should Never Do, Part I back in April 2000!\nCoding agents powered by today's frontier models change that equation.\nWhy pick Rust? It all came down to those challenges with memory management:\n\nA large percentage of bugs from that list are use-after-free, double-free, and \"forgot to free\" in an error path. In safe Rust, these are compiler errors and RAII-like automatic cleanup with Drop.\n\nA crucial enabling factor for the rewrite was that the Bun test suite was written in TypeScript, which meant it could act as a conformance suite. This allowed an agent harness to automate much of the initial port from Bun to Rust, initially as an experiment to try out an earlier version of the model we now have access to as Mythos/Fable.\n\nAt first, I didn't expect it to work. A few days in, a high % of the test suite started passing and I saw how much the new Rust code matched up with the original Zig codebase. My opinion went from \"this is worth trying\" to \"I'm going to merge this\". [...]\nFor most of those 11 days (and after), I monitored workflows - manually reading the outputs to check for issues and bugs, and prompting Claude to edit the loop to fix things.\nHow do you review a PR with +1 million lines added? How do you start to build the confidence needed to responsibly merge large quantities of LLM-authored code?\nA language-independent test suite with a million assertions, adversarial code review and when something does go wrong, fixing the process that generates the code instead of hand-fixing the code.\n\nThe new implementation of Bun has been live in Claude Code for nearly a month now:\n\nClaude Code v2.1.181 (released June 17th) and later use the Rust port of Bun. Startup got 10% faster on Linux but otherwise, barely anyone noticed. Boring is good.\n\nA perk of working at Anthropic is that you don't have to pay for your tokens - handy when the estimated cost is $165,000!\n\nPre-merge, this took 5.9 billion uncached input tokens, 690 million output tokens, and 72 billion cached input token reads \u2014 around $165,000 at API pricing.\n\nThis whole thing is a fascinating case study in taking on wildly ambitious projects with the help of coordinated parallel agents.\n\n    Via Hacker News\n\n\n    Tags: ai, rust, zig, generative-ai, llms, ai-assisted-programming, anthropic, bun, conformance-suites, agentic-engineering, claude-mythos-fable"
+    },
+    {
+      "title": "Introducing GPT\u2011Live",
+      "url": "https://simonwillison.net/2026/Jul/8/introducing-gptlive/#atom-everything",
+      "source": "Simon Willison",
+      "published": "2026-07-08T23:20:48+00:00",
+      "summary_raw": "Introducing GPT\u2011Live\nOpenAI finally upgraded the model used by ChatGPT voice mode!\nI've had preview access for a few weeks in the iPhone app, and the new model is very impressive. It also has the ability to spin off harder tasks to GPT-5.5:\n\nFor questions that require web search, deeper reasoning, or more complex work, it delegates to our latest frontier model behind the scenes and brings the result back into the conversation when it\u2019s ready. While it works, GPT\u2011Live can keep talking with you and maintain the flow of conversation. At launch, GPT\u2011Live will use GPT\u20115.5 in the background. As we release new frontier models, we\u2019ll continuously update the model used by GPT\u2011Live.\n\nThe previous voice mode in the ChatGPT app was based on a GPT-4o era model, with a knowledge cut-off some time in 2024. I had mostly stopped using voice mode because the age and relative weakness of the model greatly limited how useful it was as a brainstorming partner.\nDuring the preview period I encountered a pretty obscure bug: the model was interrupting me to laugh at things I said, which weren't even intended as jokes! It felt rude and condescending - I reported it to OpenAI and as far as I can tell they made some tweaks and it's now less likely to happen.\nFrom looking back at my transcripts I think it was this bit that triggered the interrupting laugh:\n\nso where are the owls when they're not, like before dusk? The owls exist, right? Are they hiding in holes? Where are they hiding?\n\nMy longest conversation with the new model has been a full hour while walking the dog (and taking photos of pelicans). I have not yet managed to take a photo of an owl.\n\n    Via Hacker News\n\n\n    Tags: text-to-speech, ai, openai, generative-ai, llms, multi-modal-output, llm-release, speech-to-text"
+    },
+    {
+      "title": "Suspecting AI cheating, Ivy League prof ordered in-person final; scores fell 50%",
+      "url": "https://arstechnica.com/ai/2026/07/we-cannot-choose-to-become-idiots-the-ai-cheating-scandal-roiling-brown-university/",
+      "source": "Hacker News",
+      "published": "2026-07-08T23:11:28+00:00",
+      "summary_raw": "",
+      "points": 116,
+      "num_comments": 108,
+      "hn_url": "https://news.ycombinator.com/item?id=48838611"
+    },
+    {
+      "title": "Meta datacenter contractor flushed contaminated water",
+      "url": "https://www.theguardian.com/us-news/2026/jul/08/meta-datacenter-ai-wyoming-water",
+      "source": "Hacker News",
+      "published": "2026-07-08T23:05:45+00:00",
+      "summary_raw": "",
+      "points": 13,
+      "num_comments": 3,
+      "hn_url": "https://news.ycombinator.com/item?id=48838558"
+    },
+    {
+      "title": "Most nurses say AI isn't good enough to trust with patient care, survey finds",
+      "url": "https://www.washingtonpost.com/technology/2026/07/07/most-nurses-say-ai-isnt-good-enough-trust-with-patient-care-survey/",
+      "source": "Hacker News",
+      "published": "2026-07-08T20:36:16+00:00",
+      "summary_raw": "",
+      "points": 12,
+      "num_comments": 2,
+      "hn_url": "https://news.ycombinator.com/item?id=48837096"
+    },
+    {
+      "title": "Agentic test processes, LLM benchmarks, and other notes on agentic coding fr",
+      "url": "https://danluu.com/ai-coding/#llm-variance",
+      "source": "Hacker News",
+      "published": "2026-07-08T20:21:45+00:00",
+      "summary_raw": "",
+      "points": 19,
+      "num_comments": 2,
+      "hn_url": "https://news.ycombinator.com/item?id=48836951"
+    },
+    {
+      "title": "Quoting Kenton Varda",
+      "url": "https://simonwillison.net/2026/Jul/8/kenton-varda/#atom-everything",
+      "source": "Simon Willison",
+      "published": "2026-07-08T20:03:34+00:00",
+      "summary_raw": "I just declared a moratorium against AI-written change descriptions (e.g. PR and commit messages, also issues/tickets) from my team.\nAI was writing change descriptions that were worse than useless to me as I tried to review PRs: outlining details of the code that could easily be seen by looking at the code, but omitting the higher-level framing needed to understand broadly what the code is doing.\n&mdash; Kenton Varda\n\n    Tags: kenton-varda, ai-assisted-programming, generative-ai, ai, llms"
+    },
+    {
+      "title": "Grok 4.5",
+      "url": "https://x.ai/news/grok-4-5",
+      "source": "Hacker News",
+      "published": "2026-07-08T18:00:32+00:00",
+      "summary_raw": "<a href=\"https:&#x2F;&#x2F;cursor.com&#x2F;blog&#x2F;grok-4-5\" rel=\"nofollow\">https:&#x2F;&#x2F;cursor.com&#x2F;blog&#x2F;grok-4-5</a>",
+      "points": 712,
+      "num_comments": 1228,
+      "hn_url": "https://news.ycombinator.com/item?id=48835111"
+    },
+    {
+      "title": "Accurate, Interdisciplinary and Transparent Structure-property Understanding with Deep Native Structural Reasoning",
+      "url": "https://arxiv.org/abs/2607.07708v1",
+      "source": "arXiv",
+      "published": "2026-07-08T17:59:59+00:00",
+      "summary_raw": "Structure-property relationships are foundational to biology, chemistry and materials science, where function, reactivity and physical response emerge from spatial, chemical and periodic organization. Mechanistically explaining these relationships requires interpreting structural evidence through scientific principles and physical constraints, from stereochemistry and bonding to symmetry, energetics and periodic order. However, applying artificial intelligence to this process presents a joint challenge of representation and reasoning: models must preserve domain-native structural information while showing how specific evidence supports predictions under these constraints. Here we introduce SciReasoner, a multimodal scientific foundation model for native structural reasoning across proteins, small molecules and inorganic crystals. SciReasoner discretizes coordinates, topologies and periodic connectivities into a unified structure-aware vocabulary, treating structural tokens as addressable evidence units during reasoning. In homology-controlled Gene Ontology prediction, SciReasoner improves Cellular Component annotation for low-homology and orphan-like proteins, increasing $F_{\\max}$ from 0.42 to 0.55. In chemistry, it raises single-step retrosynthesis accuracy from 0.63 to 0.72 while generating fragment-level disconnection and precursor-verification traces. In materials science, its representations separate elemental and compound phases and resolve high- and low-band-gap regimes. Across 86 benchmarks, SciReasoner achieves state-of-the-art performance on 67 tasks. Double-blind expert evaluation rates its reasoning traces as preferred or at least comparable to those of a frontier large language model in 98% of cases. By making structure an inspectable substrate for reasoning under scientific constraints, SciReasoner connects accurate prediction with interpretable scientific inference."
+    },
+    {
+      "title": "Co-LMLM: Continuous-Query Limited Memory Language Models",
+      "url": "https://arxiv.org/abs/2607.07707v1",
+      "source": "arXiv",
+      "published": "2026-07-08T17:59:45+00:00",
+      "summary_raw": "Limited memory language models (LMLMs) externalize factual knowledge during pretraining to a knowledge base (KB), rather than memorizing it in their weights. During generation, the model then fetches knowledge from the KB as needed. This recently introduced paradigm provides multiple advantages, including knowledge control capabilities that remain beyond conventional LLMs. We propose continuous-query LMLM (CO-LMLM), where the KB pairs continuous keys with textual knowledge values, a significant departure from prior reliance on relational KB and queries. CO-LMLM generates flexible vector queries at minimal cost, while still integrating human-readable and attributable retrieved knowledge into its generation. We pair this design with an annotation pipeline that tags free-form factual spans in arbitrary text, removing prior work's restriction to Wikipedia. Across pretraining on Wikipedia and FineWeb-Edu and at multiple model scales, CO-LMLM outperforms prior LMLMs and vanilla LLMs in both perplexity and factual precision. At 360M scale, this includes lower perplexity than models pretrained on 40x more data, and SimpleQA-verified performance that is in line with gpt-4o-mini and higher than Claude Sonnet 4.5."
+    },
+    {
+      "title": "The Key to Going Linear: Analysis-Driven Transformer Linearization",
+      "url": "https://arxiv.org/abs/2607.07706v1",
+      "source": "arXiv",
+      "published": "2026-07-08T17:59:09+00:00",
+      "summary_raw": "The quadratic cost of causal self-attention severely bottlenecks long-context transformer inference. While numerous post hoc linearization pipelines exist, it is difficult to identify which components preserve model quality. This work isolates the effect of state update design in a strict frozen-backbone regime. We show that softmax relies on key-dependent, rank-1 orthogonal projections, elucidating why delta-style networks outperform purely gated accumulation. We identify a potential source of approximation errors and introduce structural interventions, specifically sink tokens, short convolutions, and fixed-budget cache routing, which reduces the remaining gap. We scale this linearization approach across LLaMA and Qwen models up to 32B parameters, outperforming prior post hoc baselines on MMLU and matching the long-context retrieval of complex adaptive-caching frameworks."
+    },
+    {
+      "title": "From Noisy Traces to Root Causes: Structural Trajectory Analysis and Causal Extraction for Agent Optimization",
+      "url": "https://arxiv.org/abs/2607.07702v1",
+      "source": "arXiv",
+      "published": "2026-07-08T17:57:27+00:00",
+      "summary_raw": "The optimization of long-horizon agents increasingly relies on reflection-based mechanisms, where a large language model (LLM) acts as an optimizer to diagnose agent failures and improve agent policies. However, real execution traces are difficult to use directly for optimization: large trace collections are often redundant and heterogeneous, making optimization inefficient and prone to overfitting to low-value failures; meanwhile, each individual trajectory also contains many irrelevant steps, while naive context reduction methods such as truncation or sliding windows can discard causally important evidence and produce misleading optimization signals. To resolve this dilemma, we introduce STRACE (Structural TRajectory Analysis and Causal Extraction), a framework that constructs high signal-noise optimization contexts for more precise and effective optimization. At the batch level, STRACE mines failure patterns to filter redundant traces and retain representative failures; within each selected trace, it performs causal localization over a textual dependency graph to remove non-causal steps and identify the true root-cause module for optimization. Empirical results demonstrate that STRACE significantly outperforms standard context-filtering baselines. Notably, on a challenging formal verification task (VeruSAGE-Bench), it successfully optimizes human-expert designed agents, delivering $1.4\\times$ success-rate improvement (42.5% to 58.5%). The code is available at https://github.com/moomight/STRACE ."
+    },
+    {
+      "title": "Breaking Database Lock-in: Agentic Regeneration of High Performance Storage Readers for Database Bypass",
+      "url": "https://arxiv.org/abs/2607.07696v1",
+      "source": "arXiv",
+      "published": "2026-07-08T17:55:00+00:00",
+      "summary_raw": "Analytical workloads operating on data stored in external database systems face a fundamental bottleneck: data access is guarded entirely by the database driver, like JDBC or ODBC, forcing all reads through query execution and other driver layers that are not designed for bulk columnar analytics. We present Jailbreak, an approach that bypasses the database engine entirely by reading storage files directly and materializing data as in-memory columnar buffers. Jailbreak's key insight is that database file formats, while complex, are fully specified by their source code and documentation, artifacts that Large Language Models (LLMs) can ingest to regenerate operator-specific table reading components without human-engineered parsing logic. Jailbreak leverages LLM-assisted code synthesis for database storage decoding, turning a traditionally opaque format into a directly queryable artifact. We evaluate Jailbreak on PostgreSQL and MySQL storage files, targeting analytical snapshot scenarios common in read replicas and offline processing pipelines. The generated reader produces Apache Arrow buffers consumable directly by most of the widely known query engines, including DuckDB, Apache Spark, and GPU-accelerated frameworks such as cuDF and Spark RAPIDS. We validate correctness against JDBC/ODBC-based baselines using the TPC-H benchmark across all query results, and demonstrate significant performance improvements in end-to-end analytical throughput, achieving up to 27x speedups. Our results showcase that LLM-assisted storage reader synthesis is a viable and generalizable methodology for breaking data lock-in across database systems, with applications beyond PostgreSQL and MySQL for any system whose file format is available to the LLM from documentation or source code."
+    },
+    {
+      "title": "Institutional Red-Teaming: Deployment Rules, Not Just Models, Causally Shape Multi-Agent AI Safety",
+      "url": "https://arxiv.org/abs/2607.07695v1",
+      "source": "arXiv",
+      "published": "2026-07-08T17:53:56+00:00",
+      "summary_raw": "We introduce institutional red-teaming, an evaluation methodology for testing deployment rules in multi-agent AI: hold the agents, objectives, and task state fixed, vary only one rule, and attribute the resulting change in collective behavior to that rule. We instantiate the methodology in IABench-CA, a consequence-allocation benchmark spanning 228 contexts, five canonical rules, and seven model populations (33,924 games), with a normative cooperative reference and auto-labelled reasoning traces. Three findings emerge. (1) Deployment rules causally alter collective safety: changing only the consequence rule moves mean fatality by 22 to 58 percentage points within every population. (2) There is no safe default, but the targeting hazard is universal: the safest rule, the least-safe rule, and even the direction of the incidence effect vary across populations, yet regressive identity-targeting is never decisively safest in any context for any population, eliminates the least-resourced agent in 30-87% of games everywhere, and is selection-unsafe relative to the cooperative reference for all seven populations. (3) Identity salience is the mechanism: a one-shot anonymization ablation on the most exploitation-prone population (gpt-5.1) shows that merely naming the loss bearer in the rule text drives targeted elimination from 22% to 81% at identical payoffs; under repeated play, anonymization only delays the targeting, as agents re-infer the hidden rule from observed eliminations. We package the methodology as a safety-case workflow that certifies a provisional rule region $\u03a6(c,P)$ per deployment context and population, with explicit residual risks and monitoring obligations."
+    },
+    {
+      "title": "Show HN: Requirements Engineering with Formal Verification",
+      "url": "https://fizzbee.ai/",
+      "source": "Hacker News",
+      "published": "2026-07-08T17:52:57+00:00",
+      "summary_raw": "I&#x27;ve been building an open source formal methods system (fizzbee.io) for the past few years.<p>Today I&#x27;m launching a new app built on the same technology. It performs requirements engineering using formal verification to uncover gaps and produce precise instructions for your coding agents to follow.<p>When given a prompt, it \n- asks high signal follow-up questions\n- converts to formal spec and identifies complex requirements gaps\n- generates validation scenario<p>At the end, it produces a specification document that can be shared with coding agents. In my trials on various projects, it produces working code in fewer iterations.<p>Please give it a try and share your feedback.\n<a href=\"https:&#x2F;&#x2F;fizzbee.ai&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;fizzbee.ai&#x2F;</a><p>You can also look at a sample project.\n<a href=\"https:&#x2F;&#x2F;fizzbee.ai&#x2F;projects&#x2F;94bf2869-97a1-445c-8f5d-4445848bba11&#x2F;view\" rel=\"nofollow\">https:&#x2F;&#x2F;fizzbee.ai&#x2F;projects&#x2F;94bf2869-97a1-445c-8f5d-4445848b...</a>",
+      "points": 23,
+      "num_comments": 3,
+      "hn_url": "https://news.ycombinator.com/item?id=48835012"
+    },
+    {
+      "title": "Selective Timestep Weighting and Advantage-Based Replay for Sample-Efficient Diffusion RLHF",
+      "url": "https://arxiv.org/abs/2607.07693v1",
+      "source": "arXiv",
+      "published": "2026-07-08T17:49:49+00:00",
+      "summary_raw": "Reinforcement learning from human feedback (RLHF) has emerged as a powerful paradigm for aligning generative models with human preferences. However, applying RLHF to diffusion models remains highly feedback inefficient, as existing approaches typically require large amounts of human or reward model evaluations. This limitation reduces the practicality of diffusion RLHF in realworld settings where feedback is the primary bottleneck. In this paper, we propose two complementary strategies that substantially improve the feedback efficiency of diffusion RLHF while preserving generalization to unseen prompts. Our key observation is that reward information in diffusion trajectories is unevenly distributed: not all denoising timesteps or trajectories contribute equally to learning from a reward signal. By emphasizing informative timesteps and trajectories during optimization, we obtain more effective gradient updates. First, we introduce a per-timestep weighting scheme that reweights denoising steps during policy optimization. We theoretically connect this weighting to the optimal convergence properties of proximal policy optimization (PPO) and approximate the resulting weighting trend empirically. Second, we introduce a replay mechanism that prioritizes informative trajectories, enabling the model to reuse past samples instead of repeatedly querying new rewards. Together, these strategies significantly improve the feedback efficiency of diffusion RLHF. Under identical hyperparameter settings, our approach achieves up to a 6$\\times$ improvement in sample efficiency compared to widely used diffusion RLHF baselines."
+    },
+    {
+      "title": "Agon: Competitive Cross-Model RL with Implicit Rival Grading of Reasoning",
+      "url": "https://arxiv.org/abs/2607.07690v1",
+      "source": "arXiv",
+      "published": "2026-07-08T17:49:14+00:00",
+      "summary_raw": "Reinforcement learning from verifiable rewards (e.g. GRPO) is the engine behind today's reasoning models, yet it grades only the final answer. On hard problems this trains models to write more rather than to think better, since the trace itself is never graded and no label for good thinking exists. We introduce Agon, which makes two competing models each other's graders. Both attempt the same problem; in alternating roles, one drafts a solution and the other reads it while solving, and each is rewarded for out-solving the other. To win, a model must out-reason a rival that has seen its work, so reasoning is judged implicitly during training, with no process labels and no reward model. Because both models are optimized, each faces a progressively stronger rival, which single-model RL cannot provide. The two need only be comparably strong and behaviorally different. At inference the pair deploys as it trains, a two-stage cascade in which one model drafts and the other answers after reading the draft. On the hard split of DeepMath with Qwen3, this doubles GRPO's pass@1, roughly eight times the gain of an untrained Mixture-of-Agents pass over the same base. The ordering replicates on competitive-programming code and across model families (Qwen3.5, Gemma 4). For now the models talk in text; the next step is to let them reason together in latent space."
+    },
+    {
+      "title": "Ask HN: Another \"Hacker News\" with less AI and more human-focused hacking news?",
+      "url": "https://news.ycombinator.com/item?id=48834961",
+      "source": "Hacker News",
+      "published": "2026-07-08T17:48:41+00:00",
+      "summary_raw": "I am done with articles stating &quot;I used this LLM to do that&quot;, or &quot;Look, this agent did that in 2 minutes!&quot;.\nI want content more user-centric, less openai &#x2F; anthropic, and more &quot;human-in-the-loop&quot; articles.<p>Any other website to recommend?\nI think lobste.rs was a good hacker news aggregator, but I don&#x27;t know if it is still relevant today...<p>UPDATE:<p>Some recommendations, provided by the answers:<p>- https:&#x2F;&#x2F;hackaday.com&#x2F;  \n- https:&#x2F;&#x2F;hcker.news&#x2F;?ai=exclude  \n- https:&#x2F;&#x2F;lobste.rs&#x2F;<p>Related discussions<p>- https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=48713041  \n- https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=48567155",
+      "points": 86,
+      "num_comments": 52,
+      "hn_url": "https://news.ycombinator.com/item?id=48834961"
+    },
+    {
+      "title": "Show HN: Microsoft releases Flint, a visualization language for AI agents",
+      "url": "https://microsoft.github.io/flint-chart/#/",
+      "source": "Hacker News",
+      "published": "2026-07-08T17:46:12+00:00",
+      "summary_raw": "Data visualizations are the bridge between user and data.<p>But building AI agents that can generate visualizations reliably can be very tricky:<p>- simple chart specs can be reliable, but generated charts are often of low quality due to reliance on system defaults; \n- complex chart specs with explicit details can produce good-looking charts, but they are verbose and agents can struggle with reliability<p>We figured out it is a limitation on the language issue (not just AI capability thing) -- current visualization languages are a bit too low-level for AI agents, requiring them to explicitly make visual decisions that are supposed to be handled by a good compiler. Flint is a visualization intermediate language to address this issue, allow AI agents to solve this last-mile human-agent interaction problem. It provides a simple semantic-type based specification, and contains a layout optimization engine that can produce good-looking charts (filled with derived low-level details) from simple high-level specs. The result is also very human understandable and adaptable. Flint powers data formulator for generating visualizations (another open source project from microsoft <a href=\"https:&#x2F;&#x2F;data-formulator.ai&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;data-formulator.ai&#x2F;</a>).<p>Flint is available open source, and we built a MCP server that you can directly plug flint in your favorite agent app to play with data.",
+      "points": 323,
+      "num_comments": 117,
+      "hn_url": "https://news.ycombinator.com/item?id=48834924"
+    },
+    {
+      "title": "ECGLight: Compute-Light Framework For Paper ECG Digitization and Myocardial Infarction Screening",
+      "url": "https://arxiv.org/abs/2607.07683v1",
+      "source": "arXiv",
+      "published": "2026-07-08T17:42:00+00:00",
+      "summary_raw": "Electrocardiography (ECG) is one of the most widely used tests for diagnosing cardiovascular disease. Yet several remote clinics still utilize paper ECG printouts for their analysis due to limited connectivity and computational capacity. As a result, vast numbers of physical ECGs obtained in remote areas still remain incapable of being accessed by contemporary artificial-intelligence (AI)-based decision support as they require high computational resources or strong high-speed internet connectivity. This causes several cases where conditions like acute coronary occlusion (ACS) is overlooked and reperfusion therapy delayed. Although prior work has tackled digitization and diagnosis separately, and utilized advanced AI models for them, there still remains a lack of a compute-light, on-device framework that reconstructs paper ECGs at high fidelity, while accurately supporting multiple clinically relevant endpoints. We address this need with an end-to-end lightweight on-device digitization-to-diagnosis pipeline that converts a smartphone photo or scan of a paper ECG into a calibrated 12-lead signal and screens for Myocardial Infarction (MI) pathologies, with SHapley Additive exPlanations (SHAP) to support interpretability. Trained and evaluated on 21,799 ECGs from the PTB-XL dataset and further validated on hospital-acquired ECG-Matrix dataset, the complete system runs in <30 s per ECG on CPU-only resources, achieving 95.51% accuracy (F1 = 0.9519) for MI detection on PTB-XL and 88.89% accuracy (F1 = 0.8862) for OMI detection on ECG-Matrix. This work showcases that legacy paper records can be reliably democratized in any part of the world, providing a scalable decision support when digital ECG export, connectivity, or high-end compute are unavailable"
+    }
+  ]
+}
