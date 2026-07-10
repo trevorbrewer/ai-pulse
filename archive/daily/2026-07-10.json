@@ -1,0 +1,238 @@
+{
+  "date": "2026-07-10",
+  "generated_at": "2026-07-10T13:09:46.972857+00:00",
+  "source_counts": {
+    "rss_feeds": 6,
+    "arxiv": 50,
+    "hackernews": 29,
+    "nitter": 0,
+    "total_raw": 85,
+    "total_deduped": 85,
+    "total_saved": 25
+  },
+  "items": [
+    {
+      "title": "AI doesn't know how to forgive and cannot forget",
+      "url": "https://tejassuds.com/blog/ai-cannot-forget",
+      "source": "Hacker News",
+      "published": "2026-07-10T12:37:40+00:00",
+      "summary_raw": "",
+      "points": 16,
+      "num_comments": 18,
+      "hn_url": "https://news.ycombinator.com/item?id=48859047"
+    },
+    {
+      "title": "Ask HN: Do we need a support group for developers alienated by LLMs?",
+      "url": "https://news.ycombinator.com/item?id=48857085",
+      "source": "Hacker News",
+      "published": "2026-07-10T08:00:24+00:00",
+      "summary_raw": "Surely I must not be the only one developer that doesn&#x27;t recognize this field any more, and would rather do anything else than become a glorified code reviewer for machine generated code.<p>Seeing my career crumble in front of my eyes, seeing my identity as software engineer questioned in the span of a few years has been, to me, traumatic, and utterly alienating because non-tech people are not unaware of how world-shattering this technology is to our niche, and many of our fellow peers either collectively shrug, or are ecstatic not to have to write code any more.<p>I have been trying to reinvent myself, to set out on a path where I&#x27;m no longer a professional software engineer; where I will still enjoy coding software for myself, by hand, but the emotional turmoil at this radical change has not lessened, and I have been wondering if other people are feeling the same kind of alienation, and just feel lost and a bit aimless these days.<p>(Please, this is meant to be a serious post about emotions some of us might be going through, and we could do without comments saying this is just an overreaction and to just embrace the future)",
+      "points": 17,
+      "num_comments": 13,
+      "hn_url": "https://news.ycombinator.com/item?id=48857085"
+    },
+    {
+      "title": "AI-generated videos to maximally drive a target brain region",
+      "url": "https://nevo-project.epfl.ch/",
+      "source": "Hacker News",
+      "published": "2026-07-10T07:39:11+00:00",
+      "summary_raw": "",
+      "points": 125,
+      "num_comments": 123,
+      "hn_url": "https://news.ycombinator.com/item?id=48856904"
+    },
+    {
+      "title": "How Deutsche Telekom is rewiring telecommunications with AI",
+      "url": "https://openai.com/index/deutsche-telekom",
+      "source": "OpenAI Blog",
+      "published": "2026-07-10T07:00:00+00:00",
+      "summary_raw": "How Deutsche Telekom is becoming an AI-native telco with OpenAI-transforming customer service, employee workflows, network operations, and the future of voice."
+    },
+    {
+      "title": "China may restrict foreign access to Chinese open-source AI models",
+      "url": "https://www.reuters.com/technology/artificial-intelligence/china-weighs-silicon-curtain-around-sought-after-ai-models-2026-07-08/",
+      "source": "Hacker News",
+      "published": "2026-07-10T06:22:06+00:00",
+      "summary_raw": "",
+      "points": 36,
+      "num_comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=48856412"
+    },
+    {
+      "title": "Turn off this Meta setting before someone generates AI images of you",
+      "url": "https://www.malwarebytes.com/blog/ai/2026/07/turn-off-this-meta-setting-before-someone-generates-ai-images-of-you",
+      "source": "Hacker News",
+      "published": "2026-07-10T05:54:13+00:00",
+      "summary_raw": "",
+      "points": 12,
+      "num_comments": 2,
+      "hn_url": "https://news.ycombinator.com/item?id=48856237"
+    },
+    {
+      "title": "Quoting OpenAI",
+      "url": "https://simonwillison.net/2026/Jul/10/openai/#atom-everything",
+      "source": "Simon Willison",
+      "published": "2026-07-10T01:05:57+00:00",
+      "summary_raw": "[...] Work on web and mobile runs in the cloud. Work in the desktop app can also use local files and desktop apps with your permission. At launch, cloud Work conversations do not appear in desktop Work; desktop Work threads and local files remain on that computer.\n&mdash; OpenAI, trying (unsuccessfully) to clarify ChatGPT Work\n\n    Tags: openai, chatgpt, ai"
+    },
+    {
+      "title": "Show HN: I built a free app for New Yorkers to save money on groceries",
+      "url": "https://sbnyc.app/",
+      "source": "Hacker News",
+      "published": "2026-07-10T00:17:36+00:00",
+      "summary_raw": "I built this because I see that grocery savings are achievable in NYC. People usually just go to the store they&#x27;re used to going to, and it&#x27;s rarely worth the effort of combing through card cashback, weekly coupons, CPG rebates.<p>Most people leave real money on the table by not stacking them, and even more don&#x27;t even know that these deals are out there.... so I built a way to automate it.<p>You can use it for free, no login, currently NYC-only with ~690 stores.<p>I built it so that you just search whatever you want (use commas if you want to search multiple items). Or - use the AI tool to help shop for you. If you&#x27;re curious, it&#x27;s powered by a trained LLama model.<p>Honest limitations are coverage and freshness. Id love some feedback on where the data looks wrong or is stale.<p>Question for the room - what to prioritize if you&#x27;re working with messy, multi-source retail&#x2F;pricing data? Is freshness or coverage the top priority if you cant get a uniform response from every source? curious on what to prioritize here.",
+      "points": 12,
+      "num_comments": 7,
+      "hn_url": "https://news.ycombinator.com/item?id=48854224"
+    },
+    {
+      "title": "Nobel-Winning U.S. Chemist Will Move to China to Lead A.I. Institute",
+      "url": "https://www.nytimes.com/2026/07/09/science/nobel-winning-us-chemist-will-move-to-china-to-lead-ai-institute.html",
+      "source": "Hacker News",
+      "published": "2026-07-09T22:24:32+00:00",
+      "summary_raw": "",
+      "points": 15,
+      "num_comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=48853182"
+    },
+    {
+      "title": "Show HN: Rubiks Cube Solver",
+      "url": "https://speedcube.com.br/",
+      "source": "Hacker News",
+      "published": "2026-07-09T21:09:05+00:00",
+      "summary_raw": "Speedcube is an open-source platform for speedcubers featuring a Rubik&#x27;s Cube solver, competition timer, algorithm library, and AI-assisted cube recognition directly in the browser.<p>Built with React, TypeScript, Rust, and Python, the project aims to become an all-in-one platform for cubers\u2014from beginners to competitive solvers.<p><a href=\"http:&#x2F;&#x2F;github.com&#x2F;williamisnotdefined&#x2F;rubiks-cube-solver&#x2F;\" rel=\"nofollow\">http:&#x2F;&#x2F;github.com&#x2F;williamisnotdefined&#x2F;rubiks-cube-solver&#x2F;</a>",
+      "points": 21,
+      "num_comments": 9,
+      "hn_url": "https://news.ycombinator.com/item?id=48852403"
+    },
+    {
+      "title": "China, Russia and Others Seek to Inflame Debate over A.I. Data Centers",
+      "url": "https://www.nytimes.com/2026/07/09/business/china-russia-ai-data-centers.html",
+      "source": "Hacker News",
+      "published": "2026-07-09T21:05:14+00:00",
+      "summary_raw": "",
+      "points": 11,
+      "num_comments": 3,
+      "hn_url": "https://news.ycombinator.com/item?id=48852364"
+    },
+    {
+      "title": "Building a real-time AI tutor for 5-year-olds",
+      "url": "https://www.ello.com/blog/teaching-a-child-in-1000-ms",
+      "source": "Hacker News",
+      "published": "2026-07-09T20:51:06+00:00",
+      "summary_raw": "Hey HN! We&#x27;ve spent the good part of this past year building an AI tutor that teaches kids ages 4-9 reading, math, ESL and more. Getting an AI tutor to effectively teach a child turns out to be a really hard technical challenge, this took getting the underlying architecture right.<p>Our tutor steers the UX in real-time and makes complex decisions on the fly. Doing both at conversation speed required us to replace the standard tool-use loop. We built our own tutor harness that utilizes a streaming interpreter that executes actions, while an asynchronous planner model reasons ahead of the conversation and makes calls that drive the child&#x27;s learning. On top of it all, we developed a safety system that checks every turn without it causing an interruption to the activity and conversation flow.<p>Effective teaching isn&#x27;t just about answering a child&#x27;s  question quickly, rather making the right move at the right moment. AI is also going to be an integral part shaping how this generation of kids learn to read and think, tackling this responsibly means getting the design right.<p>Happy to answer questions and curious what you all think, critical feedback included, we&#x27;ve been working on this problem for a long time and love to hear from the HN community.",
+      "points": 101,
+      "num_comments": 207,
+      "hn_url": "https://news.ycombinator.com/item?id=48852199"
+    },
+    {
+      "title": "Palo Alto CEO Arora says AI pricing needs to fall 90% as token costs skyrocket",
+      "url": "https://www.cnbc.com/2026/07/09/palo-alto-ceo-arora-ai-pricing.html",
+      "source": "Hacker News",
+      "published": "2026-07-09T20:50:12+00:00",
+      "summary_raw": "",
+      "points": 12,
+      "num_comments": 2,
+      "hn_url": "https://news.ycombinator.com/item?id=48852192"
+    },
+    {
+      "title": "Show HN: RandoFont \u2013 A browser for Google Fonts",
+      "url": "https://randofont.alesh.com",
+      "source": "Hacker News",
+      "published": "2026-07-09T20:46:38+00:00",
+      "summary_raw": "Inevitably when starting a new web project I want to pick the perfect font. This is just a browser that shows Google Fonts, randomly, and lets me tag favorites.<p>I built this years ago and just used AI to give it a minor facelift.",
+      "points": 21,
+      "num_comments": 3,
+      "hn_url": "https://news.ycombinator.com/item?id=48852144"
+    },
+    {
+      "title": "What the New Executive Order Means for Secure Software Delivery in Government",
+      "url": "https://www.rise8.us/resources/ai-executive-order-secure-software-delivery-government",
+      "source": "Hacker News",
+      "published": "2026-07-09T19:57:56+00:00",
+      "summary_raw": "",
+      "points": 15,
+      "num_comments": 3,
+      "hn_url": "https://news.ycombinator.com/item?id=48851599"
+    },
+    {
+      "title": "Show HN: Reviving my 2001 college band with AI",
+      "url": "https://www.fadingmaize.com",
+      "source": "Hacker News",
+      "published": "2026-07-09T19:49:37+00:00",
+      "summary_raw": "25 years ago, I was approached to join a band called Fading Maize at Ripon College in Wisconsin. We did what we could with what we had. We recorded 3 albums over the next 3 years and played at as many bars and coffee shops as we could. We built a website with Microsoft Frontpage. Then we all went our separate ways, got married, had kids, focused on other things.<p>Earlier this year I had the idea to approach the lead singer who wrote all of the lyrics and melodies to the stuff we played back then and wanted to &quot;reimagine&quot; everything in 2026 using AI. That&#x27;s the project I want to share here!<p>The site has a before&#x2F;after player where you can flip between the original dorm-room recording and the 2026 version mid-song without losing your place, so you can hear exactly what changed. The original 2001 website is preserved and browsable at <a href=\"https:&#x2F;&#x2F;www.fadingmaize.com&#x2F;2001\" rel=\"nofollow\">https:&#x2F;&#x2F;www.fadingmaize.com&#x2F;2001</a>, rough edges intact.<p>On the AI question, since it&#x27;s the elephant: the songs, lyrics, and arrangements are the original human work from 2001-2003. AI gets a bad rap and I can totally see why, but our case was different. We wrote the lyrics, we created the melodies, we played the parts, it just didn&#x27;t sound as good as we heard it in our own heads.<p>Being fully transparent about our use of AI, sticking tightly to our original lyrics and melodies, but making full use of AI to give us the studio, session players, and production budget we never had seemed like the right balance of concerns.<p>I&#x27;m super proud of how it turned out and the transparency we&#x27;ve used along the way.  Happy to discuss the audio pipeline, the site (Next.js), or what it&#x27;s\nlike to A&#x2F;B your 20-year-old self!",
+      "points": 10,
+      "num_comments": 2,
+      "hn_url": "https://news.ycombinator.com/item?id=48851476"
+    },
+    {
+      "title": "The new GPT-5.6 family: Luna, Terra, Sol",
+      "url": "https://simonwillison.net/2026/Jul/9/gpt-5-6/#atom-everything",
+      "source": "Simon Willison",
+      "published": "2026-07-09T19:46:38+00:00",
+      "summary_raw": "OpenAI's latest flagship model hit general availability this morning, and comes in three sizes: Luna, Terra, and Sol (from smallest to largest).\nThe new models are priced per 1M input/output tokens as Luna $1/$6, Terra $2.50/$15, Sol $5/$30. For comparison, the Claude Opus series are $5/$25 and the Claude Fable 5 is $10/$50, but price-per-million tokens doesn't tell us much now that the number of reasoning tokens can differ so much between models for the same task.\n\nAll three models have a February 16th 2026 knowledge cutoff, a million token context window, and 128,000 maximum output tokens.\n\nOpenAI's biggest benchmark claim concerns long-running agentic performance, with one benchmark showing all three models outperforming Claude Fable 5:\n\nWe trained GPT-5.6 to get more useful work from every token. On Agents\u2019 Last Exam, an evaluation of long-running professional workflows across 55 fields, GPT-5.6 Sol sets a new high of 53.6, eclipsing Claude Fable 5 (adaptive reasoning) by 13.1 points. Even at medium reasoning, it beats Fable 5 by 11.4 points at roughly one-quarter the estimated cost. That efficiency extends to smaller models, which are essential to making intelligence more abundant and affordable: GPT-5.6 Terra and GPT-5.6 Luna outperform Fable 5 at around one-sixteenth the cost.\n\nAmusingly, one self-reported benchmark that Fable 5 crushed the GPT-5.6 family on was SWE-Bench Pro, where Fable 5 got 80% compared to GPT-5.6 Sol getting 64.6%. This may help explain why OpenAI chose to publish this article yesterday specifically calling out SWE-Bench Pro for problems they found while auditing that benchmark:\n\nIn light of these results, we estimate that ~30% of SWE-bench Pro tasks are broken, and advise that model developers carefully examine results\n\nI've had some early access to GPT-5.6 Sol - it's definitely very competent, though so far it hasn't struck me as better than Fable at the kind of complex coding tasks I've been using with Anthropic's model.\nAs usual, the model guidance for using GPT-5.6 has the most interesting details. There are a bunch of new API features that I need to explore (and probably add support for in LLM), including:\n\n\nProgrammatic Tool Calling allows the models to \"compose and run JavaScript that orchestrates tool calls\" - which sounds to me like it could help bridge the gap between MCPs and full terminal sessions that can compose CLI utilities in useful ways. Also reminiscent of the dynamic filtering mechanism Anthropic added to their web search tool, which allows code execution against web results as part of a single model turn.\n\nMulti-agent lets the model \"spin up subagents for parallel, focused work\" - the sub-agent pattern now baked into the core API.\n\nPrompt cache breakpoints brings the Claude model of prompt caching to OpenAI, letting you be explicit about where the cache breakpoints are rather than relying on the API to detect them automatically. Personally I much prefer automatic detection (still supported by OpenAI), but presumably there are optimization cost savings to be had here if you put the work in.\nYou can now set detail: original on image requests to avoid resizing the image at all before it is processed.\n\nHere's a full page with 18 different pelicans - for reasoning efforts none, low, medium, high, xhigh, and max across the three different models. It also lists their token and calculated costs - the least expensive was gpt-5.6-luna at effort none for 0.71 cents, the most expensive was gpt-5.6-sol at max reasoning level for 48.55 cents.\n\nIn further pelican news, if you jump to 17:50 in their livestream from this morning you'll see OpenAI's own demo of 3D pelicans riding a tricycle, a bicycle, a pony, and another pelican!\n\n    \n        Tags: ai, openai, generative-ai, llms, llm-tool-use, llm-pricing, pelican-riding-a-bicycle, llm-release, gpt-5"
+    },
+    {
+      "title": "Meta Patents AI Device That Tracks Your Emotions, Watches You Take Your Meds",
+      "url": "https://www.404media.co/meta-patents-ai-device-that-tracks-your-emotions-watches-you-take-your-meds/",
+      "source": "Hacker News",
+      "published": "2026-07-09T19:17:03+00:00",
+      "summary_raw": "",
+      "points": 13,
+      "num_comments": 2,
+      "hn_url": "https://news.ycombinator.com/item?id=48851037"
+    },
+    {
+      "title": "Dev productivity metrics suck. Ops reviews are key for AI-accelerated eng orgs",
+      "url": "https://www.cortex.io/drive",
+      "source": "Hacker News",
+      "published": "2026-07-09T18:30:58+00:00",
+      "summary_raw": "",
+      "points": 11,
+      "num_comments": 8,
+      "hn_url": "https://news.ycombinator.com/item?id=48850428"
+    },
+    {
+      "title": "UniClawBench: A Universal Benchmark for Proactive Agents on Real-World Tasks",
+      "url": "https://arxiv.org/abs/2607.08768v1",
+      "source": "arXiv",
+      "published": "2026-07-09T17:59:32+00:00",
+      "summary_raw": "The rapid development of large language models and multimodal large language models has accelerated the emergence of proactive agents capable of operating everyday tools and assisting users in real-world environments. However, existing benchmarks struggle to evaluate such agents effectively, as they often rely on sandboxed environments and single-turn evaluation paradigms. Moreover, their scenario-based task taxonomies mix multiple model capabilities within the same task category, making it difficult to identify the root causes of agent failures. To address these limitations, we introduce UniClawBench, the first capability-driven benchmark designed to evaluate proactive agents in dynamic, real-world settings. UniClawBench is built around five foundational model capabilities: Skill Usage, Exploration, Long-Context Reasoning, Multimodal Understanding, and Cross-Platform Coordination. Based on these capabilities, we design 400 bilingual real-world tasks. Unlike previous benchmarks that rely on static, pre-recorded answers, our benchmark evaluates agents in live Docker containers using fine-grained, step-by-step completion checkpoints. Furthermore, we design a closed-loop evaluation strategy comprising an executor agent, a hidden supervisor agent, and a user agent to simulate realistic multi-turn human feedback without leaking grading criteria. To disentangle base model capabilities from framework-level design choices, we evaluate state-of-the-art models under multiple agent frameworks. Through comprehensive comparisons across both models and frameworks, we show how base model capabilities and agent framework designs jointly shape performance in real-world environments. To facilitate future research, we make our benchmark and code publicly available at https://github.com/HKU-MMLab/UniClawBench."
+    },
+    {
+      "title": "OpenCoF: Learning to Reason Through Video Generation",
+      "url": "https://arxiv.org/abs/2607.08763v1",
+      "source": "arXiv",
+      "published": "2026-07-09T17:58:29+00:00",
+      "summary_raw": "Reasoning has become a core capability for large models, especially when reliable decisions require understanding logical consequences. Recent video generation models offer a reasoning path distinct from previous Chain-of-Thought (CoT): reasoning can unfold through temporally connected frames, known as Chain-of-Frame (CoF) reasoning. However, existing video generators are primarily trained on general video corpora, still lacking diverse supervision and dedicated designs for CoF reasoning. To address this gap, we introduce OpenCoF, a framework comprising the OpenCoF-17K dataset, a reasoning video dataset spanning 11 task families, and Wan-CoF, a fine-tuned video model for studying whether diverse temporal supervision improves CoF behavior. Across four video reasoning benchmarks, Wan-CoF achieves considerable gains over the Wan2.2-I2V-A14B baseline. Building on this, we empirically explore more advanced designs for CoF capabilities, i.e., equipping the model with visual and textual reasoning tokens. This mechanism respectively captures low-level visual cues and high-level semantic priors for spatial and temporal reasoning. Through performance comparisons and attention analysis, we examine how these tokens contribute across model depth, denoising steps, space, and time. Our results suggest that stronger video reasoning requires both broad temporal supervision and explicit mechanisms for organizing intermediate reasoning state. We open-source the dataset, model, and code to facilitate future research on reasoning-oriented video generation."
+    },
+    {
+      "title": "Ideas Have Genomes: Benchmarking Scientific Lineage Reasoning and Lineage-Grounded Idea Generation",
+      "url": "https://arxiv.org/abs/2607.08758v1",
+      "source": "arXiv",
+      "published": "2026-07-09T17:55:53+00:00",
+      "summary_raw": "Scientific ideas rarely start from a blank page. They inherit mechanisms, repair known limitations, and recombine pieces of earlier work, much like biological genomes. Current benchmarks still say little about whether AI systems can follow this inheritance structure. We present IdeaGene-Bench (IG-Bench), a benchmark for scientific lineage reasoning and lineage-grounded idea generation. IG-Bench is organized around the IdeaGene framework: each paper or proposal is represented as a set of minimal, typed, evidence-grounded Idea Genome objects, and a GenomeDiff aligns these objects to record inheritance, mutation, loss, external import, and novel insertion under six operational evolutionary dynamics. The benchmark contains 1,961 golden lineage traces, 1,085 curated Idea Genome objects, and 920 pairwise GenomeDiff records across 10 scientific domains. It supports two evaluations. IG-Exam (42 task types, 1,029 instances) tests closed-form lineage reasoning across Idea Genome abstraction, inheritance tracing, evolutionary reasoning, and lineage verification. IG-Arena evaluates generation with a lineage-conditioned Population-Evolution Score(PES), asking whether a proposal can be inserted as a coherent descendant of a given lineage population: it should inherit the right Idea Genome objects, vary meaningfully from nearby work, and offer selection value for future research. Experiments on 14 LLM-based scientists expose a compositional bottleneck. The strongest system reaches only 27.3% exact accuracy on lineage reasoning, and structured lineage context reshuffles system rankings rather than helping every participant uniformly."
+    },
+    {
+      "title": "Score Accuracy Along the Forward Diffusion Does Not Certify Numerical Stability in Diffusion Sampling",
+      "url": "https://arxiv.org/abs/2607.08757v1",
+      "source": "arXiv",
+      "published": "2026-07-09T17:55:52+00:00",
+      "summary_raw": "Score matching controls average error under the forward marginals, but a discretized reverse-time sampler evaluates the learned score along its own trajectory. We show that small forward-marginal error does not guarantee numerical stability. We construct a single smooth score field with arbitrarily small forward-marginal $L^2$ error. The learned reverse-time process is nonexplosive, has moments of every order, and can be arbitrarily close to the exact reverse-time process in path-space total variation. Yet its Euler--Maruyama discretizations converge in probability while every positive moment diverges. Thus weak convergence can hold even though every Wasserstein distance $W_p$, $p\\ge1$, diverges. The same failure can occur within one fixed finite neural architecture. We construct a family of bounded, globally Lipschitz denoisers for which both the forward-marginal error and the path-space total variation distance tend to zero, while their Euler--Maruyama endpoints diverge in every $W_p$. For compactly supported data, we also give a simple positive result. Projecting the learned denoiser onto a known bounded closed convex set containing the support preserves pointwise accuracy, gives grid-uniform moment bounds, and yields Wasserstein convergence under mild local regularity. Experiments with a small fixed DiT-style network show large growth along rare numerical trajectories and its suppression by denoiser projection, while overall trajectory errors remain small."
+    },
+    {
+      "title": "MulTTiPop: A Multitrack Transcription Dataset for Pop Music",
+      "url": "https://arxiv.org/abs/2607.08756v1",
+      "source": "arXiv",
+      "published": "2026-07-09T17:55:33+00:00",
+      "summary_raw": "We present MulTTiPop, a dataset of pop music segments and their associated multitrack MIDI recordings for the evaluation of automatic music transcription models. MulTTiPop contains 572 segments of popular music totaling 3.5 hours of audio, and contains songs from diverse genres and decades from the 1930s to 2000s. To collect this dataset, we perform metadata-based matching on song segments from the Lakh MIDI and TheoryTab datasets, manually identify an anchor beat between the audio and MIDI, then use beat tracking on the audio and warp the MIDI to match its tempo and timing. We evaluate state-of-the-art automatic music transcription models on MulTTiPop and find substantial room for improvement, with the best model achieving 38% Onset F1. More details and sound examples of MulTTiPop are available at https://gclef-cmu.org/multtipop."
+    },
+    {
+      "title": "SLORR: Simple and Efficient In-Training Low-Rank Regularization",
+      "url": "https://arxiv.org/abs/2607.08754v1",
+      "source": "arXiv",
+      "published": "2026-07-09T17:51:50+00:00",
+      "summary_raw": "Low-rank factorization is widely used to compress neural networks, but modern models are often not naturally amenable to aggressive factorization without significant accuracy loss. Existing training-time low-rank regularizers can improve compressibility, but they often require SVDs of large weight matrices, modify the model architecture (introducing additional trainable parameters), or rely on stateful cached quantities. To address these limitations, we introduce SLORR, a simple, stateless, and architecture-preserving framework for in-training low-rank regularization, instantiated with two main variants based on the Hoyer sparsity metric and the nuclear norm. SLORR directly regularizes the original weight matrices using GPU-friendly approximations for the forward and backward passes of the regularizers, for which we provide approximation guarantees. We first evaluate SLORR on ImageNet-1K across short-horizon continued training of ResNet-50, ViT-B/16, and ViT-L/16, and pretraining of ResNet-18, where SLORR induces compressibility while introducing less than 8% training overhead. We further evaluate SLORR-Hoyer in LLM pretraining at 135M and 560M scales: SLORR-trained compressed models preserve performance substantially better than unregularized models while adding less than 1% average training overhead."
+    }
+  ]
+}
