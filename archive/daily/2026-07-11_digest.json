@@ -1,0 +1,217 @@
+[
+  {
+    "theme": "Industry News & Costs",
+    "stories": [
+      {
+        "title": "Companies are scrambling to curtail soaring AI costs",
+        "url": "https://www.economist.com/business/2026/06/14/companies-are-scrambling-to-curtail-soaring-ai-costs",
+        "source": "Hacker News",
+        "paragraph": "Businesses that moved quickly to adopt AI tools are now confronting unexpectedly high operational costs and are actively looking for ways to reduce spending. The pattern mirrors earlier technology adoption cycles where initial enthusiasm preceded a reckoning with total cost of ownership. Organizations are re-evaluating usage patterns, model tiers, and which workflows justify the expense, as inference costs and API fees accumulate across large workforces."
+      },
+      {
+        "title": "Big Tech Doubles Debt Load to $350B in AI Spending Spree",
+        "url": "https://www.bloomberg.com/news/articles/2026-07-10/big-tech-doubles-debt-load-to-350-billion-in-ai-spending-spree",
+        "source": "Hacker News",
+        "paragraph": "Major technology companies have collectively doubled their debt to approximately $350 billion, driven largely by capital expenditure on AI infrastructure including data centers, chips, and energy capacity. The scale of borrowing signals that the largest players are treating AI infrastructure as a long-term strategic asset rather than an operating expense. The debt expansion raises questions about return timelines, particularly as companies simultaneously face pressure to manage AI-related operational costs."
+      }
+    ]
+  },
+  {
+    "theme": "Product Decisions & Backlash",
+    "stories": [
+      {
+        "title": "Meta removes AI feature on Instagram after global backlash",
+        "url": "https://www.rnz.co.nz/news/science-and-technology/700735/missed-the-mark-meta-removes-ai-feature-on-instagram-after-global-backlash",
+        "source": "Hacker News",
+        "paragraph": "Meta pulled a newly launched AI-generated image feature from Instagram within days of its release following widespread criticism from users around the world. The company acknowledged the feature had not landed as intended, using language suggesting it misjudged user expectations around authenticity and content on the platform. The rapid reversal is notable given the short window between launch and removal, reflecting how quickly coordinated user criticism can force product rollbacks."
+      },
+      {
+        "title": "Meta pulls new AI image feature after days of backlash",
+        "url": "https://www.bbc.com/news/articles/c2dy6e8klw0o",
+        "source": "Hacker News",
+        "paragraph": "BBC's reporting on the same Meta Instagram AI image feature removal corroborates the speed and breadth of the backlash, with critics citing concerns about AI-generated content displacing authentic user posts in a platform built on personal photography. Meta's withdrawal came just days after the feature's debut, and the company did not announce a revised timeline for reintroduction. The episode illustrates ongoing tension between platforms' ambitions to integrate generative AI into social feeds and user resistance to AI-altered content in personal social contexts."
+      }
+    ]
+  },
+  {
+    "theme": "AI UX & Interaction Design",
+    "stories": [
+      {
+        "title": "R to @emollick: To be clear, NotebookLM has its own issues...",
+        "url": "https://twitter.com/emollick/status/2075766584266653767",
+        "source": "Twitter/@emollick",
+        "paragraph": "Ethan Mollick highlighted NotebookLM as an example of AI UX that surfaces process alongside outputs, contrasting it with tools like Codex and Cowork that focus primarily on delivering finished results. His argument is that for knowledge work, exposing reasoning steps and intermediate stages matters as much as the final output. NotebookLM's design, while limited to research and source analysis use cases, serves as a reference point for what more transparent AI workflows could look like."
+      },
+      {
+        "title": "ChatGPT still has study mode, but rather than /study you now have to type @ study",
+        "url": "https://twitter.com/emollick/status/2075741472712728924",
+        "source": "Twitter/@emollick",
+        "paragraph": "Mollick noted that ChatGPT's study mode, which prompts the model to behave more like a tutor by asking questions rather than delivering answers, has changed its activation command from /study to @study. He cited research suggesting the tutoring-style interaction mode produces better learning outcomes compared to standard assistant responses. Gemini has a comparable mode, while Claude appears to have discontinued its equivalent feature."
+      },
+      {
+        "title": "I really want to get artisanal with my model selection...",
+        "url": "https://twitter.com/emollick/status/2075768304170410034",
+        "source": "Twitter/@emollick",
+        "paragraph": "Mollick posted a humorous list pairing fictional named model tiers — Luna, Sol, and Terra at various capability levels — with specific whimsical tasks such as limericks, bad puns, and PowerPoint, satirizing the growing complexity of AI model selection for practitioners. The post reflects a real emerging challenge: as AI providers offer multiple model variants optimized for different cost-performance trade-offs, choosing the right model for a given task is becoming a skill in itself. The joke lands partly because the underlying problem — matching task requirements to model capability and cost — is a genuine practitioner concern."
+      }
+    ]
+  },
+  {
+    "theme": "AI Capabilities & Experiments",
+    "stories": [
+      {
+        "title": "Thats good for the dumb reason that I am burning tokens having Sol in Codex playing Slay the Spire 2's daily challenge",
+        "url": "https://twitter.com/emollick/status/2075823098868142502",
+        "source": "Twitter/@emollick",
+        "paragraph": "Mollick ran an informal experiment using OpenAI's Codex with the Sol model to play Slay the Spire 2's daily challenge, a roguelike card game mode with randomized constraints — in this case, Ascension 3 difficulty with the Defect character and Hoarder modifier. The model successfully defeated the Act 1 boss, which Mollick described as surprising. The experiment is a small, anecdotal data point about current LLM performance on interactive, decision-intensive games requiring strategic planning under randomized conditions."
+      },
+      {
+        "title": "I gave Fable the code: 'take this game and do something incredible with it to make it something very different. Be creative'",
+        "url": "https://twitter.com/emollick/status/2075760408342728820",
+        "source": "Twitter/@emollick",
+        "paragraph": "Mollick gave an AI tool called Fable the source code of a procedural city-builder he had previously created and instructed it to transform the game creatively without further constraints. The model produced a game called DEEP TIME, in which the player builds a city, watches it be abandoned, and then excavates it as a future archaeologist, reversing the typical city-builder loop. The result, deployed at monument-deep-time.netlify.app, demonstrates one practical use case for AI-assisted creative code transformation with open-ended prompting."
+      },
+      {
+        "title": "R to @emollick: Image",
+        "url": "https://twitter.com/emollick/status/2075824339107148136",
+        "source": "Twitter/@emollick",
+        "paragraph": "This tweet from Ethan Mollick contains an image without a descriptive caption or substantive text in the available summary, making its specific content and context unclear from the provided metadata. It appears to be part of an ongoing thread, likely related to the Slay the Spire 2 AI experiment referenced in adjacent tweets. Without additional image content, the specific claim or observation being illustrated cannot be reported."
+      }
+    ]
+  },
+  {
+    "theme": "Security & Adversarial AI",
+    "stories": [
+      {
+        "title": "A font that humans can read but AI cannot",
+        "url": "https://www.mixfont.com/ghost-font",
+        "source": "Hacker News",
+        "paragraph": "MixFont released Ghost Font, a typeface designed to be legible to human readers while being resistant to optical character recognition and AI vision models. The font exploits differences between human visual cognition and machine pattern recognition by altering letterforms in ways that disrupt model predictions without significantly degrading human readability. The tool has practical applications in contexts where creators want to display text publicly while limiting automated scraping, surveillance, or data extraction by AI systems."
+      }
+    ]
+  },
+  {
+    "theme": "Research Papers & Technical Guides",
+    "stories": [
+      {
+        "title": "Choosing the Right AI Agent Memory Strategy: A Decision-Tree Approach",
+        "url": "https://machinelearningmastery.com/choosing-the-right-ai-agent-memory-strategy-a-decision-tree-approach/",
+        "source": "Hacker News",
+        "paragraph": "Machine Learning Mastery published a practical guide for selecting among different memory architectures when building AI agents, organized as a decision-tree framework. The piece covers four broad memory types — in-context, external retrieval, parametric, and episodic — and maps them to agent requirements such as persistence needs, latency constraints, and data volume. The decision-tree format is intended to help practitioners make architecture choices systematically rather than defaulting to the most familiar or recently publicized approach."
+      }
+    ]
+  },
+  {
+    "theme": "Model Releases & Capabilities",
+    "stories": [
+      {
+        "title": "This time it is novel math proofs with a public model",
+        "url": "https://twitter.com/emollick/status/2075647119818477716",
+        "source": "Twitter/@emollick",
+        "paragraph": "A publicly available model, GPT-5.6 Sol Ultra, produced a proof of the Cycle Double Cover Conjecture — an unsolved problem in graph theory dating back roughly 50 years — using 64 subagents in just under one hour. The result is notable partly because most recent high-profile AI math results have involved experimental or closed models not available to the public. The prompt and proof were shared openly by Ethan Knight, one of the researchers involved."
+      },
+      {
+        "title": "Please don't discontinue Gemini 2.5 Flash",
+        "url": "https://discuss.ai.google.dev/t/please-dont-discontinue-gemini-2-5-flash/174246",
+        "source": "Hacker News",
+        "paragraph": "A thread on Google's developer forum has attracted significant community pushback against plans to discontinue Gemini 2.5 Flash, a model that users describe as cost-effective and well-suited to latency-sensitive tasks. The discussion highlights a recurring tension in the AI industry between vendors retiring older models and practitioners who have built workflows around them. The thread's visibility on Hacker News suggests broad concern among developers who rely on the model in production."
+      }
+    ]
+  },
+  {
+    "theme": "AI Agents & Tooling",
+    "stories": [
+      {
+        "title": "One Wikipedia page costs your AI agent 68,000 tokens",
+        "url": "https://news.ycombinator.com/item?id=48867021",
+        "source": "Hacker News",
+        "paragraph": "A practitioner who uses Claude Code daily measured the token cost of fetching web pages during research tasks, finding that an average Wikipedia article contains 68,240 tokens of raw HTML as counted by tiktoken, while Nike's homepage reaches 353,000 tokens. Claude Code's built-in webfetch tool mitigates this by summarizing Wikipedia pages down to roughly 950 tokens and by handling Cloudflare-protected sites such as Indeed and Ticketmaster. The measurements illustrate a concrete, often-overlooked cost driver for AI agents that browse the web."
+      },
+      {
+        "title": "It's mind-blowing how fast agentic coding has progressed in the past 6 months",
+        "url": "https://twitter.com/fchollet/status/2075646052951376196",
+        "source": "Twitter/@fchollet",
+        "paragraph": "François Chollet, creator of Keras and a prominent figure in AI research, posted that agentic coding has changed substantially in the past six months, characterizing the current state as a qualitatively different environment from what existed before. The observation is notable given Chollet's historical skepticism about overstated AI progress claims. No specific benchmarks or product names were cited, making the comment a practitioner-level signal rather than a formal evaluation."
+      },
+      {
+        "title": "Guy is banned by OpenAI for cyber abuse, his AI appeals, another AI approves it",
+        "url": "https://twitter.com/endpointarena/status/2075245286339846145",
+        "source": "Hacker News",
+        "paragraph": "A reported case describes a user banned by OpenAI for alleged cyber abuse whose account was reinstated after an AI-generated appeal was reviewed and approved by another AI system, with minimal apparent human involvement in the decision loop. The incident raises questions about the robustness of automated trust-and-safety processes when AI models can both draft persuasive appeals and evaluate them. The case, shared on Twitter by the account endpointarena, has not been independently verified by OpenAI."
+      }
+    ]
+  },
+  {
+    "theme": "Product Comparisons & Knowledge Worker Tools",
+    "stories": [
+      {
+        "title": "ChatGPT Work vs. Google NotebookLM for knowledge workers",
+        "url": "https://twitter.com/emollick/status/2075695604575903767",
+        "source": "Twitter/@emollick",
+        "paragraph": "Ethan Mollick compared ChatGPT Work and Google NotebookLM on an identical task using the same set of more than 70 files, arguing that NotebookLM more effectively surfaces process and sources rather than producing outputs alone. The comparison is relevant for knowledge workers evaluating enterprise AI tools, where citation transparency and workflow integration affect trust in outputs. Mollick characterized ChatGPT Work and its collaborative variant Cowork as missed opportunities given the size of the potential audience."
+      },
+      {
+        "title": "Fable generates a PowerPoint as written by an 8th grader who didn't read The Great Gatsby",
+        "url": "https://twitter.com/emollick/status/2075656832698270017",
+        "source": "Twitter/@emollick",
+        "paragraph": "An AI tool called Fable was prompted to generate a PowerPoint presentation as an 8th grader who clearly had not read The Great Gatsby, and the output — including font choices — was noted as accurately capturing the aesthetic of a hastily assembled student project. The demonstration is a small but concrete illustration of AI systems' ability to model not just content but presentation style calibrated to a specific, low-effort persona. Ethan Mollick shared the example without making broader capability claims, treating it as a curiosity."
+      }
+    ]
+  },
+  {
+    "theme": "Safety, Misuse & Security",
+    "stories": [
+      {
+        "title": "How the terrorist group Boko Haram uses frontier AI",
+        "url": "https://casp.ac/reports/ai-enabled-terrorism",
+        "source": "Hacker News",
+        "paragraph": "A report from CASP (the Centre for the Analysis of the Radical Right's security-focused arm) details how Boko Haram has incorporated frontier AI tools into operations including propaganda generation, recruitment communications, and logistical planning. The report is among the first to provide documented, named-group evidence of a designated terrorist organization operationally using large language models. It adds empirical weight to ongoing policy debates about dual-use risks of publicly accessible frontier models."
+      },
+      {
+        "title": "GhostLock, a stack-UAF that has existed in ALL Linux distributions for 15 years",
+        "url": "https://nebusec.ai/research/ionstack-part-2/",
+        "source": "Hacker News",
+        "paragraph": "Security researchers at Nebusec disclosed a stack use-after-free vulnerability, dubbed GhostLock, present in the Linux kernel's io_uring subsystem across all major Linux distributions for approximately 15 years. The flaw is notable for its longevity and breadth of exposure, affecting both server and embedded Linux environments. The disclosure is part two of the researchers' IONStack series and includes technical analysis of the exploitation path."
+      },
+      {
+        "title": "Apple accuses OpenAI of using stolen trade secrets to create its AI gadgets",
+        "url": "https://www.cnn.com/2026/07/10/tech/apple-openai-devices-lawsuit",
+        "source": "Hacker News",
+        "paragraph": "Apple has filed a lawsuit accusing OpenAI of misappropriating trade secrets in the development of its AI hardware devices, according to a CNN report. The allegation adds legal complexity to the existing commercial relationship between the two companies, which had previously announced an integration of ChatGPT into Apple's operating systems. No settlement or court date was reported at the time of publication."
+      }
+    ]
+  },
+  {
+    "theme": "Geopolitics & AI",
+    "stories": [
+      {
+        "title": "China's Open AI Models Are Advancing Its Global Soft Power",
+        "url": "https://www.noemamag.com/chinas-open-ai-models-are-advancing-its-global-soft-power/",
+        "source": "Hacker News",
+        "paragraph": "An analysis in Noema Magazine argues that China's strategy of releasing open-weight AI models is functioning as a form of soft power, lowering adoption barriers for governments and developers in regions where U.S.-based closed models face political or cost resistance. The piece points to models such as DeepSeek as concrete examples of Chinese labs producing internationally competitive systems distributed under permissive licenses. The framing positions open-source AI release not as a purely technical decision but as a geopolitical instrument."
+      }
+    ]
+  },
+  {
+    "theme": "Industry & Applied Research",
+    "stories": [
+      {
+        "title": "Materials innovation has a scale-up problem, not discovery",
+        "url": "https://www.atomscale.ai/updates/our-thesis-atom-to-scale",
+        "source": "Hacker News",
+        "paragraph": "Atomscale, an applied materials startup, published a thesis arguing that the principal bottleneck in materials innovation is not the discovery of new compounds but the engineering and manufacturing scale-up required to bring them to market. The company positions AI-assisted simulation and design tools as more valuable at the scale-up stage than at the discovery stage, countering a common narrative that AI's primary materials contribution is finding novel molecules. The post outlines Atomscale's own approach of targeting the atom-to-scale pipeline as its core product area."
+      }
+    ]
+  },
+  {
+    "theme": "Research Papers",
+    "stories": [
+      {
+        "title": "GPT-4 Advice Helps High-Performing Entrepreneurs But Hurts Struggling Ones, Study Finds",
+        "url": "https://twitter.com/emollick/status/2075641357738160637",
+        "source": "Twitter/@emollick",
+        "paragraph": "A paper by Rem Koning and colleagues, published in Management Science after a three-year lag, examined the effects of GPT-4 business advice on entrepreneurs and found divergent outcomes depending on baseline performance. High-performing entrepreneurs who received GPT-4 guidance achieved higher profit margins, while those already in difficulty performed worse, a result the authors attribute to an inability to implement the advice effectively. The finding highlights a conditional relationship between AI assistance and user capacity, suggesting that the value of AI-generated guidance depends heavily on the recipient's existing resources and capabilities. The long gap between the research being conducted and its publication also drew attention to how quickly AI capabilities advance relative to academic publishing timelines."
+      }
+    ]
+  }
+]

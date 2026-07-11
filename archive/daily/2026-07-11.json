@@ -1,0 +1,243 @@
+{
+  "date": "2026-07-11",
+  "generated_at": "2026-07-11T11:50:38.603900+00:00",
+  "source_counts": {
+    "rss_feeds": 1,
+    "arxiv": 0,
+    "hackernews": 22,
+    "nitter": 16,
+    "total_raw": 39,
+    "total_deduped": 39,
+    "total_saved": 25
+  },
+  "items": [
+    {
+      "title": "A font that humans can read but AI cannot",
+      "url": "https://www.mixfont.com/ghost-font",
+      "source": "Hacker News",
+      "published": "2026-07-11T09:36:53+00:00",
+      "summary_raw": "",
+      "points": 61,
+      "num_comments": 56,
+      "hn_url": "https://news.ycombinator.com/item?id=48870381"
+    },
+    {
+      "title": "Companies are scrambling to curtail soaring AI costs",
+      "url": "https://www.economist.com/business/2026/06/14/companies-are-scrambling-to-curtail-soaring-ai-costs",
+      "source": "Hacker News",
+      "published": "2026-07-11T08:29:43+00:00",
+      "summary_raw": "",
+      "points": 33,
+      "num_comments": 21,
+      "hn_url": "https://news.ycombinator.com/item?id=48870035"
+    },
+    {
+      "title": "R to @emollick: Image",
+      "url": "https://twitter.com/emollick/status/2075824339107148136",
+      "source": "Twitter/@emollick",
+      "published": "2026-07-11T06:07:44+00:00",
+      "summary_raw": "",
+      "person": "Ethan Mollick"
+    },
+    {
+      "title": "Thats good for the dumb reason that I am burning tokens having Sol in Codex playing Slay the Spire 2\u2019s daily challenge (so randomized rules, today it is Ascension 3 Defect with hoarder) to see if it can\n\nIt just beat the Act 1 boss. Quite surprised. I\u2019ll check back in the morning",
+      "url": "https://twitter.com/emollick/status/2075823098868142502",
+      "source": "Twitter/@emollick",
+      "published": "2026-07-11T06:02:48+00:00",
+      "summary_raw": "Thats good for the dumb reason that I am burning tokens having Sol in Codex playing Slay the Spire 2\u2019s daily challenge (so randomized rules, today it is Ascension 3 Defect with hoarder) to see if it can\n\nIt just beat the Act 1 boss. Quite surprised. I\u2019ll check back in the morning\n\n\nTibo (@thsottiaux)\n\nIntroducing... another usage limit reset for all our ChatGPT Work and Codex users. Should land over next 30 minutes. Hope you have an awesome weekend.\n\nThank you for pushing our systems to the absolute limit, we have never seen traffic increase so quickly. Keep the feedback coming and we'll keep shipping.\n\n\n\n\u2014 http://nt.vern.cc/thsottiaux/status/2075820987833274448#m",
+      "person": "Ethan Mollick"
+    },
+    {
+      "title": "Meta removes AI feature on Instagram after global backlash",
+      "url": "https://www.rnz.co.nz/news/science-and-technology/700735/missed-the-mark-meta-removes-ai-feature-on-instagram-after-global-backlash",
+      "source": "Hacker News",
+      "published": "2026-07-11T04:19:14+00:00",
+      "summary_raw": "",
+      "points": 17,
+      "num_comments": 2,
+      "hn_url": "https://news.ycombinator.com/item?id=48868705"
+    },
+    {
+      "title": "Big Tech Doubles Debt Load to $350B in AI Spending Spree",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-10/big-tech-doubles-debt-load-to-350-billion-in-ai-spending-spree",
+      "source": "Hacker News",
+      "published": "2026-07-11T03:30:12+00:00",
+      "summary_raw": "",
+      "points": 12,
+      "num_comments": 3,
+      "hn_url": "https://news.ycombinator.com/item?id=48868449"
+    },
+    {
+      "title": "I really want to get artisanal with my model selection:\nLuna xHigh for recipes\nSol Medium for sonnets\nTerra High for bad puns\nLuna xLow for limericks\nSol Utra for true prophecies\nSol Low for finding one terrible lie\nLuna Medium for the Dread Warnings\nTerra Medium for PowerPoint",
+      "url": "https://twitter.com/emollick/status/2075768304170410034",
+      "source": "Twitter/@emollick",
+      "published": "2026-07-11T02:25:04+00:00",
+      "summary_raw": "I really want to get artisanal with my model selection:\nLuna xHigh for recipes\nSol Medium for sonnets\nTerra High for bad puns\nLuna xLow for limericks\nSol Utra for true prophecies\nSol Low for finding one terrible lie\nLuna Medium for the Dread Warnings\nTerra Medium for PowerPoint",
+      "person": "Ethan Mollick"
+    },
+    {
+      "title": "R to @emollick: To be clear, NotebookLM has its own issues, and is built for a specific use case (research and analysis of sources) but it is an example of how a UX might actually operate that treats knowledge work seriously: it doesn\u2019t treat the only goal as outputs, it exposes processes, too.",
+      "url": "https://twitter.com/emollick/status/2075766584266653767",
+      "source": "Twitter/@emollick",
+      "published": "2026-07-11T02:18:14+00:00",
+      "summary_raw": "To be clear, NotebookLM has its own issues, and is built for a specific use case (research and analysis of sources) but it is an example of how a UX might actually operate that treats knowledge work seriously: it doesn\u2019t treat the only goal as outputs, it exposes processes, too.\n\n\nEthan Mollick (@emollick)\n\nA fundamental problem with extending Codex/Cowork/Code to all knowledge work is that they remain very \"software-brained\" where the end result (the software) is what is important & that code serves as a source of truth.\n\nFor a lot of other knowledge work, the process is at least as important as the outcome. This includes researching what is known, an exploration of alternatives, failed efforts, prototype branches, experiments, etc. All of those things are valuable, so you cannot use the PowerPoint at the end the way you can use a codebase, nor is progress on a to-do list sufficient context post compaction. You work in learning loops, refining your perspectives as you go.\n\nIn some ways, this makes long-running models like Fable hard to use for deep knowledge work, since they are designed to deliver product to you in the end. You can prompt your way around this problem, but everything about the Codex and Code harnesses want you to be a software developer and you have to fight them. There is a real disconnect between how a manager or analyst thinks about problems and how the agentic software tools approach solving them. Addressing this is critical to breaking out of the coding niche for these tools.\n\n\n\n\u2014 http://nt.vern.cc/emollick/status/2068729258176819253#m",
+      "person": "Ethan Mollick"
+    },
+    {
+      "title": "I gave Fable the code: \"take this game and do something incredible with it to make it something very different. Be creative\"\n\nIt created DEEP TIME: create a city, watch it be abandoned and forgotten, and then dig it up as a future archeologist.\n\nLovely: https://monument-deep-time.netlify.app/",
+      "url": "https://twitter.com/emollick/status/2075760408342728820",
+      "source": "Twitter/@emollick",
+      "published": "2026-07-11T01:53:41+00:00",
+      "summary_raw": "I gave Fable the code: \"take this game and do something incredible with it to make it something very different. Be creative\"\n\nIt created DEEP TIME: create a city, watch it be abandoned and forgotten, and then dig it up as a future archeologist.\n\nLovely: monument-deep-time.netlify.a\u2026\n\nVideo\n  \n\n\n\n\nEthan Mollick (@emollick)\n\nWhen GPT-5 came out, I created a procedural brutalist city builder as a demo (you can see it in the quoted tweet)\n\nI used GPT-5.6 Sol in Codex to do the same thing, touching no code.\n\nLess than a year...\n\nPlay with it (its fun, if you like cities): monument-brutalist-city-buil\u2026\n\nVideo\n  \n\n\n\n\n\n\u2014 http://nt.vern.cc/emollick/status/2075426533896868046#m",
+      "person": "Ethan Mollick"
+    },
+    {
+      "title": "Choosing the Right AI Agent Memory Strategy: A Decision-Tree Approach",
+      "url": "https://machinelearningmastery.com/choosing-the-right-ai-agent-memory-strategy-a-decision-tree-approach/",
+      "source": "Hacker News",
+      "published": "2026-07-11T00:43:39+00:00",
+      "summary_raw": "",
+      "points": 13,
+      "num_comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=48867261"
+    },
+    {
+      "title": "Meta pulls new AI image feature after days of backlash",
+      "url": "https://www.bbc.com/news/articles/c2dy6e8klw0o",
+      "source": "Hacker News",
+      "published": "2026-07-11T00:40:36+00:00",
+      "summary_raw": "",
+      "points": 51,
+      "num_comments": 19,
+      "hn_url": "https://news.ycombinator.com/item?id=48867233"
+    },
+    {
+      "title": "ChatGPT still has study mode, but rather than /study you now have to type @ study \n\nIt makes the AI act more like a tutor than a helpful assistant, and some work suggests it is better if you are trying to learn. (Gemini also has a study mode, Claude seems to have lost theirs)",
+      "url": "https://twitter.com/emollick/status/2075741472712728924",
+      "source": "Twitter/@emollick",
+      "published": "2026-07-11T00:38:27+00:00",
+      "summary_raw": "ChatGPT still has study mode, but rather than /study you now have to type @ study \n\nIt makes the AI act more like a tutor than a helpful assistant, and some work suggests it is better if you are trying to learn. (Gemini also has a study mode, Claude seems to have lost theirs)",
+      "person": "Ethan Mollick"
+    },
+    {
+      "title": "One Wikipedia page costs your AI agent 68,000 tokens",
+      "url": "https://news.ycombinator.com/item?id=48867021",
+      "source": "Hacker News",
+      "published": "2026-07-11T00:12:26+00:00",
+      "summary_raw": "i use claude code daily and measured what pages cost it while doing research. an average wikipedia article, for instance, is 68,240 tokens of raw html (tiktoken); nike&#x27;s homepage is 353,000.<p>claude code&#x27;s built-in webfetch handles the easy case well. it summarizes wikipedia to about 950 tokens and clears cloudflare on some sites like indeed and ticketmaster.\nbut, and there&#x27;s always a but, on js-rendered and some anti-bot pages it returns nothing.<p>quotes.toscrape.com&#x2F;js gives &quot;no quotes found&quot;; nike.com gives a 403. your agent then dumps the raw html back into context and still fails. (note: i have also had cases where i read through the chat at the end and saw that it failed and just pulled from either training data or stale caches from other sources)<p>so i worked on building an open-source stealth browser (recompiled chromium) that runs as an mcp for claude code, cursor, and claude desktop. essentially all i have to change form my end is add the mcp, and it returns the cleaned up tokens while also beating detection: the js quotes come back in 285 tokens, nike in about 700 instead of a 403.<p>there is still stuff i am actively working on: there&#x27;s no residential egress yet, and it won&#x27;t beat kasada-style walls. it&#x27;s for agents, qa, and research.<p>repo and the reproducible benchmark: https:&#x2F;&#x2F;github.com&#x2F;tiliondev&#x2F;fortress&#x2F;tree&#x2F;main&#x2F;mcp\ni&#x27;m the author and here for feedback.",
+      "points": 10,
+      "num_comments": 6,
+      "hn_url": "https://news.ycombinator.com/item?id=48867021"
+    },
+    {
+      "title": "China's Open AI Models Are Advancing Its Global Soft Power",
+      "url": "https://www.noemamag.com/chinas-open-ai-models-are-advancing-its-global-soft-power/",
+      "source": "Hacker News",
+      "published": "2026-07-10T21:45:16+00:00",
+      "summary_raw": "",
+      "points": 28,
+      "num_comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=48865717"
+    },
+    {
+      "title": "I've been going on about how ChatGPT Work (and Cowork) are missed opportunities for knowledge workers, and to illustrate that take a look at Google's NotebookLM answering the same question as ChatGPT Work, with the same 70+ files.\n\nIt centers process & sources, not just outputs.",
+      "url": "https://twitter.com/emollick/status/2075695604575903767",
+      "source": "Twitter/@emollick",
+      "published": "2026-07-10T21:36:11+00:00",
+      "summary_raw": "I've been going on about how ChatGPT Work (and Cowork) are missed opportunities for knowledge workers, and to illustrate that take a look at Google's NotebookLM answering the same question as ChatGPT Work, with the same 70+ files.\n\nIt centers process &amp; sources, not just outputs.",
+      "person": "Ethan Mollick"
+    },
+    {
+      "title": "Apple accuses OpenAI of using stolen trade secrets to create its AI gadgets",
+      "url": "https://www.cnn.com/2026/07/10/tech/apple-openai-devices-lawsuit",
+      "source": "Hacker News",
+      "published": "2026-07-10T21:04:56+00:00",
+      "summary_raw": "",
+      "points": 18,
+      "num_comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=48865252"
+    },
+    {
+      "title": "GhostLock, a stack-UAF that has existed in ALL Linux distributions for 15 years",
+      "url": "https://nebusec.ai/research/ionstack-part-2/",
+      "source": "Hacker News",
+      "published": "2026-07-10T20:43:02+00:00",
+      "summary_raw": "",
+      "points": 81,
+      "num_comments": 17,
+      "hn_url": "https://news.ycombinator.com/item?id=48864969"
+    },
+    {
+      "title": "Please don't discontinue Gemini 2.5 Flash",
+      "url": "https://discuss.ai.google.dev/t/please-dont-discontinue-gemini-2-5-flash/174246",
+      "source": "Hacker News",
+      "published": "2026-07-10T20:00:28+00:00",
+      "summary_raw": "",
+      "points": 124,
+      "num_comments": 81,
+      "hn_url": "https://news.ycombinator.com/item?id=48864507"
+    },
+    {
+      "title": "Guy is banned by OpenAI for cyber abuse, his AI appeals, another AI approves it",
+      "url": "https://twitter.com/endpointarena/status/2075245286339846145",
+      "source": "Hacker News",
+      "published": "2026-07-10T19:50:27+00:00",
+      "summary_raw": "",
+      "points": 29,
+      "num_comments": 6,
+      "hn_url": "https://news.ycombinator.com/item?id=48864390"
+    },
+    {
+      "title": "Materials innovation has a scale-up problem, not discovery",
+      "url": "https://www.atomscale.ai/updates/our-thesis-atom-to-scale",
+      "source": "Hacker News",
+      "published": "2026-07-10T19:03:36+00:00",
+      "summary_raw": "",
+      "points": 27,
+      "num_comments": 12,
+      "hn_url": "https://news.ycombinator.com/item?id=48863849"
+    },
+    {
+      "title": "Fable: \"an 8th grader puts together a powerpoint about the Great Gatsby but obviously did not read the Great Gatsby. Show me that powerpoint! ;)\"\n\nThis was actually pretty funny. Even the font choices are wonderful.",
+      "url": "https://twitter.com/emollick/status/2075656832698270017",
+      "source": "Twitter/@emollick",
+      "published": "2026-07-10T19:02:07+00:00",
+      "summary_raw": "Fable: \"an 8th grader puts together a powerpoint about the Great Gatsby but obviously did not read the Great Gatsby. Show me that powerpoint! ;)\"\n\nThis was actually pretty funny. Even the font choices are wonderful.",
+      "person": "Ethan Mollick"
+    },
+    {
+      "title": "How the terrorist group Boko Haram uses frontier AI",
+      "url": "https://casp.ac/reports/ai-enabled-terrorism",
+      "source": "Hacker News",
+      "published": "2026-07-10T18:49:26+00:00",
+      "summary_raw": "",
+      "points": 209,
+      "num_comments": 173,
+      "hn_url": "https://news.ycombinator.com/item?id=48863707"
+    },
+    {
+      "title": "This time it is novel math proofs with a public model (most of the other big math breakthroughs have been with experimental LLMs).",
+      "url": "https://twitter.com/emollick/status/2075647119818477716",
+      "source": "Twitter/@emollick",
+      "published": "2026-07-10T18:23:31+00:00",
+      "summary_raw": "This time it is novel math proofs with a public model (most of the other big math breakthroughs have been with experimental LLMs).\n\n\nEthan Knight (@__eknight__)\n\nYesterday, we made GPT-5.6 Sol Ultra generally available. Today, we're sharing that it produced a proof of the 50-year-old Cycle Double Cover Conjecture using 64 subagents in just under one hour. We're sharing the prompt and proof below. We're excited to see what you all do with Ultra!\n\n\n\n\u2014 http://nt.vern.cc/__eknight__/status/2075643450196971805#m",
+      "person": "Ethan Mollick"
+    },
+    {
+      "title": "It's mind-blowing how fast agentic coding has progressed in the past 6 month. It's a completely different world now.",
+      "url": "https://twitter.com/fchollet/status/2075646052951376196",
+      "source": "Twitter/@fchollet",
+      "published": "2026-07-10T18:19:17+00:00",
+      "summary_raw": "It's mind-blowing how fast agentic coding has progressed in the past 6 month. It's a completely different world now.",
+      "person": "Fran\u00e7ois Chollet"
+    },
+    {
+      "title": "This was a critical early paper on AI & work, showing that entrepreneurs getting advice from GPT-4 had higher profit margins if they were high performing, but did worse if they were already in trouble (they couldn't implement advice)\n\nAlso a sign of how bad the publishing lag is",
+      "url": "https://twitter.com/emollick/status/2075641357738160637",
+      "source": "Twitter/@emollick",
+      "published": "2026-07-10T18:00:37+00:00",
+      "summary_raw": "This was a critical early paper on AI &amp; work, showing that entrepreneurs getting advice from GPT-4 had higher profit margins if they were high performing, but did worse if they were already in trouble (they couldn't implement advice)\n\nAlso a sign of how bad the publishing lag is\n\n\nRem Koning (@orgRem)\n\nThree years later and our paper is finally out at Management Science! \n\npubsonline.informs.org/doi/a\u2026\n\nThis was just an *incredible* paper to work on. I learned so much working with Nick Otis, @daveholtz @solenedelecourt and @RowanPClarke\n\n\n\n\n\n\u2014 http://nt.vern.cc/orgRem/status/2075615932185997483#m",
+      "person": "Ethan Mollick"
+    }
+  ]
+}
