@@ -1,0 +1,104 @@
+{
+  "week_ending": "2026-07-12",
+  "generated_at": "2026-07-12T14:27:19.424588+00:00",
+  "days_included": [
+    "2026-07-06",
+    "2026-07-07",
+    "2026-07-08",
+    "2026-07-09",
+    "2026-07-10",
+    "2026-07-11",
+    "2026-07-12"
+  ],
+  "themes": [
+    {
+      "name": "AI Economics Under Pressure: Costs, Bubbles, and ROI Skepticism",
+      "summary": "This week's coverage converged on a broad reckoning with the financial realities of AI deployment. Multiple independent sources — an Apollo economist, Palo Alto's CEO, venture analyst Tom Tunguz, The Register, and Bloomberg — raised concerns about unsustainable spending, unpredictable usage-based billing, and timelines for returns that stretch toward 2029 or beyond. The structural tension is clear: inference costs remain high enough that some enterprise AI bills may eventually exceed the cost of the engineers the tools were meant to replace, while capable open-weight models from Chinese labs are simultaneously compressing provider margins. The circular financing arrangements described between Nvidia, CoreWeave, and Nebius, alongside Big Tech doubling its debt load to $350 billion, suggest that much of the current buildout is predicated on productivity gains that have not yet materialized outside the technology sector itself.",
+      "key_stories": [
+        {
+          "title": "When AI Costs More Than the Engineer",
+          "url": "https://tomtunguz.com/ai-spend-breakeven-2029/"
+        },
+        {
+          "title": "Even banks and hyperscalers are now sounding the alarm about the AI bubble",
+          "url": "https://www.theregister.com/ai-and-ml/2026/07/06/even-banks-and-hyperscalers-are-now-sounding-the-alarm-about-the-ai-bubble/5266123"
+        },
+        {
+          "title": "Big Tech Doubles Debt Load to $350B in AI Spending Spree",
+          "url": "https://www.bloomberg.com/news/articles/2026-07-10/big-tech-doubles-debt-load-to-350-billion-in-ai-spending-spree"
+        }
+      ]
+    },
+    {
+      "name": "Agentic AI: Rapid Progress Alongside Serious Gaps",
+      "summary": "Agentic coding and autonomous agent systems were among the most discussed technical topics of the week, with reports pulling in opposite directions. François Chollet noted the pace of change as qualitatively significant over six months, and the Bun-in-Rust rewrite demonstrated that agentic workflows can compress previously prohibitive engineering projects. At the same time, Mark Zuckerberg told Meta staff that agents have not advanced as quickly as anticipated, and Dan Luu's detailed notes highlighted that benchmark results obscure high real-world variance. Security research added a sobering dimension: the GitLost prompt injection attack exfiltrated private GitHub repository content through an AI agent, and a paper on institutional red-teaming found that deployment rules — not just model behavior — causally shape multi-agent safety outcomes. The week also produced a new arXiv survey, 'The Hitchhiker's Guide to Agentic AI,' organizing the field's architecture and failure modes at a moment when practitioners clearly need that structure.",
+      "key_stories": [
+        {
+          "title": "GitLost: We Tricked GitHub's AI Agent into Leaking Private Repos",
+          "url": "https://noma.security/blog/gitlost-how-we-tricked-githubs-ai-agent-into-leaking-private-repos/"
+        },
+        {
+          "title": "Agentic test processes, LLM benchmarks, and other notes on agentic coding",
+          "url": "https://danluu.com/ai-coding/#llm-variance"
+        },
+        {
+          "title": "The Hitchhiker's Guide to Agentic AI",
+          "url": "https://arxiv.org/abs/2606.24937"
+        }
+      ]
+    },
+    {
+      "name": "AI Governance and Geopolitical Fragmentation",
+      "summary": "Regulatory and geopolitical pressures on AI are producing concrete operational effects this week. China is considering restrictions on foreign access to its open-weight models — a potential 'silicon curtain' — while simultaneously ByteDance and Alibaba are disabling humanlike custom agents ahead of domestic synthetic-persona regulations. The Canadian government is facing criticism for undisclosed Palantir contracts, and a U.S. Executive Order introduced new software delivery requirements for federal agencies. A Nobel-winning American chemist announced relocation to China to lead an AI institute, illustrating talent competition at the frontier of AI and scientific research. China's strategy of releasing open models is being analyzed as soft power projection, and adversarial influence operations targeting AI data center controversies in the West add another layer of geopolitical complexity.",
+      "key_stories": [
+        {
+          "title": "China may restrict foreign access to Chinese open-source AI models",
+          "url": "https://www.reuters.com/technology/artificial-intelligence/china-weighs-silicon-curtain-around-sought-after-ai-models-2026-07-08/"
+        },
+        {
+          "title": "ByteDance and Alibaba to disable humanlike AI custom agents as new rules loom",
+          "url": "https://www.scmp.com/tech/big-tech/article/3359482/bytedance-and-alibaba-disable-humanlike-ai-custom-agents-new-rules-loom"
+        },
+        {
+          "title": "China's Open AI Models Are Advancing Its Global Soft Power",
+          "url": "https://www.noemamag.com/chinas-open-ai-models-are-advancing-its-global-soft-power/"
+        }
+      ]
+    },
+    {
+      "name": "AI Safety and Misuse: From Consumer Products to Adversarial Actors",
+      "summary": "Safety concerns this week spanned a wide range from mundane consumer product failures to documented adversarial misuse. Tripadvisor's AI summaries produced positive descriptions of hotels flagged for safety violations, illustrating how summarization systems can selectively surface favorable content at the cost of critical signals. The German AfD's development of AI-powered rage-bait generation and a CASP report detailing Boko Haram's use of frontier AI for propaganda and recruitment show that adversarial uses of AI are no longer theoretical. Separately, a prompt injection attack on GitHub's AI agent leaked private repository contents, and an Apple Find My network exploit demonstrated that even air-gapped systems are not safe from AI-adjacent covert channels. The MakerChecker open-source scanner and the institutional red-teaming paper both represent practitioner-level responses to the same underlying problem: deployed agentic systems acquire capabilities and take actions that their operators did not fully anticipate.",
+      "key_stories": [
+        {
+          "title": "Tripadvisor AI summaries give glowing reviews to dangerous hotels",
+          "url": "https://www.euronews.com/travel/2026/07/03/tripadvisor-ai-summaries-give-glowing-reviews-to-dangerous-hotels-consumer-watchdog-finds"
+        },
+        {
+          "title": "AI software that generates 'rage bait' developed by Germany's far-right AfD",
+          "url": "https://www.irishtimes.com/world/europe/2026/07/08/ai-software-that-generates-rage-bait-developed-by-germanys-far-right-afd/"
+        },
+        {
+          "title": "Show HN: Scan your AI agents for dangerous capabilities",
+          "url": "https://github.com/makerchecker/MakerChecker"
+        }
+      ]
+    }
+  ],
+  "project_idea": {
+    "title": "Build a Minimal RAG Pipeline with Deterministic Pre- and Post-Filtering",
+    "theme": "Agentic AI: Rapid Progress Alongside Serious Gaps",
+    "description": "Using LangChain or LlamaIndex with a free-tier embedding model (e.g., sentence-transformers/all-MiniLM-L6-v2 via HuggingFace) and a local SQLite store via sqlite-utils 4.x, build a retrieval-augmented generation pipeline that includes two deterministic layers: a pre-retrieval filter that rejects queries matching a blocklist of known high-risk patterns before any LLM call is made, and a post-retrieval pruning step that scores and drops context chunks falling below a relevance threshold before they reach the model. The project directly practices the 'not everything should cost a token' principle from this week's coverage, and surfaces how much agent safety can be achieved without probabilistic inference at all.",
+    "estimated_time": "a weekend",
+    "skills_practiced": [
+      "retrieval-augmented generation architecture",
+      "deterministic input/output validation",
+      "embedding-based semantic similarity scoring",
+      "SQLite as a vector-adjacent document store with sqlite-utils",
+      "prompt injection surface area analysis"
+    ]
+  },
+  "discussion_question": {
+    "question": "When an AI agent takes a consequential action — exfiltrating data, approving an account reinstatement, generating a misleading summary — and the root cause is a combination of a model capability, a deployment rule, and an operator configuration choice, how should accountability be allocated, and what technical mechanisms would make that allocation auditable after the fact?",
+    "context": "This week produced multiple cases where harm arose not from a single model failure but from the interaction of model behavior with system-level design choices: the GitLost prompt injection exploited an agent's delegated permissions, the Tripadvisor summaries reflected a summarization objective misaligned with user safety needs, and the institutional red-teaming paper found deployment rules to be causal factors in multi-agent safety outcomes. Existing legal and organizational frameworks were built around human decision-makers and do not map cleanly onto systems where agency is distributed across models, rules, and human operators."
+  }
+}
