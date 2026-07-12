@@ -1,0 +1,142 @@
+{
+  "date": "2026-07-12",
+  "generated_at": "2026-07-12T11:56:47.670764+00:00",
+  "source_counts": {
+    "rss_feeds": 1,
+    "arxiv": 0,
+    "hackernews": 12,
+    "nitter": 0,
+    "total_raw": 13,
+    "total_deduped": 13,
+    "total_saved": 13
+  },
+  "items": [
+    {
+      "title": "Under federal rule, colleges must leave grads better off or lose financial aid",
+      "url": "https://www.npr.org/2026/06/30/nx-s1-5835631/turner-camhi-do-no-harm-college-loans",
+      "source": "Hacker News",
+      "published": "2026-07-12T04:00:14+00:00",
+      "summary_raw": "",
+      "points": 110,
+      "num_comments": 206,
+      "hn_url": "https://news.ycombinator.com/item?id=48878126"
+    },
+    {
+      "title": "What happens between entering the prompt and seeing the first word appear",
+      "url": "https://shbhmrzd.github.io/ai/ml-foundations/llm-training/2026/07/11/using-the-trained-model.html",
+      "source": "Hacker News",
+      "published": "2026-07-12T00:28:43+00:00",
+      "summary_raw": "",
+      "points": 10,
+      "num_comments": 1,
+      "hn_url": "https://news.ycombinator.com/item?id=48877155"
+    },
+    {
+      "title": "sqlite-utils 4.1",
+      "url": "https://simonwillison.net/2026/Jul/11/sqlite-utils/#atom-everything",
+      "source": "Simon Willison",
+      "published": "2026-07-11T23:50:20+00:00",
+      "summary_raw": "Release: sqlite-utils 4.1\n        The first dot-release since 4.0 a few days ago, introducing a number of minor new features.\n\n\nsqlite-utils insert and sqlite-utils upsert now accept a --code option for providing a block of Python code (or a path to a .py file) that defines a rows() function or rows iterable of rows to insert, as an alternative to importing from a file. (#684)\n\n\nsqlite-utils already had features that allow you to pass blocks of Python code as CLI arguments, for example this one for the sqlite-utils convert command:\nsqlite-utils convert content.db articles headline '\ndef convert(value):\n    return value.upper()'\nAllowing blocks of code to generate new rows directly was on obvious extension of that pattern:\nsqlite-utils insert data.db creatures --code '\ndef rows():\n    yield {\"id\": 1, \"name\": \"Cleo\"}\n    yield {\"id\": 2, \"name\": \"Suna\"}\n' --pk id\n\n\n\nsqlite-utils insert and sqlite-utils upsert now accept --type column-name type to override the type automatically chosen when the table is created. This is useful for CSV or TSV columns such as ZIP codes that look like integers but should be stored as TEXT to preserve leading zeros. (#131)\n\n\nA long-standing feature request which turned out to be a simple implementation.\n\n\nNew table.drop_index(name) method and sqlite-utils drop-index command for dropping an index by name. Both accept ignore=True/--ignore to ignore a missing index. (#626)\nsqlite-utils query can now read the SQL query from standard input by passing - in place of the query, for example echo \"select * from dogs\" | sqlite-utils query dogs.db -. (#765)\n\n\nTwo more small features. I had Codex review all open issues and highlight the easiest ones!\n\n\nsqlite-utils upsert can now infer the primary key of an existing table, so --pk can be omitted when upserting into a table that already has a primary key.\n\n\nAnother Codex suggestion, an obvious missing CLI feature from a Python library improvement that shipped in the 4.0 release.\n\n\ntable.transform() and table.transform_sql() now accept strict=True or strict=False to change a table\u2019s SQLite strict mode. Omitting the option preserves the existing mode. (#787)\nThe sqlite-utils transform command now accepts --strict and --no-strict to change a table\u2019s strict mode. (#787)\n\n\nThese two were inspired by Prefer STRICT tables in SQLite by Evan Hahn, which did the rounds on Hacker News today. Evan pointed out that:\n\nUnfortunately, I don\u2019t think there\u2019s a way to ALTER a table to make it strict. I think you have to copy the data out of the non-strict table into the strict one.\n\nThat's exactly what the sqlite-utils transform mechanism does, so I extended it to add the ability to switch tables from strict to non-strict and vice-versa.\nHere's the GPT-5.6 Sol xhigh Codex transcript I used to implement those new strict table features. One of the most useful prompts I ran was this one:\n\nuse uv run python -c and manually exercise the new .transform(strict=) option, see if you can find any edge-cases or bugs\n\nEffectively telling the model to manually test its work, outside of the automated tests it had already written. This turned up two minor issues that we then fixed.\n    \n    \n        Tags: projects, python, sqlite, sqlite-utils, annotated-release-notes, ai-assisted-programming"
+    },
+    {
+      "title": "Fixed three bugs that made Qwen3.5-122B a daily driver on Mac Studio",
+      "url": "https://mrzk.io/posts/qmlx-maximising-ai-psychosis-minmaxing-mac-studio/",
+      "source": "Hacker News",
+      "published": "2026-07-11T22:54:06+00:00",
+      "summary_raw": "",
+      "points": 60,
+      "num_comments": 24,
+      "hn_url": "https://news.ycombinator.com/item?id=48876619"
+    },
+    {
+      "title": "Mesh LLM: distributed AI computing on iroh",
+      "url": "https://www.iroh.computer/blog/mesh-llm",
+      "source": "Hacker News",
+      "published": "2026-07-11T22:38:57+00:00",
+      "summary_raw": "",
+      "points": 272,
+      "num_comments": 63,
+      "hn_url": "https://news.ycombinator.com/item?id=48876505"
+    },
+    {
+      "title": "I built TradingSpy: local, privacy-first AI trading assistant(First Open Source)",
+      "url": "https://github.com/mrhustlex/TradingSpy-TradingAgentService",
+      "source": "Hacker News",
+      "published": "2026-07-11T20:45:06+00:00",
+      "summary_raw": "",
+      "points": 23,
+      "num_comments": 1,
+      "hn_url": "https://news.ycombinator.com/item?id=48875678"
+    },
+    {
+      "title": "Wealthy AI workers send San Francisco house prices soaring",
+      "url": "https://www.bbc.com/news/articles/c9q29j47v9ro",
+      "source": "Hacker News",
+      "published": "2026-07-11T20:06:38+00:00",
+      "summary_raw": "",
+      "points": 34,
+      "num_comments": 43,
+      "hn_url": "https://news.ycombinator.com/item?id=48875371"
+    },
+    {
+      "title": "Show HN: Sqlsure \u2013 deterministic semantic checks for AI-generated SQL",
+      "url": "https://github.com/sqlsure/sqlsure",
+      "source": "Hacker News",
+      "published": "2026-07-11T20:03:42+00:00",
+      "summary_raw": "",
+      "points": 34,
+      "num_comments": 6,
+      "hn_url": "https://news.ycombinator.com/item?id=48875342"
+    },
+    {
+      "title": "AI 2040 and the cult of intelligence",
+      "url": "https://geohot.github.io//blog/jekyll/update/2026/07/11/ai-2040.html",
+      "source": "Hacker News",
+      "published": "2026-07-11T18:04:01+00:00",
+      "summary_raw": "",
+      "points": 205,
+      "num_comments": 245,
+      "hn_url": "https://news.ycombinator.com/item?id=48874200"
+    },
+    {
+      "title": "Who manages the agents?",
+      "url": "https://www.off-policy.com/dont-go-quietly-into-the-ai-night/",
+      "source": "Hacker News",
+      "published": "2026-07-11T18:02:33+00:00",
+      "summary_raw": "",
+      "points": 72,
+      "num_comments": 88,
+      "hn_url": "https://news.ycombinator.com/item?id=48874182"
+    },
+    {
+      "title": "Alex Karp Is Saying What Every Angry CEO Is Thinking About AI",
+      "url": "https://www.wsj.com/tech/ai/alex-karp-is-saying-what-every-angry-ceo-is-thinking-about-ai-7f5f7c0c",
+      "source": "Hacker News",
+      "published": "2026-07-11T17:37:30+00:00",
+      "summary_raw": "",
+      "points": 15,
+      "num_comments": 12,
+      "hn_url": "https://news.ycombinator.com/item?id=48873978"
+    },
+    {
+      "title": "Reverse centaurs are the answer to the AI paradox (2025)",
+      "url": "https://pluralistic.net/2025/09/11/vulgar-thatcherism/#there-is-an-alternative",
+      "source": "Hacker News",
+      "published": "2026-07-11T17:23:52+00:00",
+      "summary_raw": "",
+      "points": 107,
+      "num_comments": 67,
+      "hn_url": "https://news.ycombinator.com/item?id=48873855"
+    },
+    {
+      "title": "Nvidia, CoreWeave, and Nebius: Inside the Circular Financing of the GPU Boom",
+      "url": "https://io-fund.com/ai-stocks/nvidia-coreweave-nebius-circular-financing-gpu-boom",
+      "source": "Hacker News",
+      "published": "2026-07-11T17:21:49+00:00",
+      "summary_raw": "",
+      "points": 282,
+      "num_comments": 112,
+      "hn_url": "https://news.ycombinator.com/item?id=48873836"
+    }
+  ]
+}

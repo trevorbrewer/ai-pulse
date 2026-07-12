@@ -1,0 +1,105 @@
+[
+  {
+    "theme": "AI Commentary & Opinion",
+    "stories": [
+      {
+        "title": "AI 2040 and the cult of intelligence",
+        "url": "https://geohot.github.io//blog/jekyll/update/2026/07/11/ai-2040.html",
+        "source": "Hacker News",
+        "paragraph": "George Hotz, the engineer behind comma.ai, published an essay critiquing what he calls the 'cult of intelligence' surrounding AI development and its 2040 projections. He argues that the AI industry has developed quasi-religious characteristics around the concept of machine intelligence, divorcing it from practical engineering realities. The post challenges assumptions embedded in long-range AI forecasts and raises questions about how the field frames progress."
+      },
+      {
+        "title": "Who manages the agents?",
+        "url": "https://www.off-policy.com/dont-go-quietly-into-the-ai-night/",
+        "source": "Hacker News",
+        "paragraph": "An essay on the Off-Policy blog examines the governance gap emerging as autonomous AI agents take on more workplace tasks, asking who bears responsibility when agents make consequential decisions. The piece focuses on the organizational structures — or lack thereof — that currently exist to oversee agent behavior in enterprise settings. It draws a parallel to earlier debates about software accountability, arguing that the question of agent management has not kept pace with deployment speed."
+      },
+      {
+        "title": "Reverse centaurs are the answer to the AI paradox (2025)",
+        "url": "https://pluralistic.net/2025/09/11/vulgar-thatcherism/#there-is-an-alternative",
+        "source": "Hacker News",
+        "paragraph": "Cory Doctorow's Pluralistic blog resurfaces a 2025 essay arguing that the dominant 'centaur' model — where humans supervise AI — has been quietly inverted in many workplaces, with workers now serving as error-checkers for AI output rather than the other way around. Doctorow calls this arrangement a 'reverse centaur' and contends it degrades worker skill and judgment over time. The essay uses the term 'vulgar Thatcherism' to describe the economic ideology it sees driving this labor model."
+      },
+      {
+        "title": "Alex Karp Is Saying What Every Angry CEO Is Thinking About AI",
+        "url": "https://www.wsj.com/tech/ai/alex-karp-is-saying-what-every-angry-ceo-is-thinking-about-ai-7f5f7c0c",
+        "source": "Hacker News",
+        "paragraph": "The Wall Street Journal profiles Palantir CEO Alex Karp, who has been publicly voicing frustration about the gap between AI vendor promises and actual enterprise ROI. Karp's position is notable because Palantir is itself an AI software vendor, making his criticism unusual among peers. The article frames his remarks as representative of a broader, less publicly expressed dissatisfaction among corporate executives who have made large AI investments without clear measurable returns."
+      }
+    ]
+  },
+  {
+    "theme": "Open-Source Tools",
+    "stories": [
+      {
+        "title": "sqlite-utils 4.1",
+        "url": "https://simonwillison.net/2026/Jul/11/sqlite-utils/#atom-everything",
+        "source": "Simon Willison",
+        "paragraph": "Simon Willison released sqlite-utils 4.1, the first point release following version 4.0 earlier this month. The update adds a --code option to the sqlite-utils insert and sqlite-utils upsert commands, allowing users to pass a block of Python code or a path to a .py file that defines a rows() function or iterable, as an alternative to reading from a file. The release also includes several other minor new features tracked in the project's changelog."
+      },
+      {
+        "title": "Show HN: Sqlsure – deterministic semantic checks for AI-generated SQL",
+        "url": "https://github.com/sqlsure/sqlsure",
+        "source": "Hacker News",
+        "paragraph": "A developer published Sqlsure, an open-source tool designed to run deterministic semantic validation on SQL queries produced by AI systems before they are executed. The tool targets a specific failure mode of AI-generated SQL — queries that are syntactically valid but semantically incorrect, such as joining on the wrong columns or applying filters that silently return empty results. By adding a rule-based checking layer between the LLM and the database, Sqlsure aims to reduce the risk of silent data errors in AI-assisted database workflows."
+      },
+      {
+        "title": "I built TradingSpy: local, privacy-first AI trading assistant(First Open Source)",
+        "url": "https://github.com/mrhustlex/TradingSpy-TradingAgentService",
+        "source": "Hacker News",
+        "paragraph": "A developer released TradingSpy on GitHub, an open-source AI-powered trading assistant designed to run entirely on local hardware without sending data to external servers. The project positions itself as the first open-source AI trading agent service of its kind, emphasizing user privacy by keeping all inference and data processing local. The repository includes a service architecture oriented around an agent that can monitor market conditions and surface analysis without requiring cloud API calls."
+      },
+      {
+        "title": "Fixed three bugs that made Qwen3.5-122B a daily driver on Mac Studio",
+        "url": "https://mrzk.io/posts/qmlx-maximising-ai-psychosis-minmaxing-mac-studio/",
+        "source": "Hacker News",
+        "paragraph": "A developer documented three specific bugs in the MLX inference stack that were preventing Qwen3.5-122B, a 122-billion-parameter model, from running reliably on Apple Mac Studio hardware. After identifying and patching the issues, the author reports using the model as a daily local inference tool. The post provides a detailed account of the debugging process, making it a practical reference for others attempting to run large models on Apple Silicon via the MLX framework."
+      }
+    ]
+  },
+  {
+    "theme": "AI Infrastructure & Distributed Computing",
+    "stories": [
+      {
+        "title": "Mesh LLM: distributed AI computing on iroh",
+        "url": "https://www.iroh.computer/blog/mesh-llm",
+        "source": "Hacker News",
+        "paragraph": "The iroh project published a blog post describing Mesh LLM, an approach to distributing large language model inference across multiple machines using iroh, a peer-to-peer networking library built on QUIC. The system allows individual nodes to contribute compute toward running a model that would be too large for any single machine, using iroh's connection primitives to coordinate layers or shards across the mesh. The post frames this as an early exploration rather than a production system, but provides working code and architecture details."
+      },
+      {
+        "title": "What happens between entering the prompt and seeing the first word appear",
+        "url": "https://shbhmrzd.github.io/ai/ml-foundations/llm-training/2026/07/11/using-the-trained-model.html",
+        "source": "Hacker News",
+        "paragraph": "A technical blog post traces the computational steps that occur between a user submitting a prompt to an LLM and the model returning the first output token. The author walks through tokenization, the forward pass through transformer layers, the KV cache, and sampling strategies such as temperature and top-p filtering. The post is aimed at practitioners who use LLMs but want a clearer mental model of the inference pipeline without diving into full research literature."
+      }
+    ]
+  },
+  {
+    "theme": "Industry & Economic Impact",
+    "stories": [
+      {
+        "title": "Wealthy AI workers send San Francisco house prices soaring",
+        "url": "https://www.bbc.com/news/articles/c9q29j47v9ro",
+        "source": "Hacker News",
+        "paragraph": "A BBC report documents the effect of high AI industry salaries on San Francisco's residential real estate market, where prices have risen sharply as AI company employees bid aggressively for a limited housing supply. The piece cites local real estate data and interviews with agents and residents, placing the current AI-driven price surge in the context of earlier tech booms that affected the city. San Francisco home prices, which had softened during the remote-work period, are once again among the highest in the United States."
+      },
+      {
+        "title": "Under federal rule, colleges must leave grads better off or lose financial aid",
+        "url": "https://www.npr.org/2026/06/30/nx-s1-5835631/turner-camhi-do-no-harm-college-loans",
+        "source": "Hacker News",
+        "paragraph": "NPR reports on a federal rule requiring colleges to demonstrate that graduates are financially better off after attending — measured by earnings relative to debt — or risk losing access to federal financial aid programs. The rule is intended to hold institutions accountable for outcomes rather than enrollment, and places particular pressure on for-profit colleges and programs with poor graduate earnings data. The policy represents a shift toward outcome-based accountability in higher education funding, with direct implications for how institutions market and price degree programs."
+      }
+    ]
+  },
+  {
+    "theme": "Industry News",
+    "stories": [
+      {
+        "title": "Nvidia, CoreWeave, and Nebius: Inside the Circular Financing of the GPU Boom",
+        "url": "https://io-fund.com/ai-stocks/nvidia-coreweave-nebius-circular-financing-gpu-boom",
+        "source": "Hacker News",
+        "paragraph": "An analysis by IO Fund examines the financial relationships between Nvidia, cloud computing provider CoreWeave, and Nebius, arguing that the three companies form a circular financing structure that underpins the current GPU infrastructure buildout. In the arrangement described, Nvidia supplies GPUs to CoreWeave and Nebius on credit or through equity stakes, those companies use the hardware to generate cloud revenue, and proceeds flow back in ways that support continued GPU purchases. The piece raises questions about the sustainability of demand figures when a significant portion of GPU consumption is financed by the chip vendor itself. CoreWeave, which went public in March 2025, counts Nvidia as both a major supplier and an investor, making the interdependence between the two companies a point of scrutiny for analysts assessing the durability of AI infrastructure spending."
+      }
+    ]
+  }
+]
