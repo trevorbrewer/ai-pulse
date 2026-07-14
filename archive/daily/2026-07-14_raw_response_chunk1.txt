@@ -1,0 +1,99 @@
+[
+  {
+    "theme": "Industry News & Policy",
+    "stories": [
+      {
+        "title": "Meta Is Flooding the Market with Smartglasses. Privacy Advocates Are Up in Arms",
+        "url": "https://www.wsj.com/tech/ai/meta-is-flooding-the-market-with-smartglasses-privacy-advocates-are-up-in-arms-8fb71539",
+        "source": "Hacker News",
+        "paragraph": "Meta is aggressively expanding its Ray-Ban smart glasses lineup, drawing criticism from privacy advocates who argue the devices enable covert recording and facial recognition in public spaces. The concern is amplified by the glasses' inconspicuous design, which makes it difficult for bystanders to know when they are being filmed or identified. The push comes as Meta positions the hardware as a consumer AI interface, with the company reportedly planning multiple new models. Critics are calling for regulatory guardrails, while Meta maintains that the devices comply with existing laws."
+      },
+      {
+        "title": "Georgia family says they're forced to sell home to power AI data centers",
+        "url": "https://www.cbsnews.com/news/georgia-power-ai-data-centers-eminent-domain/",
+        "source": "Hacker News",
+        "paragraph": "A Georgia family says they are being compelled to sell their property through eminent domain to make way for electrical infrastructure supporting AI data centers. The case illustrates a growing tension between the rapid expansion of data center capacity and local landowners, as utilities seek new power corridors to meet surging electricity demand. Georgia Power is among the utilities facing pressure to build out grid infrastructure quickly, given that AI workloads are projected to significantly increase regional power consumption. The family's situation has drawn public attention to how private land use is being affected by large-scale technology investment."
+      },
+      {
+        "title": "Boom? If AI Sales in the US Go South, Let's Not Bail Out Big Money Bettors",
+        "url": "https://www.nationalmemo.com/ai-bubble-2677214150",
+        "source": "Hacker News",
+        "paragraph": "A National Memo commentary argues that if the current wave of AI investment produces a market downturn, the financial losses should fall on large investors rather than taxpayers. The piece draws comparisons to previous technology bubbles and government responses, warning against the precedent of socializing losses from speculative bets on AI infrastructure. The author points to the scale of capital being deployed — hundreds of billions of dollars into data centers and model development — as evidence that risk exposure is concentrated among well-capitalized players who can absorb losses. The commentary calls for policymakers to resist pressure for public bailouts if sentiment shifts."
+      }
+    ]
+  },
+  {
+    "theme": "AI Ethics, Safety & Society",
+    "stories": [
+      {
+        "title": "The Future Worth Building Is Human – Thinking Machines Lab",
+        "url": "https://thinkingmachines.ai/blog/the-future-worth-building-is-human/",
+        "source": "Hacker News",
+        "paragraph": "Thinking Machines Lab, a data and AI consultancy based in the Philippines, published a post arguing that the development of AI should remain oriented around human welfare rather than pure automation or efficiency. The essay reflects the company's position that AI practitioners bear responsibility for the social outcomes of the systems they build, particularly in emerging markets where institutional safeguards may be weaker. The piece does not propose specific technical methods but instead frames AI development as an ethical practice requiring intentional choices about whom technology serves. It is notable as a public statement of values from a Southeast Asian AI firm, a perspective less frequently represented in mainstream AI discourse."
+      },
+      {
+        "title": "Scams Were Awful. Then They Got AI",
+        "url": "https://www.rstreet.org/commentary/scams-were-already-awful-then-they-got-ai/",
+        "source": "Hacker News",
+        "paragraph": "An R Street Institute commentary details how AI tools have lowered the cost and increased the sophistication of consumer scams, enabling fraudsters to produce convincing voice clones, personalized phishing messages, and synthetic identities at scale. The piece notes that the Federal Trade Commission reported Americans lost over $10 billion to fraud in 2023, a figure likely to grow as AI lowers barriers to entry for bad actors. Voice cloning technology, in particular, is cited as enabling so-called "grandparent scams" in which victims are deceived by audio that sounds like a relative in distress. The author calls for updated consumer protection frameworks that account for AI-enabled deception."
+      },
+      {
+        "title": "What will be left for us to work on?",
+        "url": "https://www.normaltech.ai/p/what-will-be-left-for-us-to-work",
+        "source": "Hacker News",
+        "paragraph": "A Normal Tech essay examines the question of what kinds of work will remain meaningful for humans as AI systems take on more cognitive tasks. The author does not predict mass unemployment but argues that the nature of valuable human contribution is shifting toward judgment, taste, relationship-building, and contextual understanding — areas where AI currently underperforms. The piece draws on examples from software engineering, writing, and management to illustrate how the scope of purely routine cognitive work is narrowing. It positions the central challenge for workers as identifying and developing the skills that remain distinctively human rather than assuming current roles will be stable."
+      }
+    ]
+  },
+  {
+    "theme": "Applied AI & Product Use Cases",
+    "stories": [
+      {
+        "title": "Building Food Metadata with LLM Juries",
+        "url": "https://careersatdoordash.com/blog/building-food-metadata-with-llm-juries-context-optimization-multimodal-ai/",
+        "source": "Hacker News",
+        "paragraph": "DoorDash published a technical blog post describing how it uses an ensemble of large language models — referred to as an \"LLM jury\" — to generate and validate food metadata at scale, such as dish descriptions, dietary tags, and cuisine classifications. Rather than relying on a single model's output, the system aggregates responses from multiple models and applies a voting or reconciliation mechanism to improve accuracy and reduce hallucinations. The approach also incorporates multimodal inputs, using food images alongside text to enrich metadata quality. DoorDash reports the method has improved the consistency of product data across its marketplace, which spans millions of menu items."
+      },
+      {
+        "title": "How data science teams use ChatGPT Work",
+        "url": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
+        "source": "OpenAI Blog",
+        "paragraph": "OpenAI published a guide under its ChatGPT Academy series showing how data science teams can use ChatGPT Work — the enterprise-oriented product suite — to produce structured outputs such as root-cause briefs, KPI memos, impact readouts, and dashboard specifications. The guide is framed around real work inputs, positioning ChatGPT Work as a tool for accelerating recurring analytical deliverables rather than replacing underlying analysis. It is part of a broader series of use-case documentation OpenAI is releasing to support enterprise adoption. The release signals OpenAI's effort to make Codex-powered capabilities more accessible to non-engineering business functions."
+      },
+      {
+        "title": "How sales teams use ChatGPT Work",
+        "url": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
+        "source": "OpenAI Blog",
+        "paragraph": "OpenAI released a companion guide to its data science post, this one aimed at sales teams and covering how ChatGPT Work can generate pipeline briefs, meeting preparation packets, forecast reviews, account plans, and stalled-deal diagnoses. The documentation walks through specific workflow scenarios using actual sales inputs, illustrating how the tool can reduce manual preparation time for common revenue-team tasks. Like the data science guide, it is part of OpenAI's ChatGPT Academy series, which appears designed to drive enterprise workflow adoption. Together the two guides reflect OpenAI's strategy of targeting distinct professional personas with tailored use-case content."
+      },
+      {
+        "title": "Show HN: Benchmark your eng team's AI agent maturity in 5 minutes",
+        "url": "https://agent-benchmarks.com/software-factory/",
+        "source": "Hacker News",
+        "paragraph": "A team has released a free self-assessment tool that allows engineering leaders to rate their organization's AI agent adoption maturity across several dimensions, using a 1-to-5 scale for factors such as autonomy, tooling, and workflow integration. The tool was developed after the creators conducted hundreds of conversations with engineering leaders trying to understand their position in AI adoption relative to peers. Respondents answer questions ranging from whether AI provides only suggestions to whether agents autonomously manage multi-hour workflows spanning code and infrastructure. The benchmark is positioned as a diagnostic rather than a prescriptive framework, with results intended to surface gaps and guide prioritization."
+      }
+    ]
+  },
+  {
+    "theme": "Hardware & Infrastructure",
+    "stories": [
+      {
+        "title": "Alternative(s) to run CUDA on non-Nvidia hardware",
+        "url": "https://www.hpcwire.com/2026/07/09/spectral-compute-aims-to-set-cuda-free-will-it-succeed/",
+        "source": "Hacker News",
+        "paragraph": "HPC Wire profiles Spectral Compute, a UK-based company developing SCALE, a compiler toolchain designed to run CUDA code on non-Nvidia GPUs without requiring code rewrites. The approach targets a significant pain point in the AI and HPC ecosystem: CUDA's tight coupling to Nvidia hardware, which limits portability and vendor choice. Spectral Compute claims SCALE can compile existing CUDA applications to run on AMD GPUs, potentially allowing organizations to diversify their hardware procurement. The viability of the approach remains to be demonstrated at production scale, but it enters a competitive space that also includes AMD's ROCm and Intel's oneAPI as alternative execution environments."
+      }
+    ]
+  },
+  {
+    "theme": "Open-Source Tools & Developer Practices",
+    "stories": [
+      {
+        "title": "Using uvx in GitHub Actions in a cache-friendly way",
+        "url": "https://simonwillison.net/2026/Jul/14/uvx-github-actions-cache/#atom-everything",
+        "source": "Simon Willison",
+        "paragraph": "Simon Willison documented a technique for using the uvx Python tool runner inside GitHub Actions workflows in a way that is compatible with GitHub's caching system. The key method involves setting a UV_EXCLUDE_NEWER environment variable — for example, \"2026-07-12\" — at the start of the workflow and incorporating that value into the cache key, which causes uvx to resolve tools deterministically based on a fixed date. Without this approach, uvx can pull different package versions on successive runs, making caching unreliable. The post is a concise how-to aimed at developers who use uv-based tooling in CI pipelines and want reproducible, fast builds."
+      }
+    ]
+  }
+]

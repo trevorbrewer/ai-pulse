@@ -1,0 +1,250 @@
+{
+  "date": "2026-07-14",
+  "generated_at": "2026-07-14T12:08:14.527965+00:00",
+  "source_counts": {
+    "rss_feeds": 5,
+    "arxiv": 50,
+    "hackernews": 25,
+    "nitter": 0,
+    "total_raw": 80,
+    "total_deduped": 80,
+    "total_saved": 25
+  },
+  "items": [
+    {
+      "title": "The Future Worth Building Is Human \u2013 Thinking Machines Lab",
+      "url": "https://thinkingmachines.ai/blog/the-future-worth-building-is-human/",
+      "source": "Hacker News",
+      "published": "2026-07-14T11:05:27+00:00",
+      "summary_raw": "",
+      "points": 33,
+      "num_comments": 12,
+      "hn_url": "https://news.ycombinator.com/item?id=48904905"
+    },
+    {
+      "title": "Alternative(s) to run CUDA on non-Nvidia hardware",
+      "url": "https://www.hpcwire.com/2026/07/09/spectral-compute-aims-to-set-cuda-free-will-it-succeed/",
+      "source": "Hacker News",
+      "published": "2026-07-14T08:24:49+00:00",
+      "summary_raw": "",
+      "points": 72,
+      "num_comments": 36,
+      "hn_url": "https://news.ycombinator.com/item?id=48903715"
+    },
+    {
+      "title": "Show HN: Benchmark your eng team's AI agent maturity in 5 minutes",
+      "url": "https://agent-benchmarks.com/software-factory/",
+      "source": "Hacker News",
+      "published": "2026-07-14T06:48:47+00:00",
+      "summary_raw": "we had hundreds of discussions with engineering leaders over the past few months, and everyone&#x27;s trying to understand where they are in the AI journey.<p>we collected all this data into a benchmark and built a free grader to let you know where you stand.<p>you answer on a 1\u20135 scale (e.g., autonomy runs from &quot;suggestions only&quot; to &quot;agents own multi-hour workflows across code, infra, and external systems&quot;) - takes about 5 minutes.<p><a href=\"https:&#x2F;&#x2F;agent-benchmarks.com&#x2F;software-factory&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;agent-benchmarks.com&#x2F;software-factory&#x2F;</a><p>waiting for your results!",
+      "points": 10,
+      "num_comments": 4,
+      "hn_url": "https://news.ycombinator.com/item?id=48903102"
+    },
+    {
+      "title": "Meta Is Flooding the Market with Smartglasses. Privacy Advocates Are Up in Arms",
+      "url": "https://www.wsj.com/tech/ai/meta-is-flooding-the-market-with-smartglasses-privacy-advocates-are-up-in-arms-8fb71539",
+      "source": "Hacker News",
+      "published": "2026-07-14T02:23:03+00:00",
+      "summary_raw": "",
+      "points": 16,
+      "num_comments": 2,
+      "hn_url": "https://news.ycombinator.com/item?id=48901533"
+    },
+    {
+      "title": "Georgia family says they're forced to sell home to power AI data centers",
+      "url": "https://www.cbsnews.com/news/georgia-power-ai-data-centers-eminent-domain/",
+      "source": "Hacker News",
+      "published": "2026-07-14T02:05:53+00:00",
+      "summary_raw": "",
+      "points": 24,
+      "num_comments": 7,
+      "hn_url": "https://news.ycombinator.com/item?id=48901420"
+    },
+    {
+      "title": "What will be left for us to work on?",
+      "url": "https://www.normaltech.ai/p/what-will-be-left-for-us-to-work",
+      "source": "Hacker News",
+      "published": "2026-07-14T01:44:40+00:00",
+      "summary_raw": "",
+      "points": 143,
+      "num_comments": 193,
+      "hn_url": "https://news.ycombinator.com/item?id=48901292"
+    },
+    {
+      "title": "Building Food Metadata with LLM Juries",
+      "url": "https://careersatdoordash.com/blog/building-food-metadata-with-llm-juries-context-optimization-multimodal-ai/",
+      "source": "Hacker News",
+      "published": "2026-07-14T01:41:49+00:00",
+      "summary_raw": "",
+      "points": 41,
+      "num_comments": 10,
+      "hn_url": "https://news.ycombinator.com/item?id=48901275"
+    },
+    {
+      "title": "Boom? If AI Sales in the US Go South, Let's Not Bail Out Big Money Bettors",
+      "url": "https://www.nationalmemo.com/ai-bubble-2677214150",
+      "source": "Hacker News",
+      "published": "2026-07-14T01:41:02+00:00",
+      "summary_raw": "",
+      "points": 11,
+      "num_comments": 1,
+      "hn_url": "https://news.ycombinator.com/item?id=48901267"
+    },
+    {
+      "title": "Using uvx in GitHub Actions in a cache-friendly way",
+      "url": "https://simonwillison.net/2026/Jul/14/uvx-github-actions-cache/#atom-everything",
+      "source": "Simon Willison",
+      "published": "2026-07-14T00:56:20+00:00",
+      "summary_raw": "TIL: Using uvx in GitHub Actions in a cache-friendly way\n        I finally found a cache-friendly recipe for using uvx tool-name in GitHub Actions workflows that I like.\nThe trick is setting a UV_EXCLUDE_NEWER: \"2026-07-12\" environment variable at the start of the workflow and then using that as part of the GitHub Actions cache key. This means any uvx tool-name commands will resolve to the most recent version as-of that date, and you can bust the cache and upgrade the tools by bumping the date in the future.\nMy goal here is to use Python tools in GitHub Actions without every run of the workflow hitting PyPI to download a fresh copy of the tool and its dependencies.\nUpdate: Here's an existing issue against the astral-sh/setup-uv repository requesting that they switch the default to cache rather than purge wheels from PyPI.\n    \n    \n        Tags: packaging, pypi, python, github-actions, uv"
+    },
+    {
+      "title": "Scams Were Awful. Then They Got AI",
+      "url": "https://www.rstreet.org/commentary/scams-were-already-awful-then-they-got-ai/",
+      "source": "Hacker News",
+      "published": "2026-07-14T00:09:32+00:00",
+      "summary_raw": "",
+      "points": 13,
+      "num_comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=48900681"
+    },
+    {
+      "title": "How data science teams use ChatGPT Work",
+      "url": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
+      "source": "OpenAI Blog",
+      "published": "2026-07-14T00:00:00+00:00",
+      "summary_raw": "See how data science teams can use ChatGPT Work to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs."
+    },
+    {
+      "title": "How sales teams use ChatGPT Work",
+      "url": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
+      "source": "OpenAI Blog",
+      "published": "2026-07-14T00:00:00+00:00",
+      "summary_raw": "See how sales teams can use ChatGPT Work to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs."
+    },
+    {
+      "title": "Show HN: FixBugs \u2013 Reproduce production bugs and verify fixes",
+      "url": "https://fixbugs.ai",
+      "source": "Hacker News",
+      "published": "2026-07-13T23:42:53+00:00",
+      "summary_raw": "I built FixBugs, an agent that ingests the rich context surrounding production bugs to reproduce them in a sandbox and generate verified fixes. It&#x27;s available in the form of a self-hosted VSCode extension  and as a Github app:<p>VSCode Extension: <a href=\"https:&#x2F;&#x2F;fixbugs.ai&#x2F;go&#x2F;vscode-extension\" rel=\"nofollow\">https:&#x2F;&#x2F;fixbugs.ai&#x2F;go&#x2F;vscode-extension</a><p><pre><code>  - full code and data privacy.\n  - zero data retention models opted out of training.\n</code></pre>\nGitHub App: <a href=\"https:&#x2F;&#x2F;fixbugs.ai&#x2F;go&#x2F;github-app\" rel=\"nofollow\">https:&#x2F;&#x2F;fixbugs.ai&#x2F;go&#x2F;github-app</a><p><pre><code>  - we do access your code temporarily.\n  - pick a repo to install FixBugs on.\n</code></pre>\nWhat motivated me to build FixBugs were my years being on-call at Google and VMware. How many hours did I spend gathering logs, traces, reviewing metrics, and reading code only to find that,<p>* Some context was missing.<p>* The bug wasn&#x27;t reproducible.<p>* The alert was caused by a transient infrastructure issue.<p>Too many. Inefficiency in investigating staging&#x2F;production bugs has a real cost, and it&#x27;s paid both by developers and customers.<p>Current capabilities:<p><pre><code>  - Reproduce the bug.\n\n  - Identify the root cause.\n\n  - Generate a fix.\n\n  - Verify the fix.\n\n  - Review the generated code using multiple AI models to help catch potential regressions.\n</code></pre>\nDo try it and let me know what you think!<p>I&#x27;d especially love feedback from engineers who work with distributed systems or handle high-volume production bug triage.",
+      "points": 32,
+      "num_comments": 28,
+      "hn_url": "https://news.ycombinator.com/item?id=48900465"
+    },
+    {
+      "title": "Show HN: Sx 2.0 \u2013 Share AI skills with your team through a Dropbox folder",
+      "url": "https://sleuth-io.github.io/sx/2026/07/10/your-dropbox-is-now-a-skill-server.html",
+      "source": "Hacker News",
+      "published": "2026-07-13T23:26:52+00:00",
+      "summary_raw": "Hi all, author here. SX started as a CLI to let developers share skills across AI clients without having to rely on git for storage. This allowed sharing at the Repo&#x2F;Team&#x2F;Org and Personal level.<p>However, the more we spoke to users the more we realized that non-technical users were actually using skills more and more but they had no way to share. And there was no way you were going to get your legal team to install and learn git.<p>SX 2.0 is targeting non-technical teams by adding a native Mac, Windows and Linux app. Our vault format was reworked so it can be used directly as a claude or codex plugin. And by storing your vault in Dropbox, Google Drive, iCloud or others you can be up and sharing in under a minute.<p>2.0 also adds an extension system with extensions that manage Skill Evals, LLM de-duping, metics and much more <a href=\"https:&#x2F;&#x2F;github.com&#x2F;sleuth-io&#x2F;sx-extensions\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;sleuth-io&#x2F;sx-extensions</a>.<p>It&#x27;s Apache-2.0 and you can download it here <a href=\"https:&#x2F;&#x2F;github.com&#x2F;sleuth-io&#x2F;sx\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;sleuth-io&#x2F;sx</a>.",
+      "points": 39,
+      "num_comments": 31,
+      "hn_url": "https://news.ycombinator.com/item?id=48900319"
+    },
+    {
+      "title": "The AI Whale Fall and Open Source",
+      "url": "https://minor.gripe/posts/2026-07-13-the_ai_whalefall_and_open_source/",
+      "source": "Hacker News",
+      "published": "2026-07-13T23:16:42+00:00",
+      "summary_raw": "",
+      "points": 33,
+      "num_comments": 18,
+      "hn_url": "https://news.ycombinator.com/item?id=48900231"
+    },
+    {
+      "title": "Cdbx.ai \u2013 AI-powered browser IDE to describe, build, and publish apps",
+      "url": "https://cdbx.ai/",
+      "source": "Hacker News",
+      "published": "2026-07-13T23:07:16+00:00",
+      "summary_raw": "",
+      "points": 16,
+      "num_comments": 3,
+      "hn_url": "https://news.ycombinator.com/item?id=48900140"
+    },
+    {
+      "title": "DOOMQL",
+      "url": "https://simonwillison.net/2026/Jul/13/doomql/#atom-everything",
+      "source": "Simon Willison",
+      "published": "2026-07-13T22:34:41+00:00",
+      "summary_raw": "DOOMQL\nPeter Gostev built this using GPT-5.6 Sol. This is a lot of fun: \n\nDOOMQL started with a deliberately unreasonable question: what if SQLite were the game engine, not merely the place where a game stores data?\nThe result is a small, original Doom-like game in which SQL owns movement, collision, enemies, combat, progression and every RGB pixel on screen.\n\nIt's implemented as a Python terminal script - I tried it out like this:\ncd /tmp\ngit clone https://github.com/petergpt/doomql\ncd doomql\nuv run host/doomql.py\n\n\nHere's the huge SQL query that implements a full ray tracer in SQLite using a recursive CTE.\nRunning the above script creates a /tmp/doomql/.doomql/doomql.sqlite SQLite database, which you can explore using Datasette like this:\nuvx --prerelease=allow  --with datasette-apps datasette \\\n  /tmp/doomql/.doomql/doomql.sqlite \\\n  -p 4444 --root --secret 1 --internal internal.db\n\nThe --with datasette-apps option installs the new Datasette Apps plugin, which supports creating custom HTML+JavaScript apps that can run SQL queries directly within the Datasette interface.\nI created a new app, pasted the copy-paste prompt into Claude chat (Fable 5) and told it:\n\nBuild an app that displays the current state of the screen using the frame_pixels view with its x, y, r, g, b columns. have it refresh once a second.\n\nThis got me a working HTML+JavaScript app inside Datasette that could reflect the current state while I played the game in my terminal. Then I added:\n\nadd a minimap\n\nAnd now my Datasette App looks like this:\n\nHere's the HTML app code - paste that into your own Datasette instance (using the uvx --with datasette-apps recipe from above) to try it yourself.\n\n    Via @petergostev\n\n\n    Tags: games, sql, sqlite, ai, datasette, generative-ai, llms, ai-assisted-programming, gpt, datasette-apps"
+    },
+    {
+      "title": "Four awful new privacy-eroding features from Meta in a month",
+      "url": "https://manualdousuario.net/en/meta-instagram-ai-facial-recognition/",
+      "source": "Hacker News",
+      "published": "2026-07-13T22:16:27+00:00",
+      "summary_raw": "",
+      "points": 17,
+      "num_comments": 3,
+      "hn_url": "https://news.ycombinator.com/item?id=48899644"
+    },
+    {
+      "title": "Show HN: I built a one-prompt hackathon platform, free entry, sponsored prizes",
+      "url": "https://1shotchallenge.ai",
+      "source": "Hacker News",
+      "published": "2026-07-13T22:14:12+00:00",
+      "summary_raw": "",
+      "points": 11,
+      "num_comments": 8,
+      "hn_url": "https://news.ycombinator.com/item?id=48899620"
+    },
+    {
+      "title": "Economists are coming around to the idea that AI really is killing jobs",
+      "url": "https://qz.com/economists-ai-job-displacement-industrial-revolution-statement-071326",
+      "source": "Hacker News",
+      "published": "2026-07-13T21:58:52+00:00",
+      "summary_raw": "",
+      "points": 11,
+      "num_comments": 5,
+      "hn_url": "https://news.ycombinator.com/item?id=48899483"
+    },
+    {
+      "title": "datasette code-frequency chart on GitHub",
+      "url": "https://simonwillison.net/2026/Jul/13/datasette-code-frequency/#atom-everything",
+      "source": "Simon Willison",
+      "published": "2026-07-13T21:45:27+00:00",
+      "summary_raw": "datasette code-frequency chart on GitHub\nOut of curiosity I decided to see if I could find a useful illustration of the impact of coding agents and Opus 4.5 class models on my own output. The best I've found so far is this GitHub chart of frequency of code changes to my Datasette open source project:\n\nThe big spike in activity at the end aligns with Opus 4.8, GPT-5.5, Fable 5 and GPT-5.6 Sol.\n\n\n    Tags: github, ai, datasette, generative-ai, llms, ai-assisted-programming, coding-agents"
+    },
+    {
+      "title": "MIT's New Method Flags AI Models Trained on CASM Without Generating It",
+      "url": "https://insideai.news/news/ai-safety/mits-new-method-flags-ai-models-trained-on-child-abuse-imagery-without-generating-it/3869/",
+      "source": "Hacker News",
+      "published": "2026-07-13T21:44:18+00:00",
+      "summary_raw": "",
+      "points": 11,
+      "num_comments": 5,
+      "hn_url": "https://news.ycombinator.com/item?id=48899324"
+    },
+    {
+      "title": "Samsung Health app threatens data deletion if users opt out AI training",
+      "url": "https://neow.in/cWsyMTV3",
+      "source": "Hacker News",
+      "published": "2026-07-13T20:01:43+00:00",
+      "summary_raw": "",
+      "points": 330,
+      "num_comments": 89,
+      "hn_url": "https://news.ycombinator.com/item?id=48897991"
+    },
+    {
+      "title": "AI is a bad tool",
+      "url": "https://bytecode.news/posts/2026/07/user-submission-ai-is-a-bad-tool",
+      "source": "Hacker News",
+      "published": "2026-07-13T19:51:15+00:00",
+      "summary_raw": "",
+      "points": 78,
+      "num_comments": 91,
+      "hn_url": "https://news.ycombinator.com/item?id=48897861"
+    },
+    {
+      "title": "Economists say 'we must act now' on AI's economic impact and job displacement",
+      "url": "https://apnews.com/article/ai-must-act-now-job-displacement-783469467e0df1463df44518f33295ee",
+      "source": "Hacker News",
+      "published": "2026-07-13T18:35:34+00:00",
+      "summary_raw": "",
+      "points": 18,
+      "num_comments": 12,
+      "hn_url": "https://news.ycombinator.com/item?id=48896842"
+    }
+  ]
+}
