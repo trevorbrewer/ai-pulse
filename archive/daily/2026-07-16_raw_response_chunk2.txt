@@ -1,0 +1,94 @@
+[
+  {
+    "theme": "Model Releases & Open Weights",
+    "stories": [
+      {
+        "title": "Grok Build is open source",
+        "url": "https://x.ai/open-source",
+        "source": "Hacker News",
+        "paragraph": "xAI has released Grok Build as open source, making the underlying code available to developers. The move follows a broader trend of AI labs releasing tools and model weights publicly to attract developer adoption. The release is hosted at xAI's dedicated open-source page and adds to a growing catalog of openly available AI infrastructure."
+      },
+      {
+        "title": "Inkling – Open-Weights 975B Parameter LLM",
+        "url": "https://thinkingmachines.ai/inkling/",
+        "source": "Hacker News",
+        "paragraph": "Thinking Machines AI has released Inkling, an open-weights large language model with 975 billion parameters, placing it among the largest publicly available models by parameter count. Open-weights releases at this scale are notable because they allow researchers and practitioners to run, study, and fine-tune the model without API restrictions. The release is accompanied by an introductory post detailing the model's capabilities and intended use cases."
+      },
+      {
+        "title": "Inkling: Our Open-Weights Model",
+        "url": "https://thinkingmachines.ai/news/introducing-inkling/",
+        "source": "Hacker News",
+        "paragraph": "Thinking Machines AI published a formal announcement post for Inkling, their 975-billion-parameter open-weights model, providing additional context on its development and design choices. The post explains the rationale for releasing model weights openly rather than through a closed API, citing the value of community-driven evaluation and adaptation. This announcement accompanies the model's technical release page and is aimed at practitioners looking for implementation guidance."
+      }
+    ]
+  },
+  {
+    "theme": "Industry News & Policy",
+    "stories": [
+      {
+        "title": "Three governments agree on something the AI industry doesn't want to hear",
+        "url": "https://www.theattachmenteconomy.com/p/three-governments-agree-on-something",
+        "source": "Hacker News",
+        "paragraph": "Three governments have reached a shared position on an AI-related policy matter that runs counter to positions commonly held by major AI companies, according to a report in The Attachment Economy. The convergence of government views across three separate jurisdictions signals growing international regulatory coordination on AI. The specific policy stance reportedly concerns obligations or restrictions that the AI industry has actively lobbied against."
+      },
+      {
+        "title": "Linus Torvalds Reaffirms That Linux Is Not "Anti-AI"",
+        "url": "https://www.phoronix.com/news/Linux-Is-Not-Anti-AI",
+        "source": "Hacker News",
+        "paragraph": "Linux creator Linus Torvalds has publicly stated that the Linux project does not have an anti-AI stance, pushing back against characterizations that the kernel community is hostile to AI-generated contributions. Torvalds' comments come amid ongoing debates in open-source communities about the acceptability of AI-assisted code submissions. His position is that the concern is code quality and legal provenance, not AI tooling itself."
+      },
+      {
+        "title": "Ask HN: Are AWS Certs worth getting for experienced Devs?",
+        "url": "https://news.ycombinator.com/item?id=48925128",
+        "source": "Hacker News",
+        "paragraph": "A Hacker News thread asked whether AWS certifications, such as the Solutions Architect Associate or Professional, hold value for developers who already have hands-on cloud and backend experience gained through startup work. The discussion is relevant to practitioners navigating career development in an environment where AI tools are increasingly handling routine infrastructure tasks. Responses from the community weigh formal credentialing against demonstrated project experience as signals to employers."
+      }
+    ]
+  },
+  {
+    "theme": "Evaluation & Benchmarking",
+    "stories": [
+      {
+        "title": "Benchmarks Are Dead (For Us)",
+        "url": "https://poetiq.ai/posts/benchmarks_are_dead/",
+        "source": "Hacker News",
+        "paragraph": "Poetiq AI published a post arguing that standard LLM benchmarks have become unreliable proxies for real-world task performance, at least for their specific use case. The piece reflects a growing practitioner skepticism toward leaderboard metrics that may not correlate with how models perform on domain-specific or production workloads. The authors describe moving toward internal, task-specific evaluations as a replacement for relying on published benchmark scores."
+      },
+      {
+        "title": "Hindcast: Replaying Prediction Markets to Evaluate LLM Forecasters",
+        "url": "https://arxiv.org/abs/2607.14051v1",
+        "source": "arXiv",
+        "paragraph": "Researchers identified two data-leakage channels that undermine standard backtesting of LLM forecasters: a model that can retrieve information may surface post-event reports, and newer models are trained on data temporally closer to the event being forecast, making what was once a hard question effectively a lookup. The paper introduces Hindcast, a framework that replays resolved prediction market questions while controlling for both retrieval access and training cutoff proximity. This methodology aims to produce more honest assessments of whether LLMs are genuinely forecasting or exploiting training-data contamination."
+      }
+    ]
+  },
+  {
+    "theme": "Research Papers",
+    "stories": [
+      {
+        "title": "Leveraging unlabelled data for generalizable neural population decoding",
+        "url": "https://arxiv.org/abs/2607.14086v1",
+        "source": "arXiv",
+        "paragraph": "Researchers propose extending spike-level neural data tokenization, previously used for supervised multi-session pretraining in brain-computer interface decoders, to incorporate unlabelled data through self-supervised learning. Current state-of-the-art spike-based models are restricted to supervised learning, which limits training to datasets that have paired behavioral labels. By leveraging unlabelled neural recordings, the approach aims to improve decoder generalization across sessions and subjects, a persistent practical challenge in neurotechnology deployment."
+      },
+      {
+        "title": "Linear Independent Component Analysis via Optimal Transport",
+        "url": "https://arxiv.org/abs/2607.14081v1",
+        "source": "arXiv",
+        "paragraph": "This paper proposes using optimal transport as a framework for linear Independent Component Analysis (ICA), which recovers statistically independent source signals from linear mixtures of observations. Classical ICA algorithms maximize non-Gaussianity as a proxy for independence, relying on approximate contrast functions such as fourth-order cumulants because exact negentropy optimization is intractable. The optimal transport formulation offers an alternative theoretical grounding that avoids some of the approximation limitations of traditional approaches."
+      },
+      {
+        "title": "MetaPerch: Learning from metadata for bioacoustics foundation models",
+        "url": "https://arxiv.org/abs/2607.14072v1",
+        "source": "arXiv",
+        "paragraph": "MetaPerch is a proposed approach for bioacoustic foundation models that exploits recording metadata available in citizen-science platforms like Xeno-Canto — such as geographic location and ecological context — in addition to audio content during training. Prior work showed that supervised training on Xeno-Canto data alone can achieve state-of-the-art species detection, but the metadata accompanying recordings remains largely unused. By incorporating this additional signal, MetaPerch aims to improve model generalization across geographically and ecologically diverse recordings."
+      },
+      {
+        "title": "Screening of Biosecurity Features in Metagenomic Data with Evo 2 Probes",
+        "url": "https://arxiv.org/abs/2607.14070v1",
+        "source": "arXiv",
+        "paragraph": "Researchers evaluated how much biosecurity-relevant information is linearly accessible in the internal representations of Evo 2, a genomic foundation model, by training lightweight linear and attention probes on frozen activations from layer 26 without fine-tuning the base model. The study focuses on metagenomic data screening, testing whether the model's learned sequence representations encode signals useful for identifying biosecurity threats. Results across held-out metagenomic test sets suggest that meaningful biosecurity-relevant structure is present in Evo 2's representations even without task-specific training."
+      }
+    ]
+  }
+]

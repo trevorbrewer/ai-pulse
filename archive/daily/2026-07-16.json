@@ -1,0 +1,241 @@
+{
+  "date": "2026-07-16",
+  "generated_at": "2026-07-16T12:18:54.032382+00:00",
+  "source_counts": {
+    "rss_feeds": 3,
+    "arxiv": 50,
+    "hackernews": 33,
+    "nitter": 0,
+    "total_raw": 86,
+    "total_deduped": 84,
+    "total_saved": 25
+  },
+  "items": [
+    {
+      "title": "Linus Torvalds tells AI haters to fork off",
+      "url": "https://www.theregister.com/ai-and-ml/2026/07/15/linus-torvalds-tells-ai-haters-to-fork-off/5271894",
+      "source": "Hacker News",
+      "published": "2026-07-16T06:23:52+00:00",
+      "summary_raw": "",
+      "points": 10,
+      "num_comments": 6,
+      "hn_url": "https://news.ycombinator.com/item?id=48930971"
+    },
+    {
+      "title": "EU officials peeved after Anthropic sends junior staffer to testify about safety",
+      "url": "https://www.politico.eu/article/anthropic-european-parliament-donny-greenberg-artificial-intelligence-ai/",
+      "source": "Hacker News",
+      "published": "2026-07-16T05:08:08+00:00",
+      "summary_raw": "",
+      "points": 19,
+      "num_comments": 3,
+      "hn_url": "https://news.ycombinator.com/item?id=48930585"
+    },
+    {
+      "title": "Stop saying that AI is just a tool and it only matters how it is used",
+      "url": "https://www.frank.computer/blog/2025/05/just-a-tool.html",
+      "source": "Hacker News",
+      "published": "2026-07-16T04:31:01+00:00",
+      "summary_raw": "",
+      "points": 88,
+      "num_comments": 83,
+      "hn_url": "https://news.ycombinator.com/item?id=48930363"
+    },
+    {
+      "title": "WSJ: The AI Backlash Has Tech Executives Fearing for Their Lives",
+      "url": "https://www.wsj.com/us-news/the-ai-backlash-has-tech-executives-fearing-for-their-lives-30c43972",
+      "source": "Hacker News",
+      "published": "2026-07-16T04:17:59+00:00",
+      "summary_raw": "",
+      "points": 19,
+      "num_comments": 9,
+      "hn_url": "https://news.ycombinator.com/item?id=48930281"
+    },
+    {
+      "title": "Open Source, Free Tier Capable Whispr Using Cloudflare AI",
+      "url": "https://github.com/PrestigePvP/Voicebox",
+      "source": "Hacker News",
+      "published": "2026-07-16T02:57:30+00:00",
+      "summary_raw": "",
+      "points": 13,
+      "num_comments": 7,
+      "hn_url": "https://news.ycombinator.com/item?id=48929870"
+    },
+    {
+      "title": "Generative AI is an Engineering Disaster",
+      "url": "https://www.theatlantic.com/technology/2026/07/generative-ai-engineering-disaster/687901/",
+      "source": "Hacker News",
+      "published": "2026-07-16T00:49:52+00:00",
+      "summary_raw": "",
+      "points": 10,
+      "num_comments": 2,
+      "hn_url": "https://news.ycombinator.com/item?id=48929167"
+    },
+    {
+      "title": "Mermaid to Unicode box art (grok-mermaid)",
+      "url": "https://simonwillison.net/2026/Jul/16/grok-mermaid/#atom-everything",
+      "source": "Simon Willison",
+      "published": "2026-07-16T00:33:18+00:00",
+      "summary_raw": "Tool: Mermaid to Unicode box art (grok-mermaid)\n        While exploring the codebase for the newly open-sourced Grok CLI coding agent I came across xai-grok-markdown/src/mermaid.rs, a \"self-contained terminal renderer for Mermaid diagrams\" written in Rust.\nI figured it would be fun to try that out in a browser via WebAssembly. Here's the prompt I ran in Claude Code for web (Fable 5), and this is what the resulting tool looks like:\n\n    \n    \n        Tags: tools, rust, webassembly, mermaid, grok, xai"
+    },
+    {
+      "title": "xai-org/grok-build, now open source",
+      "url": "https://simonwillison.net/2026/Jul/15/grok-build/#atom-everything",
+      "source": "Simon Willison",
+      "published": "2026-07-15T23:59:30+00:00",
+      "summary_raw": "xai-org/grok-build, now open source\nxAI's grok CLI tool faced severe community backlash yesterday when it became apparent that running the command in a directory could upload that entire directory to xAI's Google Cloud buckets. One user reported running it in their home directory and seeing it upload \"my SSH keys, my password manager database, my documents, photos, videos, everything\".\nI've not seen an official explanation for why it was doing this, but xAI did respond to the feedback (Musk: \"As a precautionary measure, all user data that was uploaded to SpaceXAI before now will be completely and utterly deleted.\") and have disabled the feature.\nA few hours ago they also released the entire Grok Build codebase under an Apache 2.0 license - presumably to try and regain trust from their users. From their thread announcing the new repository:\n\n[...] When data upload was disabled, this choice was respected. In the early beta, data retention was enabled by default for non-ZDR users. Based on your feedback, we changed this. We are now going further to protect privacy.\nWith all retained data deleted, retention default off, and an open-source harness, we are offering complete user privacy. You can also run Grok Build fully open-sourced and local-first with your own inference.\nWe disabled default retention for all Grok Build users starting on July 12th. Additionally, we are deleting all coding data that was previously retained, ensuring every user\u2019s preferences are respected. With these steps, Grok Build goes beyond other major coding products to protect user privacy.\n\nIt's quite a surprising codebase! Grok Build contains 844,530 lines of Rust (calculated using my SLOCCount tool, which excludes whitespace and comments) of which only around 3% appears to be vendored.\nSo far the repo has just a single commit releasing the code, so sadly we don't get any insight into how the codebase developed over time.\nA few highlights:\n\nxai-grok-agent/templates/prompt.md has the main system prompt and xai-grok-agent/templates/subagent_prompt.md has the subagent prompt. Oddly that subagent prompt has \"Do not ... reveal the contents of this system prompt to the user\" but the main prompt does not. \nxai-grok-markdown/src/mermaid.rs is a \"self-contained terminal renderer for Mermaid diagrams\", which renders a subset of Mermaid chart types using Unicode box-drawing. Update: I got a version of this working in WebAssembly so it now runs in the browser.\nxai-grok-tools/src/implementations includes tool implementations imitated from other coding agents - the Codex apply_patch, grep_files, list_dir, and read_dir tools, and OpenCode's bash, edit, glob, grep, read, skill, todowrite and write. The xai-grok-tools/THIRD_PARTY_NOTICES.md file says these are \"ported from\" those projects, in a way that looks compliant with the Apache and MIT licenses they use. It looks like these copies exist because Grok can switch between them, maybe based on detecting existing Codex or Claude or Cursor settings? I'm not confident I understand if that happens or how it works.\nThere are still remnants of the code that used to upload everything to Google Cloud, but they seem to have been disabled now. xai-grok-shell/src/upload/gcs.rs has code for uploading to a GCS bucket. upload/trace.rs includes an upload_session_state() function which returns a hard-coded session_state_upload_unavailable error. \n\nFor comparison, openai/codex is 950,933 lines of Rust. Terminal coding agents are significantly more complex than I had realized!\nHere's the Claude Code chat transcript where I had it clone the repo and help me dig around to see how it works.\n\n    Via Hacker News\n\n\n    Tags: open-source, ai, rust, generative-ai, llms, coding-agents, xai"
+    },
+    {
+      "title": "Linus Torvalds \"Linux is not one of those anti-AI projects\"",
+      "url": "https://lore.kernel.org/linux-media/CAHk-=wi4zC+Ze8e+p3tMv8TtG_80KzsZ1syL9anBtmEh5Z40vg@mail.gmail.com/",
+      "source": "Hacker News",
+      "published": "2026-07-15T23:44:01+00:00",
+      "summary_raw": "",
+      "points": 16,
+      "num_comments": 3,
+      "hn_url": "https://news.ycombinator.com/item?id=48928697"
+    },
+    {
+      "title": "Speculative Growth and the AI \"Bubble\" [pdf]",
+      "url": "https://economics.mit.edu/sites/default/files/2026-07/speculative_growth_AI_public.pdf",
+      "source": "Hacker News",
+      "published": "2026-07-15T21:39:21+00:00",
+      "summary_raw": "",
+      "points": 53,
+      "num_comments": 60,
+      "hn_url": "https://news.ycombinator.com/item?id=48927409"
+    },
+    {
+      "title": "We don't use AI in any of our design or production processes",
+      "url": "https://mass-driver.com/article/from-human-hands",
+      "source": "Hacker News",
+      "published": "2026-07-15T21:36:49+00:00",
+      "summary_raw": "",
+      "points": 100,
+      "num_comments": 108,
+      "hn_url": "https://news.ycombinator.com/item?id=48927373"
+    },
+    {
+      "title": "Governments, companies, nonprofits should invest in free, open source AI [pdf]",
+      "url": "https://www.siegelendowment.org/wp-content/uploads/2026/07/fortune-david-siegel-open-source-ai.pdf",
+      "source": "Hacker News",
+      "published": "2026-07-15T21:16:36+00:00",
+      "summary_raw": "",
+      "points": 224,
+      "num_comments": 79,
+      "hn_url": "https://news.ycombinator.com/item?id=48927095"
+    },
+    {
+      "title": "Grok Build is open source",
+      "url": "https://x.ai/open-source",
+      "source": "Hacker News",
+      "published": "2026-07-15T20:47:29+00:00",
+      "summary_raw": "",
+      "points": 22,
+      "num_comments": 6,
+      "hn_url": "https://news.ycombinator.com/item?id=48926841"
+    },
+    {
+      "title": "Benchmarks Are Dead (For Us)",
+      "url": "https://poetiq.ai/posts/benchmarks_are_dead/",
+      "source": "Hacker News",
+      "published": "2026-07-15T19:30:35+00:00",
+      "summary_raw": "",
+      "points": 10,
+      "num_comments": 1,
+      "hn_url": "https://news.ycombinator.com/item?id=48925921"
+    },
+    {
+      "title": "Three governments agree on something the AI industry doesn't want to hear",
+      "url": "https://www.theattachmenteconomy.com/p/three-governments-agree-on-something",
+      "source": "Hacker News",
+      "published": "2026-07-15T18:46:27+00:00",
+      "summary_raw": "",
+      "points": 28,
+      "num_comments": 6,
+      "hn_url": "https://news.ycombinator.com/item?id=48925342"
+    },
+    {
+      "title": "Ask HN: Are AWS Certs worth getting for experienced Devs?",
+      "url": "https://news.ycombinator.com/item?id=48925128",
+      "source": "Hacker News",
+      "published": "2026-07-15T18:30:53+00:00",
+      "summary_raw": "I worked for big tech out of undergrad (mostly frontend&#x2F;mobile for a few years) moved on to work at a few startups where I naturally switched to do more backend&#x2F;cloud infrastructure work. I never got a &#x27;formal&#x27; education in terms of masters or any kind of certs. Would it be worth it for me to start getting some Certs (like AWS solutions architect - associate&#x2F;professional) if I want to switch my career towards more solutions design&#x2F;consultation? I don&#x27;t know many people personally that went this path. I guess I&#x27;m looking to work for reputable agencies or consultancies and get assigned to different clients&#x2F;projects instead of the usual big tech route of IC for a particular team of a particular company until that company decides to reorg you to another team.<p>Obviously not all Certs have the same value. I think AWS Solutions Architect - Associate would be the most adjacent &#x27;bridge&#x27; for me, is there any other ones that I should be seriously considering? Seems like theres a new one every week nowadays with AI (which I&#x27;ve dabbled with before in some prior projects but nothing deep or extensive).",
+      "points": 10,
+      "num_comments": 7,
+      "hn_url": "https://news.ycombinator.com/item?id=48925128"
+    },
+    {
+      "title": "Inkling \u2013 Open-Weights 975B Parameter LLM",
+      "url": "https://thinkingmachines.ai/inkling/",
+      "source": "Hacker News",
+      "published": "2026-07-15T18:14:23+00:00",
+      "summary_raw": "",
+      "points": 121,
+      "num_comments": 4,
+      "hn_url": "https://news.ycombinator.com/item?id=48924929"
+    },
+    {
+      "title": "Inkling: Our Open-Weights Model",
+      "url": "https://thinkingmachines.ai/news/introducing-inkling/",
+      "source": "Hacker News",
+      "published": "2026-07-15T18:12:45+00:00",
+      "summary_raw": "",
+      "points": 1044,
+      "num_comments": 260,
+      "hn_url": "https://news.ycombinator.com/item?id=48924912"
+    },
+    {
+      "title": "Leveraging unlabelled data for generalizable neural population decoding",
+      "url": "https://arxiv.org/abs/2607.14086v1",
+      "source": "arXiv",
+      "published": "2026-07-15T17:58:00+00:00",
+      "summary_raw": "Robust and accurate neural decoders are integral to neurotechnologies such as brain-computer interfaces and closed-loop experiments. Recent work has shown that tokenizing neural data at the spike level facilitates multi-session pretraining and delivers state-of-the-art decoding performance. However, current spike-based models are restricted to supervised learning (SL), limiting training to datasets with paired behavioural labels. To address this limitation, we introduce MOJO (Masked autOencoder-based JOint training), a training framework for spike-tokenizing models that jointly leverages self-supervised learning (SSL) via masked autoencoding and SL objectives. We evaluate MOJO on three spiking datasets spanning monkey motor cortex during reaching tasks and multi-regional mouse recordings during vision and decision making tasks, demonstrating superior performance over purely SL-trained models. This improvement is especially pronounced when training with limited labelled data, particularly in few-shot finetuning, where only a small amount of labelled data from a new session is available. Incorporating SSL also yields more interpretable neuronal representations, improving performance on brain region classification and spike-statistics prediction without explicit optimization for these tasks. We further show that MOJO generalizes beyond spiking data to human electrocorticography during speech, where it continues to outperform purely SL-trained models and achieves performance comparable to neuro-foundation models (NFMs) designed specifically for continuous signals. Overall, augmenting spike-tokenizing models with SSL improves performance in label-impoverished settings and enables the use of unlabelled data across various tasks and species, while generalizing to other neural modalities. These results suggest a path towards more flexible and scalable data usage when training NFMs."
+    },
+    {
+      "title": "Linear Independent Component Analysis via Optimal Transport",
+      "url": "https://arxiv.org/abs/2607.14081v1",
+      "source": "arXiv",
+      "published": "2026-07-15T17:56:11+00:00",
+      "summary_raw": "Linear Independent Component Analysis (ICA) recovers jointly independent source signals from their linear mixtures. To achieve this, classical ICA algorithms attempt to maximize non-Gaussianity, measured by negentropy, which is linked to independence by information theory. Because exact negentropy optimization is intractable, they rely on proxy contrast functions, such as fourth-order cumulants, and parametric log-likelihoods. We propose instead to measure non-Gaussianity using the squared Wasserstein distance $W_2^2$ to a standard Gaussian. We prove that the Wasserstein distance between a standard normal distribution and linear projections of the data is maximized when the projection recovers an independent component. Based on this observation, we propose the OT-ICA algorithm which finds this projection by gradient-based optimization. Empirical evaluation on simulated data shows that OT-ICA outperforms proxy-based methods for different distributions of the latent variables. Application to EEG artifact removal and econometric price discovery confirm OT-ICA can be used for applied ICA tasks without distributional assumptions."
+    },
+    {
+      "title": "MetaPerch: Learning from metadata for bioacoustics foundation models",
+      "url": "https://arxiv.org/abs/2607.14072v1",
+      "source": "arXiv",
+      "published": "2026-07-15T17:42:41+00:00",
+      "summary_raw": "Bioacoustic foundation models rely on large-scale citizen science platforms like Xeno-Canto for geographically and ecologically diverse data. Recent work has shown that supervision alone can produce SotA species detection models when trained on this large-scale data -- however, there remains unutilized potential in the form of recording metadata readily available within these community-driven data hubs. In this work, we explore the use of metadata -- such as location and time -- as auxiliary supervision signals, allowing the model to leverage species-metadata correlations in its learned representation. Auxiliary metadata losses provide additional information beyond vocalizations alone that can encourage a richer, more robust representation that generalizes better to species distribution and acoustic domain shifts -- important challenges for deployment in real-world passive acoustic monitoring (PAM) settings. We introduce MetaPerch, a new foundation model that achieves strong species identification performance across multiple challenging domains and present an extensive empirical study of the effects of 9 diverse metadata sources on 17 bioacoustic datasets."
+    },
+    {
+      "title": "Screening of Biosecurity Features in Metagenomic Data with Evo 2 Probes",
+      "url": "https://arxiv.org/abs/2607.14070v1",
+      "source": "arXiv",
+      "published": "2026-07-15T17:38:02+00:00",
+      "summary_raw": "Genomic foundation models such as Evo 2 learn rich sequence representations, but their value for biosecurity screening is largely unexplored. We ask how much biosecurity-relevant signal is linearly accessible in these representations by training minimal linear and attention probes on frozen Evo 2 layer-26 activations, without fine-tuning the underlying model. Across held-out metagenomic test sets, the probes detect antimicrobial resistance (AMR) with strong discrimination: a linear probe reaches a region-level ROC-AUC of 0.888 (mean-pool), rising to 0.977 with a single-head attention probe. The probes resolve finer-grained AMR drug-class subcategories and separate them from unrelated functional genes, providing additional evidence that the learned signal is not explained solely by generic functional-gene status. Bacterial virulence is also decodable, though more weakly (region-level ROC-AUC 0.833). The AMR probe retains comparable ranking performance on simulated short reads without retraining, enabling evaluation before assembly in settings where assembly is computationally costly or unreliable. It achieves a read-level ROC-AUC of 0.898 (mean-pool), comparable to the mean-pooled full-region result. Within SynGenome, AMR-associated prompt labels are only weakly recoverable from Evo 1.5-generated sequences; these prompt-derived labels do not establish the function of the generated response sequences. A complementary sparse-autoencoder analysis recovers interpretable resistance-associated features but proves less consistent than the supervised probes. Together, these results position lightweight embedding-based probes as a fast, inexpensive first-pass detection layer for metagenomic biosurveillance and map both strengths and current limits of the approach. This work was conducted as part of the AIxBio Hackathon 2026 hosted by BlueDot Impact, Apart Research, and Cambridge Biosecurity Hub."
+    },
+    {
+      "title": "Linus Torvalds Reaffirms That Linux Is Not \"Anti-AI\"",
+      "url": "https://www.phoronix.com/news/Linux-Is-Not-Anti-AI",
+      "source": "Hacker News",
+      "published": "2026-07-15T17:25:39+00:00",
+      "summary_raw": "",
+      "points": 10,
+      "num_comments": 1,
+      "hn_url": "https://news.ycombinator.com/item?id=48924227"
+    },
+    {
+      "title": "Hindcast: Replaying Prediction Markets to Evaluate LLM Forecasters",
+      "url": "https://arxiv.org/abs/2607.14051v1",
+      "source": "arXiv",
+      "published": "2026-07-15T17:21:43+00:00",
+      "summary_raw": "Forecasters are evaluated by backtesting, which replays resolved questions and grades the probability the system would have assigned before the outcome was known. For LLMs, two channels leak the answer into this test. A model that retrieves can surface reports written after the event, turning forecasting into a lookup, and each new model is trained on data closer to the event, so a question that lay in the future for last year's models sits inside this year's training data. Either way, the test grades recall while claiming to grade foresight. We introduce Hindcast, which closes both leaks by grading a model as if it stood at a chosen past date $t_0$, before the outcome existed in either channel. Hindcast replays resolved Polymarket prediction markets against a frozen snapshot of public Reddit, lets the model read only posts written before $t_0$, and scores each forecast against both what happened and the market's own price at $t_0$, itself a human forecast made from the same past information. Because the cutoff is set per market and the snapshot never changes, the evaluation re-runs on new markets as models improve, without going stale. Once the leak is closed, retrieval still helps most models, but only where Reddit discussed the event beforehand. Where the archive carried only speculation, retrieval hurts."
+    },
+    {
+      "title": "Deep Interaction: An Efficient Human-AI Interaction Method for Large Reasoning Models",
+      "url": "https://arxiv.org/abs/2607.14049v1",
+      "source": "arXiv",
+      "published": "2026-07-15T17:16:43+00:00",
+      "summary_raw": "The emergence of Chain-of-Thought (CoT) reasoning has significantly enhanced the ability of large language models (LLMs) to tackle complex, multi-step tasks. However, when errors occur, current interaction approaches typically involve re-generating another response that may make mistakes again, or users laboriously flag the faulty step in follow-up turns that may get responses <You are right, I made a mistake here> followed by similar errors recurring. To address this issue, we propose an efficient human intervention mechanism for precisely correcting reasoning errors in LLMs, termed Deep Interaction. Our approach enables direct editing of the original response, allowing erroneous parts to be corrected while preserving accurate reasoning steps. We refine the edited CoT into a distilled prompt, which then steers the LLM along the corrected reasoning path. Experimental results show that our method achieves over a 25% improvement in correction success rate and reduces token usage by approximately 40% on STEM tasks reasoning compared to baseline approaches."
+    }
+  ]
+}
