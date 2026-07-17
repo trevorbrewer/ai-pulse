@@ -1,0 +1,202 @@
+[
+  {
+    "theme": "Regulation & Antitrust",
+    "stories": [
+      {
+        "title": "Google Ordered to Give A.I. Rivals More Access on Android Smartphones",
+        "url": "https://www.nytimes.com/2026/07/16/technology/google-android-ai.html",
+        "source": "Hacker News",
+        "paragraph": "A US court has ordered Google to provide competing AI assistants greater access on Android devices, adding to the mounting legal pressure the company faces over its mobile platform dominance. The ruling is notable because it targets the distribution layer for AI products, not just search or advertising. The decision follows a broader antitrust case and could require Google to allow rival AI apps to be set as defaults or surface more prominently on Android phones."
+      },
+      {
+        "title": "EU will force Google to share search data and open up AI on Android",
+        "url": "https://arstechnica.com/gadgets/2026/07/its-official-eu-will-force-google-to-share-search-data-and-open-up-ai-on-android/",
+        "source": "Hacker News",
+        "paragraph": "The European Union has formally issued requirements compelling Google to share search index data with competitors and to open Android to rival AI services, acting under the Digital Markets Act. This marks one of the most concrete enforcement actions taken against a major tech platform under the DMA framework. By gaining access to Google's search data, smaller AI and search companies could train or augment their own models and products with signals that have historically been exclusive to Google."
+      },
+      {
+        "title": "EU orders Google to share search data, open Android to AI rivals competitors",
+        "url": "https://euronews.com/my-europe/2026/07/16/eu-orders-google-to-share-search-data-open-android-to-ai-rivals-competitors",
+        "source": "Hacker News",
+        "paragraph": "Euronews confirmed the EU's official order requiring Google to share search data and open its Android ecosystem to AI competitors, corroborating reports from other outlets on the same ruling. The order stems from the European Commission's designation of Google as a gatekeeper under the Digital Markets Act, which carries non-compliance penalties of up to 10 percent of global annual turnover. The dual pressure from both US courts and EU regulators in the same week signals a coordinated, multi-jurisdictional tightening of oversight on Google's AI and platform practices."
+      }
+    ]
+  },
+  {
+    "theme": "Geopolitics & AI Competition",
+    "stories": [
+      {
+        "title": "Xi pitches China as leader of new global AI order, challenging US dominance",
+        "url": "https://www.reuters.com/world/asia-pacific/chinas-xi-promotes-chinas-commitment-ai-access-speech-shanghai-conference-2026-07-17/",
+        "source": "Hacker News",
+        "paragraph": "Chinese President Xi Jinping used a speech at a Shanghai conference to position China as a proponent of equitable global access to AI, framing Beijing's approach as an alternative to what he characterized as US-dominated AI governance. The speech was delivered to an international audience and emphasized China's willingness to share AI capabilities with developing nations. The remarks come amid ongoing US export controls on advanced semiconductors to China and efforts by both countries to court Global South nations on AI standards and infrastructure."
+      }
+    ]
+  },
+  {
+    "theme": "Industry & Societal Impact",
+    "stories": [
+      {
+        "title": "AI Data Centers and the Concentration of Wealth",
+        "url": "https://www.schneier.com/blog/archives/2026/07/ai-data-centers-and-the-concentration-of-wealth.html",
+        "source": "Hacker News",
+        "paragraph": "Security researcher Bruce Schneier published an analysis arguing that the capital-intensive nature of AI data centers is accelerating wealth concentration among a small number of corporations and investors. He notes that unlike previous software eras where marginal costs were near zero, large-scale AI infrastructure requires massive upfront capital, creating high barriers to entry. Schneier contends this dynamic structurally advantages incumbents and poses questions about long-term economic power distribution that policy discussions have not yet adequately addressed."
+      },
+      {
+        "title": "The AI Backlash Has Tech Executives Fearing for Their Lives",
+        "url": "https://www.wsj.com/us-news/the-ai-backlash-has-tech-executives-fearing-for-their-lives-30c43972",
+        "source": "Hacker News",
+        "paragraph": "The Wall Street Journal reports that a number of technology executives are increasing personal security spending and changing their public behaviors in response to what they describe as growing hostility tied to AI-driven job displacement and corporate conduct. The piece cites specific cases of threats received by executives at AI-focused companies, reflecting a broader social tension as automation accelerates in white-collar sectors. The phenomenon echoes earlier periods of anti-technology sentiment but is now directed specifically at AI leadership."
+      },
+      {
+        "title": "Spot birds not golf",
+        "url": "https://simonwillison.net/2026/Jul/17/spot-birds-not-golf/#atom-everything",
+        "source": "Simon Willison",
+        "paragraph": "Simon Willison published a short commentary proposing that hyperscalers facing criticism over data center water consumption should consider purchasing and converting water-intensive golf courses into public parks as an offset measure. The post grounds the suggestion in a concrete data point: Google consumed 10.9 billion gallons of water in 2025, approximately 30 million gallons per day. Willison notes that the Coachella Valley alone has 120 golf courses, suggesting the land and water footprint of such facilities makes them a plausible candidate for environmental trade-off discussions."
+      }
+    ]
+  },
+  {
+    "theme": "AI Quality & Integrity",
+    "stories": [
+      {
+        "title": "Blatant AI slop just won a 25k USD DeepMind Kaggle Grand Prize",
+        "url": "https://www.kaggle.com/competitions/kaggle-measuring-agi/discussion/724918#3498423",
+        "source": "Hacker News",
+        "paragraph": "A Kaggle community discussion thread alleges that a submission consisting largely of AI-generated content won the $25,000 grand prize in a DeepMind-sponsored Kaggle competition focused on measuring AGI. Community members posting in the thread point to characteristics of the winning submission they say are consistent with low-effort AI generation rather than original research or analysis. The incident has prompted discussion about the adequacy of current judging processes for AI-era competitions where generated text can superficially satisfy evaluation rubrics."
+      }
+    ]
+  },
+  {
+    "theme": "Open-Source Tools & Projects",
+    "stories": [
+      {
+        "title": "UIUC AI Teaching Assistant",
+        "url": "https://github.com/Center-for-AI-Innovation/ai-teaching-assistant-uiuc",
+        "source": "Hacker News",
+        "paragraph": "The University of Illinois Urbana-Champaign's Center for AI Innovation has open-sourced an AI teaching assistant designed to support course instruction at scale. The system is built to handle student questions, provide feedback, and assist instructors in managing large enrollment courses where human-to-student ratios make individualized support difficult. The repository is publicly available on GitHub, allowing other institutions to deploy or adapt the tool for their own educational contexts."
+      },
+      {
+        "title": "Firefox in WebAssembly",
+        "url": "https://simonwillison.net/2026/Jul/16/firefox-in-webassembly/#atom-everything",
+        "source": "Simon Willison",
+        "paragraph": "The company Puter has compiled the Firefox browser to WebAssembly, enabling the full Gecko-based browser to run inside another browser such as Chrome. The project chose Firefox specifically because of its strong support for single-process operation, which made the WebAssembly compilation more tractable than Chromium-based alternatives would have been. Development cost was estimated at approximately $25,000 in Claude Opus and Fable API tokens, though the team used a Claude Max subscription to reduce expenses."
+      }
+    ]
+  },
+  {
+    "theme": "Research Papers",
+    "stories": [
+      {
+        "title": "Time-Series Language Models for Reasoning over Multivariate Data at Scale (ICML)",
+        "url": "https://www.aioniclabs.ai/research/opentslm",
+        "source": "Hacker News",
+        "paragraph": "Aionic Labs has published research at ICML introducing OpenTSLM, a language model architecture designed for reasoning over multivariate time-series data at scale. The work addresses a known limitation of standard language models, which struggle to handle the structured, high-frequency, and multi-channel nature of time-series inputs. The paper details methods for encoding temporal dependencies across multiple variables, positioning the approach as applicable to domains such as finance, healthcare, and sensor analytics."
+      },
+      {
+        "title": "GPT-5.6 Sol Pro solves open problem in convex optimization",
+        "url": "https://medium.com/@kerger.p/an-ai-assisted-breakthrough-in-convex-optimization-an-optimization-problem-dating-back-30-years-a-db5c631119de",
+        "source": "Hacker News",
+        "paragraph": "A researcher reports that GPT-5.6 Sol Pro assisted in resolving a convex optimization problem that had been open for approximately 30 years, with the human contributor framing the work as AI-assisted rather than fully autonomous. The claim is notable because formal mathematical problem-solving at the research frontier remains a difficult benchmark for language models, and convex optimization has direct applications in machine learning, economics, and engineering. The write-up describes the collaborative process between the researcher and the model, though independent verification of the result has not yet been widely reported."
+      },
+      {
+        "title": "Partition, Prompt, Aggregate: Statistical Self-Consistency in Language Models",
+        "url": "https://arxiv.org/abs/2607.15277v1",
+        "source": "arXiv",
+        "paragraph": "This paper examines whether large language model outputs satisfy basic probabilistic identities — specifically the law of total probability — when in-context learning is interpreted as conditional inference. The authors introduce a framework called Partition, Prompt, Aggregate that tests whether prior-weighted conditional distributions estimated by LLMs are internally consistent. Violations of these identities would indicate that the conditional-inference framing of in-context learning is incomplete or misleading, with implications for how practitioners should design prompts and interpret model outputs."
+      },
+      {
+        "title": "RoboTTT: Context Scaling for Robot Policies",
+        "url": "https://arxiv.org/abs/2607.15275v1",
+        "source": "arXiv",
+        "paragraph": "Researchers introduce RoboTTT (Test-Time-Training Robot Policies), a model and training recipe that extends visuomotor context for robot foundation models to 8,000 timesteps — three orders of magnitude beyond current state-of-the-art policies — without increasing inference latency. At this context length, the system enables one-shot in-context adaptation, a capability not previously demonstrated at this scale. Most existing robot foundation models operate with single-step or short-history context, making this a meaningful extension of the architectural design space for robotic control."
+      },
+      {
+        "title": "MeanFlowNFT: Bringing Forward-Process RL to Average-Velocity Generators",
+        "url": "https://arxiv.org/abs/2607.15273v1",
+        "source": "arXiv",
+        "paragraph": "MeanFlowNFT applies the DiffusionNFT forward-process reinforcement learning framework to MeanFlow generators, which achieve fast few-step sampling by predicting average velocities over time intervals rather than instantaneous velocities. The motivation is to align MeanFlow models with human preferences or task-specific objectives using RL without requiring reverse-process simulation, which is computationally expensive. The paper positions MeanFlow generators as an efficient alternative to standard diffusion models for applications where both speed and reward alignment are priorities."
+      },
+      {
+        "title": "SciDiagramEdit: Learning to Edit Scientific Diagrams from Paper Revisions",
+        "url": "https://arxiv.org/abs/2607.15272v1",
+        "source": "arXiv",
+        "paragraph": "SciDiagramEdit addresses the task of automatically editing scientific figures in response to natural-language instructions, treating revisions to published papers as a training signal. The challenge is that scientific figures combine heterogeneous visual elements — labels, panels, and stylistic formatting — making them dense targets for instruction-following models. The dataset is derived from actual manuscript revision histories, giving the benchmark a grounding in real research workflows rather than synthetic editing scenarios."
+      },
+      {
+        "title": "Online Neural Space Time Memory for Dynamic Novel View Synthesis",
+        "url": "https://arxiv.org/abs/2607.15271v1",
+        "source": "arXiv",
+        "paragraph": "Researchers have proposed an online neural memory system for synthesizing novel views from multi-view streaming video in real time. The work addresses a core tension in dynamic scene reconstruction: maintaining a long-horizon memory of occluded regions while meeting real-time processing constraints. The approach builds on Test-Time Training (TTT) but modifies the standard paradigm, which requires gradient-based memory updates at every frame, to make it tractable for streaming input. By selectively controlling when and how memory updates occur, the method aims to preserve temporal consistency across frames without incurring the full computational cost of per-frame training."
+      }
+    ]
+  },
+  {
+    "theme": "Miscellaneous & Platform Issues",
+    "stories": [
+      {
+        "title": "Ask HN: Any AWS billing issues known? Amazon forecast of 3 billion dollars",
+        "url": "https://news.ycombinator.com/item?id=48945681",
+        "source": "Hacker News",
+        "paragraph": "A Hacker News user reported receiving an AWS Budgets alert showing a forecasted bill of $3,005,575,870.47 despite having set a $5 alert threshold and not actively using AWS services in the past year. The user noted that AWS support had not responded at the time of posting, and the automated support chatbot provided a response in German rather than addressing the billing anomaly. The incident highlights reliability concerns with AWS's cost forecasting and alerting systems, as well as the limitations of AI-powered support bots in handling unusual edge cases."
+      }
+    ]
+  },
+  {
+    "theme": "Model Releases & Benchmarks",
+    "stories": [
+      {
+        "title": "Kimi K3, and what we can still learn from the pelican benchmark",
+        "url": "https://simonwillison.net/2026/Jul/16/kimi-k3/#atom-everything",
+        "source": "Simon Willison",
+        "paragraph": "Moonshot AI released Kimi K3, a dense model the company describes as its most capable to date, with 2.8 trillion parameters — which Moonshot rounds up to call it the first 'open 3T-class model,' surpassing DeepSeek in that category. The model is currently available via the Moonshot website and API, with an open-weights release promised by July 27, 2026. Simon Willison uses the occasion to revisit his 'pelican benchmark,' an informal qualitative test, to explore what such probes can and cannot reveal about a model's capabilities."
+      },
+      {
+        "title": "Kimi K3 Intelligence, Performance and Price Analysis",
+        "url": "https://artificialanalysis.ai/models/kimi-k3",
+        "source": "Hacker News",
+        "paragraph": "Artificial Analysis published an independent performance and pricing breakdown of Kimi K3 shortly after its launch, providing quantitative context to Moonshot AI's claims. The analysis covers benchmark scores across reasoning and coding tasks alongside API pricing, allowing practitioners to compare Kimi K3 against other frontier models on a cost-per-token basis. Such third-party evaluations are increasingly common immediately after major model releases and serve as an early signal for adoption decisions."
+      },
+      {
+        "title": "$100 AI Music Video: Claude Fable 5 vs. GPT-5.6 Sol",
+        "url": "https://www.tryai.dev/blog/ai-music-video-arena-claude-vs-gpt-5.6",
+        "source": "Hacker News",
+        "paragraph": "A practitioner produced two AI-generated music videos on a $100 total budget, one using Anthropic's Claude Fable 5 and one using OpenAI's GPT-5.6 Sol, then published a side-by-side comparison. The exercise illustrates the current practical ceiling for low-cost AI video production workflows and highlights differences in creative output between the two systems. The concrete budget constraint makes the comparison a reproducible reference point for others considering similar projects."
+      }
+    ]
+  },
+  {
+    "theme": "Open-Source Tools & Developer Projects",
+    "stories": [
+      {
+        "title": "Show HN: Libretto PR agents – Automatically fix failing playwright scripts",
+        "url": "https://libretto.sh/debug-agents",
+        "source": "Hacker News",
+        "paragraph": "Libretto has released a free TypeScript library that monitors Playwright browser automation scripts and, when a script fails, automatically opens a GitHub pull request with a proposed fix. The integration requires adding a single line of code to an existing Playwright test file, lowering the adoption barrier for teams with established automation suites. The tool builds on an earlier Libretto CLI and coding-agent product aimed at deterministic browser workflow automation."
+      },
+      {
+        "title": "LM Studio Bionic: the AI agent for open models",
+        "url": "https://lmstudio.ai/blog/introducing-lm-studio-bionic",
+        "source": "Hacker News",
+        "paragraph": "LM Studio announced Bionic, an AI agent layer built into LM Studio that is designed to work with locally hosted open-weight models. The announcement extends LM Studio's existing desktop application for running models locally, adding agentic task execution capabilities without requiring API access to external providers. This positions Bionic as a local alternative to cloud-based agent platforms for practitioners who prioritize privacy or have connectivity constraints."
+      }
+    ]
+  },
+  {
+    "theme": "Applications & Products",
+    "stories": [
+      {
+        "title": "Timeline Scan – AI fixes the dates on your scanned photos",
+        "url": "https://timelinescan.com/",
+        "source": "Hacker News",
+        "paragraph": "Timeline Scan is a consumer-facing web application that uses AI to infer and correct dates on scanned photographs, addressing a common problem in digitization workflows where metadata is absent or incorrect. The service targets individuals and families scanning physical photo archives, where manual date annotation is time-consuming and error-prone. The approach likely combines visual cues — clothing, printed dates, image degradation patterns — to estimate capture dates."
+      },
+      {
+        "title": "Show HN: Be the ChatBOT",
+        "url": "https://bethechatbot.com/",
+        "source": "Hacker News",
+        "paragraph": "Be the ChatBOT is an interactive art project in which the human user plays the role of the AI assistant, responding to prompts that are algorithmically generated to mimic real chatbot usage patterns. The creator's stated goal is to give participants a visceral sense of the volume and nature of requests that language model systems handle routinely. The project includes a write-up describing the method used to generate the simulated 'user' prompts, making the underlying design transparent."
+      }
+    ]
+  }
+]

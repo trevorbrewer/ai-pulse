@@ -1,0 +1,241 @@
+{
+  "date": "2026-07-17",
+  "generated_at": "2026-07-17T12:06:31.034616+00:00",
+  "source_counts": {
+    "rss_feeds": 10,
+    "arxiv": 50,
+    "hackernews": 31,
+    "nitter": 0,
+    "total_raw": 91,
+    "total_deduped": 90,
+    "total_saved": 25
+  },
+  "items": [
+    {
+      "title": "Blatant AI slop just won a 25k USD DeepMind Kaggle Grand Prize",
+      "url": "https://www.kaggle.com/competitions/kaggle-measuring-agi/discussion/724918#3498423",
+      "source": "Hacker News",
+      "published": "2026-07-17T11:30:00+00:00",
+      "summary_raw": "",
+      "points": 90,
+      "num_comments": 12,
+      "hn_url": "https://news.ycombinator.com/item?id=48946010"
+    },
+    {
+      "title": "Ask HN: Any AWS billing issues known? Amazon forecast of 3 billion dollars",
+      "url": "https://news.ycombinator.com/item?id=48945681",
+      "source": "Hacker News",
+      "published": "2026-07-17T10:45:21+00:00",
+      "summary_raw": "I receive an AWS Budgets alert that my budget is exceeding the alert threshold. Threshold is 5$. Forecasted amount is listed as $3,005,575,870.47. (Yepp, right, that\u2019s 3 billion dollars.) I haven&#x27;t even used AWS actively in the last year, but AWS console lists the amount as stated above. No feedback from AWS support yet, but the support AI chat bot says: &quot;Die perfekt gleichm\u00e4\u00dfigen Tageskosten seit dem 1. Juli deuten stark auf einen Abrechnungs- oder Messfehler hin.&quot; (&quot;The perfectly consistent daily costs since July 1 strongly suggest a billing or metering error.&quot;) Bot created a support ticket (or at least told me so). Anyone else seeing something like this?\nAlready disabled all AWS IAM roles and deleted all other AWS resources I know of. AWS login not hacked as far as I can tell. But owing Amazon 3 billion dollars is a bit of a concern.\nAny ideas?",
+      "points": 14,
+      "num_comments": 10,
+      "hn_url": "https://news.ycombinator.com/item?id=48945681"
+    },
+    {
+      "title": "Time-Series Language Models for Reasoning over Multivariate Data at Scale (ICML)",
+      "url": "https://www.aioniclabs.ai/research/opentslm",
+      "source": "Hacker News",
+      "published": "2026-07-17T10:15:03+00:00",
+      "summary_raw": "",
+      "points": 12,
+      "num_comments": 7,
+      "hn_url": "https://news.ycombinator.com/item?id=48945459"
+    },
+    {
+      "title": "Xi pitches China as leader of new global AI order, challenging US dominance",
+      "url": "https://www.reuters.com/world/asia-pacific/chinas-xi-promotes-chinas-commitment-ai-access-speech-shanghai-conference-2026-07-17/",
+      "source": "Hacker News",
+      "published": "2026-07-17T05:07:29+00:00",
+      "summary_raw": "",
+      "points": 11,
+      "num_comments": 6,
+      "hn_url": "https://news.ycombinator.com/item?id=48943519"
+    },
+    {
+      "title": "Google Ordered to Give A.I. Rivals More Access on Android Smartphones",
+      "url": "https://www.nytimes.com/2026/07/16/technology/google-android-ai.html",
+      "source": "Hacker News",
+      "published": "2026-07-17T04:01:05+00:00",
+      "summary_raw": "",
+      "points": 20,
+      "num_comments": 3,
+      "hn_url": "https://news.ycombinator.com/item?id=48943213"
+    },
+    {
+      "title": "Spot birds not golf",
+      "url": "https://simonwillison.net/2026/Jul/17/spot-birds-not-golf/#atom-everything",
+      "source": "Simon Willison",
+      "published": "2026-07-17T02:58:07+00:00",
+      "summary_raw": "Suggestion for hyperscalers feeling pressure over data center water use:\nBuy up a few exclusive country clubs, convert the golf courses into public parks, pay for guides and binoculars to get the previous members into birdwatching - help them embrace a more sustainable hobby!\nGoogle used 10.9 billion gallons in 2025, so about 30 million gallons per day.\nThe Coachella Valley has 120 golf courses each using ~800 acre-feet per year,  which is ~750,000 gallons per day.\nSo Google buying up 40 of those courses (1/3) should do the trick.\n\n    Tags: ai-energy-usage, ai"
+    },
+    {
+      "title": "UIUC AI Teaching Assistant",
+      "url": "https://github.com/Center-for-AI-Innovation/ai-teaching-assistant-uiuc",
+      "source": "Hacker News",
+      "published": "2026-07-17T02:23:18+00:00",
+      "summary_raw": "",
+      "points": 23,
+      "num_comments": 2,
+      "hn_url": "https://news.ycombinator.com/item?id=48942721"
+    },
+    {
+      "title": "Firefox in WebAssembly",
+      "url": "https://simonwillison.net/2026/Jul/16/firefox-in-webassembly/#atom-everything",
+      "source": "Simon Willison",
+      "published": "2026-07-16T23:34:16+00:00",
+      "summary_raw": "Firefox in WebAssembly\nThis is absurdly cool: Puter compiled Firefox to WebAssembly such that the whole browser runs in another browser.\nHere's my blog, running in Firefox, running in WebAssembly, running in Chrome:\n\nThey chose Firefox/Gecko because it has strong single-process support. The project used an estimated $25,000 worth of Claude Opus and Fable tokens, but took advantage of a Claude Max subscription plan so cost much less in actual dollars.\nThe demo funnels all traffic over a WebSocket protocol (using the Wisp protocol) through Puter's server - a requirement to get this kind of thing to work because code running in browsers can't open arbitrary network connections.\n(That proxying sounds expensive! The team had to scale the servers up to handle the traffic during the Hacker News conversation about the project.)\nPuter claim this supports end-to-end encryption and that looks to be true - I inspected the WebSocket messages and traffic to my own HTTPS site was encrypted whereas requests and responses to http://www.example.com/ were in cleartext.\nHere's the repo for firefox-wasm. theogbob/WebkitWasm is a similar project that compiles WebKit to WASM, but that one doesn't currently have an accessible online demo.\n\n    Via Hacker News\n\n\n    Tags: browsers, firefox, ai, webassembly, generative-ai, llms, ai-assisted-programming, claude, claude-mythos-fable"
+    },
+    {
+      "title": "AI Data Centers and the Concentration of Wealth",
+      "url": "https://www.schneier.com/blog/archives/2026/07/ai-data-centers-and-the-concentration-of-wealth.html",
+      "source": "Hacker News",
+      "published": "2026-07-16T23:22:36+00:00",
+      "summary_raw": "",
+      "points": 14,
+      "num_comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=48941583"
+    },
+    {
+      "title": "EU will force Google to share search data and open up AI on Android",
+      "url": "https://arstechnica.com/gadgets/2026/07/its-official-eu-will-force-google-to-share-search-data-and-open-up-ai-on-android/",
+      "source": "Hacker News",
+      "published": "2026-07-16T22:19:13+00:00",
+      "summary_raw": "",
+      "points": 15,
+      "num_comments": 1,
+      "hn_url": "https://news.ycombinator.com/item?id=48941022"
+    },
+    {
+      "title": "The AI Backlash Has Tech Executives Fearing for Their Lives",
+      "url": "https://www.wsj.com/us-news/the-ai-backlash-has-tech-executives-fearing-for-their-lives-30c43972",
+      "source": "Hacker News",
+      "published": "2026-07-16T21:10:35+00:00",
+      "summary_raw": "",
+      "points": 12,
+      "num_comments": 1,
+      "hn_url": "https://news.ycombinator.com/item?id=48940303"
+    },
+    {
+      "title": "EU orders Google to share search data, open Android to AI rivals competitors",
+      "url": "https://www.euronews.com/my-europe/2026/07/16/eu-orders-google-to-share-search-data-open-android-to-ai-rivals-competitors",
+      "source": "Hacker News",
+      "published": "2026-07-16T20:59:53+00:00",
+      "summary_raw": "",
+      "points": 10,
+      "num_comments": 1,
+      "hn_url": "https://news.ycombinator.com/item?id=48940164"
+    },
+    {
+      "title": "GPT-5.6 Sol Pro solves open problem in convex optimization",
+      "url": "https://medium.com/@kerger.p/an-ai-assisted-breakthrough-in-convex-optimization-an-optimization-problem-dating-back-30-years-a-db5c631119de",
+      "source": "Hacker News",
+      "published": "2026-07-16T20:25:52+00:00",
+      "summary_raw": "",
+      "points": 24,
+      "num_comments": 2,
+      "hn_url": "https://news.ycombinator.com/item?id=48939768"
+    },
+    {
+      "title": "Timeline Scan \u2013 AI fixes the dates on your scanned photos",
+      "url": "https://timelinescan.com/",
+      "source": "Hacker News",
+      "published": "2026-07-16T20:25:47+00:00",
+      "summary_raw": "",
+      "points": 32,
+      "num_comments": 31,
+      "hn_url": "https://news.ycombinator.com/item?id=48939764"
+    },
+    {
+      "title": "Show HN: Libretto PR agents \u2013 Automatically fix failing playwright scripts",
+      "url": "https://libretto.sh/debug-agents",
+      "source": "Hacker News",
+      "published": "2026-07-16T20:21:27+00:00",
+      "summary_raw": "Libretto PR agents is a free TypeScript library for maintaining Playwright browser automations. Add one line of code to your existing Playwright scripts and it lets an agent automatically open GitHub PRs fixing the script when it fails.<p>A few months ago we released Libretto, a CLI + coding-agent skill for building deterministic browser automations. The idea was that for many browser workflows, especially repetitive business workflows, you don\u2019t need an AI agent making decisions at runtime. You want deterministic Playwright scripts that are inspectable, faster to run, and much cheaper than repeatedly calling an AI browser agent.<p>That helped us generate Playwright and network-request-based scripts, but websites can often change which breaks deterministic scripts. So maintaining a variety of scripts at scale is a headache. If you already have a bunch of functioning Playwright scripts, the last thing you want is to rewrite everything around a new runtime AI framework like browser-use or stagehand just to make maintenance easier.<p>The Libretto PR Agent pulls your code from GitHub and connects via CDP to the browser session that just failed. It has an exec tool for injecting Playwright and javascript into the page, and once its inspected the failure, it opens a PR to your repo with a proposed code fix.<p>You use it like this:<p><pre><code>  try {\n    await automationLogic(page);\n  } catch (error) {\n    await playwrightDebugger.debugFailure(error, page);\n  throw error;\n  }\n\n</code></pre>\nThe agent is completely free and open source, lets you bring your own LLM provider API keys, and works with any browser provider (including self hosted).<p>The source code is here: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;saffron-health&#x2F;libretto&#x2F;tree&#x2F;main&#x2F;packages&#x2F;playwright-debugger\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;saffron-health&#x2F;libretto&#x2F;tree&#x2F;main&#x2F;package...</a><p>We think this makes browser integrations much easier to maintain, especially for teams that already have Playwright browser automation scripts in production and don\u2019t want a full migration to get AI-assisted debugging and repair.<p>If you\u2019re maintaining browser automations in production, would love to know what your debugging flow is currently and any feedback on this approach.",
+      "points": 19,
+      "num_comments": 3,
+      "hn_url": "https://news.ycombinator.com/item?id=48939710"
+    },
+    {
+      "title": "Kimi K3, and what we can still learn from the pelican benchmark",
+      "url": "https://simonwillison.net/2026/Jul/16/kimi-k3/#atom-everything",
+      "source": "Simon Willison",
+      "published": "2026-07-16T20:19:30+00:00",
+      "summary_raw": "Chinese AI lab Moonshot AI announced Kimi K3 this morning, describing it as their \"most capable model to date, with 2.8 trillion parameters\". It's currently available via their website and API, but an open weight release is promised \"by July 27, 2026\".\nMoonshot are calling this the first \"open 3T-class model\" (I guess they're rounding 2.8 trillion up to 3 trillion), taking the crown from DeepSeek's 1.6T v4 Pro. Their self-reported benchmarks have K3 mostly beating Claude Opus 4.8 max and GPT-5.5 high, while losing out to Claude Fable 5 and GPT-5.6 Sol.\nA few highlights from the Artificial Analysis report on the model:\n\n\"On our private long-horizon knowledge work evaluation, Kimi K3 reaches an overall Elo of 1547, +732 points from Kimi K2.6 and behind only Claude Fable 5.\"\n\"Cost per task ($0.94) is similar to GPT-5.6 Sol ($1.04), ~1/2 the price of Opus 4.8 ($1.80) and higher than open weights peers\"\n\"Kimi K3\u2019s token usage on the Artificial Analysis Intelligence Index decreased significantly, using 21% fewer output tokens than K2.6.\"\n\nThe model is also now the leading model on Arena.ai's Frontend Code arena, surpassing even Claude Fable 5.\nThe new model is notable for the pricing: $3/million input tokens and $15/million output tokens, putting it at the same level as Anthropic's Claude Sonnet series and making it the most expensive model released by a Chinese AI lab to date. This is a significant increase on their earlier models such as Kimi K2.6 at $0.95/$4. 2.8 trillion parameters is also more than twice the size of that 1T model.\nBut how does it pelican?\nI used OpenRouter (to avoid signing up for a Moonshot API key) with the llm-openrouter plugin to generate an SVG of a pelican riding a bicycle:\nllm -m openrouter/moonshotai/kimi-k3 'Generate an SVG of a pelican riding a bicycle'\n\nHere's the transcript. It looks like this:\n\nThat pelican took 95 input tokens and 16,658 output tokens (13,241 were reasoning tokens), for a total cost of 25 cents!\nSince K3 accepts image input I ran it against that rendered SVG above (with my alt text prompt) and got back (for 0.6 cents):\n\nCartoon illustration of a white pelican wearing a red scarf, riding a red bicycle along a gray road with white dashed lines; the pelican has a large orange beak and webbed orange feet pedaling, with white motion lines behind it; the background shows a light blue sky with white clouds, a yellow sun, two small black birds in flight, and green grass with tiny white flowers in the foreground\n\nWhat can we learn from the pelican?\nMy Generate an SVG of a pelican riding a bicycle test is 21 months old now. It was never a particularly great benchmark. It started out as a joke on how absurdly difficult it is to compare these models, but then for the first year it turned out to have a surprising correlation to how good the models actually were.\nThat connection has been mostly severed now. The GPT-5.6 and Claude Fable 5  pelicans are outclassed by GLM-5.2, and much as I love GLM I don't think that's a Fable-class model.\n(I'm still not convinced that labs are training for the benchmark - if they were, I'd expect much better results. There's a chance that Gemini has optimized for any combination of an animal on a vehicle though!)\nThe biggest limitation of the pelican is that it doesn't touch at all on the thing that matters most for today's model: agentic tool calling and the ability to operate tools reliably as conversations grow in length.\nSo don't go using pelicans to compare models!\n\nAll of that said, I still get a decent amount of value out of running the benchmark myself.\nFirstly, it's a forcing function for actually trying the model. If I show you a pelican, that means I've managed to run a prompt through it. If the model has an official API I'll use that, if it's open weight (and small enough to fit a 128GB M5 MacBook Pro) I'll try running it on my own machine, usually via llama.cpp or LM Studio or Ollama. I'll frequently use OpenRouter since that usually provides a proxy to an official API without me needing a new API key.\nMost of my pelicans are generated using my LLM CLI tool, which helps encourage me to ensure the latest models are supported by that (via one of its plugins).\nMore importantly though, even the act of a single prompt to \"Generate an SVG of a pelican riding a bicycle\" can reveal interesting model characteristics.\nConsider the result for Kimi K3 today. Running those simple prompts helped emphasize several points about the model.\n\nIt only has one reasoning effort right now, \"max\" - and it shows. The model consumed 13,241 reasoning tokens to output 3,417 tokens of response. This is expensive - the pelican cost 25 cents!\nHow does the prompt \"Generate an SVG of a pelican riding a bicycle\" add up to 95 input tokens?  OpenAI's tokenizer  counts 10, Anthropic's counts 10 for Opus 4.6, 30 for Opus 4.7 and 25 for Sonnet 5/Fable 5. Prompting \"hi\" to Kimi K3 counted 86 tokens, suggesting there may be an 85 token hidden system prompt. It refused to leak it though.\nVision works well: the alt text it generated is very good.\n\nK3 currently only has one thinking effort level, but I've been deriving quite a bit of value recently from running the same pelican prompt through different effort levels to get a quick idea for what impact those have. Here's my matrix for the GPT-5.6 model family, for example.\nReally though the main things I gain from the pelican test are:\n\nIt's a \"hello world\" exercise for prompting a model\nA rough cost and reasoning estimate for a simple task\nConfirmation that the model can output valid SVG and has a basic idea of geometry and spatial awareness. This is a much bigger deal for the smaller models that run on my laptop.\nIt's still interesting to compare pelicans between releases in the same model family. K3's pelican is a notable improvement from Kimi 2.5.\nIt's something I can share that demonstrates I've tried it. Plus a comment with a pelican in it is kind of a tradition on Hacker News at this point, any time I'm late I get comments asking where it is!\n\n    \n        Tags: ai, generative-ai, llms, llm-pricing, pelican-riding-a-bicycle, llm-release, ai-in-china, artificial-analysis, moonshot, kimi"
+    },
+    {
+      "title": "LM Studio Bionic: the AI agent for open models",
+      "url": "https://lmstudio.ai/blog/introducing-lm-studio-bionic",
+      "source": "Hacker News",
+      "published": "2026-07-16T20:18:15+00:00",
+      "summary_raw": "",
+      "points": 270,
+      "num_comments": 100,
+      "hn_url": "https://news.ycombinator.com/item?id=48939662"
+    },
+    {
+      "title": "Kimi K3 Intelligence, Performance and Price Analysis",
+      "url": "https://artificialanalysis.ai/models/kimi-k3",
+      "source": "Hacker News",
+      "published": "2026-07-16T20:09:46+00:00",
+      "summary_raw": "",
+      "points": 51,
+      "num_comments": 2,
+      "hn_url": "https://news.ycombinator.com/item?id=48939580"
+    },
+    {
+      "title": "$100 AI Music Video: Claude Fable 5 vs. GPT-5.6 Sol",
+      "url": "https://www.tryai.dev/blog/ai-music-video-arena-claude-vs-gpt-5.6",
+      "source": "Hacker News",
+      "published": "2026-07-16T20:03:23+00:00",
+      "summary_raw": "",
+      "points": 302,
+      "num_comments": 399,
+      "hn_url": "https://news.ycombinator.com/item?id=48939524"
+    },
+    {
+      "title": "Show HN: Be the ChatBOT",
+      "url": "https://bethechatbot.com/",
+      "source": "Hacker News",
+      "published": "2026-07-16T18:44:51+00:00",
+      "summary_raw": "I made this experimental art project&#x2F;game that&#x27;s an LLM chat assistant, but where <i>you&#x27;re</i> the AI.<p>I wanted people to get a visceral sense of what it&#x27;s like to answer the kinds of things that people prompt their chatbots day in and day out.<p>If you&#x27;re interested, I wrote up some more info on how I made it, including how the &quot;user&quot; prompts are generated with an eye for realism: <a href=\"https:&#x2F;&#x2F;bethechatbot.com&#x2F;about\" rel=\"nofollow\">https:&#x2F;&#x2F;bethechatbot.com&#x2F;about</a><p>Hope you enjoy it! I&#x27;d love to hear people&#x27;s takeaways.",
+      "points": 43,
+      "num_comments": 19,
+      "hn_url": "https://news.ycombinator.com/item?id=48938524"
+    },
+    {
+      "title": "Partition, Prompt, Aggregate: Statistical Self-Consistency in Language Models",
+      "url": "https://arxiv.org/abs/2607.15277v1",
+      "source": "arXiv",
+      "published": "2026-07-16T17:59:31+00:00",
+      "summary_raw": "In-context learning is commonly interpreted as a form of conditional inference, in which the prompt specifies a context and the model's output is treated as an estimate of the corresponding conditional distribution. If this interpretation holds, then LLM estimates should satisfy basic probabilistic identities. In particular, the law of total probability asserts that prior-weighted conditional distributions aggregate into population-level marginals over any valid partition of the population. In this work, we investigate to what extent LLM estimates adhere to this self-consistency principle. We use binary trees as an evaluation scaffold to recursively partition a population into increasingly fine-grained subpopulations. We then prompt LLMs with verbalized subpopulation descriptions in context, aggregate the resulting estimates back into population-level estimates, and compare them across partitions of varying granularity. Applying this protocol across problem domains and state-of-the-art frontier models, we show widespread violations of basic consistency properties. An in-depth study of persona prompting reveals a pattern we call the macro fallacy: estimates reconstructed from more fine-grained subpopulation responses are often better aligned with human reference data than direct population-level estimates. This effect persists across variations in tree structure and estimation task, and can be partially recovered through implicit prompting. Together, these findings suggest that models possess relevant subpopulation knowledge but do not reliably propagate it into aggregate estimates. This gap establishes statistical self-consistency as an unsaturated, reference-free criterion for evaluating LLMs."
+    },
+    {
+      "title": "RoboTTT: Context Scaling for Robot Policies",
+      "url": "https://arxiv.org/abs/2607.15275v1",
+      "source": "arXiv",
+      "published": "2026-07-16T17:59:06+00:00",
+      "summary_raw": "Recent robot foundation models operate with single-step or short-history visuomotor context. We introduce Test-Time-Training Robot Policies (RoboTTT), a robot model and training recipe that scale visuomotor context to 8K timesteps, three orders of magnitude beyond state-of-the-art policies, without growing inference latency. At this context length, we unlock new robot capabilities: one-shot in-context imitation from human video demonstrations, on-the-fly policy improvement, robustness to perturbations, and stronger performance on multi-stage, long-horizon tasks. We also observe, for the first time, steady gains in closed-loop performance as pretraining context length scales. At its core, RoboTTT integrates Test-Time Training into robot foundation models such as Vision-Language-Action policies, yielding a sequence model whose recurrent state consists of fast weights, parameters updated by gradient descent during both training and inference, compressing histories into weight space and retrieving contextual information for long-context conditioning. To scale training context length, the recipe combines sequence action forcing with truncated backpropagation through time. On challenging real-robot manipulation tasks, RoboTTT improves overall performance by 87% over the single-step context baseline and fully completes a five-minute, ten-stage assembly task, which no baseline ever does. RoboTTT trained with 8K-timestep context outperforms the same model pretrained with 1K timesteps by 62%, suggesting context length as a new scaling axis for robot foundation models. Videos are available at https://research.nvidia.com/labs/gear/robottt/"
+    },
+    {
+      "title": "MeanFlowNFT: Bringing Forward-Process RL to Average-Velocity Generators",
+      "url": "https://arxiv.org/abs/2607.15273v1",
+      "source": "arXiv",
+      "published": "2026-07-16T17:59:02+00:00",
+      "summary_raw": "MeanFlow generators achieve fast few-step sampling by predicting average velocities over time intervals, making them attractive for efficient generation. Reinforcement learning (RL) has become a powerful way to align diffusion and flow models with human preferences and task-specific objectives. In particular, DiffusionNFT offers an efficient forward-process RL framework that does not require reverse-process trajectories or likelihood estimation. However, applying such RL methods to MeanFlow remains underexplored. DiffusionNFT optimizes instantaneous velocities, whereas MeanFlow samples with average velocities. To bridge this gap, we introduce MeanFlowNFT. Inspired by the MeanFlow identity, which bridges average and instantaneous velocities, we construct an induced instantaneous-velocity predictor. We apply the DiffusionNFT objective to this predictor, making reward optimization well-defined for MeanFlow. Sampling remains based on the average velocity, preserving MeanFlow's fast few-step generation. We further prove that MeanFlowNFT inherits DiffusionNFT's strict policy-improvement guarantee. Experiments on image and video generation show that MeanFlowNFT consistently improves baselines. Moreover, it outperforms prior state-of-the-art RL-tuned few-step generators on most metrics ($6$ of $8$ on SD3.5-M), and can even surpass multi-step RL-tuned diffusion while using only a few sampling steps. For instance, on Wan 2.1, $4$-step MeanFlowNFT reaches a VBench score of $84.33$, surpassing $50$-step LongCat-Video RL ($82.57$)."
+    },
+    {
+      "title": "SciDiagramEdit: Learning to Edit Scientific Diagrams from Paper Revisions",
+      "url": "https://arxiv.org/abs/2607.15272v1",
+      "source": "arXiv",
+      "published": "2026-07-16T17:58:36+00:00",
+      "summary_raw": "Editing the figures in a research paper is a routine and time-consuming part of everyday research practice: authors relabel components, rearrange panels, and restyle visuals as they revise their manuscripts. Automating this editing workflow under a natural-language instruction, however, is challenging, because a scientific figure is a dense infographic in which heterogeneous visual elements such as schematics, plots, photos, captions, and arrows are composed under a tight visual grammar to advance a specific argument. To address this, we present SciDiagramEdit, a benchmark and skill-evolution framework that learns from natural paper revisions and operates on the figure's editable vector source, where users can inspect and co-edit individual primitives alongside the agent. Our benchmark mines before/after figure pairs from arXiv version histories, each grounded in the authors' own revision intent. To accommodate the diversity of editing instructions, we adopt agentic learning via skill evolution: an agentic proposer continually refines the agent's skill specification from execution traces over multiple epochs. The resulting skill progressively lifts edit accuracy on a held-out validation set, providing evidence that natural paper revisions are an effective training signal for instruction-driven figure editing."
+    },
+    {
+      "title": "Online Neural Space Time Memory for Dynamic Novel View Synthesis",
+      "url": "https://arxiv.org/abs/2607.15271v1",
+      "source": "arXiv",
+      "published": "2026-07-16T17:58:18+00:00",
+      "summary_raw": "Online novel view synthesis from multi-view streaming videos faces a fundamental trade-off: maintaining a persistent, long-horizon memory to reconstruct temporarily occluded regions while operating under strict real-time constraints. While Test-Time Training (TTT) offers a powerful memory mechanism, standard models mandate gradient-based memory updates at every frame to adapt to the changing motion in dynamic scenes. The computational cost of heavy memory updates precludes real-time application and can lead to instability over long contexts. Given that memory updates are more demanding than memory application and video content is largely redundant, we propose to decouple the frequencies of these two processes. Our approach performs periodic memory updates while applying the memory on a per-frame basis, using cross-view attention to manage deformations between the prior memory state and the current frame. To lock in the historical context, we introduce two critical mechanisms: an auxiliary Memory Loss that forces persistent internalization of the scene, and a Memory Caching strategy that regularizes active weights against catastrophic drift. Our method demonstrates real-time, state-of-the-art performance on scenes with dynamic human motion as well as minute-scale online memorization."
+    }
+  ]
+}
