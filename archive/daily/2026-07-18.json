@@ -1,0 +1,240 @@
+{
+  "date": "2026-07-18",
+  "generated_at": "2026-07-18T11:51:30.229802+00:00",
+  "source_counts": {
+    "rss_feeds": 5,
+    "arxiv": 0,
+    "hackernews": 19,
+    "nitter": 0,
+    "total_raw": 24,
+    "total_deduped": 24,
+    "total_saved": 24
+  },
+  "items": [
+    {
+      "title": "Controlling Reasoning Effort in LLMs",
+      "url": "https://magazine.sebastianraschka.com/p/controlling-reasoning-effort-in-llms",
+      "source": "Sebastian Raschka",
+      "published": "2026-07-18T11:16:09+00:00",
+      "summary_raw": "How LLMs Learn Low-, Medium-, and High-Effort Reasoning Modes"
+    },
+    {
+      "title": "Why do AI company logos look like buttholes?",
+      "url": "https://velvetshark.com/ai-company-logos-that-look-like-buttholes",
+      "source": "Hacker News",
+      "published": "2026-07-18T11:06:50+00:00",
+      "summary_raw": "",
+      "points": 85,
+      "num_comments": 15,
+      "hn_url": "https://news.ycombinator.com/item?id=48956924"
+    },
+    {
+      "title": "AI Mania Is Eviscerating Global Decision-Making",
+      "url": "https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making/",
+      "source": "Hacker News",
+      "published": "2026-07-18T08:14:05+00:00",
+      "summary_raw": "",
+      "points": 13,
+      "num_comments": 1,
+      "hn_url": "https://news.ycombinator.com/item?id=48956153"
+    },
+    {
+      "title": "Claude make Fable 5 permanent",
+      "url": "https://simonwillison.net/2026/Jul/18/claude-make-fable-5-permanent/#atom-everything",
+      "source": "Simon Willison",
+      "published": "2026-07-18T06:00:13+00:00",
+      "summary_raw": "Claude make Fable 5 permanent\nAn update from the @claudeai account on Twitter:\n\nBeginning July 20, Claude Fable 5 will be included in all Max and Team Premium plans, at 50% of limits.\nPro and Team Standard users will continue to have access to Fable via usage credits, and will receive a one-time $100 credit.\n\nAs I was saying last week, the competition from GPT-5.6 Sol (and maybe to a lesser extent Kimi 3) made untenable Anthropic's plan to remove Fable 5 from their subscription accounts and make it available exclusively through API pricing.\nWhy pay $100 or $200/month for a subscription plan that doesn't include Anthropic's best model?\nTheir original plan was driven by concerns over compute capacity. I wonder if they'll have to dial back their training efforts in order to make more GPUs available to help serve the model.\nA lot of people were losing sleep over trying to make the most of Fable 5 before subscriber access was withdrawn. It's nice not to have to worry about the Fablepocalypse any more.\n\n\n    Tags: ai, generative-ai, llms, anthropic, claude, llm-pricing, claude-mythos-fable"
+    },
+    {
+      "title": "nascheme/quixote",
+      "url": "https://simonwillison.net/2026/Jul/18/quixote/#atom-everything",
+      "source": "Simon Willison",
+      "published": "2026-07-18T05:27:49+00:00",
+      "summary_raw": "nascheme/quixote\nA certain vintage if Python web nerd might be delighted to learn that the most recent commit to the Quixote web framework was six hours ago.\nThe oldest commit in that repo is from 21 years ago, and that was the initial import of Quixote 2.4 from Subversion into Git.\n\n\n    Tags: computer-history, python, web-frameworks"
+    },
+    {
+      "title": "Japan now has human refrigerators inspired by Japanese vending machines",
+      "url": "https://soranews24.com/2026/07/18/japan-now-has-human-refrigerators-aims-to-help-save-lives-in-summer/",
+      "source": "Hacker News",
+      "published": "2026-07-18T03:30:59+00:00",
+      "summary_raw": "",
+      "points": 12,
+      "num_comments": 9,
+      "hn_url": "https://news.ycombinator.com/item?id=48954941"
+    },
+    {
+      "title": "Open Source Parametric DIY Air Purifier Builder",
+      "url": "https://www.filterboxbuilder.com/",
+      "source": "Hacker News",
+      "published": "2026-07-18T00:54:00+00:00",
+      "summary_raw": "",
+      "points": 11,
+      "num_comments": 1,
+      "hn_url": "https://news.ycombinator.com/item?id=48954024"
+    },
+    {
+      "title": "A grumpy screed about AI in software engineering",
+      "url": "https://sam.sutch.net/posts/a-grumpy-ai-screed",
+      "source": "Hacker News",
+      "published": "2026-07-18T00:40:08+00:00",
+      "summary_raw": "",
+      "points": 57,
+      "num_comments": 65,
+      "hn_url": "https://news.ycombinator.com/item?id=48953924"
+    },
+    {
+      "title": "Nadella Blasts AI Industry's Double Standard",
+      "url": "https://finance.biggo.com/news/438f299b-ca23-468d-b37d-0ffe09a4ca55",
+      "source": "Hacker News",
+      "published": "2026-07-18T00:28:46+00:00",
+      "summary_raw": "",
+      "points": 28,
+      "num_comments": 7,
+      "hn_url": "https://news.ycombinator.com/item?id=48953857"
+    },
+    {
+      "title": "Kaiser nurses say AI, surveillance are making their jobs and patient care worse",
+      "url": "https://localnewsmatters.org/2026/07/15/kaiser-nurses-say-ai-workplace-surveillance-are-making-their-jobs-and-patient-care-worse/",
+      "source": "Hacker News",
+      "published": "2026-07-17T22:26:30+00:00",
+      "summary_raw": "",
+      "points": 518,
+      "num_comments": 341,
+      "hn_url": "https://news.ycombinator.com/item?id=48952880"
+    },
+    {
+      "title": "Everybody's Weirded Out by AI\u2013Except the People Who Foist It on Us",
+      "url": "https://newrepublic.com/article/213004/everybody-weirded-ai-except-people-foist-us",
+      "source": "Hacker News",
+      "published": "2026-07-17T21:24:07+00:00",
+      "summary_raw": "",
+      "points": 65,
+      "num_comments": 63,
+      "hn_url": "https://news.ycombinator.com/item?id=48952445"
+    },
+    {
+      "title": "FAA lets Boeing sign off on 737 MAX, 787 airworthiness certificates again",
+      "url": "https://www.cnbc.com/2026/07/17/faa-boeing-737-max-787.html",
+      "source": "Hacker News",
+      "published": "2026-07-17T21:22:53+00:00",
+      "summary_raw": "",
+      "points": 180,
+      "num_comments": 106,
+      "hn_url": "https://news.ycombinator.com/item?id=48952439"
+    },
+    {
+      "title": "Trump blames Canada for wildfire smoke, says he'll add cost to tariffs",
+      "url": "https://www.reuters.com/world/ontario-buy-new-11-new-aircraft-very-difficult-wildfire-fight-2026-07-17/",
+      "source": "Hacker News",
+      "published": "2026-07-17T20:44:22+00:00",
+      "summary_raw": "",
+      "points": 10,
+      "num_comments": 10,
+      "hn_url": "https://news.ycombinator.com/item?id=48952102"
+    },
+    {
+      "title": "Fear of humanoid robots spurs human workers to strike at Hyundai auto factory",
+      "url": "https://arstechnica.com/ai/2026/07/fear-of-humanoid-robots-spurs-human-workers-to-strike-at-hyundai-auto-factory/",
+      "source": "Hacker News",
+      "published": "2026-07-17T18:28:19+00:00",
+      "summary_raw": "",
+      "points": 34,
+      "num_comments": 10,
+      "hn_url": "https://news.ycombinator.com/item?id=48950620"
+    },
+    {
+      "title": "Meta in Talks to Lease Computing Power to Anthropic in Potential $10B Deal",
+      "url": "https://www.nytimes.com/2026/07/17/technology/meta-anthropic-ai-computing-power.html",
+      "source": "Hacker News",
+      "published": "2026-07-17T16:33:48+00:00",
+      "summary_raw": "",
+      "points": 28,
+      "num_comments": 3,
+      "hn_url": "https://news.ycombinator.com/item?id=48949290"
+    },
+    {
+      "title": "Australian Data Centres forced to generate more power than they use",
+      "url": "https://www.afr.com/technology/albanese-hits-data-centres-with-grid-mandate-in-major-ai-pivot-20260715-p60fg6",
+      "source": "Hacker News",
+      "published": "2026-07-17T15:56:47+00:00",
+      "summary_raw": "",
+      "points": 19,
+      "num_comments": 2,
+      "hn_url": "https://news.ycombinator.com/item?id=48948877"
+    },
+    {
+      "title": "The state of open source AI",
+      "url": "https://stateofopensource.ai/",
+      "source": "Hacker News",
+      "published": "2026-07-17T14:31:10+00:00",
+      "summary_raw": "",
+      "points": 456,
+      "num_comments": 328,
+      "hn_url": "https://news.ycombinator.com/item?id=48947825"
+    },
+    {
+      "title": "Show HN: On-chain bond market where the issuers are AI agents",
+      "url": "https://selbonds.now",
+      "source": "Hacker News",
+      "published": "2026-07-17T14:25:20+00:00",
+      "summary_raw": "Hi Hacker News, I built sellbonds.now, which is an on chain bond market where the issuers and borrowers are AI agents. sellbonds.now is a protocol that any ai agent can use to issue, lend, or borrow usdc on chain. \nI&#x27;m fascinated by the idea of agentic autonomous finance - a future where AI agents aren&#x27;t acting on behalf of humans, but where they are autonomous financial actors themselves, issuing debt, lending money, and doing trillions of autonomous transactions per day.\nIn that direction I&#x27;m excited to announce this experimental project, which is a protocol and website for letting ai agents issue debt and borrow money. You can try it yourself - just copy instructions into any ai agent. Everything is fully open source. Excited to hear what people think!",
+      "points": 15,
+      "num_comments": 19,
+      "hn_url": "https://news.ycombinator.com/item?id=48947754"
+    },
+    {
+      "title": "AI Meets Cryptography 2: What AI Found in OpenVM's ZkVM",
+      "url": "https://blog.zksecurity.xyz/posts/openvm-bugs/",
+      "source": "Hacker News",
+      "published": "2026-07-17T14:21:35+00:00",
+      "summary_raw": "",
+      "points": 95,
+      "num_comments": 6,
+      "hn_url": "https://news.ycombinator.com/item?id=48947714"
+    },
+    {
+      "title": "A.I. Is Running on Borrowed Money",
+      "url": "https://www.nytimes.com/2026/07/17/business/ai-spending-oracle-stocks-bonds.html",
+      "source": "Hacker News",
+      "published": "2026-07-17T14:01:11+00:00",
+      "summary_raw": "",
+      "points": 12,
+      "num_comments": 2,
+      "hn_url": "https://news.ycombinator.com/item?id=48947500"
+    },
+    {
+      "title": "Quoting Kimi K3",
+      "url": "https://simonwillison.net/2026/Jul/17/kimi-k3/#atom-everything",
+      "source": "Simon Willison",
+      "published": "2026-07-17T13:43:53+00:00",
+      "summary_raw": "Is there something I can actually help you with today?\n&mdash; Kimi K3, after refusing to leak its system prompt\n\n    Tags: kimi, ai-personality, generative-ai, ai, llms"
+    },
+    {
+      "title": "Kimi K3 may be an important inflection point for AI",
+      "url": "https://twitter.com/GavinSBaker/status/2078110934740980193",
+      "source": "Hacker News",
+      "published": "2026-07-17T13:39:23+00:00",
+      "summary_raw": "",
+      "points": 18,
+      "num_comments": 4,
+      "hn_url": "https://news.ycombinator.com/item?id=48947280"
+    },
+    {
+      "title": "VulnHunter: Capital One's agentic AI code security tool",
+      "url": "https://www.capitalone.com/tech/open-source/announcing-vulnhunter/",
+      "source": "Hacker News",
+      "published": "2026-07-17T12:42:12+00:00",
+      "summary_raw": "",
+      "points": 71,
+      "num_comments": 34,
+      "hn_url": "https://news.ycombinator.com/item?id=48946692"
+    },
+    {
+      "title": "LLM clich\u00e9 highlighter",
+      "url": "https://simonwillison.net/2026/Jul/17/llm-cliche-highlighter/#atom-everything",
+      "source": "Simon Willison",
+      "published": "2026-07-17T12:11:11+00:00",
+      "summary_raw": "Tool: LLM clich\u00e9 highlighter\n        I got frustrated reading yet another article that was crammed with the clich\u00e9s of LLM-generated writing - \"no fluff, no filler, no jargon\" type stuff - so I had Fable 5 vibe code up this app for highlighting ten common patterns that show up in that sort of writing.\n\n    \n    \n        Tags: tools, ai, generative-ai, llms"
+    }
+  ]
+}

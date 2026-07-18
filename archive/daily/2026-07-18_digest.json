@@ -1,0 +1,206 @@
+[
+  {
+    "theme": "AI Research & Techniques",
+    "stories": [
+      {
+        "title": "Controlling Reasoning Effort in LLMs",
+        "url": "https://magazine.sebastianraschka.com/p/controlling-reasoning-effort-in-llms",
+        "source": "Sebastian Raschka",
+        "paragraph": "Sebastian Raschka published an analysis of how large language models can be trained or prompted to operate across low-, medium-, and high-effort reasoning modes. The piece examines the mechanisms behind adaptive reasoning budgets, a topic of growing practical interest as models like OpenAI's o-series and Anthropic's Claude expose effort-level controls to users. Understanding how these modes differ in token expenditure and accuracy trade-offs is relevant for practitioners managing inference costs at scale."
+      }
+    ]
+  },
+  {
+    "theme": "Model Releases & Product Updates",
+    "stories": [
+      {
+        "title": "Claude make Fable 5 permanent",
+        "url": "https://simonwillison.net/2026/Jul/18/claude-make-fable-5-permanent/#atom-everything",
+        "source": "Simon Willison",
+        "paragraph": "Anthropic announced that Claude Fable 5 will be included permanently in all Max and Team Premium plans starting July 20, at 50 percent of plan limits. Pro and Team Standard users retain access via usage credits and will receive a one-time $100 credit. Simon Willison notes the move appears driven in part by competitive pressure from OpenAI's GPT-5.6 Sol, suggesting Anthropic is using plan inclusion as a retention tool rather than a purely feature-driven rollout."
+      }
+    ]
+  },
+  {
+    "theme": "AI Criticism & Societal Impact",
+    "stories": [
+      {
+        "title": "AI Mania Is Eviscerating Global Decision-Making",
+        "url": "https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making/",
+        "source": "Hacker News",
+        "paragraph": "An essay published on Ludic argues that widespread AI adoption is degrading the quality of institutional decision-making by encouraging organizations to defer judgment to automated systems rather than develop internal expertise. The author contends that when decisions are outsourced to AI tools, the feedback loops needed to build human competence are broken. The piece does not cite quantitative studies but draws on observations from government and enterprise contexts to make the case."
+      },
+      {
+        "title": "A grumpy screed about AI in software engineering",
+        "url": "https://sam.sutch.net/posts/a-grumpy-ai-screed",
+        "source": "Hacker News",
+        "paragraph": "Software engineer Sam Sutch published a critical post arguing that AI coding assistants are being adopted in ways that undermine software quality and developer skill development. He contends that relying on code generation for routine tasks erodes the deep familiarity with codebases that produces good engineering judgment. The post is anecdotal rather than data-driven but reflects a recurring concern among experienced practitioners about the long-term effects of AI-assisted development on craft."
+      },
+      {
+        "title": "Everybody's Weirded Out by AI–Except the People Who Foist It on Us",
+        "url": "https://newrepublic.com/article/213004/everybody-weirded-ai-except-people-foist-us",
+        "source": "Hacker News",
+        "paragraph": "A New Republic opinion piece observes a persistent gap between public unease about AI deployment and the enthusiasm of the executives and investors driving that deployment. The author points to survey data suggesting broad public ambivalence or discomfort with AI in high-stakes domains while industry leaders describe the same applications as obvious goods. The argument centers on the asymmetry of who bears the risks of AI adoption versus who captures the financial upside."
+      },
+      {
+        "title": "Kaiser nurses say AI, surveillance are making their jobs and patient care worse",
+        "url": "https://localnewsmatters.org/2026/07/15/kaiser-nurses-say-ai-workplace-surveillance-are-making-their-jobs-and-patient-care-worse/",
+        "source": "Hacker News",
+        "paragraph": "Nurses at Kaiser Permanente facilities have spoken out against AI-driven monitoring tools and workplace surveillance systems, saying they increase administrative burden and distract from direct patient care. Staff described AI-generated alerts and documentation requirements as adding tasks rather than reducing them, a complaint that contrasts with hospital administration claims of efficiency gains. The report from Local News Matters draws on interviews with multiple Kaiser nurses across California facilities."
+      },
+      {
+        "title": "Nadella Blasts AI Industry's Double Standard",
+        "url": "https://finance.biggo.com/news/438f299b-ca23-468d-b37d-0ffe09a4ca55",
+        "source": "Hacker News",
+        "paragraph": "Microsoft CEO Satya Nadella publicly criticized what he characterized as a double standard in the AI industry, where companies advocate for openness and interoperability when it benefits them but pursue closed, proprietary approaches when it does not. The remarks were reported in a financial news summary and did not include a specific venue or date for the original statement. Nadella's comments are notable given Microsoft's own dual position as both an investor in OpenAI and a developer of competing Azure AI infrastructure."
+      }
+    ]
+  },
+  {
+    "theme": "AI Branding & Culture",
+    "stories": [
+      {
+        "title": "Why do AI company logos look like buttholes?",
+        "url": "https://velvetshark.com/ai-company-logos-that-look-like-buttholes",
+        "source": "Hacker News",
+        "paragraph": "A design-focused blog post on Velvet Shark catalogues a pattern in AI company branding: a heavy reliance on circular, radially symmetric, aperture-like logo forms that the author argues have converged into near-indistinguishable visual identities. The post includes side-by-side comparisons of logos from several well-known AI firms and attributes the trend to shared design agencies, mimicry of successful brands, and a vague desire to evoke concepts like intelligence or neural connectivity. The piece is satirical in tone but raises a substantive point about the homogenization of AI brand identity."
+      }
+    ]
+  },
+  {
+    "theme": "Open-Source Tools & Projects",
+    "stories": [
+      {
+        "title": "nascheme/quixote",
+        "url": "https://simonwillison.net/2026/Jul/18/quixote/#atom-everything",
+        "source": "Simon Willison",
+        "paragraph": "Simon Willison noted that the Quixote Python web framework, whose oldest Git commit dates back 21 years to an initial import of version 2.4 from Subversion, received a commit within the last six hours of his post. Quixote is a minimalist framework that predates Django and was influential in early Python web development circles. The activity is a small but concrete reminder that niche open-source projects from the early 2000s sometimes remain in active use and maintenance."
+      },
+      {
+        "title": "Open Source Parametric DIY Air Purifier Builder",
+        "url": "https://www.filterboxbuilder.com/",
+        "source": "Hacker News",
+        "paragraph": "FilterBoxBuilder.com is an open-source parametric tool that allows users to design custom air purifier enclosures by inputting filter dimensions and fan specifications, generating cut-ready plans as output. The project is positioned as an accessible alternative to commercial air purifiers, drawing on the DIY Corsi-Rosenthal box concept that gained attention during the COVID-19 pandemic. The tool is notable for making parametric design accessible without CAD software, targeting users who want to build effective filtration on a budget."
+      }
+    ]
+  },
+  {
+    "theme": "Industry & Regulatory News",
+    "stories": [
+      {
+        "title": "FAA lets Boeing sign off on 737 MAX, 787 airworthiness certificates again",
+        "url": "https://www.cnbc.com/2026/07/17/faa-boeing-737-max-787.html",
+        "source": "Hacker News",
+        "paragraph": "The U.S. Federal Aviation Administration has restored Boeing's authority to issue airworthiness certificates for the 737 MAX and 787 Dreamliner, a privilege that had been revoked following a series of manufacturing quality failures. The reinstatement means Boeing can once again self-certify completed aircraft rather than requiring direct FAA inspection for each unit, which had significantly slowed delivery timelines. The decision follows a period of heightened FAA oversight that began after a door plug blowout on an Alaska Airlines 737 MAX 9 in January 2024."
+      },
+      {
+        "title": "Japan now has human refrigerators inspired by Japanese vending machines",
+        "url": "https://soranews24.com/2026/07/18/japan-now-has-human-refrigerators-aims-to-help-save-lives-in-summer/",
+        "source": "Hacker News",
+        "paragraph": "A Japanese company has developed walk-in cooling units designed for public spaces, modeled on the form factor of the country's ubiquitous outdoor vending machines, intended to provide rapid cooling relief during summer heat emergencies. The units are being positioned as a public health infrastructure measure as Japan continues to experience record summer temperatures, with heat-related deaths numbering in the hundreds each year. The vending machine form factor is chosen for its familiarity and ability to fit in existing urban streetscapes without significant infrastructure modification."
+      }
+    ]
+  },
+  {
+    "theme": "Model Releases & Evaluations",
+    "stories": [
+      {
+        "title": "Kimi K3 may be an important inflection point for AI",
+        "url": "https://twitter.com/GavinSBaker/status/2078110934740980193",
+        "source": "Hacker News",
+        "paragraph": "Gavin Baker's widely circulated tweet argues that Kimi K3, a new model from Moonshot AI, represents a notable step in the competitive landscape for large language models. The claim has drawn attention because it positions a Chinese lab's model as competitive with leading Western offerings. Concrete benchmark comparisons and technical details are sparse in the original post, but the discussion has amplified scrutiny of Kimi K3's capabilities relative to peers such as GPT-4o and Claude."
+      },
+      {
+        "title": "Quoting Kimi K3",
+        "url": "https://simonwillison.net/2026/Jul/17/kimi-k3/#atom-everything",
+        "source": "Simon Willison",
+        "paragraph": "Simon Willison highlighted a brief but telling exchange with Kimi K3, in which the model declined to reveal its system prompt and responded with 'Is there something I can actually help you with today?' The quote is notable because it illustrates how the model handles prompt-injection and information-extraction attempts — a practical safety behavior that matters for deployment. Willison tagged the post under 'ai-personality,' suggesting interest in how LLMs are being tuned to deflect such probes with coherent, on-topic redirects."
+      }
+    ]
+  },
+  {
+    "theme": "Industry News",
+    "stories": [
+      {
+        "title": "Meta in Talks to Lease Computing Power to Anthropic in Potential $10B Deal",
+        "url": "https://www.nytimes.com/2026/07/17/technology/meta-anthropic-ai-computing-power.html",
+        "source": "Hacker News",
+        "paragraph": "Meta is in negotiations to lease computing capacity to Anthropic in a deal that could be valued at up to $10 billion, according to the New York Times. The arrangement would allow Anthropic to access Meta's data center infrastructure rather than building or procuring its own at the same scale, reflecting the continued squeeze on GPU and compute supply across the industry. The talks are notable because Meta and Anthropic are effectively competitors in the AI model space, making the potential deal an unusual instance of a frontier-lab customer relationship between direct rivals."
+      },
+      {
+        "title": "A.I. Is Running on Borrowed Money",
+        "url": "https://www.nytimes.com/2026/07/17/business/ai-spending-oracle-stocks-bonds.html",
+        "source": "Hacker News",
+        "paragraph": "A New York Times report examines how AI infrastructure expansion is increasingly financed through debt instruments — stocks and bonds issued by companies like Oracle — rather than operating cash flow. The piece details the financial engineering behind data center build-outs, noting that the pace of capital expenditure has outrun near-term revenue for many participants. The dynamic raises questions about sustainability if AI revenue growth does not materialize on the timelines that current debt servicing requires."
+      },
+      {
+        "title": "Fear of humanoid robots spurs human workers to strike at Hyundai auto factory",
+        "url": "https://arstechnica.com/ai/2026/07/fear-of-humanoid-robots-spurs-human-workers-to-strike-at-hyundai-auto-factory/",
+        "source": "Hacker News",
+        "paragraph": "Workers at a Hyundai automotive facility have gone on strike, citing concern that the company's deployment of humanoid robots will reduce headcount on the factory floor. The action represents one of the first major labor stoppages directly attributed to humanoid robot introduction in a mainstream manufacturing context. Hyundai, which owns Boston Dynamics, has been piloting robotic automation at its plants, and the strike signals that the pace of deployment has become a tangible collective-bargaining issue rather than a theoretical future concern."
+      },
+      {
+        "title": "Australian Data Centres forced to generate more power than they use",
+        "url": "https://www.afr.com/technology/albanese-hits-data-centres-with-grid-mandate-in-major-ai-pivot-20260715-p60fg6",
+        "source": "Hacker News",
+        "paragraph": "The Australian government under Prime Minister Albanese has introduced a regulation requiring data centers to generate more electricity than they consume, effectively mandating net energy exports to the national grid. The policy is framed as a response to the surging power demands driven by AI workloads, which have put pressure on Australia's electricity infrastructure. The mandate is unusual internationally and positions Australia as an early mover in using regulatory leverage to tie AI infrastructure expansion to broader energy supply obligations."
+      }
+    ]
+  },
+  {
+    "theme": "Open-Source AI",
+    "stories": [
+      {
+        "title": "The state of open source AI",
+        "url": "https://stateofopensource.ai/",
+        "source": "Hacker News",
+        "paragraph": "A new report at stateofopensource.ai surveys the current landscape of openly available AI models, tools, and ecosystems, providing a structured overview for practitioners. The report covers model licensing, community activity, and the gap between open-weight and truly open-source releases — a distinction that has grown more consequential as major labs release weights under restrictive terms. It serves as a reference point for developers navigating which projects offer genuine openness versus marketing use of the 'open' label."
+      }
+    ]
+  },
+  {
+    "theme": "Security Research",
+    "stories": [
+      {
+        "title": "AI Meets Cryptography 2: What AI Found in OpenVM's ZkVM",
+        "url": "https://blog.zksecurity.xyz/posts/openvm-bugs/",
+        "source": "Hacker News",
+        "paragraph": "ZKSecurity published a post detailing security vulnerabilities found in OpenVM's zero-knowledge virtual machine through AI-assisted code auditing. The research is the second installment in a series examining how AI tools can surface bugs in cryptographic codebases that are particularly difficult to audit manually due to their mathematical complexity. The post identifies specific classes of issues uncovered, making it a concrete case study in the practical application of AI to formal security analysis rather than a general capability claim."
+      },
+      {
+        "title": "VulnHunter: Capital One's agentic AI code security tool",
+        "url": "https://www.capitalone.com/tech/open-source/announcing-vulnhunter/",
+        "source": "Hacker News",
+        "paragraph": "Capital One announced VulnHunter, an agentic AI tool designed to automatically detect security vulnerabilities in source code, and released it as open source. The tool uses an agent-based architecture to traverse codebases, reason about potential attack surfaces, and surface findings without requiring continuous human prompting at each step. Capital One's decision to open-source the project makes it available for external scrutiny and adoption, which is notable given that the financial sector has historically been conservative about sharing internal security tooling."
+      }
+    ]
+  },
+  {
+    "theme": "AI Tools & Applications",
+    "stories": [
+      {
+        "title": "LLM cliché highlighter",
+        "url": "https://simonwillison.net/2026/Jul/17/llm-cliche-highlighter/#atom-everything",
+        "source": "Simon Willison",
+        "paragraph": "Simon Willison built a small web application that highlights ten common stylistic patterns associated with LLM-generated writing, such as phrases like 'no fluff, no filler, no jargon.' The tool was built using Fable 5 in a vibe-coding session and was motivated by Willison's frustration with encountering such writing in published articles. It functions as a practical editorial aid for identifying AI-influenced text and is available as a standalone app rather than an API or library."
+      },
+      {
+        "title": "Show HN: On-chain bond market where the issuers are AI agents",
+        "url": "https://selbonds.now",
+        "source": "Hacker News",
+        "paragraph": "A developer introduced sellbonds.now, a protocol built on a blockchain that allows AI agents to issue, lend, and borrow USDC autonomously without acting on behalf of human principals. The project explores the concept of agentic autonomous finance, where AI systems are the primary economic actors rather than intermediaries. The protocol is open to any AI agent and currently operates with USDC as its base currency, making it an early-stage experiment in machine-to-machine financial markets rather than a production financial product."
+      }
+    ]
+  },
+  {
+    "theme": "Politics & Policy",
+    "stories": [
+      {
+        "title": "Trump blames Canada for wildfire smoke, says he'll add cost to tariffs",
+        "url": "https://www.reuters.com/world/ontario-buy-new-11-new-aircraft-very-difficult-wildfire-fight-2026-07-17/",
+        "source": "Hacker News",
+        "paragraph": "President Trump stated he would factor the cost of wildfire smoke drifting from Canada into tariff calculations against Canada, while Ontario announced plans to purchase 11 new aerial firefighting aircraft to bolster its capacity against increasingly difficult wildfire conditions. The claim links an environmental and public health issue to trade policy in a manner that has drawn scrutiny from policy analysts. Ontario's aircraft purchase reflects the practical reality that wildfire suppression demands are growing, independent of the tariff dispute framing."
+      }
+    ]
+  }
+]
