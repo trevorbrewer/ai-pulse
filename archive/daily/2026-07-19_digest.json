@@ -1,0 +1,148 @@
+[
+  {
+    "theme": "Model Releases",
+    "stories": [
+      {
+        "title": "Qwen 3.8 Max",
+        "url": "https://qwen.ai/home",
+        "source": "Hacker News",
+        "paragraph": "Alibaba's Qwen team released Qwen 3.8 Max, the latest iteration in their Qwen 3 model series. The release continues the team's cadence of iterative model updates targeting competitive performance across reasoning and language tasks. Specific benchmark figures and architectural details were not widely disclosed at the time of publication, but the model is available via the Qwen platform."
+      }
+    ]
+  },
+  {
+    "theme": "Developer Tools",
+    "stories": [
+      {
+        "title": "Claude Code uses Bun written in Rust now",
+        "url": "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/#atom-everything",
+        "source": "Simon Willison",
+        "paragraph": "Claude Code version 2.1.181, released on June 17th, began using a Rust port of the Bun JavaScript runtime, according to a post by Jarred Sumner and confirmed by Simon Willison through inspection of his local installation. The change resulted in a 10% faster startup time on Linux, while performance on other platforms remained largely unchanged. The update went largely unnoticed by most users, which Sumner characterized as a sign of successful engineering."
+      },
+      {
+        "title": "I built a browser-based P2P file transfer tool using WebRTC",
+        "url": "https://airdows.com/",
+        "source": "Hacker News",
+        "paragraph": "A developer released Airdows, a browser-based peer-to-peer file transfer tool built on WebRTC, requiring no server-side storage of transferred files. The tool operates entirely in the browser, meaning files pass directly between peers without being uploaded to a central server. The project is notable as a demonstration of WebRTC for practical file-sharing use cases outside of video conferencing."
+      }
+    ]
+  },
+  {
+    "theme": "AI in Education",
+    "stories": [
+      {
+        "title": "LLM-Integrated Multivariable Calculus Course",
+        "url": "https://calculus.academa.ai/",
+        "source": "Hacker News",
+        "paragraph": "Academa.ai launched a multivariable calculus course that integrates a large language model directly into the learning interface, allowing students to ask questions and receive explanations within the course content. The approach differs from standalone tutoring chatbots by embedding the AI assistance contextually alongside the curriculum. The course is available at calculus.academa.ai and represents an application of LLMs to structured STEM education delivery."
+      }
+    ]
+  },
+  {
+    "theme": "Industry Criticism and AI Hype",
+    "stories": [
+      {
+        "title": "AI Mania Is Eviscerating Global Decision-Making",
+        "url": "https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making/#fnref:3",
+        "source": "Hacker News",
+        "paragraph": "Consultant Nik Suresh published an essay arguing that AI enthusiasm is degrading the quality of decision-making at large organizations, drawing on anonymous anecdotes from his client work. In one reported case, an executive admitted to never having used ChatGPT or any AI tool, immediately after presenting a technical AI strategy document. The piece attracted enough attention to be mirrored across multiple URLs and flagged by Simon Willison, who noted its density of candid anecdotes from the corporate consulting world."
+      },
+      {
+        "title": "AI Mania Is Eviscerating Global Decision-Making",
+        "url": "https://simonwillison.net/2026/Jul/19/ai-mania/#atom-everything",
+        "source": "Simon Willison",
+        "paragraph": "Simon Willison highlighted Nik Suresh's essay on AI-driven corporate decision-making failures, describing it as packed with specific, sourced anecdotes from consulting engagements. Willison's commentary drew additional readership to the piece by surfacing it through his widely followed link blog. The story's appearance across three separate URLs — the original, a mirror, and Willison's commentary — reflects the level of circulation it achieved within the practitioner community."
+      },
+      {
+        "title": "AI Mania Is Eviscerating Global Decision-Making",
+        "url": "https://hermit-tech.com/blog/ai-mania-is-eviscerating-global-decisionmaking",
+        "source": "Hacker News",
+        "paragraph": "A third mirror of Nik Suresh's essay on AI-driven organizational dysfunction appeared via Hermit Tech, further amplifying the piece's reach. The repeated syndication across independent domains indicates strong reader interest in critical perspectives on enterprise AI adoption. The essay's core argument — that performative AI strategy is undermining genuine analysis — resonated sufficiently to generate discussion threads across multiple Hacker News submissions."
+      },
+      {
+        "title": "AI Bubble vs. Dot Com Crash. History Is Repeating",
+        "url": "https://www.youtube.com/watch?v=zWJ-g5u9Rqs",
+        "source": "Hacker News",
+        "paragraph": "A YouTube video making comparisons between the current AI investment cycle and the late-1990s dot-com bubble surfaced on Hacker News, prompting discussion about historical parallels in technology speculation. The video argues that patterns of overinvestment, inflated valuations, and speculative deployment echo conditions that preceded the 2000–2001 market correction. The comparison is a recurring frame in current technology commentary, though analysts differ on the extent to which AI infrastructure investment is analogous to dot-com-era spending."
+      },
+      {
+        "title": "Perforce charges $500 for training training videos.. and it's AI narrated",
+        "url": "https://training.perforce.com/learn/courses/535/p4-helix-core-user-basic",
+        "source": "Hacker News",
+        "paragraph": "Perforce Software is charging $500 for a Helix Core user training course that is narrated by an AI-generated voice rather than a human instructor. The listing drew criticism on Hacker News, where users questioned the value proposition of paying premium pricing for AI-produced content. The episode highlights growing scrutiny of how companies are pricing AI-generated materials relative to human-produced alternatives."
+      }
+    ]
+  },
+  {
+    "theme": "AI Ethics and Policy",
+    "stories": [
+      {
+        "title": "Protester calls out Amazon CTO for allowing Israel to use their AI towards Gaza",
+        "url": "https://www.reddit.com/r/chaoticgood/s/4Pla2e38AV",
+        "source": "Hacker News",
+        "paragraph": "A protester publicly confronted Amazon CTO Werner Vogels at an event over Amazon Web Services' Project Nimbus contract, which provides cloud and AI services to the Israeli government. The confrontation was shared on Reddit and subsequently linked on Hacker News, drawing attention to ongoing employee and public activism around AWS's role in the conflict in Gaza. Project Nimbus, a $1.2 billion contract between Google and AWS and the Israeli government, has been a recurring subject of protest within the tech industry."
+      },
+      {
+        "title": "NYC may require landlords and realtors to disclose the use of AI in listings",
+        "url": "https://petapixel.com/2026/07/16/mayor-mamdani-says-landlords-cant-secretly-use-ai-images-to-advertise-properties/",
+        "source": "Hacker News",
+        "paragraph": "New York City Mayor Zohran Mamdani announced a proposal that would require landlords and real estate agents to disclose when AI-generated images are used in property listings. The policy is aimed at preventing prospective tenants and buyers from being misled by digitally altered or entirely synthetic depictions of apartments and homes. If enacted, New York City would join a small number of jurisdictions attempting to regulate AI-generated imagery in consumer-facing commercial contexts."
+      }
+    ]
+  },
+  {
+    "theme": "Community Discussion",
+    "stories": [
+      {
+        "title": "Ask HN: Do you have any plan for post AGI?",
+        "url": "https://news.ycombinator.com/item?id=48961844",
+        "source": "Hacker News",
+        "paragraph": "A Hacker News thread posed the question of whether practitioners have concrete plans for what to do if AI systems displace their current roles. The discussion reflects a shift in community conversation from abstract speculation about artificial general intelligence to more immediate concerns about near-term labor market effects. Responses ranged from reskilling strategies to skepticism that broad job displacement will materialize on the timelines often cited by AI proponents."
+      }
+    ]
+  },
+  {
+    "theme": "Research & Ideas",
+    "stories": [
+      {
+        "title": "Overtraining as the path to human-like AI",
+        "url": "https://www.seangoedecke.com/overtraining-as-the-path-to-human-like-ai/",
+        "source": "Hacker News",
+        "paragraph": "Sean Goedecke argues that deliberate overtraining — exposing models to far more data repetitions than standard practice dictates — may be a mechanism for producing more human-like AI behavior. The piece draws an analogy to how humans internalize knowledge through repeated exposure rather than single-pass learning, suggesting that the field's conventional wisdom about overfitting may not map cleanly onto goals around generalization and intuition. The argument is notable because it challenges a core assumption in ML training pipelines, where early stopping and regularization are standard tools to prevent overtraining."
+      }
+    ]
+  },
+  {
+    "theme": "Open-Source Tools",
+    "stories": [
+      {
+        "title": "SQLite Query Explainer",
+        "url": "https://simonwillison.net/2026/Jul/18/sqlite-query-explainer/#atom-everything",
+        "source": "Simon Willison",
+        "paragraph": "Simon Willison used an AI coding tool called Fable to build an interactive SQLite query explainer that runs entirely in the browser by embedding SQLite in Python via Pyodide compiled to WebAssembly. The tool wraps SQLite's built-in EXPLAIN and EXPLAIN QUERY PLAN commands with a layer of human-readable interpretation, addressing a common frustration that raw query plans are difficult to parse. The project was prompted by Julia Evans noting in a post on running SQLite that she had never learned to read a query plan, a sentiment Willison shared."
+      }
+    ]
+  },
+  {
+    "theme": "Industry & Policy",
+    "stories": [
+      {
+        "title": "AI's new political donor class is outspending Big Tech's last one",
+        "url": "https://sfstandard.com/2026/07/18/ai-s-new-political-donor-class-already-outspending-big-tech-s-last-one/",
+        "source": "Hacker News",
+        "paragraph": "A report from the SF Standard finds that AI company executives and investors have already outpaced the political spending levels that defined the peak of Big Tech's lobbying era, representing a measurable shift in the tech industry's political influence. The donors span both parties, reflecting an industry-wide effort to shape AI regulation, export controls, and federal procurement before major legislative frameworks are finalized. The comparison to prior Big Tech spending cycles is notable because it took companies like Google and Facebook years of growth before they reached comparable levels of political engagement."
+      }
+    ]
+  },
+  {
+    "theme": "Privacy & Consumer Tech",
+    "stories": [
+      {
+        "title": "LG ThinQ Terms of Use",
+        "url": "https://news.ycombinator.com/item?id=48958273",
+        "source": "Hacker News",
+        "paragraph": "A Hacker News discussion thread centers on a user's decision to remove LG smart appliances from their home network after reviewing the LG ThinQ app's terms of use and a prior HN post about LG software being characterized as malware. The user had relied on the app's remote-start feature to preheat an oven while away from home, illustrating the practical tradeoffs consumers face between smart-home convenience and data privacy. The thread surfaces broader concerns about the data collection practices embedded in consumer IoT appliances, including the difficulty of deleting user accounts from such platforms."
+      }
+    ]
+  }
+]
