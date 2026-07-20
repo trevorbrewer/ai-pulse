@@ -1,0 +1,132 @@
+{
+  "date": "2026-07-20",
+  "generated_at": "2026-07-20T13:03:24.970181+00:00",
+  "source_counts": {
+    "rss_feeds": 1,
+    "arxiv": 0,
+    "hackernews": 11,
+    "nitter": 0,
+    "total_raw": 12,
+    "total_deduped": 12,
+    "total_saved": 12
+  },
+  "items": [
+    {
+      "title": "Airport Simulator",
+      "url": "https://airport.apunen.com/",
+      "source": "Hacker News",
+      "published": "2026-07-20T10:30:40+00:00",
+      "summary_raw": "",
+      "points": 103,
+      "num_comments": 29,
+      "hn_url": "https://news.ycombinator.com/item?id=48976846"
+    },
+    {
+      "title": "Airbus Takes Flight from AWS",
+      "url": "https://www.theregister.com/columnists/2026/07/20/airbus-takes-flight-from-aws-what-happens-next-is-critical/5274109",
+      "source": "Hacker News",
+      "published": "2026-07-20T10:12:22+00:00",
+      "summary_raw": "",
+      "points": 118,
+      "num_comments": 80,
+      "hn_url": "https://news.ycombinator.com/item?id=48976682"
+    },
+    {
+      "title": "EU Exempts Apple Watch and AirPods from Battery Removal Requirements",
+      "url": "https://mjtsai.com/blog/2026/07/17/eu-exempts-apple-watch-and-airpods-from-battery-removal-requirement/",
+      "source": "Hacker News",
+      "published": "2026-07-20T07:10:30+00:00",
+      "summary_raw": "",
+      "points": 37,
+      "num_comments": 60,
+      "hn_url": "https://news.ycombinator.com/item?id=48975245"
+    },
+    {
+      "title": "Big tech needs to justify AI spending as investors dump stocks",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-19/big-tech-needs-to-justify-ai-spending-as-investors-dump-stocks",
+      "source": "Hacker News",
+      "published": "2026-07-20T04:41:10+00:00",
+      "summary_raw": "",
+      "points": 42,
+      "num_comments": 14,
+      "hn_url": "https://news.ycombinator.com/item?id=48974426"
+    },
+    {
+      "title": "Quoting Sam Altman",
+      "url": "https://simonwillison.net/2026/Jul/20/sam-altman/#atom-everything",
+      "source": "Simon Willison",
+      "published": "2026-07-20T03:47:59+00:00",
+      "summary_raw": "We have been having extensive discussions around open source strategy. We will discuss it more at our next board meeting, but one thing we\u2019d like to do soon is to create a language model with the approximate capability of GPT-3 that can run locally on consumer hardware and release that. We\u2019d like to do it soon, before Stability or someone else does. In general, we think this helps discourage others from releasing similarly-powerful models, and makes it harder for new efforts to get funded.\n&mdash; Sam Altman, Email to OpenAI's board, October 1, 2022 - exposed in Musk v. Altman (2026)\n\n    Tags: ai-ethics, sam-altman, generative-ai, openai, ai, llms"
+    },
+    {
+      "title": "Tech Workers Face Evaporating Financial Security as AI Transforms Industry",
+      "url": "https://www.adn.com/nation-world/2026/07/19/the-biggest-winners-of-the-american-economy-fear-theyre-sinking-fast/",
+      "source": "Hacker News",
+      "published": "2026-07-20T02:45:14+00:00",
+      "summary_raw": "",
+      "points": 33,
+      "num_comments": 18,
+      "hn_url": "https://news.ycombinator.com/item?id=48973847"
+    },
+    {
+      "title": "Ask HN: What are your favorite blogs not about AI?",
+      "url": "https://news.ycombinator.com/item?id=48972858",
+      "source": "Hacker News",
+      "published": "2026-07-19T23:58:12+00:00",
+      "summary_raw": "Many of my favorite bloggers have stopped writing (or have drastically shifted topics). What are your favorite blogs?<p>I miss the 2009 era of blogging about personal projects or super niche factoids.",
+      "points": 82,
+      "num_comments": 36,
+      "hn_url": "https://news.ycombinator.com/item?id=48972858"
+    },
+    {
+      "title": "AI advice made people less accurate but more confident \u2013 sudy",
+      "url": "https://thenextweb.com/news/ai-advice-suppresses-critical-thinking-wrong-answers-study",
+      "source": "Hacker News",
+      "published": "2026-07-19T21:18:10+00:00",
+      "summary_raw": "",
+      "points": 346,
+      "num_comments": 198,
+      "hn_url": "https://news.ycombinator.com/item?id=48971738"
+    },
+    {
+      "title": "I argued with the father of open source for 2 years Now the AI fight is the same",
+      "url": "https://fortune.com/2026/07/03/open-source-ai-same-fight-as-software-fight-1980s-david-siegel-two-sigma/",
+      "source": "Hacker News",
+      "published": "2026-07-19T19:02:31+00:00",
+      "summary_raw": "",
+      "points": 14,
+      "num_comments": 1,
+      "hn_url": "https://news.ycombinator.com/item?id=48970814"
+    },
+    {
+      "title": "Xi Jinping Delivers Keynote Speech at World AI Conference 2026 in Shanghai [video]",
+      "url": "https://www.youtube.com/watch?v=0Pbv5_7t1GQ",
+      "source": "Hacker News",
+      "published": "2026-07-19T18:17:57+00:00",
+      "summary_raw": "",
+      "points": 10,
+      "num_comments": 1,
+      "hn_url": "https://news.ycombinator.com/item?id=48970449"
+    },
+    {
+      "title": "AI advice reduced \"I don't know\" answers from 44% to 3%",
+      "url": "https://osf.io/preprints/psyarxiv/5y6m4_v1",
+      "source": "Hacker News",
+      "published": "2026-07-19T17:09:34+00:00",
+      "summary_raw": "",
+      "points": 19,
+      "num_comments": 1,
+      "hn_url": "https://news.ycombinator.com/item?id=48969839"
+    },
+    {
+      "title": "Moonshot AI suspends new subscriptions due to Kimi K3 demand",
+      "url": "https://twitter.com/kimi_moonshot/status/2078855608565207130",
+      "source": "Hacker News",
+      "published": "2026-07-19T16:02:25+00:00",
+      "summary_raw": "",
+      "points": 270,
+      "num_comments": 108,
+      "hn_url": "https://news.ycombinator.com/item?id=48969291"
+    }
+  ]
+}

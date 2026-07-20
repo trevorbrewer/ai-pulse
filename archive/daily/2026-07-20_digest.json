@@ -1,0 +1,104 @@
+[
+  {
+    "theme": "AI Cognition and Decision-Making Research",
+    "stories": [
+      {
+        "title": "AI advice made people less accurate but more confident – study",
+        "url": "https://thenextweb.com/news/ai-advice-suppresses-critical-thinking-wrong-answers-study",
+        "source": "Hacker News",
+        "paragraph": "A study found that receiving AI-generated advice made participants less accurate in their answers while simultaneously increasing their confidence in those answers. The finding raises concerns about AI systems undermining critical thinking rather than augmenting it. Researchers observed that users appeared to defer to AI suggestions even when those suggestions were incorrect, a pattern with implications for high-stakes decision-making environments."
+      },
+      {
+        "title": "AI advice reduced \"I don't know\" answers from 44% to 3%",
+        "url": "https://osf.io/preprints/psyarxiv/5y6m4_v1",
+        "source": "Hacker News",
+        "paragraph": "A preprint posted on PsyArXiv found that access to AI advice reduced participants' willingness to express uncertainty, with \"I don't know\" responses dropping from 44% to 3%. The study suggests that AI tools may suppress epistemic humility, leading users to commit to answers they would otherwise have left open. This result complements related research showing that AI-assisted respondents can be more confident yet less correct, pointing to a consistent pattern of calibration errors when humans rely on AI counsel."
+      }
+    ]
+  },
+  {
+    "theme": "Industry News",
+    "stories": [
+      {
+        "title": "Big tech needs to justify AI spending as investors dump stocks",
+        "url": "https://www.bloomberg.com/news/articles/2026-07-19/big-tech-needs-to-justify-ai-spending-as-investors-dump-stocks",
+        "source": "Hacker News",
+        "paragraph": "Investors have been selling off shares in major technology companies amid concerns that capital expenditures on AI infrastructure have yet to produce commensurate revenue. Bloomberg reported that the pressure marks a shift from a period when large AI spending announcements were rewarded by markets, to one where concrete return-on-investment metrics are being demanded. The selloff reflects broader skepticism about the timeline for AI to translate into durable business performance."
+      },
+      {
+        "title": "Moonshot AI suspends new subscriptions due to Kimi K3 demand",
+        "url": "https://twitter.com/kimi_moonshot/status/2078855608565207130",
+        "source": "Hacker News",
+        "paragraph": "Chinese AI startup Moonshot AI announced via its official account that it was temporarily suspending new subscriptions to its Kimi service due to demand surges following the release of its Kimi K3 model. The suspension indicates that infrastructure capacity has not kept pace with user uptake, a challenge familiar to several AI product launches in recent years. Moonshot AI did not specify a timeline for resuming new sign-ups."
+      },
+      {
+        "title": "Airbus Takes Flight from AWS",
+        "url": "https://www.theregister.com/columnists/2026/07/20/airbus-takes-flight-from-aws-what-happens-next-is-critical/5274109",
+        "source": "Hacker News",
+        "paragraph": "Airbus has moved away from Amazon Web Services as its primary cloud provider, a decision described by The Register as carrying significant operational implications for the aerospace manufacturer. The piece examines what the migration means for Airbus's internal systems and vendor relationships, noting that large-scale cloud departures of this kind are relatively uncommon among global industrial companies. The transition is described as critical, with the outcome likely to influence how other enterprises evaluate multi-cloud or repatriation strategies."
+      },
+      {
+        "title": "Xi Jinping Delivers Keynote Speech at World AI Conference 2026 in Shanghai [video]",
+        "url": "https://www.youtube.com/watch?v=0Pbv5_7t1GQ",
+        "source": "Hacker News",
+        "paragraph": "Chinese President Xi Jinping delivered a keynote address at the World AI Conference 2026 held in Shanghai, signaling continued state-level prioritization of artificial intelligence development in China. The conference is a recurring high-profile event and Xi's direct participation underscores the strategic importance Beijing places on AI competitiveness. The speech is expected to shape near-term policy direction and investment signals for China's AI sector."
+      },
+      {
+        "title": "Tech Workers Face Evaporating Financial Security as AI Transforms Industry",
+        "url": "https://www.adn.com/nation-world/2026/07/19/the-biggest-winners-of-the-american-economy-fear-theyre-sinking-fast/",
+        "source": "Hacker News",
+        "paragraph": "A report from the Alaska Dispatch News highlights growing financial anxiety among technology workers, a cohort that had long been among the highest-compensated in the U.S. economy. Layoffs, hiring freezes, and automation-driven role eliminations tied to AI adoption are cited as primary drivers of the insecurity. The article notes a significant psychological shift among workers who previously viewed their skills as a durable hedge against economic disruption."
+      }
+    ]
+  },
+  {
+    "theme": "Open-Source AI Strategy",
+    "stories": [
+      {
+        "title": "Quoting Sam Altman",
+        "url": "https://simonwillison.net/2026/Jul/20/sam-altman/#atom-everything",
+        "source": "Simon Willison",
+        "paragraph": "Simon Willison highlighted a quote from OpenAI CEO Sam Altman discussing the company's open-source strategy, in which Altman described internal deliberations about releasing a locally-runnable language model with approximately GPT-3-level capability. Altman stated that OpenAI wanted to act quickly, partly to preempt a similar release from Stability AI or another organization. The quote reveals that competitive dynamics with open-source actors were a factor in OpenAI's internal strategic calculus at the time."
+      },
+      {
+        "title": "I argued with the father of open source for 2 years Now the AI fight is the same",
+        "url": "https://fortune.com/2026/07/03/open-source-ai-same-fight-as-software-fight-1980s-david-siegel-two-sigma/",
+        "source": "Hacker News",
+        "paragraph": "David Siegel, a figure associated with Two Sigma, wrote in Fortune that the current debate over open-source AI closely mirrors the arguments he had with open-source software advocates in the 1980s. Siegel draws a parallel between early disputes over proprietary versus freely distributed software and today's tensions around whether large AI models should be openly released. The piece argues that many of the philosophical and commercial fault lines are structurally identical across the two eras."
+      }
+    ]
+  },
+  {
+    "theme": "Regulation and Policy",
+    "stories": [
+      {
+        "title": "EU Exempts Apple Watch and AirPods from Battery Removal Requirements",
+        "url": "https://mjtsai.com/blog/2026/07/17/eu-exempts-apple-watch-and-airpods-from-battery-removal-requirement/",
+        "source": "Hacker News",
+        "paragraph": "The European Union has granted exemptions to Apple Watch and AirPods from the battery removability requirements included in its Battery Regulation, which otherwise mandates user-replaceable batteries in portable electronics. The exemptions acknowledge the technical constraints of water resistance and compact form factors in wearable devices. The decision is notable as it marks a carve-out within a regulation broadly aimed at increasing device repairability and reducing electronic waste across EU member states."
+      }
+    ]
+  },
+  {
+    "theme": "Tools and Demos",
+    "stories": [
+      {
+        "title": "Airport Simulator",
+        "url": "https://airport.apunen.com/",
+        "source": "Hacker News",
+        "paragraph": "A developer published an airport simulator accessible via a web browser at airport.apunen.com, attracting attention on Hacker News. The project appears to be an independent creative and technical exercise simulating airport operations or environments. No further documentation was provided alongside the link, leaving the scope and underlying technology of the simulator to be explored directly by visitors."
+      }
+    ]
+  },
+  {
+    "theme": "Community and Culture",
+    "stories": [
+      {
+        "title": "Ask HN: What are your favorite blogs not about AI?",
+        "url": "https://news.ycombinator.com/item?id=48972858",
+        "source": "Hacker News",
+        "paragraph": "A Hacker News thread asked users to share favorite blogs unrelated to artificial intelligence, with the original poster expressing nostalgia for the personal and niche-focused blogging culture of around 2009. The discussion reflects a sentiment among some practitioners that AI has come to dominate online technical discourse, crowding out other topics. The thread functions as a informal survey of what non-AI content readers in the HN community still find valuable."
+      }
+    ]
+  }
+]
