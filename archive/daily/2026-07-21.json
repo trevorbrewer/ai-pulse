@@ -1,0 +1,233 @@
+{
+  "date": "2026-07-21",
+  "generated_at": "2026-07-21T12:22:28.871292+00:00",
+  "source_counts": {
+    "rss_feeds": 2,
+    "arxiv": 50,
+    "hackernews": 29,
+    "nitter": 2,
+    "total_raw": 83,
+    "total_deduped": 83,
+    "total_saved": 25
+  },
+  "items": [
+    {
+      "title": "Qwen-Image-3.0: Rich Content, Authentic Details, Deep Knowledge",
+      "url": "https://qwen.ai/blog?id=qwen-image-3.0",
+      "source": "Hacker News",
+      "published": "2026-07-21T08:44:23+00:00",
+      "summary_raw": "",
+      "points": 202,
+      "num_comments": 98,
+      "hn_url": "https://news.ycombinator.com/item?id=48989701"
+    },
+    {
+      "title": "China weighs tighter export controls on AI models and chips",
+      "url": "https://www.ft.com/content/6049a031-9e9b-464c-97bb-414da04d5a6a",
+      "source": "Hacker News",
+      "published": "2026-07-21T05:24:42+00:00",
+      "summary_raw": "",
+      "points": 10,
+      "num_comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=48988357"
+    },
+    {
+      "title": "Five US tech giants' hidden debts soar to $1.65T on opaque AI funding",
+      "url": "https://asia.nikkei.com/business/technology/five-us-tech-giants-hidden-debts-soar-to-1.65tn-on-opaque-ai-funding",
+      "source": "Hacker News",
+      "published": "2026-07-21T03:56:03+00:00",
+      "summary_raw": "<a href=\"https:&#x2F;&#x2F;archive.ph&#x2F;20260720174223&#x2F;https:&#x2F;&#x2F;asia.nikkei.com&#x2F;business&#x2F;technology&#x2F;five-us-tech-giants-hidden-debts-soar-to-1.65tn-on-opaque-ai-funding\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.ph&#x2F;20260720174223&#x2F;https:&#x2F;&#x2F;asia.nikkei.com&#x2F;bu...</a>",
+      "points": 298,
+      "num_comments": 201,
+      "hn_url": "https://news.ycombinator.com/item?id=48987863"
+    },
+    {
+      "title": "New York blocks large data centers for a year",
+      "url": "https://apnews.com/article/new-york-data-centers-moratorium-ai-c1e05b74208a6c570eec7c658ac8f187",
+      "source": "Hacker News",
+      "published": "2026-07-21T02:31:03+00:00",
+      "summary_raw": "",
+      "points": 23,
+      "num_comments": 1,
+      "hn_url": "https://news.ycombinator.com/item?id=48987373"
+    },
+    {
+      "title": "Flathub's AI slop ban looks like it was the right call",
+      "url": "https://www.omgubuntu.co.uk/2026/07/flathub-ai-slop-ban-data",
+      "source": "Hacker News",
+      "published": "2026-07-21T00:44:33+00:00",
+      "summary_raw": "",
+      "points": 10,
+      "num_comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=48986787"
+    },
+    {
+      "title": "AI consciousness is a red herring in the safety debate",
+      "url": "https://www.theguardian.com/technology/2026/jan/06/ai-consciousness-is-a-red-herring-in-the-safety-debate",
+      "source": "Hacker News",
+      "published": "2026-07-20T23:08:11+00:00",
+      "summary_raw": "",
+      "points": 11,
+      "num_comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=48986026"
+    },
+    {
+      "title": "Americans hate AI so much that politicians are losing their jobs over it",
+      "url": "https://fortune.com/2026/07/14/voters-ai-backlash-politicians-lose-seats/",
+      "source": "Hacker News",
+      "published": "2026-07-20T23:06:09+00:00",
+      "summary_raw": "",
+      "points": 55,
+      "num_comments": 34,
+      "hn_url": "https://news.ycombinator.com/item?id=48986003"
+    },
+    {
+      "title": "RT by @ylecun: \ud83e\udd94A Nikkei investigation found that Alphabet, Microsoft, Amazon, Meta, and Oracle have $1.65 trillion in debt that doesn't appear on their balance sheets, more than the $1.35 trillion they officially report. These are GPU contracts, data center leases, and joint ventures that don't count as debt under accounting rules until the facilities go live. Meta's hidden debt is $420 billion, triple its reported debt. Oracle's grew 30-fold in four years. All five declined to comment.\n\nMy Take\nNikkei examined the actual filings and put a number on something the BIS already flagged as \"shadow borrowing\" back in March. These companies owe more off their balance sheets than on them, and the accounting rules let them keep it that way until the data centers go live. That's legal, but it means investors looking at quarterly earnings this week are seeing less than half the picture.\n\nFour of these five report earnings in the next two weeks. The reported debt will look manageable. The $1.65 trillion in footnotes won't make the headlines. But when those data centers start operating, the leases hit the books all at once. If AI demand comes in below projections, those facilities get marked down and the losses land on the investors and insurance policyholders who funded the construction through private credit and project bonds without realizing how much total exposure they were carrying.\n\nHedgie\ud83e\udd17",
+      "url": "https://twitter.com/ylecun/status/2079335039720952144",
+      "source": "Twitter/@ylecun",
+      "published": "2026-07-20T22:38:00+00:00",
+      "summary_raw": "\ud83e\udd94A Nikkei investigation found that Alphabet, Microsoft, Amazon, Meta, and Oracle have $1.65 trillion in debt that doesn't appear on their balance sheets, more than the $1.35 trillion they officially report. These are GPU contracts, data center leases, and joint ventures that don't count as debt under accounting rules until the facilities go live. Meta's hidden debt is $420 billion, triple its reported debt. Oracle's grew 30-fold in four years. All five declined to comment.\n\nMy Take\nNikkei examined the actual filings and put a number on something the BIS already flagged as \"shadow borrowing\" back in March. These companies owe more off their balance sheets than on them, and the accounting rules let them keep it that way until the data centers go live. That's legal, but it means investors looking at quarterly earnings this week are seeing less than half the picture.\n\nFour of these five report earnings in the next two weeks. The reported debt will look manageable. The $1.65 trillion in footnotes won't make the headlines. But when those data centers start operating, the leases hit the books all at once. If AI demand comes in below projections, those facilities get marked down and the losses land on the investors and insurance policyholders who funded the construction through private credit and project bonds without realizing how much total exposure they were carrying.\n\nHedgie\ud83e\udd17",
+      "person": "Yann LeCun"
+    },
+    {
+      "title": "GPT-5.6 Sol vs. Kimi K3 Speedrunning Kerbal Space Program Live",
+      "url": "https://www.twitch.tv/vals_ai",
+      "source": "Hacker News",
+      "published": "2026-07-20T22:14:28+00:00",
+      "summary_raw": "",
+      "points": 11,
+      "num_comments": 2,
+      "hn_url": "https://news.ycombinator.com/item?id=48985547"
+    },
+    {
+      "title": "US administration considering ban on Chinese open source AI models",
+      "url": "https://www.axios.com/2026/07/20/ai-us-china-open-source-kimi",
+      "source": "Hacker News",
+      "published": "2026-07-20T21:54:50+00:00",
+      "summary_raw": "",
+      "points": 11,
+      "num_comments": 2,
+      "hn_url": "https://news.ycombinator.com/item?id=48985358"
+    },
+    {
+      "title": "Cue AI",
+      "url": "https://deepmind.google/models/gemma/gemmaverse/cue-ai/",
+      "source": "Hacker News",
+      "published": "2026-07-20T19:41:44+00:00",
+      "summary_raw": "",
+      "points": 26,
+      "num_comments": 1,
+      "hn_url": "https://news.ycombinator.com/item?id=48983890"
+    },
+    {
+      "title": "Reverse-engineering is cheap now",
+      "url": "https://simonwillison.net/2026/Jul/20/cheap-reverse-engineering/#atom-everything",
+      "source": "Simon Willison",
+      "published": "2026-07-20T19:24:05+00:00",
+      "summary_raw": "I keep hearing anecdotes from people who used coding agents to reverse-engineer and automate devices in their homes.\nI think this is an interesting illustration of the impact of the reduced cost of writing code.\nPrior to agents, it was entirely possible to reverse-engineer home devices. The problem was the ROI - was it really worth all of that effort? More importantly, any experienced programmer knows that undocumented, unstable APIs like that may well change or break in the future. Is that initial work worth the effort if you're committing yourself to a frustrating cycle of maintenance in the future?\nCoding agents change that equation entirely. The effort to get a simple automation working has dropped, as has the cost of trying and failing to get it to work. Since the code is so cheap, the idea of having to maintain it in the future - or throw it away and start again - carries way less psychological baggage.\n\n    Tags: reverse-engineering, coding-agents, ai-assisted-programming, generative-ai, ai, llms"
+    },
+    {
+      "title": "AI solves 20 year old conjecture in graph theory",
+      "url": "https://twitter.com/marsxiang_/status/2079276968047153337",
+      "source": "Hacker News",
+      "published": "2026-07-20T19:10:57+00:00",
+      "summary_raw": "",
+      "points": 15,
+      "num_comments": 4,
+      "hn_url": "https://news.ycombinator.com/item?id=48983486"
+    },
+    {
+      "title": "The head of the US AI safety agency has resigned",
+      "url": "https://www.reuters.com/world/us/head-us-ai-safety-agency-resigns-2026-07-20/",
+      "source": "Hacker News",
+      "published": "2026-07-20T18:45:10+00:00",
+      "summary_raw": "",
+      "points": 11,
+      "num_comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=48983128"
+    },
+    {
+      "title": "The Many Senses of Visual Similarity: A Text-Prompted Image Perceptual Metric",
+      "url": "https://arxiv.org/abs/2607.18237v1",
+      "source": "arXiv",
+      "published": "2026-07-20T17:59:51+00:00",
+      "summary_raw": "Human visual similarity judgments are context-dependent. For example, two images may be similar in shape but distinct in color. Existing perceptual similarity metrics, however, collapse these nuances into a single scalar value, offering no mechanism to condition on specific aspects. To bridge this gap, we introduce a large-scale dataset of human similarity judgments over image triplets, where each triplet is annotated across multiple, free-form semantic aspects of similarity. Benchmarking a broad range of frontier vision-language models (VLMs) reveals a considerable performance gap compared to human annotators' consensus. Leveraging our data, we fine-tune a VLM to produce our Text-Prompted Image Perceptual Similarity (TPIPS) metric, capturing multiple senses of visual similarity depending on the specified text prompt. We demonstrate that TPIPS aligns more closely with human perception and generalizes reliably beyond the training distribution. Finally, we show that TPIPS unlocks new capabilities in text-guided retrieval, compositional search, and the fine-grained evaluation of generative models. Our code, data, and trained models are at https://peterwang512.github.io/TPIPS"
+    },
+    {
+      "title": "AI, Vim, and the Illusion of Flow",
+      "url": "https://rosipov.com/blog/ai-vim-and-the-illusion-of-flow/",
+      "source": "Hacker News",
+      "published": "2026-07-20T17:59:42+00:00",
+      "summary_raw": "",
+      "points": 39,
+      "num_comments": 7,
+      "hn_url": "https://news.ycombinator.com/item?id=48982411"
+    },
+    {
+      "title": "Patch Policy: Efficient Embodied Control via Dense Visual Representations",
+      "url": "https://arxiv.org/abs/2607.18236v1",
+      "source": "arXiv",
+      "published": "2026-07-20T17:59:41+00:00",
+      "summary_raw": "Pretrained dense visual features from Vision Transformers (ViTs) are powerful yet have been underutilized in robot learning. Modern robot policies either compress each observation into a single global token, or rely on visual backbones trained from scratch, sacrificing both fine-grained spatial detail and the benefits of large-scale visual pre-training. While there exist policies that do operate on dense patch features like large vision-language-action models (VLAs), they tend to be heavy and slow, inheriting the full cost of a billion-parameter vision-language model (VLM) backbone. We close this gap with Patch Policy, a minimal architectural extension that enables transformer-based policies to consume dense pre-trained patch tokens directly without the computational overhead of a full VLM. At its core is a block-causal attention mask that preserves the temporal causality of standard policies while letting the model attend over many patch tokens per observation, alongside other state information. Patch Policy is lightweight, fast, and highly effective. Across four simulated and three real-world environment suites, our method achieves a 40% relative improvement over policies using state-of-the-art global-pooled representations. Furthermore, it surpasses fine-tuned OpenVLA-OFT by 18% while using roughly 0.7% of the parameters. We believe Patch Policy provides a pipeline for the robotics community to readily leverage continuing progress in visual representation learning, without sacrificing the training efficiency or inference speed required for high-frequency, reactive control. Videos can be viewed at https://patch-policy.github.io"
+    },
+    {
+      "title": "Automated Discovery Has No Universally Superior Harness",
+      "url": "https://arxiv.org/abs/2607.18235v1",
+      "source": "arXiv",
+      "published": "2026-07-20T17:59:37+00:00",
+      "summary_raw": "Autonomous discovery systems such as OpenEvolve and TTT-Discover are often used as general-purpose harnesses. However, in practice these are composite systems combining several design choices about archives, parent selection, exploration, and budget allocation into a single recipe. Because discovery runs are expensive and inherently stochastic, existing harnesses are often compared using too few independent trials to distinguish key methodological improvements from run-to-run variance. We systematically decompose OpenEvolve-style evolutionary search and the TTT-Discover search harness into its constituent components and systematically evaluate 30 budget-matched harnesses across 12 model-problem pairs using more than 3.1 million LLM rollouts and repeated-trial statistical analysis. Our results show that discovery harnesses have a generalization problem: No fixed harness is reliably superior across the evaluated model-problem pairs, and variants of OpenEvolve generally underperform simpler alternatives. Thus, harness choice is better viewed as a hyperparameter rather than as a universal recipe, and should be tailored to the specific problem and underlying model. We also find that early discovery progress predicts final performance, and use this property to present a budget-matched adaptive-allocation experiment that starts multiple harnesses, prunes weak partial runs, and reallocates compute to stronger survivors, outperforming both commitment to a randomly sampled fixed harness and a non-adaptive harness ensemble. Together, these results motivate shifting from fixed harness selection to online adaptation guided by early performance. We release all run pools including baseline null distributions for every model-problem pair as reusable statistical infrastructure against for future harness proposals."
+    },
+    {
+      "title": "It's Not What You Say, It's How You Say It: Evaluating LLM Responses to Expressions of Belief",
+      "url": "https://arxiv.org/abs/2607.18232v1",
+      "source": "arXiv",
+      "published": "2026-07-20T17:58:31+00:00",
+      "summary_raw": "Users frequently express their beliefs to large language models (LLMs). In some situations, the LLM should accept these contextual beliefs as true. In others, they should stick to their prior knowledge. Notably, users' expressions of belief (EoBs) can take linguistically diverse forms - using presuppositions, evidential and certainty markers, or varied tones - each of which may have a different persuasiveness over the LLMs. We introduce a typology to systematically evaluate how different EoBs affect whether models follow context versus prior knowledge. The typology is grounded in four linguistically motivated dimensions: form, evidentiality, epistemic stance, and tone, spanning 17 fine-grained types. By pairing these EoBs with world knowledge facts, we generate controlled EoB-query pairs that isolate the effect of linguistic variation. Using this benchmark, we evaluate 16 LLMs that differ in architecture (Llama3, Qwen3, Gemma3), scale (1B-30B parameters), and training stages (base vs instruct). We identify meaningful variations in response behavior across these axes, e.g., that bigger models and instruction models tend to be less context-following than smaller models and base models. We further identify specific EoBs that statistically significantly persuade LMs more consistently than others. Our work reveals systematic patterns in how linguistic framing affects LLM context integration, with implications for prompt engineering and model robustness."
+    },
+    {
+      "title": "Simple Domain Generalization for Strong Pixel-Level Image Tampering Detection in Modern VLMs",
+      "url": "https://arxiv.org/abs/2607.18230v1",
+      "source": "arXiv",
+      "published": "2026-07-20T17:58:13+00:00",
+      "summary_raw": "Modern vision-language models (VLMs) have significantly improved image generation and editing capabilities, making pixel-level image tampering detection increasingly important yet challenging under cross-model and out-of-distribution shifts. This work studies domain generalization for pixel-level image tampering detection in modern VLMs like ChatGPT, Gemini, Qwen-Image, etc., aiming to learn tampering localization models that remain robust across diverse VLM-generated manipulation distributions. We propose a simple yet effective domain-generalized training framework built on two practical strategies. First, we introduce a balanced minibatch sampling scheme that strategically samples tampered and real images in each minibatch, preventing biased optimization toward either manipulated artifacts or clean-image priors and avoiding training collapse, ensuring that each optimization step receives proper sampled gradient signals. Second, we adopt a simple late-injection strategy, where the detector is first trained on large-scale base data until stable convergence, and then exposed to a small amount of newly selected supporting data from emerging VLM distributions, improving adaptability without overfitting to limited new domains. Together, these components provide a simple yet strong recipe for improving pixel-level tampering localization and OOD robustness across modern VLMs. Despite the conceptual simplicity, our framework outperforms the prior state-of-the-art PIXAR by a large margin of 26.1% and 26.8% relative improvement in average gIoU and cIoU, respectively, across OOD VLMs of GPT-Images-2.0, Gemini-3.1, FLUX.2, and Seedream 4.5. Our code is available at https://github.com/VILA-Lab/PIXAR-DG"
+    },
+    {
+      "title": "Logical Judgments Under Pressure: Diagnosing Syllogistic Stability with Learned Soft Prefixes",
+      "url": "https://arxiv.org/abs/2607.18228v1",
+      "source": "arXiv",
+      "published": "2026-07-20T17:58:05+00:00",
+      "summary_raw": "To test how correct logical judgments respond to learned context, we prepend a soft prefix to an exactly labeled syllogistic reasoning benchmark while keeping the model fixed. Soft prefixes are opaque continuous vectors, so we characterize them through the behavior they induce across controlled variations in logical form and interface. By studying which prefixes succeed and how their effects generalize, we characterize how learned contextual pressure can override correct judgments and expose limits in a model's logical stability. Across Qwen3.6-35B-A3B MoE, Qwen3-8B, and Gemma 4 31B, learned prefixes redirect many correct answers and remain effective across unseen forms and interface changes. In repeated tests with Qwen3.6 MoE and Gemma, they outperform paired random controls in all 16 model--direction--split comparisons by 37 to 99 percentage points. Qwen3.6 MoE flip rates remain between 72% and 90% across wording and prompt changes, while Gemma validity prefixes retain 54% to 56% flip compared with less than 1% for matched random prefixes. Diagnostic tests show that the dominant effect is a broad preference for one answer meaning rather than fixed-symbol forcing or a logical operation that transfers reliably between tasks. The form of this bias differs across models. In both Qwen models, simple score models often predict which judgments will flip but not how far their margins will move, whereas Gemma's overall response is more closely approximated by the same models. These results show that the dominant behavioral effect of successful soft prefixes is a broad answer preference, while the remaining response reveals substantial model-specific differences in logical stability."
+    },
+    {
+      "title": "Causal Discovery on Irregular Time Series",
+      "url": "https://arxiv.org/abs/2607.18226v1",
+      "source": "arXiv",
+      "published": "2026-07-20T17:57:45+00:00",
+      "summary_raw": "Causal discovery methods have shown strong performance in temporal systems, but they typically rely on regular and discrete lag structures, limiting their applicability to regularly sampled data. However, many real-world tasks require dealing with irregularly sampled streams of events, such as sensor streams, healthcare data, and financial transactions. In this work, we propose an extension of PCMCI+, a state-of-the-art method for causal discovery on regular multivariate time series, to allow for handling irregular time series. Instead of modelling causal relations through fixed-lag dependencies, our method aggregates causal influence over predefined temporal windows. We evaluate our method on synthetic irregular event streams with known causal structures under different signal-to-noise ratios, showing that it consistently recovers the underlying causal graph and substantially outperforms the standard PCMCI+ on irregularly sampled data."
+    },
+    {
+      "title": "Z.ai Completes Giant Data Center with Chinese Chips to Train AI",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-20/z-ai-completes-giant-data-center-with-chinese-chips-to-train-ai",
+      "source": "Hacker News",
+      "published": "2026-07-20T17:57:22+00:00",
+      "summary_raw": "",
+      "points": 13,
+      "num_comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=48982365"
+    },
+    {
+      "title": "Vector Search As Nearest Neighbor Matching: RAG-based Policy Learning in Causal Inference",
+      "url": "https://arxiv.org/abs/2607.18225v1",
+      "source": "arXiv",
+      "published": "2026-07-20T17:57:20+00:00",
+      "summary_raw": "We propose one-step and two-step methods for policy learning with retrieval-augmented generation (RAG). We formulate RAG-based action selection under the potential outcome framework. In the two-step method, vector search retrieves action-specific neighboring evidence in an embedding space, the generator estimates conditional expected outcomes or their contrasts, and a plug-in rule selects an action. This formulation connects action-specific vector search with nearest-neighbor matching in causal inference. We decompose the regret of the two-step method into candidate-generation regret and within-candidate choice regret, and we bound the latter using prediction-error guarantees for nearest-neighbor estimators and transformers. We evaluate the one-step method directly as a policy because its intermediate computation is unobserved."
+    },
+    {
+      "title": "GigaPath-Flash and GigaTIME-Flash: Efficient Pathology Foundation Models for Whole-Slide and Tumor Microenvironment Analysis",
+      "url": "https://arxiv.org/abs/2607.18218v1",
+      "source": "arXiv",
+      "published": "2026-07-20T17:52:33+00:00",
+      "summary_raw": "Foundation models have emerged as a driving force in computational pathology, with the potential to transform cancer diagnosis, prognosis, and treatment selection by learning transferable representations from large-scale histopathology data. A growing landscape of pathology foundation models now spans diverse data sources, architectures, and downstream applications. However, most pretrained models operate only at the image-tile level, use restrictive licenses, and remain computationally expensive, limiting large-scale slide-level clinical and research use. Here, we introduce GigaPath-Flash and GigaTIME-Flash, efficient models for whole-slide pathology AI and spatial proteomics prediction. GigaPath-Flash combines a 22M-parameter ViT-S tile encoder with a 21M-parameter LongNet slide encoder, both pretrained on large-scale real-world histopathology data. Its compact tile encoder is distilled from the billion-parameter GigaPath (ViT-g) teacher and shared by both models. GigaPath-Flash retains 97% of GigaPath's average slide-level performance with 50x less compute. GigaTIME-Flash extends this backbone to predict the tumor immune microenvironment directly from routine H&E images. It surpasses the original CNN-based GigaTIME in prediction quality while running 6x faster and using 8x less GPU memory. Together with GigaPath and GigaTIME, these models form an open-weight, Apache-2.0-licensed family pretrained on large-scale real-world clinical data. By releasing all models and weights, we provide accessible building blocks for computational pathology, immuno-oncology, and precision health."
+    }
+  ]
+}
