@@ -1,0 +1,259 @@
+{
+  "date": "2026-07-22",
+  "generated_at": "2026-07-22T12:23:36.999209+00:00",
+  "source_counts": {
+    "rss_feeds": 3,
+    "arxiv": 50,
+    "hackernews": 38,
+    "nitter": 0,
+    "total_raw": 91,
+    "total_deduped": 91,
+    "total_saved": 25
+  },
+  "items": [
+    {
+      "title": "Microsoft strikes 'multibillion-dollar' deal with French AI firm Mistral",
+      "url": "https://www.france24.com/en/france/20260721-microsoft-strikes-multi-billion-dollar-deal-to-expand-france-ai-firm-mistral",
+      "source": "Hacker News",
+      "published": "2026-07-22T09:12:58+00:00",
+      "summary_raw": "",
+      "points": 22,
+      "num_comments": 4,
+      "hn_url": "https://news.ycombinator.com/item?id=49003810"
+    },
+    {
+      "title": "Show HN: A new kind of FPS aim trainer",
+      "url": "https://openaim.pramit.gg/",
+      "source": "Hacker News",
+      "published": "2026-07-22T05:39:31+00:00",
+      "summary_raw": "I played a lot of Valorant and got mad, so I made an aim trainer that analyzes your raw crosshair movement to explore your raw motor and perceptual weaknesses instead of scoring scenarios.\nIt also chooses sens and difficulty as part of the tasks, and makes playlists that are optimal difficulty for you to learn and progress faster!",
+      "points": 62,
+      "num_comments": 30,
+      "hn_url": "https://news.ycombinator.com/item?id=49002276"
+    },
+    {
+      "title": "Kimi K3: second only to Fable 5 on AA-Briefcase",
+      "url": "https://artificialanalysis.ai/articles/kimi-k3-agentic-knowledge-benchmark",
+      "source": "Hacker News",
+      "published": "2026-07-22T04:33:44+00:00",
+      "summary_raw": "",
+      "points": 66,
+      "num_comments": 8,
+      "hn_url": "https://news.ycombinator.com/item?id=49001930"
+    },
+    {
+      "title": "Apply Tracker, Free AI CV, Cover Letter and Job Tracker",
+      "url": "https://www.apply-tracker.com/en",
+      "source": "Hacker News",
+      "published": "2026-07-22T03:47:55+00:00",
+      "summary_raw": "",
+      "points": 10,
+      "num_comments": 3,
+      "hn_url": "https://news.ycombinator.com/item?id=49001636"
+    },
+    {
+      "title": "How an AI Anime Is Created",
+      "url": "https://www.aventos.dev/our-process?view=blog",
+      "source": "Hacker News",
+      "published": "2026-07-22T00:53:00+00:00",
+      "summary_raw": "",
+      "points": 29,
+      "num_comments": 39,
+      "hn_url": "https://news.ycombinator.com/item?id=49000429"
+    },
+    {
+      "title": "Meta is testing an AI bedtime story app for people with no imagination",
+      "url": "https://techcrunch.com/2026/07/21/meta-is-testing-an-ai-bedtime-story-app-for-people-with-no-imagination/",
+      "source": "Hacker News",
+      "published": "2026-07-22T00:09:18+00:00",
+      "summary_raw": "",
+      "points": 10,
+      "num_comments": 6,
+      "hn_url": "https://news.ycombinator.com/item?id=49000117"
+    },
+    {
+      "title": "White House to Redirect Billions in Research Funds Toward AI, Away from Colleges",
+      "url": "https://www.wsj.com/politics/policy/white-house-to-redirect-billions-in-research-funds-toward-ai-away-from-colleges-942dacb8",
+      "source": "Hacker News",
+      "published": "2026-07-21T22:43:07+00:00",
+      "summary_raw": "",
+      "points": 29,
+      "num_comments": 2,
+      "hn_url": "https://news.ycombinator.com/item?id=48999357"
+    },
+    {
+      "title": "Kimi K3 Is Competitive with Fable; Kimi K3 and Fable Is SoTA",
+      "url": "https://fireworks.ai/blog/kimik3-fable",
+      "source": "Hacker News",
+      "published": "2026-07-21T22:35:24+00:00",
+      "summary_raw": "Also: Kimi K3: second only to Fable 5 on AA-Briefcase\n <a href=\"https:&#x2F;&#x2F;artificialanalysis.ai&#x2F;articles&#x2F;kimi-k3-agentic-knowledge-benchmark\" rel=\"nofollow\">https:&#x2F;&#x2F;artificialanalysis.ai&#x2F;articles&#x2F;kimi-k3-agentic-knowl...</a>",
+      "points": 711,
+      "num_comments": 380,
+      "hn_url": "https://news.ycombinator.com/item?id=48999291"
+    },
+    {
+      "title": "Gemini last models: temperature, top_p, and top_k are deprecated and ignored",
+      "url": "https://ai.google.dev/gemini-api/docs/latest-model",
+      "source": "Hacker News",
+      "published": "2026-07-21T21:27:54+00:00",
+      "summary_raw": "",
+      "points": 99,
+      "num_comments": 37,
+      "hn_url": "https://news.ycombinator.com/item?id=48998606"
+    },
+    {
+      "title": "\"Drawing\" the Mona Lisa with GPT-5.6, Claude, Gemini, and Grok",
+      "url": "https://www.tryai.dev/blog/ai-drawing-arena-colored-pencils-claude-gpt-grok",
+      "source": "Hacker News",
+      "published": "2026-07-21T21:13:20+00:00",
+      "summary_raw": "",
+      "points": 218,
+      "num_comments": 76,
+      "hn_url": "https://news.ycombinator.com/item?id=48998404"
+    },
+    {
+      "title": "Show HN: Browser Tools SDK \u2013 an optimal browser harness for agents",
+      "url": "https://libretto.sh/browser-tools",
+      "source": "Hacker News",
+      "published": "2026-07-21T21:01:57+00:00",
+      "summary_raw": "We\u2019re open-sourcing Browser Tools SDK: a small TypeScript package to give any AI agent a reliable way to control a real browser. With just a few lines of code, you can give any agent a production-ready browser harness<p><pre><code>  import { createAiSdkBrowserTools } from &quot;libretto-browser-tools&#x2F;ai-sdk&quot;;\n  import { LocalBrowserProvider } from &quot;libretto-browser-tools&quot;;\n\n  const { tools } = createAiSdkBrowserTools(new LocalBrowserProvider());\n\n  const result = await generateText({\n    model: anthropic(&quot;claude-sonnet-4-5&quot;),\n    tools,\n    prompt: &quot;Go to Hacker News and tell me the top story&quot;,\n  });\n</code></pre>\nWe built the Browser Tools SDK because access to a browser is one of the most important tools of a productive agent, but we found many of the existing tools lacking. Using the insights we gained building Libretto, we were able to build the SDK so that it\u2019s significantly more context and cost-efficient than other tools:<p>We compared Browser Tools SDK against agent-browser, playwright-cli, and dev-browser on 26 live-site tasks with GPT 5.6 Sol (best results from 3 runs). Browser Tools tied for the best pass rate at 24&#x2F;26 and came in about 55% cheaper per successful task than the next alternative ($0.106 vs $0.235) while also using far fewer tokens (1.45M vs 2.29M+). Benchmark methodology is in the repo.<p>The Browser Tools SDK only exposes 6 tools, of which only 2 are really important: `browser_snapshot` and `browser_exec`. The snapshot tool was designed from the ground up to be extremely context-efficient and provide agents the overview they need to know what to try next. The exec tool takes and executes raw Playwright code, of which the models have been trained on heaps of, and know how to use without much direction.<p>Works with AI SDK and Pi out of the box, plus a custom path for anything else. More frameworks are coming soon. You can also use any browser infra provider (Libretto Cloud, Kernel, Browserbase, etc.) or use `LocalBrowserProvider` to run Chromium locally (although that will have less anti-bot protections).<p>MIT licensed. Check out the docs: <a href=\"https:&#x2F;&#x2F;libretto.sh&#x2F;docs&#x2F;browser-tools&#x2F;quickstart\">https:&#x2F;&#x2F;libretto.sh&#x2F;docs&#x2F;browser-tools&#x2F;quickstart</a> and join the Discord: <a href=\"https:&#x2F;&#x2F;discord.gg&#x2F;NYrG56hVDt\" rel=\"nofollow\">https:&#x2F;&#x2F;discord.gg&#x2F;NYrG56hVDt</a>.<p>We\u2019d love any and all feedback.",
+      "points": 11,
+      "num_comments": 3,
+      "hn_url": "https://news.ycombinator.com/item?id=48998262"
+    },
+    {
+      "title": "Cisco Antares: A New Family of Cheap, Open-Source, Compact Security AI Models",
+      "url": "https://securityboulevard.com/2026/07/cisco-antares-a-new-family-of-open-source-inexpensive-compact-security-ai-models/",
+      "source": "Hacker News",
+      "published": "2026-07-21T20:55:28+00:00",
+      "summary_raw": "",
+      "points": 12,
+      "num_comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=48998173"
+    },
+    {
+      "title": "Show HN: Orate \u2013 On-device neural text-to-speech queue for Mac",
+      "url": "https://orate.to/",
+      "source": "Hacker News",
+      "published": "2026-07-21T20:38:29+00:00",
+      "summary_raw": "Hey friends! Brad here - long time HN user, founder, engineer (Coinbase, Soothe, Jeevz, Release, Hired, GrowthX, etc)...<p>I have been struggling recently with too many tabs, emails, articles, etc sitting unread while I swap between Claude code sessions all day.  So I decided to build Orate to help me work through the backlog by listening to it all like I would a podcast.<p>Orate allows you to select any text on your screen and keyboard shortcut it to a listening queue where it gets processed using the latest + greatest TTS AI models, and then read back to you in a mostly-natural sounding voice.  Orate works fully on-device and offline.  Whatever you pass to it stays yours.  It&#x27;s native, lives in your menu bar, and supports things like tagging, system playback controls, speed adjustment, and more.  There&#x27;s also an optional HD-voice tier that uses Chatterbox instead of Kokoro which ships with it for more expressive TTS.<p>I&#x27;m also burnt out on being chipped away at little by little with a subscription for everything, so it&#x27;s just $4.99 one time and you own it forever.  Use the code HACKERNEWS for $3 off, putting you at just $1.99.<p>As AI helped me nail down - it&#x27;s &quot;read it later, for your ears&quot;.  I hope you like it!<p>If you have any questions, want more details, notice any bugs, or have an idea for something cool to add, just ping me!  I plan to launch a companion iOS app soon to sync text between your devices as well.<p>It&#x27;s currently Mac only, but I might whip up a Windows version if the response is good.<p>Cheers!",
+      "points": 14,
+      "num_comments": 11,
+      "hn_url": "https://news.ycombinator.com/item?id=48997941"
+    },
+    {
+      "title": "Five tech giants are hiding $1.6T in AI debt, using the trick that toppled Enron",
+      "url": "https://thenextweb.com/news/tech-giants-hidden-off-balance-sheet-debt-ai",
+      "source": "Hacker News",
+      "published": "2026-07-21T19:11:27+00:00",
+      "summary_raw": "",
+      "points": 91,
+      "num_comments": 17,
+      "hn_url": "https://news.ycombinator.com/item?id=48996760"
+    },
+    {
+      "title": "Meta Used A.I. To Ban Accounts on Facebook and Instagram",
+      "url": "https://www.nytimes.com/2026/07/21/technology/meta-ai-facebook-instagram-accounts.html",
+      "source": "Hacker News",
+      "published": "2026-07-21T19:07:06+00:00",
+      "summary_raw": "",
+      "points": 22,
+      "num_comments": 5,
+      "hn_url": "https://news.ycombinator.com/item?id=48996693"
+    },
+    {
+      "title": "Judge approves $1.5B Anthropic settlement for pirated books used to train Claude",
+      "url": "https://apnews.com/article/ai-anthropic-copyright-settlement-claude-books-bartz-74b140444023898aeba8579b6e9f0d63",
+      "source": "Hacker News",
+      "published": "2026-07-21T19:04:39+00:00",
+      "summary_raw": "",
+      "points": 417,
+      "num_comments": 375,
+      "hn_url": "https://news.ycombinator.com/item?id=48996652"
+    },
+    {
+      "title": "Show HN: Fractal \u2013 recursive agent loops for complex, multi-step work",
+      "url": "https://github.com/plasma-ai/fractal",
+      "source": "Hacker News",
+      "published": "2026-07-21T18:35:21+00:00",
+      "summary_raw": "",
+      "points": 14,
+      "num_comments": 1,
+      "hn_url": "https://news.ycombinator.com/item?id=48996269"
+    },
+    {
+      "title": "AI Agent \u2013 TRMNL",
+      "url": "https://help.trmnl.com/en/articles/14130438-ai-agent",
+      "source": "Hacker News",
+      "published": "2026-07-21T18:32:21+00:00",
+      "summary_raw": "",
+      "points": 50,
+      "num_comments": 29,
+      "hn_url": "https://news.ycombinator.com/item?id=48996236"
+    },
+    {
+      "title": "The AI Bubble Is No Ordinary Bubble",
+      "url": "https://www.theatlantic.com/ideas/2026/07/ai-economy-stock-market/688004/",
+      "source": "Hacker News",
+      "published": "2026-07-21T18:31:36+00:00",
+      "summary_raw": "",
+      "points": 10,
+      "num_comments": 2,
+      "hn_url": "https://news.ycombinator.com/item?id=48996223"
+    },
+    {
+      "title": "Show HN: threadfork \u2013 AI meeting notes that run on your Mac",
+      "url": "https://www.threadfork.com/",
+      "source": "Hacker News",
+      "published": "2026-07-21T18:30:38+00:00",
+      "summary_raw": "Hi HN, I built threadfork. It&#x27;s an AI notetaker where the whole pipeline runs locally on Apple Silicon.  Your microphone and system audio gets captured without a meeting bot and most importantly your meeting data doesn\u2019t get sent or saved anywhere.<p>I&#x27;ve been building in the privacy + local LLM space for the past several years (I started DataFog, an OSS PII detection library with 300K+ downloads); keeping all the processing and data on-device was a day 0 condition for me when building this out. Granola&#x27;s updated privacy policy, effective later this week, keeps non-enterprise users opted into model training on &quot;de-identified&quot; data by default. Having built PII detection for a living, I&#x27;ll say plainly: de-identifying meeting transcripts is really hard. Names are the easy part; deal terms, client details, and health disclosures are the transcript. For the lawyers, consultants, and therapists I&#x27;ve been talking to, the only version of this that holds up is the model never seeing the data at all.<p>It&#x27;s macOS 14+ on Apple M-Series computers (for now), 14-day trial, no credit card.  I have a user running this on an M1 8GB so older machines welcome. $40&#x2F;month after that.  I use this product daily and you can expect regular updates.<p>Welcome any&#x2F;all feedback.",
+      "points": 10,
+      "num_comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=48996204"
+    },
+    {
+      "title": "AI makes programming differently difficult",
+      "url": "https://cacm.acm.org/opinion/ai-didnt-make-programming-easier-it-just-made-it-differently-difficult/",
+      "source": "Hacker News",
+      "published": "2026-07-21T18:30:21+00:00",
+      "summary_raw": "",
+      "points": 157,
+      "num_comments": 131,
+      "hn_url": "https://news.ycombinator.com/item?id=48996197"
+    },
+    {
+      "title": "Show HN: A self-running space economy SIM in Rust and Bevy",
+      "url": "https://github.com/Kalcode/spaceprojectsim",
+      "source": "Hacker News",
+      "published": "2026-07-21T18:29:57+00:00",
+      "summary_raw": "I built this with Claude cause I always wanted to tinker with a simulation economoy and I love space themes.<p>A space-economy sim where nothing is scripted. A few hundred autonomous ships each run their own planner. Some chase the best trade route, take a delivery contract, refuel, retrofit at a shipyard, or dock so the crew can rest before morale tanks.<p>Markets price everything off supply with shortage-urgency multipliers, factions tax and subsidize, populations migrate when they&#x27;re unhappy, and stations that go broke get abandoned and rot.<p>It started as an Elixir&#x2F;Phoenix prototype, but the BEAM scheduler struggled on Windows gaming PCs, so I had Claude rewrite the engine in Rust.<p>The sim core is pure, synchronous, IO-free (its own hecs ECS), and the Bevy client embeds it directly as a library, sim and renderer share one world with zero marshalling. Ship AI is a GOAP planner over a world state; ships replan mid-flight when a better option appears. ~485 agents today at p50 ~10-20ms&#x2F;tick, architected to push toward 100k+. Single native binary, bundled SQLite, no runtime deps. Getting into 100k has been a struggle, but I have pushed it into the thousand and it was running fine.<p>It&#x27;s a sandbox, not a game yet, there&#x27;s no objective yet, and I&#x27;m not actively pushing it toward &quot;shippable.&quot; Anyone can fork it and take it over. Or it can stay as some type of AI slop, but part of me thinks it is already in a pretty good shape for a simulation use for various games or ideas.<p>(Full disclosure: a lot of this was built pairing with Claude. That&#x27;s how I had the bandwidth to take it this far. Happy to talk about what that workflow actually looked like.)",
+      "points": 102,
+      "num_comments": 30,
+      "hn_url": "https://news.ycombinator.com/item?id=48996187"
+    },
+    {
+      "title": "90k Flock cameras have gone up in the US: What they track and how to check",
+      "url": "https://www.zdnet.com/article/flock-ai-cameras-risks-us-how-to-find-nearby-what-they-track/",
+      "source": "Hacker News",
+      "published": "2026-07-21T18:00:25+00:00",
+      "summary_raw": "",
+      "points": 19,
+      "num_comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=48995830"
+    },
+    {
+      "title": "Copy Less, Ground More: Overcoming Repetitive Copying in Long-Context Reasoning via Evidence-Aware Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2607.19345v1",
+      "source": "arXiv",
+      "published": "2026-07-21T17:59:21+00:00",
+      "summary_raw": "Large language models that generate step-by-step reasoning traces have achieved strong performance on complex tasks, and extending them to long-context settings has emerged as an important frontier. However, we identify a critical failure mode in this regime: \\emph{repetitive copying}, where models extensively copy text from the input into their reasoning traces rather than productively solving the problem. We show that this behavior is pervasive across frontier long-context LLMs and intensifies with context length. By separating each prompt into task-relevant key evidence and irrelevant distractor context, we further show that the root cause is insufficient grounding: models copy from the prompt indiscriminately, and those that fail to focus on key evidence are far more likely to answer incorrectly. Motivated by this diagnosis, we propose GEAR (Grounding Evidence-Aware Reward), a reward shaping method that augments the accuracy signal with a grounding reward for overlap with key evidence and a distractor penalty for overlap with irrelevant context. To enable GEAR on natural-language data, we develop an automated pipeline that constructs evidence-annotated training data from arbitrary documents. We validate GEAR across multiple model scales and benchmarks, showing consistent improvements of up to +4.6 average points over standard RL with accuracy-based rewards, with larger gains at longer contexts, while also reducing repetitive copying and thinking length. Our findings suggest that, even as long-context evaluation shifts from simple retrieval toward complex reasoning, accurate grounding in relevant evidence remains an indispensable capability with substantial room for improvement."
+    },
+    {
+      "title": "Appearance Pointers -- Multimodal Region Control of Diffusion Transformers",
+      "url": "https://arxiv.org/abs/2607.19344v1",
+      "source": "arXiv",
+      "published": "2026-07-21T17:59:12+00:00",
+      "summary_raw": "Controllable image generation remains challenging for creative professionals, who often require precise regional control over materials, object identities, and spatial arrangements that cannot be reliably achieved through text prompting alone. Diffusion Transformers (DiTs) can natively ingest heterogeneous tokens stemming from texts and images, but they lack mechanisms for determining where and how these tokens should influence the output. We introduce appearance pointers, compact tokens that guide DiTs toward the correct appearance cues at the correct spatial locations by aligning text or image inputs with user-specified masks. Appearance pointers are produced by a region correspondence network and refined through a spatial aggregation mechanism, enabling the model to handle multiple regional descriptions without significantly increasing token load. Our approach introduces the first modality-agnostic interface for localized multimodal control in a DiT without retraining the base model from scratch. Across a range of metrics, our single model reaches or surpasses the performance of modality-specific state of the art methods, offering a simple and extensible path toward precise, region-aware, multimodal guidance in generative image synthesis."
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+[
+  {
+    "theme": "Industry News",
+    "stories": [
+      {
+        "title": "Microsoft strikes 'multibillion-dollar' deal with French AI firm Mistral",
+        "url": "https://www.france24.com/en/france/20260721-microsoft-strikes-multi-billion-dollar-deal-to-expand-france-ai-firm-mistral",
+        "source": "Hacker News",
+        "paragraph": "Microsoft has signed a multibillion-dollar agreement with French AI company Mistral, deepening a partnership that previously saw Microsoft invest in the startup in 2024. The deal is notable because it expands Microsoft's relationship with a European AI lab at a time when the EU is actively trying to foster domestic AI alternatives to US providers. Mistral, known for its open-weight models, gains both capital and access to Microsoft's Azure infrastructure and global customer base."
+      },
+      {
+        "title": "White House to Redirect Billions in Research Funds Toward AI, Away from Colleges",
+        "url": "https://www.wsj.com/politics/policy/white-house-to-redirect-billions-in-research-funds-toward-ai-away-from-colleges-942dacb8",
+        "source": "Hacker News",
+        "paragraph": "The White House is planning to shift billions of dollars in federal research funding away from universities and toward AI-focused initiatives, according to the Wall Street Journal. The move represents a significant reallocation of the federal science budget, which has traditionally flowed to academic institutions through agencies such as the NSF and NIH. Critics argue the shift could weaken the basic-research pipeline that has historically underpinned long-term technological development, while proponents frame it as aligning federal spending with national competitiveness priorities."
+      },
+      {
+        "title": "Meta is testing an AI bedtime story app for people with no imagination",
+        "url": "https://techcrunch.com/2026/07/21/meta-is-testing-an-ai-bedtime-story-app-for-people-with-no-imagination/",
+        "source": "Hacker News",
+        "paragraph": "Meta is testing a standalone app that generates personalized AI bedtime stories for children, according to TechCrunch. The product sits within Meta's broader push to build consumer AI applications beyond its core social platforms, competing in a space where startups such as Story Spark have already established audiences. The app uses generative AI to produce narratives on demand, raising familiar questions about screen time and the role of AI-mediated content in early childhood."
+      }
+    ]
+  },
+  {
+    "theme": "Model Releases and Benchmarks",
+    "stories": [
+      {
+        "title": "Kimi K3: second only to Fable 5 on AA-Briefcase",
+        "url": "https://artificialanalysis.ai/articles/kimi-k3-agentic-knowledge-benchmark",
+        "source": "Hacker News",
+        "paragraph": "Moonshot AI's Kimi K3 model has been evaluated on Artificial Analysis's AA-Briefcase agentic knowledge benchmark, placing second only to Fable 5. The benchmark tests models on multi-step agentic tasks requiring retrieval and reasoning rather than single-turn question answering. The result positions Kimi K3 among the top tier of publicly evaluated agentic models, notable given Moonshot AI's relatively smaller profile compared to US frontier labs."
+      },
+      {
+        "title": "Kimi K3 Is Competitive with Fable; Kimi K3 and Fable Is SoTA",
+        "url": "https://fireworks.ai/blog/kimik3-fable",
+        "source": "Hacker News",
+        "paragraph": "Fireworks AI published an analysis arguing that Kimi K3 is competitive with Fable on agentic benchmarks and that together the two models represent the current state of the art in that category. The post draws on the same AA-Briefcase results while also examining inference efficiency and cost, factors relevant to practitioners deploying agentic pipelines at scale. Fireworks AI offers both models via its inference platform, giving the post a commercial context worth noting when interpreting its conclusions."
+      },
+      {
+        "title": "Gemini last models: temperature, top_p, and top_k are deprecated and ignored",
+        "url": "https://ai.google.dev/gemini-api/docs/latest-model",
+        "source": "Hacker News",
+        "paragraph": "Google's documentation for its latest Gemini API models now states that the sampling parameters temperature, top_p, and top_k are deprecated and will be silently ignored when passed. This is a notable change for developers who rely on these parameters to control output randomness and diversity, as code that previously functioned differently at, say, temperature 0 versus temperature 1 will now behave identically. The deprecation suggests Google is moving toward internal sampling strategies that are not exposed to API callers, a shift that limits reproducibility and fine-grained control."
+      },
+      {
+        "title": "Cisco Antares: A New Family of Cheap, Open-Source, Compact Security AI Models",
+        "url": "https://securityboulevard.com/2026/07/cisco-antares-a-new-family-of-open-source-inexpensive-compact-security-ai-models/",
+        "source": "Hacker News",
+        "paragraph": "Cisco has released Antares, a family of open-source, compact AI models designed specifically for cybersecurity tasks such as threat detection and log analysis. The models are positioned as inexpensive to run, targeting security operations teams that need on-premise or cost-constrained deployments rather than relying on large general-purpose models via cloud APIs. Cisco's entry into the security-focused open model space adds competitive pressure to similar efforts from companies such as IBM and various startups building vertical AI for the security operations center."
+      }
+    ]
+  },
+  {
+    "theme": "AI Creative Applications",
+    "stories": [
+      {
+        "title": "How an AI Anime Is Created",
+        "url": "https://www.aventos.dev/our-process?view=blog",
+        "source": "Hacker News",
+        "paragraph": "The team at Aventos published a detailed walkthrough of their pipeline for producing an AI-generated anime series, covering scriptwriting, image generation, voice synthesis, and video assembly. The post is notable for its transparency about the specific tools and models used at each stage, offering practitioners a concrete example of how current generative AI components can be chained together for long-form video production. The write-up also acknowledges current limitations, including inconsistent character appearance across scenes, which remains a known challenge for AI video workflows."
+      },
+      {
+        "title": "\"Drawing\" the Mona Lisa with GPT-5.6, Claude, Gemini, and Grok",
+        "url": "https://www.tryai.dev/blog/ai-drawing-arena-colored-pencils-claude-gpt-grok",
+        "source": "Hacker News",
+        "paragraph": "TryAI ran a side-by-side comparison of GPT-5.6, Claude, Gemini, and Grok attempting to reproduce the Mona Lisa using a colored-pencil drawing metaphor, where each model generated SVG or similar vector instructions rather than raster images. The experiment serves as an informal test of spatial reasoning and instruction-following in the image-output domain, revealing meaningful differences in how each model interprets and executes a constrained creative task. GPT-5.6 and Claude produced the most recognizable results in the comparison, though all four models showed significant deviations from the original composition."
+      }
+    ]
+  },
+  {
+    "theme": "Open-Source Tools",
+    "stories": [
+      {
+        "title": "Show HN: Browser Tools SDK – an optimal browser harness for agents",
+        "url": "https://libretto.sh/browser-tools",
+        "source": "Hacker News",
+        "paragraph": "Libretto has open-sourced Browser Tools SDK, a TypeScript package designed to give AI agents reliable, production-ready control over a real browser through a minimal API. The library integrates with the AI SDK pattern using a single import, abstracting away the complexity of browser lifecycle management and DOM interaction that typically requires significant custom code. Its release addresses a common pain point in agentic development where browser automation is needed but existing tools such as Playwright or Puppeteer require substantial glue code to integrate cleanly with LLM agent frameworks."
+      },
+      {
+        "title": "Show HN: Fractal – recursive agent loops for complex, multi-step work",
+        "url": "https://github.com/plasma-ai/fractal",
+        "source": "Hacker News",
+        "paragraph": "Plasma AI has published Fractal, an open-source framework on GitHub designed to run recursive agent loops capable of handling complex, multi-step tasks. The tool allows agents to spawn sub-agents that can themselves recurse, enabling decomposition of large problems into nested execution trees. The project targets developers who need more structured control over agentic workflows than is offered by simpler sequential pipelines."
+      },
+      {
+        "title": "Show HN: A self-running space economy SIM in Rust and Bevy",
+        "url": "https://github.com/Kalcode/spaceprojectsim",
+        "source": "Hacker News",
+        "paragraph": "A developer has released a space economy simulation built in Rust using the Bevy game engine, created with assistance from Claude. The simulation runs several hundred autonomous ships, each operating an independent planner that makes decisions about trade routes, delivery contracts, refueling, and crew morale without scripted behavior. Markets in the simulation price goods dynamically based on supply, making it a practical demonstration of emergent economic behavior in a game context."
+      }
+    ]
+  },
+  {
+    "theme": "AI Productivity Tools",
+    "stories": [
+      {
+        "title": "Apply Tracker, Free AI CV, Cover Letter and Job Tracker",
+        "url": "https://www.apply-tracker.com/en",
+        "source": "Hacker News",
+        "paragraph": "Apply Tracker is a free web application that combines AI-assisted CV and cover letter generation with a job application tracking dashboard. The tool targets job seekers who want to manage multiple applications in one place while using AI to tailor documents to specific job descriptions. It enters a crowded market of AI writing assistants and applicant tracking tools, competing with products such as Teal and Kickresume that offer similar feature combinations."
+      },
+      {
+        "title": "Show HN: A new kind of FPS aim trainer",
+        "url": "https://openaim.pramit.gg/",
+        "source": "Hacker News",
+        "paragraph": "Developer Pramit released OpenAim, an FPS aim trainer that analyzes raw crosshair movement data to identify motor and perceptual weaknesses rather than simply scoring pre-defined scenarios. The tool also dynamically selects mouse sensitivity and difficulty as part of each training task, and generates playlists calibrated to the user's current skill level to maintain an optimal learning gradient. The project was motivated by the developer's own experience with Valorant and the observation that existing trainers measure performance without diagnosing the underlying causes of inaccuracy."
+      }
+    ]
+  },
+  {
+    "theme": "Industry News & Economics",
+    "stories": [
+      {
+        "title": "Judge approves $1.5B Anthropic settlement for pirated books used to train Claude",
+        "url": "https://apnews.com/article/ai-anthropic-copyright-settlement-claude-books-bartz-74b140444023898aeba8579b6e9f0d63",
+        "source": "Hacker News",
+        "paragraph": "A judge has approved a $1.5 billion settlement between Anthropic and authors whose books were used without permission to train the Claude language model. The case is among the largest copyright settlements involving AI training data to date, and it establishes a financial precedent for how courts may value the unauthorized use of copyrighted text in model development. The settlement does not require Anthropic to admit wrongdoing, but the dollar figure signals that litigation risk around training data provenance is a material concern for AI developers."
+      },
+      {
+        "title": "Five tech giants are hiding $1.6T in AI debt, using the trick that toppled Enron",
+        "url": "https://thenextweb.com/news/tech-giants-hidden-off-balance-sheet-debt-ai",
+        "source": "Hacker News",
+        "paragraph": "A Next Web analysis argues that five major technology companies are keeping approximately $1.6 trillion in AI-related financial obligations off their balance sheets, drawing a structural parallel to the off-balance-sheet accounting that contributed to Enron's collapse. The piece contends that long-term cloud and infrastructure commitments tied to AI spending are being structured in ways that obscure true leverage from investors. The comparison is notable because it frames the accounting question as a systemic risk rather than a company-specific issue."
+      },
+      {
+        "title": "The AI Bubble Is No Ordinary Bubble",
+        "url": "https://www.theatlantic.com/ideas/2026/07/ai-economy-stock-market/688004/",
+        "source": "Hacker News",
+        "paragraph": "An Atlantic opinion piece argues that the current wave of AI investment differs structurally from past speculative cycles such as the dot-com boom because the capital is being concentrated in physical infrastructure — data centers, chips, and power — rather than purely in software valuations. The author contends that this makes the potential economic dislocation from a correction more difficult to unwind than in previous tech bubbles. The piece stops short of predicting a crash but examines how the fixed-cost nature of AI infrastructure spending changes the risk profile for the broader economy."
+      },
+      {
+        "title": "Meta Used A.I. To Ban Accounts on Facebook and Instagram",
+        "url": "https://www.nytimes.com/2026/07/21/technology/meta-ai-facebook-instagram-accounts.html",
+        "source": "Hacker News",
+        "paragraph": "Meta has deployed AI systems to identify and ban accounts on Facebook and Instagram, according to a New York Times report. The use of automated systems for account enforcement at Meta's scale — which spans billions of users — raises questions about error rates and appeal mechanisms for wrongly banned accounts. The report does not specify what proportion of bans are now AI-initiated versus human-reviewed, but the shift marks a notable change in how platform moderation decisions are made at scale."
+      }
+    ]
+  },
+  {
+    "theme": "Privacy & Surveillance",
+    "stories": [
+      {
+        "title": "90k Flock cameras have gone up in the US: What they track and how to check",
+        "url": "https://www.zdnet.com/article/flock-ai-cameras-risks-us-how-to-find-nearby-what-they-track/",
+        "source": "Hacker News",
+        "paragraph": "ZDNet reports that approximately 90,000 Flock Safety AI-powered cameras are now deployed across the United States, primarily used by law enforcement and homeowners associations to capture license plates and vehicle characteristics. The cameras feed data into a network that allows subscribers to search vehicle movements across participating locations, raising concerns among civil liberties advocates about the creation of a de facto mass surveillance infrastructure without federal oversight. The article includes guidance on how residents can search for nearby Flock installations and what data the system retains."
+      }
+    ]
+  },
+  {
+    "theme": "Local & On-Device AI Applications",
+    "stories": [
+      {
+        "title": "Show HN: Orate – On-device neural text-to-speech queue for Mac",
+        "url": "https://orate.to/",
+        "source": "Hacker News",
+        "paragraph": "Orate is a Mac application that converts selected text — from tabs, emails, or articles — into audio using on-device neural text-to-speech, allowing users to listen to a backlog of written content in a podcast-like format. The app was built by Brad, a developer with prior experience at Coinbase and other startups, primarily to address his own problem of accumulating unread material while working in AI coding sessions. Because processing runs locally, the tool does not send content to external servers, which is relevant for users handling sensitive or private documents."
+      },
+      {
+        "title": "Show HN: threadfork – AI meeting notes that run on your Mac",
+        "url": "https://www.threadfork.com/",
+        "source": "Hacker News",
+        "paragraph": "Threadfork is a meeting transcription and note-taking application for Apple Silicon Macs that processes microphone and system audio entirely on-device, without sending data to external servers or using a meeting bot. The developer previously built DataFog, an open-source PII detection library with over 300,000 downloads, and cites privacy as the central design constraint for the new tool. Running the full pipeline locally means the tool does not require a cloud subscription for core functionality, though it is limited to hardware capable of running local language models."
+      },
+      {
+        "title": "AI Agent – TRMNL",
+        "url": "https://help.trmnl.com/en/articles/14130438-ai-agent",
+        "source": "Hacker News",
+        "paragraph": "TRMNL, a maker of e-ink dashboard devices, has introduced an AI agent feature documented in its help center. The agent appears designed to let users interact with and configure their TRMNL dashboards using natural language rather than manual settings. The feature is notable as an example of AI being embedded into a low-power, purpose-built hardware product rather than a general-purpose computing platform."
+      }
+    ]
+  },
+  {
+    "theme": "Research Papers",
+    "stories": [
+      {
+        "title": "Copy Less, Ground More: Overcoming Repetitive Copying in Long-Context Reasoning via Evidence-Aware Reinforcement Learning",
+        "url": "https://arxiv.org/abs/2607.19345v1",
+        "source": "arXiv",
+        "paragraph": "Researchers have identified a failure mode they term \"repetitive copying\" in large language models performing step-by-step reasoning over long contexts, where models reproduce large portions of input text in their reasoning traces rather than making analytical progress toward a solution. The paper proposes an evidence-aware reinforcement learning approach to reduce this behavior by rewarding models for grounding their reasoning in relevant evidence rather than copying. The finding is practically significant because long-context reasoning is an increasingly important capability, and copying behavior wastes context window space while degrading output quality."
+      },
+      {
+        "title": "Appearance Pointers -- Multimodal Region Control of Diffusion Transformers",
+        "url": "https://arxiv.org/abs/2607.19344v1",
+        "source": "arXiv",
+        "paragraph": "Researchers have proposed Appearance Pointers, a method for achieving fine-grained regional control over image generation using Diffusion Transformers (DiTs). The work addresses a persistent limitation in controllable image generation: text prompts alone cannot reliably specify materials, object identities, or spatial arrangements at the region level. The approach leverages DiTs' native ability to process heterogeneous token types — both text and image — and introduces mechanisms to specify where and how visual appearance from reference images should be applied within generated outputs. This kind of multimodal regional control is relevant to creative professionals who require precise compositional guidance beyond what natural language can express."
+      }
+    ]
+  },
+  {
+    "theme": "AI & Software Development",
+    "stories": [
+      {
+        "title": "AI makes programming differently difficult",
+        "url": "https://cacm.acm.org/opinion/ai-didnt-make-programming-easier-it-just-made-it-differently-difficult/",
+        "source": "Hacker News",
+        "paragraph": "An opinion piece in Communications of the ACM argues that AI coding assistants have not reduced the overall difficulty of software development but have shifted where the difficulty lies — from writing syntax-correct code to evaluating, integrating, and debugging AI-generated output. The author contends that developers now spend more cognitive effort on verification and architectural judgment rather than on initial code production. The piece positions this shift as a change in the skill profile required for effective programming rather than a net reduction in complexity."
+      }
+    ]
+  }
+]
