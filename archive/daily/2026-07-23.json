@@ -1,0 +1,229 @@
+{
+  "date": "2026-07-23",
+  "generated_at": "2026-07-23T12:21:54.809652+00:00",
+  "source_counts": {
+    "rss_feeds": 8,
+    "arxiv": 50,
+    "hackernews": 25,
+    "nitter": 0,
+    "total_raw": 83,
+    "total_deduped": 83,
+    "total_saved": 25
+  },
+  "items": [
+    {
+      "title": "Understanding the AI Economy",
+      "url": "https://blog.google/innovation-and-ai/technology/research/understanding-the-ai-economy/",
+      "source": "Hacker News",
+      "published": "2026-07-23T12:11:05+00:00",
+      "summary_raw": "",
+      "points": 12,
+      "num_comments": 4,
+      "hn_url": "https://news.ycombinator.com/item?id=49020335"
+    },
+    {
+      "title": "New Framework Desktop Option with AMD Ryzen AI Max+ Pro 495 and 192GB Memory",
+      "url": "https://frame.work/desktop?tab=192gb-coming-soon",
+      "source": "Hacker News",
+      "published": "2026-07-23T11:09:48+00:00",
+      "summary_raw": "",
+      "points": 26,
+      "num_comments": 17,
+      "hn_url": "https://news.ycombinator.com/item?id=49019694"
+    },
+    {
+      "title": "The U.S. wants to contain China's AI. Silicon Valley keeps using it",
+      "url": "https://restofworld.org/2026/china-siliconvalley-ai-moonshot-kimi/",
+      "source": "Hacker News",
+      "published": "2026-07-23T06:40:21+00:00",
+      "summary_raw": "",
+      "points": 11,
+      "num_comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=49017706"
+    },
+    {
+      "title": "Quoting Seth Larson",
+      "url": "https://simonwillison.net/2026/Jul/23/seth-larson/#atom-everything",
+      "source": "Simon Willison",
+      "published": "2026-07-23T04:50:36+00:00",
+      "summary_raw": "The Python Package Index (PyPI) now rejects new files being uploaded to releases that are older than 14 days. This restriction was\u00a0put in place\u00a0to prevent old and long-stable releases from being poisoned in case publishing tokens or workflows of PyPI projects were compromised. As far as we are aware this has not yet been abused, but there is no technical reason beyond that attackers weren't aware it was possible.\n&mdash; Seth Larson, PyPI blog\n\n    Tags: packaging, python, supply-chain, pypi, seth-michael-larson"
+    },
+    {
+      "title": "Chinese AI's role in stopping rogue OpenAI agent shows cost of US guardrails",
+      "url": "https://www.reuters.com/legal/litigation/chinese-ais-role-stopping-rogue-openai-agent-shows-cost-us-guardrails-2026-07-22/",
+      "source": "Hacker News",
+      "published": "2026-07-23T02:07:16+00:00",
+      "summary_raw": "",
+      "points": 10,
+      "num_comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=49015927"
+    },
+    {
+      "title": "Show HN: AgentNest, self-hosted sandboxes for AI agents",
+      "url": "https://github.com/mihirahuja1/agentnestOSS",
+      "source": "Hacker News",
+      "published": "2026-07-23T01:54:06+00:00",
+      "summary_raw": "",
+      "points": 11,
+      "num_comments": 2,
+      "hn_url": "https://news.ycombinator.com/item?id=49015852"
+    },
+    {
+      "title": "Quoting Thomas Ptacek",
+      "url": "https://simonwillison.net/2026/Jul/22/thomas-ptacek/#atom-everything",
+      "source": "Simon Willison",
+      "published": "2026-07-22T23:59:01+00:00",
+      "summary_raw": "I genuinely believe that if you took an open weights model from 2025 and built a pentest harness for it, it could do this kind of sandbox escape and scan/hack in most networks. This is only surprising because you assume OpenAI has sounder sandboxes.\n&mdash; Thomas Ptacek, doesn't think this even needs a frontier model\n\n    Tags: thomas-ptacek, openai, security, generative-ai, ai-security-research, ai, llms, sandboxing"
+    },
+    {
+      "title": "OpenAI\u2019s accidental cyberattack against Hugging Face is science fiction that happened",
+      "url": "https://simonwillison.net/2026/Jul/22/openai-cyberattack/#atom-everything",
+      "source": "Simon Willison",
+      "published": "2026-07-22T23:51:33+00:00",
+      "summary_raw": "This story is wild. The short version: OpenAI were running a cybersecurity test against an unreleased model, with the model's guardrail features turned off. Rather than solve the test, the model broke its way out of OpenAI's sandbox, then found exploits to break in to Hugging Face, all so it could cheat on the test by stealing the answers.\nAlong the way it helped make the strongest case yet for how the imbalance of model availability is hurting our ability to secure our software.\nHere's what happened\nWe currently have three documents to help us understand what happened here.\n\n\nExploitGym: Can AI Agents Turn Security Vulnerabilities into Real Attacks? is a paper published on 11th May 2026 describing ExploitGym, a new eval suite for LLM-powered agent systems.\n\nSecurity incident disclosure \u2014 July 2026 by Hugging Face on 16th July 2026 describes how they detected an attack from an \"agentic security-research harness - used LLM still not known\" that breached some of their systems.\n\nOpenAI and Hugging Face partner to address security incident during model evaluation from OpenAI on 21st July 2026 confesses that it was their agent harness that did this, and that they're working with Hugging Face to clean up the mess.\n\nExploitGym\nI hadn't seen the ExploitGym paper before and it's a really interesting one. Authors from UC Berkeley, the Max Planck Institute, UC Santa Barbara, and Arizona State designed a new benchmark for evaluating models on their ability to turn a reported vulnerability into a concrete exploit. OpenAI, Anthropic, and Google provided feedback and helped run the benchmark against their models.\nThe benchmark \"comprises 898 instances derived from real-world vulnerabilities that affected popular software projects\" - including the Linux kernel and V8 JavaScript engine.\nHere's the paragraph that best represents their benchmark results:\n\nAmong all configurations, Claude Mythos Preview and GPT-5.5 achieve the highest success counts (157 and 120 successes, respectively), demonstrating that current frontier agents can exploit a substantial subset of real-world vulnerabilities under controlled conditions. GPT-5.4 also solves a notable 54 tasks, placing it in an intermediate tier. The remaining model\u2013agent pairings solve fewer than 15 tasks each, underscoring that end-to-end exploitation remains challenging and sharply differentiates today\u2019s frontier systems. Notably, Claude Opus 4.7 achieves fewer successes than Claude Opus 4.6 despite being a newer checkpoint, and does so at substantially lower cost on the full set. Trace inspection reveals that Claude Opus 4.7 and Gemini 3.1 Pro frequently conclude early after judging the target vulnerability non-exploitable.\n\nThe paper also describes the approach they took to preventing the agents from cheating by going outside the parameters of the test. This becomes relevant in a moment!\n\nOutbound connections are restricted to a curated allowlist that permits routine package installation (Ubuntu apt repositories and PyPI) and fetching the toolchains required for building V8. All other external endpoints are blocked.\n\nThe paper concludes with this (emphasis mine):\n\nOur results show that autonomous exploit development by frontier AI agents is no longer a hypothetical capability. While current agents are not yet reliable across all targets, they already exploit a non-trivial fraction of real-world vulnerabilities, including complex targets such as kernel components. This rapid emergence is itself a central finding, showing that capabilities that would have seemed implausible are now present in deployed frontier models.\n\nAn important detail here: this paper isn't about discovering vulnerabilities; it's about being able to take those vulnerabilities and turn them into working exploits.\nWhen Anthropic first restricted access to Mythos back in April they talked about this capability as well. A model that can act on vulnerabilities is a lot more dangerous than one that can just discover them.\nOne of the ways Fable differs from Mythos is that it's more likely to refuse to weaponize vulnerabilities in this way. I get the impression the US government did not understand that distinction when they banned Fable last month.\nThe Hugging Face incident\nThe first hint we got of the attack was in this blog post by Hugging Face on 16th July 2026:\n\nA malicious dataset abused two code-execution paths in our dataset processing (a remote-code dataset loader and a template-injection in a dataset configuration) to run code on a processing worker. From there, the actor escalated to node-level access, harvested cloud and cluster credentials, and moved laterally into several internal clusters over a weekend.\n\nI hope they release more details about the code that pulled this off. I'm assuming this means packages using the datasets library, a Hugging Face project for bundling up and sharing datasets on their platform. That library used to execute arbitrary code but has been steadily locked down over time, with the 4.0.0 release in July 2025 removing the trust_remote_code=True flag entirely.\nAssuming the attack used that library it must have either abused pickle serialization in some way, found some other non-obvious code execution path, or (most likely) specified datasets&lt;4.0.0 as the dependency.\n\nThe campaign was run by an autonomous agent framework (appearing to be built on an agentic security-research harness - used LLM still not known) executing many thousands of individual actions across a swarm of short-lived sandboxes, with self-migrating command-and-control staged on public services.\n\nThis was a sophisticated attack!\nThen Hugging Face hit a wall: they tried to use \"frontier models behind commercial APIs\" - I'm guessing from Anthropic and OpenAI - to help analyze the attack, and were blocked:\n\nWhen we started the log analysis, we first used frontier models behind commercial APIs. This did not work: the analysis requires submitting large volumes of real attack commands, exploit payloads, and C2 artifacts, and these requests were blocked by the providers' safety guardrails, which cannot distinguish an incident responder from an attacker.\n\nThey switched to their own self-hosted instance of MIT licensed GLM-5.2 and it helped them figure out what was going on.\nThis indicated a fundamental asymmetry between the defending team and the (so-far unknown) attacker:\n\nWe do not know which model powered the attacker's agents, whether a jailbroken hosted model or an unrestricted open-weight one; either way, the attacker was bound by no usage policy, while our own forensic work was blocked by the guardrails of the hosted models we first tried.\n\nAs a useful indicator of how seriously they took the attack:\n\n[...] Finally, we have also reported this incident to law enforcement agencies.\n\nSo who was responsible for this \"autonomous agent framework\"? It turned out to be OpenAI themselves.\nThe OpenAI confession\nFive days later, on July 21st, OpenAI revealed the culprit. They had been running the ExploitGym benchmark against a new, as-yet undisclosed model, and that model had been operating way outside its intended parameters (emphasis mine):\n\nAfter investigating, we now know that this particular incident was driven by a combination of OpenAI models \u2014 including GPT\u20115.6 Sol and an even more capable pre-release model, all with reduced cyber refusals for evaluation purposes \u2014 while being internally tested on a benchmark\u2060 [ExploitGym] of cyber capabilities. [...]\nWe estimate maximal cyber capabilities by running this evaluation without production classifiers used to prevent models from pursuing high-risk cyber activity. Our benchmarks run in a highly isolated environment, with network access constrained to the ability to install packages through an internally hosted third-party software that acts as a proxy and cache for package registries.\nThe models identified and chained vulnerabilities across OpenAI\u2019s research environment and Hugging Face\u2019s production infrastructure to obtain test solutions directly from Hugging Face\u2019s production database. All evidence suggests that the models were hyperfocused on finding a solution for ExploitGym, going to extreme lengths to achieve a rather narrow testing goal.\n\nIt's pretty clear what happened here. OpenAI removed safety filters for an in-progress model, locked it up in a sandbox and told it to solve the ExploitGym problems. Given the absence of guardrails there was nothing to prevent the model from attempting to break out of that sandbox, break into Hugging Face, and read the answers from there instead.\nOpenAI's sandbox used the now common pattern of allowing access to an allow-list of sites related to installing additional packages via a controlled proxy. In OpenAI's words:\n\nWhile operating in our sandboxed testing environment, our models spent a substantial amount of inference compute finding a way to obtain open Internet access, in pursuit of solving the evaluation problem. To gain access, the models identified and exploited a zero-day vulnerability (which we\u2019ve now responsibly disclosed to the vendor) in the package registry cache proxy. With this access, our models performed a series of privilege escalation and lateral movement actions in our research testing environment until the models reached a node with Internet access.\n\nSo step one was to break out onto the public internet. The model then broke into Hugging Face to find the answers:\n\nAfter gaining Internet access, the models inferred that Hugging Face potentially hosted models, datasets and solutions for ExploitGym. Knowing this, the model searched for and successfully found ways to gain access to secret information that it could use to cheat the evaluation. In one example, the model chained together multiple attack vectors, including using stolen credentials and zero-day vulnerabilities to find a remote code execution path on the Hugging Face servers.\n\nChaining together multiple attack vectors is exactly the kind of thing these new models can do, where previous generations of models might have failed.\nI wrote last month about how Claude Fable is relentlessly proactive, when I noticed it spinning up custom web servers and deploying CORS tricks on my own laptop just to help debug a WebKit CSS issue. It turns out relentless proactivity is the defining trait of this new generation of Mythos-class models. If you set them a goal and give them a way to get there, even inadvertently, they will figure it out.\nResist the temptation to write this off as a stunt\nThere will inevitably be some people who dismiss this story as a dishonest marketing trick by OpenAI to make their models sound terrifyingly effective. I found 81 instances of the term \"marketing\" in the Hacker News discussion of the incident.\nTo those people I say pull your heads out of the sand - you're now including Hugging Face in your conspiracy theories, just so you can deny the crescendo of evidence here!\nThe best models we have today have the ability to both find and exploit new vulnerabilities. The ExploitGym paper itself concludes that \"autonomous exploit development by frontier AI agents is no longer a hypothetical capability\", and this incident is a perfect example of exactly that.\nThe asymmetry is increasingly frustrating\nOne of the most infuriating details of this story is how Hugging Face, faced with an accidental and aggressive attack from one of OpenAI's models, were unable to then turn to OpenAI's models to help them fend off the attack.\nThe frontier models we have access to are increasingly being constrained in how much they can help us protect our software, heavily influenced by the US government's ongoing threat of export controls.  Claude Fable 5 wouldn't even proofread this article for me! It insisted on downgrading me to a less capable model.\nMeanwhile open weight models from China such as GLM-5.2, Kimi 3 and the new Qwen 3.8 Max appear to have none of these restrictions - and any restrictions that do exist can likely be fine-tuned out of them by modifying the weights\nThese constraints are meant to make us safer. I think there's a risk that they are having the opposite effect.\n    \n        Tags: sandboxing, security, ai, openai, generative-ai, llms, hugging-face, anthropic, paper-review, ai-security-research"
+    },
+    {
+      "title": "Why I'm building a note taking app without AI",
+      "url": "https://withdocket.com/blog/why-im-building-a-note-taking-app-without-ai",
+      "source": "Hacker News",
+      "published": "2026-07-22T23:18:10+00:00",
+      "summary_raw": "",
+      "points": 16,
+      "num_comments": 11,
+      "hn_url": "https://news.ycombinator.com/item?id=49014798"
+    },
+    {
+      "title": "Are AI labs pelicanmaxxing?",
+      "url": "https://simonwillison.net/2026/Jul/22/are-ai-labs-pelicanmaxxing/#atom-everything",
+      "source": "Simon Willison",
+      "published": "2026-07-22T23:01:00+00:00",
+      "summary_raw": "Are AI labs pelicanmaxxing?\nExcellent piece of work by Dylan Castillo, who took a deep-dive into the frequently pondered question of whether the AI labs have been deliberately training models to draw pelicans riding bicycles in response to my deeply unscientific benchmark.\nI've been randomly spot-checking this in the past by testing models against other animals riding other types of vehicle, but never with anything close to the diligence of Dylan's methodology here.\nDylan took 8 animals \u00d7 6 vehicles = 48 prompts and ran them three times each through 7 different models ( GPT-5.6 Terra, Claude Sonnet 5, Gemini 3.5 Flash, Grok 4.5, Qwen3.7-Max, GLM-5.2, and DeepSeek V4 Pro). He then used GPT-5.6 Luna and Gemini 3.1 Flash-Lite to help evaluate the results.\nThere's a neat filter view for exploring the results:\n\nFor the models he tested he could find no evidence of pelimaxxing:\n\n\nThe pelicans on bicycles don\u2019t look any better\nLabs are not better at drawing pelicans\nLabs are not better at drawing bicycles\nLabs are not better at drawing pelicans on bicycles, even adjusting for difficulty\nThe pelican-bicycle scenes don\u2019t look memorized [...]\n\nPelicans aren\u2019t drawn any better than other animals. Bicycles aren\u2019t drawn any better than other vehicles. And no lab draws the combination better than its pelicans and bicycles already predict. GLM-5.2 comes closest: it has the largest boost on the exact pelican-bicycle cell, and and its first pelican-on-bicycle sample caught my eye. But the effect is small and not significant, so I wouldn\u2019t put too much weight on it.\n\n\n    Via Hacker News\n\n\n    Tags: ai, generative-ai, llms, evals, pelican-riding-a-bicycle"
+    },
+    {
+      "title": "DOJ Now Citing Fake AI-Generated Cases to Keep ICE Detainees Locked Up",
+      "url": "https://www.techdirt.com/2026/07/22/doj-now-citing-fake-ai-generated-cases-to-keep-ice-detainees-locked-up/",
+      "source": "Hacker News",
+      "published": "2026-07-22T20:33:25+00:00",
+      "summary_raw": "",
+      "points": 20,
+      "num_comments": 1,
+      "hn_url": "https://news.ycombinator.com/item?id=49013031"
+    },
+    {
+      "title": "AI-isms go deeper than em-dashes and 'load-bearing'",
+      "url": "https://jesseduffield.com/AI-isms-go-deeper/",
+      "source": "Hacker News",
+      "published": "2026-07-22T19:14:05+00:00",
+      "summary_raw": "",
+      "points": 11,
+      "num_comments": 3,
+      "hn_url": "https://news.ycombinator.com/item?id=49011976"
+    },
+    {
+      "title": "AI tech companies have 'hidden debt' worth around $1.65T",
+      "url": "https://www.tomshardware.com/tech-industry/big-tech/ai-tech-companies-have-hidden-debt-worth-around-usd1-65-trillion-report-claims-amount-is-122-percent-of-debt-reflected-on-the-balance-sheets-of-alphabet-amazon-meta-microsoft-and-oracle",
+      "source": "Hacker News",
+      "published": "2026-07-22T18:26:38+00:00",
+      "summary_raw": "",
+      "points": 10,
+      "num_comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=49011231"
+    },
+    {
+      "title": "Lipschitzian SLLNs for random functions",
+      "url": "https://arxiv.org/abs/2607.20411v1",
+      "source": "arXiv",
+      "published": "2026-07-22T17:50:53+00:00",
+      "summary_raw": "We prove strong laws of large numbers for locally Lipschitz functions in the Lipschitz pseudometric. Our results hold under either a topological or a model-theoretic condition, with the latter encompassing functions jointly definable in o-minimal structures but extending substantially beyond this class. Applications include uniform convergence of limiting and Clarke subdifferentials and finite-sample identification of solutions. Consequently, we identify broad classes of functions for which the failure phenomena revealed by our previous negative results [Tian and Royset, arXiv:2511.16568, 2025] do not occur."
+    },
+    {
+      "title": "LKValues: Aligning Large Language Models with Sri Lankan Societal Values",
+      "url": "https://arxiv.org/abs/2607.20410v1",
+      "source": "arXiv",
+      "published": "2026-07-22T17:49:37+00:00",
+      "summary_raw": "Value alignment of Large Language Models (LLMs) has been shown to be culturally biased toward Western norms. This results in the mishandling of local values in multilingual societies such as Sri Lanka that have their unique cultural dynamics. Existing benchmarks overlook Sri Lankan-contextualized values in its official language Sinhala, hindering culturally sensitive evaluation and fine-tuning. To bridge this gap, we propose LKValues, the first survey-grounded resource suite for Sri Lankan value alignment. From a trilingual survey of 205 respondents, blending adapted global frameworks and LLM-elicited local constructs, we derive 40 majority-endorsed societal values. Using these values, we construct LKvaluesIT, a Sinhala-English news-derived instruction corpus containing 150k scenario-based instances, and LKvaluesBench, a value-sensitive evaluation benchmark of 1,000 instances. We evaluate a set of proprietary and open-weight LLMs with LKvaluesBench. We fine-tune three open-weight base models (Qwen3.5-4B-Base, Qwen3.5-9B-Base, and Aya-Expanse-8B-Base). Our experiments show that newer and larger LLMs still exhibit low-resource and cultural value-alignment gaps. LKValues fine-tuning improves Qwen-family models in English and Sinhala, reducing invalid outputs and cross-lingual disparities, though gains remain model-family dependent. These highlight LKValues efficacy in embedding Sri Lankan values, offering a replicable pipeline for low-resource, country-specific pluralist value alignment. The dataset is publicly available at https://github.com/NextME14/LKValues."
+    },
+    {
+      "title": "SoftReason: A Fully Differentiable Neuro-Soft-Symbolic Deductive Reasoning Architecture over High-Dimensional Perceptual Data",
+      "url": "https://arxiv.org/abs/2607.20402v1",
+      "source": "arXiv",
+      "published": "2026-07-22T17:38:39+00:00",
+      "summary_raw": "In many reasoning problems, the premises are not observed as discrete symbols, but must be inferred from high-dimensional inputs. Further, the predicate vocabulary, argument structure, and trusted evidence are supplied by a Knowledge Graph (KG), or rule definitions. Classical neuro-symbolic pipelines have a discrete interface between perception and deduction. We present a neuro-soft-symbolic architecture for differentiable deductive reasoning over latent perceptual facts and knowledge-provided predicates. SoftReason removes the gradient gap by representing the deductive state as a local soft interpretation tensor over candidate constants and predicates. Perception proposes probabilistic base facts, KG triples enter as high-confidence soft evidence, and every query anchor, predicate choice, and closure update remains differentiable. Our core innovation is a learned differentiable lift of the immediate-consequence operator. It uses predicate-definition embeddings and latent composition channels to form soft body-predicate mixtures, aggregate over all possible witnesses, propose query-conditioned head facts, and update the interpretation through a monotone probabilistic OR. We instantiate the framework on Knowledge-aware Visual Question Answering (KVQA), and demonstrates how SoftReason supports end-to-end perceptual grounding, KG evidence injection, and differentiable deductive closure in one trainable architecture."
+    },
+    {
+      "title": "Towards Miniature Humanoid Tele-Loco-Manipulation Using Virtual Reality and Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2607.20399v1",
+      "source": "arXiv",
+      "published": "2026-07-22T17:35:43+00:00",
+      "summary_raw": "Full-sized humanoid robot capabilities have grown exponentially in recent years, aiming towards general-purpose deployment in human environments. A popular control method used by manufacturers utilizes Virtual Reality for upper-body teleoperation and Reinforcement Learning for lower-body balance and locomotion control. As a result, a single remote operator can see, manipulate, and navigate about a real, distant physical environment. This powerful control stack is often relegated to expensive full-sized robots, many of which are inaccessible to the research community. Miniature humanoids are more prevalent, but employ less biomimicry in their design (e.g. fewer sensors, Degrees of Freedom, etc) and lack similar developments. This paper describes a compliant full-body telepresence control stack developed from the ground up for miniature humanoids. Framework experimentation on ROBOTIS OP3 hardware showcases walking at speeds up to 0.45 m/s independent of arm motions. Tele-loco-manipulation is demonstrated via a cube relocation experiment with an expert human operator. On average, the teleoperated system moved 2 different 40 g cubes within 10 mins, walking a total distance of 5 m. Overall, the developed system shows potential for miniature humanoid tele-loco-manipulation."
+    },
+    {
+      "title": "Using evolution to automate AI model research",
+      "url": "https://imbue.com/blog/2026-07-20-imbue-catalyst-nanochat",
+      "source": "Hacker News",
+      "published": "2026-07-22T17:31:05+00:00",
+      "summary_raw": "",
+      "points": 11,
+      "num_comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=49010350"
+    },
+    {
+      "title": "Frontier AI models will attempt to cheat",
+      "url": "https://www.aisi.gov.uk/blog/cheating-behaviour-in-frontier-model-evaluations",
+      "source": "Hacker News",
+      "published": "2026-07-22T17:26:03+00:00",
+      "summary_raw": "",
+      "points": 10,
+      "num_comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=49010266"
+    },
+    {
+      "title": "Are AI labs pelicanmaxxing?",
+      "url": "https://dylancastillo.co/posts/pelicanmaxxing.html",
+      "source": "Hacker News",
+      "published": "2026-07-22T17:17:54+00:00",
+      "summary_raw": "",
+      "points": 580,
+      "num_comments": 224,
+      "hn_url": "https://news.ycombinator.com/item?id=49010129"
+    },
+    {
+      "title": "Persian Pixel: A large-scale synthetic OCR dataset for Persian language",
+      "url": "https://arxiv.org/abs/2607.20385v1",
+      "source": "arXiv",
+      "published": "2026-07-22T17:13:25+00:00",
+      "summary_raw": "Optical Character Recognition (OCR) for Persian remains substantially less mature than for Latin-script languages despite Persian being spoken by more than 110 million people across multiple countries. This gap arises from two fundamental challenges: the intrinsic complexity of the Perso-Arabic writing system and the limited availability of large-scale, high-quality annotated datasets. Persian script exhibits obligatory cursive connectivity, context-dependent glyph shaping, extensive ligatures, diacritic placement, and stylistic variation across writing forms such as Naskh and Nastaliq, all of which significantly complicate text recognition. At the same time, the high cost and labor-intensive nature of manual annotation have created a persistent data bottleneck, limiting the development of robust OCR systems and slowing progress in Persian document digitization.In this paper, we introduce Persian Pixel, a comprehensive synthetic OCR dataset specifically designed to address these challenges. Comprising over 343,000 high-fidelity image text pairs, the dataset spans sentence, paragraph, and full-page document layouts generated from a carefully curated seven-million-word Persian corpus using the SynthOCR-Gen rendering framework. The generation pipeline faithfully models the typographic characteristics of Persian script, including contextual character joining, positional glyph variants, diacritic placement, and multiple representative Persian typefaces. To bridge the synthetic-to-real domain gap, the rendered images are further enriched with more than twenty-five stochastic degradation models that emulate realistic document acquisition artifacts, including ink bleed, paper aging, blur, illumination variation, scanner imperfections, compression artifacts, and multiple noise processes.By overcoming the long-standing scarcity of annotated Persian OCR data, Persian Pixel provides a scalable and openly available resource for training and fine-tuning modern OCR architectures, including transformer-based models such as TrOCR and Donut. The dataset establishes a strong foundation for research in Persian document analysis, historical manuscript digitization, and end-to-end document understanding, while demonstrating that programmatic synthetic data generation offers a practical, cost-effective, and scalable alternative to manual annotation for advancing OCR in low-resource and typographically complex scripts."
+    },
+    {
+      "title": "FMRP-LEAN: A HIPAA-Compliant AI-Augmented LIMS Architecture for End-to-End Clinical Assay Workflow Optimization",
+      "url": "https://arxiv.org/abs/2607.20382v1",
+      "source": "arXiv",
+      "published": "2026-07-22T17:11:52+00:00",
+      "summary_raw": "Clinical biomarker workflows in translational research settings often rely on spreadsheet-driven tracking, manual quality control (QC) reconciliation, and loosely integrated systems, resulting in limited state visibility, delayed reporting, and increased operational risk. These challenges are particularly pronounced in multi-day assays such as Luminex-based quantification of Fragile X Messenger Ribonucleoprotein (FMRP), where HIPAA-compliant data governance, deterministic workflow progression, and coordinated communication across laboratory and clinical teams are required. This paper presents FMRP-LEAN, a HIPAA-compliant, AI-augmented Laboratory Information Management System (LIMS) architecture that formalizes biospecimen lifecycle management through a finite-state workflow model with explicit transition guards and dwell-time observability. The system integrates a self-hosted Supabase/PostgreSQL stack deployed within hospital-controlled infrastructure, hybrid edge-internal isolation with encrypted tunneling and loopback-only services, and bi-directional REDCap synchronization. A unified MRN-UUIDv7 identifier framework with QR-based tracking ensures traceable clinical-research linkage under PHI residency constraints. FMRP-LEAN incorporates automated statistical QC pre-screening and a governance-constrained AI operations module that operates exclusively on aggregate projections, with deterministic fallback guarantees. Deployment demonstrates improved workflow observability, reduced QC latency, and enhanced cross-role transparency between laboratory technicians, research coordinators, and patient-facing teams. The architecture provides a reproducible model for secure, state-explicit, and AI-augmented clinical research workflows in regulated healthcare environments."
+    },
+    {
+      "title": "Train the Model, Not the Reader: Decodability Supervision for Verifiable Activation Explanations",
+      "url": "https://arxiv.org/abs/2607.20379v1",
+      "source": "arXiv",
+      "published": "2026-07-22T17:10:23+00:00",
+      "summary_raw": "Natural-language autoencoders score explanations of hidden activations by reconstruction: an explanation is deemed faithful if the activation can be regenerated from it. The test is structurally insensitive to individual false claims: if flipping a claim does not change the reconstruction, the claim is never penalized. We show the test is passed in two ways, neither faithful. On a released Qwen-2.5-7B verbalizer, explanations reconstruct well above chance while ~2% of specific claims are reconstruction-dependent, so the score tracks gist, not specific facts. Under exact synthetic ground truth, the standard recipe develops co-adapted private codes (false wording the reconstruction depends on) in 5/5 runs, and fixes that leave the target model unchanged do not help. We contribute two audit protocols, the grounded-vs-true cross and the evaluator swap, and RECAP (Readable Encodings via Co-trained Auxiliary Predictors): linear heads trained alongside the target model to keep designated content decodable. On RECAP-trained sandbox models, fresh verbalizers state the designated content truly and the codes vanish, at a +0.001-nat cost. This replicates on a pretrained Pythia-160M: the content becomes reliably probe-decodable, though a fresh verbalizer conveys it only in part (truth 0.44-0.46 vs a near-zero control). For interpretability, high reconstruction does not certify individual claims. For AI safety, RECAP makes designated internal content independently checkable against probes rather than asserted by prose a model can game: an independent probe scores the verbalizer's true claims above its false ones (AUC 0.96, vs 0.82 without RECAP). Against an adversary that edits an explanation to maximize the reconstruction score while lying (suppressing ~87% of its lie penalty), the RECAP probe still flags the lies (AUC 0.95) while the control probe collapses to chance (0.51)."
+    },
+    {
+      "title": "PG-KINN: A Physics-Informed Petrov-Galerkin Kolmogorov-Arnold Network for Solving Forward and Inverse PDEs",
+      "url": "https://arxiv.org/abs/2607.20378v1",
+      "source": "arXiv",
+      "published": "2026-07-22T17:08:29+00:00",
+      "summary_raw": "Physics-informed learning of partial differential equations (PDEs) has been dominated by multilayer perceptrons (MLPs), whose spectral bias and dense parameterization limit both accuracy and interpretability. Kolmogorov Arnold Networks (KANs) mitigate these limitations because their learnable spline activations are structurally aligned with the piecewise-polynomial bases of classical discretizations. However, the way a PDE is cast into a loss functional is as decisive as the choice of approximator: strong-form residual minimization requires high-order derivatives and heavily weighted losses, the energy (Bubnov-Galerkin) form is restricted to self-adjoint operators and, as we show, collapses to a trivial solution for parameter-identification problems, and boundary integral forms require a known fundamental solution. We propose PG-KINN, a physics-informed KAN built on a Petrov-Galerkin formulation in which the trial space is a KAN and the test space is an independent, compactly supported, piecewise-polynomial space evaluated with Gauss-Legendre quadrature. Integration by parts lowers the differentiation order while retaining applicability to general non-self-adjoint, nonlinear, and inverse problems; the localized test functions turn the global residual into a set of element-wise weak residuals with favorable conditioning. On a suite of benchmarks spanning crack singularities, stress concentration, Neo-Hookean hyperelasticity, inverse parameter identification in heterogeneous media, and complex geometries, PG-KINN consistently outperforms legacy MLP baselines and state-of-the-art KAN-based strong/energy/inverse formulations (PIKAN). These results position the Petrov-Galerkin coupling of KAN trial spaces and polynomial test spaces as a robust and accurate route for AI-based computational mechanics."
+    },
+    {
+      "title": "It's not a \"rogue AI\" when a badly made security harness executes scripts",
+      "url": "https://hachyderm.io/@thomasfuchs/116964576606603226",
+      "source": "Hacker News",
+      "published": "2026-07-22T17:07:46+00:00",
+      "summary_raw": "",
+      "points": 32,
+      "num_comments": 5,
+      "hn_url": "https://news.ycombinator.com/item?id=49009968"
+    }
+  ]
+}
