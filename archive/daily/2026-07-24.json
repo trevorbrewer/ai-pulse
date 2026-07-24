@@ -1,0 +1,238 @@
+{
+  "date": "2026-07-24",
+  "generated_at": "2026-07-24T12:17:27.711659+00:00",
+  "source_counts": {
+    "rss_feeds": 2,
+    "arxiv": 50,
+    "hackernews": 32,
+    "nitter": 0,
+    "total_raw": 84,
+    "total_deduped": 82,
+    "total_saved": 25
+  },
+  "items": [
+    {
+      "title": "Flux 3 X Mimic: The Next Generation of Video-Action Models",
+      "url": "https://bfl.ai/blog/flux-3-mimic",
+      "source": "Hacker News",
+      "published": "2026-07-24T09:31:48+00:00",
+      "summary_raw": "",
+      "points": 128,
+      "num_comments": 11,
+      "hn_url": "https://news.ycombinator.com/item?id=49033127"
+    },
+    {
+      "title": "AMD's Instinct MI455X: Aiming for the Sun",
+      "url": "https://chipsandcheese.com/p/amds-instinct-mi455x-aiming-for-the",
+      "source": "Hacker News",
+      "published": "2026-07-24T06:59:07+00:00",
+      "summary_raw": "",
+      "points": 33,
+      "num_comments": 7,
+      "hn_url": "https://news.ycombinator.com/item?id=49032072"
+    },
+    {
+      "title": "Flux 3",
+      "url": "https://bfl.ai/blog/flux-3",
+      "source": "Hacker News",
+      "published": "2026-07-24T06:17:08+00:00",
+      "summary_raw": "",
+      "points": 373,
+      "num_comments": 94,
+      "hn_url": "https://news.ycombinator.com/item?id=49031796"
+    },
+    {
+      "title": "Australia to AI: Produce More Power Than You Burn, Stop Content 'Theft'",
+      "url": "https://www.theregister.com/ai-and-ml/2026/07/15/australia-demands-ai-companies-must-produce-more-energy-than-they-consume-stop-theft-of-content/5271535",
+      "source": "Hacker News",
+      "published": "2026-07-24T00:12:02+00:00",
+      "summary_raw": "",
+      "points": 28,
+      "num_comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=49029771"
+    },
+    {
+      "title": "AI bet goes awry: Oracle fires 21,000 employees",
+      "url": "https://www.jpost.com/business-and-innovation/tech-and-start-ups/article-903442",
+      "source": "Hacker News",
+      "published": "2026-07-23T23:26:51+00:00",
+      "summary_raw": "",
+      "points": 16,
+      "num_comments": 3,
+      "hn_url": "https://news.ycombinator.com/item?id=49029453"
+    },
+    {
+      "title": "The first known runaway AI agent - or a very bad marketing stunt?",
+      "url": "https://simonwillison.net/2026/Jul/23/the-first-known-runaway-ai-agent/#atom-everything",
+      "source": "Simon Willison",
+      "published": "2026-07-23T22:53:08+00:00",
+      "summary_raw": "The first known runaway AI agent - or a very bad marketing stunt?\nMartin Alderson's commentary on the OpenAI accidental cyberattack against Hugging Face includes a couple of details I hadn't considered.\nFirst, Hugging Face offers a truly rich target if you're trying to find potential vulnerabilities that require executing arbitrary code:\n\nHugging Face has an enormous attack surface. They have more interfaces than I can count which run untrusted models and code. While they definitely have invested in defences, by nature of their operating model they do have many more opportunities to be attacked than many other services. I certainly don't envy their cybersecurity teams.\n\nSecondly, one of the things that has puzzled me is how OpenAI didn't notice that their sandbox had been so thoroughly breached by the agent. Surely they'd be monitoring network traffic closely?\nMartin points out that:\n\nIt's also likely they were running a huge amount of benchmarks simultaneously with ~unlimited token budgets - you want as many samples as possible to figure out how good a model is at a certain benchmark. It may also be they are testing various different checkpoints of the model too, understanding how the model is improving as it goes through the various training stages.\n\nThe mistakes made by the OpenAI team running this benchmark are easier to imagine when you think about the scale at which benchmarks of this kind usually operate. For all we know they could have been subjecting a new model to dozens of benchmarks at the same time, in dozens of different environments.\n\n    Via Lobste.rs\n\n\n    Tags: security, ai, openai, generative-ai, llms, hugging-face, ai-security-research"
+    },
+    {
+      "title": "AI Kill Switch Act: Official Bill Text by Reps. Lieu and Moran (2026)",
+      "url": "https://lieu.house.gov/media-center/press-releases/reps-lieu-and-moran-introduce-bill-require-kill-switch-ai-systems-can",
+      "source": "Hacker News",
+      "published": "2026-07-23T22:12:35+00:00",
+      "summary_raw": "",
+      "points": 10,
+      "num_comments": 5,
+      "hn_url": "https://news.ycombinator.com/item?id=49028757"
+    },
+    {
+      "title": "Mark Zuckerberg launches AI optimism campaign",
+      "url": "https://www.axios.com/2026/07/23/mark-zuckerberg-ai-optimism",
+      "source": "Hacker News",
+      "published": "2026-07-23T21:17:59+00:00",
+      "summary_raw": "",
+      "points": 10,
+      "num_comments": 4,
+      "hn_url": "https://news.ycombinator.com/item?id=49028170"
+    },
+    {
+      "title": "Doctor Dario (Game)",
+      "url": "https://doctordario.ai/",
+      "source": "Hacker News",
+      "published": "2026-07-23T21:00:26+00:00",
+      "summary_raw": "",
+      "points": 12,
+      "num_comments": 1,
+      "hn_url": "https://news.ycombinator.com/item?id=49027994"
+    },
+    {
+      "title": "Stripe in talks to buy OpenRouter for ~10B",
+      "url": "https://www.wsj.com/tech/ai/stripe-in-talks-to-buy-buzzy-ai-model-marketplace-openrouter-decc6a74",
+      "source": "Hacker News",
+      "published": "2026-07-23T20:59:22+00:00",
+      "summary_raw": "",
+      "points": 57,
+      "num_comments": 19,
+      "hn_url": "https://news.ycombinator.com/item?id=49027985"
+    },
+    {
+      "title": "Big Tech Isn't Hiding $1.65T of Debt",
+      "url": "https://finterm.ai/blog/big-tech-hidden-debt-fact-check.html",
+      "source": "Hacker News",
+      "published": "2026-07-23T20:15:31+00:00",
+      "summary_raw": "",
+      "points": 22,
+      "num_comments": 13,
+      "hn_url": "https://news.ycombinator.com/item?id=49027426"
+    },
+    {
+      "title": "Show HN: Production duplex speech model for revenue calls",
+      "url": "https://metavoice.io/",
+      "source": "Hacker News",
+      "published": "2026-07-23T19:33:36+00:00",
+      "summary_raw": "Hi, HN, we\u2019re building Mia &amp; Leo: AI personalities backed by purpose-built duplex speech models for revenue calls.<p>Teams building real-world agents told us that more than 40% of callers hang up within the first 30 seconds. On a revenue call, that meant a lost booking, an unpaid balance, a cold lead, or a customer who does not come back.<p>This happens because humans interrupt, correct dates, pause halfway through a sentence, or speak over someone in the background. The agent misses it, talks over them, or loses the thread.<p>That\u2019s because of how the current voice systems work. They sequentially listen, stop, think, and then speak. The conversation is actually a walkie-talkie exchange.<p>So, we\u2019re proud to introduce our first iteration of Mia &amp; Leo who keep listening while they speak. They can handle interruptions, overlapping speech, corrections, and background voices without breaking the conversation.<p>They are also built for production. Developers get control over agent behaviour, visibility into calls, failures they can debug, and costs that work at scale.<p>Please try them out at metavoice.io. We&#x27;d love to hear any feedback!",
+      "points": 14,
+      "num_comments": 2,
+      "hn_url": "https://news.ycombinator.com/item?id=49026899"
+    },
+    {
+      "title": "Show HN: Echo \u2013 Fable-level results at 1/3 the cost using open-weight models",
+      "url": "https://news.ycombinator.com/item?id=49026810",
+      "source": "Hacker News",
+      "published": "2026-07-23T19:26:01+00:00",
+      "summary_raw": "I\u2019ve been building Echo (<a href=\"https:&#x2F;&#x2F;echo.tracerml.ai&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;echo.tracerml.ai&#x2F;</a>), an experiment in making one AI system out of a pool of open-weight models rather than choosing a single model and using it for every task.<p>It started with a simple experiment. I took a group of models, including GLM-5.2, Kimi K2.7 and others, and ran them on the same evaluations. Then I measured what would happen if, for each problem, you somehow knew in advance which models would be useful and how their outputs should be combined.<p>That hypothetical system performed substantially better than any individual model in the pool. Of course, it is not something you can actually deploy because it relies on knowing which decisions were good after seeing the result. Echo is my attempt to recover some of that advantage without having that information in advance.<p>For each request, Echo decides how much computation to allocate, which models should participate, and how their work should be combined. Some prompts may only need a relatively small amount of inference, while others benefit from multiple models working on different parts of the problem.<p>One thing that surprised me while building it was how complementary the models are. A model that is clearly weaker overall can still be extremely useful on particular problems or as part of a combination.<p>On my first evaluation mix, Echo consistently performed better than the best individual model in its pool. It also reached roughly the same aggregate result as Fable, which I used as one of the stronger comparison systems, at around one third of the inference cost.<p>There are still some cases where Echo makes the wrong allocation or combination decision. I\u2019m currently spending a lot of time understanding those failures, as well as testing whether the same approach holds up on coding and agentic tasks where measuring the quality of each decision becomes much harder.<p>I built a chat interface (echo.tracerml.ai) and an OpenAI-compatible API (<a href=\"https:&#x2F;&#x2F;echo.tracerml.ai&#x2F;docs&#x2F;api\" rel=\"nofollow\">https:&#x2F;&#x2F;echo.tracerml.ai&#x2F;docs&#x2F;api</a>) so the system can be tested outside the evaluation setup.<p>Here is a short&#x2F;high level video on how it works: <a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=lJFJSvOdXhg\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=lJFJSvOdXhg</a><p>I wrote up the evaluation methodology, individual model results, costs and current limitations here: <a href=\"https:&#x2F;&#x2F;echo.tracerml.ai&#x2F;eval\" rel=\"nofollow\">https:&#x2F;&#x2F;echo.tracerml.ai&#x2F;eval</a><p>I would love for you to try it! Especially if you hit any weird failure cases or places where the allocation looks unintuitive.",
+      "points": 404,
+      "num_comments": 195,
+      "hn_url": "https://news.ycombinator.com/item?id=49026810"
+    },
+    {
+      "title": "Introducing selfie for sign-in: a new way to access your Google Account",
+      "url": "https://blog.google/innovation-and-ai/technology/safety-security/selfie-video-sign-in/",
+      "source": "Hacker News",
+      "published": "2026-07-23T19:00:34+00:00",
+      "summary_raw": "",
+      "points": 108,
+      "num_comments": 96,
+      "hn_url": "https://news.ycombinator.com/item?id=49026482"
+    },
+    {
+      "title": "From Evaluation to Guardrails: What We Brought to ACM FAccT 2026",
+      "url": "https://blog.mozilla.ai/from-evaluation-to-guardrails-what-we-brought-to-acm-facct-2026/",
+      "source": "Hacker News",
+      "published": "2026-07-23T18:29:22+00:00",
+      "summary_raw": "",
+      "points": 12,
+      "num_comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=49026059"
+    },
+    {
+      "title": "AI bet goes awry: Oracle fires 21,000 employees",
+      "url": "https://www.msn.com/en-us/money/economy/ai-bet-goes-awry-oracle-fires-21-000-employees/ar-AA28vWuD",
+      "source": "Hacker News",
+      "published": "2026-07-23T18:07:33+00:00",
+      "summary_raw": "",
+      "points": 101,
+      "num_comments": 25,
+      "hn_url": "https://news.ycombinator.com/item?id=49025754"
+    },
+    {
+      "title": "An opinionated guide to which AI to use to do stuff",
+      "url": "https://www.oneusefulthing.org/p/an-opinionated-guide-to-which-ai-b22",
+      "source": "Ethan Mollick",
+      "published": "2026-07-23T18:05:24+00:00",
+      "summary_raw": "The Summer 2026 Edition"
+    },
+    {
+      "title": "3D-Aware VLMs with Implicit and Explicit Geometries",
+      "url": "https://arxiv.org/abs/2607.21595v1",
+      "source": "arXiv",
+      "published": "2026-07-23T17:59:59+00:00",
+      "summary_raw": "Despite rapid progress, most existing vision-language models (VLMs) built from 2D visual inputs often struggle when handling various 3D tasks that require fine-grained spatial understanding and reasoning. To bridge this gap, we present VLM-IE3D, a unified framework that enhances the 3D spatial awareness of VLMs by equipping them with both implicit and explicit 3D geometries learned from RGB videos. Our VLM-IE3D introduces Implicit Geometry Tokens (IGTs) that capture high-level geometric priors from input videos, as well as complementary Explicit Geometry Tokens (EGTs) that encode detailed geometric structures from reconstructed 3D attributes. On top of that, VLM-IE3D comes with a 3D-aware adapter that effectively fuses the two types of geometric representations with 2D visual cues. This RGB-only design injects strong 3D inductive biases for fine-grained spatial understanding and reasoning without requiring any additional 3D inputs. Extensive experiments show that VLM-IE3D achieves superior performance consistently across various 3D tasks including 3D video detection, 3D visual grounding, 3D dense captioning, and spatial reasoning. Code and models are available at https://github.com/Vegetebird/VLM-IE3D."
+    },
+    {
+      "title": "Ukraine May Have Manipulated Russian Air Defenses into Downing Their Own Su-57",
+      "url": "https://united24media.com/world/ukraine-may-have-manipulated-russian-air-defenses-into-downing-their-own-su-57-near-moscow-21018",
+      "source": "Hacker News",
+      "published": "2026-07-23T17:57:55+00:00",
+      "summary_raw": "",
+      "points": 10,
+      "num_comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=49025622"
+    },
+    {
+      "title": "Expanding Flow Maps",
+      "url": "https://arxiv.org/abs/2607.21585v1",
+      "source": "arXiv",
+      "published": "2026-07-23T17:57:38+00:00",
+      "summary_raw": "Flow-based generative models have enabled remarkable progress in fast and controllable generation across continuous and discrete state spaces, yet existing parameterizations are constrained to fixed dimensions or fixed sequence lengths. Here, we introduce Expanding Generative Flows (EFlows), which define flows between distributions of increasing dimensionality along an expanding interpolant that grows the state by augmenting it with conditional noise. Building on this construction, we propose Expanding Flow Maps (EFMs), a new class of flow maps that distill the expanding interpolant into efficient few-step generative models. Each EFM factors the map between any two timesteps into two learnable operations: an expand operator, which augments the state space with new coordinates or tokens conditioned on the current state, and a transport map, which pushes the expanded state forward along the interpolant. Composing these operators yields a single map that jointly expands and denoises the state, recovering existing fixed-canvas flows and flow maps as the special case in which the expand operator is the identity. We further extend the framework to the discrete simplex, enabling variable-size graph generation and variable-length sequence generation. Across both continuous and discrete modalities, we establish EFlows and EFMs as a principled framework for settings in which output size is itself a learned, controllable degree of freedom."
+    },
+    {
+      "title": "GraphVid: Interactive Graph-Controllable Video Generation",
+      "url": "https://arxiv.org/abs/2607.21580v1",
+      "source": "arXiv",
+      "published": "2026-07-23T17:56:30+00:00",
+      "summary_raw": "Controllable video generation remains challenging due to the difficulty of specifying precise multi-object interactions using text prompts or motion-control inputs that primarily constrain pixel movement. In practice, trajectory-based control often requires users to draw accurate tracks for multiple objects, which scales poorly with scene complexity and becomes ambiguous under occlusion or overlap. To enable flexible yet precise multi-subject control, we introduce $\\textbf{GraphVid}$, a graph-conditioned image-to-video generation model that enables interactive control through structured interaction graphs. We further curate $\\textbf{GraphVid-Bench}$, a large-scale interaction-centric video dataset with structured relational annotations to enable training of interaction-aware video generation models. Despite using substantially less training data and fewer trainable parameters than prior motion-control methods, GraphVid delivers strong controllability and video quality. Compared with Motion-I2V, GraphVid reduces FID by up to 39.9% and FVD by 37.6%, while improving PSNR (9.87=>15.98) and SSIM (0.38=>0.61). Our results highlight the potential of structured semantic interfaces as a powerful paradigm for controllable video generation."
+    },
+    {
+      "title": "Barzilai-Borwein Fails Superlinear Convergence on an Open Set of Quadratics for Every Dimension $n\\geq 4$",
+      "url": "https://arxiv.org/abs/2607.21579v1",
+      "source": "arXiv",
+      "published": "2026-07-23T17:56:05+00:00",
+      "summary_raw": "Barzilai--Borwein (BB) method has shown strong practical performance in continuous optimization, yet its convergence dynamics remains poorly understood. In particular, a central unresolved question is whether BB converges superlinearly for almost every strictly convex quadratic problem and initialization. We provide a negative answer to this question. Specifically, for every finite dimension $n\\geq4$, we construct a nonempty open, hence positive-Lebesgue-measure, family of strictly convex quadratic problems and initial points for which the long Barzilai--Borwein method (BB1) converges but cannot converge root-superlinearly. More precisely, with the explicit constants $\u03c1_{\\min}=10^{-6},\u03c1_{\\max}=0.61$, every spectral component of the gradient is bounded above and below by the corresponding geometric sequence. Consequently, the gradient norm and the energy norm of the error satisfy two-sided geometric estimates with the same rates, while the objective gap satisfies the corresponding estimates with squared rates. In particular, all three quantities are bounded below by geometric sequences, ruling out superlinear convergence. The construction is highly nontrivial, based on a computer-assisted proof of a nonresonant, attracting seven-cycle of the projectivized BB dynamics in dimension four."
+    },
+    {
+      "title": "Synthetic data generation framework for quality control automation in gravure printing",
+      "url": "https://arxiv.org/abs/2607.21577v1",
+      "source": "arXiv",
+      "published": "2026-07-23T17:55:21+00:00",
+      "summary_raw": "Quality control in printing, particularly in rotogravure printing, still depends on slow, costly, and subjective manual inspection. Automated surface defect detection is critical for maintaining high-quality standards in rotogravure printing. Deep learning models give prospects for automation. However, training robust deep learning models, such as YOLO or Vision Transformers, is heavily hindered by the extreme scarcity of real-world industrial defects images. To overcome this limitation, this paper introduces a novel synthetic data generation framework tailored for rotogravure printing quality control. The proposed pipeline automatically generates high-fidelity images of specific printing defects (creases, streaks, misregistration, etc.) and outputs corresponding bounding boxes and annotations. To validate the framework, a synthetic dataset of 7533 images was generated and used to train the state-of-the-art object-detection model RFDETR. Experimental results demonstrate that the model trained on our synthetic data achieves a Mean Average Precision (mAP) of 80.9\\% on real industrial testing samples. This framework provides a zero-cost, rapid-deployment solution for automating defect inspection in printing lines without requiring massive manual data collection."
+    },
+    {
+      "title": "Surprisal Theory is Tautological (without Rational Grounding)",
+      "url": "https://arxiv.org/abs/2607.21574v1",
+      "source": "arXiv",
+      "published": "2026-07-23T17:54:37+00:00",
+      "summary_raw": "Surprisal theory holds that the human processing difficulty of a linguistic unit in context is an affine function of its surprisal under some language model. I argue this claim is a tautology without further constraint: for any non-negative difficulty measure over units in context, there exists a language model whose surprisal is an affine function of it under mild technical conditions. Therefore, because any pattern of difficulty is consistent with some language model, without an additional constraint on the language model, surprisal theory makes no falsifiable predictions. The tautology was long obscured by an assumption implicit in two decades of psycholinguistic work---that the relevant language model is the distribution that generated the training corpus, so that improving corpus fit improves predictions of human behavior. Recent empirical work has undermined this assumption, demonstrating that better corpus models can be worse predictors of processing difficulty. I conclude that breaking the tautology requires a rationalist intervention, i.e., the relevant language model must be derived from a non-empirically motivated model of the comprehender, which could be based on, for instance, memory constraints or processing goals, and that, thus, does not depend on the behavioral data surprisal theory is meant to explain."
+    },
+    {
+      "title": "Beyond Sufficiency: Time Series Explanation with Counterfactual Necessity",
+      "url": "https://arxiv.org/abs/2607.21573v1",
+      "source": "arXiv",
+      "published": "2026-07-23T17:52:01+00:00",
+      "summary_raw": "Faithful explanations of time-series classifiers should identify subsequences that are not only sufficient to preserve a black-box model's prediction, but also necessary for maintaining it. However, existing sufficiency-oriented methods can assign high importance to spurious subsequences that support the prediction without being essential to the model's decision. We introduce \\textbf{TimePNS}, a necessity-aware framework for time-series explanation. Inspired by Pearl's counterfactual notion of necessity, TimePNS assesses whether a temporal factor is necessary by intervening on it and measuring whether the original prediction is disrupted. The framework adopts a two-stage design. Stage I learns an identifiable causal generative process together with a sufficiency-oriented explanation mask. Stage II performs counterfactual interventions on temporal factors to derive necessity signals, which supervise a temporal gate that refines the initial explanation by suppressing non-essential components and emphasizing counterfactually necessary ones. Experiments on synthetic and real-world time-series benchmarks show that TimePNS more accurately identifies decision-critical subsequences and consistently improves sufficiency-necessity trade-offs over strong baselines."
+    }
+  ]
+}
