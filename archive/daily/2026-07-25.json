@@ -1,0 +1,229 @@
+{
+  "date": "2026-07-25",
+  "generated_at": "2026-07-25T12:01:06.880146+00:00",
+  "source_counts": {
+    "rss_feeds": 2,
+    "arxiv": 0,
+    "hackernews": 20,
+    "nitter": 0,
+    "total_raw": 22,
+    "total_deduped": 22,
+    "total_saved": 22
+  },
+  "items": [
+    {
+      "title": "UK AISI / Caisi Preliminary Assessment of Kimi K3's Cyber Capabilities",
+      "url": "https://www.nist.gov/news-events/news/2026/07/uk-aisi-caisi-preliminary-assessment-kimi-k3s-cyber-capabilities",
+      "source": "Hacker News",
+      "published": "2026-07-25T04:20:21+00:00",
+      "summary_raw": "",
+      "points": 79,
+      "num_comments": 19,
+      "hn_url": "https://news.ycombinator.com/item?id=49044492"
+    },
+    {
+      "title": "Quoting Boris Cherny",
+      "url": "https://simonwillison.net/2026/Jul/25/boris-cherny/#atom-everything",
+      "source": "Simon Willison",
+      "published": "2026-07-25T00:42:59+00:00",
+      "summary_raw": "More than any of these eval scores, what is most exciting to me is something else: Opus 5 is our least prompt injectable model yet. It is a bit buried in the system card, but across PI evals and red teaming, Opus 5 is very hard to prompt inject successfully.\n&mdash; Boris Cherny, here's that System Card section, page 73\n\n    Tags: prompt-injection, anthropic, claude, generative-ai, ai, llms, boris-cherny"
+    },
+    {
+      "title": "OpenAI did not notice Hugging Face hack for a week",
+      "url": "https://www.reuters.com/business/its-ai-agent-spent-days-hacking-company-sources-say-openai-did-not-notice-week-2026-07-24/",
+      "source": "Hacker News",
+      "published": "2026-07-25T00:14:44+00:00",
+      "summary_raw": "",
+      "points": 25,
+      "num_comments": 5,
+      "hn_url": "https://news.ycombinator.com/item?id=49043192"
+    },
+    {
+      "title": "Introducing Claude Opus 5",
+      "url": "https://simonwillison.net/2026/Jul/24/introducing-claude-opus-5/#atom-everything",
+      "source": "Simon Willison",
+      "published": "2026-07-24T23:48:50+00:00",
+      "summary_raw": "Introducing Claude Opus 5\nI've been offline kayaking with sea otters for much of today so I haven't had a chance to put Anthropic's new model Claude Opus 5 through its paces yet. The buzz is positive, and Anthropic's description of it as a \"thoughtful and proactive model that comes close to the frontier intelligence of Claude Fable 5 at half the price\" sounds promising. It's currently leading the Artificial Analysis leaderboard, in front of even Fable 5.\nIt's priced the same as Opus 4.8, and continues to offer a \"fast mode\" at twice the cost of the base model.\nBased on this anecdote in the release post it sounds like it might be relentlessly proactive:\n\nOn one Frontier-Bench task, Opus 5 was given a drawing of a machine part and asked to write code to rebuild it as a 3D FreeCAD model. However, in this task, the model was intentionally given no way to directly viewthe drawing. Opus 5 responded by writing its own computer vision pipeline to pull the geometry from the raw pixels, then reconstructed the full machine part.\n\nIt's better at finding vulnerabilities but has deliberately not been trained on how to exploit them. Hopefully this means the US government won't shut it down!\n\nAs with its predecessor, Opus 4.8, we\u2019ve intentionally avoided training Opus 5 on cyber tasks. The model has nevertheless improved substantially on these tasks as a result of becoming more generally capable, and it comes close to Mythos 5 at finding cybersecurity vulnerabilities. However, it remains substantially behind Mythos 5 on the exploitation of those vulnerabilities\u2014that is, in turning vulnerabilities into material cyber threats.\n\nAnthropic have published a prompting guide for Claude Opus 5. Thariq Shihipar has also written The new rules of context engineering for Claude 5 generation models.\nThe first pelican I got was missing the bicycle wheels; the second attempt was better.\n\n\n    Tags: ai, generative-ai, llms, anthropic, claude, llm-release"
+    },
+    {
+      "title": "Open Weights and American AI Leadership",
+      "url": "https://www.microsoft.com/en-us/corporate-responsibility/topics/open-weight/",
+      "source": "Hacker News",
+      "published": "2026-07-24T23:29:30+00:00",
+      "summary_raw": "",
+      "points": 11,
+      "num_comments": 5,
+      "hn_url": "https://news.ycombinator.com/item?id=49042884"
+    },
+    {
+      "title": "Show HN: How well do you use Claude Code?",
+      "url": "https://news.ycombinator.com/item?id=49042653",
+      "source": "Hacker News",
+      "published": "2026-07-24T23:00:38+00:00",
+      "summary_raw": "A bunch of companies that I spoke to had their own claude &amp; codex OTel dashboards that showed spend + seats per month.<p>However, none of the dashboards actually analyzed how the engineers worked with the tools and if there were any areas for improvement! That&#x27;s why I created <a href=\"https:&#x2F;&#x2F;www.promptster.ai\" rel=\"nofollow\">https:&#x2F;&#x2F;www.promptster.ai</a>.<p>Managers get aggregate level view of code quality and how that ties with team workflows (nothing on a per-engineer level). While engineers get personalized coaching on how they can save tokens while keeping output high.<p>We also have a tool built for individuals to test their local claude code setups. It&#x27;s open-source and completely local. You can check that out here: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;pa-arth&#x2F;cc-audit\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;pa-arth&#x2F;cc-audit</a>.<p>Would love feedback on either and reach out if you&#x27;re interested in purchasing the teams product!",
+      "points": 15,
+      "num_comments": 10,
+      "hn_url": "https://news.ycombinator.com/item?id=49042653"
+    },
+    {
+      "title": "AIs don't do what you want. This is bad",
+      "url": "https://rewardhacking.org",
+      "source": "Hacker News",
+      "published": "2026-07-24T22:24:08+00:00",
+      "summary_raw": "",
+      "points": 76,
+      "num_comments": 70,
+      "hn_url": "https://news.ycombinator.com/item?id=49042354"
+    },
+    {
+      "title": "AI companies stripping universities of their best computer scientists",
+      "url": "https://www.theatlantic.com/technology/2026/07/ai-companies-hiring-academics/688002/",
+      "source": "Hacker News",
+      "published": "2026-07-24T22:13:20+00:00",
+      "summary_raw": "",
+      "points": 10,
+      "num_comments": 3,
+      "hn_url": "https://news.ycombinator.com/item?id=49042252"
+    },
+    {
+      "title": "AMD and Cerebras Launch AI Inference Solution",
+      "url": "https://www.cerebras.ai/press-release/amd-and-cerebras-announce-industry-leading-ultra-low-latency-and-high-throughput-ai-inference",
+      "source": "Hacker News",
+      "published": "2026-07-24T20:44:05+00:00",
+      "summary_raw": "",
+      "points": 22,
+      "num_comments": 5,
+      "hn_url": "https://news.ycombinator.com/item?id=49041347"
+    },
+    {
+      "title": "Dead Internet Theory was right: AI agents are eating Web, growing nearly 8k%",
+      "url": "https://fortune.com/2026/07/23/dead-internet-theory-bots-agents-majority-web-traffic/",
+      "source": "Hacker News",
+      "published": "2026-07-24T20:37:49+00:00",
+      "summary_raw": "",
+      "points": 13,
+      "num_comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=49041281"
+    },
+    {
+      "title": "Opus 5 is currently #1 on Artificial Analysis Intelligence Leaderboard",
+      "url": "https://artificialanalysis.ai/models",
+      "source": "Hacker News",
+      "published": "2026-07-24T19:45:10+00:00",
+      "summary_raw": "",
+      "points": 311,
+      "num_comments": 177,
+      "hn_url": "https://news.ycombinator.com/item?id=49040741"
+    },
+    {
+      "title": "SpaceX at $100 Would Imply Zero AI Value, Morgan Stanley Says",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-24/spacex-at-100-would-imply-zero-ai-value-says-morgan-stanley",
+      "source": "Hacker News",
+      "published": "2026-07-24T18:34:16+00:00",
+      "summary_raw": "",
+      "points": 31,
+      "num_comments": 27,
+      "hn_url": "https://news.ycombinator.com/item?id=49039831"
+    },
+    {
+      "title": "Why Most Evals Are Bad",
+      "url": "https://www.boolean.ai/blog/why-most-evals-are-bad",
+      "source": "Hacker News",
+      "published": "2026-07-24T17:03:55+00:00",
+      "summary_raw": "",
+      "points": 10,
+      "num_comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=49038540"
+    },
+    {
+      "title": "Turn And Face The Strange: Fly.io is betting on computers for AI agents",
+      "url": "https://fly.io/blog/kurt-scott-money-sprites/",
+      "source": "Hacker News",
+      "published": "2026-07-24T15:50:52+00:00",
+      "summary_raw": "",
+      "points": 19,
+      "num_comments": 2,
+      "hn_url": "https://news.ycombinator.com/item?id=49037452"
+    },
+    {
+      "title": "Jensen Huang on X: Open Weights and American AI Leadership",
+      "url": "https://twitter.com/JensenHuang/status/2080643682408321103",
+      "source": "Hacker News",
+      "published": "2026-07-24T15:41:41+00:00",
+      "summary_raw": "",
+      "points": 12,
+      "num_comments": 1,
+      "hn_url": "https://news.ycombinator.com/item?id=49037311"
+    },
+    {
+      "title": "You need to let the AI cook",
+      "url": "https://www.ivan.codes/blog/let-it-cook",
+      "source": "Hacker News",
+      "published": "2026-07-24T15:30:18+00:00",
+      "summary_raw": "",
+      "points": 24,
+      "num_comments": 5,
+      "hn_url": "https://news.ycombinator.com/item?id=49037127"
+    },
+    {
+      "title": "Show HN: GeoImageTagger \u2013 AI image geotagging and metadata editor",
+      "url": "https://geoimagetagger.com",
+      "source": "Hacker News",
+      "published": "2026-07-24T14:35:59+00:00",
+      "summary_raw": "",
+      "points": 10,
+      "num_comments": 4,
+      "hn_url": "https://news.ycombinator.com/item?id=49036339"
+    },
+    {
+      "title": "Open Weights and American AI Leadership [pdf]",
+      "url": "https://images.nvidia.com/pdf/Open-Weights-and-American-AI-Leadership.pdf",
+      "source": "Hacker News",
+      "published": "2026-07-24T13:58:12+00:00",
+      "summary_raw": "",
+      "points": 111,
+      "num_comments": 2,
+      "hn_url": "https://news.ycombinator.com/item?id=49035751"
+    },
+    {
+      "title": "Oracle fires 21,000 employees to fund AI spending",
+      "url": "https://www.jpost.com/business-and-innovation/tech-and-start-ups/article-903442",
+      "source": "Hacker News",
+      "published": "2026-07-24T13:33:12+00:00",
+      "summary_raw": "",
+      "points": 74,
+      "num_comments": 13,
+      "hn_url": "https://news.ycombinator.com/item?id=49035314"
+    },
+    {
+      "title": "Nvidia, Microsoft, Meta warn against overregulating open-weight models",
+      "url": "https://www.cnbc.com/2026/07/24/nvidia-microsoft-meta-open-weight-ai-models.html",
+      "source": "Hacker News",
+      "published": "2026-07-24T13:32:30+00:00",
+      "summary_raw": "Letter: <a href=\"https:&#x2F;&#x2F;images.nvidia.com&#x2F;pdf&#x2F;Open-Weights-and-American-AI-Leadership.pdf\" rel=\"nofollow\">https:&#x2F;&#x2F;images.nvidia.com&#x2F;pdf&#x2F;Open-Weights-and-American-AI-L...</a> [pdf]<p><a href=\"https:&#x2F;&#x2F;x.com&#x2F;JensenHuang&#x2F;status&#x2F;2080643682408321103\" rel=\"nofollow\">https:&#x2F;&#x2F;x.com&#x2F;JensenHuang&#x2F;status&#x2F;2080643682408321103</a>, <a href=\"https:&#x2F;&#x2F;xcancel.com&#x2F;JensenHuang&#x2F;status&#x2F;2080643682408321103\" rel=\"nofollow\">https:&#x2F;&#x2F;xcancel.com&#x2F;JensenHuang&#x2F;status&#x2F;2080643682408321103</a><p><a href=\"https:&#x2F;&#x2F;www.wired.com&#x2F;story&#x2F;silicon-valley-is-completely-divided-over-chinese-ai&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.wired.com&#x2F;story&#x2F;silicon-valley-is-completely-div...</a>, <a href=\"https:&#x2F;&#x2F;archive.ph&#x2F;LAkVI\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.ph&#x2F;LAkVI</a>",
+      "points": 619,
+      "num_comments": 279,
+      "hn_url": "https://news.ycombinator.com/item?id=49035303"
+    },
+    {
+      "title": "Why hasn't AI increased unemployment?",
+      "url": "https://twitter.com/PeterMcCrory/status/2079979321607745905",
+      "source": "Hacker News",
+      "published": "2026-07-24T12:52:27+00:00",
+      "summary_raw": "",
+      "points": 14,
+      "num_comments": 15,
+      "hn_url": "https://news.ycombinator.com/item?id=49034854"
+    },
+    {
+      "title": "Show HN: X402vps \u2013 Docker containers for AI agents, paid per hour with USDC",
+      "url": "https://x402vps.com",
+      "source": "Hacker News",
+      "published": "2026-07-24T12:15:44+00:00",
+      "summary_raw": "",
+      "points": 13,
+      "num_comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=49034474"
+    }
+  ]
+}
