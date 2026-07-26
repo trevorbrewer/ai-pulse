@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Pulse — Sunday, July 26, 2026</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>AI Pulse</h1>
+      <nav><a href="../index.html">← All digests</a></nav>
+    </header>
+
+    <main>
+      <h1 class="page-title">Sunday, July 26, 2026</h1>
+
+      
+        
+        <section class="theme-section">
+          <h2>AI & Society: Jobs, Consulting, and Decision-Making</h2>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://siepr.stanford.edu/publications/policy-brief/what-really-happening-jobs-separating-ai-hype-reality">What is happening to jobs? Separating AI hype from reality</a><span class="source">Hacker News</span>
+            </p>
+            <p>A Stanford Institute for Economic Policy Research policy brief examines the actual labor market effects of AI adoption, attempting to separate documented trends from speculation. The brief draws on employment data to assess which sectors and roles are experiencing measurable displacement versus those where AI is augmenting rather than replacing workers. Its publication is notable because it comes from an academic policy body rather than an industry source, lending methodological credibility to claims that remain contested in public debate.</p>
+          </div>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://www.markwilson.co.uk/thoughts/2026/07/16/ai-isnt-killing-consulting-its-killing-time-as-a-proxy-for-value/">AI isn't killing consulting. It's killing time as a proxy for value</a><span class="source">Hacker News</span>
+            </p>
+            <p>A commentary by Mark Wilson argues that AI's principal disruption to the consulting industry is not eliminating the profession but undermining the billable-hour model, in which time spent historically served as a stand-in for value delivered. As AI tools compress the time required to produce research, analysis, and documents, the link between hours logged and fees charged becomes harder to justify. The piece positions this as a structural pricing problem rather than an existential threat, suggesting firms will need to shift to outcome-based billing.</p>
+          </div>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://daringfireball.net/linked/2026/07/25/ai-mania-nikhil-suresh">'AI Mania Is Eviscerating Global Decision-Making'</a><span class="source">Hacker News</span>
+            </p>
+            <p>Daring Fireball linked to a piece by Nikhil Suresh arguing that widespread AI adoption is degrading institutional decision-making by introducing a layer of machine-generated outputs into processes that previously required human judgment and accountability. The critique focuses on organizations delegating consequential choices to AI systems without adequate oversight frameworks, producing decisions that are harder to audit or contest. The argument extends beyond technical failure modes to the organizational incentives that make uncritical AI adoption attractive to managers.</p>
+          </div>
+          
+        </section>
+        
+        <section class="theme-section">
+          <h2>AI Surveillance and Ethics</h2>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://www.schneier.com/blog/archives/2026/07/mit-to-become-hotbed-of-ai-video-surveillance.html">MIT to become hotbed of AI video surveillance</a><span class="source">Hacker News</span>
+            </p>
+            <p>Security researcher Bruce Schneier reports that MIT is deploying an extensive AI-powered video surveillance system across its campus, raising concerns about the normalization of algorithmic monitoring in academic environments. Schneier notes that institutions like MIT carry symbolic weight: when a leading technical university adopts such infrastructure, it can lend legitimacy to similar deployments elsewhere. The post flags the absence of detailed public disclosure about what the system records, retains, and analyzes as a central concern.</p>
+          </div>
+          
+        </section>
+        
+        <section class="theme-section">
+          <h2>AI Coding and Benchmarks</h2>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://danluu.com/ai-coding/">Agentic test processes, LLM benchmarks, and other notes on agentic coding</a><span class="source">Hacker News</span>
+            </p>
+            <p>Dan Luu published a detailed analysis of agentic coding workflows, focusing on how current LLM benchmarks fail to capture the real-world complexity of multi-step software development tasks. He examines the gap between performance on standard coding benchmarks and actual utility in production agentic pipelines, where models must maintain context, handle errors, and interact with external tools across many steps. The piece includes concrete observations from hands-on testing and argues that benchmark scores can be misleading when selecting models for agentic use cases.</p>
+          </div>
+          
+        </section>
+        
+        <section class="theme-section">
+          <h2>Infrastructure and Developer Tools</h2>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://blog.cloudflare.com/content-independence-day-ai-options/">Cloudflare's new AI traffic options for customers</a><span class="source">Hacker News</span>
+            </p>
+            <p>Cloudflare announced a set of new controls allowing website operators to manage how AI crawlers and agents interact with their content, framing the release around what it calls "content independence." The options let customers selectively block or allow traffic from specific AI services, going beyond the blunt instrument of a blanket robots.txt disallow. The announcement is notable as it formalizes Cloudflare's role as an intermediary in the ongoing tension between content publishers and AI companies that train on or serve web content.</p>
+          </div>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://www.theregister.com/ai-and-ml/2026/07/24/amd-vibe-codes-its-way-past-the-cuda-moat-with-rocmai/5278580">AMD publishes machine-readable ISA so frontier models can write its GPU kernels</a><span class="source">Hacker News</span>
+            </p>
+            <p>AMD has published a machine-readable version of its GPU instruction set architecture (ISA) as part of a project called ROCm AI, with the explicit goal of enabling large language models to generate optimized GPU kernels for AMD hardware. The move is a direct response to NVIDIA's entrenched CUDA ecosystem, which benefits from years of training data and developer familiarity that AI coding tools have absorbed. By providing structured, machine-readable ISA documentation, AMD aims to make it easier for LLMs to produce correct and performant AMD-specific code without relying on the sparse ROCm examples currently available in public datasets.</p>
+          </div>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://simonwillison.net/2026/Jul/25/ruff/#atom-everything">Ruff v0.16.0</a><span class="source">Simon Willison</span>
+            </p>
+            <p>Astral released Ruff v0.16.0 on July 23rd, sharply expanding the Python linter's default rule set from 59 rules to 413. Simon Willison noted the release after his CI pipelines began failing due to an unpinned Ruff dependency picking up the new defaults, a common hazard for projects that do not pin tool versions. The expansion makes Ruff's out-of-the-box behavior substantially stricter, which will affect teams upgrading without reviewing the changelog.</p>
+          </div>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://news.ycombinator.com/item?id=49051130">Show HN: Writemark, a dependency free web component for inline Markdown editing</a><span class="source">Hacker News</span>
+            </p>
+            <p>A developer shared Writemark, a self-contained web component that renders Markdown inline as users type while preserving raw Markdown as the underlying value submitted in forms. The component requires no external dependencies and is embedded with a single custom HTML element tag. It supports source, split, and preview editing modes, addressing a common complaint that plain textareas make Markdown authoring visually cumbersome without requiring a full editor library.</p>
+          </div>
+          
+        </section>
+        
+        <section class="theme-section">
+          <h2>Fun and Creative Projects</h2>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://claude.ai/public/artifacts/725f961b-09dc-4a66-8dac-8fefeeb69a1f">Show HN: Minesweeper Raycasted</a><span class="source">Hacker News</span>
+            </p>
+            <p>A developer posted a raycasting-based 3D rendering of the classic Minesweeper game, hosted as a Claude artifact, demonstrating the use of raycasting techniques — the same family of methods used in early first-person games like Doom — applied to a traditionally top-down puzzle game. The project is a creative technical exercise rather than a practical tool, notable primarily as an example of the kind of small interactive experiments that AI-assisted coding environments have made easier to prototype and share. It was submitted under Hacker News's "Show HN" category for community projects.</p>
+          </div>
+          
+        </section>
+        
+        <section class="theme-section">
+          <h2>Politics and International Affairs</h2>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://www.washingtonpost.com/world/2026/07/24/us-sending-envoys-question-brazilian-electoral-system-officials-say/">Brazil denies visas to U.S. officials who aimed to impugn electoral system</a><span class="source">Hacker News</span>
+            </p>
+            <p>Brazil's government denied entry visas to a group of U.S. officials who were reported to be traveling to question the integrity of Brazil's electoral system, according to the Washington Post. The move signals a deterioration in diplomatic relations between the two countries over election-related disputes. Brazilian officials characterized the planned visit as an attempt to interfere in domestic affairs, while U.S. officials had not publicly detailed the mission's objectives.</p>
+          </div>
+          
+        </section>
+        
+        <section class="theme-section">
+          <h2>Human Interest</h2>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://www.seattletimes.com/seattle-news/how-recreational-boaters-saved-the-day-after-kenmore-air-plane-crash/">Kenmore Air crash: How civilians 'saved the day'</a><span class="source">Hacker News</span>
+            </p>
+            <p>The Seattle Times reported on how recreational boaters in the area played a central role in the rescue response following a Kenmore Air floatplane crash, reaching survivors before official emergency services arrived. The account details how the proximity of civilian watercraft and the quick actions of individuals on the water materially improved outcomes for those aboard. The incident drew attention to the practical value of bystander response in maritime emergencies where official rescue assets may take longer to mobilize.</p>
+          </div>
+          
+        </section>
+        
+        <section class="theme-section">
+          <h2>Hardware & Edge AI</h2>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://github.com/slvDev/esp32-ai">Running a 28.9M parameter LLM on an $8 microcontroller</a><span class="source">Hacker News</span>
+            </p>
+            <p>A developer has published code for running a 28.9 million parameter large language model on an ESP32 microcontroller that costs roughly $8. The project is notable because it demonstrates that inference can be performed on severely constrained hardware without a GPU or cloud connection. The ESP32 is a common hobbyist chip with limited RAM, making the achievement a useful reference point for embedded and IoT AI applications.</p>
+          </div>
+          
+        </section>
+        
+        <section class="theme-section">
+          <h2>AI Behavior & Alignment</h2>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://swiftrocks.com/a-system-prompt-to-get-ai-to-stop-pretending-to-be-human">A system prompt to get AI to stop pretending to be human</a><span class="source">Hacker News</span>
+            </p>
+            <p>A software developer published a detailed system prompt designed to prevent AI assistants from adopting human-like personas, deflecting questions about their nature, or implying lived human experience. The post addresses a persistent behavior in conversational AI models where the system hedges or avoids directly acknowledging it is not human, which can mislead users. The author provides specific prompt language intended to enforce consistent, honest self-identification across interactions.</p>
+          </div>
+          
+        </section>
+        
+        <section class="theme-section">
+          <h2>Industry News</h2>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://limitededitionjonathan.substack.com/p/apple-is-the-king-of-ai-and-nobody">Apple Is the King of AI and Nobody Knows It</a><span class="source">Hacker News</span>
+            </p>
+            <p>A Substack analysis argues that Apple's on-device AI strategy, built around its Neural Engine chips and privacy-first architecture, positions the company as a major AI player despite receiving less media attention than OpenAI or Google. The piece points to Apple's large installed base of devices capable of running local inference as a structural advantage over cloud-dependent competitors. The argument hinges on the claim that on-device processing will become the dominant deployment model as privacy concerns and latency requirements grow.</p>
+          </div>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://finance.yahoo.com/technology/ai/articles/stripe-talks-acquire-openrouter-potential-215104525.html">Stripe in talks to acquire OpenRouter in potential $10B deal, WSJ reports</a><span class="source">Hacker News</span>
+            </p>
+            <p>The Wall Street Journal reported that Stripe is in acquisition talks with OpenRouter, an AI model routing and API aggregation platform, in a deal that could value OpenRouter at approximately $10 billion. OpenRouter allows developers to access dozens of AI models through a single unified API, abstracting away provider-specific integrations. A Stripe acquisition would represent a significant push by the payments company into AI infrastructure, potentially combining model access with billing and monetization tooling.</p>
+          </div>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://tobi.knaup.me/2026-07-25-open-weight-ai-is-having-its-kubernetes-moment/">Open-weight AI is having its Kubernetes moment</a><span class="source">Hacker News</span>
+            </p>
+            <p>A blog post by Tobi Knaup draws a parallel between the current state of open-weight AI models and the early adoption curve of Kubernetes, arguing that open-weight models are transitioning from experimental tools to production infrastructure. The analogy centers on how Kubernetes moved from niche container orchestration to an industry standard once enterprise tooling, managed services, and operational patterns matured around it. The author suggests open-weight models like the LLaMA family are following a similar path as deployment frameworks, fine-tuning pipelines, and hosting services consolidate.</p>
+          </div>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://news.ycombinator.com/item?id=49047714">Who's making money from using/exploiting AI?</a><span class="source">Hacker News</span>
+            </p>
+            <p>A Hacker News discussion thread asks for concrete examples of businesses or individuals achieving measurable profit gains attributable directly to AI adoption, rather than incremental productivity improvements. The original poster notes that most cases they can identify involve marginal efficiency gains rather than transformational financial outcomes. The thread is notable as a practitioner-level survey of where AI is actually generating economic value versus where benefits remain diffuse or hard to isolate.</p>
+          </div>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://www.wsj.com/business/china-us-ai-model-costs-53a12e96">Corporate America Has Suddenly Decided to Stop Blowing Money on AI</a><span class="source">Hacker News</span>
+            </p>
+            <p>A Wall Street Journal report indicates that U.S. corporations are pulling back on AI spending after a period of aggressive investment, citing concerns about return on investment and rising model costs. The shift is notable because it comes amid competitive pressure from lower-cost Chinese AI models, which have prompted questions about whether expensive deployments can be justified. The article suggests that the gap between AI expenditure and measurable business outcomes is driving finance teams to scrutinize budgets more closely. This represents a potential inflection point for enterprise AI adoption, where enthusiasm is being tempered by financial discipline.</p>
+          </div>
+          
+        </section>
+        
+        <section class="theme-section">
+          <h2>AI Misuse & Legal Issues</h2>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://www.youtube.com/watch?v=wlYa8NV5k-U">Politician reads AI prompt during assembly</a><span class="source">Hacker News</span>
+            </p>
+            <p>A video circulated showing a politician inadvertently reading an AI-generated prompt instruction aloud during a legislative assembly session, apparently mistaking the meta-instruction text for the speech content itself. The incident highlights risks associated with copying AI-generated text directly into official contexts without careful review. It joins a growing number of documented cases where AI-drafted material has been used in formal settings without adequate human oversight.</p>
+          </div>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://english.elpais.com/technology/2026-07-25/how-people-are-deceiving-the-justice-system-with-ai-its-an-invisible-fraud.html">People are deceiving the justice system with AI</a><span class="source">Hacker News</span>
+            </p>
+            <p>A report in El País documents cases where individuals are using AI tools to fabricate or alter evidence, generate false legal documents, or produce misleading testimony in court proceedings. The article describes the phenomenon as "invisible fraud" because AI-generated content can be difficult to distinguish from authentic materials without specialized forensic tools. Legal experts quoted in the piece note that courts in multiple jurisdictions lack standardized protocols for detecting or responding to AI-assisted deception.</p>
+          </div>
+          
+        </section>
+        
+        <section class="theme-section">
+          <h2>AI Economic Impact</h2>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://www.theguardian.com/technology/2026/jul/25/ai-jobs-apocalypse-human-labor">The AI jobs apocalypse probably isn't coming anytime soon</a><span class="source">Hacker News</span>
+            </p>
+            <p>A Guardian article reviews recent labor market data and economist assessments to argue that large-scale AI-driven job displacement is not materializing at the pace frequently predicted. The piece cites the persistence of human labor demand in sectors where automation was expected to take hold quickly, including customer service and data entry. Researchers quoted in the article point to factors such as implementation costs, regulatory friction, and the complexity of real-world tasks as reasons automation is proceeding more slowly than anticipated.</p>
+          </div>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://www.hardresetmedia.com/p/the-ai-productivity-illusion">The AI Productivity Illusion</a><span class="source">Hacker News</span>
+            </p>
+            <p>An essay from Hard Reset Media challenges the widely cited narrative that AI tools are delivering substantial productivity gains across the workforce, arguing that much of the apparent improvement is difficult to measure rigorously or may reflect selection bias in who adopts the tools. The piece examines how productivity statistics are collected and notes that GDP and output measures may not yet capture AI's effects, for better or worse. The author calls for more controlled studies rather than reliance on self-reported efficiency gains from AI users.</p>
+          </div>
+          
+        </section>
+        
+        <section class="theme-section">
+          <h2>Developer Tools & Applications</h2>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://brolly.sh/forecast/RWFP2qW8">Show HN: Brolly, a plain-text weather forecast site</a><span class="source">Hacker News</span>
+            </p>
+            <p>A developer released Brolly, a minimalist weather forecasting site built in response to a recent UK Met Office redesign that added whitespace, animations, and additional scrolling to its interface. Brolly presents forecast data in plain text with no animations, prioritizing quick at-a-glance readability over visual design. The project is a straightforward example of a developer-built tool filling a usability gap left by a major official service's design change.</p>
+          </div>
+          
+        </section>
+        
+        <section class="theme-section">
+          <h2>Energy & Environment</h2>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://energiesmedia.com/wind-turbine-stopped-electricity-wind-water-air/">Wind turbine is being used to produce zero-carbon "green ammonia" fertilizer</a><span class="source">Hacker News</span>
+            </p>
+            <p>A project described in Energies Media is using a wind turbine to power the production of ammonia fertilizer through electrolysis and the Haber-Bosch process, using only wind, water, and air as inputs. Unlike conventional ammonia production, which relies heavily on natural gas and accounts for roughly 1-2% of global CO2 emissions, this approach produces no direct carbon emissions. The project is notable as a demonstration that wind energy can be converted into a storable, high-value chemical product rather than exported to the grid.</p>
+          </div>
+          
+        </section>
+        
+      
+    </main>
+
+    <footer>Generated 2026-07-26 12:02 UTC</footer>
+  </div>
+</body>
+</html>

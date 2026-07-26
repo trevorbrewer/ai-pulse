@@ -1,0 +1,262 @@
+{
+  "date": "2026-07-26",
+  "generated_at": "2026-07-26T12:00:13.062693+00:00",
+  "source_counts": {
+    "rss_feeds": 1,
+    "arxiv": 0,
+    "hackernews": 24,
+    "nitter": 0,
+    "total_raw": 25,
+    "total_deduped": 25,
+    "total_saved": 25
+  },
+  "items": [
+    {
+      "title": "MIT to become hotbed of AI video surveillance",
+      "url": "https://www.schneier.com/blog/archives/2026/07/mit-to-become-hotbed-of-ai-video-surveillance.html",
+      "source": "Hacker News",
+      "published": "2026-07-26T04:07:54+00:00",
+      "summary_raw": "",
+      "points": 19,
+      "num_comments": 2,
+      "hn_url": "https://news.ycombinator.com/item?id=49054638"
+    },
+    {
+      "title": "Agentic test processes, LLM benchmarks, and other notes on agentic coding",
+      "url": "https://danluu.com/ai-coding/",
+      "source": "Hacker News",
+      "published": "2026-07-26T03:02:17+00:00",
+      "summary_raw": "",
+      "points": 15,
+      "num_comments": 1,
+      "hn_url": "https://news.ycombinator.com/item?id=49054268"
+    },
+    {
+      "title": "Brazil denies visas to U.S. officials who aimed to impugn electoral system",
+      "url": "https://www.washingtonpost.com/world/2026/07/24/us-sending-envoys-question-brazilian-electoral-system-officials-say/",
+      "source": "Hacker News",
+      "published": "2026-07-25T23:41:38+00:00",
+      "summary_raw": "",
+      "points": 13,
+      "num_comments": 6,
+      "hn_url": "https://news.ycombinator.com/item?id=49052981"
+    },
+    {
+      "title": "What is happening to jobs? Separating AI hype from reality",
+      "url": "https://siepr.stanford.edu/publications/policy-brief/what-really-happening-jobs-separating-ai-hype-reality",
+      "source": "Hacker News",
+      "published": "2026-07-25T22:51:10+00:00",
+      "summary_raw": "",
+      "points": 114,
+      "num_comments": 143,
+      "hn_url": "https://news.ycombinator.com/item?id=49052570"
+    },
+    {
+      "title": "Cloudflare's new AI traffic options for customers",
+      "url": "https://blog.cloudflare.com/content-independence-day-ai-options/",
+      "source": "Hacker News",
+      "published": "2026-07-25T22:50:49+00:00",
+      "summary_raw": "",
+      "points": 133,
+      "num_comments": 112,
+      "hn_url": "https://news.ycombinator.com/item?id=49052564"
+    },
+    {
+      "title": "Ruff v0.16.0",
+      "url": "https://simonwillison.net/2026/Jul/25/ruff/#atom-everything",
+      "source": "Simon Willison",
+      "published": "2026-07-25T22:44:05+00:00",
+      "summary_raw": "Ruff v0.16.0\nAstral shipped a significant new version of their Ruff Python linting tool a few days ago on July 23rd. I noticed today because my various CI jobs all started failing thanks to new default Ruff checks and my unpinned \"ruff\" dev dependency.\nFrom Brent Westbrook's announcement post:\n\nRuff now enables 413 rules by default, up from 59 in previous versions.\nSince Ruff's default rule set was last modified in\u00a0v0.1.0, the number of rules in Ruff has grown from 708 to 968. Many of these rules catch severe issues, including\u00a0syntax errors\u00a0and immediate runtime errors\u00a0but were not previously enabled by default. With the new rule set, Ruff will bring these issues and many others to your attention without any Ruff configuration.\n\nHere's a one-liner for trying it on any Python project:\nuvx ruff@latest check .\n\nI ran the latest Ruff against my three biggest projects - Datasette, sqlite-utils, and LLM - and it found hundreds of minor issues that breached the new default rules.\nAll three projects have very comprehensive test suites, executed in CI against Python 3.10 through Python 3.14, so upgrades like this are pretty safe. The following command did the bulk of the upgrades:\nuvx ruff@latest check . --fix --unsafe-fixes\n\nAgainst sqlite-utils, that command reported:\nFound 1618 errors (1538 fixed, 80 remaining).\n\nAs an illustrative example, here are three of the remaining issues. Ruff does a nice job of explaining each one:\nDTZ005 `datetime.datetime.now()` called without a `tz` argument\n  --&gt; tests/test_duplicate.py:17:10\n   |\n15 |     \"datetime_col\" TEXT)\"\"\")\n16 |     # Insert one row of mock data:\n17 |     dt = datetime.datetime.now()\n   |          ^^^^^^^^^^^^^^^^^^^^^^^\n18 |     data = {\n19 |         \"text_col\": \"Cleo\",\n   |\nhelp: Pass a `datetime.timezone` object to the `tz` parameter\n\nBLE001 Do not catch blind exception: `Exception`\n  --&gt; tests/test_plugins.py:16:12\n   |\n14 |         db.execute(\"select * from pragma_function_list()\")\n15 |         return True\n16 |     except Exception:\n   |            ^^^^^^^^^\n17 |         return False\n18 |     finally:\n   |\n\nB018 Found useless attribute access. Either assign it to a variable or remove it.\n  --&gt; tests/test_update.py:46:5\n   |\n44 | def test_update_invalid_pk(fresh_db, pk, update_pk):\n45 |     table = fresh_db[\"table\"]\n46 |     table.insert({\"id1\": 5, \"id2\": 3, \"v\": 1}, pk=pk).last_pk\n   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n47 |     with pytest.raises(NotFoundError):\n48 |         table.update(update_pk, {\"v\": 2})\n   |\n\nUnsurprisingly, given Astral's new home at OpenAI, this output provides everything a coding agent would need to fix the problems.\nI had Codex (GPT-5.6 Sol high) upgrade LLM and sqlite-utils, and Claude Code (with Opus 5) upgrade Datasette.\n\n\n    Tags: python, ruff, astral"
+    },
+    {
+      "title": "Kenmore Air crash: How civilians 'saved the day'",
+      "url": "https://www.seattletimes.com/seattle-news/how-recreational-boaters-saved-the-day-after-kenmore-air-plane-crash/",
+      "source": "Hacker News",
+      "published": "2026-07-25T22:40:11+00:00",
+      "summary_raw": "",
+      "points": 11,
+      "num_comments": 1,
+      "hn_url": "https://news.ycombinator.com/item?id=49052463"
+    },
+    {
+      "title": "AI isn't killing consulting. It's killing time as a proxy for value",
+      "url": "https://www.markwilson.co.uk/thoughts/2026/07/16/ai-isnt-killing-consulting-its-killing-time-as-a-proxy-for-value/",
+      "source": "Hacker News",
+      "published": "2026-07-25T22:04:00+00:00",
+      "summary_raw": "",
+      "points": 13,
+      "num_comments": 3,
+      "hn_url": "https://news.ycombinator.com/item?id=49052081"
+    },
+    {
+      "title": "AMD publishes machine-readable ISA so frontier models can write its GPU kernels",
+      "url": "https://www.theregister.com/ai-and-ml/2026/07/24/amd-vibe-codes-its-way-past-the-cuda-moat-with-rocmai/5278580",
+      "source": "Hacker News",
+      "published": "2026-07-25T21:21:26+00:00",
+      "summary_raw": "",
+      "points": 19,
+      "num_comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=49051720"
+    },
+    {
+      "title": "'AI Mania Is Eviscerating Global Decision-Making'",
+      "url": "https://daringfireball.net/linked/2026/07/25/ai-mania-nikhil-suresh",
+      "source": "Hacker News",
+      "published": "2026-07-25T21:18:06+00:00",
+      "summary_raw": "",
+      "points": 58,
+      "num_comments": 19,
+      "hn_url": "https://news.ycombinator.com/item?id=49051692"
+    },
+    {
+      "title": "Show HN: Writemark, a dependency free web component for inline Markdown editing",
+      "url": "https://news.ycombinator.com/item?id=49051130",
+      "source": "Hacker News",
+      "published": "2026-07-25T20:18:54+00:00",
+      "summary_raw": "I like writing Markdown, but do not like writing it inside a plain textarea.<p>I wanted something I could use anywhere by dropping in a single web component:<p>```<p>&lt;writemark-editor name=&quot;body&quot;&gt;&lt;&#x2F;writemark-editor&gt;<p>```<p>That became Writemark.<p>It renders Markdown while you write, but Markdown remains the value you read, store, and submit. It also has source, split, and preview modes, along with slash commands, tables, task lists, code blocks, native form support, and an API for adding your own controls. There are no runtime dependencies and no required framework or built in toolbar.<p>It is fully vibecoded. The process was very iterative. I knocked something out, tried using it, found bugs, fixed them, and repeated that cycle until I had something I liked writing in and that performed reasonably well.<p>It did not begin as an experiment about AI generated software -- just did not want to use textareas anymore. I like Markdown, and I wanted one component that I could use anywhere without bringing along an entire editor framework.<p>It is still very young. The parser is handwritten, the component is essentially one large JavaScript file, and I am certain there are edge cases waiting to be found. If you find one, I am happy to fix it.<p>I have tried to give it a decent safety net. It currently has 951 Playwright checks across Chromium, Firefox, and WebKit, along with hostile input cases, sanitizer fuzzing, and differential tests against CommonMark.<p>I built this because I wanted it for myself, but I think it turned into something kind of cool. I hope some of you enjoy it. I would love hearing what you think, especially if you try it and manage to break something.<p>- Github: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;Brostoffed&#x2F;writemark\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;Brostoffed&#x2F;writemark</a><p>- NPM: <a href=\"https:&#x2F;&#x2F;www.npmjs.com&#x2F;package&#x2F;writemark-editor\" rel=\"nofollow\">https:&#x2F;&#x2F;www.npmjs.com&#x2F;package&#x2F;writemark-editor</a>",
+      "points": 43,
+      "num_comments": 16,
+      "hn_url": "https://news.ycombinator.com/item?id=49051130"
+    },
+    {
+      "title": "Show HN: Minesweeper Raycasted",
+      "url": "https://claude.ai/public/artifacts/725f961b-09dc-4a66-8dac-8fefeeb69a1f",
+      "source": "Hacker News",
+      "published": "2026-07-25T19:39:12+00:00",
+      "summary_raw": "",
+      "points": 17,
+      "num_comments": 12,
+      "hn_url": "https://news.ycombinator.com/item?id=49050803"
+    },
+    {
+      "title": "Running a 28.9M parameter LLM on an $8 microcontroller",
+      "url": "https://github.com/slvDev/esp32-ai",
+      "source": "Hacker News",
+      "published": "2026-07-25T18:59:50+00:00",
+      "summary_raw": "",
+      "points": 208,
+      "num_comments": 50,
+      "hn_url": "https://news.ycombinator.com/item?id=49050512"
+    },
+    {
+      "title": "Show HN: Brolly, a plain-text weather forecast site",
+      "url": "https://brolly.sh/forecast/RWFP2qW8",
+      "source": "Hacker News",
+      "published": "2026-07-25T17:34:34+00:00",
+      "summary_raw": "The UK MET office recently redesigned their site, adding a lot of additional whitespace, scrolling, and animations. This significantly reduced its usability for me, and left me wanting an \u2018at a glance\u2019 weather site.<p>I made <a href=\"https:&#x2F;&#x2F;brolly.sh\" rel=\"nofollow\">https:&#x2F;&#x2F;brolly.sh</a>, a minimalist, plain text weather forecasting site. You can use it to view weather from around the world, with: 7 day forecast; Previous day log (so you can confirm it definitely was cooler &#x2F; hotter &#x2F; wetter &#x2F; drier yesterday!); Hourly rain, wind, temperature, conditions; Hourly UV, air quality and pollen, including pollen type specific forecasts within the EU &#x2F; UK; Location search and last 5 locations; Location specific units.<p>I mostly made the site for myself, if anyone else also benefits from it that\u2019s an added advantage.<p>You can check out the weather in York, UK at <a href=\"https:&#x2F;&#x2F;brolly.sh&#x2F;forecast&#x2F;RWFP2qW8\" rel=\"nofollow\">https:&#x2F;&#x2F;brolly.sh&#x2F;forecast&#x2F;RWFP2qW8</a>, or search for a location at <a href=\"https:&#x2F;&#x2F;brolly.sh\" rel=\"nofollow\">https:&#x2F;&#x2F;brolly.sh</a><p>The site is deliberately styled as a single long scrollable column, to work on mobile phones. You can view it on desktop too, there&#x27;s just a lot of horizontal padding. I naturally took a lot of inspiration from plaintextsports.com. Despite not being a sports fan, I love its aesthetic. But, you&#x27;ll hopefully see that this site isn&#x27;t a rip off, and has its own deliberate look and feel.<p>Visualisations are really important to showing information at a glance. I spent a lot of time designing the different visualisations and making them work with only characters. My favourite is the hourly heat map used for pollen count.<p>It&#x27;s also frustrating to have an interactive site, where you can&#x27;t share a page with a friend and have them see what you&#x27;re seeing. To solve this, all page state (i.e. location, selected day, expanded &#x2F; collapsed sections), is stored in the URL. You can share or bookmark the specific view, and know that you&#x27;ll always be able to come back to it.<p>The site uses PocketBase. It\u2019s written in Go and plain HTML&#x2F;JavaScript&#x2F;CSS. All pages are backend rendered, with light JavaScript to handle re-loading content without page jumps when using interactive features like next &#x2F; previous day navigation. Weather forecasts are fetched from open-meteo.com, which has a very generous free tier. However, I also built a custom LRU cache on top of PocketBase\u2019s SQLite DB to cache forecasts for 5 minutes, and avoid putting unnecessary pressure on the open-meteo API.",
+      "points": 203,
+      "num_comments": 71,
+      "hn_url": "https://news.ycombinator.com/item?id=49049693"
+    },
+    {
+      "title": "A system prompt to get AI to stop pretending to be human",
+      "url": "https://swiftrocks.com/a-system-prompt-to-get-ai-to-stop-pretending-to-be-human",
+      "source": "Hacker News",
+      "published": "2026-07-25T17:01:05+00:00",
+      "summary_raw": "",
+      "points": 33,
+      "num_comments": 14,
+      "hn_url": "https://news.ycombinator.com/item?id=49049304"
+    },
+    {
+      "title": "Apple Is the King of AI and Nobody Knows It",
+      "url": "https://limitededitionjonathan.substack.com/p/apple-is-the-king-of-ai-and-nobody",
+      "source": "Hacker News",
+      "published": "2026-07-25T16:55:45+00:00",
+      "summary_raw": "",
+      "points": 22,
+      "num_comments": 33,
+      "hn_url": "https://news.ycombinator.com/item?id=49049241"
+    },
+    {
+      "title": "Politician reads AI prompt during assembly",
+      "url": "https://www.youtube.com/watch?v=wlYa8NV5k-U",
+      "source": "Hacker News",
+      "published": "2026-07-25T16:31:15+00:00",
+      "summary_raw": "",
+      "points": 67,
+      "num_comments": 44,
+      "hn_url": "https://news.ycombinator.com/item?id=49048996"
+    },
+    {
+      "title": "Wind turbine is being used to produce zero-carbon \"green ammonia\" fertilizer",
+      "url": "https://energiesmedia.com/wind-turbine-stopped-electricity-wind-water-air/",
+      "source": "Hacker News",
+      "published": "2026-07-25T16:09:58+00:00",
+      "summary_raw": "",
+      "points": 83,
+      "num_comments": 94,
+      "hn_url": "https://news.ycombinator.com/item?id=49048819"
+    },
+    {
+      "title": "People are deceiving the justice system with AI",
+      "url": "https://english.elpais.com/technology/2026-07-25/how-people-are-deceiving-the-justice-system-with-ai-its-an-invisible-fraud.html",
+      "source": "Hacker News",
+      "published": "2026-07-25T15:52:31+00:00",
+      "summary_raw": "",
+      "points": 12,
+      "num_comments": 2,
+      "hn_url": "https://news.ycombinator.com/item?id=49048655"
+    },
+    {
+      "title": "Open-weight AI is having its Kubernetes moment",
+      "url": "https://tobi.knaup.me/2026-07-25-open-weight-ai-is-having-its-kubernetes-moment/",
+      "source": "Hacker News",
+      "published": "2026-07-25T14:49:49+00:00",
+      "summary_raw": "",
+      "points": 381,
+      "num_comments": 295,
+      "hn_url": "https://news.ycombinator.com/item?id=49048034"
+    },
+    {
+      "title": "The AI jobs apocalypse probably isn't coming anytime soon",
+      "url": "https://www.theguardian.com/technology/2026/jul/25/ai-jobs-apocalypse-human-labor",
+      "source": "Hacker News",
+      "published": "2026-07-25T14:41:06+00:00",
+      "summary_raw": "",
+      "points": 47,
+      "num_comments": 83,
+      "hn_url": "https://news.ycombinator.com/item?id=49047969"
+    },
+    {
+      "title": "Who's making money from using/exploiting AI?",
+      "url": "https://news.ycombinator.com/item?id=49047714",
+      "source": "Hacker News",
+      "published": "2026-07-25T14:11:57+00:00",
+      "summary_raw": "I&#x27;m looking for some concrete examples of any AI advancements actually causing someone to financially prosper where they didn&#x27;t before. Most of the examples I can think of make someone or something slightly more streamlined or productive,  and so I&#x27;m looking for cases where company X is now Y% more profitable because of AI advancements.",
+      "points": 10,
+      "num_comments": 3,
+      "hn_url": "https://news.ycombinator.com/item?id=49047714"
+    },
+    {
+      "title": "The AI Productivity Illusion",
+      "url": "https://www.hardresetmedia.com/p/the-ai-productivity-illusion",
+      "source": "Hacker News",
+      "published": "2026-07-25T13:43:33+00:00",
+      "summary_raw": "",
+      "points": 49,
+      "num_comments": 16,
+      "hn_url": "https://news.ycombinator.com/item?id=49047526"
+    },
+    {
+      "title": "Stripe in talks to acquire OpenRouter in potential $10B deal, WSJ reports",
+      "url": "https://finance.yahoo.com/technology/ai/articles/stripe-talks-acquire-openrouter-potential-215104525.html",
+      "source": "Hacker News",
+      "published": "2026-07-25T13:38:45+00:00",
+      "summary_raw": "",
+      "points": 12,
+      "num_comments": 3,
+      "hn_url": "https://news.ycombinator.com/item?id=49047488"
+    },
+    {
+      "title": "Corporate America Has Suddenly Decided to Stop Blowing Money on AI",
+      "url": "https://www.wsj.com/business/china-us-ai-model-costs-53a12e96",
+      "source": "Hacker News",
+      "published": "2026-07-25T13:33:03+00:00",
+      "summary_raw": "",
+      "points": 63,
+      "num_comments": 82,
+      "hn_url": "https://news.ycombinator.com/item?id=49047448"
+    }
+  ]
+}
