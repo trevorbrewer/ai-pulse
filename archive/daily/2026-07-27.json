@@ -1,0 +1,189 @@
+{
+  "date": "2026-07-27",
+  "generated_at": "2026-07-27T13:37:12.804814+00:00",
+  "source_counts": {
+    "rss_feeds": 2,
+    "arxiv": 0,
+    "hackernews": 16,
+    "nitter": 0,
+    "total_raw": 18,
+    "total_deduped": 18,
+    "total_saved": 18
+  },
+  "items": [
+    {
+      "title": "AI companies are shredding rare books",
+      "url": "https://xcancel.com/HedgieMarkets/status/2081534588485296565",
+      "source": "Hacker News",
+      "published": "2026-07-27T12:32:12+00:00",
+      "summary_raw": "",
+      "points": 175,
+      "num_comments": 92,
+      "hn_url": "https://news.ycombinator.com/item?id=49068738"
+    },
+    {
+      "title": "How is the Bun Rewrite in Rust going?",
+      "url": "https://lockwood.dev/ai/2026/07/27/how-is-the-bun-rewrite-in-rust-going.html",
+      "source": "Hacker News",
+      "published": "2026-07-27T11:12:26+00:00",
+      "summary_raw": "",
+      "points": 180,
+      "num_comments": 119,
+      "hn_url": "https://news.ycombinator.com/item?id=49067854"
+    },
+    {
+      "title": "Ask HN: Why is every company encorporating AI everywhere?",
+      "url": "https://news.ycombinator.com/item?id=49067602",
+      "source": "Hacker News",
+      "published": "2026-07-27T10:39:49+00:00",
+      "summary_raw": "So I have been going through multiple websites and also been seeing AI in all the apps that I use. Do you think it is necessary ?",
+      "points": 12,
+      "num_comments": 10,
+      "hn_url": "https://news.ycombinator.com/item?id=49067602"
+    },
+    {
+      "title": "Meta launched a new AI optimism ad set to a song about human extinction",
+      "url": "https://techcrunch.com/2026/07/23/meta-launched-a-new-ai-optimism-ad-set-to-a-song-about-human-extinction/",
+      "source": "Hacker News",
+      "published": "2026-07-27T08:09:32+00:00",
+      "summary_raw": "",
+      "points": 34,
+      "num_comments": 13,
+      "hn_url": "https://news.ycombinator.com/item?id=49066519"
+    },
+    {
+      "title": "Show HN: Watch 14-Byte AI \"brains\" attempt to solve a 2D maze (Its hard)",
+      "url": "https://con-dog.github.io/MINIMIO-PUBLIC-FRONTEND/",
+      "source": "Hacker News",
+      "published": "2026-07-27T07:15:15+00:00",
+      "summary_raw": "Hey HackerNews,<p>I built this project over the last few weeks as a palette cleanser from a failed game launch.<p>I wanted to learn a bit about AI&#x2F;Neural-Networks and naively thought I could build a tiny maze-solving AI in a weekend with a 100% solve rate.<p>Well - I couldn&#x27;t, but I got pretty close. 14 Bytes total model size, and a 96.5% solve rate on unseen mazes. Trained across 46 phases experimenting with different ideas to improve the model (better performance, smaller size).<p>Its quite fun to watch the model attempt to solve the maze, when they fail its usually due to getting stuck in a loop. The models have no access to coordinates, map-data, or external memory scratches - they must navigate using only immediate local neighbourhood observations.<p>There is a model dropdown and you can see how the model has progressed over each phase, constantly getting smaller and increasing its solve rate. Total trained models number in the thousands - I just expose the winning models from each phase.<p>Overall a fun experiment, with much implementation help from AI agents to scaffold and implement the code (I&#x27;m a lazy software dev).",
+      "points": 11,
+      "num_comments": 3,
+      "hn_url": "https://news.ycombinator.com/item?id=49066083"
+    },
+    {
+      "title": "Foxconn drops VMware, adopts hyperconverged upstart Arcrfra",
+      "url": "https://www.theregister.com/virtualization/2026/07/27/foxconn-drops-vmware-adopts-hyperconverged-upstart-arcrfra-for-workloads-including-ai/5278684",
+      "source": "Hacker News",
+      "published": "2026-07-27T03:55:01+00:00",
+      "summary_raw": "",
+      "points": 11,
+      "num_comments": 1,
+      "hn_url": "https://news.ycombinator.com/item?id=49065039"
+    },
+    {
+      "title": "How AI is expanding what people do at work",
+      "url": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
+      "source": "OpenAI Blog",
+      "published": "2026-07-27T03:30:00+00:00",
+      "summary_raw": "New OpenAI research shows how AI is expanding what workers do, with ChatGPT users taking on tasks across roles and reshaping job boundaries."
+    },
+    {
+      "title": "The old-school way of keeping the summer heat out of your home",
+      "url": "https://monocle.com/design/architecture/keeping-your-home-cool-without-air-conditioning/",
+      "source": "Hacker News",
+      "published": "2026-07-27T02:33:22+00:00",
+      "summary_raw": "",
+      "points": 24,
+      "num_comments": 59,
+      "hn_url": "https://news.ycombinator.com/item?id=49064588"
+    },
+    {
+      "title": "Big Firms Are Starting to Hire Again, Defying Predictions of AI Wipeout",
+      "url": "https://www.wsj.com/business/big-companies-are-starting-to-hire-again-defying-predictions-of-ai-wipeout-f4974e99",
+      "source": "Hacker News",
+      "published": "2026-07-27T01:40:59+00:00",
+      "summary_raw": "",
+      "points": 12,
+      "num_comments": 3,
+      "hn_url": "https://news.ycombinator.com/item?id=49064256"
+    },
+    {
+      "title": "Quebec scraps AI and automation projects in the public sector",
+      "url": "https://www.ctvnews.ca/montreal/article/quebec-scraps-ai-and-automation-projects-in-the-public-sector/",
+      "source": "Hacker News",
+      "published": "2026-07-27T00:14:20+00:00",
+      "summary_raw": "",
+      "points": 11,
+      "num_comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=49063723"
+    },
+    {
+      "title": "Show HN: Distill and serve models with frontier quality for half the cost",
+      "url": "https://github.com/experientiallabs/world-model-optimizer",
+      "source": "Hacker News",
+      "published": "2026-07-26T23:35:15+00:00",
+      "summary_raw": "Hi HN, we built world-model-optimizer, an open source tool to continually improve models specialized to agents.<p>Agent traces you already capture are opportunities to get signal on how to make your model cheaper, faster, better.<p>We do this by continuously a) distilling relevant chain of thought from larger open source models into smaller ones, b) model routing to frontier + OS models, and c) token compaction to remove noise and save on tokens.<p>`wmo build` allows you to build a simulation to optimize against with your agent traces with your OpenRouter key<p>`wmo optimize` trains a router, compaction, and distills chain of thought from a larger model into your specialized model<p>`wmo serve` gives you an endpoint for your model<p>When you call your model, behind the scenes a router decides which tasks should go to the frontier versus your model. Tinker continually trains as new traces arrive.<p>We&#x27;re also working on a hosted solution that does continual training + serving for you <a href=\"https:&#x2F;&#x2F;experientiallabs.ai\">https:&#x2F;&#x2F;experientiallabs.ai</a>",
+      "points": 43,
+      "num_comments": 21,
+      "hn_url": "https://news.ycombinator.com/item?id=49063454"
+    },
+    {
+      "title": "US citizen charged after GrapheneOS phone wipes during airport search",
+      "url": "https://www.techspot.com/news/113236-us-prosecutors-charge-atlanta-man-after-grapheneos-phone.html",
+      "source": "Hacker News",
+      "published": "2026-07-26T22:21:41+00:00",
+      "summary_raw": "",
+      "points": 966,
+      "num_comments": 739,
+      "hn_url": "https://news.ycombinator.com/item?id=49063022"
+    },
+    {
+      "title": "Multiway Turing Machines (2021 pre-ai)",
+      "url": "https://bulletins.wolframphysics.org/2021/02/multiway-turing-machines/",
+      "source": "Hacker News",
+      "published": "2026-07-26T20:49:43+00:00",
+      "summary_raw": "",
+      "points": 22,
+      "num_comments": 3,
+      "hn_url": "https://news.ycombinator.com/item?id=49062259"
+    },
+    {
+      "title": "Kimi K3 is not cheap",
+      "url": "https://www.alexinch.com/blog/kimi-k3",
+      "source": "Hacker News",
+      "published": "2026-07-26T19:37:09+00:00",
+      "summary_raw": "",
+      "points": 22,
+      "num_comments": 22,
+      "hn_url": "https://news.ycombinator.com/item?id=49061620"
+    },
+    {
+      "title": "An Inside Look at the Relay Market Powering Token Resellers and Fraud",
+      "url": "https://simonwillison.net/2026/Jul/26/relay-market/#atom-everything",
+      "source": "Simon Willison",
+      "published": "2026-07-26T19:30:54+00:00",
+      "summary_raw": "An Inside Look at the Relay Market Powering Token Resellers and Fraud\nFascinating investigation by Matt Lenhard into the market that has grown up around reselling LLM tokens at a discount by pooling API keys from various sources.\nThis looks to be mostly a thing in China. Resellers sell access to an LLM proxy that offers significant discounts on regular API pricing, which they achieve by abusing free trials, proxying through unprotected support bots, or sometimes through stolen credit cards or chargeback attacks.\nThe software they are using for these proxies is open source - mostly one-api and its more actively developed fork new-api, both legitimate API proxy products which can be used to load. balance requests across a pool of API credentials.\nThe buyers are seeking cheap tokens, avoiding geo-restrictions, and in some cases collecting data for model distillation.\nI've been cautious about exposing my own LLM-driven applications publicly out of fear of abuse leading to big token bills. The existence of this marketplace makes me even more cautious: there's now an entire ecosystem that can profit from finding a new unprotected endpoint to exploit.\nLLM vendors really need to get better at offering strict caps for their API keys. I want my LLM apps to stop working the moment they hit a dollar threshold I've set for a period of time.\nHere's the (Chinese language) forum thread that served as the principal source for Matt's article.\n\n    Via Hacker News\n\n\n    Tags: ai, generative-ai, llms, llm-pricing, ai-ethics, ai-in-china"
+    },
+    {
+      "title": "Show HN: HART OS \u2013 an open-source AI OS built so frontier AI needs no datacenter",
+      "url": "https://github.com/hertz-ai/HARTOS",
+      "source": "Hacker News",
+      "published": "2026-07-26T18:40:08+00:00",
+      "summary_raw": "",
+      "points": 18,
+      "num_comments": 20,
+      "hn_url": "https://news.ycombinator.com/item?id=49061015"
+    },
+    {
+      "title": "This July I Was Fired from Simple AI (A Deeply YC Company)",
+      "url": "https://andys.blog/this-july-i-was-fired-from-simple-ai/",
+      "source": "Hacker News",
+      "published": "2026-07-26T16:14:46+00:00",
+      "summary_raw": "",
+      "points": 52,
+      "num_comments": 169,
+      "hn_url": "https://news.ycombinator.com/item?id=49059587"
+    },
+    {
+      "title": "London Gatwick has launched a robotic airport parking service",
+      "url": "https://aerospaceglobalnews.com/news/gatwick-airport-robotic-parking-stanley-robotics/",
+      "source": "Hacker News",
+      "published": "2026-07-26T14:40:27+00:00",
+      "summary_raw": "",
+      "points": 285,
+      "num_comments": 250,
+      "hn_url": "https://news.ycombinator.com/item?id=49058669"
+    }
+  ]
+}

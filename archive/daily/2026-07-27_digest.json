@@ -1,0 +1,145 @@
+[
+  {
+    "theme": "Industry News",
+    "stories": [
+      {
+        "title": "AI companies are shredding rare books",
+        "url": "https://xcancel.com/HedgieMarkets/status/2081534588485296565",
+        "source": "Hacker News",
+        "paragraph": "Reports have emerged that AI companies are physically destroying rare books in the process of digitizing them for training data. The practice raises concerns among librarians, archivists, and intellectual property scholars about the irreversible loss of cultural artifacts. The destruction appears to stem from high-volume scanning operations that prioritize speed and throughput over preservation of the original physical materials."
+      },
+      {
+        "title": "Meta launched a new AI optimism ad set to a song about human extinction",
+        "url": "https://techcrunch.com/2026/07/23/meta-launched-a-new-ai-optimism-ad-set-to-a-song-about-human-extinction/",
+        "source": "Hacker News",
+        "paragraph": "Meta released a promotional campaign framing AI in an optimistic light, but drew attention for pairing the visuals with a song whose lyrics reference human extinction. The choice of soundtrack has been noted as an awkward contrast with the ad's upbeat messaging about AI's potential benefits. The campaign reflects the broader tension companies face when trying to market AI enthusiastically while public concerns about existential risk remain prominent."
+      },
+      {
+        "title": "Foxconn drops VMware, adopts hyperconverged upstart Arcrfra",
+        "url": "https://www.theregister.com/virtualization/2026/07/27/foxconn-drops-vmware-adopts-hyperconverged-upstart-arcrfra-for-workloads-including-ai/5278684",
+        "source": "Hacker News",
+        "paragraph": "Foxconn has replaced VMware with Arcrfra, a hyperconverged infrastructure vendor, for its data center workloads including AI compute. The move is notable because Foxconn is one of the world's largest contract manufacturers, making its infrastructure choices an indicator of enterprise sentiment toward VMware following Broadcom's 2023 acquisition and subsequent licensing changes. Arcrfra's selection suggests that smaller, specialized hyperconverged vendors are finding openings as large customers reassess legacy virtualization contracts."
+      },
+      {
+        "title": "Quebec scraps AI and automation projects in the public sector",
+        "url": "https://www.ctvnews.ca/montreal/article/quebec-scraps-ai-and-automation-projects-in-the-public-sector/",
+        "source": "Hacker News",
+        "paragraph": "The Quebec government has cancelled a number of AI and automation initiatives that had been underway in its public sector. The decision reflects growing caution among government bodies about deploying AI systems in areas affecting public services, though specific projects and budget figures were not fully detailed in initial reports. The move aligns with a broader pattern of governments pausing or scaling back AI adoption pending clearer regulatory frameworks and accountability standards."
+      },
+      {
+        "title": "Big Firms Are Starting to Hire Again, Defying Predictions of AI Wipeout",
+        "url": "https://www.wsj.com/business/big-companies-are-starting-to-hire-again-defying-predictions-of-ai-wipeout-f4974e99",
+        "source": "Hacker News",
+        "paragraph": "Large corporations are resuming hiring at meaningful levels, according to Wall Street Journal reporting, countering earlier forecasts that AI-driven automation would lead to sustained workforce reductions. The data suggests that, at least in the near term, AI tools are being layered onto existing workforces rather than substituting for them wholesale. Economists and labor researchers have noted this pattern before with previous waves of automation, where productivity gains often coexisted with stable or growing headcounts."
+      },
+      {
+        "title": "Ask HN: Why is every company encorporating AI everywhere?",
+        "url": "https://news.ycombinator.com/item?id=49067602",
+        "source": "Hacker News",
+        "paragraph": "A Hacker News discussion thread asked why AI features are appearing across so many products and services simultaneously, prompting a range of practitioner responses. Commenters cited competitive pressure, investor expectations, and the relatively low marginal cost of integrating large language model APIs as key drivers. The thread surfaces a recurring practitioner concern: that many AI integrations are added to signal modernity rather than to solve specific user problems."
+      },
+      {
+        "title": "Kimi K3 is not cheap",
+        "url": "https://www.alexinch.com/blog/kimi-k3",
+        "source": "Hacker News",
+        "paragraph": "A detailed cost analysis of Moonshot AI's Kimi K3 model finds that its pricing is not as competitive as initial impressions suggested. The post examines actual per-token costs under real workloads, comparing them against other frontier models to put the numbers in context. The analysis is notable at a time when Chinese AI labs are frequently characterized as offering aggressive pricing relative to US counterparts."
+      },
+      {
+        "title": "This July I Was Fired from Simple AI (A Deeply YC Company)",
+        "url": "https://andys.blog/this-july-i-was-fired-from-simple-ai/",
+        "source": "Hacker News",
+        "paragraph": "A former employee of Simple AI, a Y Combinator-backed startup, published a first-person account of being fired from the company in July. The post offers an insider perspective on working culture, management decisions, and the pressures inside an early-stage AI startup with institutional backing. Personal termination accounts from within YC-affiliated companies are relatively rare and tend to draw attention to the human dynamics often obscured by funding announcements."
+      },
+      {
+        "title": "London Gatwick has launched a robotic airport parking service",
+        "url": "https://aerospaceglobalnews.com/news/gatwick-airport-robotic-parking-stanley-robotics/",
+        "source": "Hacker News",
+        "paragraph": "London Gatwick Airport has introduced an automated parking service developed by Stanley Robotics, in which robotic vehicles move and store cars without human drivers. The system uses autonomous ground robots to transport parked cars to storage bays, increasing the density of vehicles that can be stored in a given area. Gatwick becomes one of the first major UK airports to deploy this class of robotics at operational scale."
+      }
+    ]
+  },
+  {
+    "theme": "Research Papers",
+    "stories": [
+      {
+        "title": "How AI is expanding what people do at work",
+        "url": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
+        "source": "OpenAI Blog",
+        "paragraph": "OpenAI published research examining how ChatGPT usage is affecting the scope of workers' tasks rather than simply replacing existing ones. The study found that users are taking on work across traditional role boundaries, suggesting AI tools are broadening job scope rather than narrowing it. The findings contribute to a growing body of empirical work on labor market effects of generative AI, though OpenAI's dual role as both researcher and vendor of the product being studied warrants methodological scrutiny."
+      },
+      {
+        "title": "Multiway Turing Machines (2021 pre-ai)",
+        "url": "https://bulletins.wolframphysics.org/2021/02/multiway-turing-machines/",
+        "source": "Hacker News",
+        "paragraph": "A 2021 paper from the Wolfram Physics Project explores multiway Turing machines, a generalization in which a machine can follow multiple computation paths simultaneously rather than a single deterministic sequence. The work connects ideas from theoretical computer science to the multiway systems framework that Stephen Wolfram has proposed as a model for fundamental physics. While predating the current wave of large language model research, the paper has resurfaced in discussion, likely due to renewed interest in alternative computational frameworks."
+      }
+    ]
+  },
+  {
+    "theme": "Open-Source Tools",
+    "stories": [
+      {
+        "title": "Show HN: Distill and serve models with frontier quality for half the cost",
+        "url": "https://github.com/experientiallabs/world-model-optimizer",
+        "source": "Hacker News",
+        "paragraph": "Experiential Labs released world-model-optimizer, an open-source tool designed to reduce the cost of running AI agents by continuously distilling chain-of-thought reasoning from larger open-source models into smaller ones. The system also incorporates model routing between frontier and open-source models, and uses agent traces already captured in production as training signal. The project targets practitioners running agent pipelines who want to cut inference costs without a corresponding drop in output quality."
+      },
+      {
+        "title": "Show HN: Watch 14-Byte AI \"brains\" attempt to solve a 2D maze (Its hard)",
+        "url": "https://con-dog.github.io/MINIMIO-PUBLIC-FRONTEND/",
+        "source": "Hacker News",
+        "paragraph": "A developer published a browser-based visualization of neural network agents with a total model size of 14 bytes attempting to navigate 2D mazes. Despite the extreme size constraint, the models achieved a 96.5% solve rate on unseen mazes after training across 46 phases. The project is presented as an educational experiment in minimal neural network design rather than a production system, and the interactive demo allows users to observe agent behavior in real time."
+      },
+      {
+        "title": "Show HN: HART OS – an open-source AI OS built so frontier AI needs no datacenter",
+        "url": "https://github.com/hertz-ai/HARTOS",
+        "source": "Hacker News",
+        "paragraph": "Hertz AI has released HART OS, an open-source operating system designed to run frontier AI models on local hardware without requiring a connection to a cloud datacenter. The project is hosted on GitHub and positions itself as infrastructure for edge or on-device AI deployment. The release comes amid growing interest in reducing dependence on centralized compute for inference workloads."
+      }
+    ]
+  },
+  {
+    "theme": "Software Development",
+    "stories": [
+      {
+        "title": "How is the Bun Rewrite in Rust going?",
+        "url": "https://lockwood.dev/ai/2026/07/27/how-is-the-bun-rewrite-in-rust-going.html",
+        "source": "Hacker News",
+        "paragraph": "A blog post examined the progress of rewriting parts of the Bun JavaScript runtime in Rust, a project that has drawn interest from the systems programming community. The post discusses the technical tradeoffs involved, including interoperability with Bun's existing Zig codebase and the performance implications of the transition. The piece is notable for offering a practitioner-level assessment of a high-profile language migration at a point when many developer tools are actively experimenting with Rust for performance-critical components."
+      }
+    ]
+  },
+  {
+    "theme": "Privacy and Security",
+    "stories": [
+      {
+        "title": "US citizen charged after GrapheneOS phone wipes during airport search",
+        "url": "https://www.techspot.com/news/113236-us-prosecutors-charge-atlanta-man-after-grapheneos-phone.html",
+        "source": "Hacker News",
+        "paragraph": "A US citizen from Atlanta faces criminal charges after his GrapheneOS-equipped phone automatically wiped itself during an airport border search, a feature the privacy-focused Android fork offers as a duress protection mechanism. Prosecutors appear to be treating the automatic wipe as an act of obstruction rather than a passive technical event, a legal framing that has drawn attention from digital rights advocates. The case has implications for how courts may treat security features designed to protect user data from unauthorized access, including by government agents."
+      }
+    ]
+  },
+  {
+    "theme": "Architecture and Design",
+    "stories": [
+      {
+        "title": "The old-school way of keeping the summer heat out of your home",
+        "url": "https://monocle.com/design/architecture/keeping-your-home-cool-without-air-conditioning/",
+        "source": "Hacker News",
+        "paragraph": "Monocle published a piece on passive cooling architectural techniques historically used to manage summer heat without mechanical air conditioning, covering methods such as thick masonry walls, cross-ventilation, and strategic shading. The article draws on examples from Mediterranean, Middle Eastern, and South Asian vernacular architecture, where these approaches were developed over centuries before electrification. Interest in the topic has grown alongside rising energy costs and increasing scrutiny of air conditioning's environmental footprint."
+      }
+    ]
+  },
+  {
+    "theme": "Safety Research & Fraud",
+    "stories": [
+      {
+        "title": "An Inside Look at the Relay Market Powering Token Resellers and Fraud",
+        "url": "https://simonwillison.net/2026/Jul/26/relay-market/#atom-everything",
+        "source": "Simon Willison",
+        "paragraph": "Investigative journalist Matt Lenhard documented a shadow market, primarily based in China, in which resellers pool stolen or abused API keys to sell LLM tokens at steep discounts through proxy services. The scheme exploits free-tier accounts and compromised credentials across multiple providers, undercutting official API pricing in ways that shift the economic cost onto the model developers. The investigation highlights how the monetization of AI API access has created new fraud vectors that existing account verification systems have struggled to contain."
+      }
+    ]
+  }
+]
