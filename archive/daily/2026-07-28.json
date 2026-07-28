@@ -1,0 +1,209 @@
+{
+  "date": "2026-07-28",
+  "generated_at": "2026-07-28T12:51:28.022608+00:00",
+  "source_counts": {
+    "rss_feeds": 2,
+    "arxiv": 0,
+    "hackernews": 18,
+    "nitter": 0,
+    "total_raw": 20,
+    "total_deduped": 20,
+    "total_saved": 20
+  },
+  "items": [
+    {
+      "title": "Google's Beyond Zero: Enterprise Security for the AI Era",
+      "url": "https://spawn-queue.acm.org/doi/10.1145/3819083",
+      "source": "Hacker News",
+      "published": "2026-07-28T09:59:13+00:00",
+      "summary_raw": "",
+      "points": 37,
+      "num_comments": 25,
+      "hn_url": "https://news.ycombinator.com/item?id=49081644"
+    },
+    {
+      "title": "The AI risk is inside the labs",
+      "url": "https://antirez.com/news/172",
+      "source": "Hacker News",
+      "published": "2026-07-28T09:10:12+00:00",
+      "summary_raw": "",
+      "points": 14,
+      "num_comments": 1,
+      "hn_url": "https://news.ycombinator.com/item?id=49081300"
+    },
+    {
+      "title": "Tell HN: Our paid Claude AI subscription unavailable >1 week and no support",
+      "url": "https://news.ycombinator.com/item?id=49080775",
+      "source": "Hacker News",
+      "published": "2026-07-28T08:00:19+00:00",
+      "summary_raw": "Dear all,<p>our team is using a Claude AI Team plan for more than 1 year already:<p>- we are a normal company, doing normal business, nothing critical<p>- all our bills are paid and we can see them as paid<p>- nontheless, the service is not available for more than one week to us<p>Question:<p>- any other idea to reach out to them than their &quot;Fin AI Chatbot&quot; at support@anthropic.com?<p>- did anybody else had the same experience? If yes, what helped to solve it?<p>Its really frustrating :-(<p>(especially since some people built their interal workflow around Claude, now they are somehow stuck)",
+      "points": 30,
+      "num_comments": 9,
+      "hn_url": "https://news.ycombinator.com/item?id=49080775"
+    },
+    {
+      "title": "Microsoft unveils AI security tools it says outperform competing platforms",
+      "url": "https://arstechnica.com/security/2026/07/microsoft-unveils-ai-security-tools-it-says-outperform-competing-platforms/",
+      "source": "Hacker News",
+      "published": "2026-07-28T07:02:33+00:00",
+      "summary_raw": "",
+      "points": 13,
+      "num_comments": 3,
+      "hn_url": "https://news.ycombinator.com/item?id=49080345"
+    },
+    {
+      "title": "Families in London temporary housing told they cant use inbuilt air conditioning",
+      "url": "https://www.theguardian.com/society/2026/jul/27/homeless-families-london-temporary-housing-air-conditioning",
+      "source": "Hacker News",
+      "published": "2026-07-28T01:55:36+00:00",
+      "summary_raw": "",
+      "points": 11,
+      "num_comments": 5,
+      "hn_url": "https://news.ycombinator.com/item?id=49078292"
+    },
+    {
+      "title": "S.Korea's KOSPI tumbles nearly 5% as chipmakers slump on AI worries",
+      "url": "https://www.reuters.com/world/asia-pacific/skoreas-kospi-tumbles-nearly-5-chipmakers-slump-ai-worries-2026-07-07/",
+      "source": "Hacker News",
+      "published": "2026-07-28T01:23:59+00:00",
+      "summary_raw": "",
+      "points": 10,
+      "num_comments": 5,
+      "hn_url": "https://news.ycombinator.com/item?id=49078092"
+    },
+    {
+      "title": "\"Google and Reddit do not own the Internet,\" web scraper says after court win",
+      "url": "https://arstechnica.com/tech-policy/2026/07/google-wont-give-up-odd-war-against-ai-web-scraping-despite-court-loss/",
+      "source": "Hacker News",
+      "published": "2026-07-27T23:44:25+00:00",
+      "summary_raw": "",
+      "points": 19,
+      "num_comments": 1,
+      "hn_url": "https://news.ycombinator.com/item?id=49077183"
+    },
+    {
+      "title": "moonshotai/Kimi-K3",
+      "url": "https://simonwillison.net/2026/Jul/27/kimi-k3/#atom-everything",
+      "source": "Simon Willison",
+      "published": "2026-07-27T23:39:04+00:00",
+      "summary_raw": "moonshotai/Kimi-K3\nAs promised earlier this month, Moonshot have released the weights for their excellent 2.8 trillion parameter Kimi K3. They're a hefty 1.56TB on Hugging Face.\nKimi introduced their own janky modified version of the MIT license with K2 back in July 2025. That license just added this paragraph requiring attribution beyond a certain size of commercial entity:\n\nOur only modification part is that, if the Software (or any derivative works thereof) is used for any of your commercial products or services that have more than 100 million monthly active users, or more than 20 million US dollars (or equivalent in other currencies) in monthly revenue, you shall prominently display \"Kimi K2\" on the user interface of such product or service.\n\nThe K3 license no longer calls itself \"modified MIT\" and goes further, requiring a separate agreement with Moonshot for large \"Model as a Service\" businesses:\n\nIf the Licensee or any of its affiliates operates a Model as a Service business, and the aggregate revenue of the Licensee and its affiliates exceeds 20 million US dollars (or the equivalent in other currencies) in total over any consecutive 12 months, the Licensee must enter into a separate agreement with Moonshot AI before using the Software or its derivative works for any commercial purpose.\n\nTo Kimi's credit, they make no attempt to describe this as an \"open source\" license in their own materials, consistently using the term \"open weight\" in its place.\nOpenRouter is already offering K3 from 7 providers, most of which are at the same $3/million input and $15/million output as Moonshot AI themselves.\n\n\n    Tags: ai, generative-ai, llms, llm-pricing, llm-release, ai-in-china, moonshot, kimi, janky-licenses"
+    },
+    {
+      "title": "Kimi K3 Now Available via Telnyx Inference API",
+      "url": "https://telnyx.com/release-notes/kimi-k3-telnyx-inference",
+      "source": "Hacker News",
+      "published": "2026-07-27T22:46:28+00:00",
+      "summary_raw": "Moonshot AI released open weights for Kimi K3 today and it&#x27;s live on Telnyx Inference. The architecture and Moonshot&#x27;s own benchmarks are in their technical blog. This post is about running it on Telnyx.<p>What we are adding: K3 is now available via the Telnyx Inference API, hosted on GPUs that we own and operate.<p>This matters due to the size of this model. A 2.8T model needs dedicated infra to serve well. Because we own and operate the GPUs, we can contorl throughput. with no inter-provider hops and no cloud tenant, latency is minimized.\nWe have GPUs in each of the US, EU, APAC, and MENA. Inference runs in the region you pick, with zero data retention. We do not store prompts or completions after the response returns.\nBecause we own the infra, the per-token price reflects the cost of running the model, not the cost of renting someone else&#x27;s plus their margin.<p>We have not benchmarked K3 ourselves yet. Moonshot&#x27;s own numbers and early third-party evaluations put it at frontier level for coding and agentic work, trailing only Claude Fable 5 and GPT 5.6 Sol on aggregate. Full breakdown in their blog.<p>Pricing on Telnyx: $2.70&#x2F;1M input tokens, $13.50&#x2F;1M output tokens, $0.27&#x2F;1M cached input tokens. Prompt caching enabled by default. Served via an OpenAI-compatible endpoint so you can test easily.<p>Model ID: [MODEL_ID] API: <a href=\"https:&#x2F;&#x2F;api.telnyx.com&#x2F;v2&#x2F;ai&#x2F;chat&#x2F;completions\" rel=\"nofollow\">https:&#x2F;&#x2F;api.telnyx.com&#x2F;v2&#x2F;ai&#x2F;chat&#x2F;completions</a> Docs: <a href=\"https:&#x2F;&#x2F;developers.telnyx.com&#x2F;docs&#x2F;inference\" rel=\"nofollow\">https:&#x2F;&#x2F;developers.telnyx.com&#x2F;docs&#x2F;inference</a> Technical blog (Moonshot): <a href=\"https:&#x2F;&#x2F;www.kimi.com&#x2F;blog&#x2F;kimi-k3\" rel=\"nofollow\">https:&#x2F;&#x2F;www.kimi.com&#x2F;blog&#x2F;kimi-k3</a>",
+      "points": 107,
+      "num_comments": 59,
+      "hn_url": "https://news.ycombinator.com/item?id=49076505"
+    },
+    {
+      "title": "An opinionated guide to which AI to use to do stuff",
+      "url": "https://simonwillison.net/2026/Jul/27/an-opinionated-guide-to-which-ai-to-use-to-do-stuff/#atom-everything",
+      "source": "Simon Willison",
+      "published": "2026-07-27T21:55:53+00:00",
+      "summary_raw": "An opinionated guide to which AI to use to do stuff\nIt's interesting watching the evolution of Ethan Mollick's guide over time. \nA year ago it was still all about chat - ChatGPT, Claude, Gemini - with o3, Claude 4 Opus, and Gemini 2.5 Pro as the models and Deep Research as a useful alternative mode.\nToday it's much more about agentic systems - \"where the AI is capable of doing the equivalent of many hours of real human work in one go\".\nGemini has fallen off Ethan's list, since Google still doesn\u2019t have an established entry in the Codex/ChatGPT Work/Cowork category. Gemini Spark has yet to prove itself!\nEthan offers a useful explanation of the ways you can give ChatGPT or Claude a computer to use:\n\nTo use the computers provided by the AI companies, the mode you want is called ChatGPT Work in ChatGPT, and Cowork in Claude (the naming will not get less confusing, I am sorry to say). [...]\nThe most powerful way to use AI is to give it access to your computer. You do that by downloading the ChatGPT or Claude apps and picking a mode to use. ChatGPT's two agent modes are Work and Codex; Claude's are Cowork and Code. The names do not map onto each other in any way that will help you remember them. And yes, these use the same names as the Work and Cowork modes we discussed above, but operate differently, and have more features and capabilities because they can access your computer.\n\nI think the difference between ChatGPT Work on a mobile device and ChatGPT Work inside the desktop app (where it's effectively a less intimidating skin on top of Codex) is spectacularly unintuitive.\nShort version: if you flip ChatGPT mobile from \"Chat\" to \"Work\" mode you get a version where its Code Interpreter container is no longer restricted from accessing the internet!\n\n\n    Tags: ai, generative-ai, llms, ethan-mollick, code-interpreter, general-agents"
+    },
+    {
+      "title": "AMD Advancing AI 2026: Talking CDNA5 with AMD's Alan Smith",
+      "url": "https://chipsandcheese.com/p/amd-advancing-ai-2026-talking-cdna5",
+      "source": "Hacker News",
+      "published": "2026-07-27T21:17:44+00:00",
+      "summary_raw": "",
+      "points": 13,
+      "num_comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=49075639"
+    },
+    {
+      "title": "Ask HN: How to deal with security implications of running/installing projects?",
+      "url": "https://news.ycombinator.com/item?id=49075417",
+      "source": "Hacker News",
+      "published": "2026-07-27T20:56:17+00:00",
+      "summary_raw": "There are so many neat projects coming out on HN&#x2F;Github, etc. But, it&#x27;s so easy to inject back doors and malware into software projects now a days. I&#x27;m wondering how people deal with the secrutiy of this. Even if you install them under docker, if it&#x27;s run by root it seems like there are ways they can get root access on the box.<p>I see so many neat projects here I&#x27;d like to try out but I&#x27;m worried that I may install some malware or backdoored software on here. There are a few AI harnesses, terminals, etc. that keep coming up that look neat... but at the very least they&#x27;d be able to get your Claude credentials, if not worse.<p>I&#x27;m just wondering with so much stuff coming out, most of it AI coded.<p>Just wondering how people deal with it? What&#x27;s the best sandbox way of testing it if that&#x27;s the solution?",
+      "points": 12,
+      "num_comments": 10,
+      "hn_url": "https://news.ycombinator.com/item?id=49075417"
+    },
+    {
+      "title": "Professor's invisible prompt trap catches 32/35 students cheating with AI",
+      "url": "https://www.techspot.com/news/113243-professor-invisible-prompt-trap-catches-32-students-cheating.html",
+      "source": "Hacker News",
+      "published": "2026-07-27T19:46:05+00:00",
+      "summary_raw": "",
+      "points": 102,
+      "num_comments": 85,
+      "hn_url": "https://news.ycombinator.com/item?id=49074680"
+    },
+    {
+      "title": "Jensen Huang's first post on Twitter is in defense of open access to AI models",
+      "url": "https://www.pcgamer.com/software/ai/jensen-huangs-first-ever-post-on-x-is-in-defense-of-open-access-to-ai-models-alongside-google-openai-and-meta/",
+      "source": "Hacker News",
+      "published": "2026-07-27T17:56:20+00:00",
+      "summary_raw": "",
+      "points": 49,
+      "num_comments": 18,
+      "hn_url": "https://news.ycombinator.com/item?id=49073267"
+    },
+    {
+      "title": "Show HN: FeyNoBg \u2013 Automatic background removal model and training library",
+      "url": "https://usefeyn.com/blog/feynobg/",
+      "source": "Hacker News",
+      "published": "2026-07-27T16:59:08+00:00",
+      "summary_raw": "Hey HN, I\u2019m Shreyash from Feyn. We help companies build custom models from their data.<p>Today, we\u2019re releasing FeyNoBg, an automatic background removal model. Alongside it, we&#x27;re open-sourcing NoBg, the Python library we built to train and run it.<p>Try the model here: <a href=\"https:&#x2F;&#x2F;huggingface.co&#x2F;spaces&#x2F;feyninc&#x2F;feynobg\" rel=\"nofollow\">https:&#x2F;&#x2F;huggingface.co&#x2F;spaces&#x2F;feyninc&#x2F;feynobg</a>. Check out the library here: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;feyninc&#x2F;nobg\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;feyninc&#x2F;nobg</a><p>Some sample outputs:<p>(1) Soccer Freekick: <a href=\"https:&#x2F;&#x2F;drive.google.com&#x2F;file&#x2F;d&#x2F;1MZkAGLwbhNVOZ0Oi7XvpCfSEu9QPCbwj&#x2F;view?usp=sharing\" rel=\"nofollow\">https:&#x2F;&#x2F;drive.google.com&#x2F;file&#x2F;d&#x2F;1MZkAGLwbhNVOZ0Oi7XvpCfSEu9Q...</a><p>(2) Hair in wind: <a href=\"https:&#x2F;&#x2F;drive.google.com&#x2F;file&#x2F;d&#x2F;1Odc2m0XMVH9uZtvI_KjaRbXzhLLdGK8Z&#x2F;view?usp=sharing\" rel=\"nofollow\">https:&#x2F;&#x2F;drive.google.com&#x2F;file&#x2F;d&#x2F;1Odc2m0XMVH9uZtvI_KjaRbXzhLL...</a><p>(3) Bicycle with visible spokes: <a href=\"https:&#x2F;&#x2F;drive.google.com&#x2F;file&#x2F;d&#x2F;1h99ahjfrtS1MFQJJgiKE2fuM3HZyQ-QJ&#x2F;view?usp=sharing\" rel=\"nofollow\">https:&#x2F;&#x2F;drive.google.com&#x2F;file&#x2F;d&#x2F;1h99ahjfrtS1MFQJJgiKE2fuM3HZ...</a><p>(4) Live Demo video: <a href=\"https:&#x2F;&#x2F;youtu.be&#x2F;b1heHPvY8BM\" rel=\"nofollow\">https:&#x2F;&#x2F;youtu.be&#x2F;b1heHPvY8BM</a><p>Background removal separates an image&#x27;s subject from its surrounding. We&#x27;ve all tried it at some point. Often it is to reuse the subject in a different artifact. Nowadays, it is common to make chat stickers out of it. It is one of the most common but under-appreciated uses of AI. It is also surprisingly complex. Models can be easily confused by camouflage, motion blur, or fine structures like hair.<p>The task requires two skills. First, a model has to identify the foreground. Second, it has to trace the foreground\u2019s boundary and estimate an opacity value for each pixel. Generally, these skills are taught with different datasets. That creates a failure point. A poor training mix can improve one skill at the expense of the other. We saw this in our controlled evaluation. A training run with just the MaskFactory dataset improved on the CAMO benchmark but regressed on DIS5K.<p>For FeyNoBg, we took an interpretability-first approach to training. We first studied how BiRefNet\u2019s stages contribute to finding the foreground and reconstructing its boundary. We discovered that the third stage of it&#x27;s feature extractor holds a lot of information. Both localization and boundary reconstruction depend heavily on the feature map produced here.<p>This led us to expand this stage from 18 to 24 blocks while preserving the pre-trained weights. We then trained FeyNoBg on 26.1K diverse examples assembled from 10 datasets. The goal was to improve foreground identification and boundary precision without sacrificing either one.<p>Across eight benchmarks, FeyNoBg achieves the best published score on four and comes within 2% of the leader on the rest.<p>Building FeyNoBg also exposed a tooling problem. Image matting models are usually released as isolated repositories with incompatible preprocessing, training, and evaluation code. We built NoBg to solve this. NoBg puts these workflows behind one Python interface. It supports BiRefNet today, with more architectures coming. We hope you build something exciting with it!<p>Happy to answer any questions!",
+      "points": 113,
+      "num_comments": 28,
+      "hn_url": "https://news.ycombinator.com/item?id=49072462"
+    },
+    {
+      "title": "MAI-Cyber-1-Flash inside MDASH",
+      "url": "https://microsoft.ai/news/introducing-mai-cyber-1-flash-inside-mdash/",
+      "source": "Hacker News",
+      "published": "2026-07-27T16:52:22+00:00",
+      "summary_raw": "",
+      "points": 234,
+      "num_comments": 109,
+      "hn_url": "https://news.ycombinator.com/item?id=49072361"
+    },
+    {
+      "title": "Nvidia's $750B in Deals Reignite Circular AI Fears",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-27/nvidia-s-750-billion-deals-revive-fear-of-ai-circular-financing",
+      "source": "Hacker News",
+      "published": "2026-07-27T16:02:00+00:00",
+      "summary_raw": "",
+      "points": 81,
+      "num_comments": 76,
+      "hn_url": "https://news.ycombinator.com/item?id=49071512"
+    },
+    {
+      "title": "Apple Will 'Watch Everything Burn' When the AI Bubble Bursts",
+      "url": "https://www.macrumors.com/2026/07/27/ed-zitron-apple-watch-it-burn-ai-bubble-bursts/",
+      "source": "Hacker News",
+      "published": "2026-07-27T14:42:41+00:00",
+      "summary_raw": "",
+      "points": 242,
+      "num_comments": 324,
+      "hn_url": "https://news.ycombinator.com/item?id=49070427"
+    },
+    {
+      "title": "AI companies spend record sums on Washington lobbying",
+      "url": "https://www.ft.com/content/d8a5f95e-3b6d-463a-a848-c9ef8e2394db",
+      "source": "Hacker News",
+      "published": "2026-07-27T14:07:48+00:00",
+      "summary_raw": "<a href=\"https:&#x2F;&#x2F;archive.ph&#x2F;PASMJ\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.ph&#x2F;PASMJ</a>",
+      "points": 268,
+      "num_comments": 142,
+      "hn_url": "https://news.ycombinator.com/item?id=49069939"
+    },
+    {
+      "title": "We Tested Nonstick Cookware: Coatings Don't Need to Look Worn to Shed Particles",
+      "url": "https://www.rtings.com/air-fryer/learn/research/ptfe-cookware-shedding",
+      "source": "Hacker News",
+      "published": "2026-07-27T13:29:12+00:00",
+      "summary_raw": "",
+      "points": 90,
+      "num_comments": 94,
+      "hn_url": "https://news.ycombinator.com/item?id=49069447"
+    }
+  ]
+}

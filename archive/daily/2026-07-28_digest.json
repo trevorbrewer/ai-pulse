@@ -1,0 +1,177 @@
+[
+  {
+    "theme": "Model Releases & Open Weights",
+    "stories": [
+      {
+        "title": "moonshotai/Kimi-K3",
+        "url": "https://simonwillison.net/2026/Jul/27/kimi-k3/#atom-everything",
+        "source": "Simon Willison",
+        "paragraph": "Moonshot AI has released the weights for Kimi K3, a 2.8 trillion parameter mixture-of-experts model, fulfilling a promise made earlier in the month. The weights are available on Hugging Face at 1.56 TB in size, making self-hosting a significant infrastructure undertaking. The release uses a modified MIT license — first introduced with K2 in July 2025 — that adds an attribution requirement for commercial entities above a certain scale."
+      },
+      {
+        "title": "Kimi K3 Now Available via Telnyx Inference API",
+        "url": "https://telnyx.com/release-notes/kimi-k3-telnyx-inference",
+        "source": "Hacker News",
+        "paragraph": "Telnyx announced same-day availability of Kimi K3 on its inference API, running on GPUs the company owns and operates rather than renting from a cloud provider. The 2.8 trillion parameter model's size makes dedicated hardware a practical necessity for serving it at scale. Telnyx pointed users to Moonshot's technical blog for architecture details and benchmark figures."
+      }
+    ]
+  },
+  {
+    "theme": "AI Tools & Practitioner Guidance",
+    "stories": [
+      {
+        "title": "An opinionated guide to which AI to use to do stuff",
+        "url": "https://simonwillison.net/2026/Jul/27/an-opinionated-guide-to-which-ai-to-use-to-do-stuff/#atom-everything",
+        "source": "Simon Willison",
+        "paragraph": "Simon Willison highlights the evolving nature of Ethan Mollick's periodic guide to practical AI tool selection, noting a marked shift in its framing over roughly one year. Where prior editions centered on chat interfaces — ChatGPT, Claude, and Gemini — the current version foregrounds agentic systems capable of executing multi-step tasks autonomously. The comparison illustrates how quickly the baseline expectation for AI utility has moved among practitioners, with models like o3, Claude 4 Opus, and Gemini 2.5 Pro now treated as table stakes rather than highlights."
+      }
+    ]
+  },
+  {
+    "theme": "Security Research & Enterprise Tools",
+    "stories": [
+      {
+        "title": "Google's Beyond Zero: Enterprise Security for the AI Era",
+        "url": "https://spawn-queue.acm.org/doi/10.1145/3819083",
+        "source": "Hacker News",
+        "paragraph": "An ACM-published paper describes Google's \"Beyond Zero\" security framework, positioning it as an evolution of the company's earlier BeyondCorp zero-trust model adapted for AI-era enterprise environments. The work addresses the expanded attack surface that AI systems introduce into corporate infrastructure, including model supply chain risks and inference-time threats. The publication in an ACM venue signals growing academic and industry interest in formalizing security architecture for organizations deploying AI at scale."
+      },
+      {
+        "title": "Microsoft unveils AI security tools it says outperform competing platforms",
+        "url": "https://arstechnica.com/security/2026/07/microsoft-unveils-ai-security-tools-it-says-outperform-competing-platforms/",
+        "source": "Hacker News",
+        "paragraph": "Microsoft announced a set of AI-powered security tools and published benchmarks claiming superior performance against competing platforms. The announcement follows a broader industry trend of integrating large language models into threat detection and response workflows. Microsoft's own benchmark figures are the basis for the performance claims, a methodology that has drawn scrutiny in past product announcements."
+      },
+      {
+        "title": "Ask HN: How to deal with security implications of running/installing projects?",
+        "url": "https://news.ycombinator.com/item?id=49075417",
+        "source": "Hacker News",
+        "paragraph": "A Hacker News thread raised practical concerns about the security risks of installing open-source software projects, particularly as AI tools make it easier to embed malicious code in repositories. The poster noted that container isolation via Docker provides limited protection when processes run as root, since privilege escalation paths to the host system remain available. The discussion reflects a growing unease among developers about trusting the expanding volume of AI-assisted projects appearing on platforms like GitHub."
+      }
+    ]
+  },
+  {
+    "theme": "AI Safety & Governance",
+    "stories": [
+      {
+        "title": "The AI risk is inside the labs",
+        "url": "https://antirez.com/news/172",
+        "source": "Hacker News",
+        "paragraph": "Redis creator Salvatore Sanfilippo published an essay arguing that the primary AI risk facing society originates not from rogue models but from the internal incentive structures of the companies building them. He contends that competitive pressure and commercial imperatives push labs to deploy systems faster than safety evaluation processes can keep pace. The piece adds a practitioner's perspective to ongoing debates about where governance efforts should be directed."
+      }
+    ]
+  },
+  {
+    "theme": "Industry News & Market Developments",
+    "stories": [
+      {
+        "title": "S.Korea's KOSPI tumbles nearly 5% as chipmakers slump on AI worries",
+        "url": "https://www.reuters.com/world/asia-pacific/skoreas-kospi-tumbles-nearly-5-chipmakers-slump-ai-worries-2026-07-07/",
+        "source": "Hacker News",
+        "paragraph": "South Korea's KOSPI index fell nearly 5% in a single session, driven largely by a sell-off in semiconductor stocks tied to uncertainty about AI demand trajectories. The decline affected major chipmakers listed on the exchange, reflecting investor sensitivity to any signal that AI infrastructure spending could slow. The drop underscores how closely equity markets in chip-producing economies have become linked to expectations about AI hardware consumption."
+      },
+      {
+        "title": "\"Google and Reddit do not own the Internet,\" web scraper says after court win",
+        "url": "https://arstechnica.com/tech-policy/2026/07/google-wont-give-up-odd-war-against-ai-web-scraping-despite-court-loss/",
+        "source": "Hacker News",
+        "paragraph": "A web scraping company cited a recent court victory to push back against legal pressure from Google, which has continued to pursue action against AI data collection firms despite losing an earlier case. The scraper's statement — \"Google and Reddit do not own the Internet\" — encapsulates a broader dispute over who controls publicly accessible web data for AI training purposes. Google's decision to maintain its legal posture after an unfavorable ruling signals that the company views the policy stakes as significant enough to absorb further litigation costs."
+      },
+      {
+        "title": "Tell HN: Our paid Claude AI subscription unavailable >1 week and no support",
+        "url": "https://news.ycombinator.com/item?id=49080775",
+        "source": "Hacker News",
+        "paragraph": "A business user posted to Hacker News reporting that their Claude Team plan had been inaccessible for more than one week despite all invoices showing as paid and no policy violations. The team's only available support channel was Anthropic's \"Fin AI Chatbot\" at support@anthropic.com, with no path to a human representative. The post drew community attention to the gap between enterprise support expectations and the reality of AI vendor customer service infrastructure."
+      }
+    ]
+  },
+  {
+    "theme": "Hardware & Infrastructure",
+    "stories": [
+      {
+        "title": "AMD Advancing AI 2026: Talking CDNA5 with AMD's Alan Smith",
+        "url": "https://chipsandcheese.com/p/amd-advancing-ai-2026-talking-cdna5",
+        "source": "Hacker News",
+        "paragraph": "Chips and Cheese published a technical interview with AMD's Alan Smith discussing the CDNA5 GPU architecture presented at the company's Advancing AI 2026 event. The piece covers architectural decisions relevant to AI training and inference workloads, positioning CDNA5 as AMD's latest effort to close the gap with Nvidia in the data center accelerator market. Specific details from the conversation address memory bandwidth, compute density, and interconnect design choices that distinguish CDNA5 from its predecessor."
+      }
+    ]
+  },
+  {
+    "theme": "Off-Topic",
+    "stories": [
+      {
+        "title": "Families in London temporary housing told they cant use inbuilt air conditioning",
+        "url": "https://www.theguardian.com/society/2026/jul/27/homeless-families-london-temporary-housing-air-conditioning",
+        "source": "Hacker News",
+        "paragraph": "The Guardian reported that homeless families placed in London temporary accommodation have been told they cannot use air conditioning units that are built into the properties. The restriction appears to be driven by concerns over energy costs borne by local councils managing the housing. The story surfaced on Hacker News without a clear AI connection, making it an outlier in an otherwise technology-focused news cycle."
+      }
+    ]
+  },
+  {
+    "theme": "Industry News",
+    "stories": [
+      {
+        "title": "Jensen Huang's first post on Twitter is in defense of open access to AI models",
+        "url": "https://www.pcgamer.com/software/ai/jensen-huangs-first-ever-post-on-x-is-in-defense-of-open-access-to-ai-models-alongside-google-openai-and-meta/",
+        "source": "Hacker News",
+        "paragraph": "Nvidia CEO Jensen Huang made his debut on X with a post advocating for open access to AI models, joining a coalition that includes Google, OpenAI, and Meta in the public messaging push. The post is notable given Nvidia's central role as the dominant supplier of GPU hardware to both open and closed AI developers. Huang's public stance arrives as U.S. policymakers debate restrictions on AI model distribution, making the statement as much a lobbying signal as a personal opinion."
+      },
+      {
+        "title": "Nvidia's $750B in Deals Reignite Circular AI Fears",
+        "url": "https://www.bloomberg.com/news/articles/2026-07-27/nvidia-s-750-billion-deals-revive-fear-of-ai-circular-financing",
+        "source": "Hacker News",
+        "paragraph": "Bloomberg reports that Nvidia has announced approximately $750 billion in deals, reviving concerns among analysts about circular financing dynamics in the AI sector. The worry is that AI companies funded by venture capital and hyperscalers are spending heavily on Nvidia hardware, while Nvidia's rising valuation in turn attracts more investment into those same AI companies. Critics argue this creates a self-reinforcing loop that inflates the apparent health of the ecosystem without necessarily reflecting end-user revenue."
+      },
+      {
+        "title": "Apple Will 'Watch Everything Burn' When the AI Bubble Bursts",
+        "url": "https://www.macrumors.com/2026/07/27/ed-zitron-apple-watch-it-burn-ai-bubble-bursts/",
+        "source": "Hacker News",
+        "paragraph": "Tech commentator Ed Zitron argues that Apple's measured approach to generative AI investment positions it to survive a potential AI market correction better than competitors that have committed large capital. Zitron contends that Apple has avoided the heavy infrastructure spending and speculative product bets that characterize rivals such as Microsoft and Google. The piece is an opinion column rather than a reporting piece, but it surfaces a recurring debate about whether Apple's AI restraint is strategic caution or a competitive liability."
+      },
+      {
+        "title": "AI companies spend record sums on Washington lobbying",
+        "url": "https://www.ft.com/content/d8a5f95e-3b6d-463a-a848-c9ef8e2394db",
+        "source": "Hacker News",
+        "paragraph": "The Financial Times reports that AI companies collectively spent record amounts on Washington lobbying in the most recent disclosure period, as Congress and the White House consider legislation covering model access, data use, and export controls. The increase reflects the industry's effort to shape rules before they are set, a pattern seen in earlier technology waves involving social media and telecommunications. Specific firms and dollar figures are detailed in the full FT piece, which is behind a paywall but accessible via archive."
+      }
+    ]
+  },
+  {
+    "theme": "Model Releases",
+    "stories": [
+      {
+        "title": "MAI-Cyber-1-Flash inside MDASH",
+        "url": "https://microsoft.ai/news/introducing-mai-cyber-1-flash-inside-mdash/",
+        "source": "Hacker News",
+        "paragraph": "Microsoft has introduced MAI-Cyber-1-Flash, a cybersecurity-focused AI model integrated into MDASH, the company's security operations platform. The model is designed to accelerate threat detection and response workflows, positioning it as a domain-specific alternative to general-purpose models for security analysts. Microsoft's announcement does not disclose the underlying parameter count or training data composition, but the integration into an existing enterprise security product marks a concrete deployment path rather than a research-only release."
+      },
+      {
+        "title": "Show HN: FeyNoBg – Automatic background removal model and training library",
+        "url": "https://usefeyn.com/blog/feynobg/",
+        "source": "Hacker News",
+        "paragraph": "Feyn, a company that helps businesses build custom models, has released FeyNoBg, an automatic background removal model alongside NoBg, an open-source Python library for training and running it. The release is notable because it bundles both an inference-ready model and the tooling needed to fine-tune it on proprietary data, lowering the barrier for companies that need domain-specific matting performance. The model is hosted on Hugging Face Spaces for immediate testing, and the NoBg library is available as open-source software."
+      }
+    ]
+  },
+  {
+    "theme": "AI in Education",
+    "stories": [
+      {
+        "title": "Professor's invisible prompt trap catches 32/35 students cheating with AI",
+        "url": "https://www.techspot.com/news/113243-professor-invisible-prompt-trap-catches-32-students-cheating.html",
+        "source": "Hacker News",
+        "paragraph": "A professor embedded an invisible instruction in an assignment document directing any AI assistant that processed the text to include a specific phrase in its output, then used the presence of that phrase to identify students who had submitted AI-generated responses. Of 35 students, 32 triggered the trap, a 91 percent detection rate that illustrates both the prevalence of undisclosed AI use in coursework and the viability of prompt-injection techniques as a forensic tool. The case has drawn attention to the cat-and-mouse dynamic between academic integrity measures and AI-assisted writing, and raises questions about whether detection methods of this kind are admissible as evidence under institutional honor codes."
+      }
+    ]
+  },
+  {
+    "theme": "Unrelated",
+    "stories": [
+      {
+        "title": "We Tested Nonstick Cookware: Coatings Don't Need to Look Worn to Shed Particles",
+        "url": "https://www.rtings.com/air-fryer/learn/research/ptfe-cookware-shedding",
+        "source": "Hacker News",
+        "paragraph": "Rtings.com published research finding that PTFE-coated nonstick cookware can shed microparticles even when the surface shows no visible wear, challenging the common assumption that intact coatings are safe to continue using. The study used controlled testing conditions to measure particle release during normal cooking, providing quantitative data rather than relying on visual inspection. This item does not have an AI angle and appears to have been included in today's feed in error."
+      }
+    ]
+  }
+]
