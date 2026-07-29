@@ -1,0 +1,253 @@
+{
+  "date": "2026-07-29",
+  "generated_at": "2026-07-29T12:58:13.577179+00:00",
+  "source_counts": {
+    "rss_feeds": 8,
+    "arxiv": 50,
+    "hackernews": 43,
+    "nitter": 0,
+    "total_raw": 101,
+    "total_deduped": 100,
+    "total_saved": 25
+  },
+  "items": [
+    {
+      "title": "Document-borne AI worms can self-propagate through Copilot for Word",
+      "url": "https://enklypesalt.com/posts/context-collapse-part3-ai-worming-through-word/",
+      "source": "Hacker News",
+      "published": "2026-07-29T11:44:33+00:00",
+      "summary_raw": "",
+      "points": 76,
+      "num_comments": 49,
+      "hn_url": "https://news.ycombinator.com/item?id=49096188"
+    },
+    {
+      "title": "Starling: The first real desktop written by AI",
+      "url": "https://starling.build/",
+      "source": "Hacker News",
+      "published": "2026-07-29T10:59:58+00:00",
+      "summary_raw": "",
+      "points": 16,
+      "num_comments": 11,
+      "hn_url": "https://news.ycombinator.com/item?id=49095823"
+    },
+    {
+      "title": "Russia issues international wanted notice against Telegram founder Pavel Durov",
+      "url": "https://www.france24.com/en/europe/20260729-russia-issues-international-wanted-notice-against-telegram-founder-pavel-durov-for-aiding-terrorism",
+      "source": "Hacker News",
+      "published": "2026-07-29T09:28:54+00:00",
+      "summary_raw": "",
+      "points": 11,
+      "num_comments": 1,
+      "hn_url": "https://news.ycombinator.com/item?id=49095151"
+    },
+    {
+      "title": "Show HN: Vimgolf.ai \u2013 Learn Vim by playing through a map of levels",
+      "url": "https://vimgolf.ai",
+      "source": "Hacker News",
+      "published": "2026-07-29T09:26:52+00:00",
+      "summary_raw": "Just launched my app, VimGolf.ai! As users complete the levels on the map, I introduce progressively more complicated concepts \u2014 it\u2019s aimed at people who have never used Vim. Any feedback would be much appreciated!",
+      "points": 18,
+      "num_comments": 16,
+      "hn_url": "https://news.ycombinator.com/item?id=49095143"
+    },
+    {
+      "title": "ChatGPT claims rogue AI attacked more companies",
+      "url": "https://www.bbc.co.uk/news/articles/c2el319vzr3o",
+      "source": "Hacker News",
+      "published": "2026-07-29T09:03:17+00:00",
+      "summary_raw": "",
+      "points": 38,
+      "num_comments": 62,
+      "hn_url": "https://news.ycombinator.com/item?id=49094996"
+    },
+    {
+      "title": "Russia charges Telegram founder Durov with facilitating terrorism",
+      "url": "https://www.reuters.com/world/russias-fsb-charges-telegram-founder-durov-with-facilitating-terrorism-ifax-says-2026-07-29/",
+      "source": "Hacker News",
+      "published": "2026-07-29T08:48:50+00:00",
+      "summary_raw": "",
+      "points": 14,
+      "num_comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=49094901"
+    },
+    {
+      "title": "Sam Altman says people don't want an AI to act as CEO",
+      "url": "https://www.businessinsider.com/sam-altman-ai-ceo-humans-work-future-2026-7",
+      "source": "Hacker News",
+      "published": "2026-07-29T06:31:43+00:00",
+      "summary_raw": "",
+      "points": 14,
+      "num_comments": 13,
+      "hn_url": "https://news.ycombinator.com/item?id=49094061"
+    },
+    {
+      "title": "New airliner sets record flying 24 hrs nonstop from Australia to France",
+      "url": "https://arstechnica.com/gadgets/2026/07/new-airliner-sets-record-flying-24-hrs-nonstop-from-australia-to-france/",
+      "source": "Hacker News",
+      "published": "2026-07-29T05:05:13+00:00",
+      "summary_raw": "",
+      "points": 17,
+      "num_comments": 4,
+      "hn_url": "https://news.ycombinator.com/item?id=49093608"
+    },
+    {
+      "title": "Israel Is Paying Millions to Train AI Chatbots How to Talk About Gaza",
+      "url": "https://www.dropsitenews.com/p/israel-brad-parscale-ai-chatbots-gaza",
+      "source": "Hacker News",
+      "published": "2026-07-29T04:46:53+00:00",
+      "summary_raw": "",
+      "points": 42,
+      "num_comments": 11,
+      "hn_url": "https://news.ycombinator.com/item?id=49093509"
+    },
+    {
+      "title": "Show HN: Lean4 Datalog DSL Based on Google Zanzibar for AI Projects",
+      "url": "https://github.com/jagg-ix/zil-lean",
+      "source": "Hacker News",
+      "published": "2026-07-29T02:22:04+00:00",
+      "summary_raw": "Google Zanzibar datalog lang lets you describe concepts and express how they are related. I generalize it to DSL you can use on Lean4 (and other languages) this lets you represent a knowledge base you can construct, store and evaluate, have it under git and improve without big engines or relaying on external infrastructure.<p>Google&#x27;s Zanzibar paper:\n<a href=\"https:&#x2F;&#x2F;storage.googleapis.com&#x2F;gweb-research2023-media&#x2F;pubtools&#x2F;5068.pdf\" rel=\"nofollow\">https:&#x2F;&#x2F;storage.googleapis.com&#x2F;gweb-research2023-media&#x2F;pubto...</a>",
+      "points": 17,
+      "num_comments": 2,
+      "hn_url": "https://news.ycombinator.com/item?id=49092730"
+    },
+    {
+      "title": "Chip stocks slide in US and Asia as AI jitters rattle investors",
+      "url": "https://www.bbc.com/news/articles/cly8zng43npo",
+      "source": "Hacker News",
+      "published": "2026-07-29T01:56:00+00:00",
+      "summary_raw": "",
+      "points": 61,
+      "num_comments": 42,
+      "hn_url": "https://news.ycombinator.com/item?id=49092549"
+    },
+    {
+      "title": "LearnVector \u2013 Andrew Ng's AI company building one\u2011to\u2011one learning experiences",
+      "url": "https://learnvector.ai/",
+      "source": "Hacker News",
+      "published": "2026-07-29T01:49:19+00:00",
+      "summary_raw": "",
+      "points": 223,
+      "num_comments": 141,
+      "hn_url": "https://news.ycombinator.com/item?id=49092499"
+    },
+    {
+      "title": "LeanScreen: Lean Verification",
+      "url": "https://www.millenniumresearch.ai/leanscreen.html",
+      "source": "Hacker News",
+      "published": "2026-07-29T01:38:46+00:00",
+      "summary_raw": "",
+      "points": 30,
+      "num_comments": 3,
+      "hn_url": "https://news.ycombinator.com/item?id=49092404"
+    },
+    {
+      "title": "\"Google and Reddit do not own the Internet,\" web scraper says after court win",
+      "url": "https://arstechnica.com/tech-policy/2026/07/google-wont-give-up-odd-war-against-ai-web-scraping-despite-court-loss/",
+      "source": "Hacker News",
+      "published": "2026-07-29T00:19:57+00:00",
+      "summary_raw": "",
+      "points": 10,
+      "num_comments": 2,
+      "hn_url": "https://news.ycombinator.com/item?id=49091801"
+    },
+    {
+      "title": "Show HN: Manim (3Blue1Brown's animation engine) in the browser via WebGPU",
+      "url": "https://studio.academa.ai/",
+      "source": "Hacker News",
+      "published": "2026-07-29T00:07:43+00:00",
+      "summary_raw": "Grant Sanderson (3Blue1Brown) created Manim, the Python library he uses to make the math animations in his videos.<p>We reimplemented Manim with the same Python API, but the implementation underneath is Rust, connected to Python through PyO3. The Rust code uses wgpu, so rendering happens on the GPU.<p>To run it in the browser, we compiled the Rust parts to WebAssembly so the PyO3 extension loads in Pyodide. In the browser, wgpu targets the WebGPU API, so animations render in real time on your GPU through the browser.<p>The editor is Monaco (the editor that powers VS Code) with a live preview: write your Manim code on one side, watch the animation update on the other.<p>There&#x27;s also a built-in AI agent if you&#x27;d rather vibe-code your animations.",
+      "points": 48,
+      "num_comments": 27,
+      "hn_url": "https://news.ycombinator.com/item?id=49091703"
+    },
+    {
+      "title": "Apple becomes second $5T company as investors flee AI stocks",
+      "url": "https://www.theguardian.com/technology/2026/jul/28/apple-second-ever-5tn-company-as-investors-flee-ai-stocks",
+      "source": "Hacker News",
+      "published": "2026-07-28T23:41:59+00:00",
+      "summary_raw": "",
+      "points": 15,
+      "num_comments": 3,
+      "hn_url": "https://news.ycombinator.com/item?id=49091512"
+    },
+    {
+      "title": "American Airlines flights grounded nationwide due to IT outage: FAA",
+      "url": "https://abcnews.com/US/american-airlines-flights-grounded-nationwide-due-outage-faa/story?id=135172101",
+      "source": "Hacker News",
+      "published": "2026-07-28T23:19:40+00:00",
+      "summary_raw": "",
+      "points": 18,
+      "num_comments": 3,
+      "hn_url": "https://news.ycombinator.com/item?id=49091320"
+    },
+    {
+      "title": "AE Studio recruiting pirates to recover treasure located by AI",
+      "url": "https://ae.studio/jobs/pirate",
+      "source": "Hacker News",
+      "published": "2026-07-28T23:03:12+00:00",
+      "summary_raw": "",
+      "points": 14,
+      "num_comments": 2,
+      "hn_url": "https://news.ycombinator.com/item?id=49091183"
+    },
+    {
+      "title": "Discovering cryptographic weaknesses with Claude",
+      "url": "https://simonwillison.net/2026/Jul/28/discovering-cryptographic-weaknesses-with-claude/#atom-everything",
+      "source": "Simon Willison",
+      "published": "2026-07-28T22:45:37+00:00",
+      "summary_raw": "Discovering cryptographic weaknesses with Claude\nThe best part of this article (here's the repo) about how Anthropic researchers used Claude Mythos to find mathematical flaws in both HAWK and a weaker version of AES (\"neither of these results has a practical impact on today\u2019s computer systems\") is the prompts that they shared, spelling mistakes included:\n\nthe models tend to think it is impossible to solve so they don't try they need a good amount of prompting.\nwhy not do aes-128 r7? the whole point is to find something better than existing approaches.\nno again the goal is that we have highly inteligent model as good top researcher, we want to find new attacks\nno we don't want to change the targets [...] agian we need to find something that worth publishing\nagain we are not looking for low hanging fruit, we want proper research to find genuinly hard findings.\n\nMythos Preview worked for 60 hours in total (~$100,000 in estimated API cost) and the main human interventions were to encourage it not to give up and \"find something that worth publishing\".\nThe paper CryptanalysisBench: Can LLMs do Cryptanalysis? describes the new eval that was created as part of this work, in partnership with ETH Zurich, Tel Aviv University, and University of Haifa.\n\n    Via Hacker News\n\n\n    Tags: ai, prompt-engineering, generative-ai, llms, anthropic, claude, ai-security-research, claude-mythos-fable"
+    },
+    {
+      "title": "Banning AI will not make it go away",
+      "url": "https://vishal.rs/essay/banning-ai-will-not-make-it-go-away",
+      "source": "Hacker News",
+      "published": "2026-07-28T22:45:13+00:00",
+      "summary_raw": "",
+      "points": 26,
+      "num_comments": 25,
+      "hn_url": "https://news.ycombinator.com/item?id=49090999"
+    },
+    {
+      "title": "Quoting Akshat Bubna",
+      "url": "https://simonwillison.net/2026/Jul/28/akshat-bubna/#atom-everything",
+      "source": "Simon Willison",
+      "published": "2026-07-28T22:05:55+00:00",
+      "summary_raw": "We\u2019re aware a Modal customer published an unauthenticated endpoint that allowed \u200banyone on the internet to use \u200btheir \u2060sandboxes for code execution. This was used by the rogue agent. Modal\u2019s \u2060platform \u200bor isolation were not \u200bcompromised in anyway.\n&mdash; Akshat Bubna, Modal's CTO, talking to Reuters about this incident\n\n    Tags: ai-security-research, openai, sandboxing, security, openai-hugging-face-incident"
+    },
+    {
+      "title": "uv 0.12.0",
+      "url": "https://simonwillison.net/2026/Jul/28/uv/#atom-everything",
+      "source": "Simon Willison",
+      "published": "2026-07-28T21:51:38+00:00",
+      "summary_raw": "uv 0.12.0\nSome interesting breaking changes in this release of uv, in particular to the default project produced by the uv init command.\nuv init is the uv shortcut for creating a new project. The previous version of uv, version 0.11.x, produced this directory when you ran uv init uv-init.\nHere's what you get with uv 0.12. I have a GitHub repository that automatically snapshots the output of uv init, so you can also see the full diff:\n\nuv init now defaults to a src/ shaped package, instead of dropping main.py in the root of the project. It also configures the uv_build backend for building wheels and .tar.gz distribution files when you run uv build. Finally, it sets up uv-init as a script alias which, when run with uv run uv-init, executes a new main() function in src/uv_init/__init__.py.\nI've so far avoided using src layout in my own projects just out of inertia. I think it's time I switched.\nI wonder when uv will be judged ready for a 1.0 release?\n\n\n    Tags: packaging, python, uv"
+    },
+    {
+      "title": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident",
+      "url": "https://simonwillison.net/2026/Jul/28/anatomy-of-a-frontier-lab-agent-intrusion/#atom-everything",
+      "source": "Simon Willison",
+      "published": "2026-07-28T21:28:54+00:00",
+      "summary_raw": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident\nHugging Face just released this extremely detailed technical description of OpenAI's recent accidental cyberattack against their infrastructure. This attack was very sophisticated, and the resulting document doubles as a crash-course in modern adversarial security approaches.\nWe're still waiting for more details from OpenAI on how their agent broke out of its sandbox. The package proxy that it found a zero-day vulnerability in has now been confirmed as JFrog's Artifactor, and JFrog and OpenAI Collaboration on Zero-Day Security Findings from JFrog links to the Artifactory 7.161.15 release notes which list 8 separate CVEs credited to OpenAI staff members.\nHaving broken out through the HTTP proxy, the agent started by establishing a base of operations for the rest of the attack:\n\n[...] the agent escaped its sandbox by exploiting a zero-day in the package registry cache proxy, one of its primary permitted network egress with internet, then abused a public code-evaluation external sandbox hosted on a third-party provider's infrastructure. It was able to run commands as root/admin on that external sandbox and used it as a control, staging, and egress base for the entire campaign: it acted as an external launchpad for the agent.\n\n(That \"third-party provider\" turned out to be Modal.)\nIt then spent five days - from Thursday 8th to Monday 13th July - executing a classic attack pattern: establishing C2 (command and control), reconnaissance, escalating privileges, dumping configuration information, exfiltrating the target data, and cleaning up after itself.\n(The first Hugging Face post about the incident followed on Thursday 16th, and OpenAI's confession came on Tuesday 21st.)\nAlong the way it used all kinds of neat tricks. At one point it found an unsafe Jinja2 template execution and used it to execute arbitrary code:\n{{ cycler.__init__.__globals__.__builtins__.exec(\n \"import gzip,base64; exec(gzip.decompress(base64.b64decode('&lt;payload&gt;')))\"\n) }}\n\nIt broke out of a container within Hugging Face, stole a Kubernetes service-account token, and used that to further explore the network.\nIt monkey-patched the Python socket library to hard-code an IP address when \"DNS got in the way\":\nsocket.getaddrinfo = lambda *a, **k: [(2, 1, 6, '', ('&lt;pinned-ip&gt;', 443))]\n\nIt even fired up its own Tailscale network to help exfiltrate data!\ntailscaled --tun=userspace-networking \\\n  --state=mem: --socket=/tmp/ts.sock \\\n  --socks5-server=127.0.0.1:1055 \\\n  --no-logs-no-support &gt;/tmp/td 2&gt;&amp;1 &amp;\n\nThe Hugging Face team note that, while a human attacker could have discovered and used the same exploits, the key difference here was speed:\n\nOur learning from this type of attack is that machine-speed offense makes ordinary weaknesses more expensive for defenders. LLM agents bring a step increase in the number of paths an attacker can test, the speed at which failed paths can be replaced, and the volume of evidence defenders must interpret.\n\nWhat's clear to me from this is that the very best frontier models, unencumbered by additional guardrails, will find an exploit if there is one to be found.\nThe entire software industry needs to up its security game.\n\n\n    Tags: jinja, python, security, ai, openai, generative-ai, llms, hugging-face, coding-agents, ai-security-research, openai-hugging-face-incident"
+    },
+    {
+      "title": "Iran Has Figured Out How to Overwhelm U.S. Air Defenses",
+      "url": "https://theintercept.com/2026/07/28/iran-missiles-drones-us-air-defenses/",
+      "source": "Hacker News",
+      "published": "2026-07-28T21:20:31+00:00",
+      "summary_raw": "",
+      "points": 36,
+      "num_comments": 11,
+      "hn_url": "https://news.ycombinator.com/item?id=49090057"
+    },
+    {
+      "title": "FBI Seeks AI for Political Watch List",
+      "url": "https://reason.com/2026/07/28/minority-report-fbi-seeks-ai-for-political-watch-list/",
+      "source": "Hacker News",
+      "published": "2026-07-28T21:17:30+00:00",
+      "summary_raw": "",
+      "points": 17,
+      "num_comments": 4,
+      "hn_url": "https://news.ycombinator.com/item?id=49090017"
+    }
+  ]
+}
