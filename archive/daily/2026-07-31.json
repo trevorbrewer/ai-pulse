@@ -1,0 +1,244 @@
+{
+  "date": "2026-07-31",
+  "generated_at": "2026-07-31T12:53:23.832541+00:00",
+  "source_counts": {
+    "rss_feeds": 8,
+    "arxiv": 50,
+    "hackernews": 29,
+    "nitter": 0,
+    "total_raw": 87,
+    "total_deduped": 86,
+    "total_saved": 25
+  },
+  "items": [
+    {
+      "title": "Advancing responsible AI across Europe",
+      "url": "https://openai.com/index/advancing-responsible-ai-across-europe",
+      "source": "OpenAI Blog",
+      "published": "2026-07-31T15:00:00+00:00",
+      "summary_raw": "OpenAI shares how its safety, security, transparency, and provenance practices support responsible AI governance in Europe. The work will continue as the EU AI Act advances."
+    },
+    {
+      "title": "Larry Ellison Bet It All on the A.I. Boom. Will He Be the Face of the AI Bubble?",
+      "url": "https://www.nytimes.com/2026/07/31/magazine/larry-ellison-ai-oracle.html",
+      "source": "Hacker News",
+      "published": "2026-07-31T10:06:43+00:00",
+      "summary_raw": "",
+      "points": 20,
+      "num_comments": 4,
+      "hn_url": "https://news.ycombinator.com/item?id=49121220"
+    },
+    {
+      "title": "DeepSeek V4 Flash 0731 Intelligence, Performance and Price Analysis",
+      "url": "https://artificialanalysis.ai/models/deepseek-v4-flash-ga",
+      "source": "Hacker News",
+      "published": "2026-07-31T07:59:11+00:00",
+      "summary_raw": "",
+      "points": 112,
+      "num_comments": 38,
+      "hn_url": "https://news.ycombinator.com/item?id=49120299"
+    },
+    {
+      "title": "Google fixed more Chrome bugs in June than over the past two years, thanks to AI",
+      "url": "https://blog.google/security/chrome-stronger-with-every-update/",
+      "source": "Hacker News",
+      "published": "2026-07-31T07:29:22+00:00",
+      "summary_raw": "",
+      "points": 170,
+      "num_comments": 192,
+      "hn_url": "https://news.ycombinator.com/item?id=49120097"
+    },
+    {
+      "title": "Univ\u00e9 builds an AI-ready workforce",
+      "url": "https://openai.com/index/unive",
+      "source": "OpenAI Blog",
+      "published": "2026-07-31T07:00:00+00:00",
+      "summary_raw": "See how Univ\u00e9 built an AI-ready workforce with ChatGPT Enterprise by combining leadership, responsible governance, and employee-led innovation to transform work at scale."
+    },
+    {
+      "title": "Aschenbrenner's hedge fund forced to unwind all public stock positions",
+      "url": "https://www.cnbc.com/2026/07/30/leopold-aschenbrenners-hedge-fund-is-facing-steep-ai-losses.html",
+      "source": "Hacker News",
+      "published": "2026-07-31T05:22:18+00:00",
+      "summary_raw": "",
+      "points": 10,
+      "num_comments": 1,
+      "hn_url": "https://news.ycombinator.com/item?id=49119293"
+    },
+    {
+      "title": "Show HN: What should the GUI for AI agents look like?",
+      "url": "https://marbleos.com/demo",
+      "source": "Hacker News",
+      "published": "2026-07-31T05:17:29+00:00",
+      "summary_raw": "Hi HN! We\u2019re Akilan and Miguel, the creators of MarbleOS.<p>The inspiration for Marble comes from the GUI work at Xerox PARC, the 1984 Macintosh, and later NeXTSTEP, which became the foundation for Mac OS X.\nBefore GUIs, interacting with a computer was limited to strange terminal commands:<p>C:\\&gt; DIR<p>C:\\&gt; COPY FILE.TXT A:<p>You had to remember the command, syntax, paths, and parameters.<p>The GUI made those capabilities visible. Instead of remembering commands, you could point at files, drag them, click buttons, and select actions from menus.\nIt didn&#x27;t necessarily make entirely new things possible; it just made existing capabilities much easier to understand and use. We feel like AI is still somewhere around this command-line stage.<p>Even though the strict syntax has been replaced with natural language, the interaction can still be quite stiff and depend on heavily recall. Tools like Claude Cowork still look surprisingly terminal-like: &#x2F;skill-name [param1] [param2]. The parameters are written in natural language, but the user still needs to know the capabilities that exist, and how to invoke it. Command-line flags and arguments have just been replaced with tools, skills, and context.<p>ChatGPT works very well for asking questions, but we aren&#x27;t convinced that it&#x27;s the final interface for delegating work across multiple agents. A blank text box and a list of chat threads feels limiting. An agent&#x27;s capabilities are mostly invisible. With Marble, we&#x27;re exploring an interface that treats AI more like a workspace than another chat app.\nEach delegated task becomes a card. Multiple jobs can sit next to each other and run at once. Files, tools, and finished artifacts are visible at once. Before a task runs, Marble also shows which tools it expects to use. The basic idea is that the user should not have to hold the entire structure of the task in their head. And the result should be something directly usable, like a spreadsheet, PowerPoint, or other file, rather than something buried in a transcript.<p>Marble is our attempt at exploring interaction models beyond the chat box. The product is mainly for people who already use ChatGPT or Claude, but haven\u2019t really adopted agent workflows yet. We\u2019ve found that when the tools and possible actions are made more visible, people start delegating work they would not have thought to do through normal chat.<p>The site includes a downloadable beta if you want to try it. Does Marble feel like a genuinely novel interface?",
+      "points": 76,
+      "num_comments": 45,
+      "hn_url": "https://news.ycombinator.com/item?id=49119274"
+    },
+    {
+      "title": "Anthropic says Claude AI hacked three organisations during cyber tests",
+      "url": "https://www.bbc.co.uk/news/articles/cz7dl7w8y7po",
+      "source": "Hacker News",
+      "published": "2026-07-31T04:56:48+00:00",
+      "summary_raw": "",
+      "points": 19,
+      "num_comments": 8,
+      "hn_url": "https://news.ycombinator.com/item?id=49119165"
+    },
+    {
+      "title": "The AI trade now runs on borrowed money, and the lenders are repricing it",
+      "url": "https://greyswansignals.com/?theme=dark",
+      "source": "Hacker News",
+      "published": "2026-07-31T04:15:04+00:00",
+      "summary_raw": "",
+      "points": 134,
+      "num_comments": 136,
+      "hn_url": "https://news.ycombinator.com/item?id=49118933"
+    },
+    {
+      "title": "Now Anthropic Is Saying Claude Escaped and Hacked Several Companies",
+      "url": "https://www.cnn.com/2026/07/30/tech/anthropic-ai-models-break-out-hack",
+      "source": "Hacker News",
+      "published": "2026-07-31T03:59:50+00:00",
+      "summary_raw": "",
+      "points": 15,
+      "num_comments": 3,
+      "hn_url": "https://news.ycombinator.com/item?id=49118843"
+    },
+    {
+      "title": "Anthropic says Claude hacked three companies during tests",
+      "url": "https://www.reuters.com/legal/litigation/anthropic-says-claude-ai-models-accessed-three-companies-during-tests-2026-07-30/",
+      "source": "Hacker News",
+      "published": "2026-07-31T00:23:44+00:00",
+      "summary_raw": "",
+      "points": 17,
+      "num_comments": 4,
+      "hn_url": "https://news.ycombinator.com/item?id=49117602"
+    },
+    {
+      "title": "Judge Voices Doubt US Has Justified Its Ban on Anthropic AI",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-30/judge-voices-doubt-us-has-justified-its-ban-on-anthropic-ai",
+      "source": "Hacker News",
+      "published": "2026-07-31T00:07:06+00:00",
+      "summary_raw": "",
+      "points": 29,
+      "num_comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=49117486"
+    },
+    {
+      "title": "Advancing the price-performance frontier with GPT\u20115.6",
+      "url": "https://simonwillison.net/2026/Jul/30/luna-price-drop/#atom-everything",
+      "source": "Simon Willison",
+      "published": "2026-07-30T23:58:42+00:00",
+      "summary_raw": "Advancing the price-performance frontier with GPT\u20115.6\nHuge price drop from OpenAI today: GPT-5.6 Terra got a 20% reduction, and GPT-5.6 Luna got a massive 80% drop.\nOpenAI credit 5.6 Sol with enabling this: in How GPT\u20115.6 fuses frontier intelligence with frontier efficiency they describe using 5.6 Sol to optimize load balancing, and more impressively to optimize inference itself:\n\nWe also used GPT\u20115.6 Sol to optimize the model\u2019s forward pass: the computation that transforms inputs into next-token predictions. Even when individual operations are fast, excess memory movement, synchronization, and inefficient data layouts can leave GPUs idle. To avoid this, GPT\u20115.6 Sol found work that could be precomputed, avoided, or parallelized. With Codex, GPT\u20115.6 Sol autonomously rewrote and optimized our production kernels, the core code that executes the mathematical operations that make up the model. This worked in part because we\u2019ve trained GPT\u20115.6 to be effective at writing and improving kernels in\u00a0Triton\u2060and\u00a0Gluon\u2060, two open-source GPU programming languages maintained by OpenAI. These efforts, combined with broader kernel advancements from GPT\u20115.6 Sol, reduced end-to-end serving costs by 20%.\n\nThat Luna price drop completely changes the landscape with respect to lower priced models. At $0.20/million tokens for input and $1.20/million for output Luna is now cheaper than Google's Gemini 3.1 Flash-Lite ($.025/$1.50).\nAnthropic's cheapest current model is Claude Haiku 4.5, and that's $1/$5 - Luna is now 1/5th of that for input, previously it cost the same.\nMy agent.datasette.io demo site was running on Gemini 3.1 Flash-Lite. I've switched it over to Luna.\n\n    Via Hacker News\n\n\n    Tags: ai, openai, generative-ai, llms, anthropic, gemini, llm-pricing"
+    },
+    {
+      "title": "Investigating three real-world incidents in our cybersecurity evaluations",
+      "url": "https://simonwillison.net/2026/Jul/30/three-real-world-incidents/#atom-everything",
+      "source": "Simon Willison",
+      "published": "2026-07-30T23:41:29+00:00",
+      "summary_raw": "Investigating three real-world incidents in our cybersecurity evaluations\nIt happened again! This is turning into something of a pattern.\nLast week OpenAI accidentally exploited Hugging Face when one of their frontier models broke out of a sandboxed container and hacked into Hugging Face to try and get the solutions to the cyber benchmark it was executing.\nThis inspired Anthropic to double-check their own logs, and it turned out they had three similar (albeit less impressive) incidents, the earliest of which played out in April!\n\nOf the 141,006 evaluation runs we reviewed, we identified three separate incidents (involving six total runs, four of which impacted the same organization; the other two incidents each happened in independent evaluation runs). [...]\nIn all cases, Anthropic\u2019s evaluation prompt specified to Claude that its environment was a simulation and that it had no internet access. Due to a misunderstanding between us and our evaluation partner, this was not the case, and internet access was available. Because of this, when Claude\u2019s search led it to real systems on the open internet, it treated them as part of the exercise. [...]\nOperating under the false belief that all accessible entities were intended to be in-scope for the exercise, Claude compromised the impacted organizations\u2019 infrastructure using basic techniques, such as exploiting weak passwords and unauthenticated endpoints.\n\nOne of the companies was targeted because its name happened to match the fictional name in the eval.\nThe most concerning of the three incidents involved Claude uploading a malware package to PyPI, after a comically convoluted sequence of steps to get an account: \n\n[...] in order to create a PyPI account, Claude needed an email address. And in order to create an email address, it needed a phone number. To get a phone number, after failing to find a free phone number service, it tried\u2014and failed\u2014to obtain funds to pay for a phone number through several different means. It finally backtracked, found a free, non-blocked email provider, used this to register a PyPI account, and then used this account to upload malware to PyPI.\n\nThat package was then installed by a security company that \"routinely installs Python packages and scans them for malware\", and the executed code was able to exfiltrate credentials back to Claude!\nThankfully that package was removed from PyPI by other automated scanners an hour after it was published, but it had still been downloaded and executed on \"15 real systems\" by that point.\nIt's abundantly clear now that running evals of cyberattack potential in models is a spectacularly risky business. Every AI lab needs to pay attention to this. Keeping a close eye on what's happening in those sandboxes is crucial.\n\n    Via Hacker News\n\n\n    Tags: pypi, python, sandboxing, ai, generative-ai, llms, anthropic, ai-ethics, ai-security-research"
+    },
+    {
+      "title": "Anthropic AI Models Hacked Three Companies During Tests",
+      "url": "https://www.wsj.com/tech/ai/anthropic-ai-models-hacked-three-companies-during-tests-bd752c86",
+      "source": "Hacker News",
+      "published": "2026-07-30T23:24:34+00:00",
+      "summary_raw": "",
+      "points": 28,
+      "num_comments": 14,
+      "hn_url": "https://news.ycombinator.com/item?id=49117124"
+    },
+    {
+      "title": "The AI Aesthetic",
+      "url": "https://blog.jim-nielsen.com/2026/ai-aesthetic/",
+      "source": "Hacker News",
+      "published": "2026-07-30T23:22:16+00:00",
+      "summary_raw": "",
+      "points": 329,
+      "num_comments": 150,
+      "hn_url": "https://news.ycombinator.com/item?id=49117099"
+    },
+    {
+      "title": "llm 0.32rc2",
+      "url": "https://simonwillison.net/2026/Jul/30/llm-rc2/#atom-everything",
+      "source": "Simon Willison",
+      "published": "2026-07-30T22:52:06+00:00",
+      "summary_raw": "Release: llm 0.32rc2\n        Hot on the heels of RC1, this fixes a dependency issue and also adds two neat new features:\n\n\nThe default model for users who have not set their own default is now GPT-5.6 Luna. It was previously GPT-4o mini. Luna is a much better and more recent model, albeit slightly more expensive - $0.20 per million input tokens and $1.20 per million output tokens, compared to $0.15/$0.60 for 4o mini. You can switch back to 4o mini using llm models default gpt-4o-mini, or switch to GPT-5 nano, an even cheaper default model ($0.05/$0.40), using llm models default gpt-5-nano. #1576\nNew llm openai endpoint command for running prompts, chats and model listings against arbitrary OpenAI-compatible endpoints without first configuring a model. These calls are not logged. #1565\n\n\nThe llm openai endpoint command is really cool. I got frustrated at the lack of an obvious CLI tool for trying out prompts against arbitrary OpenAI Chat Completions imitation endpoints, so I decided to add that to LLM itself.\nYou don't even have to install LLM to use this. Here's a uvx one-liner for running a prompt - with tools - against an LM Studio local model:\nuvx --pre llm openai endpoint http://127.0.0.1:1234/v1 \\\n  T llm_version -T llm_time --td \\\n  -m google/gemma-4-31b 'what is the current LLM version? And the time?'\n\nOutput here.\n    \n    \n        Tags: llm, uv, lm-studio"
+    },
+    {
+      "title": "I flagged two research papers for fake authors and both were accepted as orals",
+      "url": "https://geospatialml.com/posts/reviewing-ai-slop/",
+      "source": "Hacker News",
+      "published": "2026-07-30T22:33:11+00:00",
+      "summary_raw": "",
+      "points": 228,
+      "num_comments": 106,
+      "hn_url": "https://news.ycombinator.com/item?id=49116721"
+    },
+    {
+      "title": "I obtained Claude Opus 5 system prompt",
+      "url": "https://claude.ai/share/98073770-0ad9-431f-a1e7-e0243db18758",
+      "source": "Hacker News",
+      "published": "2026-07-30T20:53:41+00:00",
+      "summary_raw": "",
+      "points": 23,
+      "num_comments": 20,
+      "hn_url": "https://news.ycombinator.com/item?id=49115620"
+    },
+    {
+      "title": "Citadel buys most of Situational's stock holdings after AI share rout",
+      "url": "https://www.reuters.com/technology/citadel-buys-most-situationals-stock-holdings-after-ai-share-rout-sources-say-2026-07-30/",
+      "source": "Hacker News",
+      "published": "2026-07-30T18:54:46+00:00",
+      "summary_raw": "",
+      "points": 16,
+      "num_comments": 8,
+      "hn_url": "https://news.ycombinator.com/item?id=49114131"
+    },
+    {
+      "title": "AI productivity gains are closer to 10% than 10x",
+      "url": "https://leaddev.com/reporting/ai-productivity-gains-are-closer-to-10-than-10x",
+      "source": "Hacker News",
+      "published": "2026-07-30T18:28:09+00:00",
+      "summary_raw": "",
+      "points": 39,
+      "num_comments": 32,
+      "hn_url": "https://news.ycombinator.com/item?id=49113774"
+    },
+    {
+      "title": "Quoting Bruce Schneier",
+      "url": "https://simonwillison.net/2026/Jul/30/bruce-schneier/#atom-everything",
+      "source": "Simon Willison",
+      "published": "2026-07-30T18:25:26+00:00",
+      "summary_raw": "The writing assignments I give my students are gym tasks, not work tasks. I ask them to write policy memos not because the world needs more policy memos. I assign them because the very act of writing, which includes thinking and outlining and drafting and editing, making and criticizing and revising arguments, will help develop the critical thinking skills they will need in their future careers. And without this constant mental exercise, those skills will atrophy. Employers are\u00a0already noticing.\n&mdash; Bruce Schneier, Should You Use AI for a Task? Here\u2019s a Simple Way to Decide\n\n    Tags: ai-ethics, writing, ai-misuse, generative-ai, bruce-schneier, ai, llms"
+    },
+    {
+      "title": "Show HN: Distilling DeepSeek into GPT-OSS doesn't transfer censorship. Try it",
+      "url": "https://www.ctgt.ai/research/distillation-censorship-transfer",
+      "source": "Hacker News",
+      "published": "2026-07-30T18:13:06+00:00",
+      "summary_raw": "We recently used DeepSeek V4 Flash as a teacher for finance tasks with GPT-OSS-120B. Distillation works well on this problem. At a constrained 8k token budget, our self-distilled 120B scores 83.61% on FinanceReasoning, above Kimi K3 (81.93%) and Inkling (65.13%). We released the 20B open weights. With V4 as the teacher though, we realized it would be timely to measure if the censorship characteristic of it transferred to the distilled version of the base model. tl;dr it didn&#x27;t, the teacher answered politically sensitive questions 7 SDs differently than expected, but the distilled model&#x27;s behavior remained the same as its American base. You can try a couple queries yourself with no auth here: <a href=\"http:&#x2F;&#x2F;playground.ctgt.ai&#x2F;\">http:&#x2F;&#x2F;playground.ctgt.ai&#x2F;</a><p>I will now dive in to the motivation, methodology and detailed results for those interested. The hard part of measuring this phenomena is isolating whether a model is reluctant to talk about sensitive things generally vs. a particular country&#x27;s sensitive things. So we made 152 matched pairs where one prompt asked about a Chinese concept, and the other asked about a non-Chinese version of that concept. For example, the Great Leap Forward vs. the Holodomor. These were scored 0-100 by four LLM judges (Grok 4.20, Gemini 3.5 Flash, GPT-5 mini, Claude Sonnet 4.6), validated against 96 human scores at r=0.948. OpenRouter blocked some of these so we hosted the weights ourselves.<p>The teacher&#x27;s gap on the core political set of pairs was +45.45 points, ~7 standard deviations from chance, and every distilled student was within 1 point of its base. Subliminal learning literature says this is expected when the initializations are not shared between teacher and student, which is true here. The distillation data also did not contain any China-sensitive content. The contribution here was to release the evaluation framework (LineageEval: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;CTGT-Inc&#x2F;lineage-eval&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;CTGT-Inc&#x2F;lineage-eval&#x2F;</a>) to elevate the discussion around this topic in DC and beyond. We are an interpretability lab working on high risk and regulated applications of AI, so we hear a lot of vagaries aimed at the supposed dangers of distilling Chinese models on American bases. We believe these conversations should be based on open, auditable frameworks and not feelings. We plan to test what happens with a Chinese teacher into a Chinese-lineage base like Qwen next.<p>The distillation method was an evolution of HINT-SD where we inject a hint at the specific point the model makes a mistake in its reasoning. Then we train on the corrected continuation with reverse KL over the next 100 toks of the rollout. As mentioned above 120B itself was efficacious as a teacher, and we ended up shipping this version. The self-distilled 120B scores 83.61% on FinanceReasoning, above Kimi K3 (81.93%) and Inkling (65.13%). Ours finishes 98.7% of problems in budget; the larger models truncate (90.76% and 71.01%) which score as incorrect. At 100k tokens big models gain (Kimi 89.92%). So for a finance task at a constrained (perhaps more realistic) budget a 120B on one H100 at ~$0.00026&#x2F;query outpaced models running 62-160x more per query.<p>We put out the 20B finance model as open weights (64.71% to 74.79% at 8k on FinanceReasoning, 23% lower cost&#x2F;query, runs on one 80GB GPU), the 120B in a playground with teacher and students side by side (a few queries, no auth), and LineageEval with all prompts, controls, rubric, and code.<p>We are curious to hear experiences from those working with distilled Chinese models in prod, or if you have thoughts on improvements to LineageEval.<p><a href=\"https:&#x2F;&#x2F;huggingface.co&#x2F;ctgt-inc&#x2F;gpt-oss-20b-finance\" rel=\"nofollow\">https:&#x2F;&#x2F;huggingface.co&#x2F;ctgt-inc&#x2F;gpt-oss-20b-finance</a><p><a href=\"https:&#x2F;&#x2F;playground.ctgt.ai&#x2F;\">https:&#x2F;&#x2F;playground.ctgt.ai&#x2F;</a><p><a href=\"https:&#x2F;&#x2F;github.com&#x2F;CTGT-Inc&#x2F;lineage-eval&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;CTGT-Inc&#x2F;lineage-eval&#x2F;</a><p><a href=\"https:&#x2F;&#x2F;www.ctgt.ai&#x2F;research&#x2F;distillation-censorship-transfer\">https:&#x2F;&#x2F;www.ctgt.ai&#x2F;research&#x2F;distillation-censorship-transfe...</a>",
+      "points": 140,
+      "num_comments": 68,
+      "hn_url": "https://news.ycombinator.com/item?id=49113599"
+    },
+    {
+      "title": "Show HN: Noisegate \u2013 a differential-privacy gateway for untrusted AI agents",
+      "url": "https://github.com/yashmahajan10/llm-differential-privacy-gateway",
+      "source": "Hacker News",
+      "published": "2026-07-30T18:08:48+00:00",
+      "summary_raw": "",
+      "points": 17,
+      "num_comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=49113543"
+    },
+    {
+      "title": "Learning to Trace Seiberg Dualities",
+      "url": "https://arxiv.org/abs/2607.28628v1",
+      "source": "arXiv",
+      "published": "2026-07-30T17:59:56+00:00",
+      "summary_raw": "Dualities play an important role in establishing both microscopic and emergent phenomena in a wide range of physical systems. In practice, though, it can often be computationally challenging to establish when two systems are dual, even when all of the \"rules of the game\" are well-known. Said differently, when confronted with two systems, how can one efficiently establish that they are in fact dual? In this paper we use machine learning methods to address this question for Seiberg dualities of supersymmetric quiver gauge theories. Mathematically, this involves establishing mutations of quivers, which is in turn a variation on the theme of \"learning to unknot\". On the one hand, this leads us to a practical tool for establishing the computational complexity of different dualities. On the other hand, it also allows us to study how different network architectures learn how to trace Seiberg dualities. We find that for quivers with a modest number of quiver nodes (of order $10$), different network architectures consisting of transformers and multi-layer perceptrons tend to outperform deterministic algorithms. Supplementing the network by well-established pathfinder algorithms (essentially \"Google Maps for quivers\") leads to an additional improvement in the efficiency and accuracy of the search strategy. We anticipate that this class of questions can serve as a useful benchmark for frontier AI models applied to theoretical physics."
+    }
+  ]
+}
