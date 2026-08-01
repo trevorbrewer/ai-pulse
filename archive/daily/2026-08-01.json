@@ -1,0 +1,247 @@
+{
+  "date": "2026-08-01",
+  "generated_at": "2026-08-01T12:00:43.676285+00:00",
+  "source_counts": {
+    "rss_feeds": 9,
+    "arxiv": 0,
+    "hackernews": 25,
+    "nitter": 0,
+    "total_raw": 34,
+    "total_deduped": 34,
+    "total_saved": 25
+  },
+  "items": [
+    {
+      "title": "EU will mandate labels on authentic-looking AI content starting August 2",
+      "url": "https://www.engadget.com/2227966/eu-mandate-labels-on-authentic-looking-ai-content/",
+      "source": "Hacker News",
+      "published": "2026-08-01T08:26:55+00:00",
+      "summary_raw": "",
+      "points": 57,
+      "num_comments": 71,
+      "hn_url": "https://news.ycombinator.com/item?id=49132341"
+    },
+    {
+      "title": "Google Just Ruined One of Its Most Important Tools",
+      "url": "https://www.theatlantic.com/technology/2026/07/google-earth-ai-images/688145/",
+      "source": "Hacker News",
+      "published": "2026-08-01T08:06:37+00:00",
+      "summary_raw": "",
+      "points": 10,
+      "num_comments": 3,
+      "hn_url": "https://news.ycombinator.com/item?id=49132205"
+    },
+    {
+      "title": "AI doesn't generate working products, that's still your job",
+      "url": "https://weeraman.com/the-prototype-isnt-the-product/",
+      "source": "Hacker News",
+      "published": "2026-08-01T07:52:10+00:00",
+      "summary_raw": "",
+      "points": 161,
+      "num_comments": 129,
+      "hn_url": "https://news.ycombinator.com/item?id=49132130"
+    },
+    {
+      "title": "AI broke writing as proof-of-thought",
+      "url": "https://hereisyourbrain.substack.com/p/ai-generated-content-mind-virus",
+      "source": "Hacker News",
+      "published": "2026-08-01T02:55:00+00:00",
+      "summary_raw": "",
+      "points": 10,
+      "num_comments": 2,
+      "hn_url": "https://news.ycombinator.com/item?id=49130644"
+    },
+    {
+      "title": "Flint: A Visualization Language for the AI Era",
+      "url": "https://microsoft.github.io/flint-chart/",
+      "source": "Hacker News",
+      "published": "2026-08-01T02:45:09+00:00",
+      "summary_raw": "",
+      "points": 142,
+      "num_comments": 50,
+      "hn_url": "https://news.ycombinator.com/item?id=49130604"
+    },
+    {
+      "title": "Ten advances in mathematics and theoretical computer science",
+      "url": "https://openai.com/index/ten-advances-in-mathematics",
+      "source": "OpenAI Blog",
+      "published": "2026-08-01T00:00:00+00:00",
+      "summary_raw": "OpenAI shares new results on long-standing open problems in mathematics and theoretical computer science, including advances in geometry, cryptography, and complexity."
+    },
+    {
+      "title": "deepseek-ai/DeepSeek-V4-Flash-0731",
+      "url": "https://simonwillison.net/2026/Jul/31/deepseek-v4-flash-0731/#atom-everything",
+      "source": "Simon Willison",
+      "published": "2026-07-31T23:59:44+00:00",
+      "summary_raw": "deepseek-ai/DeepSeek-V4-Flash-0731\nThe latest release in DeepSeek's V4 family, \"with substantially enhanced agentic capabilities\". It's 304 billion parameters - 167GB on Hugging Face - but it appears to punch well above its weight.\nArtificial Analysis rank it ahead of MiniMax M3 - a 428B model. It's $0.14/million input and $0.27/million output pricing means this may currently be the best value-per-intelligence model out there. It's looking very good on the Intelligence Index vs. Cost per Intelligence Index Task chart:\n\nI got a disappointing pelican from it using the default reasoning level via OpenRouter:\n\nBut when I bumped reasoning level up to high I got something much better:\nllm -m openrouter/deepseek/deepseek-v4-flash-0731 -t pelican -o reasoning_effort high\n\n\n    Via Hacker News\n\n\n    Tags: ai, generative-ai, llms, pelican-riding-a-bicycle, deepseek, llm-release, openrouter, ai-in-china, artificial-analysis"
+    },
+    {
+      "title": "Zitron: \"Everyone Has Been Sold a Lie\" on AI [video]",
+      "url": "https://www.youtube.com/watch?v=pHcZpvIfho0",
+      "source": "Hacker News",
+      "published": "2026-07-31T23:31:39+00:00",
+      "summary_raw": "",
+      "points": 19,
+      "num_comments": 5,
+      "hn_url": "https://news.ycombinator.com/item?id=49129678"
+    },
+    {
+      "title": "Stateless MCP has recaptured my interest (and inspired mcp-explorer and datasette-mcp)",
+      "url": "https://simonwillison.net/2026/Jul/31/stateless-mcp/#atom-everything",
+      "source": "Simon Willison",
+      "published": "2026-07-31T23:13:22+00:00",
+      "summary_raw": "Tuesday was Stateless MCP day - the rollout of MCP 2.0, or the 2026-07-28 Model Context Protocol specification to use the more formal but less memorable name. This is the most significant change to the MCP spec since it first launched, and has also served to reignite my personal interest in the protocol.\nFor background: MCP is the Model Context Protocol, which describes a standard way to expose new tools to LLM-powered agent frameworks. It was introduced by Anthropic back in November 2024, had a huge spike of interest through much of 2025, and then became somewhat eclipsed by Skills (another Anthropic invention) when it became apparent that an agent harness with access to a terminal and curl could do most of what MCP did in a more flexible way. I wrote about that in my review of 2025.\nI'm coming back around to MCP now. Giving an agent a shell environment with the ability to access the internet is fraught with risk, and requires a strong model that is capable of effectively driving such an environment. MCP tools are easier to audit and control, and simple enough that smaller models that run on a laptop can still drive them reasonably well.\nThe new stateless MCP specification also greatly decreases the complexity of implementing both clients and servers for the protocol. I built three of those this week!\nWhat's easier with stateless MCP\nThe best demonstration of the difference between stateful and stateless MCP is in this May 21st blog post that introduced the RC for the new specification. It included a clear before-and-after example.\nThe older stateful MCP (I'm going to call it \"legacy MCP\") required two HTTP requests - the first to initialize a session and obtain a Mcp-Session-Id, and the second to actually call the tool:\nPOST /mcp HTTP/1.1\nContent-Type: application/json\n\n{\n  \"jsonrpc\": \"2.0\",\n  \"id\": 1,\n  \"method\": \"initialize\",\n  \"params\": {\n    \"protocolVersion\": \"2025-11-25\",\n    \"capabilities\": {\n    },\n    \"clientInfo\": {\n      \"name\": \"my-app\",\n      \"version\": \"1.0\"\n    }\n  }\n}\n\nPOST /mcp HTTP/1.1\nMcp-Session-Id: 1868a90c-3a3f-4f5b\nContent-Type: application/json\n\n{\n  \"jsonrpc\": \"2.0\",\n  \"id\": 2,\n  \"method\": \"tools/call\",\n  \"params\": {\n    \"name\": \"search\",\n    \"arguments\": {\n      \"q\": \"otters\"\n    }\n  }\n}\n\nThe new stateless way uses a single HTTP request which looks like this:\nPOST /mcp HTTP/1.1\nMCP-Protocol-Version: 2026-07-28\nMcp-Method: tools/call\nMcp-Name: search\nContent-Type: application/json\n\n{\n  \"jsonrpc\": \"2.0\",\n  \"id\": 1,\n  \"method\": \"tools/call\",\n  \"params\": {\n    \"name\": \"search\",\n    \"arguments\": {\n      \"q\": \"otters\"\n    },\n    \"_meta\": {\n      \"io.modelcontextprotocol/clientInfo\": {\n        \"name\": \"my-app\",\n        \"version\": \"1.0\"\n      }\n    }\n  }\n}\n\nThis is so much cleaner from both a client- and server-side implementation perspective. It's also a better fit for building scalable web applications, since now you don't need to maintain server-side state to keep track of those session IDs, or worry about routing the same session to the same backend machine.\nmcp-explorer\nI couldn't find a great CLI tool for interactively probing an MCP server, so I had Codex help build my own.\nmcp-explorer is the result. It's a stateless Python CLI tool, so you don't even need to install it to try it out - it works with uvx like this:\nuvx mcp-explorer list https://agentic-mermaid.dev/mcp\nThis queries Ade Oshineye's agentic-mermaid.dev demo MCP. The above command returns the following list of tools:\nexecute(code: string, timeoutMs?: integer) - Execute Mermaid SDK code\n  Run JavaScript in an isolated sandbox; return a value.\n\ndescribe_sdk(family: string, detail?: string) - Describe Mermaid SDK operations\n  Return version-matched mutation operations for one diagram family.\n\nrender_svg(source: string, options?: object) - Render Mermaid as SVG\n  Render a Mermaid source string to themeable SVG. Returns { ok, svg }.\n\nrender_ascii(source: string, useAscii?: boolean, targetWidth?: integer, options?: object) - Render Mermaid as text\n  Render a Mermaid source string to text. Returns { ok, text }.\n\nrender_png(source: string, scale?: number, background?: string, fitTo?: object, options?: object) - Render Mermaid as PNG\n  Rasterize a Mermaid source string to PNG. Returns { ok, png_base64 }.\n...\n\nThen to inspect a tool:\nuvx mcp-explorer inspect render_svg\nThis outputs a whole bunch of information, including the JSON schema of the inputs and outputs.\nTo call that tool and pass arguments to it:\nuvx mcp-explorer call \\\n  https://agentic-mermaid.dev/mcp \\\n  render_svg \\\n  -a source 'graph TD; A--&gt;B' \\\n  -a options '{\"padding\":24}'\nWhich returns:\n{\"ok\":true,\"svg\":\"&lt;svg xmlns=\\\"http://www.w3.org/2000/svg\\\" width=...\n\nTo get just the raw SVG try adding | jq .svg -r to that command. I got back this image:\n\nThere are a few more commands in the README, but you get the general idea. I find building CLI tools like this to be a really productive way to get familiar with a specification, even if an agent writes most of the actual code.\ndatasette-mcp\nThe second project is datasette-mcp, a Datasette plugin which adds a /-/mcp endpoint to any Datasette instance.\nThis is probably the fourth time I've tried building this plugin, but thanks to the new stateless MCP specification I finally have a version that feels good to release.\nIt provides just three tools: list_databases(), get_database_schema(database_name), and execute_sql(database_name, sql). They do exactly what you would expect them to do - though execute_sql() is read-only for the moment.\nWire these into an agent, or a chat tool like ChatGPT or Claude, and they'll gain the ability to run SQL queries against your hosted Datasette instance.\nSo far I'm running it on the Datasette mirror of my blog, at datasette.simonwillison.net/-/mcp. It took a bit of fiddling to figure out how to attach that to ChatGPT and Claude, but I got there in the end. Here's a new TIL showing exactly how to do that.\nHere's a shared Claude session where I asked it:\n\nlist tables in simonwillison.net\n\nAnd then:\n\nwhat has Simon said recently about MCP?\n\nIt ran 7 separate SQL queries to figure out the answer.\nllm-mcp-client\nMy LLM tool is long overdue for an official MCP integration. The new alpha llm-mcp-client plugin is my attempt at exactly that:\nllm install llm-mcp-client\nllm -T 'MCP(\"https://datasette.simonwillison.net/-/mcp\")' 'count the notes'\nHere's the output (including reasoning trace, I'm using LLM 0.32rc2):\n\nConsidering note count\nI see the question \"count the notes\" is probably asking me to tally up blog notes. It could also mean published notes or drafts, so there's some ambiguity there. I'll need to figure out the total number of notes, likely by querying the count for both published notes and drafts to get a clear answer. Let's execute that count!\nThere are 151 notes.\n\nAnd the output of llm logs for that prompt.\nOnce this is fully baked, I'm considering bringing it directly into LLM core. I'm excited to experiment with MCP in Datasette Agent and llm-coding-agent as well.\nMCP is a safer way to build with agents\nA few months after MCP was first released, I wrote Model Context Protocol has prompt injection security problems, where I noted that the pattern of having end users mix and match tools pushed responsibility for avoiding data exfiltration attacks out to the users themselves. I hadn't coined the Lethal Trifecta yet, but that was absolutely what I had in mind.\nThen general agents with arbitrary shell and curl access came along, and that's so much harder to keep secure!\nSomething I've come to appreciate about MCP is that it's much easier to reason about agent capabilities and what might go wrong than with arbitrary command execution in an open network environment - the default for most of today's general and coding agent tools.\nI plan to lean into MCP a whole lot more when I'm building sensitive applications on top of LLMs.\n    \n        Tags: projects, ai, datasette, mermaid, generative-ai, llms, llm, anthropic, model-context-protocol"
+    },
+    {
+      "title": "llm-mcp-client 0.1a0",
+      "url": "https://simonwillison.net/2026/Jul/31/llm-mcp-client/#atom-everything",
+      "source": "Simon Willison",
+      "published": "2026-07-31T23:03:47+00:00",
+      "summary_raw": "Release: llm-mcp-client 0.1a0\n        See this blog entry.\n    \n    \n        Tags: llm, model-context-protocol"
+    },
+    {
+      "title": "Show HN: I worked on a new browser for 2 years, today it passed Acid 3",
+      "url": "https://code.intellios.ai/cwbrowser/",
+      "source": "Hacker News",
+      "published": "2026-07-31T21:39:52+00:00",
+      "summary_raw": "",
+      "points": 123,
+      "num_comments": 38,
+      "hn_url": "https://news.ycombinator.com/item?id=49128826"
+    },
+    {
+      "title": "Oxide and Friends: The Open Weight Revolution with Simon Willison",
+      "url": "https://simonwillison.net/2026/Jul/31/oxide-and-friends/#atom-everything",
+      "source": "Simon Willison",
+      "published": "2026-07-31T21:33:13+00:00",
+      "summary_raw": "Oxide and Friends: The Open Weight Revolution with Simon Willison\nOn Monday Bryan Cantrill and Adam Leventhal invited me to join their podcast to talk about the wild week we've had - with Kimi K3 showing open weight models can stand toe-to-toe with proprietary frontier ones, accidental cybersecurity attacks, and public letters about Open Weights and American AI Leadership signed by almost every big name in AI (with one notable exception).\nIt was a great conversation, even though it's already out-of-date! DeepSeek V4 Flash 0731 and Anthropic's own embarrassing cyber incident would absolutely have made the cut if we had recorded just a few days later.\nWe also talk about Golden Gate Claude, the Zizians, Alameda wild turkey attacks, Soviet Marburg virus research, the Lead-crime hypothesis, and a bunch of other worthy digressions.\nFinally, we revisited some of our predictions from January, and we added a new Pope prediction:\n\nPrediction by the end of this year: the Pope says something about open models.\n\n\n\n    Tags: predictions, ai, generative-ai, local-llms, llms, oxide, bryan-cantrill, podcast-appearances, ai-in-china, ai-security-research"
+    },
+    {
+      "title": "Thomson Reuters built its own AI model that now ranks among the best",
+      "url": "https://www.thomsonreuters.com/en-us/posts/innovation/thomson-reuters-built-its-own-ai-model-that-now-ranks-among-the-worlds-best/",
+      "source": "Hacker News",
+      "published": "2026-07-31T21:32:53+00:00",
+      "summary_raw": "",
+      "points": 17,
+      "num_comments": 4,
+      "hn_url": "https://news.ycombinator.com/item?id=49128751"
+    },
+    {
+      "title": "smevals - a small eval suite for evaluating models, prompts, and harnesses",
+      "url": "https://simonwillison.net/2026/Jul/31/smevals/#atom-everything",
+      "source": "Simon Willison",
+      "published": "2026-07-31T21:15:23+00:00",
+      "summary_raw": "smevals - a small eval suite for evaluating models, prompts, and harnesses\nI've been working with Jesse Vincent's Prime Radiant applied AI research lab building out this evals framework to help answer questions about the capabilities of different models.\nThe result is smevals, a new tool for running small eval suites across different model configurations and grading the results.\nThe blog entry describes the tool in detail. Here's the 10 second version:\n\nTell your coding agent to run uvx smevals docs to learn the tool (this outputs the README)\nThen tell it to build you an eval suite\n\nOnce you've created an eval - which takes the form of a directory with some YAML files - you can run it against models like this:\nuvx smevals run path-to-eval/ -m gpt-5.5 -m claude-opus-4.6\n\nRuns are treated separately from grading operations - you can grade your runs (against your defined set of checks) using:\nuvx smevals grade path-to-eval/\n\nThen you can run a localhost web server to explore the results:\nuvx smevals serve path-to-eval/\n\nOr run the smevals build command to build that report as static HTML, which you can then host anywhere. Here's an example showing an eval suite I built to evaluate how well models can write haikus.\n\nThe most time-consuming part of this project was figuring out the vocabulary for it! Here's what I settled on, quoted from the announcement:\n\n\nAn\u00a0eval\u00a0is a collection of challenges designed to answer a question about a model, for example, how good is that model at generating SVGs?\nEach eval is a collection of\u00a0tasks. A task is a specific challenge, for example \"Generate an SVG of a pelican riding a bicycle\".\nWhen you run the eval you do so against one or more\u00a0configs. Each config specifies a model to be evaluated, but may also include other parameters to test, such as different system prompts, model parameters, or agent harnesses.\nA\u00a0run\u00a0records what happened when a specific config was used to execute a specific task. A\u00a0runner\u00a0is the script that executes a run.\nOnce you have collected one or more runs, you need to evaluate the results to see how well the model (or config) did. This is done by a\u00a0grader, which produces a\u00a0grade.\nEach grader runs a sequence of\u00a0checks. These can be simple operations, like checking for a specific string in the output, or confirming that the output is valid XML. They can also be more complicated custom operations (implemented as scripts called\u00a0checkers), including using other models to answer questions about the run.\n\n\nI've been trying to figure out an approach I like for evals for several years now. smevals is my third iteration on the idea and it feels right to me. I'm looking forward to expanding this more in the future, as well as pointing it at some of my own projects.\n\n\n    Tags: projects, ai, generative-ai, llms, llm, evals, jesse-vincent"
+    },
+    {
+      "title": "Show HN: Penca \u2013 branchable, versioned OLTP+OLAP on one open copy of your data",
+      "url": "https://github.com/penca-io/penca",
+      "source": "Hacker News",
+      "published": "2026-07-31T21:11:05+00:00",
+      "summary_raw": "Hi HN!<p>This is an early proof of concept of a branchable, versioned OLTP + OLAP database that runs on a single, open copy of your data in object storage. If you are familiar with Databricks&#x27; LTAP (<a href=\"https:&#x2F;&#x2F;www.databricks.com&#x2F;company&#x2F;newsroom&#x2F;press-releases&#x2F;databricks-launches-ltap-first-lake-transactionalanalytical\" rel=\"nofollow\">https:&#x2F;&#x2F;www.databricks.com&#x2F;company&#x2F;newsroom&#x2F;press-releases&#x2F;d...</a>) announcement from June, you can think of this as aspiring to be a fully open source, Apache 2.0 LTAP alternative  with additional data versioning&#x2F;auditability guarantees that enable audit, as_of queries, and (eventually) revert straight out of the box.<p>How it works:<p>1. Writes land in vanilla postgres which functions as an ephemeral hot tier<p>2. A background pass flushes committed rows out to columnar files in an object storage cold tier<p>3. A DataFusion based query engine merges results across the two tiers (with some fancy caching and indexing)<p>For a deep dive on the architecture&#x2F;intended design&#x2F;vision see: <a href=\"https:&#x2F;&#x2F;penca.io&#x2F;blog&#x2F;the-penca-architecture.html\" rel=\"nofollow\">https:&#x2F;&#x2F;penca.io&#x2F;blog&#x2F;the-penca-architecture.html</a>.<p>This project is very, very early on. It is mostly a PoC right now and there are many bugs and shortcomings with many major items still on the roadmap. I hope to get some real performance numbers soon.<p>A few features I would like to add in no particular order:<p>- Iceberg export<p>- Branching (from any branch, not just main)<p>- Improved SQL support (e.g. multi-statement execution)<p>- Full-text search and vector indexes<p>- Configurable isolation levels (currently last write wins)<p>- A pgwire frontend<p>Any and all feedback is appreciated. I&#x27;d also like help! If any of this appeals to you and the project doesn&#x27;t seem like the craziest idea of all time, shoot me an email at nico@penca.io.<p>Disclaimer: before someone comments this, yes, the code is <i>heavily</i> AI generated. I have tried to leave as much of the dev tooling in the repo as possible to demonstrate what the end-to-end development workflow looks like. Also, the majority of the commit history is missing as I had to rename&#x2F;migrate + scrub the repo prior to open sourcing.",
+      "points": 12,
+      "num_comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=49128567"
+    },
+    {
+      "title": "Apple Will 'Watch Everything Burn' When AI Bubble Bursts",
+      "url": "https://asymco.com/2026/07/31/apple-will-watch-everything-burn-when-ai-bubble-bursts/",
+      "source": "Hacker News",
+      "published": "2026-07-31T21:08:05+00:00",
+      "summary_raw": "",
+      "points": 42,
+      "num_comments": 76,
+      "hn_url": "https://news.ycombinator.com/item?id=49128539"
+    },
+    {
+      "title": "Show HN: How to build and self-host a code review agent",
+      "url": "https://www.trytilde.ai/blog/how-to-build-code-review-agent",
+      "source": "Hacker News",
+      "published": "2026-07-31T20:27:28+00:00",
+      "summary_raw": "Hey HN,<p>I&#x27;ve had a side-project that I&#x27;ve slowly ticked away at over the last year called Tilde. Tilde is a harness SDK platform - I&#x27;ve tried to take the best things of OpenClaw, Hermes &amp; other harnesses and decompose them and make them available as cloud API building blocks.<p>You can use Tilde to create AI agents for your use case, fast and self-host the agent&#x27;s yourself.<p>The documentation (and attached blog post) leave a lot to be desired in terms of technical documentation but hopefully the attached git repo does a good job of showcasing the API.<p><a href=\"https:&#x2F;&#x2F;github.com&#x2F;trytilde&#x2F;examples\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;trytilde&#x2F;examples</a>",
+      "points": 27,
+      "num_comments": 5,
+      "hn_url": "https://news.ycombinator.com/item?id=49128177"
+    },
+    {
+      "title": "Google withdraws new Earth AI tool after warnings over misinformation risks",
+      "url": "https://www.bbc.com/news/articles/c9349yx2ydvo",
+      "source": "Hacker News",
+      "published": "2026-07-31T20:04:03+00:00",
+      "summary_raw": "",
+      "points": 11,
+      "num_comments": 3,
+      "hn_url": "https://news.ycombinator.com/item?id=49127949"
+    },
+    {
+      "title": "Would you get tattooed just to interview at a 7-days-a-week AI startup?",
+      "url": "https://arstechnica.com/culture/2026/07/ai-startup-admits-tattoo-for-interview-stunt-was-reckless/",
+      "source": "Hacker News",
+      "published": "2026-07-31T19:21:46+00:00",
+      "summary_raw": "",
+      "points": 10,
+      "num_comments": 3,
+      "hn_url": "https://news.ycombinator.com/item?id=49127469"
+    },
+    {
+      "title": "AI companies destroy rare and non recoverable physical books",
+      "url": "https://www.heraldscotland.com/opinion/26422014.library-alexandria-burns-ai-companies-destroying-books-bulk/",
+      "source": "Hacker News",
+      "published": "2026-07-31T19:01:52+00:00",
+      "summary_raw": "",
+      "points": 45,
+      "num_comments": 73,
+      "hn_url": "https://news.ycombinator.com/item?id=49127284"
+    },
+    {
+      "title": "AI Is Getting Way Too Expensive",
+      "url": "https://www.wheresyoured.at/premium-ai-is-getting-way-too-expensive/",
+      "source": "Hacker News",
+      "published": "2026-07-31T17:34:04+00:00",
+      "summary_raw": "",
+      "points": 43,
+      "num_comments": 14,
+      "hn_url": "https://news.ycombinator.com/item?id=49126209"
+    },
+    {
+      "title": "Hygon Reveals 512-Thread CPU and AI GPU to Rival Intel Xeon and Nvidia",
+      "url": "https://www.ubergizmo.com/2026/06/hygon-512-thread-cpu/",
+      "source": "Hacker News",
+      "published": "2026-07-31T16:21:11+00:00",
+      "summary_raw": "",
+      "points": 16,
+      "num_comments": 3,
+      "hn_url": "https://news.ycombinator.com/item?id=49125140"
+    },
+    {
+      "title": "Leopold Aschenbrenner built a $45B AI hedge fund lost most of it in days",
+      "url": "https://www.cnbc.com/2026/07/31/leopold-aschenbrenner-situational-awareness-fund-fire-sale.html",
+      "source": "Hacker News",
+      "published": "2026-07-31T16:21:01+00:00",
+      "summary_raw": "",
+      "points": 11,
+      "num_comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=49125136"
+    },
+    {
+      "title": "EU tells firms to label AI-generated content from Sunday",
+      "url": "https://www.lemonde.fr/en/international/article/2026/07/28/eu-tells-firms-to-label-ai-generated-content-from-sunday_6755910_4.html",
+      "source": "Hacker News",
+      "published": "2026-07-31T16:17:43+00:00",
+      "summary_raw": "",
+      "points": 15,
+      "num_comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=49125079"
+    },
+    {
+      "title": "Google Earth's New AI Lets Anyone Fabricate Satellite Images",
+      "url": "https://www.404media.co/google-earths-new-ai-lets-anyone-fabricate-completely-bullshit-satellite-images/",
+      "source": "Hacker News",
+      "published": "2026-07-31T16:06:51+00:00",
+      "summary_raw": "",
+      "points": 39,
+      "num_comments": 18,
+      "hn_url": "https://news.ycombinator.com/item?id=49124898"
+    }
+  ]
+}
