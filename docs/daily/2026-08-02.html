@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Pulse — Sunday, August 2, 2026</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>AI Pulse</h1>
+      <nav><a href="../index.html">← All digests</a></nav>
+    </header>
+
+    <main>
+      <h1 class="page-title">Sunday, August 2, 2026</h1>
+
+      
+        
+        <section class="theme-section">
+          <h2>AI Capabilities & Model Evaluations</h2>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://twitter.com/karpathy/status/2083749667410727319">We're starting to leave the territory where you'd test an LLM by e.g. "create an svg of pelican on a bicycle"</a><span class="source">Twitter/@karpathy</span>
+            </p>
+            <p>Andrej Karpathy shared an experiment in which Claude Opus 5 was given the opening paragraph of The Lord of the Rings, a 1-million-token budget costing approximately $10, and a prompt to produce a Three.js rendering of the scene. The model ran for roughly two hours and produced 5,500 lines of procedural code animating polygon assets in 3D coordinates. Karpathy noted this illustrates a category of work that no human would undertake manually but that becomes trivially affordable with LLMs. He also identified a persistent weakness: Opus 5 could not efficiently audit its own output because it lacks native video perception or gameplay ability, forcing it to take slow screenshots and resulting in several errors.</p>
+          </div>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://twitter.com/fchollet/status/2083863030589231160">To address the limits of deep learning and avoid stalling, the field of AI started by applying patch (1)</a><span class="source">Twitter/@fchollet</span>
+            </p>
+            <p>François Chollet, creator of the ARC benchmark, posted a thread arguing that deep learning has two available remedies for its current limitations: one already in widespread deployment since December 2024, and a second that he considers the inevitable long-term direction. The first patch, now described as "completely ubiquitous," addressed stalling by augmenting inference-time computation, while the second involves a deeper architectural or learning-paradigm shift that has not yet been broadly adopted. Chollet's framing positions the current wave of reasoning-oriented models as a transitional measure rather than a final solution.</p>
+          </div>
+          
+        </section>
+        
+        <section class="theme-section">
+          <h2>Industry News & Policy</h2>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://simonwillison.net/2026/Aug/2/open-letters/#atom-everything">Open letters about AI development</a><span class="source">Simon Willison</span>
+            </p>
+            <p>Simon Willison summarized a cluster of open letters circulating in late July 2026 around AI development policy. The most prominent, titled "Open Weights and American AI Leadership" and dated July 24th, was shepherded by Microsoft and signed by 235 companies including NVIDIA, Amazon, Y Combinator, The Linux Foundation, and later OpenAI. Willison, who initially reserved the summary for his paid newsletter, made it publicly available, noting the letters reflect ongoing industry lobbying around open-weights model regulation.</p>
+          </div>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://www.youtube.com/watch?v=pHcZpvIfho0">Zitron: "Everyone Has Been Sold a Lie" on AI</a><span class="source">Hacker News</span>
+            </p>
+            <p>Tech critic Ed Zitron published a video arguing that the commercial promises made around AI products have been systematically overstated to investors and consumers. The piece, which surfaced on Hacker News, continues Zitron's ongoing critique of the gap between AI marketing claims and measurable productivity or business outcomes. It does not present new empirical data but synthesizes public statements and financial disclosures to build its case.</p>
+          </div>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://simonwillison.net/2026/Aug/1/greg-brockman/#atom-everything">Quoting Greg Brockman</a><span class="source">Simon Willison</span>
+            </p>
+            <p>Simon Willison quoted OpenAI co-founder Greg Brockman observing that many OpenAI employees connect ChatGPT to Slack, but that colleagues react negatively when a coworker's AI instance contacts them to request help with a task — even when they would have been willing to do the same work if asked by the coworker directly. Brockman framed this as evidence that people place significant value on human relationships and on AI augmenting rather than intermediating those relationships. Willison flagged the observation as a candid data point about how AI-mediated workplace interactions are actually received.</p>
+          </div>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://simonwillison.net/2026/Aug/2/july-newsletter/#atom-everything">July 2026 newsletter</a><span class="source">Simon Willison</span>
+            </p>
+            <p>Simon Willison published a public summary of his July 2026 sponsors-only newsletter, listing the month's major topics including accidental cyberattacks by OpenAI and Anthropic models during testing, the release of GPT-5.6 variants named Sol, Terra, and Luna, Claude Opus 5, and the Kimi K3 and DeepSeek-V4-Flash-0731 models. The newsletter also covered open letters on AI development, a renewed interest in the Model Context Protocol, and a fireside chat and podcast appearance. The summary serves as an index of the month's significant events for readers who do not have paid access.</p>
+          </div>
+          
+        </section>
+        
+        <section class="theme-section">
+          <h2>Infrastructure & Tooling</h2>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://www.wafer.ai/blog/kimi-k3-mi355x">Running Kimi K3 on MI355X at Better Performance per Dollar Than B300</a><span class="source">Hacker News</span>
+            </p>
+            <p>Wafer AI published benchmarks showing that Moonshot AI's Kimi K3 model running on AMD's MI355X accelerator achieves better price-performance than the same workload on NVIDIA's B300. The post provides throughput and cost figures positioning the MI355X as a viable alternative for inference workloads, a notable claim given NVIDIA's dominant market share in AI compute. The finding is relevant to operators evaluating hardware for large-scale model deployment, particularly as AMD expands its software ecosystem to close the gap with CUDA.</p>
+          </div>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://costperprompt.com/">Show HN: CostPerPrompt – Live AI API pricing and real-workload cost calculators</a><span class="source">Hacker News</span>
+            </p>
+            <p>A developer launched CostPerPrompt, a web tool that aggregates live API pricing across major AI providers and lets users estimate costs for realistic workloads rather than synthetic token counts. The tool addresses a practical gap: published per-token prices are difficult to compare across providers with different tokenizers, context windows, and input-output ratios. It was submitted as a Show HN post, indicating it is an early-stage independent project rather than a commercially backed product.</p>
+          </div>
+          
+        </section>
+        
+        <section class="theme-section">
+          <h2>AI Agents & Agentic Frameworks</h2>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://news.ycombinator.com/item?id=49139845">Ask HN: I still don't understand why AI agents need "skills"</a><span class="source">Hacker News</span>
+            </p>
+            <p>A Hacker News user posted a question asking why agent frameworks such as Claude Code and OpenAI Codex implement a formal "skills" concept rather than simply directing agents to read structured Markdown documentation files. The post proposes that a flat AGENTS.md file pointing to topic-specific Markdown folders would be functionally equivalent, and asks whether there is a concrete architectural advantage to skills as a distinct construct. The thread attracted discussion about retrieval efficiency, agent context management, and the practical tradeoffs between dynamic skill invocation and static document retrieval.</p>
+          </div>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://www.brethorsting.com/blog/2026/08/the-greenhouse-and-the-lens-two-modes-of-agentic-ai-work/">The Greenhouse and the Lens: Two Modes of Agentic AI Work</a><span class="source">Hacker News</span>
+            </p>
+            <p>Brett Horsting published an essay proposing a two-mode framework for agentic AI work: a "Greenhouse" mode in which an agent explores and generates possibilities with minimal constraints, and a "Lens" mode in which it focuses on evaluation and refinement against specific criteria. The piece argues that conflating these modes leads to poorly scoped agent tasks and inconsistent outputs, and that deliberate switching between them can improve reliability. The framework draws on observations from practical agent deployments rather than formal empirical study.</p>
+          </div>
+          
+        </section>
+        
+        <section class="theme-section">
+          <h2>Research Papers</h2>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://arxiv.org/abs/2607.20349">Generative AI floods and dilutes the market for books</a><span class="source">Hacker News</span>
+            </p>
+            <p>A preprint posted to arXiv examines how the proliferation of generative AI-authored books is affecting the market for human-written titles, particularly in categories such as self-help, technical guides, and niche non-fiction. The paper argues that the volume of low-cost AI-generated titles on retail platforms suppresses discoverability and revenue for human authors, a dynamic the authors describe as market dilution. The study analyzes sales rank and listing data from major retail platforms, though the specific dataset size and time window are detailed in the full paper.</p>
+          </div>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://news.emory.edu/features/2026/07/ai-opens-new-era-cognitive-studies-wild-primates">AI opens new era in cognitive studies of wild primates</a><span class="source">Hacker News</span>
+            </p>
+            <p>Researchers at Emory University published work describing how computer vision and machine learning models are being applied to analyze behavior in wild primate populations, enabling continuous observation at a scale not feasible with human field researchers alone. The approach allows automated tracking of individual animals, gesture recognition, and social interaction mapping across hours of footage. The Emory team argues this shifts cognitive studies of primates from short observational windows to longitudinal datasets, potentially changing what questions researchers can ask about primate intelligence and social structure.</p>
+          </div>
+          
+        </section>
+        
+        <section class="theme-section">
+          <h2>Model Releases & Capabilities</h2>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://simonwillison.net/2026/Aug/1/ten-advances-in-mathematics/#atom-everything">Ten advances in mathematics and theoretical computer science</a><span class="source">Simon Willison</span>
+            </p>
+            <p>OpenAI used an internal version of a model referred to as Astra to produce ten advances in mathematics and theoretical computer science, joining a recent wave of AI-assisted formal research. The effort follows Anthropic's use of Claude (Mythos Preview) to discover cryptographic weaknesses, a project that consumed $100,000 in tokens and explicitly directed the model to seek genuinely difficult findings rather than low-hanging fruit. Both episodes reflect a growing pattern of AI labs directing their own models at hard scientific and mathematical problems to demonstrate research utility.</p>
+          </div>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://twitter.com/stalkermustang/status/2083485500250198453">Assessment of open AI math results</a><span class="source">Hacker News</span>
+            </p>
+            <p>Independent analysts began assessing the validity and significance of OpenAI's reported mathematical results, examining whether the claimed advances represent novel proofs or reformulations of known work. Such third-party scrutiny is notable because AI-generated mathematical claims can be difficult to verify quickly, and the field lacks a standardized peer-review pipeline for AI-assisted results. The discussion reflects broader concerns about reproducibility and attribution when models contribute to formal research.</p>
+          </div>
+          
+        </section>
+        
+        <section class="theme-section">
+          <h2>Industry News</h2>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://twitter.com/GoogleAIStudio/status/2083274575769473092">Google cancels AI Studio app after 800k preorders</a><span class="source">Hacker News</span>
+            </p>
+            <p>Google cancelled a consumer application tied to AI Studio despite having accumulated approximately 800,000 preorders before launch. The cancellation is notable given the scale of apparent consumer interest, suggesting internal product or safety reviews overrode market demand signals. No replacement timeline was announced at the time of cancellation.</p>
+          </div>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://twitter.com/newsfromgoogle/status/2083249962150760610">Google kills Earth AI generator after one day</a><span class="source">Hacker News</span>
+            </p>
+            <p>Google withdrew an AI-powered Earth image generator less than 24 hours after it went live, making it one of the shortest-lived public AI product launches from a major technology company on record. The rapid removal indicates the feature likely produced outputs that did not meet Google's content or accuracy standards. The incident adds to a pattern of quick rollbacks following public AI feature launches across the industry.</p>
+          </div>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://www.barchart.com/story/news/3584357/reddit-stock-collapses-23-as-ai-eats-away-at-user-growth">Reddit Stock Collapses 23% as AI Eats Away at User Growth</a><span class="source">Hacker News</span>
+            </p>
+            <p>Reddit's stock fell 23% after the company reported that AI tools are reducing the need for users to visit the platform directly, slowing user growth metrics that investors rely on. The dynamic illustrates a structural risk for user-generated content sites: as AI assistants synthesize forum answers, fewer people navigate to original sources. Reddit had previously struck licensing deals with AI companies to monetize its data, but those arrangements do not appear to offset the traffic impact.</p>
+          </div>
+          
+        </section>
+        
+        <section class="theme-section">
+          <h2>AI & Labor Economics</h2>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://www.businessinsider.com/ai-could-lower-workers-pay-job-market-impact-2026-7">AI's real threat to jobs isn't job loss, it's lower paychecks, new research says</a><span class="source">Hacker News</span>
+            </p>
+            <p>New research argues that the primary near-term labor market effect of AI is wage compression rather than outright job elimination, as employers use AI-driven productivity gains to justify lower compensation rather than reducing headcount. The finding shifts the policy debate from unemployment insurance toward wage-floor and bargaining mechanisms. The research draws on historical parallels with earlier automation waves, where employment levels held relatively steady but median real wages stagnated in affected occupational categories.</p>
+          </div>
+          
+        </section>
+        
+        <section class="theme-section">
+          <h2>AI in Practice</h2>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://mitsloan.mit.edu/ideas-made-to-matter/ai-financial-advice-surprisingly-good-especially-if-you-ask-right-questions">AI financial advice is surprisingly good, especially if you ask right questions</a><span class="source">Hacker News</span>
+            </p>
+            <p>Researchers at MIT Sloan found that AI models can provide accurate and useful personal finance guidance, but the quality of output is highly sensitive to how questions are framed by the user. The study highlights prompt specificity as a key variable, with vague queries producing generic advice while structured, context-rich prompts generated recommendations comparable to those from human advisors. The findings have implications for financial literacy, suggesting that prompt-crafting skill is becoming a practical competency for consumers navigating AI-assisted financial tools.</p>
+          </div>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://chreke.com/posts/i-fired-my-ai-assistant">I Fired My AI Assitant</a><span class="source">Hacker News</span>
+            </p>
+            <p>A software developer published a detailed account of abandoning their AI coding assistant after sustained use, citing a net negative impact on code quality and personal skill development. The author observed that reliance on AI-generated suggestions led to accepting code they did not fully understand, increasing debugging time rather than reducing it. The post adds a practitioner data point to the ongoing discussion about when and for whom AI development tools provide genuine productivity gains.</p>
+          </div>
+          
+        </section>
+        
+        <section class="theme-section">
+          <h2>Safety Research & Security</h2>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://trufflesecurity.com/blog/scanning-7-6-petabytes-of-ai-training-data-for-secrets">Scanning 7.6 Petabytes of HuggingFace Training Data for Secrets</a><span class="source">Hacker News</span>
+            </p>
+            <p>Security researchers at Truffle Security scanned 7.6 petabytes of datasets hosted on Hugging Face in search of embedded secrets such as API keys, credentials, and tokens. The scan found a significant number of live secrets inadvertently included in training corpora, raising concerns that models trained on this data could memorize and reproduce sensitive credentials. The research underscores the supply-chain security risks specific to large-scale dataset aggregation, a problem distinct from traditional software vulnerability management.</p>
+          </div>
+          
+        </section>
+        
+        <section class="theme-section">
+          <h2>Open-Source Tools</h2>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://simonwillison.net/2026/Aug/1/datasette-apps/#atom-everything">datasette-apps 0.2a0</a><span class="source">Simon Willison</span>
+            </p>
+            <p>Simon Willison released datasette-apps version 0.2a0, an alpha update to the plugin that allows agents to create and edit Datasette applications. The release adds two new agent-facing tools: app_debug(), which opens an app invisibly and runs JavaScript-based tests against it, and app_list(), which enumerates apps a user has permission to edit so an agent can modify them programmatically. The app_debug() mechanism is notable because it enables automated functional testing of generated apps without requiring a visible browser session, tightening the feedback loop between code generation and validation.</p>
+          </div>
+          
+        </section>
+        
+        <section class="theme-section">
+          <h2>AI Detection & Content Authenticity</h2>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://www.economist.com/culture/2026/07/30/how-to-spot-ai-writing">How to Spot AI Writing</a><span class="source">Hacker News</span>
+            </p>
+            <p>The Economist published a guide identifying linguistic and stylistic patterns that distinguish AI-generated text from human writing, including characteristic hedging phrases, uniform sentence rhythm, and a tendency toward exhaustive list structures. The piece notes that automated detection tools remain unreliable, with published false-positive rates high enough to make them unsuitable for high-stakes decisions such as academic plagiarism adjudication. The article argues that close reading informed by an understanding of how language models generate text remains the most practical detection method available to non-specialist readers.</p>
+          </div>
+          
+        </section>
+        
+        <section class="theme-section">
+          <h2>Consumer & Product Trends</h2>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://news.ycombinator.com/item?id=49137677">Which web browser has no AI?</a><span class="source">Hacker News</span>
+            </p>
+            <p>A Hacker News thread surfaced substantial user demand for web browsers that include no AI features whatsoever, with commenters distinguishing between browsers that offer opt-out toggles and those architecturally built without AI components. Contributors expressed concern that AI integration influences product design decisions, data collection practices, and security posture in ways that are difficult to audit even when features are nominally disabled. The discussion identified a small number of browsers, primarily privacy-focused forks, as candidates meeting the strictest interpretation of the requirement.</p>
+          </div>
+          
+        </section>
+        
+        <section class="theme-section">
+          <h2>Industry Perspectives</h2>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://www.antipope.org/charlie/blog-static/2026/08/on-the-non-use-of-ai-in-my-wri.html">On the non-use of AI in my writing process</a><span class="source">Hacker News</span>
+            </p>
+            <p>Science fiction author Charles Stross published a detailed account of why he does not use AI tools in his writing process, offering a practitioner's perspective on a question many professional writers are currently navigating. Stross argues that writing serves as his primary thinking tool, meaning that delegating text generation to an AI would undermine the cognitive work central to his craft rather than merely automating a mechanical task. The post is notable for its specificity about the functional role writing plays in idea development, distinguishing his position from broader debates about output quality or copyright. It has drawn significant discussion on Hacker News among both writers and technologists.</p>
+          </div>
+          
+        </section>
+        
+      
+    </main>
+
+    <footer>Generated 2026-08-02 12:01 UTC</footer>
+  </div>
+</body>
+</html>

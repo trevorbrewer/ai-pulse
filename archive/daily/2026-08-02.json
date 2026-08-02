@@ -1,0 +1,246 @@
+{
+  "date": "2026-08-02",
+  "generated_at": "2026-08-02T11:59:30.328889+00:00",
+  "source_counts": {
+    "rss_feeds": 5,
+    "arxiv": 0,
+    "hackernews": 18,
+    "nitter": 2,
+    "total_raw": 25,
+    "total_deduped": 25,
+    "total_saved": 25
+  },
+  "items": [
+    {
+      "title": "Generative AI floods and dilutes the market for books",
+      "url": "https://arxiv.org/abs/2607.20349",
+      "source": "Hacker News",
+      "published": "2026-08-02T11:06:07+00:00",
+      "summary_raw": "",
+      "points": 15,
+      "num_comments": 4,
+      "hn_url": "https://news.ycombinator.com/item?id=49143289"
+    },
+    {
+      "title": "To address the limits of deep learning and avoid stalling, the field of AI started by applying patch (1), which started being demoed 9 months later in December 2024 and has now become completely ubiquitous. However, long term, it is simply inevitable that AI will move to patch (2).",
+      "url": "https://twitter.com/fchollet/status/2083863030589231160",
+      "source": "Twitter/@fchollet",
+      "published": "2026-08-02T10:30:37+00:00",
+      "summary_raw": "To address the limits of deep learning and avoid stalling, the field of AI started by applying patch (1), which started being demoed 9 months later in December 2024 and has now become completely ubiquitous. However, long term, it is simply inevitable that AI will move to patch (2).\n\n\nFran\u00e7ois Chollet (@fchollet)\n\nThere are essentially two main options to remedy this: \n\n1. Find ways to perform active inference, so that the model adapts its learned program in contact with a new data distribution at test time. Would likely lead to some meaningful progress, but it isn't the ultimate solution, more of an incremental improvement. \n\n2. Change the training mechanism to something more robust than SGD, such as the MDL principle. This would pretty much require moving away from deep learning (curve fitting) altogether and embracing discrete program search instead (which I have advocated for many years as a way to tackle reasoning problems...)\n\n\n\n\u2014 http://nt.vern.cc/fchollet/status/1766044732830999014#m",
+      "person": "Fran\u00e7ois Chollet"
+    },
+    {
+      "title": "Running Kimi K3 on MI355X at Better Performance per Dollar Than B300",
+      "url": "https://www.wafer.ai/blog/kimi-k3-mi355x",
+      "source": "Hacker News",
+      "published": "2026-08-02T04:21:14+00:00",
+      "summary_raw": "",
+      "points": 141,
+      "num_comments": 56,
+      "hn_url": "https://news.ycombinator.com/item?id=49141073"
+    },
+    {
+      "title": "Open letters about AI development",
+      "url": "https://simonwillison.net/2026/Aug/2/open-letters/#atom-everything",
+      "source": "Simon Willison",
+      "published": "2026-08-02T04:16:52+00:00",
+      "summary_raw": "Open letters about AI development\nI wrote this summary of the past few weeks of open letters as a section of my sponsors-only newsletter but I've decided to share it here as well.\nOpen Weights and American AI Leadership was shepherded by Microsoft, dated July 24th, and signed by 235 AI-adjacent companies including NVIDIA, Amazon, Y Combinator, The Linux Foundation and (a later signer) OpenAI.\nIt's clearly an argument designed to counter any instincts by the current US government to ban or limit open weight models over \"safety\" concerns - a reasonable consideration given what happened to Claude Fable 5!\n\nRelying solely on closed models is not inherently safe: they can be breached, misused, or fail in ways that outsiders cannot detect. And concentrating advanced AI capabilities behind a small number of closed models compounds that risk. It results in a small number of single points of failure, weakens competition, and leaves critical technology in the hands of a few providers. Open weight models, on the other hand, allow a broad community of researchers and developers to examine their behavior, identify vulnerabilities, develop safeguards, and improve them over time.\n\nThe one surprising note in the letter is that it comes out in support of distillation, where models train on output from other models:\n\nIn shaping this ecosystem, policymakers should be careful not to conflate legitimate model-development techniques with misappropriation. Distillation, or the practice of using one model\u2019s outputs to help train or improve another, is a widely used technique for model improvement, evaluation, and validation. It reflects a long tradition of learning from, building upon, and improving existing technologies, a tradition that has helped drive innovation since the rise of the open-source software movement.\n\nNotably absent from the signatures: Anthropic, who published their own response Our position on open-weights models three days later. CEO Dario Amodei doubled down on the risk of authoritarian governments building \"AI models that are more powerful than those built by the US\", and models being \"misused to carry out cyberattacks or biological attacks\", and called for \"a crack down on industrial-scale distillation operations\", while also stating that \"Anthropic has never advocated for a ban on open-weights models\".\nThen on July 28th Pacing the Frontier was published, featuring signatures from \"1,324 employees of frontier AI companies\" - with names like Jakub Pachocki (Chief Scientist, OpenAI), Ilya Sutskever (Safe Superintelligence Inc, previously OpenAI), Dario Amodei (Anthropic), Jack Clark (Anthropic) and more. Their core message:\n\nWe request that the U.S. government support an international effort to develop the technical and governance tools needed to deliberately pace the frontier of automated AI development.\n\nTheir concern is intense competitive pressure combined with accelerated AI progress caused by automated AI research - and given that Anthropic produce 80% of their code with Claude Code, OpenAI had Sol reduce their end-to-end serving costs by 20%, and Kimi K3 designed a chip to serve a nano model built on its own architecture, you can see why people are taking that risk more seriously right now.\n\n    Tags: anthropic, generative-ai, openai, ai, llms, ai-ethics"
+    },
+    {
+      "title": "July 2026 newsletter",
+      "url": "https://simonwillison.net/2026/Aug/2/july-newsletter/#atom-everything",
+      "source": "Simon Willison",
+      "published": "2026-08-02T04:12:41+00:00",
+      "summary_raw": "The June edition of my sponsors-only monthly newsletter is out. If you are a sponsor (or if you start a sponsorship now) you can access it here.\nThis month:\n\nAccidental cyberattacks by OpenAl and Anthropic models under test\nGPT-5.6 Sol, Terra, and Luna\nClaude Opus 5\nKimi K3 and DeepSeek-V4-Flash-0731\nOpen letters about Al development\nA fireside chat and a podcast\nReigniting my interest in MCP\nOther model releases\nMy projects\nWhat I'm using at the moment\n\nHere's a copy of the June newsletter as a preview of what you'll get. Pay $10/month to stay a month ahead of the free copy!\n\n    Tags: newsletter"
+    },
+    {
+      "title": "We're starting to leave the territory where you'd test an LLM by e.g. \"create an svg of pelican on a bicycle\". As one idea to generalize it, I was interested what Opus 5 would do if I gave it the first paragraph of the Lord of the Rings, a 1M token budget (~$10) and asked for three js render of it. Opus went off for ~2 hours and wrote 5500 lines of code that (procedurally) rendered the story. It's kind of janky but fun. But it's a bit mindboggling that the LLM has to place and orchestrate various polygon assets in (x,y,z) coordinates and write code that animates it all, and that it even does anything at all.\n\nI also like this kind of examples because no one in their right mind would ever spend the time to write something this custom but LLMs have all the stamina and patience in the world, so it's an example where we go from \"no one would ever do this\" to \"sure, why not, it's ~free\". There might be a lot more. But I'm excited about creating hyper custom worlds that you can imagine dropping players into, e.g. here to participate in the LoTR story as a spectator NPC, or one of the characters, or etc. Something like an ephemeral GTA of X on demand.\n\nLast thought is that the domain of worlds/games exposes a weakness in LLMs: they can't easily audit their work because they aren't able to efficiently and natively perceive videos or play games within them. Here, Opus 5 had to very slowly and painstakingly take screenshots at different points, and it messed up a few times and created a bunch of jank. An example of raw capability (multimodal, gameplay) that I think is still quite lacking.",
+      "url": "https://twitter.com/karpathy/status/2083749667410727319",
+      "source": "Twitter/@karpathy",
+      "published": "2026-08-02T03:00:09+00:00",
+      "summary_raw": "We're starting to leave the territory where you'd test an LLM by e.g. \"create an svg of pelican on a bicycle\". As one idea to generalize it, I was interested what Opus 5 would do if I gave it the first paragraph of the Lord of the Rings, a 1M token budget (~$10) and asked for three js render of it. Opus went off for ~2 hours and wrote 5500 lines of code that (procedurally) rendered the story. It's kind of janky but fun. But it's a bit mindboggling that the LLM has to place and orchestrate various polygon assets in (x,y,z) coordinates and write code that animates it all, and that it even does anything at all.\n\nI also like this kind of examples because no one in their right mind would ever spend the time to write something this custom but LLMs have all the stamina and patience in the world, so it's an example where we go from \"no one would ever do this\" to \"sure, why not, it's ~free\". There might be a lot more. But I'm excited about creating hyper custom worlds that you can imagine dropping players into, e.g. here to participate in the LoTR story as a spectator NPC, or one of the characters, or etc. Something like an ephemeral GTA of X on demand.\n\nLast thought is that the domain of worlds/games exposes a weakness in LLMs: they can't easily audit their work because they aren't able to efficiently and natively perceive videos or play games within them. Here, Opus 5 had to very slowly and painstakingly take screenshots at different points, and it messed up a few times and created a bunch of jank. An example of raw capability (multimodal, gameplay) that I think is still quite lacking.\n\nVideo",
+      "person": "Andrej Karpathy"
+    },
+    {
+      "title": "Show HN: CostPerPrompt \u2013 Live AI API pricing and real-workload cost calculators",
+      "url": "https://costperprompt.com/",
+      "source": "Hacker News",
+      "published": "2026-08-02T01:56:44+00:00",
+      "summary_raw": "",
+      "points": 20,
+      "num_comments": 7,
+      "hn_url": "https://news.ycombinator.com/item?id=49140340"
+    },
+    {
+      "title": "Ask HN: I still don't understand why AI agents need \"skills\"",
+      "url": "https://news.ycombinator.com/item?id=49139845",
+      "source": "Hacker News",
+      "published": "2026-08-02T00:09:02+00:00",
+      "summary_raw": "I\u2019ve asked AI a few times and I still don\u2019t get it.<p>Why do frameworks like Claude Code or Codex have the concept of \u201cskills\u201d instead of just using well-organized Markdown docs?<p>Couldn\u2019t I just have an AGENTS.md that points to folders of .md files and tells the agent when to read them? That feels functionally equivalent to me.<p>What am I missing? Is there a real architectural benefit, or is it mostly a standardization&#x2F;convenience thing?<p>I doubt we\u2019d create so much hype about skills if they\u2019d just be a md file that\u2019s in a skills folder. So I feel I\u2019m missing something.",
+      "points": 12,
+      "num_comments": 12,
+      "hn_url": "https://news.ycombinator.com/item?id=49139845"
+    },
+    {
+      "title": "The Greenhouse and the Lens: Two Modes of Agentic AI Work",
+      "url": "https://www.brethorsting.com/blog/2026/08/the-greenhouse-and-the-lens-two-modes-of-agentic-ai-work/",
+      "source": "Hacker News",
+      "published": "2026-08-02T00:06:25+00:00",
+      "summary_raw": "",
+      "points": 10,
+      "num_comments": 9,
+      "hn_url": "https://news.ycombinator.com/item?id=49139826"
+    },
+    {
+      "title": "Zitron: \"Everyone Has Been Sold a Lie\" on AI",
+      "url": "https://www.youtube.com/watch?v=pHcZpvIfho0",
+      "source": "Hacker News",
+      "published": "2026-08-01T22:50:30+00:00",
+      "summary_raw": "",
+      "points": 51,
+      "num_comments": 36,
+      "hn_url": "https://news.ycombinator.com/item?id=49139325"
+    },
+    {
+      "title": "AI opens new era in cognitive studies of wild primates",
+      "url": "https://news.emory.edu/features/2026/07/ai-opens-new-era-cognitive-studies-wild-primates",
+      "source": "Hacker News",
+      "published": "2026-08-01T22:40:22+00:00",
+      "summary_raw": "",
+      "points": 22,
+      "num_comments": 6,
+      "hn_url": "https://news.ycombinator.com/item?id=49139232"
+    },
+    {
+      "title": "Quoting Greg Brockman",
+      "url": "https://simonwillison.net/2026/Aug/1/greg-brockman/#atom-everything",
+      "source": "Simon Willison",
+      "published": "2026-08-01T22:29:44+00:00",
+      "summary_raw": "at openai, many people hook their chatgpt up to slack.\npeople really don't like when a coworker's chatgpt contacts them asking for help with a task, even when they'd be perfectly happy doing that same work if asked by that coworker.\nreinforces how much people care about human relationships and helping each other, and want AI to give time back \u2014 or enhance time together \u2014 rather than become a layer separating people.\n&mdash; Greg Brockman, President and Co-Founder, OpenAI\n\n    Tags: ai-ethics, ai-misuse, generative-ai, openai, ai, llms"
+    },
+    {
+      "title": "AI financial advice is surprisingly good, especially if you ask right questions",
+      "url": "https://mitsloan.mit.edu/ideas-made-to-matter/ai-financial-advice-surprisingly-good-especially-if-you-ask-right-questions",
+      "source": "Hacker News",
+      "published": "2026-08-01T22:25:12+00:00",
+      "summary_raw": "",
+      "points": 310,
+      "num_comments": 306,
+      "hn_url": "https://news.ycombinator.com/item?id=49139102"
+    },
+    {
+      "title": "datasette-apps 0.2a0",
+      "url": "https://simonwillison.net/2026/Aug/1/datasette-apps/#atom-everything",
+      "source": "Simon Willison",
+      "published": "2026-08-01T21:23:56+00:00",
+      "summary_raw": "Release: datasette-apps 0.2a0\n        \nChanges that improve Datasette Apps when created and edited using Datasette Agent:\n\nNew app_debug() tool allowing agent to open an app (invisibly) and test it using JavaScript. #33\nNew app_list() tool for listing apps the user has permission to edit, so the agent can edit them. #36\n\n\nThe app_debug() tool is pretty neat: it works by displaying the app in a opacity: 0 iframe with pointer-events: none (so it can't be seen or interacted with) and then executing agent-provided JavaScript inside that sandboxed iframe. This means the agent can smoke test that the app is working and even do things like measure the dimensions of different elements.\nThis uses the new context.browser_task() mechanism added in datasette-agent 0.4a0.\n    \n    \n        Tags: iframes, datasette, datasette-apps"
+    },
+    {
+      "title": "AI's real threat to jobs isn't job loss, it's lower paychecks, new research says",
+      "url": "https://www.businessinsider.com/ai-could-lower-workers-pay-job-market-impact-2026-7",
+      "source": "Hacker News",
+      "published": "2026-08-01T21:05:00+00:00",
+      "summary_raw": "",
+      "points": 47,
+      "num_comments": 20,
+      "hn_url": "https://news.ycombinator.com/item?id=49138483"
+    },
+    {
+      "title": "Ten advances in mathematics and theoretical computer science",
+      "url": "https://simonwillison.net/2026/Aug/1/ten-advances-in-mathematics/#atom-everything",
+      "source": "Simon Willison",
+      "published": "2026-08-01T20:34:49+00:00",
+      "summary_raw": "Ten advances in mathematics and theoretical computer science\nA few days ago it was Anthropic discovering cryptographic weaknesses with Claude using Mythos Preview, spending $100,000 on tokens and with prompts that included \"again we are not looking for low hanging fruit, we want proper research to find genuinly hard findings.\"\nNow it's OpenAI's turn to flex. They set \"an internal version of Astra, our next major model\" on finding solutions to ten mathematical problems that \"have seen no progress on the main result for at least a decade\". They claim to have spent less than $2,000 at GPT-5.6 Sol token prices on each one.\n(No news on how many problems they spent $2,000 on without reaching a solution though.)\nThe openai/ten-proofs repository has Lean 4 formalizations of their results, and there's also a paper describing the solutions and an additional LLM-generated PDF where the model \"reconstructs how the proof came together\" based on the unpublished reasoning traces.\nThat's a decent level of transparency, but I want to see the prompts they used!\nA lot of mathematicians online are experiencing a collective burst of Deep Blue. Mathematician Kirwin Hampshire published an impassioned essay last week, The Dark Night of Mathematics, describing \"a profound spiritual crisis\" brought on by previous (and less significant) results.\nOpenAI's results reminds me of what Terence Tao described as \"big mathematics\" in IEEE Spectrum in June:\n\nUnlike some of his peers, Tao is neither dismissive of AI nor fearful. Instead, he sees it as the catalyst for a fundamental shift in the discipline\u2014a transition toward what he calls \u201cbig mathematics.\u201d He envisions a future of large-scale, decentralized collaborations between humans and machines, where complex mathematical tasks can be diced and sliced, with humans claiming the creative parts and AI doing the lion\u2019s share of the technical grunt work.\n\n\n    Via Hacker News\n\n\n    Tags: mathematics, ai, openai, generative-ai, llms, deep-blue"
+    },
+    {
+      "title": "Which web browser has no AI?",
+      "url": "https://news.ycombinator.com/item?id=49137677",
+      "source": "Hacker News",
+      "published": "2026-08-01T19:39:10+00:00",
+      "summary_raw": "I think it&#x27;s time to stay away from softwares or tools which have AI features.<p>First find the good enough web browser which has no AI.<p>&quot;No AI&quot;, I mean totally no AI features, not the options to close AI features.<p>Because using AI or adding AI features can influence many aspects of the softwares (decisions, philosophy, UI, details, attitudes to users, privacy, security, etc.), and reflects the abilities and purposes of the developer or company.",
+      "points": 10,
+      "num_comments": 11,
+      "hn_url": "https://news.ycombinator.com/item?id=49137677"
+    },
+    {
+      "title": "Google cancels AI Studio app after 800k preorders",
+      "url": "https://twitter.com/GoogleAIStudio/status/2083274575769473092",
+      "source": "Hacker News",
+      "published": "2026-08-01T18:55:13+00:00",
+      "summary_raw": "",
+      "points": 47,
+      "num_comments": 10,
+      "hn_url": "https://news.ycombinator.com/item?id=49137268"
+    },
+    {
+      "title": "Scanning 7.6 Petabytes of HuggingFace Training Data for Secrets",
+      "url": "https://trufflesecurity.com/blog/scanning-7-6-petabytes-of-ai-training-data-for-secrets",
+      "source": "Hacker News",
+      "published": "2026-08-01T18:21:41+00:00",
+      "summary_raw": "",
+      "points": 35,
+      "num_comments": 10,
+      "hn_url": "https://news.ycombinator.com/item?id=49136955"
+    },
+    {
+      "title": "Reddit Stock Collapses 23% as AI Eats Away at User Growth",
+      "url": "https://www.barchart.com/story/news/3584357/reddit-stock-collapses-23-as-ai-eats-away-at-user-growth",
+      "source": "Hacker News",
+      "published": "2026-08-01T18:03:08+00:00",
+      "summary_raw": "",
+      "points": 28,
+      "num_comments": 26,
+      "hn_url": "https://news.ycombinator.com/item?id=49136787"
+    },
+    {
+      "title": "Assessment of open AI math results",
+      "url": "https://twitter.com/stalkermustang/status/2083485500250198453",
+      "source": "Hacker News",
+      "published": "2026-08-01T17:08:03+00:00",
+      "summary_raw": "",
+      "points": 10,
+      "num_comments": 4,
+      "hn_url": "https://news.ycombinator.com/item?id=49136236"
+    },
+    {
+      "title": "I Fired My AI Assitant",
+      "url": "https://chreke.com/posts/i-fired-my-ai-assistant",
+      "source": "Hacker News",
+      "published": "2026-08-01T16:38:28+00:00",
+      "summary_raw": "",
+      "points": 23,
+      "num_comments": 47,
+      "hn_url": "https://news.ycombinator.com/item?id=49135914"
+    },
+    {
+      "title": "How to Spot AI Writing",
+      "url": "https://www.economist.com/culture/2026/07/30/how-to-spot-ai-writing",
+      "source": "Hacker News",
+      "published": "2026-08-01T13:35:26+00:00",
+      "summary_raw": "",
+      "points": 36,
+      "num_comments": 73,
+      "hn_url": "https://news.ycombinator.com/item?id=49134310"
+    },
+    {
+      "title": "Google kills Earth AI generator after one day",
+      "url": "https://twitter.com/newsfromgoogle/status/2083249962150760610",
+      "source": "Hacker News",
+      "published": "2026-08-01T13:02:44+00:00",
+      "summary_raw": "",
+      "points": 62,
+      "num_comments": 101,
+      "hn_url": "https://news.ycombinator.com/item?id=49134079"
+    },
+    {
+      "title": "On the non-use of AI in my writing process",
+      "url": "https://www.antipope.org/charlie/blog-static/2026/08/on-the-non-use-of-ai-in-my-wri.html",
+      "source": "Hacker News",
+      "published": "2026-08-01T12:56:54+00:00",
+      "summary_raw": "",
+      "points": 130,
+      "num_comments": 127,
+      "hn_url": "https://news.ycombinator.com/item?id=49134038"
+    }
+  ]
+}
