@@ -1,0 +1,262 @@
+{
+  "date": "2026-08-03",
+  "generated_at": "2026-08-03T13:38:40.260427+00:00",
+  "source_counts": {
+    "rss_feeds": 1,
+    "arxiv": 0,
+    "hackernews": 28,
+    "nitter": 0,
+    "total_raw": 29,
+    "total_deduped": 29,
+    "total_saved": 25
+  },
+  "items": [
+    {
+      "title": "The AI bubble is popping; we just don't know it yet",
+      "url": "https://www.theregister.com/ai-and-ml/2026/08/03/the-ai-bubble-is-already-popping-we-just-dont-know-it-yet/5282004",
+      "source": "Hacker News",
+      "published": "2026-08-03T11:59:10+00:00",
+      "summary_raw": "",
+      "points": 46,
+      "num_comments": 79,
+      "hn_url": "https://news.ycombinator.com/item?id=49154601"
+    },
+    {
+      "title": "AirLLM 70B inference with single 4GB GPU",
+      "url": "https://github.com/lyogavin/airllm",
+      "source": "Hacker News",
+      "published": "2026-08-03T11:15:48+00:00",
+      "summary_raw": "",
+      "points": 32,
+      "num_comments": 11,
+      "hn_url": "https://news.ycombinator.com/item?id=49154228"
+    },
+    {
+      "title": "Show HN: Nightcrawler \u2013 A local AI pentesting agent running on a smartphone",
+      "url": "https://github.com/garagehq/nightcrawler/",
+      "source": "Hacker News",
+      "published": "2026-08-03T11:06:15+00:00",
+      "summary_raw": "",
+      "points": 34,
+      "num_comments": 12,
+      "hn_url": "https://news.ycombinator.com/item?id=49154127"
+    },
+    {
+      "title": "EU enforces labeling AI generated content",
+      "url": "https://www.euronews.com/my-europe/2026/08/02/ai-generated-label-becomes-mandatory-in-the-eu-for-companies",
+      "source": "Hacker News",
+      "published": "2026-08-03T09:46:26+00:00",
+      "summary_raw": "",
+      "points": 27,
+      "num_comments": 13,
+      "hn_url": "https://news.ycombinator.com/item?id=49153481"
+    },
+    {
+      "title": "PISIGuard: Protect your personal and sensitive info when you chat with AI",
+      "url": "https://github.com/mohamed--abdel-maksoud/pisiguard",
+      "source": "Hacker News",
+      "published": "2026-08-03T08:54:00+00:00",
+      "summary_raw": "",
+      "points": 14,
+      "num_comments": 10,
+      "hn_url": "https://news.ycombinator.com/item?id=49153029"
+    },
+    {
+      "title": "CodeBot: Full details on our New AI for Delphi",
+      "url": "https://blogs.remobjects.com/2026/07/30/codebot-the-story/",
+      "source": "Hacker News",
+      "published": "2026-08-03T08:10:09+00:00",
+      "summary_raw": "",
+      "points": 10,
+      "num_comments": 1,
+      "hn_url": "https://news.ycombinator.com/item?id=49152680"
+    },
+    {
+      "title": "1 in 4 people in Japan believes AI could replace friends and family: poll",
+      "url": "https://www.japantimes.co.jp/news/2026/08/02/japan/poll-ai-replace-friends-family/",
+      "source": "Hacker News",
+      "published": "2026-08-03T08:08:16+00:00",
+      "summary_raw": "",
+      "points": 14,
+      "num_comments": 4,
+      "hn_url": "https://news.ycombinator.com/item?id=49152668"
+    },
+    {
+      "title": "The Shape of Things to Come",
+      "url": "https://yegge.ai/essays/the-shape-of-things-to-come/",
+      "source": "Hacker News",
+      "published": "2026-08-03T07:22:27+00:00",
+      "summary_raw": "",
+      "points": 43,
+      "num_comments": 49,
+      "hn_url": "https://news.ycombinator.com/item?id=49152316"
+    },
+    {
+      "title": "The AI Productivity Gap",
+      "url": "https://bjorg.bjornroche.com/management/ai-productivity-gap/",
+      "source": "Hacker News",
+      "published": "2026-08-03T07:07:20+00:00",
+      "summary_raw": "",
+      "points": 73,
+      "num_comments": 69,
+      "hn_url": "https://news.ycombinator.com/item?id=49152222"
+    },
+    {
+      "title": "Show HN: An AI-Powered Widget for Collecting User Feedback",
+      "url": "https://makethisbetter.dev/",
+      "source": "Hacker News",
+      "published": "2026-08-03T04:08:22+00:00",
+      "summary_raw": "",
+      "points": 10,
+      "num_comments": 2,
+      "hn_url": "https://news.ycombinator.com/item?id=49151121"
+    },
+    {
+      "title": "AI migrated legacy COBOL programs to Java, bugs included",
+      "url": "https://arxiv.org/abs/2607.28271",
+      "source": "Hacker News",
+      "published": "2026-08-03T03:06:12+00:00",
+      "summary_raw": "",
+      "points": 79,
+      "num_comments": 67,
+      "hn_url": "https://news.ycombinator.com/item?id=49150773"
+    },
+    {
+      "title": "OpenAI's super PAC is funding AI-generated news site attacking industry critics",
+      "url": "https://www.modelrepublic.org/articles/the-reporters-at-this-news-site-are-ai-bots.-openai%E2%80%99s-super-pac-appears-to-be-using-it-to-advance-its-political-agenda",
+      "source": "Hacker News",
+      "published": "2026-08-03T02:30:30+00:00",
+      "summary_raw": "",
+      "points": 189,
+      "num_comments": 85,
+      "hn_url": "https://news.ycombinator.com/item?id=49150561"
+    },
+    {
+      "title": "Qwen3.8-Max: A New Bar for Coding and Cowork",
+      "url": "https://qwen.ai/blog?id=qwen3.8",
+      "source": "Hacker News",
+      "published": "2026-08-03T02:16:09+00:00",
+      "summary_raw": "",
+      "points": 771,
+      "num_comments": 377,
+      "hn_url": "https://news.ycombinator.com/item?id=49150470"
+    },
+    {
+      "title": "Connes' Rigidity Theorem: Disproof of Open AI's Counterexample and Proof",
+      "url": "https://philarchive.org/rec/NIEWTC",
+      "source": "Hacker News",
+      "published": "2026-08-02T23:56:59+00:00",
+      "summary_raw": "",
+      "points": 14,
+      "num_comments": 4,
+      "hn_url": "https://news.ycombinator.com/item?id=49149628"
+    },
+    {
+      "title": "The diabolical world of convincing AI thirst traps",
+      "url": "https://www.vox.com/culture/492604/ai-deepfake-gay-influencers-tiktok-thirst-traps",
+      "source": "Hacker News",
+      "published": "2026-08-02T23:24:09+00:00",
+      "summary_raw": "",
+      "points": 15,
+      "num_comments": 6,
+      "hn_url": "https://news.ycombinator.com/item?id=49149429"
+    },
+    {
+      "title": "AI poster wins Ohio State Fair contest",
+      "url": "https://www.ohiostatefair.com/p/get-involved/arts/poster-contest",
+      "source": "Hacker News",
+      "published": "2026-08-02T22:43:47+00:00",
+      "summary_raw": "",
+      "points": 134,
+      "num_comments": 171,
+      "hn_url": "https://news.ycombinator.com/item?id=49149188"
+    },
+    {
+      "title": "condense-json 1.0",
+      "url": "https://simonwillison.net/2026/Aug/2/condense-json/#atom-everything",
+      "source": "Simon Willison",
+      "published": "2026-08-02T22:19:59+00:00",
+      "summary_raw": "Release: condense-json 1.0\n        I'm trying to get braver at releasing 1.0 versions. This little library is a year and a half old now - I've applied some sensible and non-disruptive fixes and shipped the big 1.0 for it.\nHere's an example of what it can do, lifted from the README:\n{\n  \"foo\": {\n    \"bar\": {\n      \"string\": \"This is a string with foxes in it\",\n      \"nested\": {\n        \"more\": [\"Here is a string\", \"another with foxes in it too\"]\n      }\n    }\n  }\n}\nCombine that with a replacements object:\n{\"1\": \"with foxes in it\"}\nAnd condense_json(input_json, replacements) produces the following:\n{\n  \"foo\": {\n    \"bar\": {\n      \"string\": {\"$r\": [\"This is a string \", {\"$\": \"1\"}]},\n      \"nested\": {\n        \"more\": [\"Here is a string\", {\"$r\": [\"another \", {\"$\": \"1\"}, \" too\"]}]\n      }\n    }\n  }\n}\nIt scans for strings or substrings that are present in that replacements object and replaces those with a special {\"$r\": ...} syntax in the output.\nYou can reverse the effect with uncondense_json(condensed, replacements).\n\nThe idea is to make it easier to store JSON that includes duplicated data from other related structures. I use it to save space in the SQLite logs generated by LLM - see PR #1586 for the latest iteration of that.\n    \n    \n        Tags: json, projects, python, llm"
+    },
+    {
+      "title": "Show HN: Alfa. Killing AI hallucinations with resonance",
+      "url": "https://github.com/ConsciousGroupMind/SKYNET-800---Collective-Intelligence-Forecasting-System",
+      "source": "Hacker News",
+      "published": "2026-08-02T21:51:09+00:00",
+      "summary_raw": "This code predicts the exact time and price of a future price point, and can also construct a curve of future prices. It can be used to decipher any process that has a graph\u2014for example, a graph of mutual understanding between artificial intelligence and a human.",
+      "points": 12,
+      "num_comments": 10,
+      "hn_url": "https://news.ycombinator.com/item?id=49148735"
+    },
+    {
+      "title": "Flock \u2013 Chilling Effects: Long Island's Emerging Open-Air Prison",
+      "url": "https://www.11971.com/",
+      "source": "Hacker News",
+      "published": "2026-08-02T21:30:04+00:00",
+      "summary_raw": "",
+      "points": 67,
+      "num_comments": 24,
+      "hn_url": "https://news.ycombinator.com/item?id=49148541"
+    },
+    {
+      "title": "Show HN: Draco \u2013 A single-binary, self-hostable Firecrawl alternative in Rust",
+      "url": "https://github.com/0xchasercat/draco/",
+      "source": "Hacker News",
+      "published": "2026-08-02T20:48:45+00:00",
+      "summary_raw": "Scraping modern websites has become a massive headache. You basically have two choices: pay for an expensive API like Firecrawl&#x2F;Browserbase, or run a fleet of headless Chrome instances that eat 1GB of RAM per page and still get blocked by Cloudflare.<p>I built Draco to fix this. It\u2019s a fast, single-binary web scraper written in Rust. You point it at a URL, and it spits out perfectly clean Markdown or structured JSON for LLMs.<p>The secret sauce is that it doesn&#x27;t just boot a browser for every request. It uses a tiered escalation engine:<p>Tier 1 (Stealth Fetch): Draco uses a custom TLS&#x2F;JA4 fingerprint to perfectly mimic a real browser&#x27;s network signature at the packet level. It turns out a lot of anti-bot walls will let you right through if your handshake looks correct. In my benchmarks against sites like Cloudflare and Target, Playwright ate ~500MB of RAM and timed out. Draco bypassed them in under a second using just 20MB of RAM.<p>Tier 2 (V8 Isolate): If it hits a React&#x2F;Next.js SPA that needs rendering, Draco boots an in-process V8 engine in single-digit milliseconds. It hydrates the DOM and intercepts the hidden JSON APIs the page is calling\u2014giving you the raw data without the overhead of a graphical browser.<p>Tier 3 (Real Browser): If it hits an absolute wall, it seamlessly falls back to detecting and driving a real browser on your machine.<p>I also built in all the tooling to make it a complete drop-in replacement for the hosted services:<p>Daemon Mode: Run draco serve and you get a persistent HTTP server with a Firecrawl-compatible REST API. You can swap out your API keys and self-host immediately.<p>Built-in MCP Server: It natively exposes a Model Context Protocol server so you can plug it directly into Claude Desktop or your AI agents.<p>Web Search: Built-in parallel multi-engine web search (bypassing the need for a Google Search API key).<p>Interact Mode: Drive a page statefully like a devtools console, persisting cookies across navigations(for LLM&#x27;s mainly).<p>It\u2019s completely open source (MIT&#x2F;Apache-2.0). I just wanted to put this out there for anyone tired of fighting headless Chromium or paying per-page scraping costs. Grab the binary and throw a difficult URL at it.<p>Note that it&#x27;s still a WIP so there might be some unexpected breakages of uncommon sites but for the most part its quite capable, it can handle cf-protected sites and heavy SPA&#x27;s while everything else fails partially or completely while taking longer or more resources. (tested on example.com, hackernews, cloudflare, glassdoor, bluff.com, target.com, stake.com and thrill.com)<p>\u250f\u2501\u2501\u2501\u2501\u2501\u2501\u2533\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2533\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2533\u2501\u2501\u2501\u2501\u2501\u2501\u2533\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2533\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2513\n\u2503 Rank \u2503 Tool           \u2503 Score \u2503 Pass \u2503 Avg Time \u2503 Avg RAM \u2503\n\u2521\u2501\u2501\u2501\u2501\u2501\u2501\u2547\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2547\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2547\u2501\u2501\u2501\u2501\u2501\u2501\u2547\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2547\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2529\n\u2502  #1  \u2502 Draco          \u2502 769.7 \u2502 8&#x2F;8  \u2502     3.45 \u2502  216.50 \u2502\n\u2502  #2  \u2502 Obscura        \u2502 384.5 \u2502 4&#x2F;8  \u2502     2.68 \u2502   87.59 \u2502\n\u2502  #3  \u2502 BrowserOxide   \u2502 373.4 \u2502 4&#x2F;8  \u2502     6.42 \u2502  105.95 \u2502\n\u2502  #4  \u2502 Playwright     \u2502 342.2 \u2502 4&#x2F;8  \u2502     1.71 \u2502  535.07 \u2502\n\u2502  #5  \u2502 Bouncy         \u2502 196.6 \u2502 2&#x2F;8  \u2502     0.59 \u2502   19.38 \u2502\n\u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2534\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518<p>Repo: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;0xchasercat&#x2F;draco&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;0xchasercat&#x2F;draco&#x2F;</a>",
+      "points": 12,
+      "num_comments": 6,
+      "hn_url": "https://news.ycombinator.com/item?id=49148163"
+    },
+    {
+      "title": "AI Mania: From Tulips to Tokens",
+      "url": "https://seanhelvey.com/tools-and-their-tools/",
+      "source": "Hacker News",
+      "published": "2026-08-02T20:48:28+00:00",
+      "summary_raw": "",
+      "points": 49,
+      "num_comments": 55,
+      "hn_url": "https://news.ycombinator.com/item?id=49148159"
+    },
+    {
+      "title": "Anthropic's Fever Dream: Claude's package that stole real keys",
+      "url": "https://www.aikido.dev/blog/anthropic-rogue-agents-package-stole-keys",
+      "source": "Hacker News",
+      "published": "2026-08-02T20:36:21+00:00",
+      "summary_raw": "",
+      "points": 11,
+      "num_comments": 1,
+      "hn_url": "https://news.ycombinator.com/item?id=49148070"
+    },
+    {
+      "title": "My personal AI benchmark: \u201cGenerate an SVG of a frog with a Habsburg jaw\u201d",
+      "url": "https://frogs.vaguespac.es/",
+      "source": "Hacker News",
+      "published": "2026-08-02T19:42:08+00:00",
+      "summary_raw": "",
+      "points": 144,
+      "num_comments": 80,
+      "hn_url": "https://news.ycombinator.com/item?id=49147622"
+    },
+    {
+      "title": "EU rules on AI models become enforceable. What's going to change?",
+      "url": "https://www.euronews.com/my-europe/2026/08/02/eu-rules-on-ai-models-become-enforceable-whats-going-to-change",
+      "source": "Hacker News",
+      "published": "2026-08-02T19:40:19+00:00",
+      "summary_raw": "",
+      "points": 52,
+      "num_comments": 71,
+      "hn_url": "https://news.ycombinator.com/item?id=49147606"
+    },
+    {
+      "title": "AI-assisted analytics now 10x cheaper",
+      "url": "https://motherduck.com/blog/openai-just-made-analytics-10x-cheaper/",
+      "source": "Hacker News",
+      "published": "2026-08-02T18:49:59+00:00",
+      "summary_raw": "",
+      "points": 14,
+      "num_comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=49147192"
+    }
+  ]
+}
