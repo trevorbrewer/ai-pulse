@@ -1,0 +1,226 @@
+{
+  "date": "2026-08-04",
+  "generated_at": "2026-08-04T12:58:52.681258+00:00",
+  "source_counts": {
+    "rss_feeds": 5,
+    "arxiv": 50,
+    "hackernews": 23,
+    "nitter": 0,
+    "total_raw": 78,
+    "total_deduped": 78,
+    "total_saved": 25
+  },
+  "items": [
+    {
+      "title": "AI-Generated Images Discourage Me from Reading Your Blog",
+      "url": "https://nelson.cloud/ai-generated-images-discourage-me-from-reading-your-blog/",
+      "source": "Hacker News",
+      "published": "2026-08-04T11:30:17+00:00",
+      "summary_raw": "",
+      "points": 187,
+      "num_comments": 98,
+      "hn_url": "https://news.ycombinator.com/item?id=49167113"
+    },
+    {
+      "title": "Keyv and friends compromised in active Shai-Hulud supply chain attack",
+      "url": "https://www.aikido.dev/blog/keyv-and-friends-compromised-in-npm-supply-chain-attack",
+      "source": "Hacker News",
+      "published": "2026-08-04T11:01:37+00:00",
+      "summary_raw": "",
+      "points": 18,
+      "num_comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=49166874"
+    },
+    {
+      "title": "An Honest Review of AI Programming",
+      "url": "https://mropert.github.io/2026/08/04/an_honest_review_of_ai_programming/",
+      "source": "Hacker News",
+      "published": "2026-08-04T09:35:15+00:00",
+      "summary_raw": "",
+      "points": 20,
+      "num_comments": 26,
+      "hn_url": "https://news.ycombinator.com/item?id=49166230"
+    },
+    {
+      "title": "Bending Spoons makes first post-IPO acquisition with $1.3B Airtable deal",
+      "url": "https://live.euronext.com/en/financial-news/bending-spoons-makes-first-post-ipo-acquisition-13-billion-airtable-deal",
+      "source": "Hacker News",
+      "published": "2026-08-04T09:27:47+00:00",
+      "summary_raw": "",
+      "points": 55,
+      "num_comments": 68,
+      "hn_url": "https://news.ycombinator.com/item?id=49166182"
+    },
+    {
+      "title": "Bending Spoons entered definitive agreement to acquire Airtable for $1.28B",
+      "url": "https://www.businesswire.com/news/home/20260730994716/en/Bending-Spoons-has-entered-into-a-definitive-agreement-to-acquire-Airtable-for-%241.285-billion",
+      "source": "Hacker News",
+      "published": "2026-08-04T08:30:21+00:00",
+      "summary_raw": "",
+      "points": 25,
+      "num_comments": 7,
+      "hn_url": "https://news.ycombinator.com/item?id=49165798"
+    },
+    {
+      "title": "Quoting Steve Yegge",
+      "url": "https://simonwillison.net/2026/Aug/4/steve-yegge/#atom-everything",
+      "source": "Simon Willison",
+      "published": "2026-08-04T00:42:45+00:00",
+      "summary_raw": "Gas Town\u00a0was intended to be reusable, but I only ever wound up using it to build itself. Gas Town fell apart at the seams with Opus 4.7. Up through 4.6 it was working brilliantly. With 4.7 we saw the introduction of the \"just two more things\" tic, which prevented Opus from ever converging on being ready to do real work\u2014it always wanted to fiddle with Gas Town itself. The Opus tic never went away, so Gas Town effectively burned down. It had other problems, too, but 4.7 was the final straw.\n&mdash; Steve Yegge, The Shape of Things to Come\n\n    Tags: steve-yegge, coding-agents, generative-ai, ai, llms"
+    },
+    {
+      "title": "Don't be a meat proxy",
+      "url": "https://simonwillison.net/2026/Aug/3/dont-be-a-meat-proxy/#atom-everything",
+      "source": "Simon Willison",
+      "published": "2026-08-03T23:45:04+00:00",
+      "summary_raw": "Don&#x27;t be a meat proxy\nNiklas Gruhn coins an excellent new term - meat proxy - for people who blindly copy and paste the output of AI systems to their peers.\n\nBy all means, prompt AI. But don't just relay the output. Read it, understand it, validate it, and then write a response in your own words (a decent certificate that you've done the prior steps). Making that effort is value you can add.\n\n\n    Via Lobste.rs\n\n\n    Tags: definitions, ai, generative-ai, llms, ai-misuse"
+    },
+    {
+      "title": "The Shape of Things to Come, Part 2: Model Welfare for Agentic Engineers",
+      "url": "https://yegge.ai/essays/model-welfare/",
+      "source": "Hacker News",
+      "published": "2026-08-03T23:27:02+00:00",
+      "summary_raw": "",
+      "points": 13,
+      "num_comments": 8,
+      "hn_url": "https://news.ycombinator.com/item?id=49162671"
+    },
+    {
+      "title": "An AI-supervised remote exam went so badly that 58,000 students must retake it",
+      "url": "https://arstechnica.com/culture/2026/08/an-ai-supervised-remote-exam-went-so-badly-that-58000-students-must-retake-it/",
+      "source": "Hacker News",
+      "published": "2026-08-03T22:07:07+00:00",
+      "summary_raw": "",
+      "points": 22,
+      "num_comments": 6,
+      "hn_url": "https://news.ycombinator.com/item?id=49162105"
+    },
+    {
+      "title": "Apple is getting this wrong",
+      "url": "https://openai.com/index/apple-is-getting-this-wrong",
+      "source": "OpenAI Blog",
+      "published": "2026-08-03T22:00:00+00:00",
+      "summary_raw": "OpenAI addresses Apple\u2019s baseless lawsuit, corrects claims about its employees, and shares messages documenting what happened."
+    },
+    {
+      "title": "Stanford CS329A Self-Improving AI Agents \u2013 Part 1 [video]",
+      "url": "https://www.youtube.com/watch?v=6YnLB0XbTnI",
+      "source": "Hacker News",
+      "published": "2026-08-03T21:59:39+00:00",
+      "summary_raw": "",
+      "points": 10,
+      "num_comments": 1,
+      "hn_url": "https://news.ycombinator.com/item?id=49162034"
+    },
+    {
+      "title": "The U.S. lead over China in AI is all but gone",
+      "url": "https://www.cnbc.com/2026/08/02/ai-model-competition-us-china.html",
+      "source": "Hacker News",
+      "published": "2026-08-03T20:06:08+00:00",
+      "summary_raw": "",
+      "points": 15,
+      "num_comments": 7,
+      "hn_url": "https://news.ycombinator.com/item?id=49160745"
+    },
+    {
+      "title": "AI's debt binge can't last, hidden borrowing reaches $1.65T",
+      "url": "https://fortune.com/2026/07/31/ai-debt-hypescalers-capex-capital-spending-hidden-borrowing-bond-issuance/",
+      "source": "Hacker News",
+      "published": "2026-08-03T20:02:21+00:00",
+      "summary_raw": "",
+      "points": 132,
+      "num_comments": 160,
+      "hn_url": "https://news.ycombinator.com/item?id=49160699"
+    },
+    {
+      "title": "The AI Bailout Could Be Baked into the AI Bubble",
+      "url": "https://prospect.org/2026/08/03/ai-bailout-could-be-baked-into-bubble-private-equity-life-insurers-loans/",
+      "source": "Hacker News",
+      "published": "2026-08-03T18:51:23+00:00",
+      "summary_raw": "",
+      "points": 37,
+      "num_comments": 4,
+      "hn_url": "https://news.ycombinator.com/item?id=49159902"
+    },
+    {
+      "title": "AURORA-LM: Autoencoding Unified Representation for Continuous-Latent Diffusion Language Modeling",
+      "url": "https://arxiv.org/abs/2608.02602v1",
+      "source": "arXiv",
+      "published": "2026-08-03T17:59:50+00:00",
+      "summary_raw": "Language remains an outlier in generative modeling: while images, video, and audio are increasingly modeled in continuous latent spaces, text generation still relies predominantly on discrete tokens. Existing continuous language models either inherit embedding spaces not designed for joint generation and decoding, or compress autoencoded latents to ease diffusion, sacrificing token-level fidelity. Instead of simplifying the representation to suit the generative model, we preserve a high-capacity, decodable text latent and design the diffusion model to learn its distribution directly. We introduce AURORA-LM, a continuous-latent diffusion language model that separates the construction of a decodable text representation from the modeling of its distribution. A Query-based Encoder-Decoder organizes text into a high-capacity, prefix-aligned latent sequence, and a Block-causal Diffusion Transformer learns its distribution through flow matching, generating blocks left to right while denoising positions within each block in parallel. Because such a latent is harder for diffusion to model, AURORA-LM restricts only the noisy-input pathway while retaining the full clean-latent prediction target, accommodating full-width latents without reducing decoder-facing capacity. We further calibrate the noise-level distribution to the latent width, and introduce self-trajectory consistency to bridge independently sampled training noise and iterative denoising at inference. AURORA-LM achieves the strongest performance among evaluated continuous and diffusion-based language models on OpenWebText free generation and XSum summarization. Scaling to 1B parameters with about 1500 EFLOPs of total compute yields further gains, surpassing a larger publicly released latent-diffusion language model under a matched evaluation protocol. All experiments are conducted on Ascend NPUs."
+    },
+    {
+      "title": "Bridging Artificial Intelligence and Power Systems Education Using a Hands-On Executable Framework",
+      "url": "https://arxiv.org/abs/2608.02599v1",
+      "source": "arXiv",
+      "published": "2026-08-03T17:59:09+00:00",
+      "summary_raw": "Artificial intelligence (AI) is increasingly central to power and energy systems, supporting modeling, forecasting, optimization, and control. Yet most existing works emphasize specialized applications and offer little reusable material for newcomers or interdisciplinary learners, who increasingly rely on large language models rather than building their own. This gap points to a need for engineering-grounded AI (EGAI), in which AI workflows follow established engineering and power-system domain rules rather than acting as task-agnostic black boxes. Motivated by a community survey of researchers and practitioners, which shows 92% report at least one barrier before running an AI model and 94% want a power-specific hands-on course. This paper presents a framework consisting of open, executable module library that lowers the entry barrier for AI in power systems. The modules follow a progressive difficulty ladder that maps core AI concepts onto representative power-system tasks: (i) foundational deep neural network (DNN) templates for function approximation and load-curve fitting; (ii) a domain-coupled convolutional neural network (CNN) power-flow surrogate for a 5-bus system; and (iii) frontier modules on DNN-assisted optimization, deep reinforcement learning (DRL) for battery storage control, and physics-informed neural networks (PINNs) for the swing equation. All modules are released as Jupyter notebooks that run locally or on Google Colab and are delivered through an IEEE online course and IEEE Power & Energy Society (PES) webinar series. The webinar drew more than 590 live attendees, which is among the ten most-attended IEEE PES webinars, and over 344 repository visits within two weeks, reinforcing the survey-based motivation."
+    },
+    {
+      "title": "onepot-Bench 0: towards lab-aware in silico chemistry benchmarks",
+      "url": "https://arxiv.org/abs/2608.02595v1",
+      "source": "arXiv",
+      "published": "2026-08-03T17:58:27+00:00",
+      "summary_raw": "Language models are playing an increasingly important role in laboratory science, performing tasks such as experiment planning, execution, and post-hoc analysis. However, precisely measuring their abilities is difficult, as scientific capabilities require a mixture of both problem-solving skills and domain-specific intuition. Existing evaluations rarely measure the capabilities required to make reliable decisions in a physical laboratory and often rely on public data that may have appeared in model training corpora. We introduce onepot-Bench 0, a proprietary benchmark suite for evaluating language models on synthetic chemistry capabilities relevant to wet-lab execution. onepot-Bench 0 comprises three complementary evaluations: ChemAbacus measures tool-free cheminformatics literacy and numerical reasoning; SynthRefusal characterizes safety and refusal behavior across a variety of benign, controlled, and designer-drug targets; and SynthBench evaluates reaction-outcome prediction and catalyst selection using private experimental data generated in our laboratory. Together, these evaluations probe basic competency, reliability, and deeper knowledge, all skills which are required for reliable performance in the lab."
+    },
+    {
+      "title": "Stanford CS329A: Self-Improving AI Agents",
+      "url": "https://www.youtube.com/playlist?list=PLangBM27OtEA",
+      "source": "Hacker News",
+      "published": "2026-08-03T17:57:25+00:00",
+      "summary_raw": "",
+      "points": 19,
+      "num_comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=49159251"
+    },
+    {
+      "title": "The Condition-Number Barrier in Sparse Least Squares",
+      "url": "https://arxiv.org/abs/2608.02588v1",
+      "source": "arXiv",
+      "published": "2026-08-03T17:57:01+00:00",
+      "summary_raw": "In [AS21], Axiotis and Sviridenko conjectured that the linear dependence on the restricted condition number in sparse convex optimization cannot be improved by a polynomial-time algorithm. We establish their conjectured lower bound for least-squares objectives, conditional on the randomized exact-volume Small-Set Expansion Hypothesis in the weighted regular-graph formulation of Raghavendra, Steurer, and Tulsiani [RST12]. Concretely, for every fixed $\u03b3\\in(0,1]$, there is no randomized polynomial-time algorithm that, with probability at least $2/3$, returns a vector $x$ such that, writing $s=\\lVert x\\rVert_0$, \\[ \\lVert Ax-b\\rVert_2^2 \\leq \\min_{\\lVert z\\rVert_0\\leq k}\\lVert Az-b\\rVert_2^2+\\varepsilon \\quad\\text{and}\\quad s=O\\!\\left(k\\,\u03ba_{s+k}^{\\,1-\u03b3}\\right), \\] where $\u03ba_r$ is the restricted condition number at sparsity level $r$. The result holds even on rational instances with $A$ of full column rank. The proof was first obtained using a fully automated Gemini-based agentic system developed internally at Google. The authors have verified the proof and edited it for clarity of presentation."
+    },
+    {
+      "title": "GradCuit: Credit-Assigned Gradient Flow Enables Robust and Interpretable Test-Time Latent Reasoning",
+      "url": "https://arxiv.org/abs/2608.02585v1",
+      "source": "arXiv",
+      "published": "2026-08-03T17:55:24+00:00",
+      "summary_raw": "Optimization-based latent reasoning improves large language model outputs by optimizing instance-specific continuous states at test time while keeping model parameters frozen. Existing methods, however, typically connect these states to the reasoning trajectory through decoded tokens, making sequence-level credit assignment indirect and obscuring how latent updates shape subsequent reasoning. We introduce GradCuit (gradient through circuit), which inserts optimizable latent states at a selected Transformer layer between the hidden representations of the prompt and the generated continuation. Causal self-attention provides every continuation-token log-probability with a differentiable path to every preceding latent state through the remaining Transformer blocks, enabling reward-weighted gradients from the entire continuation to be assigned directly to the latents. Across five instruction-tuned backbones, three reasoning benchmarks, and two answer formats, GradCuit achieves an average accuracy of 64.5%, outperforming chain-of-thought prompting by 6.6 percentage points and the strongest competing method by 2.4 points. GradCuit also demonstrates greater robustness: across seven learning-rate settings, it consistently outperforms LatentSeek while reducing the standard deviation of accuracy from 1.53 to 0.82, and even its random-walk variant remains competitive with LatentSeek. For interpretability, token-level gradient attribution reveals that latent influence concentrates on reasoning-connector tokens, while layer analysis identifies early-to-middle Transformer layers as the most effective optimization space. By directly optimizing internal reasoning from outcome feedback, GradCuit opens a new axis of robust and interpretable test-time scaling, where LLMs adapt how they reason rather than merely regenerate, sample, or rerank outputs."
+    },
+    {
+      "title": "UEmbed: Unified Sparse and Dense Multimodal Embeddings",
+      "url": "https://arxiv.org/abs/2608.02583v1",
+      "source": "arXiv",
+      "published": "2026-08-03T17:54:11+00:00",
+      "summary_raw": "Sparse retrieval underpins modern search systems, from web search to retrieval-augmented generation. Existing work has introduced Learned Sparse Retrieval (LSR) to push beyond exact lexical matching toward richer semantics. Yet LSR has so far remained tied to encoder-style bidirectional architectures, and its extension to multimodal settings still relies heavily on auxiliary cross-modal modules. To address these limitations, we introduce UEmbed (Unified Embedding), a decoder-only multimodal embedding model that produces both sparse lexical and dense representations in one causal forward pass. UEmbed appends N learnable special tokens to the input and partitions the vocabulary into N disjoint subsets. Each token's causal hidden state predicts sparse weights over its assigned subset, and the N subsets are concatenated into the full sparse vector. Trained on public data, we release UEmbed at 2B, 4B, and 9B scales. UEmbed-9B reaches 71.8 (dense) and 71.0 (sparse) on MMEB-v2, outperforming multimodal embedding models trained on publicly available data (e.g., RzenEmbed). On BEIR, UEmbed also remains competitive with strong dense and sparse baselines. Furthermore, we demonstrate the practical utility of UEmbed across three dimensions: effectiveness, efficiency, and agentic applications. Overall, UEmbed offers a new paradigm: it unifies dense and sparse embeddings in one model, while further extending sparse retrieval to unify text and multimodal inputs."
+    },
+    {
+      "title": "CoWAM: Coordination Contracts for Selective Policy Intervention with WAMs",
+      "url": "https://arxiv.org/abs/2608.02578v1",
+      "source": "arXiv",
+      "published": "2026-08-03T17:51:58+00:00",
+      "summary_raw": "World Action Models (WAMs) augment robot policies with action-conditioned predicted futures, but a plausible future alone does not justify changing the action that a bimanual policy would execute. We present CoWAM, a selective intervention layer that expresses synchronization, role compatibility, and collision convergence as coordination contracts. Each contract combines typed admissibility checks with event-conditioned verification and calibrated intervention gates. CoWAM preserves the nominal action unless an alternative satisfies every active obligation and provides a clear, low-risk improvement; when the nominal action is also inadmissible, it invokes a predefined abstention fallback. To separate selector quality from proposal quality, all methods operate on identical candidate pools and commit their decisions before shared oracle labeling. Across eight simulated bimanual tasks, CoWAM improves coordination-valid selection by 16.7 percentage points over the contract-only variant and raises closed-loop success by 9.6 percentage points over the strongest selective baseline, while keeping harmful interventions below 1%. Together, these results establish coordination contracts as an effective interface for conservative policy intervention with predicted world-action evidence across coordination-rich bimanual tasks."
+    },
+    {
+      "title": "Smooth Reparameterizations of Functions on Simplicial Product Spaces: Applications to Probabilistic Tensor Decomposition and Functional Data Registration",
+      "url": "https://arxiv.org/abs/2608.02576v1",
+      "source": "arXiv",
+      "published": "2026-08-03T17:51:40+00:00",
+      "summary_raw": "We consider optimization problems defined on product spaces of simplices. Examples of this class of problems include learning low-rank discrete multivariate probability distributions via simplex constrained tensor decomposition and performing functional data registration under the Square Root Velocity Function (SRVF) representation. In this work, we demonstrate the feasibility of replacing the product simplex with a smooth, elementwise strictly convex reparameterization, resulting in an unconstrained optimization problem on a manifold. We show that performing such a reparameterization results in the second order Karush-Kuhn-Tucker (KKT) points on the smooth manifold being mapped to the weak second order KKT points on the product simplex. This leads to a Riemannian Gradient Descent (RGD) algorithm for solving the reparameterized problem, which outperforms Projected Gradient Descent (PGD), and provides a more faithful representation of the original function shapes while performing curve registration."
+    },
+    {
+      "title": "Pseudorandom Streams within Diffusion Models Act as Learnable Inputs That Affect Generation Quality",
+      "url": "https://arxiv.org/abs/2608.02575v1",
+      "source": "arXiv",
+      "published": "2026-08-03T17:50:54+00:00",
+      "summary_raw": "Diffusion models rely on stochastic inputs, yet on finite-precision hardware, the \"randomness\" they consume is realized as deterministic numerical orbits generated by pseudorandom rules. Accessible orbit structure can become a learnable input and affect both training and generation because the realized loss and its gradient depend on the concrete pseudorandom values consumed at each optimization step. A small multilayer perceptron predicts the next value of an orbit from its recent history, measuring general sequence predictability. A diffusion probe replaces real images with online random tensors while preserving the diffusion architecture and training objective, measuring whether the target system can exploit orbit structure. After controlling marginal statistics and screening out clear dynamical and finite-precision failures, the remaining orbits still produce markedly different diffusion losses and generation quality on MNIST and CIFAR-10. Both measures show strong rank correlations with macroscopic generation degradation, although their local rankings differ. After normalization by the IID baseline, the probe loss and the real-data diffusion loss approximately follow an empirical power law, with different exponents on the two datasets. These results suggest that a pseudorandom source is not only a distributional choice, but also a model-dependent structured input."
+    },
+    {
+      "title": "AtumAI: A Principled Framework for Agentic Generation of Datacenter Control-Plane Policies",
+      "url": "https://arxiv.org/abs/2608.02569v1",
+      "source": "arXiv",
+      "published": "2026-08-03T17:45:58+00:00",
+      "summary_raw": "The efficiency of a datacenter rests on its control plane policies. Designing these policies is increasingly hard: the hardware-software stack grows fast, the design space is vast and interdependent, and prototyping a single policy takes months. Agentic AI promises to automate this search. Off the shelf, however, it falls short on three fronts. It is not formal: with no structured, searchable statement of the problem, the search has little structure to exploit and hard constraints are not guaranteed. It is not transferable: each task is solved from scratch, so nothing learned on one task carries to the next. Finally, it is not systematic: relying on the LLM as the sole source of candidates, it explores a narrow slice of the design space and settles into local optima. We introduce AtumAI, a framework that generates datacenter control-plane policies with agentic AI, making the process formal, transferable, and systematic. From a goal stated in plain language, AtumAI autonomously proposes, tests, and refines candidate policies until one satisfies the request. It does so through two components. The Datacenter Task Compiler automates problem formulation: it compiles the request into a formal, machine-checkable, and searchable specification of the task's objectives, constraints, decision variables, and evaluation methodology. The Evolutionary Design Discovery Loop then searches this specification, expanding the search beyond the LLM itself via a diffusion model, an evolutionary algorithm, and a surrogate model. Together, they reduce onboarding a new task from months of engineering to writing its description. We evaluate AtumAI on three control-plane tasks with distinct problem scopes, design spaces, and trade-offs: workload placement, resource scaling, and power management. Across all tasks, the policies generated by AtumAI consistently outperform expert-engineered baselines."
+    }
+  ]
+}
