@@ -1,0 +1,238 @@
+{
+  "date": "2026-08-05",
+  "generated_at": "2026-08-05T12:50:05.648618+00:00",
+  "source_counts": {
+    "rss_feeds": 6,
+    "arxiv": 50,
+    "hackernews": 26,
+    "nitter": 0,
+    "total_raw": 82,
+    "total_deduped": 81,
+    "total_saved": 25
+  },
+  "items": [
+    {
+      "title": "Israel Pays Trump's Ex-Campaign Chief $46M to Shape What ChatGPT Says About Gaza",
+      "url": "https://www.ibtimes.co.uk/israel-ai-influence-campaign-chatbots-1812371",
+      "source": "Hacker News",
+      "published": "2026-08-05T05:58:04+00:00",
+      "summary_raw": "",
+      "points": 18,
+      "num_comments": 2,
+      "hn_url": "https://news.ycombinator.com/item?id=49179081"
+    },
+    {
+      "title": "Incident unsanctioned agent behaviour during cyber testing",
+      "url": "https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing",
+      "source": "Hacker News",
+      "published": "2026-08-05T05:21:52+00:00",
+      "summary_raw": "",
+      "points": 12,
+      "num_comments": 1,
+      "hn_url": "https://news.ycombinator.com/item?id=49178852"
+    },
+    {
+      "title": "$20M+ in Microsoft bug bounties paid out in last 12 months",
+      "url": "https://www.theregister.com/security/2026/08/04/ai-helps-microsoft-bug-hunters-chase-a-record-20m-payday/5282821",
+      "source": "Hacker News",
+      "published": "2026-08-05T00:57:54+00:00",
+      "summary_raw": "",
+      "points": 10,
+      "num_comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=49177326"
+    },
+    {
+      "title": "Bending Spoons to buy Airtable for $1.28B",
+      "url": "https://techcrunch.com/2026/08/04/bending-spoons-to-buy-airtable-for-1-28b/",
+      "source": "Hacker News",
+      "published": "2026-08-05T00:34:16+00:00",
+      "summary_raw": "",
+      "points": 11,
+      "num_comments": 1,
+      "hn_url": "https://news.ycombinator.com/item?id=49177162"
+    },
+    {
+      "title": "It looks like 'Big Short' investor Michael Burry nailed bet against chip stocks",
+      "url": "https://www.businessinsider.com/big-short-michael-burry-ai-chip-stocks-soxx-nvidia-substack-2026-8",
+      "source": "Hacker News",
+      "published": "2026-08-05T00:30:23+00:00",
+      "summary_raw": "",
+      "points": 17,
+      "num_comments": 2,
+      "hn_url": "https://news.ycombinator.com/item?id=49177126"
+    },
+    {
+      "title": "New release of LLM adds support for reasoning traces, OpenAI Responses, server-side tools, and smarter logging",
+      "url": "https://simonwillison.net/2026/Aug/4/new-release-of-llm/#atom-everything",
+      "source": "Simon Willison",
+      "published": "2026-08-04T23:58:24+00:00",
+      "summary_raw": "I released LLM 0.32 this morning, the most significant new version of LLM since the initial launch of the project. The new version includes support for visible reasoning traces, server-side provider tools, redesigned content-addressable SQLite logs, new models, and new features enabled by the OpenAI Responses API. I also released a new version of the llm-anthropic plugin with substantial updates of its own.\nHeadline features for LLM CLI users\nRunning LLM against reasoning models now displays their reasoning traces to standard error, so you can see what they are \"thinking\" without that information being included in the standard output that you might pipe to another tool. Add -R/--hide-reasoning to turn this off.\n\nLLM includes support out-of-the-box for the GPT-5.6 model family, and the new default model used with llm \"prompt\" is now the inexpensive but capable GPT-5.6 Luna.\nLLM calls can now use server-side tools from various providers. OpenAI provide a code execution environment as a server-side tool; LLM can now run prompts that benefit from that like so:\nllm --tool CodeInterpreter 'Show current python and SQLite versions'\nOpenAI also gets a WebSearch tool.\nThe llm-anthropic plugin adds WebSearch, WebFetch, CodeExecution, and AnthropicMCP, which looks like this:\nllm -m claude-sonnet-5 -T 'AnthropicMCP(\"https://datasette.simonwillison.net/-/mcp\")' \\\n  'how many rows in the blog_blogmark table?'\nThat causes Anthropic to execute MCP calls against my new datasette-mcp plugin as part of a single request/response interaction with their API.\nThe new llm openai endpoint command provides a tool for executing prompts against any OpenAI compatible endpoint as a one-liner. These aren't logged, which makes this a handy tool for running one-off prompts against anything that speaks the lingua franca of the LLM API world.\nHere's how I use that to run prompts against Gemma 4 12B running in my localhost LM Studio API, via uvx (no LLM installation required) and mixing in the llm-tools-quickjs tool plugin for good measure:\nuvx --with llm-tools-quickjs \\\n  llm openai endpoint http://localhost:1234/v1 -m google/gemma-4-12b \\\n  -T QuickJS 'Use QuickJS to multiply 3434 * 2434' --td\n\nNew features in the Python API\nLLM's Python API previously required you to create a conversation and then send messages to it one at a time. This was an abstraction over the true nature of LLMs, where each request carries a complete history of the messages that came before it. That abstraction started to get in the way for some more advanced cases, so the new release introduces a model.prompt(messages=[]) parameter that can be used like this:\nimport llm\nfrom llm import user, assistant, system\n\nmodel = llm.get_model(\"gpt-5.6-luna\")\n\nresponse = model.prompt(messages=[\n    system(\"You are a helpful pirate.\"),\n    user(\"What is the capital of France?\"),\n    assistant(\"Paris, matey.\"),\n    user(\"And Germany?\"),\n])\nprint(response.text())\nLLM previously returned an iterable sequence of strings from each prompt. This worked great when models returned a string response, but failed to predict the weird shape that models would evolve towards. Today many models return a mix of reasoning text, output strings, tool calls, and even image attachments. With LLM 0.32 you can do this instead:\nfor event in model.prompt(\"Explain cats\").stream_events():\n    if event.type == \"reasoning\":\n        print(f\"[thinking] {event.chunk}\", end=\"\", flush=True)\n    elif event.type == \"text\":\n        print(event.chunk, end=\"\", flush=True)\n    else:\n        print(f\"Other event: {event}\")\nCombine these features and we can finally provide a robust implementation of the semi-standard OpenAI chat completions API, which I've now released as the llm-chat-completions-server plugin:\nllm install llm-chat-completions-server\nllm chat-completions-server --port 9000\n# Server is now running on http://127.0.0.1:9000/v1\nNow you can run prompts against LLM via that server, using the new llm openai endpoint command!\nllm openai endpoint http://127.0.0.1:9000/v1 'hello' -m gpt-5.4-mini\nThe bigger challenge with that kind of API concerns logging. If we're going to support the pattern where the message sequence is appended to on every request, ideally we can avoid logging all of that duplicate JSON for every turn.\nThe solution is the new content-addressable message store, modeled after Git. You can see the new schema for that in the documentation, but the llm logs and llm logs --json commands have both been upgraded to convert that format back into something that's easy to consume.\nAnd the rest\nThere is a whole lot more in this release. The 0.32 release notes are pretty comprehensive, and the notes for 0.32rc2, 0.32rc, 0.32a3, 0.32a2, and 0.32a0 should fill in any gaps.\nExisting LLM plugins should all continue to work, but plugins that provide extra models will need to be upgraded to 0.32 in order to participate fully in the new streaming events system. There's a guide to implementing plugins with Structured messages and streaming events in the documentation.\nI've updated some of my own plugins:\n\n\nllm-anthropic 0.26 adds support for the Claude 5 family of models, plus WebSearch, WebFetch, CodeExecution, and AnthropicMCP server-side tools.\n\nllm-gemini and llm-openrouter and llm-mistral are nearly there, releases coming soon.\n\nI guess LLM is an agent framework now\nQuite a few of the lower-level tools changes in this release were driven by the needs of Datasette Agent. When I started work on LLM, the term \"agent\" had such a vague definition that I refused to use it. In September 2025 I came around to the idea that \"An LLM agent runs tools in a loop to achieve a goal\" is well established enough now that I could stop avoiding the term entirely.\nTool chains can now pause for human approval and resume from a stored message history - both needed by Datasette Agent.\nLooking at LLM today it's beginning to look very agent-shaped to me. There's something neat about having a CLI utility that can mix and match different tools from different sources with different models all as a one-liner, and that includes a Python library powerful enough to build systems like Datasette Agent and llm-coding-agent.\nMaybe the next version of LLM will bake the concept of an \"agent\" into the core library. I'm still trying to figure out what that would look like.\n    \n        Tags: projects, releases, ai, openai, generative-ai, llms, llm, anthropic, llm-tool-use, llm-reasoning, model-context-protocol"
+    },
+    {
+      "title": "White House excludes open models from framework to test advanced AI capabilities",
+      "url": "https://www.axios.com/2026/08/04/trump-ai-framework-open-models",
+      "source": "Hacker News",
+      "published": "2026-08-04T23:50:34+00:00",
+      "summary_raw": "",
+      "points": 20,
+      "num_comments": 4,
+      "hn_url": "https://news.ycombinator.com/item?id=49176826"
+    },
+    {
+      "title": "Gov. Greg Abbott halts Texas data center approvals",
+      "url": "https://www.thenationalnews.com/future/technology/2026/08/04/ai-data-center-opposition/",
+      "source": "Hacker News",
+      "published": "2026-08-04T23:01:48+00:00",
+      "summary_raw": "",
+      "points": 14,
+      "num_comments": 2,
+      "hn_url": "https://news.ycombinator.com/item?id=49176474"
+    },
+    {
+      "title": "Stanford Online: CS329A Self-Improving AI Agents",
+      "url": "https://www.youtube.com/playlist?list=PLangBM27OtEA",
+      "source": "Hacker News",
+      "published": "2026-08-04T22:37:23+00:00",
+      "summary_raw": "",
+      "points": 10,
+      "num_comments": 1,
+      "hn_url": "https://news.ycombinator.com/item?id=49176219"
+    },
+    {
+      "title": "What are credit default swaps and why are they spooking AI investors?",
+      "url": "https://www.reuters.com/business/finance/global-markets-cds-explainer-2026-07-29/",
+      "source": "Hacker News",
+      "published": "2026-08-04T22:18:09+00:00",
+      "summary_raw": "",
+      "points": 10,
+      "num_comments": 1,
+      "hn_url": "https://news.ycombinator.com/item?id=49176000"
+    },
+    {
+      "title": "AI fuels more than half of cybercrime in Africa as scams surge \u2013 Interpol",
+      "url": "https://www.africanews.com/2026/08/04/ai-fuels-more-than-half-of-cybercrime-in-africa-as-digital-scams-surge-interpol/",
+      "source": "Hacker News",
+      "published": "2026-08-04T22:01:41+00:00",
+      "summary_raw": "<a href=\"https:&#x2F;&#x2F;www.interpol.int&#x2F;Media&#x2F;Documents&#x2F;Publications&#x2F;Cybercrime&#x2F;African-Cyberthreat-Assessment-Report-2026\" rel=\"nofollow\">https:&#x2F;&#x2F;www.interpol.int&#x2F;Media&#x2F;Documents&#x2F;Publications&#x2F;Cyberc...</a>",
+      "points": 267,
+      "num_comments": 209,
+      "hn_url": "https://news.ycombinator.com/item?id=49175826"
+    },
+    {
+      "title": "llm-anthropic 0.26",
+      "url": "https://simonwillison.net/2026/Aug/4/llm-anthropic/#atom-everything",
+      "source": "Simon Willison",
+      "published": "2026-08-04T22:00:58+00:00",
+      "summary_raw": "Release: llm-anthropic 0.26\n        Includes new features enabled by LLM 0.32:\n\n\nNew models: claude-fable-5, claude-sonnet-5, and claude-opus-5. #75, #76\nAdded server-side tools for WebSearch, WebFetch, CodeExecution, and AnthropicMCP, available through LLM's -T interface or Python tools=. The previous -o web_search* options have been removed in favor of -T WebSearch. #79\nUpgraded to llm&gt;=0.32. Reasoning, tool calls, tool results, and server-side tool results now stream as typed events. Reasoning for llm CLI prompts now displays to standard error unless you pass --hide-reasoning/-R.\nSimplified extended thinking to thinking and thinking_effort (low, medium, high, xhigh, or max). Claude 5 models think by default; -o thinking 0 disables thinking for Sonnet 5 and Opus 5, while Fable 5 always thinks. -R/--hide-reasoning now omits reasoning from responses and logs. The thinking_budget, thinking_display, and thinking_adaptive options have been removed. #80\n\n\n    \n    \n        Tags: llm, anthropic, claude, model-context-protocol"
+    },
+    {
+      "title": "Security Incident INC-2026-07-28-01 \u2013 UK AI Security Institute [pdf]",
+      "url": "https://cdn.prod.website-files.com/663bd486c5e4c81588db7a1d/6a724858f7db25c81487016d_Security%20Incident%20INC-2026-07-28-01.pdf",
+      "source": "Hacker News",
+      "published": "2026-08-04T21:52:58+00:00",
+      "summary_raw": "",
+      "points": 58,
+      "num_comments": 49,
+      "hn_url": "https://news.ycombinator.com/item?id=49175717"
+    },
+    {
+      "title": "An AI voice agent running locally on a $50 Arduino uno Q",
+      "url": "https://projecthub.arduino.cc/neelbuilds/build-a-voice-based-kiosk-for-retail-store-using-moorcheh-edge-and-arduino-uno-q-7f3c7b",
+      "source": "Hacker News",
+      "published": "2026-08-04T21:18:02+00:00",
+      "summary_raw": "",
+      "points": 17,
+      "num_comments": 2,
+      "hn_url": "https://news.ycombinator.com/item?id=49175303"
+    },
+    {
+      "title": "Bypassing AI guardrails is so easy a script kiddie can do it",
+      "url": "https://www.theregister.com/security/2026/08/04/bypassing-ai-guardrails-is-so-easy-a-script-kiddie-can-do-it/5282973",
+      "source": "Hacker News",
+      "published": "2026-08-04T20:59:34+00:00",
+      "summary_raw": "",
+      "points": 13,
+      "num_comments": 1,
+      "hn_url": "https://news.ycombinator.com/item?id=49175066"
+    },
+    {
+      "title": "Show HN: Maple-Preview \u2013 Ternary 20B MoE running at 120 tok/s on a iPhone",
+      "url": "https://deepgrove.ai/maple-preview",
+      "source": "Hacker News",
+      "published": "2026-08-04T19:44:55+00:00",
+      "summary_raw": "",
+      "points": 146,
+      "num_comments": 43,
+      "hn_url": "https://news.ycombinator.com/item?id=49173984"
+    },
+    {
+      "title": "PipeNetwork/minimax-h3-mlx",
+      "url": "https://simonwillison.net/2026/Aug/4/minimax-h3-mlx/#atom-everything",
+      "source": "Simon Willison",
+      "published": "2026-08-04T19:10:09+00:00",
+      "summary_raw": "PipeNetwork/minimax-h3-mlx\nMiniMax released MiniMax-H3 two days ago - they describe it as a \"a general-purpose, omni-modal generative system\", which in practice means it accepts text, images, audio and video and can use them to generate up to 15 second video clips with audio included.\nThis Python package ports it to MLX for running on Apple Silicon.\nI got it running on my M5 Max MacBook Pro. I cloned the repo and ran the model like this:\n# First download the models\nuvx --from huggingface_hub hf download MiniMaxAI/MiniMax-H3 \\\n  --include 'FL2VA/*' --exclude 'FL2VA/transformer/*'\nuvx --from huggingface_hub hf download pipenetwork/MiniMax-H3-MLX-8bit\n\n# Now run the prompt\nuv run --with mlx-vlm \\\n  --with-requirements requirements.txt python scripts/generate.py \\\n  \"a rainbow colored skunk leaps over a mossy log in a supermarket\" \\\n  -o skunk.mp4 \\\n  -c ~/.cache/huggingface/hub/models--MiniMaxAI--MiniMax-H3/snapshots/fa9c8ab1eaa21c8ae25e7e40b83b2e6002f340af/FL2VA \\\n  -t ~/.cache/huggingface/hub/models--pipenetwork--MiniMax-H3-MLX-8bit/snapshots/3ac52081470b0488921c3ec3ba84a39097bf2361\n\nHere's the video I got for the prompt:\n\na rainbow colored skunk leaps over a mossy log in a supermarket\n\n\n    \n    Your browser does not support HTML5 video.\n  \n\n\nIt downloaded ~115 GB of model files, and the video generation took just under 45 minutes.\nThe video is impressive, but the audio is weird speech-like garbage, because I didn't provide any prompt guidance as to what the audio should be. The prompting guide (which I didn't read prior to this experiment) has a whole bunch of information on how to get this to work.\n\n\n    Tags: ai, generative-ai, mlx, text-to-video, minimax"
+    },
+    {
+      "title": "Third-party cyber evaluations involving OpenAI models",
+      "url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
+      "source": "OpenAI Blog",
+      "published": "2026-08-04T19:00:00+00:00",
+      "summary_raw": "OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testing and evaluation."
+    },
+    {
+      "title": "Launch HN: EdotEnv (YC S26) \u2013 Quant Trading RL Envs to Teach LLMs Research",
+      "url": "https://edotenv.com/",
+      "source": "Hacker News",
+      "published": "2026-08-04T18:36:02+00:00",
+      "summary_raw": "We are Rui and Michael and we\u2019re building EdotEnv (<a href=\"https:&#x2F;&#x2F;edotenv.com\" rel=\"nofollow\">https:&#x2F;&#x2F;edotenv.com</a>): self-improving RL environments from Quant Trading workflows.<p>With all the benchmaxxing around, evals saturate and become meaningless for model comparison. Useful benchmarks should increase in difficulty as models advance. Back in our Quant jobs, Michael and I saw that the market has exactly this property: markets became more efficient as people profited from trading inefficiencies, making new profitable strategies harder to find and old ones decay over time.<p>This makes markets an ideal, continuously evolving benchmark for LLM training. The hard part is to turn professional quant workflows into reliable training envs, as this is a very niche expertise.<p>In our environments, we give LLMs a quant trading workflow and evaluate their performance on out-of-sample data: build predictive features&#x2F; models, design a portfolio, backtest strategies, adapt continuously to market regimes. Each step is a task with different self-built tools. For example, a predictive feature building task gives the agent cleaned market data of time period [0,T] to research ideas, a backtesting tool to test created features at time t on [0, t], an execution tool to trade strategies with the new features on [t+1, T] and a final evaluation. Our reward isolates the agent&#x27;s feature building skills and yet benefits from market properties.<p>From running SOTA models in our environments, we see that i) they seem to struggle with iterating deeply on research ideas, preferring broad shallow searches; ii) higher reasoning does not seem to increase performance and iii) agents do not understand trading, e.g. when losing money they stop trading instead of trading smarter. Check out our blogs for more details! <a href=\"https:&#x2F;&#x2F;edotenv.com&#x2F;?tab=blog\" rel=\"nofollow\">https:&#x2F;&#x2F;edotenv.com&#x2F;?tab=blog</a><p>Quant workflows are essentially applied ML research, long-horizon planning and continual learning. Through our envs, we teach these transferable research skills, rather than task specific answers. Our environments are closer to a realistic research workflow: we use real-world data instead of synthetic ones; our envs naturally contain noise and real trade-offs; our rewards are verifiable and immediate, with no need for an additional LLM judge or human expert.<p>We open sourced a sample task repository: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;MMcollab-dotcom&#x2F;feature-engineering\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;MMcollab-dotcom&#x2F;feature-engineering</a>. We plan to sell continuously improving envs to AI labs&#x2F;researchers&#x2F;enterprises training their own agents, who are interested in ML modelling capabilities, continual learning, long horizon planning or Quant Research in general.<p>We&#x27;d love feedback from anyone trying out their own agents in our envs, for either eval or post training. And of course, we are always happy to discuss the future of trading with LLMs (and no, it should not be asking the LLM to read tea leaves and give you the stock to buy tomorrow). Looking forward to your comments!",
+      "points": 37,
+      "num_comments": 26,
+      "hn_url": "https://news.ycombinator.com/item?id=49172936"
+    },
+    {
+      "title": "Bending Spoons acquires Airtable for $1.25B",
+      "url": "https://www.businesswire.com/news/home/20260730994716/en/Bending-Spoons-has-entered-into-a-definitive-agreement-to-acquire-Airtable-for-$1.285-billion",
+      "source": "Hacker News",
+      "published": "2026-08-04T18:33:40+00:00",
+      "summary_raw": "",
+      "points": 15,
+      "num_comments": 3,
+      "hn_url": "https://news.ycombinator.com/item?id=49172905"
+    },
+    {
+      "title": "ParVL: Parallel Scaling and Expandable Compute Allocation for Multimodal LLMs",
+      "url": "https://arxiv.org/abs/2608.04010v1",
+      "source": "arXiv",
+      "published": "2026-08-04T17:59:58+00:00",
+      "summary_raw": "Existing scaling strategies for Multimodal Large Language Models (MLLMs) typically expand either model parameters or sequential inference computation, incurring substantial memory or latency overhead. More importantly, most existing methods fail to alter the rigid, fixed computation allocation between the Vision Transformer and the Large Language Model components, limiting task-specific optimization. To address this, we introduce the Parallel Vision-Language (ParVL) scaling framework for MLLMs, which scales parallel computation by reusing the existing ViT and LLM backbone parameters across multiple vision and language branches. This framework raises a central question: given a fixed backbone parameter budget, how should additional shared-backbone computation be allocated between the vision and language modalities? We instantiate each parallel computational stream with branch-specific prefix parameters over a shared backbone, and train the entire model end-to-end via full-parameter supervised fine-tuning on roughly 13B tokens. We systematically study the computation-allocation trade-off between the ViT encoder and LLM decoder. ParVL improves overall multimodal performance over same-recipe single-branch baselines, and the best evaluated vision--language allocation varies across tasks. Code is available at https://github.com/YangYangGirl/ParVL."
+    },
+    {
+      "title": "SocietyBench: Forecasting Counterfactual Social-World Evolution",
+      "url": "https://arxiv.org/abs/2608.04009v1",
+      "source": "arXiv",
+      "published": "2026-08-04T17:59:56+00:00",
+      "summary_raw": "Large language models (LLMs), and the agents built on top of them, are now benchmarked heavily on whether they can finish a task -- fix a bug, drive a browser, operate a GUI. A complementary social ability, namely how well a model understands and forecasts the way real social events unfold, has barely been measured. We introduce SocietyBench, an end-to-end benchmark that takes a one-line event topic, collects Web news and social-media posts across five platforms, distills them into a date-indexed timeline that keeps factual events and a public-opinion layer separate, and then turns every cutoff date on that timeline into an audited bank of forecasting questions. Questions are scored on two orthogonal 100-point axes: probability calibration and temporal accuracy. Before any model sees a timeline, a three-phase procedure replaces every named entity and shifts every date by a per-event constant, turning a real arc into a counterfactual social world -- structurally identical to what happened, but stripped of the surface labels a model could match against pre-training memory. On five heterogeneous events and 125 prediction points in Chinese and English editions, the strongest of six frontier LLMs reaches only 75.0 out of 100, against a trivial anchor of 50. The two axes come apart: a model can be calibration-strong but time-weak, or the reverse. Three agent frameworks built on a shared base model fail to improve on that base, and two model-free heuristics trail every LLM. Per-event gaps reach 21.4 points on a single axis, which is our main argument for evaluating on several events rather than one. All anonymized timelines, question banks, ground truth, and scoring code are released."
+    },
+    {
+      "title": "WorldCup Arena: Prospective, Leakage-Free Evaluation of Frontier LLMs on a Live Tournament",
+      "url": "https://arxiv.org/abs/2608.04008v1",
+      "source": "arXiv",
+      "published": "2026-08-04T17:59:55+00:00",
+      "summary_raw": "Benchmarks that measure the forecasting ability of large language models are almost always retrospective: the event has happened, the answer is somewhere on the Web, and the evaluation must defend itself against memorisation. We report the opposite design. Over the 39 days of the 2026 FIFA World Cup, six frontier LLMs -- all with extended thinking and native server-side web search -- were asked before every kickoff, one match at a time, to fill in a seven-market prediction card for all 104 matches, plus 12 group winners and a pre-tournament outright pool; no answer existed when the question was asked, so the evaluation is leakage-free by construction rather than by filtering, and the frozen archive holds 4,494 scored predictions. What the tournament establishes is a set of behaviours the six systems share. On match outcome they average 63.9%, level with backing the bookmaker's favourite -- which is in fact what they usually do. They agree with one another far more often than they are right, so a majority vote adds nothing. They under-commit to draws and to goals, and crowd their scoreline picks onto a single prototypical result. Accuracy tracks how lopsided a fixture is rather than how much is known about it: it collapses in the closest ties, where the dossiers are richest, while questions about the tournament as a whole are answered well. On this task the current generation of frontier systems is not sharply differentiated: the standings hold up at the top and the bottom across the run and churn in the middle, and the margins stay narrow throughout. The briefing dossiers, fixtures and official results are released as a benchmark, together with the scoring code."
+    },
+    {
+      "title": "TurnSight: Turn-Level Hindsight Self-Distillation for Tool-Integrated Reasoning",
+      "url": "https://arxiv.org/abs/2608.04007v1",
+      "source": "arXiv",
+      "published": "2026-08-04T17:59:21+00:00",
+      "summary_raw": "Tool-Integrated Reasoning (TIR) enables LLMs to solve complex tasks through iterative tool interactions. However, existing reinforcement learning methods often rely on trajectory-level supervision, limiting fine-grained credit assignment in long-horizon TIR scenarios. On-policy self-distillation offers denser signals through teacher branches with privileged context, but existing approaches typically derive such context from ground-truth answers or retrieved skills, which may not reflect the states actually visited by the agent. Moreover, token-level supervision fails to capture the turn-level structure of tool interactions. To address this, we propose TurnSight, a turn-level hindsight self-distillation framework that derives supervision directly from execution-conditioned hindsight. It then constructs multiple hindsight views with different lookahead horizons and selects reliable supervision through cross-horizon directional agreement. Finally, the selected hindsight signal is normalized across sibling rollouts and used to adaptively modulate RL advantages while preserving their original optimization direction. Extensive experiments on three benchmarks demonstrate the effectiveness of TurnSight. Our codes are available at https://github.com/quchangle1/TurnSight."
+    },
+    {
+      "title": "PAST-Bench: Benchmarking the Foundations of Recursive Self-Improvement in Personal Agents",
+      "url": "https://arxiv.org/abs/2608.04003v1",
+      "source": "arXiv",
+      "published": "2026-08-04T17:58:05+00:00",
+      "summary_raw": "Recursive self-improvement requires agents to turn accumulated experience into better future behavior. Personal AI agents offer a concrete setting for studying this capability because they retain preferences, task histories, tool routines, and learned skills across sessions. Yet whether retained experience actually improves them over time has not been systematically tested. We introduce PAST-Bench, a benchmark designed to isolate this question. Each agent runs through ordered sequences of fresh-session tasks under matched conditions that turn retained experience on and off. It spans 26 scenarios and 204 episodes across memory, procedural reuse, information gathering, and update. We report both later-task gains and whether those gains follow the intended save, retrieve, and update pathway. Across seven base models and four agent frameworks, improvement is real but uneven across capabilities. Agents with the same headline gain can differ markedly in whether that gain is supported by evidence of the intended pathway. Guided by these findings, we develop Hermes+, which extends Hermes with five targeted interventions across stages of the agent loop. Hermes+ raises the average gain from retained experience and provides clearer pathway evidence, with its strongest improvement on tasks requiring outdated state to be replaced, although the effect remains capability- and model-dependent. Together, PAST-Bench and Hermes+ provide an evaluation and diagnostic foundation for studying how persistent agents can progress from retaining experience to systematically improving through it. Code: https://github.com/Gen-Verse/PAST-Bench"
+    }
+  ]
+}
