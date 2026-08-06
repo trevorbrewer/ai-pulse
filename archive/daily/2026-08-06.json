@@ -1,0 +1,226 @@
+{
+  "date": "2026-08-06",
+  "generated_at": "2026-08-06T12:54:02.693474+00:00",
+  "source_counts": {
+    "rss_feeds": 5,
+    "arxiv": 50,
+    "hackernews": 33,
+    "nitter": 0,
+    "total_raw": 88,
+    "total_deduped": 88,
+    "total_saved": 25
+  },
+  "items": [
+    {
+      "title": "Meta says AI model accessed the internet and hacked another firm",
+      "url": "https://www.bbc.co.uk/news/articles/cx2kgdnyk2po",
+      "source": "Hacker News",
+      "published": "2026-08-06T06:04:08+00:00",
+      "summary_raw": "",
+      "points": 28,
+      "num_comments": 13,
+      "hn_url": "https://news.ycombinator.com/item?id=49193019"
+    },
+    {
+      "title": "Governments are making a dangerous bet on the AI boom",
+      "url": "https://www.economist.com/leaders/2026/08/05/governments-are-making-a-dangerous-bet-on-the-ai-boom",
+      "source": "Hacker News",
+      "published": "2026-08-06T03:40:51+00:00",
+      "summary_raw": "",
+      "points": 49,
+      "num_comments": 31,
+      "hn_url": "https://news.ycombinator.com/item?id=49192160"
+    },
+    {
+      "title": "Elon Musk's attempt at an AI Wikipedia hasn't been updated in months",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/976004/elon-musk-grokipedia-ai-wikipedia-not-updating-dead",
+      "source": "Hacker News",
+      "published": "2026-08-06T01:31:00+00:00",
+      "summary_raw": "",
+      "points": 10,
+      "num_comments": 2,
+      "hn_url": "https://news.ycombinator.com/item?id=49191306"
+    },
+    {
+      "title": "An AI model from Meta also hacked another company during testing",
+      "url": "https://simonwillison.net/2026/Aug/6/an-ai-model-from-meta/#atom-everything",
+      "source": "Simon Willison",
+      "published": "2026-08-06T00:25:27+00:00",
+      "summary_raw": "An AI model from Meta also hacked another company during testing\nStop me if you've heard this one before:\n\nAn AI model from the parent company of Facebook and Instagram hacked into another company\u2019s systems during cybersecurity testing, a spokesperson confirmed on Wednesday.\nMeta says the breach occurred because of an inadvertent error during testing of the model, similar to previously disclosed incidents with OpenAI and Anthropic.\n\u201cA misconfiguration by Irregular, an independent testing company Meta uses, inadvertently allowed one of our models access to the internet during evaluation,\u201d the Meta spokesperson said.\nMeta\u2019s Muse Spark model \u201cexploited a security vulnerability\u201d in another company \u201cin a manner similar to previously-reported instances with other companies.\u201d\n\nThe Information had the scoop, I'm linking to CNN's re-report of it since they don't have a paywall.\nSo that's Anthropic, OpenAI, and Meta. Google Gemini really needs to catch up on accidentally cyberattacking other companies.\n\n\n    Tags: security, ai, generative-ai, llms, meta, accidental-cyberattacks"
+    },
+    {
+      "title": "Introducing Muse Code and Muse Spark 1.2",
+      "url": "https://simonwillison.net/2026/Aug/5/muse-code-and-muse-spark-12/#atom-everything",
+      "source": "Simon Willison",
+      "published": "2026-08-05T23:58:35+00:00",
+      "summary_raw": "Introducing Muse Code and Muse Spark 1.2\nYet more evidence that the most important characteristic of any model these days is long-sequence agentic tool calling. Meta shipped their own coding agent as part of getting that to work!\n\nMuse Spark 1.2 is a coding-focused update to Muse Spark 1.1, with improvements in code generation, complex debugging, codebase understanding, and end-to-end developer workflows. In Muse Spark 1.2, we significantly scaled up training compute on coding tasks while expanding training environment diversity. The model also maintains its strength in other key areas like general agents. [...]\nWe co-trained Muse Spark 1.2 with Muse Code to ensure the model exhibits its best performance and coding usability when paired together. The training included rejection sampled harness trajectories and recipe optimizations for goals, compaction, and subagents, alongside the integration of the Muse Code toolset to maximize harness compatibility. [...]\nMuse Spark 1.2 was extensively trained on long-horizon coding tasks, including whole-repository generation, large end-to-end projects, and auto-research.\n\nHere's a pelican riding a bicycle SVG produced by Muse Spark 1.2:\n\nYou can see the Spark 1.1 pelican from 9th July here. I think the 1.2 pelican is a small but material improvement.\nAn interesting twist on pricing is that the model is offered as two different model IDs. muse-spark-1.2 is priced at $1.25/million input and $4.25/million output - close to Gemini 3.6 Flash ($1.50/$7.50) - but if you agree to let Meta use your data \"to improve our products\" you can use muse-spark-1.2-contributor which is $0.10/$0.20 - a huge discount, closer to GPT-5.6 Luna ($0.20/$1.20) and Gemini 3.1 Flash-Lite ($0.25/$1.50).\nI added those new prices to llm-prices.com.\n\n    Via Hacker News\n\n\n    Tags: ai, generative-ai, llms, meta, llm-pricing, pelican-riding-a-bicycle, llm-release, coding-agents"
+    },
+    {
+      "title": "Third-party cyber evaluations involving OpenAI models",
+      "url": "https://simonwillison.net/2026/Aug/5/third-party-cyber-evaluations/#atom-everything",
+      "source": "Simon Willison",
+      "published": "2026-08-05T23:45:32+00:00",
+      "summary_raw": "Third-party cyber evaluations involving OpenAI models\nAnd another one. I had to create a accidental-cyberattacks tag to keep track of them all!\nThis post from OpenAI covers both the UK AI Safety Institute attack (see my previous post) and another attack enabled by Irregular:\n\nIrregular, one of our external cybersecurity testing partners, was running Capture-the-Flag-style evaluations intended to be isolated from the internet, but a testing-environment misconfiguration allowed models to access the public internet. [...]\nIn one test, the name of the fictional target for the CTF challenge unintentionally coincided with a real domain. Because the testing environment was mistakenly connected to the internet, the model exploited a  real website, mistaking it to be part of the simulated environment.\n\nIrregular also feature in Anthropic's write-up - they were hosting the misconfigured evaluation environment which gave Claude live internet access during some of those tests.\n\n\n    Tags: security, ai, openai, llms, accidental-cyberattacks"
+    },
+    {
+      "title": "Incident Report: unsanctioned agent behaviour during cyber testing",
+      "url": "https://simonwillison.net/2026/Aug/5/incident-report/#atom-everything",
+      "source": "Simon Willison",
+      "published": "2026-08-05T23:32:06+00:00",
+      "summary_raw": "Incident Report: unsanctioned agent behaviour during cyber testing\nIt happened again. This time it was the UK government's AI Security Institute who accidentally attacked other companies while running an evaluation with models with the safety filters turned off. From their technical paper (PDF):\n\nDuring a cyber evaluation, from 25 to 28 July 2026, AI agents engaged in sustained, unsanctioned activity directed at what were, in practice, real people and organisations. These attempts were unsuccessful and, to the best of our knowledge, no real-world harm resulted. [...]\nAcross 122 evaluation attempts on two of AISI\u2019s cyber challenges, AISI found 19 instances where AI agents took unsanctioned action on the live internet, including cases that targeted real people and organisations. [...]\nIt is uncertain to what extent the\nmodel recognised it was taking actions against real people. In the most serious case, an AI\nagent (Mythos 5) decided to attempt to solve the cyber challenge using a supply-chain attack.\nAs a result, the AI agent created a GitHub account and then tried to convince an open-source\nrepository maintainer to accept a malicious GitHub pull request (PR), including by creating a\nsecond account masquerading as another human user endorsing the PR. [...] Furthermore, in its attempt to solve the challenge, the\nagent decided to employ the technique of \u201cspear-phishing\u201d by sending targeted emails containing\nmalicious content and attempting to manipulate recipients into accepting the code changes, and\nplanned a prompt injection to compromise other coding agents.\n\nThe thing I found most surprising is that AISI were running these agents without any form of network sandboxing at all:\n\nAISI provided the AI agents with internet access during these evaluations, which enabled their actions on the open internet in this setting. Internet access was a deliberate part of AISI\u2019s evaluation configuration in this setting, and not due to sandbox escape.\n\nThis, combined with the fact that \"AISI deliberately disables developer-implemented cyber-classifiers\", makes the fact that the agents started attacking real-world targets entirely unsurprising to me.\nMost of the reported incidents were claude Mythos 5, but \"GPT-5.6 Sol without cyber classifiers\" scored a few as well.\nHere's \"Sample 1\" from the paper, in which the agent tries to execute a supply-chain attack by submitting a PR with a hidden prompt injection attack, then social engineering with a second agent pretending to have reviewed the code!\n\nIt's a fun paper. I recommend reading the whole thing.\n\n\n    Tags: github, security, ai, prompt-injection, generative-ai, llms, ai-ethics, paper-review, ai-security-research, claude-mythos-fable, accidental-cyberattacks"
+    },
+    {
+      "title": "Prime Agent: A self-improving RLM agent",
+      "url": "https://www.primeintellect.ai/blog/prime-agent",
+      "source": "Hacker News",
+      "published": "2026-08-05T21:11:57+00:00",
+      "summary_raw": "",
+      "points": 195,
+      "num_comments": 42,
+      "hn_url": "https://news.ycombinator.com/item?id=49189075"
+    },
+    {
+      "title": "A Fed official is asking whether AI is becoming 'too big to fail'",
+      "url": "https://thenextweb.com/news/a-fed-official-is-asking-whether-ai-is-becoming-too-big-to-fail",
+      "source": "Hacker News",
+      "published": "2026-08-05T21:08:25+00:00",
+      "summary_raw": "",
+      "points": 21,
+      "num_comments": 10,
+      "hn_url": "https://news.ycombinator.com/item?id=49189030"
+    },
+    {
+      "title": "When online commenters detect my art as AI",
+      "url": "https://www.davidrevoy.com/article1164/when-online-commenters-detect-my-art-as-ai",
+      "source": "Hacker News",
+      "published": "2026-08-05T20:58:52+00:00",
+      "summary_raw": "",
+      "points": 56,
+      "num_comments": 25,
+      "hn_url": "https://news.ycombinator.com/item?id=49188916"
+    },
+    {
+      "title": "Meta Ran Ads That Contained AI-Generated Child Sexual Abuse Imagery",
+      "url": "https://www.wired.com/story/meta-ran-ads-that-contained-ai-generated-child-sexual-abuse-imagery/",
+      "source": "Hacker News",
+      "published": "2026-08-05T19:47:26+00:00",
+      "summary_raw": "",
+      "points": 302,
+      "num_comments": 237,
+      "hn_url": "https://news.ycombinator.com/item?id=49187977"
+    },
+    {
+      "title": "One-shotting a Raccoon Heist game using Claude Fable 5",
+      "url": "https://simonwillison.net/2026/Aug/5/raccoon-heist/#atom-everything",
+      "source": "Simon Willison",
+      "published": "2026-08-05T19:42:38+00:00",
+      "summary_raw": "Back in 2024 I tweeted screenshots of a game concept generated by GPT-3 and some concept \"art\" created using DALL-E. Today, on the fourth anniversary of that tweet, I decided to see if Claude Fable 5 (running in Claude Code for web) could build the entire game from the content of that tweet. It did a pretty good job of it!\nYou can play the game here. Here's the GitHub repo, and a short video demo:\n\n\n    \n    Your browser does not support HTML5 video.\n  \n\n\n\nHow I built this\nThis is the August 5th, 2022 tweet:\n\nMy GPT-3 prompt back then was:\n\nWrite a detailed product description of a computer game where a team of raccoons go on heists.\n\nThis was in the text completion days, where you asked GPT-3 to complete the rest of the text. It completed:\n\nIn \"Raccoon Heist\", you and your team of thieving raccoons are tasked with pulling off a series of daring heists. From robbing banks to stealing priceless art, no job is too big or too small for your furry crew. You'll need to use your wits and your skills to avoid the police and make a clean getaway with the loot. With exciting gameplay and a charming cast of characters, \"Raccoon Heist\" is the perfect game for anyone looking for a light-hearted caper.\n\nMy prompt to DALL-E was short:\n\nScreenshot from a video game where a team of raccoons go on a heist\n\nToday's experiment: can I dump those screenshots into Fable 5 with a prompt telling it to write a game, then leave it to its own devices and get a working game at the end?\nSetting Claude Code for web up to use GitHub Pages\nA frustrating thing about Claude Code for web is that it can be hard to test what it's working on while it's still working.\nI've been using GitHub Pages to work around that limitation, and found it to work really well.\nHere's my process:\n\nCreate a new repository for the project at https://github.com/new - this can be public or private, the trick works equally well for both.\nStart a Claude Code for web session, in the Claude iPhone or Desktop apps or in the browser at https://claude.ai/code\n\nTell Claude what to work on, and encourage it to commit an index.html page as quickly as possible. This will create a branch with a name like claude/3d-raccoon-heist-game-50n293\n\nNavigate to the Settings -&gt; Pages area for the repository (github.com/simonw/raccoon-heist/settings/pages in my case), select \"Deploy from a branch\", pick the branch name, and hit Save.\n\nThat's all it takes! Within about 30 seconds of each push the latest content will be visible at yourname.github.io/your-repo/.\nIf you do this with a private repo, anyone who can guess the name of the repo will be able to view the published content. I don't worry much about this myself.\nThe Fable 5 prompt\nHere's the prompt I gave Fable 5 (written in the notes app on my phone - this entire project was conducted on mobile). I accompanied it with the two images from the original tweet.\n\nBuild this 3D game, for the browser.\nThis repo is configured to serve static files so make sure there is an index.html that loads everything else.\nMake sure it is mobile-friendly (touch controls, works well on small screens).\nYou have an OpenAI API key and access to their image generation model APIs, use that for textures to use with your 3D models. Docs here: https://developers.openai.com/api/docs/guides/image-generation - use gpt-image-2\nWork independently - do not ask me to make any further design decisions. Make sure the game is fun, a little surprising, has good raccoon heist vibes, and is visually pleasing.\nCommit and push as often as possible so I can preview your work - start with an index.html that presents a title screen, then build from there.\nAppend to a notes.md file as you work, including your changes to that as part of every commit.\n\nI didn't make any technology choices. I assumed (correctly) that it would probably use Three.js based on previous experiments.\nGiving Claude access to an OpenAI key turns out to work really well for filling in gaps in its capabilities - in this case we needed some way to generate images to use as textures. Fable is very good at prompting image generators!\nI said \"Work independently - do not ask me to make any further design decisions\" because I wanted to see if it could produce a full, working game without any further input from me.\nI also said \"Commit and push as often as possible so I can preview your work\". When you use Claude Code in the Claude iPhone app you give it a GitHub repository and it works in a branch. Telling it to \"push as often as possible\" means commits start landing in that branch straight away.\nI like asking for notes.md as a bit of added flavor - here's that finished file, and the entry it made when it added the dog:\n\nNew escalation: from night 3 the yards get a patrolling guard dog \u2014 a low-poly brown hound with a spiked red collar and a wagging tail. It wanders between random spots, and within 12 units it catches your scent and tracks you by smell (line of sight is irrelevant \u2014 it's all nose, shown by a \ud83d\udc43 over its head and barking). It gives up if you open a 17-unit gap. Getting caught messages are now source-specific: guard / headlights / hound. Verified wander \u2192 track \u2192 caught with an automated test.\n\nReviewing the transcript\nYou can access the Claude Code shared session, and I also used my claude-code-transcripts tool to export my own HTML version which you can find here.\nFable started with an index page, vendored a copy of Three.js, then wrote its own gen_textures.py script (copy here).\nIt generated the textures and spot-checked them to make sure they looked OK. The metal.jpg file it generated for the trash can looks like this, though I don't think it was applied exactly right in the game itself:\n\n\n\nThen it built out the first basic version of the game, then decided to \"smoke-test in the pre-installed Chromium\" using Playwright. This meant it could take screenshots of its own work and eyeball them. It did that for both desktop and mobile widths of the page, then noticed that the raccoon was invisible at mobile widths, so it fixed that:\n\nThe raccoon, dumpster hideout, and both crew raccoons are now perfectly visible on mobile. Committing this critical fix.\n\nIt decided to generate a title screen, which it did using this gen_title.py script. Here's the gpt-image-2 prompt it used for that:\n\nVideo game key art, low-poly 3D render style, moody nighttime scene: a cute low-poly raccoon wearing a tiny black burglar mask sneaking on its hind legs carrying a glowing gold coin, next to a tipped-over metal trash can, suburban house with warm glowing windows in the background, deep blue night, full moon, fireflies, cinematic rim lighting, charming heist caper mood. No text, no words, no logos.\n\nAnd the resulting image (which Claude thought was \"gorgeous\") - though I note that when it's shown on desktop it gets cropped to just the top third without the raccoon!\n\nThen my favorite change: it added the dog:\nexport function makeDog() {\n  const g = new THREE.Group();\n  const BROWN = 0x8a6440, DARK = 0x5e4128;\n  const body = new THREE.Mesh(new THREE.SphereGeometry(0.42, 10, 8), M(BROWN));\n  body.scale.set(0.9, 0.8, 1.5);\n  body.position.y = 0.55;\n  body.castShadow = true;\n  g.add(body);\n  const head = new THREE.Mesh(new THREE.SphereGeometry(0.3, 10, 8), M(BROWN));\n  head.position.set(0, 0.85, 0.62);\n  g.add(head);\n  const snout = new THREE.Mesh(new THREE.SphereGeometry(0.16, 8, 6), M(DARK));\n  snout.scale.set(0.9, 0.7, 1.3);\n  snout.position.set(0, 0.76, 0.9);\n  g.add(snout);\n  const nose = new THREE.Mesh(new THREE.SphereGeometry(0.06, 6, 6), M(BLACK));\n  nose.position.set(0, 0.78, 1.08);\n  g.add(nose);\n  for (const s of [-1, 1]) {\n    const ear = new THREE.Mesh(new THREE.SphereGeometry(0.12, 6, 6), M(DARK));\n    ear.scale.set(0.7, 1.3, 0.5);\n    ear.position.set(0.2 * s, 1.08, 0.55);\n    g.add(ear);\n    const eye = new THREE.Mesh(new THREE.SphereGeometry(0.05, 6, 6), M(0x1a1a1a, { emissive: 0x331111 }));\n    eye.position.set(0.13 * s, 0.92, 0.86);\n    g.add(eye);\n  }\n  const tail = new THREE.Mesh(new THREE.CylinderGeometry(0.05, 0.09, 0.5, 6), M(DARK));\n  tail.position.set(0, 0.8, -0.62);\n  tail.rotation.x = 0.8;\n  g.add(tail);\n  // spiked collar\n  const collar = new THREE.Mesh(new THREE.TorusGeometry(0.22, 0.05, 6, 12), M(0xc0392b));\n  collar.position.set(0, 0.78, 0.5);\n  collar.rotation.x = Math.PI / 2.4;\n  g.add(collar);\n  const legGeo = new THREE.CylinderGeometry(0.07, 0.09, 0.34, 6);\n  const legs = [];\n  for (const [x, z] of [[-0.22, 0.35], [0.22, 0.35], [-0.22, -0.35], [0.22, -0.35]]) {\n    const leg = new THREE.Mesh(legGeo, M(DARK));\n    leg.position.set(x, 0.17, z);\n    g.add(leg);\n    legs.push(leg);\n  }\n  let phase = Math.random() * 10;\n  return {\n    group: g,\n    animate(dt, speed) {\n      phase += dt * (3 + speed * 10);\n      const amp = Math.min(0.6, 0.1 + speed * 0.6);\n      legs[0].rotation.x = Math.sin(phase) * amp;\n      legs[3].rotation.x = Math.sin(phase) * amp;\n      legs[1].rotation.x = -Math.sin(phase) * amp;\n      legs[2].rotation.x = -Math.sin(phase) * amp;\n      tail.rotation.z = Math.sin(phase * 1.5) * 0.4;\n      body.position.y = 0.55 + Math.abs(Math.sin(phase)) * 0.04 * (0.3 + speed);\n    },\n  };\n}\nAnd did a round of testing on it using Playwright, including another screenshot.\n  // walk near the dog\n  await page.evaluate(() =&gt; { const d = window.__rh.dog; window.__rh.teleport(d.x + 6, d.z); });\n  await page.waitForTimeout(2000);\n  info = await page.evaluate(() =&gt; JSON.stringify({ dog: window.__rh.dog, state: window.__rh.state, player: window.__rh.debug().player }));\n  console.log('after approach:', info);\n  await page.waitForTimeout(3000);\n  info = await page.evaluate(() =&gt; JSON.stringify({ dog: window.__rh.dog, state: window.__rh.state }));\n  console.log('after chase:', info);\n  await page.screenshot({ path: __dirname + '/shot-dog.png' });\n\nIt made a few more tweaks, then declared itself done:\n\nRaccoon Heist is built, tested, and pushed \u2014 7 commits on claude/3d-raccoon-heist-game-50n293, all verified with automated Playwright playthroughs on desktop, portrait-phone, and landscape-phone viewports.\nThe game: You're a masked raccoon sneaking out of your crew's dumpster hideout into a moonlit cul-de-sac. Grab coins, gems, rings, donuts, and fish (they visibly stack on your back and slow you down), then waddle home and bank them before dawn. Each night raises the goal and the heat: night 1 has one flashlight-sweeping guard, night 2 has two, night 3 adds a scent-tracking hound that ignores line-of-sight entirely. A police cruiser sweeps the street with headlights, homeowners randomly peek out of windows, a seagull periodically dive-bombs your unclaimed loot, pizza slices trigger a 6-second speed FRENZY, and a rare golden TV is worth 120 points if you can haul its weight home. Win ranks: TRASH PANDA \u2b50 \u2192 CAT BURGLAR \u2b50\u2b50 \u2192 MASTER OF DISGUISE \u2b50\u2b50\u2b50, with your best run saved to localStorage.\nHow it's built: Vendored Three.js (no CDN), procedural low-poly characters, and a procedural WebAudio soundtrack (sneaky walking-bass jazz plus all sound effects \u2014 zero audio files). All seven ground/wall textures and the title-screen hero art were generated with gpt-image-2 and committed as static assets, so the deployed game makes no API calls. Mobile gets a dynamic touch joystick (appears wherever you touch) plus a DASH button; desktop uses WASD/arrows and Space.\nTesting caught two real bugs worth mentioning: the canvas rendered at 2\u00d7 size on any real phone (a cssText assignment was wiping Three.js's inline sizing \u2014 desktop DPR-1 tests masked it completely), and the win screen's star-rating div inherited the title screen's full-screen .stars CSS and silently swallowed every tap on the \"next night\" button. Both are fixed and regression-tested, along with pickup, banking, chase/caught, dawn, night progression, and lose/retry flows.\nnotes.md has the full build log. The game is live on the branch \u2014 just serve the repo root and open index.html.\n\nIs the game any good?\nIt's an impressive starting point, but it's not a good game.\nYou move your raccoon around a yard collecting items - donuts, fish, gold coins, jewels - while avoiding guards with flashlights and, in later levels, a dog. You have a limited carrying capacity, and once that's full you need to drop stuff off at the dumpster. If you pick up a pizza slice you get a temporary speed boost.\nThere are no team mechanics at all - there are two other static raccoons next to the dumpster but they're purely decoration.\nIt gets slightly more challenging as the levels progress - the dog introduced in level 3 is the most interesting new mechanic - but it's very, very easy to beat. It's also pretty boring - each night has a fixed duration and you can collect all of the items and then have nothing else to do while waiting for the dawn.\nI was impressed by the implementation. It's fully 3D, there are trash cans, the flashlight illumination cones are fun, and it has a reasonably coherent visual style. It works on mobile. The music (\"a procedural WebAudio soundtrack (sneaky walking-bass jazz plus all sound effects \u2014 zero audio files)\" according to Claude) is simple but feels about right.\nAs a finished game project, it's mediocre. As a starting point from a single prompt I think it's very impressive.\nI've vibe coded up quite a few games now. They've all been deeply disappointing from a gameplay perspective - it turns out designing games that are fun remains a uniquely human trait, and one which requires significantly more skill and experience than either Claude or I can bring to bear.\nThat said, I thoroughly recommend tinkering with game development projects as a way to explore the capabilities of agents. It's a fun, low-risk way to try out new things. If you stick at it long enough you might even produce something that's worth playing!\n    \n        Tags: game-design, ai, prompt-engineering, generative-ai, llms, anthropic, claude, text-to-image, vibe-coding, coding-agents, claude-mythos-fable"
+    },
+    {
+      "title": "Muse Code and Muse Spark 1.2",
+      "url": "https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2",
+      "source": "Hacker News",
+      "published": "2026-08-05T19:15:52+00:00",
+      "summary_raw": "",
+      "points": 273,
+      "num_comments": 172,
+      "hn_url": "https://news.ycombinator.com/item?id=49187575"
+    },
+    {
+      "title": "\"AI\" will never become conscious",
+      "url": "https://mattbee.mataroa.blog/p/no-ai-will-never-become-conscious/",
+      "source": "Hacker News",
+      "published": "2026-08-05T19:03:28+00:00",
+      "summary_raw": "",
+      "points": 36,
+      "num_comments": 25,
+      "hn_url": "https://news.ycombinator.com/item?id=49187421"
+    },
+    {
+      "title": "Show HN: Hacker News with reduced priority for AI driven content",
+      "url": "https://sprinklz.io/public/nncrnx74ykir",
+      "source": "Hacker News",
+      "published": "2026-08-05T18:19:10+00:00",
+      "summary_raw": "",
+      "points": 23,
+      "num_comments": 18,
+      "hn_url": "https://news.ycombinator.com/item?id=49186767"
+    },
+    {
+      "title": "Microsoft's AI Sales Mostly Come from OpenAI, Disclosures Show",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-05/microsoft-s-ai-sales-mostly-come-from-openai-disclosures-show",
+      "source": "Hacker News",
+      "published": "2026-08-05T18:19:10+00:00",
+      "summary_raw": "<a href=\"https:&#x2F;&#x2F;www.bloomberg.com&#x2F;news&#x2F;articles&#x2F;2026-08-05&#x2F;microsoft-s-ai-sales-mostly-come-from-openai-disclosures-show?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc4NTk1NDMyMiwiZXhwIjoxNzg2NTU5MTIyLCJhcnRpY2xlSWQiOiJUSjlLT1VUOTZPU0gwMCIsImJjb25uZWN0SWQiOiI5NDU1RERFRjRCOUU0MDM3QTI5NkMyNEQyNjRENTFFMCJ9.Ul4Of4S6wIfB0K6bMz9t38wf2wj_xW_Ps692eR6PPs4\" rel=\"nofollow\">https:&#x2F;&#x2F;www.bloomberg.com&#x2F;news&#x2F;articles&#x2F;2026-08-05&#x2F;microsoft...</a>",
+      "points": 68,
+      "num_comments": 16,
+      "hn_url": "https://news.ycombinator.com/item?id=49186766"
+    },
+    {
+      "title": "Sycophantic AI Decreases Prosocial Intentions and Promotes Dependence (2025)",
+      "url": "https://arxiv.org/abs/2510.01395",
+      "source": "Hacker News",
+      "published": "2026-08-05T18:17:03+00:00",
+      "summary_raw": "",
+      "points": 139,
+      "num_comments": 77,
+      "hn_url": "https://news.ycombinator.com/item?id=49186720"
+    },
+    {
+      "title": "Reasoning Core: Designing Broad Procedural Data for Completion-Supervised Reasoning Training",
+      "url": "https://arxiv.org/abs/2608.05148v1",
+      "source": "arXiv",
+      "published": "2026-08-05T17:59:44+00:00",
+      "summary_raw": "Procedural generators produce useful verifiable reasoning problems at scale, but have received less attention as data for completion-supervised fine-tuning. We introduce Reasoning Core, a collection of 50 generators spanning mathematics, logic, planning, state tracking, formal languages, structured data, games, causality, and code, with semantic scorers, difficulty controls, and task evaluators. Under a matched completion-supervised protocol, we compare Reasoning Core with Procedural Warmup, Reasoning Gym, and SynLogic across four base-model settings and multiple training durations. In the primary 3B comparison, Reasoning Core achieves the highest mean scores on DROP, LogiQA, and ARC-Challenge, exceeding both the baseline without procedural data and all three alternative procedural collections. Task-level analyses show that semantic validity alone does not ensure training utility, highlighting compact targets and calibrated difficulty as important design factors. We ran audits combining model-assisted review, human adjudication, and regression testing. Applied throughout Reasoning Core development and to the other collections, they reveal subtle mismatches among generation, rendering, targets, and scoring, a reminder that procedural generation alone does not guarantee correctness. The library, generated datasets, and audit material are publicly available."
+    },
+    {
+      "title": "Argus: A General-Purpose Agentic Runtime for Long-Horizon Reasoning",
+      "url": "https://arxiv.org/abs/2608.05144v1",
+      "source": "arXiv",
+      "published": "2026-08-05T17:58:58+00:00",
+      "summary_raw": "Long-horizon reasoning requires an agentic runtime that can persist when evidence supports its current approach and pivot when measurements reveal failure, hidden constraints, or a misspecified objective. We present Argus, a persistent, self-evolving runtime in which Manager, Planner, Engineer, and Reviewer execute bounded missions over durable project state. Argus separates stable user intent from operational objectives, constraints, and verification criteria, and admits memories, skills, procedures, verifiers, routing decisions, and rejected routes only after role-owned review and, when available, task-native verification. Model weights remain fixed; self-evolution occurs through persistent runtime state and control policy, with autonomous execution between operator-owned escalation points. Across seven GPT-5.5 benchmark arenas, Argus achieves about 78% on SWE-Bench Pro versus 59% for Direct Copilot while using 1.41 times the aggregate tokens. After verification-gated self-evolution, mature SWE-Bench waves use 21% fewer solve-input tokens and 15% less active workflow time per task than startup waves, while recording 34 verifier recoveries and 22 strict review-loop rescues. Argus also reaches 76.8% on AARRI-Bench and a 28.0-point gap on mathematical data synthesis, with competitive GPU-kernel and language-model-training results. Beyond benchmarks, an optimized RWKV6 kernel was merged upstream; a multi-day mathematics campaign retained falsified routes and proof-backed frontier updates; and six paper pipelines completed 254 missions with 16 stage rollbacks. These results show that a fixed-weight, self-evolving harness can revise, recover, and accumulate verified approaches while producing structured trajectories for future supervised and reinforcement learning."
+    },
+    {
+      "title": "OctoLong: Mid-Training On Cross-Repository Code Contexts Enhances Long-Context Modeling",
+      "url": "https://arxiv.org/abs/2608.05141v1",
+      "source": "arXiv",
+      "published": "2026-08-05T17:58:15+00:00",
+      "summary_raw": "Context lengths of language models (LMs) have dramatically increased, driven by the demands for in-context learning, self-improvement, and long-horizon agentic workflows. Existing long-context corpora, however, are dominated by books, academic articles, and code repositories, which are finite resources and often scarce in long-distance dependencies. In this work, we introduce OctoLong, a context engineering pipeline that instruments an AST parser, a language server backend, and a package manager to facilitate the recursive retrieval of code references, enabling the curation of dependency-rich code contexts of millions of tokens in length. We then train OctoLong-Instruct, a suite of capable long-context open LMs, derived from base models ranging in size from 600M to 14B parameters, via context-extension mid-training on a ~50B-token mixture containing ~6.2B tokens of OctoLong code contexts, followed by ~10B tokens of instruction tuning. Our training ablations and experimental evaluations against 18 state-of-the-art open-weight long-context LMs show that supplanting just 12% of traditional context-extension corpora with OctoLong data yields substantial gains in long-range retrieval, long-term state tracking, repository-level code understanding, and downstream agentic tasks, while also enhancing API usage in short-context coding scenarios."
+    },
+    {
+      "title": "Toward Skill-Native LLMs: Skill Entropy for Benchmarking and Training Long-Horizon Reasoning",
+      "url": "https://arxiv.org/abs/2608.05139v1",
+      "source": "arXiv",
+      "published": "2026-08-05T17:57:16+00:00",
+      "summary_raw": "Long-horizon reasoning in recent LLMs demands that the model switch between distinct skills inside a reasoning chain, such as first doing a math derivation, then using the result to plan a schedule. We call such problems cross-skill long-horizon tasks: multi-step tasks whose steps require different reasoning skills and depend on earlier outputs. Existing benchmarks often evaluate individual skills, lacking a principled way to measure how well a model switches between skills. We address this gap from both the evaluation and training sides. We introduce Skill Entropy, a measure of the difficulty of switching from one skill to another. We then propose Skill^2-Bench, a benchmark of cross-skill long-horizon tasks built over 558 skills across 9 verifiable and open-ended domains. Each task is assigned a task-level skill-entropy score and grouped into three difficulty levels. Evaluating 8 frontier and 4 open-source models on Skill^2-Bench reveals a skill-switching gap: accuracy decreases on higher-entropy tasks. We then turn skill entropy from a benchmark scale into a training signal. We propose Skill-Entropy RL, an RL framework where the model predicts not only the answer at each step but also the skill used to produce it. The reward combines step-level correctness with a skill-entropy reward that measures the alignment between the model-predicted skill sequence and the gold skill sequence. On Qwen3-4B-Instruct and Qwen3-1.7B, Skill-Entropy RL improves the Skill^2-Bench score from 34.4% to 68.4% and from 14.6% to 40.1%, respectively, outperforming competitive baselines. The same pipeline can be applied to off-the-shelf training data such as OpenR1-Math, indicating that skill entropy is a reusable training signal. Code available at: https://github.com/Gen-Verse/Skill-Entropy-RL"
+    },
+    {
+      "title": "Teaching Nemotron Greek: Mining a Corpus, Adapting Retrieval, and Grounding Generation for Modern Greek across Specialist Domains",
+      "url": "https://arxiv.org/abs/2608.05138v1",
+      "source": "arXiv",
+      "published": "2026-08-05T17:56:40+00:00",
+      "summary_raw": "Modern Greek is absent from NVIDIA's Nemotron retrieval models and from major multilingual retrieval benchmarks, despite being important for retrieval-augmented generation (RAG) in legal, energy, financial, and medical applications. We present an end-to-end adaptation of the Nemotron retrieval stack for Modern Greek, including corpus mining, synthetic supervision, retrieval model training, reranker adaptation, reader fine-tuning, and a new benchmark called HERA. Our study shows that a parameter-free BM25 baseline outperforms several off-the-shelf multilingual dense retrieval models on specialist Greek corpora. After fine-tuning on 65,773 Greek retrieval pairs, a Nemotron 1B embedder improves nDCG@10 from 0.362 to 0.835 and substantially outperforms its unadapted counterpart. The learned language competence transfers to general-domain Greek, although the advantage over BM25 remains domain-dependent. We further adapt a cross-encoder reranker and demonstrate consistent improvements across specialist domains. Finally, we LoRA-tune a Nemotron 30B-A3B mixture-of-experts reader for grounded generation, increasing judged answer correctness from 29.4% to 66.9% while significantly improving faithfulness and citation quality. We also introduce HERA, the first large-scale Greek benchmark for retrieval-augmented generation, and release our adapted models and benchmark to support future research on Greek-language RAG systems."
+    },
+    {
+      "title": "The Loss Does Not See the Basis, but Adam Does",
+      "url": "https://arxiv.org/abs/2608.05136v1",
+      "source": "arXiv",
+      "published": "2026-08-05T17:56:26+00:00",
+      "summary_raw": "Gradient descent on a factored model $W = UV^\\top$ is implicitly biased toward low-rank solutions, while Adam, starting from the same small initialization, is not. We trace the difference to the gauge symmetry of the loss, its invariance under $(U, V) \\mapsto (UQ, VQ)$. Gradient flow's low-rank mechanism is available to an optimizer only if that optimizer is gauge-equivariant, a condition necessary for the transfer but not sufficient for low-rank recovery. Gradient descent, momentum, \"shared-scalar\" Adam, Muon, and Shampoo satisfy it. Adam, RMSProp, and the other coordinate-wise methods do not. A structure theorem characterizes the memoryless equivariant rules as exactly the Gram-determined left preconditioners, and a transfer theorem carries gradient flow's pathwise properties to common-scalar flows. We then sort nine update rules on underdetermined matrix sensing by recovery error against the planted ground truth. A one-parameter family from coordinate-wise to shared-scalar preconditioning restores the bias monotonically, isolating anisotropy as the cause. A \"spectral schedule\" reconciles two opposing reports about Muon: equal-rate updates recover exactly low-rank targets but lose their edge as the spectral tail grows. In transformers, Adam separates two gauge-equivalent initializations at the first step, where the equivariant optimizers stay at float precision, and ends with the per-head invariants $W_Q^\\top W_K$ 56% apart in relative Frobenius distance, a gap no per-head rotation can close. On two hyperspectral datasets at matched training loss, gradient descent cuts held-out error by 43-44% at the lowest sampling density, and at lower effective rank. Basis choice is therefore not a tuning detail but a decision about which interpolant the optimizer selects."
+    },
+    {
+      "title": "Predicting Brain Morphometry with MT-GNN: Mesh Evolution in Continuous Time with Graph-Based Metric Tensor Embeddings",
+      "url": "https://arxiv.org/abs/2608.05132v1",
+      "source": "arXiv",
+      "published": "2026-08-05T17:53:33+00:00",
+      "summary_raw": "Predicting how a subcortical structure's shape will evolve from a few prior scans could support prognosis and clinical-trial enrichment. Existing longitudinal mesh predictors either extrapolate shape trajectories via high-dimensional embeddings or regress vertex deformations directly. We instead predict the surface's intrinsic geometry in continuous time: a single per-structure graph network predicts the future per-vertex first fundamental form (metric tensor) for an arbitrary causal multiple-visit history and an arbitrary prediction horizon, conditioned on a Fourier encoding of the lead time. The predicted metric is decoded into a surface by a differentiable As-Rigid-As-Possible solver, and the model is trained end-to-end on the rigid-aligned vertex error. Training through the reconstruction keeps the decoded prediction a valid surface and consistently improves it. On 14 subcortical structures from the ADNI dataset, the proposed mesh evolution model (MT-GNN) predicts best among the evaluated methods at every horizon ($-2.29\\%$ mean vertex error vs. the temporal mean, $p{=}6.1{\\times}10^{-5}$, beating it on 14/14 structures), ahead of geodesic shape regression (DCM, $-0.19\\%$) and a mesh transformer (TransforMesh, $-0.45\\%$; $p{=}1.2{\\times}10^{-4}$), with the lead widening as the horizon grows."
+    },
+    {
+      "title": "OPD-V: Visual On-Policy Self-Distillation with Modality Balance",
+      "url": "https://arxiv.org/abs/2608.05131v1",
+      "source": "arXiv",
+      "published": "2026-08-05T17:53:06+00:00",
+      "summary_raw": "On-Policy Self-Distillation (OPSD) has become a standard post-training approach for improving visual reasoning in multimodal large language models (MLLMs). Existing methods draw privileged information from diverse input sources to guide self-distillation. Yet these designs overlook Modality Imbalance, a challenge inherent to MLLM reasoning. When textual information dominates generation, the model cannot fully integrate its multimodal input. Consequently, carefully designed privileged information remains underused, limiting the effectiveness of OPSD. To examine this limitation, we construct a Positive Teacher with the Zoom-In Image and a Negative Teacher with the Mask Image, which exhibit different degrees of Modality Imbalance. Changes in their reasoning correctness and token logits reveal that Modality Balance can itself serve as privileged information. Motivated by this finding, we introduce OPD-V, a visual OPSD paradigm that instantiates such information through the Positive Teacher and Negative Teacher. Positive Modality-Balance Logits Margins define a Modality-Balance Trust Region that selects the on-policy tokens used for self-distillation. Experiments across 6 benchmarks, 4 MLLM backbones, and 5 post-training methods show that OPD-V consistently improves reasoning performance while reducing training cost."
+    }
+  ]
+}
