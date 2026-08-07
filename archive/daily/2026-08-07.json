@@ -1,0 +1,223 @@
+{
+  "date": "2026-08-07",
+  "generated_at": "2026-08-07T11:42:51.442533+00:00",
+  "source_counts": {
+    "rss_feeds": 4,
+    "arxiv": 50,
+    "hackernews": 19,
+    "nitter": 0,
+    "total_raw": 73,
+    "total_deduped": 73,
+    "total_saved": 25
+  },
+  "items": [
+    {
+      "title": "How HSP GRUPPE builds AI capabilities for tax advisory",
+      "url": "https://openai.com/index/hsp-gruppe",
+      "source": "OpenAI Blog",
+      "published": "2026-08-07T09:00:00+00:00",
+      "summary_raw": "Discover how HSP GRUPPE uses ChatGPT Enterprise to boost productivity, improve work quality, and create more capacity for tax advisory and client service."
+    },
+    {
+      "title": "Anthropic CEO reportedly worried new hires only care about money",
+      "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-ceo-reportedly-worried-hires-160000647.html",
+      "source": "Hacker News",
+      "published": "2026-08-07T05:15:27+00:00",
+      "summary_raw": "",
+      "points": 51,
+      "num_comments": 74,
+      "hn_url": "https://news.ycombinator.com/item?id=49206115"
+    },
+    {
+      "title": "Mythos Attempted to Social Engineer Open Source Maintainer to Merge Malware",
+      "url": "https://socket.dev/blog/ai-agent-open-source-malware",
+      "source": "Hacker News",
+      "published": "2026-08-07T04:04:07+00:00",
+      "summary_raw": "",
+      "points": 42,
+      "num_comments": 27,
+      "hn_url": "https://news.ycombinator.com/item?id=49205790"
+    },
+    {
+      "title": "New Orleans is testing Carbyne\u2019s AI-powered Emergency Call Triage software",
+      "url": "https://www.shreveporttimes.com/story/news/local/louisiana/2026/07/28/is-new-orleans-using-ai-to-answer-911-calls-instead-of-human-dispatchers-impacts-emergencies-crime/91065014007/",
+      "source": "Hacker News",
+      "published": "2026-08-07T00:37:30+00:00",
+      "summary_raw": "",
+      "points": 61,
+      "num_comments": 92,
+      "hn_url": "https://news.ycombinator.com/item?id=49204546"
+    },
+    {
+      "title": "Spin audit of SQD/QSCI quantum-chemistry benchmarks on iron\u2013sulfur clusters",
+      "url": "https://zenodo.org/records/21359923",
+      "source": "Hacker News",
+      "published": "2026-08-06T22:50:09+00:00",
+      "summary_raw": "Author here.<p>Background, for anyone who hasn&#x27;t followed this fight: IBM&#x27;s iron\u2013sulfur SQD results (Sci. Adv. 2025) are one of the flagship &quot;quantum computers are useful for chemistry now&quot; claims, and a published critique (arXiv:2501.07231) argues the quantum samples never beat classical selected-CI at matched cost. That argument is still live.<p>Both sides have been arguing about energies. Neither measured which electronic state these calculations actually converge to.<p>So I measured it. \u27e8S\u00b2\u27e9 comes out between 4.7 and 7.0 depending on the system and the subspace size, where the target these papers name is a singlet at \u27e8S\u00b2\u27e9 = 0. Every starting guess I tried lands in the same place, and the error at convergence is about the size of the spin-state ladder itself, which <i>is</i> the physics under dispute.<p>IBM ships a mitigation for this. Run exactly as shipped, using their driver, their recovery loop and their own spin_square() diagnostic, it moves the ground energy by under a nanohartree while making the subspace 4.00x bigger: 194,481 determinants against 48,600. It makes a singlet representable. It never produces one. Their solver also takes a spin_sq argument that would target the singlet directly, and the default pipeline never sets it.<p>I filed that narrow part on their tracker yesterday, before posting this: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;Qiskit&#x2F;qiskit-addon-sqd&#x2F;issues&#x2F;337\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;Qiskit&#x2F;qiskit-addon-sqd&#x2F;issues&#x2F;337</a>. A maintainer answered and closed it the same day, and his answer is the useful part. The flag, in his words, augments the sampled subspace by using alpha CI strings as beta strings and vice versa. That is a statement about which determinants span the space, not about what spin the returned state comes out in, which is exactly what the measurement says. He did not contest the numbers. The second question, whether the default path is meant to reach spin_sq at all, is still unanswered.<p>The obvious objection is that this is all my own reimplementation, so here&#x27;s the part that isn&#x27;t. IBM&#x27;s data-availability archive for the flagship paper contains the raw hardware measurement records: 2,457,600 shots on [2Fe-2S] from December 2023, 3,163,742 outcomes on [4Fe-4S] from April 2024, plus the integrals and the optimized circuit&#x27;s parameters. Running their shots through their own pipeline, [2Fe-2S] reaches low \u27e8S\u00b2\u27e9 but sits 248 mHa off their own reference, and [4Fe-4S] converges to a spin-pure triplet, Var(S\u00b2) = 3e-6, a genuine S=1 eigenstate: a clean state, and the wrong one, 1,438 mHa from their reference.<p>Two things in that archive need no analysis from me at all. Their uniform-random null control matches or beats the hardware samples in every published [2Fe-2S] comparison. And their largest [4Fe-4S] runs, at subspace dimension 10\u2078, trail their own classical HCI file by 149 mHa.<p>On the AI angle, since that&#x27;s half of why this is on HN: Claude did the initial audit end to end in about 72 hours under my direction, and it&#x27;s been through many rounds of adversarial review since. The part I&#x27;d defend as actually interesting isn&#x27;t the speed. It caught five defects in its own work through pre-registered validation gates, one of them by cross-checking against IBM&#x27;s own published energy tables, and it retracted its own strongest pro-quantum finding when the new instrument showed that result was a spin-sector artifact. AUDIT_TRAIL.md has the timeline. REPRO_MAP.md maps every claim to a file and a command that regenerates it.<p>If you want to kill this, and I mean that, here&#x27;s how. Exhibit any state in a spin-completed ground manifold of these benchmarks with \u27e8S\u00b2\u27e9 &lt; 1. Or show me a quantum-sampled subspace at matched determinant count whose spin-identified energy beats HCI or CIPSI. Or get any shipped-pipeline run on IBM&#x27;s archived samples to land \u27e8S\u00b2\u27e9 &lt; 1 and error under 50 mHa at once, with no spin penalty. The harness is in the archive and I&#x27;ll publish whatever comes back, including if it&#x27;s me who&#x27;s wrong.<p>Preprint: <a href=\"https:&#x2F;&#x2F;doi.org&#x2F;10.26434&#x2F;chemrxiv.15006382&#x2F;v1\" rel=\"nofollow\">https:&#x2F;&#x2F;doi.org&#x2F;10.26434&#x2F;chemrxiv.15006382&#x2F;v1</a><p>The limitations section is real: comparison dimensions are fixed, the [4Fe-4S] reference is approximate, and the 58.6M &quot;samples&quot; file is deduplicated, so the shot-level distribution of their optimal-circuit numerics isn&#x27;t publicly auditable. It&#x27;s short. Worth reading before the hot take.",
+      "points": 13,
+      "num_comments": 1,
+      "hn_url": "https://news.ycombinator.com/item?id=49203707"
+    },
+    {
+      "title": "Blasting the Air in Front of Hypersonic Vehicles with Lasers Reduces Drag (2020)",
+      "url": "https://www.twz.com/33859/blasting-the-air-in-front-of-hypersonic-vehicles-with-lasers-could-unlock-unprecedented-speeds",
+      "source": "Hacker News",
+      "published": "2026-08-06T22:28:44+00:00",
+      "summary_raw": "",
+      "points": 12,
+      "num_comments": 3,
+      "hn_url": "https://news.ycombinator.com/item?id=49203507"
+    },
+    {
+      "title": "OpenAI and four rivals just agreed on one standard for AI agents",
+      "url": "https://thenextweb.com/news/openai-agent-plugins-open-standard-skills-mcp",
+      "source": "Hacker News",
+      "published": "2026-08-06T22:21:32+00:00",
+      "summary_raw": "",
+      "points": 23,
+      "num_comments": 3,
+      "hn_url": "https://news.ycombinator.com/item?id=49203443"
+    },
+    {
+      "title": "With software alone, one B200 beats the LPU and gets close to Cerebras",
+      "url": "https://runinfra.ai/news/b200-beats-the-lpu",
+      "source": "Hacker News",
+      "published": "2026-08-06T22:15:10+00:00",
+      "summary_raw": "",
+      "points": 10,
+      "num_comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=49203370"
+    },
+    {
+      "title": "AMD acquires Taalas to boost inference performance by etching models in silicon",
+      "url": "https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344",
+      "source": "Hacker News",
+      "published": "2026-08-06T20:23:11+00:00",
+      "summary_raw": "<a href=\"https:&#x2F;&#x2F;ir.amd.com&#x2F;news-events&#x2F;press-releases&#x2F;detail&#x2F;1296&#x2F;amd-acquires-taalas-to-advance-compute-solutions-for-rapidly-growing-ai-inference-market\" rel=\"nofollow\">https:&#x2F;&#x2F;ir.amd.com&#x2F;news-events&#x2F;press-releases&#x2F;detail&#x2F;1296&#x2F;am...</a><p><a href=\"https:&#x2F;&#x2F;chatjimmy.ai&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;chatjimmy.ai&#x2F;</a>",
+      "points": 713,
+      "num_comments": 538,
+      "hn_url": "https://news.ycombinator.com/item?id=49201970"
+    },
+    {
+      "title": "xAI, SpaceX, and the Race for AI Buildout",
+      "url": "https://illegal.solutions/posts/xai_pollution",
+      "source": "Hacker News",
+      "published": "2026-08-06T19:38:45+00:00",
+      "summary_raw": "",
+      "points": 140,
+      "num_comments": 119,
+      "hn_url": "https://news.ycombinator.com/item?id=49201342"
+    },
+    {
+      "title": "Qwen3.8 Max now ranked as the best overall model by agentic index",
+      "url": "https://artificialanalysis.ai/?intelligence=agentic-index",
+      "source": "Hacker News",
+      "published": "2026-08-06T18:44:49+00:00",
+      "summary_raw": "",
+      "points": 506,
+      "num_comments": 319,
+      "hn_url": "https://news.ycombinator.com/item?id=49200652"
+    },
+    {
+      "title": "datasette 1.0a38",
+      "url": "https://simonwillison.net/2026/Aug/6/datasette/#atom-everything",
+      "source": "Simon Willison",
+      "published": "2026-08-06T18:24:34+00:00",
+      "summary_raw": "Release: datasette 1.0a38\n        \nThis release fixes a SQL injection security issue that affects Datasette instances that serve a mixture of public and private tables in the same database, with access configured using the Datasette permissions system.\nSite administrators who serve private tables in this way are advised to disable the execute-sql permission ` on that database to prevent users from accessing private tables using raw SQL queries. The bug that has been fixed would have allowed users with access to any public table to execute SQL injection attacks despite that restriction, giving them read-only access to data in private tables in the same database.\nThis fix is also available in Datasette 0.65.3.\n\nThankfully this particular configuration - private tables and public tables exposed for the same database within the same instance - is likely to be rare. I've not encountered an instance like that myself.\n    \n    \n        Tags: security, sql-injection, datasette"
+    },
+    {
+      "title": "datasette 0.65.3",
+      "url": "https://simonwillison.net/2026/Aug/6/datasette-2/#atom-everything",
+      "source": "Simon Willison",
+      "published": "2026-08-06T18:22:07+00:00",
+      "summary_raw": "Release: datasette 0.65.3\n        Back-ported the SQL Injection security fix from 1.0a38.\n    \n    \n        Tags: datasette"
+    },
+    {
+      "title": "AI Just Created Viruses Not Found in Nature",
+      "url": "https://www.nytimes.com/2026/08/06/science/ai-viruses-bacteria-arc.html",
+      "source": "Hacker News",
+      "published": "2026-08-06T18:09:19+00:00",
+      "summary_raw": "",
+      "points": 25,
+      "num_comments": 13,
+      "hn_url": "https://news.ycombinator.com/item?id=49200213"
+    },
+    {
+      "title": "Simon Willison on Technical Blogging",
+      "url": "https://simonwillison.net/2026/Aug/6/simon-willison-on-technical-blogging/#atom-everything",
+      "source": "Simon Willison",
+      "published": "2026-08-06T18:04:39+00:00",
+      "summary_raw": "Simon Willison on Technical Blogging\nI was interviewed by Cynthia Dunlop for her \"Write that blog!\" series back in January, but I just realized I never linked to the interview from my own blog!\nIt includes my answers to the following questions:\n\nWhy did you start blogging \u2013 and why do you continue?\nWhat has been the most surprising impact of blogging for you?\nWhat blog post are you most proud of and why?\nWhat post was the most difficult to write and how did you tackle it?\nAny lessons learned that you want to share with the community?\nYour advice for people just getting started with blogging?\nA few blogs that you particularly enjoy?\n\nI'll repeat my most important piece of advice here:\n\nMy number one tip for blogging is to lower your standards! Aim to hit publish while you are still actively unhappy with what you have written, because the only alternative is a huge folder full of drafts and never publishing anything at all.\nNobody will ever know how perfect the thing you intended to write would have been. The flaws you see in your writing are invisible to everyone else.\n\n\n\n    Tags: blogging, interviews"
+    },
+    {
+      "title": "Learning When to Trust via Selective Context Preference Optimization",
+      "url": "https://arxiv.org/abs/2608.06377v1",
+      "source": "arXiv",
+      "published": "2026-08-06T17:59:58+00:00",
+      "summary_raw": "Language models increasingly condition their answers on external signals, and a single misleading one can turn a correct answer wrong. The obvious remedy, training models to resist such signals, hides a failure mode: a model that ignores all context looks robust yet is useless when the context is worth trusting. We recast the problem as selective trust and introduce MIST, a human-annotated benchmark that renders each reasoning item under four matched conditions (clean, misleading, correct-context, and irrelevant-context), together with SC2W, a paired metric counting how often a misleading signal flips a clean-correct answer to wrong. Across a comprehensive benchmark study, we observe that such a susceptibility is universal. We then propose SCOPE, which mines clean-correct/misleading-wrong failures and optimizes a standard Direct Preference Optimization (DPO) objective over matched preference pairs balanced equally across all four conditions, rather than over misleading items alone. Our approach substantially reduces SC2W on popular open-sourced models while preserving accuracy when the added context is clean, correct, or irrelevant. With this work, we argue that models should be judged on selective trust, not on resistance alone."
+    },
+    {
+      "title": "The Bitter Lesson of Tool Calling",
+      "url": "https://arxiv.org/abs/2608.06370v1",
+      "source": "arXiv",
+      "published": "2026-08-06T17:58:32+00:00",
+      "summary_raw": "Tool use transforms LLMs into agents that act beyond their training data, and for code-capable models, programmatic tool calling extends this further by replacing rigid JSON calls with scripts that chain and parallelize naturally. However, a systematic evaluation of tools as code on an established benchmark across current and prior model generations under real-world task conditions has not been conducted. In this work, we empirically compare programmatic tool calling (PTC) to native JSON tool calling across 14 language models on BFCL v4. In the programmatic tool calling paradigm, tools are exposed as typed Python stubs that the model invokes through code, with execution and results handled in a single agent turn. Programmatic tool calling matches or exceeds native JSON tool calling in 11 of 14 models on BFCL v4, with the GPT-5.6 family achieving a 10.6% improvement over the JSON tool calling baseline. Further, it matches or outperforms baseline in 13 of 14 models under parallel fan-out, and holds stable under context rot conditions where baseline degrades 2.3% on average. Our results demonstrate that programmatic tool calling is a viable and robust alternative to JSON tool calling, with performance tracking model capability across release generations."
+    },
+    {
+      "title": "Tracing the Heart: An Evidence-Linked Pipeline for Heart-Failure Feature Engineering",
+      "url": "https://arxiv.org/abs/2608.06366v1",
+      "source": "arXiv",
+      "published": "2026-08-06T17:57:37+00:00",
+      "summary_raw": "Electronic health record (EHR) feature engineering is a major bottleneck in clinical research and AI, accounting for 39-45% of data scientists' workload. This is especially pronounced in heart failure, which affects an estimated 6.7 million U.S. adults and requires integrating fragmented EHR data with disease-specific, guideline-based clinical reasoning. Existing rule-based and large language model (LLM)-based approaches offer only partial automation with limited maintainability and evidence traceability. We developed the Nimblemind Multi-Agent System (nMAS), an evidence-linked, rubric-grounded pipeline for automated heart-failure feature engineering, and evaluated it on 500 dummy patient records from nine EHR source tables. nMAS generated 132 structured and 70 rubric-scored aggregated features, verified for structural integrity, rubric compliance, and provenance, and audited by a restricted LLM. Adding the aggregated features improved held-out AUROC from 0.895 to 0.963 for HFrEF and 0.870 to 0.910 for HFpEF phenotyping, and an independent LLM-based rubric assessment of evidence support and methodological soundness scored the features at 81.5% of maximum points. These results demonstrate the feasibility of automated, auditable feature engineering for complex cardiovascular EHR data, though evaluation was limited to a single-institution cohort and external validation is needed."
+    },
+    {
+      "title": "Investigating Artificial Intelligence Digital Sovereignty in Mobile Shopping Apps: A Case Study of Nigeria",
+      "url": "https://arxiv.org/abs/2608.06364v1",
+      "source": "arXiv",
+      "published": "2026-08-06T17:57:28+00:00",
+      "summary_raw": "The use of e-commerce mobile applications is expanding in Nigeria, creating both opportunities and risks, including fraud and reduced user control over digital technologies, raising concerns about digital sovereignty. This research examines how Artificial Intelligence (AI) in Nigerian mobile applications affects digital sovereignty, examined through platform transparency as a key indicator of user awareness and control. Using an interpretive approach, the research combines the forensic analysis of selected Android applications with contextual document analysis to identify AI features and evaluate disclosure practices. The findings show that AI is widely implemented in the applications, yet transparency about its use remains limited. A socio-economic analysis of Nigeria further shows an increasing dependence on consumer digital platforms, moderate AI awareness, and uneven patterns of interaction. By providing empirical evidence on AI transparency and platform practices, this study advances understanding of individual digital sovereignty and highlights challenges for protecting user control in AI-driven digital environments."
+    },
+    {
+      "title": "An Optimal Agnostic PAC Algorithm",
+      "url": "https://arxiv.org/abs/2608.06363v1",
+      "source": "arXiv",
+      "published": "2026-08-06T17:57:25+00:00",
+      "summary_raw": "Let $H\\subseteq\\{-1,+1\\}^X$ be a class of finite VC dimension $d\\ge1$. Writing $L$ for the binary risk and $L^*=\\min_{h\\in H}L(h)$, we construct a learner achieving the statistically optimal risk bound: from an i.i.d.\\ sample of size $n$, for every $0<\u03b4\\le 1/2$, with probability at least $1-\u03b4$, \\[ L(\\widehat h) \\le L^*+ 7\\cdot10^8\\left( \\sqrt{\\frac{L^*(d+\\log(1/\u03b4))}{n}} +\\frac{d+\\log(1/\u03b4)}{n} \\right). \\] This settles the sample complexity of agnostic PAC learning up to universal constants at every fixed $L^*$, matching the lower bounds of Devroye, Gy\u00f6rfi, and Lugosi [A Probabilistic Theory of Pattern Recognition, Springer, 1996]."
+    },
+    {
+      "title": "AV-AIVAT: 74x Cheaper Agent Evaluation with Certified Anytime-Valid Stopping in Imperfect-Information Games",
+      "url": "https://arxiv.org/abs/2608.06362v1",
+      "source": "arXiv",
+      "published": "2026-08-06T17:57:11+00:00",
+      "summary_raw": "Deciding which of two agents is stronger means playing games until skill outweighs luck, and every game costs money, model inference, or expert time. Since the number of games needed is unknown, fixed-budget evaluations either keep paying after the result is settled or stop before the agents can be told apart, while naive optional stopping with an ordinary confidence interval invalidates the stated level. We make such an evaluation stop as soon as its evidence suffices, with the guarantee intact. The Action-Informed Value Assessment Tool (AIVAT) reduces variance in imperfect-information games through conditional mean-zero corrections, by a median $54\\times$ across 15 LLM agent configurations spanning 71,439 paired Heads-Up No-Limit Hold'em (HUNL) hands, but does not say when to stop. We combine AIVAT with continuously monitored Confidence Sequences (CSs) into anytime-valid AIVAT (AV-AIVAT), whose online value model learns only from past games so that no game scores its own correction. At the nominal 95\\% level and a target precision of $\\pm1$ Big Blind, raw outcomes need a median $74\\times$ as many hands as AIVAT-corrected outcomes to stop under the Asymptotic CS (AsympCS). Exact finite-sample certification uses the Empirical-Bernstein CS (EB-CS), which needs an independently justified bound on corrected payoffs. We establish such a bound structurally for Leduc hold'em and characterize a width floor set by the CS's bet cap and that bound, which governs how much of a variance gain becomes earlier stopping; the descriptive HUNL EB-CS runs show a median $1.37\\times$ stopping-time ratio. AV-AIVAT turns variance reduction into efficient, auditable early stopping while separating asymptotic screening from exact certification, so an evaluation can stop the moment its evidence suffices and hand a third party everything needed to recheck the verdict at that very stopping time."
+    },
+    {
+      "title": "The Low Frequency Trap: Video Language Models Fail at Simple Event Bookkeeping",
+      "url": "https://arxiv.org/abs/2608.06361v1",
+      "source": "arXiv",
+      "published": "2026-08-06T17:57:06+00:00",
+      "summary_raw": "Real-world video benchmarks provide broad coverage, but their fixed clips entangle event count, rate, duration, and visual complexity, making failure modes hard to isolate. While existing programmatic benchmarks offer better control, they score only the final answer rather than auditing reported events against executable ground truth. To bridge this gap, we introduce trace-grounded parametric profiling for event counting in three controlled video tasks: bouncing-ball wall contacts, visual blinks, and categorical state transitions. Across 2,190 videos, we vary event count N and frequency F while holding rendering fixed. Each video includes an executable event trace for capability-surface estimation and timestamp-level evaluation. Our results reveal a staged temporal failure. At an 80% reliability threshold, Gemini 3.6 Flash reliably counts persistent state transitions up to 12 events at 0.5 and 1.0 Hz, yet demonstrates no reliable positive-count region for transient blinking events. Thus, event representation dictates whether a model initially accesses evidence -- a limitation that compounds as count and frequency increase. In the high-count, high-frequency regime, only 0.2% of final counts are correct and the model recovers just 18.1% of true events. To test if visual access is the primary bottleneck, we increase sampling rate. Although this boosts Bounce Ball accuracy from 19.6% to 29.3%, the reported sequence agrees with ground truth only 3.7% of the time. Extra frames can therefore inflate final scores without producing faithful event recovery. Different prompting strategies yield similarly limited gains, and real-world video evaluations show the same concentration of success at low event counts. Ultimately, trace-grounded profiling shifts video evaluation from aggregate accuracy metrics to a detailed diagnostic of where temporal reasoning fails."
+    },
+    {
+      "title": "Resourced Authority A Mechanism-Design Model for Participatory Governance of Deployed AI Agents",
+      "url": "https://arxiv.org/abs/2608.06353v1",
+      "source": "arXiv",
+      "published": "2026-08-06T17:53:24+00:00",
+      "summary_raw": "We give a formal mechanism design model for the continuous participatory governance of a deployed AI agent. The mechanism is built on the principle that governance should control an AI agent through resource allocation so as to make authorization self enforcing via compute budgets. The mechanism seeks to establish the Safe AI paradigm that compute is an effective governance lever. We situate our work as a compliance or commons overlay on a deployer. One governance period is an extensive form game in which verified human stakeholders arrive sequentially and contribute, on a provision or a rejection market, in a governance currency that is deliberately distinct from the agents compute. A funding aggregator turns raw contributions into breadth weighted effective supports - a two threshold gate with hysteresis converts net support into a binary authorization that, through a coupling map bounded by an exogenously certified safety ceiling, releases a metered compute budget - realized in hardware as a signed compute license so that the decision is self-enforcing. We characterize the class of agents the mechanism can govern and isolate manipulation of the governing electorate by the governed agent as the central open problem. We also introduce several challenges addressing manipulation of governing electorate by the governed agents."
+    },
+    {
+      "title": "CalibForge: Adversarial Solver Calibration for Scaling Learnable Terminal Tasks",
+      "url": "https://arxiv.org/abs/2608.06352v1",
+      "source": "arXiv",
+      "published": "2026-08-06T17:53:18+00:00",
+      "summary_raw": "Training terminal agents requires executable and verifiable tasks that are not merely solvable, but appropriately challenging for learning. Executable validation establishes feasibility, yet does not reveal how a task behaves relative to a given solver setting. In this paper, we present CalibForge, an autonomous terminal-task synthesis system that uses verified solver behavior to revise candidate tasks through adversarial solver calibration. Multi-solver calibration targets disagreement within a heterogeneous solver pool, whereas contrastive solver calibration targets a designated strong-pass/weak-fail relation; both operationalize a solver-relative learnable zone anchored in demonstrated solvability. Using CalibForge, we construct 5,431 calibrated terminal tasks. Our ablations show that both strategies yield more effective supervision than authoring and validation alone or ordinary single-solver feedback. Models trained on the full collection achieve 32.58% and 47.57% on Terminal-Bench 2.0. The largest improvements over the corresponding base model reach 24.71 percentage points on Terminal-Bench 2.0, 27.68 points on SWE-bench Pro, and 30.04 points on Doc2Repo. Together, these results support solver-relative learnability as a practical target for constructing effective and transferable agent training data."
+    },
+    {
+      "title": "Challenges in Evaluating Explanation Methods for Static and Evolving Data",
+      "url": "https://arxiv.org/abs/2608.06351v1",
+      "source": "arXiv",
+      "published": "2026-08-06T17:53:10+00:00",
+      "summary_raw": "This paper addresses the limitations of Explainable Artificial Intelligence (XAI) with respect to insufficient evaluation. They are illustrated through the DetoxAI image recognition system for bias detection and concept unlearning. Then, an example of a human-grounded evaluation of methods for explaining image classification is presented. The paper further explores methods for adapting explanations to evolving data streams with concept drift. Experiences with adapting counterfactuals for this problem are discussed. Finally it is related to the challenges of tracking the co-evolution of data, models, and explanations.\\footnote{This paper has been accepted for a publication in J.Nalepa (ed) Explainable AI in Space. Proceedings of EASi 2026 Workshop at IJCAI-ECAI 2026 Bremen, Springer CCIS vol 3107 (2016).}"
+    }
+  ]
+}
