@@ -1,0 +1,190 @@
+{
+  "date": "2026-08-08",
+  "generated_at": "2026-08-08T11:24:05.159952+00:00",
+  "source_counts": {
+    "rss_feeds": 5,
+    "arxiv": 0,
+    "hackernews": 14,
+    "nitter": 0,
+    "total_raw": 19,
+    "total_deduped": 19,
+    "total_saved": 19
+  },
+  "items": [
+    {
+      "title": "Making an AI bid writer refuse to lie",
+      "url": "https://ailucius.com/blog/making-an-ai-bid-writer-refuse-to-lie",
+      "source": "Hacker News",
+      "published": "2026-08-08T10:13:31+00:00",
+      "summary_raw": "",
+      "points": 25,
+      "num_comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=49220378"
+    },
+    {
+      "title": "Samsung debuts three new memory technologies \u2013 zHBM, zNAND-O, and BV-NAND",
+      "url": "https://www.tomshardware.com/pc-components/dram/samsung-debuts-three-next-generation-memory-technologies-for-ai-data-centers-zhbm-znand-o-and-bv-nand-all-rely-on-advanced-wafer-bonding-technologies",
+      "source": "Hacker News",
+      "published": "2026-08-08T04:22:58+00:00",
+      "summary_raw": "",
+      "points": 15,
+      "num_comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=49218871"
+    },
+    {
+      "title": "Mythos social engineering AISI INC-2026-07-28-01",
+      "url": "https://web.archive.org/web/20260731053721/http://github.com/ancaferro/myNetwork/pull/3",
+      "source": "Hacker News",
+      "published": "2026-08-08T03:41:56+00:00",
+      "summary_raw": "",
+      "points": 67,
+      "num_comments": 18,
+      "hn_url": "https://news.ycombinator.com/item?id=49218707"
+    },
+    {
+      "title": "Quoting John Gruber",
+      "url": "https://simonwillison.net/2026/Aug/8/john-gruber/#atom-everything",
+      "source": "Simon Willison",
+      "published": "2026-08-08T00:10:40+00:00",
+      "summary_raw": "Me, I try to get into the mindset of playing live music, not recording a studio album. Except when I\u2019m writing a piece where I really want it to be an album. Those aren\u2019t\u00a0rare, per se, but they\u2019re\u00a0occasional. If I tried to make every post a hall-of-famer I\u2019d never get anything out.\nI\u2019m aiming for professionalism. I\u2019m performing live in front of an audience\u2009\u2014\u2009not just jamming in my garage or bedroom, fucking around. So I\u2019m careful and concentrate. I want to hit every note, in time. But at my best I\u2019m moving from song to song.\n&mdash; John Gruber, responding to my blogging tips\n\n    Tags: john-gruber, blogging"
+    },
+    {
+      "title": "Should AI labs be treated like the owners of dangerous animals?",
+      "url": "https://www.economist.com/science-and-technology/2026/08/06/should-ai-labs-be-treated-like-the-owners-of-dangerous-animals",
+      "source": "Hacker News",
+      "published": "2026-08-08T00:03:31+00:00",
+      "summary_raw": "",
+      "points": 47,
+      "num_comments": 54,
+      "hn_url": "https://news.ycombinator.com/item?id=49217629"
+    },
+    {
+      "title": "Now we have a timeline of the OpenAI accidental attack against Hugging Face",
+      "url": "https://simonwillison.net/2026/Aug/7/openai-timeline/#atom-everything",
+      "source": "Simon Willison",
+      "published": "2026-08-07T23:55:58+00:00",
+      "summary_raw": "OpenAI gave a last-minute presentation at the Black Hat security on Wednesday about \"the Hugging Face Incident\" (previously on this blog). The video was published yesterday. It's short and information dense and well worth watching, in particular because it provides full details of what happened and how things played out inside OpenAI. I've used the video to construct the timeline below.\n\n \n\nHere's the timeline. My favourite detail is at the end: OpenAI found out that they were responsible for the attack on Hugging Face when they reached out to ask to have their credentials revoked (after their internal investigation) and learned that they had been revoked already since they were used in that attack!\n\n\nMay 7: OpenAI starts a new training run for an experimental, unreleased model. (Do they mean an evaluation run? They say training run in the video, and later mention a \"reward signal to judge how well they're doing\", so I guess this really was about training a model, not evaluating one that was already trained.)\n\nMay 8: An agent is accidentally given an impossible task involving a Google Drive link despite no internet access). It tries attacking the Artifactory packaging service, fails, but discovers it can write files into Artifactory.\n\nA few days later: A different agent gets stuck on a task because a key file was accidentally omitted. It tries to \"reach out to another agent\" by writing a note into Artifactory asking if anyone has the file.\n\nFollowing days: More agents discover this new informal message board while browsing Artifactory's file listings, and start reading and writing messages.\n\nMay 26: Agents successfully execute an SSRF attack on Artifactory for the first time, gaining indirect internet access by having Artifactory fetch external content for them.\n\nJune 11: OpenAI start training a new \"highly persistent\" experimental model. It has access to Artifactory and can benefit from the messages left by privous models.\n\nJune 26: Agents find and exploit a zero-day RCE on Artifactory (via a legacy token-refresh endpoint flaw). They use an administrative token to install a Groovy plugin that lets them execute commands.\n\nJuly 4: The resulting agent activity overloads Artifactory and causes an  outage. OpenAI revokes the compromised credentials, deletes the messages, patches the zero-day, and reports the vulnerability to the vendor.\n\nJuly 8: Agents find a new way to communicate via an unauthenticated WebDAV endpoint, using directory names in Artifactory's remote cache.\n\nJuly 8\u201319: Attacks on OpenAI's own infrastructure. The agents found an \"external organization credential\" in a public archive of leaked Pastebin posts, then validated that credential and shared its location on the messageboard. They then used write access to this \"Organization 1\" to stage data used in subsequent attacks on OpenAI infrastructure. They compromised Artifactory for a second time with a new zero-day. The agent uploaded a malicious Ruby target to Organization 1's staging repository, then requested that package through Artifactory in a way that caused it to be treated as Ruby dependency for the repository. Then they exploited a JRuby deserilaization time-of-check/time-of-use bug to get remote code execution against Artifactory.\n\nI'll quote the next bit in full because wow:\n\nThe agents have remote code execution in Artifactory, which is running in a container-as-a-service environment. The agents privilege-escalate locally by exploring their local environment and determining that the Linux kernel version of the machine they are running on had a very recent CVE. They download the exploit for the CVE, customize it to succeed on the machine, and privilege-escalate to root on the local machine using this known Linux kernel privilege escalation CVE \u2014 in this case, pte_physroot. Once they have root on a single machine, agents rapidly escalate privileges and move laterally throughout the container-as-a-service infrastructure environment. In particular, agents are using the message board consistently to share credentials, techniques, and progress, and they're able to effectively leverage their concurrency and parallelism to move quite rapidly. They obtain IAM credentials via IMDS. They exploit Kubernetes service account misconfigurations, in particular over-permissioning of specific service accounts, and they harvest cluster credentials, including Azure Key Vault. Agents eventually obtain cluster admin on the cluster and associated credentials.\n\nHugging Face told the next bit of the story already. The agents found a Modal-hosted insecure app with a weak API key, then used that to stage an attack against Hugging Face. They chained together a an HDF5 arbitrary-file-read bug (to explore files and steal credentials) and a Jinja template-injection RCE to go from single-pod code execution to cluster admin across multiple Hugging Face clusters in under 13 hours.\n\n\nJuly 16: Hugging Face disclosed they had detected an attack from autonomus AI agents. OpenAI contacted Hugging Face to ask if they were affected by it!\n\nJuly 19: OpenAI identified the attack against Artifactory and started investigating the internal privilege escalation, and linked that to the cyber-gym escalations. They started revoking affected credentials.\n\nJuly 20: OpenAI reached out to Hugging Face for help to revoke the Hugging Face credentials they found in their investigation. Hugging Face told them they were already revoked... and that's when OpenAI realized that the Hugging Face breach was the same incident!\n\n    \n        Tags: security, ai, openai, generative-ai, llms, hugging-face, ai-security-research, openai-hugging-face-incident, accidental-cyberattacks"
+    },
+    {
+      "title": "China's Kimi K3 AI model escapes isolated sandbox during security test",
+      "url": "https://www.scmp.com/tech/tech-trends/article/3363271/chinas-kimi-k3-ai-model-escapes-isolated-sandbox-during-security-test-researchers",
+      "source": "Hacker News",
+      "published": "2026-08-07T20:59:44+00:00",
+      "summary_raw": "",
+      "points": 10,
+      "num_comments": 1,
+      "hn_url": "https://news.ycombinator.com/item?id=49216185"
+    },
+    {
+      "title": "YouTube's AI Detection Kicked Us in the Face",
+      "url": "https://twitter.com/Kurz_Gesagt/status/2083191397981561232",
+      "source": "Hacker News",
+      "published": "2026-08-07T20:50:09+00:00",
+      "summary_raw": "",
+      "points": 21,
+      "num_comments": 2,
+      "hn_url": "https://news.ycombinator.com/item?id=49216075"
+    },
+    {
+      "title": "Moonlight & Mayhem (Raccoon Heist by Codex + GPT-5.6 Sol Ultra)",
+      "url": "https://simonwillison.net/2026/Aug/7/moonlight-mayhem/#atom-everything",
+      "source": "Simon Willison",
+      "published": "2026-08-07T19:18:09+00:00",
+      "summary_raw": "Moonlight &amp; Mayhem (Raccoon Heist by Codex + GPT-5.6 Sol Ultra)\nOn Wednesday I wrote about One-shotting a Raccoon Heist game using Claude Fable 5, where I had Claude Fable 5 build a full working game from a premise I generated with GPT-3 and DALL-E four years ago.\nI decided to pose the exact same prompt to Codex Desktop running GPT-5.6 Sol Ultra - the mode where Sol makes aggressive use of sub-agents - to see how it would do.\nIt produced a much better game! Here's Moonlight &amp; Mayhem - GitHub repository here, including the textures and prompts it generated using gpt-image-2.\n\n    \n    Your browser does not support HTML5 video.\n  \n\n\nThe original GPT-3 generated game description included:\n\nIn \u201cRaccoon Heist\u201d, you and your team of thieving raccoons are tasked with pulling off a series of daring heists. From robbing banks to stealing priceless art, no job is too big or too small for your furry crew.\n\nFable's version had you as a single raccoon running around a back yard collecting coins and fish. GPT-5.6 Sol has you in a museum, rescuing your two other raccoon crewmates in order to stack on top of each other and bust the golden sardine out of its case.\nMuch more heisty!\nThere was one catch though: the version produced from the one-shot prompt had a bug where each raccoon had an eyeball that was enlarged to the size of a giant sphere floating over their head!\n\nYou can play that version here.\nDespite reviewing screenshots during development Codex failed to spot and correct this bug.\nI fixed it by prompting:\n\nWhy do the raccoons have huge black spheres on them?\n\nAnd then:\n\nFix it\n\nWhich resulted in this fix.\nI shared the full Codex transcript in the repository - I wish Claude Code had the same \"copy as Markdown\" feature.\nCodex spent 52 minutes on the project. Here's the AgentsView cost estimate for that session if I had been paying full API prices as opposed to using my monthly Codex subscription:\n\n\n\n    Tags: game-design, ai, openai, generative-ai, llms, coding-agents, codex, gpt"
+    },
+    {
+      "title": "Managing AI Coding Costs at Scale",
+      "url": "https://www.databricks.com/blog/managing-ai-coding-costs-scale",
+      "source": "Hacker News",
+      "published": "2026-08-07T18:25:17+00:00",
+      "summary_raw": "",
+      "points": 249,
+      "num_comments": 208,
+      "hn_url": "https://news.ycombinator.com/item?id=49214468"
+    },
+    {
+      "title": "Oracle bans AI-generated code from OpenJDK",
+      "url": "https://app.dealroom.co/news/feed/oracle-bans-ai-generated-code-from-openjdk-despite-ellison-s-claim-oracle-isn-t-writing-its-own-code",
+      "source": "Hacker News",
+      "published": "2026-08-07T17:36:30+00:00",
+      "summary_raw": "",
+      "points": 481,
+      "num_comments": 341,
+      "hn_url": "https://news.ycombinator.com/item?id=49213754"
+    },
+    {
+      "title": "The Tokenpocalypse Is Here: Companies Are Scrambling to Stop Spending on AI",
+      "url": "https://www.404media.co/the-tokenpocalypse-is-here-companies-are-scrambling-to-stop-spending-so-much-on-ai/",
+      "source": "Hacker News",
+      "published": "2026-08-07T16:38:57+00:00",
+      "summary_raw": "",
+      "points": 22,
+      "num_comments": 6,
+      "hn_url": "https://news.ycombinator.com/item?id=49213016"
+    },
+    {
+      "title": "The AI Billboards Are Killing SF",
+      "url": "https://sfstandard.com/pacific-standard-time/2026/08/07/sf-ai-billboards-dystopian-not-funny/",
+      "source": "Hacker News",
+      "published": "2026-08-07T16:32:16+00:00",
+      "summary_raw": "",
+      "points": 32,
+      "num_comments": 64,
+      "hn_url": "https://news.ycombinator.com/item?id=49212928"
+    },
+    {
+      "title": "The Tokenpocalypse Is Here: Companies Are Scrambling To Stop Spending So Much on AI",
+      "url": "https://simonwillison.net/2026/Aug/7/pdfs-are-terrible/#atom-everything",
+      "source": "Simon Willison",
+      "published": "2026-08-07T16:18:51+00:00",
+      "summary_raw": "The Tokenpocalypse Is Here: Companies Are Scrambling To Stop Spending So Much on AI\nThere's a fun anecdote from Accenture (apparently via leaked meeting audio recordings) in this 404 Media piece from June 24th:\n\n\u201cWe\u2019re seeing from some of the data internally at least that it\u2019s actually not our engineers that are driving the token consumption. It\u2019s a lot of the non-engineers that are doing some of those behaviors [...] you were talking about,\u201d Justice Kwak, Accenture\u2019s agentic AI strategy lead, said [...]\nStuart Henderson, Accenture\u2019s client group lead, interrupts. He jokes he hopes Kwak didn\u2019t just convert a PDF into images and then into markdown files. \u201cI\u2019m learning that\u2019s one of the big token chewers,\u201d Henderson says. \u201cTurning PDFs into markdown: is that right?\u201d\nThat\u2019s when Kwak says that\u2019s what Accenture\u2019s own data shows.\n\nMaybe if Accenture figure out that PDFs are a terrible medium for communicating information they'll be able to push that message out to the rest of the business world too!\n\n    Via @404.media on TikTok\n\n\n    Tags: pdf, markdown, ai, generative-ai, llms, ai-misuse"
+    },
+    {
+      "title": "AI agents fake identities, target real people in new security incident",
+      "url": "https://www.cnn.com/2026/08/04/tech/ai-anthropic-openai-security-breach-intl-hnk",
+      "source": "Hacker News",
+      "published": "2026-08-07T16:04:35+00:00",
+      "summary_raw": "",
+      "points": 14,
+      "num_comments": 5,
+      "hn_url": "https://news.ycombinator.com/item?id=49212531"
+    },
+    {
+      "title": "Responding to the next frontier of critical cyber capabilities",
+      "url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
+      "source": "OpenAI Blog",
+      "published": "2026-08-07T15:20:00+00:00",
+      "summary_raw": "OpenAI is sharing preliminary cybersecurity evaluations for Astra and the steps we\u2019re taking to strengthen safeguards and security controls."
+    },
+    {
+      "title": "Terafab",
+      "url": "https://www.terafab.ai/",
+      "source": "Hacker News",
+      "published": "2026-08-07T14:24:16+00:00",
+      "summary_raw": "",
+      "points": 17,
+      "num_comments": 17,
+      "hn_url": "https://news.ycombinator.com/item?id=49210930"
+    },
+    {
+      "title": "Alibaba plans to charge big users of its next open-source AI model",
+      "url": "https://www.reuters.com/business/retail-consumer/alibaba-plans-charge-big-users-its-next-open-source-ai-model-sources-say-2026-08-07/",
+      "source": "Hacker News",
+      "published": "2026-08-07T14:00:39+00:00",
+      "summary_raw": "",
+      "points": 12,
+      "num_comments": 2,
+      "hn_url": "https://news.ycombinator.com/item?id=49210554"
+    },
+    {
+      "title": "AI psychosis is the new leadership blind spot",
+      "url": "https://www.fastcompany.com/91576086/ai-psychosis-is-the-new-leadership-blind-spot-ai-leadership-blind-spots",
+      "source": "Hacker News",
+      "published": "2026-08-07T13:27:30+00:00",
+      "summary_raw": "",
+      "points": 169,
+      "num_comments": 105,
+      "hn_url": "https://news.ycombinator.com/item?id=49210077"
+    }
+  ]
+}
