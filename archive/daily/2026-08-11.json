@@ -1,0 +1,229 @@
+{
+  "date": "2026-08-11",
+  "generated_at": "2026-08-11T11:41:18.968367+00:00",
+  "source_counts": {
+    "rss_feeds": 5,
+    "arxiv": 50,
+    "hackernews": 26,
+    "nitter": 0,
+    "total_raw": 81,
+    "total_deduped": 80,
+    "total_saved": 25
+  },
+  "items": [
+    {
+      "title": "I was accused of using AI in my dissertation but I wrote it all myself",
+      "url": "https://www.bbc.com/news/articles/crelev8gw5xo",
+      "source": "Hacker News",
+      "published": "2026-08-11T08:46:49+00:00",
+      "summary_raw": "",
+      "points": 11,
+      "num_comments": 3,
+      "hn_url": "https://news.ycombinator.com/item?id=49255069"
+    },
+    {
+      "title": "The Water Footprint of AI",
+      "url": "https://doi.org/10.1016/j.watres.2026.125866",
+      "source": "Hacker News",
+      "published": "2026-08-11T07:00:57+00:00",
+      "summary_raw": "",
+      "points": 38,
+      "num_comments": 44,
+      "hn_url": "https://news.ycombinator.com/item?id=49254351"
+    },
+    {
+      "title": "Zuckerberg's superyacht ignored emergency channel, failed to aid stranded boat",
+      "url": "https://arstechnica.com/gadgets/2026/08/zuckerbergs-super-yacht-stood-by-while-stranded-boaters-looked-for-help/",
+      "source": "Hacker News",
+      "published": "2026-08-11T06:55:24+00:00",
+      "summary_raw": "",
+      "points": 20,
+      "num_comments": 6,
+      "hn_url": "https://news.ycombinator.com/item?id=49254304"
+    },
+    {
+      "title": "The AI Slop Backlash Is Having an Impact",
+      "url": "https://www.wired.com/story/the-ai-slop-backlash-is-actually-having-an-impact/",
+      "source": "Hacker News",
+      "published": "2026-08-11T00:10:08+00:00",
+      "summary_raw": "",
+      "points": 11,
+      "num_comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=49251601"
+    },
+    {
+      "title": "Introducing Muse Glimmer",
+      "url": "https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/#atom-everything",
+      "source": "Simon Willison",
+      "published": "2026-08-10T23:56:03+00:00",
+      "summary_raw": "Introducing Muse Glimmer\nMeta are back in the open weights game! Muse Glimmer is a brand new 30B model under a clean Apache 2.0 license (a step up from the janky Llama licenses of old).\nThey claim to have optimized it for exactly the kind of things I'm looking for in a local model:\n\n\nEnd-to-end Agentic Task Completion. Muse\u00a0Glimmer achieves strong success rates on full-task benchmarks including DeepSearch QA, MCP-Atlas, \ud835\uded5-Bench and SWE-Bench, which measure its ability to work within scaffolds, write and debug code, and resolve multi-turn requests from start to finish.\nReliable Tool Use. The model handles a wide range of function calls, invoking tools with precise schemas throughout extended workflows.\nMulti-Step Reasoning. Muse\u00a0Glimmer chains reasoning over long horizons, sustaining coherent plans across complex, extended workflows. [...]\n\n\nHere's a pelican which I generated using LM Studio's 18.16 GB version of the model:\n\nI also tried it out with my llm-coding-agent plugin, running against a fresh checkout of Datasette with the prompt:\n\nhow does auth work?\n\nHere's the response, at the end of a long transcript showing all of the tool calls it made to explore the codebase. I ran this using llm-lmstudio with this patch applied to upgrade it for compatibility with LLM 0.32.\nI really like this size of model, because if a machine has 32 GB of RAM or more (mine has 128GB) it leaves plenty of space for running other applications at the same time.\nGlimmer is a vision model, so I asked it to describe this image:\nllm -m lmstudio/meta/muse-glimmer -a https://static.inaturalist.org/photos/714731804/large.jpg 'describe image'\n\nHere's what I got back:\n\nThe photograph shows a rocky, breakwater-style shoreline on an overcast day with a smooth, gray body of water and a faint dock/pier line in the soft-focused background.\nIn the foreground two large brown pelicans, Pelecanus occidentalis, are perched on the jumbled gray-white stones. They have the species\u2019 characteristic long, down-curved yellow-orange bills with a large throat pouch, long slender necks and mottled brown-gray plumage on the back and wings. The pelican on the left is turned slightly toward the camera and appears to be preening or resting its bill against its chest; a pale, whitish patch is visible on the crown and nape and a small crest of feathers is raised. The pelican on the right faces mostly forward/right, its head up, bill pointing down and to the right, with the same pale head markings and the barred, darker wing feathers clearly visible.\nScattered among the rocks around the two pelicans are several much smaller dark birds \u2014 gulls/tern-like birds in muted brown-gray plumage. One dark bird sits on the far left on a rock, another brownish bird stands to the right of the right-hand pelican, a grayish bird with a reddish bill is in the lower right foreground, and a further small dark bird is at the extreme right edge of the frame. \nThe overall light is flat and diffused, giving the water and sky a muted, almost monochromatic palette that contrasts with the textured rock and the detailed feathering of the pelicans. The composition places the two big birds as the dominant subjects, framed against the calm water and the low, rocky perch.\n\n\n    Via Hacker News\n\n\n    Tags: ai, generative-ai, llama, local-llms, llms, llm, vision-llms, meta, pelican-riding-a-bicycle, llm-release"
+    },
+    {
+      "title": "As AI eats the web, the internet\u2019s collective memory is disappearing",
+      "url": "https://thewalrus.ca/google-search-is-dying/",
+      "source": "Hacker News",
+      "published": "2026-08-10T22:36:30+00:00",
+      "summary_raw": "",
+      "points": 362,
+      "num_comments": 413,
+      "hn_url": "https://news.ycombinator.com/item?id=49250836"
+    },
+    {
+      "title": "Show HN: AI Pulse a fake LED strip beside the macOS Dock that shows agent status",
+      "url": "https://github.com/leog/ai-pulse",
+      "source": "Hacker News",
+      "published": "2026-08-10T22:07:41+00:00",
+      "summary_raw": "Hi HN!<p>I run a few Claude Code sessions in parallel and kept cmd-tabbing around just to find out one of them had been sitting on a permission prompt for ten minutes. There&#x27;s a hardware gadget I liked (called SidePulse.io) so before waiting to get my shipment I built the software version instead :D<p>I hope you like it and find it useful as I do!",
+      "points": 16,
+      "num_comments": 4,
+      "hn_url": "https://news.ycombinator.com/item?id=49250486"
+    },
+    {
+      "title": "How Claude marks AI-generated content",
+      "url": "https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content",
+      "source": "Hacker News",
+      "published": "2026-08-10T21:36:56+00:00",
+      "summary_raw": "",
+      "points": 204,
+      "num_comments": 163,
+      "hn_url": "https://news.ycombinator.com/item?id=49250109"
+    },
+    {
+      "title": "Font looks perfectly normal to humans but wreaks havoc on AI",
+      "url": "https://www.fastcompany.com/91585494/this-font-looks-perfectly-normal-to-humans-but-confuses-ai",
+      "source": "Hacker News",
+      "published": "2026-08-10T21:02:09+00:00",
+      "summary_raw": "",
+      "points": 16,
+      "num_comments": 3,
+      "hn_url": "https://news.ycombinator.com/item?id=49249687"
+    },
+    {
+      "title": "I'm not anti-AI, but I have QUALLMS",
+      "url": "https://cholling.com/posts/quallms/",
+      "source": "Hacker News",
+      "published": "2026-08-10T20:11:14+00:00",
+      "summary_raw": "",
+      "points": 10,
+      "num_comments": 2,
+      "hn_url": "https://news.ycombinator.com/item?id=49249037"
+    },
+    {
+      "title": "Tech leaders say AI means less work; staff say they work up to 90 hours a week",
+      "url": "https://www.bbc.com/news/articles/cvgx4yd1gl2o",
+      "source": "Hacker News",
+      "published": "2026-08-10T19:32:46+00:00",
+      "summary_raw": "",
+      "points": 16,
+      "num_comments": 3,
+      "hn_url": "https://news.ycombinator.com/item?id=49248572"
+    },
+    {
+      "title": "Nvidia is pulling Wall Street into the AI buildout",
+      "url": "https://thenextweb.com/news/nvidia-500-billion-wall-street-ai-infrastructure-funding-package",
+      "source": "Hacker News",
+      "published": "2026-08-10T19:25:07+00:00",
+      "summary_raw": "",
+      "points": 18,
+      "num_comments": 5,
+      "hn_url": "https://news.ycombinator.com/item?id=49248477"
+    },
+    {
+      "title": "Beyond Naturalness: Probing Automated Text-To-Speech Evaluators on Linguistically Grounded Dimensions",
+      "url": "https://arxiv.org/abs/2608.09930v1",
+      "source": "arXiv",
+      "published": "2026-08-10T17:59:51+00:00",
+      "summary_raw": "Automated Text-to-Speech (TTS) evaluation methods (Mean Opinion Score (MOS) predictors and Audio Large Language Models (Audio-LLM) judges) are expected to reflect human perception, yet it is unclear how well they capture the distinct aspects of speech that listeners actually perceive. We deconstruct \"naturalness\" into a linguistically grounded annotation schema spanning 10 distinct perceptual dimensions, and use it to construct the first dimension-level meta-evaluation benchmark for TTS, comprising 860 utterances annotated by trained linguist raters. Results from benchmarking four MOS predictors and four Audio-LLM judges reveal that MOS predictors collapse onto acoustic signal quality, while Audio-LLM judges show selective, prompt-dependent detection that does not generalise across all dimensions. Neither class reliably captures a breadth of linguistically structured speech errors. Our dataset, annotation schema, and evaluation code are publicly released to support more targeted and interpretable TTS evaluation."
+    },
+    {
+      "title": "Multimodal Model Diffing for Feature Discovery and Control",
+      "url": "https://arxiv.org/abs/2608.09928v1",
+      "source": "arXiv",
+      "published": "2026-08-10T17:59:30+00:00",
+      "summary_raw": "Multimodal Large Language Models (MLLMs) exhibit strong visual understanding, yet the internal features that cause these behaviors remain difficult to identify, audit, or control. While applicable to post-hoc inspection, hidden states that are decomposed into interpretable feature directions using sparse autoencoders (SAEs) neither readily isolate which features are changed by multimodal training, nor are they directly useful for targeted control. We introduce MMDiff, a multimodal model-diffing framework that trains multimodal SAEs and turns them into feature-level interfaces for discovering and controlling multimodal behavior. MMDiff supports three uses: (i) feature isolation, by diffing a base-LM SAE against its multimodal-adapted counterpart to identify features altered by multimodal training; (ii) task-specific feature detection, via per-token contrastive firing analysis that isolates causal features; and (iii) feature-level control, by causally removing or steering the discovered feature directions. We train multimodal SAEs for three MLLM families, LLaVA-MORE, PaliGemma 2, and InternVL3.5, and evaluate on visual-spatial understanding, multimodal safety, and OCR. MMDiff discovers sparse, causally specific features whose removal selectively degrades target behaviors by an average of 12% on spatial tasks and 17% on OCR, and reduces attack success rate by 24% on multimodal safety attacks, with no impact on VQA performance. Steering these features improves spatial and OCR accuracy by +3.6% and +1.8% on average over a standard single-layer steering baseline. These results show that multimodal SAEs can serve not only as interpretability tools, but as mechanisms for auditing, steering, and controlling MLLMs behavior toward safer and more capable generations."
+    },
+    {
+      "title": "From Values to Benchmarks: Evaluating Large Language Models for Governmental Use in Dutch",
+      "url": "https://arxiv.org/abs/2608.09925v1",
+      "source": "arXiv",
+      "published": "2026-08-10T17:59:05+00:00",
+      "summary_raw": "Large language models are increasingly being deployed in governmental settings, yet few existing evaluation frameworks jointly reflect the values of public administration and the linguistic requirements of non-English contexts. We present the \"Grip on LLMs\" framework, a systematic evaluation suite for Dutch governmental use developed in collaboration with domain experts from a major Dutch municipal organisation. Through an advisory board process, user research, and a survey of the users of a civil-servant chatbot, we identify six evaluation dimensions (factuality, honesty, social bias, energy consumption, cost, and training data transparency) and operationalise them into a benchmark suite covering more than 30 multilingual and Dutch-specific models. Our results reveal that no single model excels across all dimensions, and that trade-offs are unavoidable: higher quality consistently comes at greater environmental impact and financial cost, while bias remains largely independent of both. We further find that factuality (whether a model answers correctly) and honesty (whether a model acknowledges what it does not know) are governed by distinct properties, with high factuality not implying high honesty. To make these findings actionable for non-technical audiences, we release a publicly accessible, user-friendly model overview designed for the full range of stakeholders involved in governmental LLM selection, from engineers to policymakers."
+    },
+    {
+      "title": "GENCO - A Unified Neural Solver Embedded in a Development Framework for Steady-State Grid Analysis",
+      "url": "https://arxiv.org/abs/2608.09921v1",
+      "source": "arXiv",
+      "published": "2026-08-10T17:57:49+00:00",
+      "summary_raw": "Foundation models are transforming business workflows and boosting productivity, yet they remain largely absent from engineering domains such as power system analysis, where strict physical consistency must be enforced. We present GENCO (GEometric Neural Corrective Optimizer), a unified neural solver for steady-state transmission grid analysis that handles power flow (PF), optimal power flow (OPF), and state estimation (SE) within a single architecture and shared network representation. To support advances in neural power system solvers, we introduce the open-source GridFM Development Framework, which standardizes synthetic data generation and training in a low-code environment. We also release large-scale datasets with millions of PF and OPF scenarios across diverse grid topologies to support reproducible benchmarking. We evaluate GENCO on the PFDelta and OPFData benchmarks against state-of-the-art neural solvers and classical solvers, including Newton-Raphson and IPOPT, as well as on real-world Hydro-Qu\u00e9bec SCADA data. For large-scale PF, GENCO recovers the full AC operating state, including voltage magnitudes and reactive power that DC-PF cannot provide, while matching DC-PF-level active power-balance residuals. It achieves up to 30x speedups over Newton-Raphson at only 2x the runtime of DC-PF. For OPF, it achieves up to 85x speedups over IPOPT while improving feasibility, optimality, and runtime over DC-OPF. For SE, GENCO is more robust than classical weighted least squares to noisy measurements and network parameter errors, and always returns a high-quality estimate even when weighted least squares fails to converge. Together, the unified architecture and development framework provide a new approach to large-scale steady-state grid analysis, lowering the barrier to entry for power system engineers and marking a step toward Grid Foundation Models."
+    },
+    {
+      "title": "DSLE: A Learning Environment for Dark Souls Boss Encounters",
+      "url": "https://arxiv.org/abs/2608.09902v1",
+      "source": "arXiv",
+      "published": "2026-08-10T17:48:45+00:00",
+      "summary_raw": "We introduce the Dark Souls Learning Environment (DSLE), a containerized platform that presents all 22 boss encounters of Dark Souls: Remastered as game-playing agent benchmarks through a Gymnasium-style interface. DSLE combines real-time combat, high-dimensional visual input, and sparse terminal rewards, with each environment step being a real action executed against the running game. To support controlled comparison, we define DSLE-5, a representative five-boss subset, spanning a melee fight, a spatially constrained arena, an environmental-hazard fight, a multi-target fight, and a fast final-boss fight, that we recommend as the starting suite for agents built on DSLE. On DSLE-5 we evaluate a random policy, an expert system, an evolutionary baseline, and PPO and DQN agents trained from visual input. The expert system and the evolutionary baseline each defeat the Asylum Demon, the game's tutorial boss (63% and 43% peak win rates), but none of the five methods defeats the other four DSLE-5 bosses; PPO and DQN show no measurable learning (at most 0.33% win rate on the tutorial boss, 0% elsewhere) within a budget that already costs tens of wall-clock hours per run. A broader study running the evolutionary baseline across all 22 encounters under advantaged all level-50 stats yields wins on only a handful of additional early-game bosses and leaves the rest unwon. The failure cases range from sub-10-second deaths in cramped, multi-target encounters to minute-long stalemates that inflict almost no damage, and we report them through survival time and damage dealt rather than win rate alone."
+    },
+    {
+      "title": "Decoding-Level Taboo: A Diagnostic Stress Test for LLM Robustness",
+      "url": "https://arxiv.org/abs/2608.09900v1",
+      "source": "arXiv",
+      "published": "2026-08-10T17:47:24+00:00",
+      "summary_raw": "Large language model evaluations typically focus on performance under nominal conditions, creating an illusion of capability where models comfortably walk a narrow, highly optimized generation corridor. In real-world deployments, however, complex system prompts, safety guardrails, and structural constraints continuously force models off this nominal path, driving a divergence between benchmark scores and deployment performance. To address this issue, we introduce Decoding-Level Taboo, a zero-prompt diagnostic stress test that intervenes directly in logit space at runtime, forcing models out of their nominal paths. By dynamically masking primary candidate tokens at word boundaries, Taboo forces machine circumlocution. Evaluating Taboo across several open-weight model families reveals that off-path robustness is heavily influenced by both parameter scale and post-training instruction alignment, with robustness generally improving with model size and alignment. Beyond the results presented in this paper, Taboo provides a novel primitive for generating diverse synthetic datasets, stress-testing runtime safety guardrails, and auditing model reliability prior to real-world deployment."
+    },
+    {
+      "title": "Fairness in Link Prediction Beyond Demographic Parity: A Reproducibility Study",
+      "url": "https://arxiv.org/abs/2608.09899v1",
+      "source": "arXiv",
+      "published": "2026-08-10T17:47:19+00:00",
+      "summary_raw": "In fair ranked link prediction, demographic parity ($\u0394_\\mathrm{DP}$) is a common fairness metric. Yet, Mattos et al. (2025) argue that it fails to detect exposure bias because it ignores where links appear in the ranking. In this study, we reproduce this claim by showing that $\u0394_\\mathrm{DP}$ can indicate aggregate parity even when some subgroup-pair links are systematically ranked lower than others. The proposed rank-aware Normalized Discounted KL-divergence (NDKL), however, does detect such disparities. We also reproduce the effectiveness of MORAL, a post-processing method that improves exposure-based fairness while maintaining competitive utility. Beyond reproduction, we assess robustness using synthetic homophily settings, categorical sensitive attributes, and additional fairness and utility metrics, including subgroup-pair-adapted Attention-Weighted Rank Fairness (AWRF). Overall, our results show that exposure-based metrics uncover biases hidden by $\u0394_\\mathrm{DP}$ and that MORAL reduces these biases with minimal utility loss across diverse settings and datasets. We release a corrected, reproducible implementation at https://github.com/Floris93100/reproducing-MORAL."
+    },
+    {
+      "title": "Consilience for Verifier-Free Test-Time Scaling",
+      "url": "https://arxiv.org/abs/2608.09898v1",
+      "source": "arXiv",
+      "published": "2026-08-10T17:45:44+00:00",
+      "summary_raw": "Test-time scaling often uses an external verifier, such as compilers and test cases in coding or trained value functions in robotics applications, to obtain high-quality rollouts. Verifier-free test-time scaling (or VF-TTS) is gaining extensive attention as a mechanism to enhance Large Language Model (LLM) reasoning, primarily because we do not have access to such high-quality verifiers in many real-world applications. Among existing VF-TTS methods, confidence-based VF-TTS methods, which compute and rank rollouts solely by confidence, are particularly promising. Such methods introduce near-zero overhead for sample evaluation and require minimal access to internal model states, making the methods highly flexible across models and tasks. In this paper, we demonstrate a critical limitation of existing confidence-based VF-TTS methods by showing that such methods catastrophically break down on complex tasks. We observe a very interesting phenomenon: uniformly high confidence frequently indicates a failure to explore, favoring confidently wrong answers. To address this, our core insight is that robust cognitive search requires a specific confidence trajectory pattern: such methods perform exploratory branching at the beginning, as manifested by low initial confidence, and converge to a high final confidence solution. To implement this insight, we introduce consilience, a novel selection framework that explicitly evaluates the temporal asymmetry of confidence in reasoning. We operationalize this via a combinatorial metric that actively penalizes high initial confidence while strictly demanding final certainty. Extensive experiments covering both graduate-level mathematics problems and free-form code generation demonstrate that consilience effectively outperforms existing baselines, validating our novel perspective on completion confidence."
+    },
+    {
+      "title": "Bernie Sanders Writes Letter to Sam Altman, Dario Amodei and Mark Zuckerberg [pdf]",
+      "url": "https://www.sanders.senate.gov/wp-content/uploads/AI-Pause-Letter-FINAL.pdf",
+      "source": "Hacker News",
+      "published": "2026-08-10T17:42:22+00:00",
+      "summary_raw": "",
+      "points": 16,
+      "num_comments": 2,
+      "hn_url": "https://news.ycombinator.com/item?id=49247088"
+    },
+    {
+      "title": "Fusion Training for Mathematical Generalization in Large Language Models",
+      "url": "https://arxiv.org/abs/2608.09893v1",
+      "source": "arXiv",
+      "published": "2026-08-10T17:41:19+00:00",
+      "summary_raw": "Thinking Mode Fusion (TMF) enables large language models to support both concise responses and long-form reasoning by unifying a non-thinking mode and a thinking mode within a single model. However, its training dynamics, including the \\emph{data ratio} and \\emph{training schedule} between the two modes, remain underexplored. In this work, we present a systematic study of TMF by analyzing the effects of the training schedule and data ratio between thinking and non-thinking modes. Focusing on mathematical problem solving, we construct a benchmark with multiple thinking-to-non-thinking data ratios and three training schedules. Our results reveal an asymmetric interaction between the two modes: increasing the ratio of non-thinking supervision reduces the accuracy of the thinking mode. We further show that different training schedules modulate this trade-off and that the optimal schedule depends on the data ratio. Finally, we quantify a negative correlation between non-thinking and thinking mode supervision, highlighting an inherent tension between these two modes. These findings provide practical guidance for designing effective TMF training settings. All code and data are released to support further research at: \\href{https://github.com/caocongfeng/Fusion-Bench.git}{\\textbf{Fusion Bench}}."
+    },
+    {
+      "title": "BDH-CQ: In-Context Learning with Recurrent Latent Reasoning",
+      "url": "https://arxiv.org/abs/2608.09888v1",
+      "source": "arXiv",
+      "published": "2026-08-10T17:39:16+00:00",
+      "summary_raw": "We introduce BDH-CQ, a reasoning model that combines in-context learning with recurrent latent reasoning. Inputs presented at inference time continuously update the model's recurrent memory; the model then solves a query through iterative computation in a high-dimensional latent space, without verbalizing its intermediate reasoning. We evaluate the model on the public ARC-AGI-1 evaluation set and use controlled ARC-like interventions to study what it learns from demonstrations, how consistently it applies an inferred transformation, and which concepts remain difficult. A 150M-parameter configuration reaches 29.5% pass@2 at a computed inference cost of \\$0.0007 per task. This operating point breaks through the previously reported ARC-AGI-1 cost-accuracy Pareto frontier, establishing a new state of the art in benchmark cost efficiency."
+    },
+    {
+      "title": "Space-Creating versus Dead Possession: An Off-Ball Possession-Quality Index for Broadcast Football",
+      "url": "https://arxiv.org/abs/2608.09887v1",
+      "source": "arXiv",
+      "published": "2026-08-10T17:39:05+00:00",
+      "summary_raw": "Ball possession is the most-cited and most-misleading number in football: 60% recycled in one's own half is not 60% spent pinning the opponent back. Existing event-based possession-value frameworks (expected threat, VAEP, on-ball value) price on-ball actions but ignore the off-ball question a sterile possession poses: did holding the ball create space, or was the circulation dead? We answer this in two layers. First, an event-side junk-possession index prices each possession sequence by its peak threat gain under an expected-threat grid and -- after reconstructing the live scoreline to exclude lead-protecting circulation -- flags low-threat sequences in tied-or-losing states. On the 2026 FIFA World Cup (103 matches, 206 team-matches) the flag correlates negatively with points (r=-0.37) and xG difference (r=-0.51, partly index-coupled). It is not a repackaging of on-ball value: with team offensive VAEP and field tilt held fixed, the junk flag stays strongly negatively associated with points (p<0.0001, also match-clustered) while VAEP is not significant -- in this same-match (descriptive) regression it adds information beyond this on-ball action-value model. Second, for a flagged window we resolve whether it was spatially dead or space-creating by projecting broadcast video to pitch coordinates and measuring a Space-Creation Index (SCI): a net pitch-control change capturing whether the possession seized space or pushed the opponent's block back. Across 31 of 35 flagged windows from nine World Cup matches (a purposive sample), 74% are spatially non-space-creating, 19% weak progression, and 6% space-creating windows the event flag alone would score as failure -- including a side with 73% of the ball that exited on penalties (two non-creating windows). The two layers separate space-creating-but-unconverted from sterile possession, a distinction event-only on-ball value cannot make."
+    },
+    {
+      "title": "AI Boot Camps Surge as Workers Race to Learn New Skills",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-08/ai-training-boom-sends-colleges-racing-to-offer-credentials",
+      "source": "Hacker News",
+      "published": "2026-08-10T17:36:16+00:00",
+      "summary_raw": "",
+      "points": 12,
+      "num_comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=49246993"
+    }
+  ]
+}
