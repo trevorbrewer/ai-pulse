@@ -1,0 +1,223 @@
+{
+  "date": "2026-08-13",
+  "generated_at": "2026-08-13T11:42:18.588388+00:00",
+  "source_counts": {
+    "rss_feeds": 3,
+    "arxiv": 50,
+    "hackernews": 24,
+    "nitter": 3,
+    "total_raw": 80,
+    "total_deduped": 80,
+    "total_saved": 25
+  },
+  "items": [
+    {
+      "title": "If I own Claude's outputs why can't I train my own model on them?",
+      "url": "https://support.claude.com/en/articles/12326764-can-i-use-my-outputs-to-train-an-ai-model",
+      "source": "Hacker News",
+      "published": "2026-08-13T09:34:13+00:00",
+      "summary_raw": "",
+      "points": 69,
+      "num_comments": 62,
+      "hn_url": "https://news.ycombinator.com/item?id=49283563"
+    },
+    {
+      "title": "RT by @ylecun: JEPA is one of the hottest buzzwords in machine learning right now.\n\nAre you still unsure what that means for video models?\n\nThen I've got you covered!\ud83d\ude0c\n\nIn this week's post, we examine the shift in video self-supervised learning from pixel-space to latent-space modeling.",
+      "url": "https://twitter.com/ylecun/status/2087778305407959178",
+      "source": "Twitter/@ylecun",
+      "published": "2026-08-13T05:48:31+00:00",
+      "summary_raw": "JEPA is one of the hottest buzzwords in machine learning right now.\n\nAre you still unsure what that means for video models?\n\nThen I've got you covered!\ud83d\ude0c\n\nIn this week's post, we examine the shift in video self-supervised learning from pixel-space to latent-space modeling.",
+      "person": "Yann LeCun"
+    },
+    {
+      "title": "When Will AI Take My Job?",
+      "url": "https://www.whenwillaitakemyjob.ai/",
+      "source": "Hacker News",
+      "published": "2026-08-13T02:47:22+00:00",
+      "summary_raw": "",
+      "points": 15,
+      "num_comments": 9,
+      "hn_url": "https://news.ycombinator.com/item?id=49281247"
+    },
+    {
+      "title": "Why your Amazon order confirmation emails have become so unhelpfu",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/977733/amazon-order-emails-google-gmail-ai-agents-data",
+      "source": "Hacker News",
+      "published": "2026-08-13T02:46:32+00:00",
+      "summary_raw": "",
+      "points": 10,
+      "num_comments": 3,
+      "hn_url": "https://news.ycombinator.com/item?id=49281241"
+    },
+    {
+      "title": "Anthropic in Talks to Buy World Model AI Startup Decart for $6B",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-13/anthropic-said-in-talks-to-buy-ai-startup-decart-for-6-billion",
+      "source": "Hacker News",
+      "published": "2026-08-13T01:50:27+00:00",
+      "summary_raw": "",
+      "points": 32,
+      "num_comments": 4,
+      "hn_url": "https://news.ycombinator.com/item?id=49280945"
+    },
+    {
+      "title": "Video game lawyer says all her clients have anti-AI contracts",
+      "url": "https://www.gamesradar.com/games/echoing-palworld-dev-video-game-lawyer-says-all-her-clients-have-anti-ai-contracts-because-gamers-hate-it-and-its-a-copyright-landmine-i-think-were-going-to-see-lawsuits/",
+      "source": "Hacker News",
+      "published": "2026-08-13T01:47:38+00:00",
+      "summary_raw": "",
+      "points": 30,
+      "num_comments": 16,
+      "hn_url": "https://news.ycombinator.com/item?id=49280926"
+    },
+    {
+      "title": "DeepSeek V4 Pro 0813 (on OpenRouter)",
+      "url": "https://simonwillison.net/2026/Aug/12/deepseek-v4-pro-0813/",
+      "source": "Simon Willison",
+      "published": "2026-08-12T23:59:23+00:00",
+      "summary_raw": "DeepSeek V4 Pro 0813 (on OpenRouter)\nThe latest DeepSeek Pro model is now available, via API only. I had to link to OpenRouter because DeepSeek don't have any obvious announcement page for their new model.\nI haven't been able to confirm if they plan to release the open weights, but given the weights are available for both April's deepseek-ai/DeepSeek-V4-Pro and July's deepseek-ai/DeepSeek-V4-Flash-0731 it seems likely.\nInterestingly I got very different looking pelicans for the three different reasoning levels of low, medium, and high. I've not noticed this kind of difference from any other model:\nLow:\n\nMedium:\n\nHigh:\n\nIn terms of benchmarks... as far as I can tell those were released to the Official DeepSeek WeChat Group, then copied and pasted into a post on Reddit which was deleted by the moderators for being \"low-effort\", then copied into this ASCII-art table on Hacker News.\n\n\n    Tags: ai, generative-ai, llms, pelican-riding-a-bicycle, deepseek, llm-release, ai-in-china"
+    },
+    {
+      "title": "Why space is a terrible place to cool a data center",
+      "url": "https://thenewstack.io/spacex-and-nvidias-orbital-ai-datacenter-fantasy/",
+      "source": "Hacker News",
+      "published": "2026-08-12T23:08:21+00:00",
+      "summary_raw": "",
+      "points": 14,
+      "num_comments": 2,
+      "hn_url": "https://news.ycombinator.com/item?id=49279812"
+    },
+    {
+      "title": "Show HN: Decant \u2013 Understand how you spend tokens",
+      "url": "https://github.com/dosu-ai/decant",
+      "source": "Hacker News",
+      "published": "2026-08-12T21:56:21+00:00",
+      "summary_raw": "Hey HN - there are lots of tools to understand how many tokens you use and how much it costs, but we haven&#x27;t found any that tell you where those tokens are going!<p>Decant helps you understand what you are spending tokens on (context gathering, planning, code, chat, etc), so you can optimize it.",
+      "points": 10,
+      "num_comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=49279140"
+    },
+    {
+      "title": "alchemy-utils 0.1a0",
+      "url": "https://simonwillison.net/2026/Aug/12/alchemy-utils/",
+      "source": "Simon Willison",
+      "published": "2026-08-12T19:51:30+00:00",
+      "summary_raw": "Release: alchemy-utils 0.1a0\n        I've long pondered what a database agnostic version of my sqlite-utils Python library and CLI utility might look like. This morning (literally a shower project) I tasked Codex and GPT-5.6 Sol Ultra with building a prototype:\n\nDo a research spike to see what it would take to build a library with the same core API as SQLite-utils - in particular the insert and upsert and insert_all and upsert_all and create and update methods, and the table introspection stuff - but backed by SQLalchemy so it works for multiple database engines\nTest against PostgreSQL and SQLite and duckdb\nUse ~/dev/sqlite-utils for reference\nCreate a git repo for this and commit and early and often - use uv init to start the project - use red/green TDD and pytest, see ~/dev/django-sql-dashboard for one idea as to how the PostgreSQL tests could work\n\nIt took very few follow-up prompts to produce this project in a state good enough to release as an alpha.\nHere's a one-liner I can use to list the rows in a table in my local PostgreSQL copy of my blog's database:\nuvx --with 'alchemy-utils[postgresql]' alchemy-utils rows 'postgresql+psycopg://simon@localhost:5432/simonwillisonblog'  redirects_redirect\nThe output from that starts like this:\n[\n  {\n    \"id\": 2328,\n    \"domain\": \"simonwillison.net\",\n    \"path\": \"2020/May/21/apple-photos-sqlite/\",\n    \"target\": \"/2020/May/21/dogsheep-photos/\",\n    \"created\": \"2020-05-21T13:03:46.591692-07:00\"\n  },\n  {\n    \"id\": 3,\n    \"domain\": \"feeds.simonwillison.net\",\n    \"path\": \"swn-links\",\n    \"target\": \"https://simonwillison.net/atom/links/\",\n    \"created\": \"2017-10-01T14:12:54.820729-07:00\"\n  }\n\nOr if you'd like a DuckDB database with every tree in San Francisco, schema created automatically to match the file:\ncurl 'https://raw.githubusercontent.com/simonw/sf-tree-history/refs/heads/main/Street_Tree_List.csv' | uvx --with 'alchemy-utils[duckdb]' alchemy-utils insert 'duckdb:////tmp/trees.db' trees - --csv\n(That one took nearly an hour the first time I ran it, so I had Codex optimize it and got it down to around 35 seconds.)\n    \n    \n        Tags: databases, postgresql, projects, python, sql, sqlalchemy, sqlite, sqlite-utils, duckdb, coding-agents, codex"
+    },
+    {
+      "title": "RT by @ylecun: After the pandemic, real wages grew strongly across the board \u2014 and pay rose faster at the bottom and middle than at the top, by the widest margin on record.\n\nUnder Trump, real wage growth has cratered, and the lowest-paid have fallen furthest behind.",
+      "url": "https://twitter.com/ylecun/status/2087621260628906429",
+      "source": "Twitter/@ylecun",
+      "published": "2026-08-12T19:24:29+00:00",
+      "summary_raw": "After the pandemic, real wages grew strongly across the board \u2014 and pay rose faster at the bottom and middle than at the top, by the widest margin on record.\n\nUnder Trump, real wage growth has cratered, and the lowest-paid have fallen furthest behind.",
+      "person": "Yann LeCun"
+    },
+    {
+      "title": "RT by @ylecun: I can't blame regular, every day folks from being scared or angry about AI.\n\nToo many AI execs were out there shouting about how AI would take all the jobs, eat your children, and kill your puppies.\n\nIf I heard that as I regular person, I'd go, \"Uh, WTF? No way, we don't want that! How do we stop that?\"\n\nThere are also actual lunatics whose job it is to scare them. They get paid to write books and go on podcasts and the news and talk crazy town about AI killing us all and how only mass authoritarianism can save them.\n\nIn any other time before social media they would be confined to the lunatic fringe. But today, any crazy train can get 1M followers.\n\nUnfortunately, what regular people are worried about with AI is not grounded in reality. They've been terrified by scary bedtime stories by highly neurodivergent folks who read too much sci-fi and thought it was a documentary or who are just hallucinating like Tim Leary on a bad bender that they're rational when they're totally irrational.\n\nLet's be clear, there are real fears about AI. But they're not the ones anyone is talking about. They are:\n\nMass surveillance and war. \n\nNot one thing is being done about either and it will not be because government will always reserve the right to do both and will never restrict themselves on either front. Full stop.\n\nOr how about, privacy?\n\nNothing being done about it. \n\nTalk to your AI about your pending divorce and watch it show up in court. We are going in the opposite direction and people are cheering it on like it's a good thing.\n\nWhen you see the complaints about AI, they make no sense because they make no sense at the surface level. They are nonsense arguments but you can't understand those arguments based on the content of the argument. You have to understand that it is a deeper fear that is rising from the well and the person has no context or compass to express it clearly and rationality so they come up with something, anything, to express that fear, even if it makes no sense.\n\nIn essence, all they are saying is: \"I'm scared and I don't like this.\"\n\nThe actual complaints are not tethered to reality. But they are real emotions.\n\nAnd that fear was created by an astroturfed info war campaign, deeper fears about powerful people and big business and the very things people in the industry said coming back to haunt them like chickens coming home to roost.\n\nIt's irrational. But it makes sense. It's understandable.\n\nWe've got to do much better as an industry and show people a powerful and positive future.\n\nNobody riots against a future they can see themselves in. \n\nWe've got to show them a better one.",
+      "url": "https://twitter.com/ylecun/status/2087613090955198712",
+      "source": "Twitter/@ylecun",
+      "published": "2026-08-12T18:52:01+00:00",
+      "summary_raw": "I can't blame regular, every day folks from being scared or angry about AI.\n\nToo many AI execs were out there shouting about how AI would take all the jobs, eat your children, and kill your puppies.\n\nIf I heard that as I regular person, I'd go, \"Uh, WTF? No way, we don't want that! How do we stop that?\"\n\nThere are also actual lunatics whose job it is to scare them. They get paid to write books and go on podcasts and the news and talk crazy town about AI killing us all and how only mass authoritarianism can save them.\n\nIn any other time before social media they would be confined to the lunatic fringe. But today, any crazy train can get 1M followers.\n\nUnfortunately, what regular people are worried about with AI is not grounded in reality. They've been terrified by scary bedtime stories by highly neurodivergent folks who read too much sci-fi and thought it was a documentary or who are just hallucinating like Tim Leary on a bad bender that they're rational when they're totally irrational.\n\nLet's be clear, there are real fears about AI. But they're not the ones anyone is talking about. They are:\n\nMass surveillance and war. \n\nNot one thing is being done about either and it will not be because government will always reserve the right to do both and will never restrict themselves on either front. Full stop.\n\nOr how about, privacy?\n\nNothing being done about it. \n\nTalk to your AI about your pending divorce and watch it show up in court. We are going in the opposite direction and people are cheering it on like it's a good thing.\n\nWhen you see the complaints about AI, they make no sense because they make no sense at the surface level. They are nonsense arguments but you can't understand those arguments based on the content of the argument. You have to understand that it is a deeper fear that is rising from the well and the person has no context or compass to express it clearly and rationality so they come up with something, anything, to express that fear, even if it makes no sense.\n\nIn essence, all they are saying is: \"I'm scared and I don't like this.\"\n\nThe actual complaints are not tethered to reality. But they are real emotions.\n\nAnd that fear was created by an astroturfed info war campaign, deeper fears about powerful people and big business and the very things people in the industry said coming back to haunt them like chickens coming home to roost.\n\nIt's irrational. But it makes sense. It's understandable.\n\nWe've got to do much better as an industry and show people a powerful and positive future.\n\nNobody riots against a future they can see themselves in. \n\nWe've got to show them a better one.",
+      "person": "Yann LeCun"
+    },
+    {
+      "title": "Adults have struggled to set rules for AI in school. These teens figured it out",
+      "url": "https://text.npr.org/nx-s1-5853571",
+      "source": "Hacker News",
+      "published": "2026-08-12T18:21:09+00:00",
+      "summary_raw": "",
+      "points": 12,
+      "num_comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=49276587"
+    },
+    {
+      "title": "I'm Done Using AI",
+      "url": "https://brettcodes.com/im-done-using-ai/",
+      "source": "Hacker News",
+      "published": "2026-08-12T18:19:51+00:00",
+      "summary_raw": "",
+      "points": 10,
+      "num_comments": 3,
+      "hn_url": "https://news.ycombinator.com/item?id=49276573"
+    },
+    {
+      "title": "Twitch Is Mining Peoples' Streams to Train Amazon's AI",
+      "url": "https://www.404media.co/twitch-training-amazon-ai-models-how-to-opt-out-setting/",
+      "source": "Hacker News",
+      "published": "2026-08-12T18:02:18+00:00",
+      "summary_raw": "",
+      "points": 31,
+      "num_comments": 3,
+      "hn_url": "https://news.ycombinator.com/item?id=49276344"
+    },
+    {
+      "title": "AVA-Encoder: Towards Agent-Native Video Representation Learning",
+      "url": "https://arxiv.org/abs/2608.12313v1",
+      "source": "arXiv",
+      "published": "2026-08-12T17:58:02+00:00",
+      "summary_raw": "Creative agents still lack an effective way to learn from high-quality human films, limiting their ability to produce cinematic-grade videos. A key challenge is the absence of a structured video representation that is both faithful to film content and directly usable for agentic reasoning and manipulation. To address the challenge, we propose the Agentic Video Auto-Encoder (AVA-Encoder), a framework for learning agent-native video representations via agentic auto-encoding. AVA-Encoder transforms a video into a knowledge graph (KG) representation and then reconstructs it back into video. Its hierarchy and state nodes store structured text, while a linked asset layer holds generated images, audio, and video. Typed edges preserve the relations between these text descriptions and assets in a form that agents can easily understand, query, and edit. The video reconstruction differences drive a textual-gradient optimization framework, which expresses evaluation feedback as natural-language update directions for Data-Independent Encoding Policy Pseudo-Training in the outer loop and optional Data-Dependent KG Representation Refinement in the test-time inner loop. Extensive experiments show that AVA-Encoder improves by 20.7 percentage points over the strongest external baseline. In the controlled policy-only setting, its pseudo-trained shot-level Agentic Video Encoder policy also outperforms a carefully human-tuned policy while using 74.3% fewer system-prompt tokens. We release the complete AVA-Encoder framework, a reliable agentic video reconstruction benchmark, and the first dataset of high-quality film KG representations."
+    },
+    {
+      "title": "DreamFly: Causal Memory and Receding-Horizon Diffusion Planning for Aerial Vision-Language Navigation",
+      "url": "https://arxiv.org/abs/2608.12308v1",
+      "source": "arXiv",
+      "published": "2026-08-12T17:54:33+00:00",
+      "summary_raw": "Aerial vision-language navigation (VLN) requires an embodied agent to integrate visual evidence over time, plan future actions, and determine when it has reached a navigation goal under partial observability. Although recent VLA models offer a promising perception-to-action paradigm, adapting them to aerial navigation remains challenging due to limited historical context, short planning horizons, and unreliable implicit termination. To address these challenges, we propose DreamFly, a diffusion-based aerial VLN framework built on Dream-VLA. DreamFly introduces a causally aligned historical memory that augments the current visual representation using only observations preceding the current decision step, enabling temporal reasoning without future information leakage. We further formulate navigation as receding-horizon diffusion planning, where the policy predicts a $K$-step action chunk but executes only the first action before replanning. This plan-$K$, execute-one strategy uses future actions as auxiliary planning targets while preserving closed-loop visual feedback. Finally, LiteStop estimates the stop probability directly from action logits at the initial all-mask state, decoupling explicit termination from action generation. Experiments on the OpenFly benchmark demonstrate consistent improvements in seen and unseen environments. DreamFly achieves 32.04%/29.46% SR and 28.22%/23.54% SPL on the test-seen/test-unseen splits, respectively, outperforming all compared methods on both metrics while attaining the lowest navigation error. These results demonstrate the effectiveness of jointly modeling historical context, future action structure, and explicit termination for aerial VLN."
+    },
+    {
+      "title": "AI4AI at Test-Time: Strong-to-Weak Capability Transfer via Harnesses",
+      "url": "https://arxiv.org/abs/2608.12307v1",
+      "source": "arXiv",
+      "published": "2026-08-12T17:53:18+00:00",
+      "summary_raw": "Recent work on distillation transfers the capabilities of large models to smaller ones often by updating the latter's parameters, through teacher forcing, on-policy distillation, and related training-time methods. In this paper, we ask whether such transfer can instead occur at test time. We study strong-to-weak scaffolding: whether a stronger builder model can construct inference-time harnesses that help a weaker target model solve tasks more reliably without any parameter updates. Using four representative Theory-of-Mind benchmarks, each builder model uses 5% of the data as a validation set to iteratively refine its harness over multiple rounds, after which the finalized harness is evaluated on the full test set. Empirically, this form of test-time capability transfer is highly effective, nearly doubling average target-model performance from 0.49 to 0.91. Our analysis shows that the gains come primarily from offloading unstable model reasoning into deterministic code, benchmark-specific routing, and strict answer-format enforcement, rather than from encouraging the target model to reason more extensively or sample more broadly. We further find that builder-model reasoning effort improves harness quality monotonically, platform effects are modest relative to the builder model's own capability, and weaker target models receive the largest gains. These results suggest that inference-time harness design is an important complement to conventional training-time distillation, enabling strong models to transfer cognitive structure to weaker models without retraining."
+    },
+    {
+      "title": "Redistribution-based Cost Inference Improves Sparse Safe Offline RL",
+      "url": "https://arxiv.org/abs/2608.12306v1",
+      "source": "arXiv",
+      "published": "2026-08-12T17:53:15+00:00",
+      "summary_raw": "Safe offline RL typically assumes access to dense per-step cost annotations, but in practice supervisors provide only trajectory-level stop-feedback: a binary signal at the first unsafe transition, with no per-step attribution. We frame this as a temporal credit assignment problem and propose the Redistribution-based Cost Inference (RCI) framework, which converts sparse stop-feedback into dense per-step costs via return decomposition, then trains a constrained offline policy on the augmented dataset. We show that return-equivalent redistribution preserves the feasible policy set and the optimal Lagrangian in a CMDP, establishing that the transformation is lossless in theory while yielding better-conditioned cost critic learning in practice. Experiments on highway driving and robotic manipulation demonstrate substantially lower violation rates than sparse and classifier-based baselines, with robustness to heterogeneous dataset compositions and label noise."
+    },
+    {
+      "title": "Constructing Dynamic Master Logic Models as Knowledge Graphs for Complex System Diagnostics Using Retrieval-Augmented Large Language Models",
+      "url": "https://arxiv.org/abs/2608.12304v1",
+      "source": "arXiv",
+      "published": "2026-08-12T17:50:39+00:00",
+      "summary_raw": "Dynamic Master Logic (DML) provides a hierarchical framework for representing system behavior by linking functional objectives to underlying structural elements. However, DML construction typically relies on expert interpretation of technical documentation, limiting scalability for complex systems. This study presents a framework for automated construction of DML models from system descriptions and their representation as Knowledge Graphs (KG-DML), using Retrieval-Augmented Generation and Large Language Models as enabling tools. Building on prior work with small-scale systems, the framework extends automated KG-DML construction and evaluation to substantially larger and more complex systems. Model construction proceeds across the DML hierarchy using targeted retrieval while preserving functional dependencies and explicit logical relationships. The resulting KG-DML supports diagnostic reasoning, safety assessment, upward failure propagation, and downward dependency tracing. A multi-level validation methodology evaluates layer-specific precision and recall, logical gate consistency, and overall structural integrity. Application to the Low-Pressure Coolant Injection system of a decommissioned Boiling Water Reactor demonstrates consistent reconstruction across repeated runs. The results show that automated KG-DML construction can transform technical documentation into executable functional models for diagnostic and reliability analysis."
+    },
+    {
+      "title": "A Framework for Designing Reward Functions: From Objectives to Features to Human-Aligned Reward Functions",
+      "url": "https://arxiv.org/abs/2608.12302v1",
+      "source": "arXiv",
+      "published": "2026-08-12T17:46:00+00:00",
+      "summary_raw": "We present a formal process to enable non-experts to instantiate and iterate on human-aligned reward functions, i.e. reward functions that adhere to a given preference ordering over trajectories. Given a task described in natural language, our process produces a linear reward function in three steps: distill the task's objectives into a set of fundamental objectives and derive measurable outcome variables that capture those fundamental objectives, select a causally representative subset of outcome variables as the reward terms, and fit weights to those reward terms via preference elicitation. Our contributions describe the first step and formalize the latter two steps. The first is a guided workflow for deriving outcome variables. The second is a reduction of reward term selection to minimum-cost partial cover on a causal DAG, solved in polynomial time via max-flow. The third is a geometric framing of weight fitting as a convex feasibility problem iteratively narrowed by preference queries, solved by existing separation oracle methods. To the best of our knowledge, this is the first reward-design method that maintains a deterministically conflict-free feasible weight region, narrowed to a desired tolerance via a separation oracle with O(n log \u03ba) preference queries."
+    },
+    {
+      "title": "Class Activation Mapping in Explainable Computer Vision: A Method-Centered Review of CNN, Transformer, and Foundation-Model-Era Visual Explanations",
+      "url": "https://arxiv.org/abs/2608.12299v1",
+      "source": "arXiv",
+      "published": "2026-08-12T17:45:03+00:00",
+      "summary_raw": "Class activation mapping (CAM) is one of the most widely used visual explanation families in explainable artificial intelligence. Its purpose is intuitive: it converts internal model evidence into a heatmap that highlights the image regions, convolutional channels, tokens, or patches that support a target class or concept. Since the first CAM formulation in 2016, the field has moved far beyond global-average-pooled CNN classifiers. CAM-style methods now include gradient-based post-hoc explanations, gradient-free score and ablation methods, high-resolution upscaling, weakly supervised localization and segmentation, transformer token attribution, causal and debiasing methods, and foundation-model-era approaches that use CLIP, DINO, SAM, or feature-distribution comparisons. This review synthesizes a strict corpus of 57 method-centered papers published from 2016 onward. The paper develops a taxonomy that separates methods by attribution mechanism, architectural dependence, and evaluation objective. It then reviews gradient-based CAMs, recent and hybrid CAM-style methods, and model-based or architecture-aware methods. Across the corpus, the main trend is clear: the field is shifting from explaining one class score in one low-resolution CNN layer toward comparative, multi-layer, probabilistic, token-aware, and foundation-model-aware explanations. At the same time, evaluation remains fragmented. Faithfulness, localization, robustness, computational cost, and human trust are often measured with different protocols. The review therefore emphasizes not only what each method contributes, but also which gap it leaves open and which later methods attempt to close that gap."
+    },
+    {
+      "title": "Beyond Trial-and-Error: Agentic Optimization for Image-to-Video Adherence",
+      "url": "https://arxiv.org/abs/2608.12290v1",
+      "source": "arXiv",
+      "published": "2026-08-12T17:35:16+00:00",
+      "summary_raw": "Modern black-box Image-to-Video (I2V) models offer powerful capabilities in automated content creation, yet their lack of fine-grained control and reliability presents significant challenges in professional workflows. Their inherent stochasticity causes minor variations in textual prompts or hyperparameters to yield drastically different outputs often necessitating inefficient, brute-force trial-and-error processes. To address these limitations, we introduce the ``Agentic Self-Improvement\" framework, which reframes video synthesis into a closed-loop, goal-directed optimization. Our framework systematically navigates the generation parameter space using a novel two-stage approach. In the first stage, an iterative prompt optimization loop uses a multimodal Large Language Model (mLLM) to refine the input prompt. This refinement implements two automated evaluations: Davidsonian Scene Graph (DSG) queries ensure semantic adherence, and Common Mistake Questions (CMQ) for artifact detection. At the second stage, we use Bayesian optimization to efficiently co-optimize stochastic seeds and CFG scales. This search is guided by a suite of quality metrics, including the novel Video-Text Adherence (VTA) score derived from the DSG and CMQ evaluations. Our framework significantly outperforms unguided search methods: in human preference studies, videos generated via our agentic approach were strongly preferred over baseline outputs, achieving win rates up to 69\\%. This work provides a practical and extensible methodology for enhancing the predictability and control of state-of-the-art video generation models, moving the field beyond speculative curiosities toward reliable, production-ready tools."
+    },
+    {
+      "title": "Large Language Model-Driven Small-Capitalization Trading: Integrating Financial News Sentiment, Macroeconomic Indicators, and Technical Signals",
+      "url": "https://arxiv.org/abs/2608.12283v1",
+      "source": "arXiv",
+      "published": "2026-08-12T17:28:03+00:00",
+      "summary_raw": "Large language models can extract richer signals from financial news than fixed sentiment lexicons, and recent work has explored feeding such signals into portfolio construction. We study an uncertainty-aware construction that feeds model-predicted risk -- decomposed into aleatoric and epistemic components -- directly into the covariance matrix of portfolio allocators, rather than treating portfolio risk as fixed or adjusting only expected returns. We evaluate the pipeline on Russell 2000 equities under three stock-selection regimes: a pure-alpha trigger that isolates abnormal stock moves not explained by macro indicators, a pure-beta trigger that captures macro-indicator moves before the stock itself fires, and a beta trigger in which both channels agree. Across the full holding-period grid, the separated pure-alpha and pure-beta legs usually dominate the beta intersection on Sharpe and return. Two horizons are especially informative. At one day, pure beta can work under low and moderate transaction costs because it captures immediate lead-lag spillovers from liquid macro and sector indicators into exposed small-cap stocks, but this advantage disappears at 100 bps when turnover and microstructure noise dominate. At 40 days, pure beta works for a different reason: slower macro repricing overtakes the firm-specific pure-alpha channel. The strongest conservative row is pure beta with GPT-4o mini sentiment, a Student-t target, a 40-day holding period, and risk parity allocation, reaching Sharpe 2.33 at 100 bps. The results suggest that stock-selection regime and allocator choice matter at least as much as the sentiment model, and that separating firm-specific and macro-exposure triggers is more informative than requiring both to fire simultaneously."
+    },
+    {
+      "title": "VAKRA: Evaluating Multi-Hop Reasoning Across APIs and Retrieval Under Tool-Use Policies",
+      "url": "https://arxiv.org/abs/2608.12282v1",
+      "source": "arXiv",
+      "published": "2026-08-12T17:27:27+00:00",
+      "summary_raw": "Agents deployed in enterprise settings must reason across structured APIs and document collections, yet existing benchmarks evaluate these capabilities in isolation. We introduce VAKRA (e\\textbf{V}aluating \\textbf{A}PI and \\textbf{K}nowledge \\textbf{R}etrieval \\textbf{A}gents), a benchmark of over $8{,}000$ executable APIs across $62$ domains with tasks spanning three settings of increasing difficulty: diverse API interaction styles, multi-hop reasoning over structured APIs, and multi-source reasoning with natural-language tool-use policy constraints. Correctness is verified by re-executing predicted tool calls against live APIs, accommodating multiple valid paths. Using a fixed ReAct harness to isolate model capabilities from agent architecture, we evaluate frontier and open-weight models and find that even the best model achieves only 70.4\\% on single-hop endpoint-style tasks and drops to 50--51\\% on compositional APIs; performance degrades by over 50\\% as reasoning depth increases, and policy-constrained questions expose severe failures (as low as 2.4\\% on unanswerable queries). Trace analysis shows failures concentrate at language-mediated reasoning - entity disambiguation, cross-source grounding, rather than tool invocation mechanics. Code is available https://github.com/IBM/VAKRA. Dataset is available https://huggingface.co/datasets/ibm-research/VAKRA"
+    }
+  ]
+}

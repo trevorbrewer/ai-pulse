@@ -1,0 +1,197 @@
+[
+  {
+    "theme": "Industry News",
+    "stories": [
+      {
+        "title": "Anthropic in Talks to Buy World Model AI Startup Decart for $6B",
+        "url": "https://www.bloomberg.com/news/articles/2026-08-13/anthropic-said-in-talks-to-buy-ai-startup-decart-for-6-billion",
+        "source": "Hacker News",
+        "paragraph": "Anthropic is in discussions to acquire Decart, a startup focused on world model AI, for approximately $6 billion, according to Bloomberg. The deal, if completed, would represent one of the larger AI acquisition prices on record and signals Anthropic's interest in expanding beyond large language models into systems that model physical or interactive environments. Decart has drawn attention for its work on real-time interactive world simulation, a capability distinct from Anthropic's current Claude-centered product line."
+      },
+      {
+        "title": "Video game lawyer says all her clients have anti-AI contracts",
+        "url": "https://www.gamesradar.com/games/echoing-palworld-dev-video-game-lawyer-says-all-her-clients-have-anti-ai-contracts-because-gamers-hate-it-and-its-a-copyright-landmine-i-think-were-going-to-see-lawsuits/",
+        "source": "Hacker News",
+        "paragraph": "A video game attorney reports that every one of her clients has now included anti-AI clauses in their contracts, citing both consumer sentiment and unresolved copyright risk. She describes AI-generated content as a \"copyright landmine\" and predicts litigation is forthcoming in the games industry. The trend echoes concerns raised by developers such as the Palworld team, and reflects a broader legal caution in creative industries where the provenance of AI-generated assets remains legally unclear."
+      },
+      {
+        "title": "Why your Amazon order confirmation emails have become so unhelpful",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/977733/amazon-order-emails-google-gmail-ai-agents-data",
+        "source": "Hacker News",
+        "paragraph": "The Verge reports that Amazon has restructured its order confirmation emails in ways that reduce the structured data previously accessible to third-party tools and AI agents, including Google's Gmail integrations. The change appears connected to competition over who controls transactional data that AI agents can parse and act upon. This makes the emails less useful for automated workflows that consumers and developers have relied on to track purchases or trigger downstream actions."
+      },
+      {
+        "title": "Twitch Is Mining Peoples' Streams to Train Amazon's AI",
+        "url": "https://www.404media.co/twitch-training-amazon-ai-models-how-to-opt-out-setting/",
+        "source": "Hacker News",
+        "paragraph": "Twitch has begun using content from users' streams to train AI models for Amazon, its parent company, according to a report by 404 Media. The practice is enabled by default, meaning streamers must actively opt out rather than opt in. The report details where the opt-out setting can be found, raising questions about how platforms communicate data-use policy changes to their user base."
+      }
+    ]
+  },
+  {
+    "theme": "Model Releases",
+    "stories": [
+      {
+        "title": "DeepSeek V4 Pro 0813 (on OpenRouter)",
+        "url": "https://simonwillison.net/2026/Aug/12/deepseek-v4-pro-0813/",
+        "source": "Simon Willison",
+        "paragraph": "DeepSeek has released a new version of its V4 Pro model, dated August 13 and designated DeepSeek V4 Pro 0813, currently accessible via API through OpenRouter. Simon Willison notes that DeepSeek did not publish a formal announcement page for the release, making it difficult to find official documentation. It remains unconfirmed whether open weights will be released, though prior versions — April's DeepSeek-V4-Pro and July's DeepSeek-V4-Flash — both had weights made publicly available."
+      }
+    ]
+  },
+  {
+    "theme": "Open-Source Tools",
+    "stories": [
+      {
+        "title": "Show HN: Decant – Understand how you spend tokens",
+        "url": "https://github.com/dosu-ai/decant",
+        "source": "Hacker News",
+        "paragraph": "Dosu AI has released Decant, an open-source tool designed to give developers visibility into how their token budgets are allocated across different task types such as context gathering, planning, code generation, and chat. Unlike existing cost-tracking tools that report total token usage and expenditure, Decant breaks down consumption by category to help identify optimization opportunities. The tool is available on GitHub and addresses a gap noted by practitioners who have cost data but lack granular attribution."
+      },
+      {
+        "title": "alchemy-utils 0.1a0",
+        "url": "https://simonwillison.net/2026/Aug/12/alchemy-utils/",
+        "source": "Simon Willison",
+        "paragraph": "Simon Willison has published an early alpha release of alchemy-utils 0.1a0, a Python library and CLI utility conceived as a database-agnostic counterpart to his widely used sqlite-utils project. The prototype was built using Codex and GPT-5.6 Sol Ultra in a single morning session, with Willison describing it as a \"shower project\" research spike. The library aims to replicate the core API of sqlite-utils — particularly its insert and upsert workflows — while supporting databases beyond SQLite via SQLAlchemy."
+      }
+    ]
+  },
+  {
+    "theme": "Research Papers and Technical Concepts",
+    "stories": [
+      {
+        "title": "RT by @ylecun: JEPA is one of the hottest buzzwords in machine learning right now.",
+        "url": "https://twitter.com/ylecun/status/2087778305407959178",
+        "source": "Twitter/@ylecun",
+        "paragraph": "A post retweeted by Yann LeCun provides an explainer on Joint Embedding Predictive Architecture (JEPA) as applied to video self-supervised learning, tracing a shift from pixel-space prediction toward latent-space modeling. JEPA, originally proposed by LeCun as a framework for learning world models, has gained traction as a structuring concept for video representation research. The post aims to clarify what the architecture means in practice for video models, a domain where predicting compressed latent representations rather than raw pixels has shown advantages in learning efficiency."
+      }
+    ]
+  },
+  {
+    "theme": "Policy and Usage Rights",
+    "stories": [
+      {
+        "title": "If I own Claude's outputs why can't I train my own model on them?",
+        "url": "https://support.claude.com/en/articles/12326764-can-i-use-my-outputs-to-train-an-ai-model",
+        "source": "Hacker News",
+        "paragraph": "A Hacker News discussion highlights a tension in Anthropic's terms of service: while users are generally granted ownership of outputs generated by Claude, Anthropic's usage policy prohibits using those outputs to train competing AI models. The support article in question explicitly addresses this scenario, drawing a distinction between ownership of content and the permitted uses of that content under the service agreement. This kind of restriction is common across major AI providers and raises ongoing questions about the practical limits of \"ownership\" in the context of AI-generated content."
+      }
+    ]
+  },
+  {
+    "theme": "AI and Employment",
+    "stories": [
+      {
+        "title": "When Will AI Take My Job?",
+        "url": "https://www.whenwillaitakemyjob.ai/",
+        "source": "Hacker News",
+        "paragraph": "A new web tool, whenwillaitakemyjob.ai, allows users to enter their occupation and receive an estimate of when AI automation is likely to affect their role. The site draws on existing labor market research and AI capability assessments to generate role-specific timelines. It surfaced on Hacker News as part of a recurring public discussion about the pace and distribution of AI-driven labor displacement."
+      },
+      {
+        "title": "RT by @ylecun: After the pandemic, real wages grew strongly across the board",
+        "url": "https://twitter.com/ylecun/status/2087621260628906429",
+        "source": "Twitter/@ylecun",
+        "paragraph": "A post retweeted by Yann LeCun presents wage data showing that real wages grew broadly after the pandemic, with the largest gains at the bottom and middle of the income distribution — described as the widest such margin on record. It contrasts this with more recent data showing real wage growth has slowed, with the lowest-paid workers experiencing the steepest declines. While not directly about AI, LeCun's amplification places it in the context of ongoing debates about technology, labor markets, and economic inequality."
+      },
+      {
+        "title": "RT by @ylecun: I can't blame regular, every day folks from being scared or angry about AI.",
+        "url": "https://twitter.com/ylecun/status/2087613090955198712",
+        "source": "Twitter/@ylecun",
+        "paragraph": "A post retweeted by Yann LeCun argues that public fear of AI has been amplified by hyperbolic claims from industry executives and a media ecosystem that rewards alarming narratives, rather than by a clear-eyed assessment of actual risks. The author contends that the most legitimate concerns — mass surveillance, military applications, and data privacy — receive far less attention than speculative existential scenarios. The post frames public anxiety as an understandable emotional response to a poorly communicated technological shift, and calls on the AI industry to present more grounded and accessible accounts of what the technology does and does not do."
+      }
+    ]
+  },
+  {
+    "theme": "Infrastructure and Hardware",
+    "stories": [
+      {
+        "title": "Why space is a terrible place to cool a data center",
+        "url": "https://thenewstack.io/spacex-and-nvidias-orbital-ai-datacenter-fantasy/",
+        "source": "Hacker News",
+        "paragraph": "The New Stack examines proposals for orbital AI data centers, as discussed in the context of SpaceX and Nvidia's reported interest in space-based computing infrastructure. The piece details why space is a poor environment for heat dissipation: in a vacuum, the only available cooling mechanism is thermal radiation, which is far less efficient than the liquid or air cooling used in terrestrial facilities. At current GPU power densities — Nvidia's H100 chips can draw over 700 watts each — the thermal management challenge alone would make orbital data centers impractical with existing hardware."
+      }
+    ]
+  },
+  {
+    "theme": "AI Adoption and User Experience",
+    "stories": [
+      {
+        "title": "Adults have struggled to set rules for AI in school. These teens figured it out",
+        "url": "https://text.npr.org/nx-s1-5853571",
+        "source": "Hacker News",
+        "paragraph": "NPR reports on a group of teenagers who developed their own guidelines for appropriate AI use in academic settings, a task that has stymied many school administrators and policymakers. The teens created concrete, peer-accepted norms distinguishing between AI assistance that supports learning and use that substitutes for it. The story is notable because it highlights a gap between top-down institutional policy-making and student-driven self-regulation in a domain where consensus has been slow to emerge."
+      },
+      {
+        "title": "I'm Done Using AI",
+        "url": "https://brettcodes.com/im-done-using-ai/",
+        "source": "Hacker News",
+        "paragraph": "A software developer writing under the name Brett published a personal account explaining why he has stopped using AI coding tools after an extended period of reliance on them. His core argument is that the tools degraded his own problem-solving ability and produced code he did not fully understand or trust. The post is circulating widely among practitioners as a counterpoint to narratives emphasizing productivity gains from AI-assisted development."
+      }
+    ]
+  },
+  {
+    "theme": "Research Papers",
+    "stories": [
+      {
+        "title": "AVA-Encoder: Towards Agent-Native Video Representation Learning",
+        "url": "https://arxiv.org/abs/2608.12313v1",
+        "source": "arXiv",
+        "paragraph": "Researchers introduce the Agentic Video Auto-Encoder (AVA-Encoder), a framework designed to give AI agents a structured video representation that is both faithful to film content and directly usable for agentic reasoning and manipulation. The work targets a gap between high-quality human filmmaking and what current generative video agents can produce, attributing the gap partly to the lack of suitable intermediate representations. The encoder is intended to serve as a bridge so that agents can learn cinematographic conventions from existing films."
+      },
+      {
+        "title": "DreamFly: Causal Memory and Receding-Horizon Diffusion Planning for Aerial Vision-Language Navigation",
+        "url": "https://arxiv.org/abs/2608.12308v1",
+        "source": "arXiv",
+        "paragraph": "DreamFly is a proposed system for aerial vision-language navigation that pairs a causal memory module with receding-horizon diffusion-based planning, allowing a drone agent to integrate visual evidence over time and extend its planning horizon beyond what current vision-language-action models support. The paper identifies limited historical context and short planning horizons as the two primary obstacles to adapting existing VLA models to aerial navigation under partial observability. Receding-horizon planning means the agent continuously re-plans as new observations arrive rather than committing to a fixed sequence of actions."
+      },
+      {
+        "title": "AI4AI at Test-Time: Strong-to-Weak Capability Transfer via Harnesses",
+        "url": "https://arxiv.org/abs/2608.12307v1",
+        "source": "arXiv",
+        "paragraph": "This paper investigates whether a stronger AI model can improve a weaker one at inference time without updating the weaker model's parameters, a departure from standard distillation approaches that require retraining. The authors study what they call strong-to-weak scaffolding, in which a builder model constructs inference-time harnesses — structured prompting or orchestration wrappers — that guide the weaker model's outputs. The work is motivated by scenarios where parameter updates to a deployed model are impractical or undesirable."
+      },
+      {
+        "title": "Redistribution-based Cost Inference Improves Sparse Safe Offline RL",
+        "url": "https://arxiv.org/abs/2608.12306v1",
+        "source": "arXiv",
+        "paragraph": "The paper introduces the Redistribution-based Cost Inference (RCI) framework to address a practical limitation in safe offline reinforcement learning: in real settings, supervisors typically provide only a binary stop-signal at the first unsafe transition rather than the dense per-step cost annotations that most safe RL algorithms assume. RCI frames this as a temporal credit assignment problem and converts the sparse stop-feedback into dense per-step cost estimates. The approach aims to make safe offline RL viable in domains where annotating every timestep is infeasible."
+      },
+      {
+        "title": "Constructing Dynamic Master Logic Models as Knowledge Graphs for Complex System Diagnostics Using Retrieval-Augmented Large Language Models",
+        "url": "https://arxiv.org/abs/2608.12304v1",
+        "source": "arXiv",
+        "paragraph": "This study presents a framework that uses retrieval-augmented large language models to automatically construct Dynamic Master Logic (DML) models — hierarchical representations linking a system's functional objectives to its structural components — from technical documentation. Traditional DML construction requires expert interpretation of documentation, which limits scalability for large or complex systems. By encoding the resulting models as knowledge graphs, the framework makes the diagnostic representations machine-queryable and easier to update."
+      },
+      {
+        "title": "A Framework for Designing Reward Functions: From Objectives to Features to Human-Aligned Reward Functions",
+        "url": "https://arxiv.org/abs/2608.12302v1",
+        "source": "arXiv",
+        "paragraph": "Researchers present a formal three-step process for allowing non-experts to design reward functions that adhere to a specified preference ordering over agent trajectories. Given a natural-language task description, the process distills the task into fundamental objectives, derives measurable outcome variables, and produces a linear reward function. The work addresses a persistent challenge in reinforcement learning: reward misspecification often stems from the difficulty of translating human intent into mathematical reward signals without domain expertise."
+      },
+      {
+        "title": "Class Activation Mapping in Explainable Computer Vision: A Method-Centered Review of CNN, Transformer, and Foundation-Model-Era Visual Explanations",
+        "url": "https://arxiv.org/abs/2608.12299v1",
+        "source": "arXiv",
+        "paragraph": "This review surveys the development of class activation mapping (CAM) techniques from the original 2016 formulation through their application to CNNs, vision transformers, and foundation models. CAM methods convert internal model evidence into heatmaps that highlight which image regions, channels, or tokens support a particular prediction, making them one of the most widely deployed families of visual explanation tools. The review is organized around methodological distinctions rather than chronology, offering practitioners a structured comparison of approaches across model architectures."
+      },
+      {
+        "title": "Beyond Trial-and-Error: Agentic Optimization for Image-to-Video Adherence",
+        "url": "https://arxiv.org/abs/2608.12290v1",
+        "source": "arXiv",
+        "paragraph": "The paper proposes an agentic optimization pipeline designed to improve the reliability of black-box image-to-video (I2V) models, which currently require repetitive manual prompt and hyperparameter tuning because their outputs vary stochastically. The system treats the I2V model as a black box and uses an outer optimization agent to iteratively adjust inputs based on adherence feedback, reducing the need for brute-force trial-and-error. The work targets professional content-creation workflows where inconsistent outputs from tools like commercial I2V models create significant friction."
+      },
+      {
+        "title": "Large Language Model-Driven Small-Capitalization Trading: Integrating Financial News Sentiment, Macroeconomic Indicators, and Technical Signals",
+        "url": "https://arxiv.org/abs/2608.12283v1",
+        "source": "arXiv",
+        "paragraph": "This paper examines a trading strategy for small-capitalization equities that feeds LLM-extracted sentiment signals from financial news alongside macroeconomic indicators and technical signals into a portfolio construction framework. A notable methodological contribution is the decomposition of model-predicted risk into aleatoric and epistemic components, which are then incorporated directly into the covariance matrix used by the portfolio allocator rather than treated as a fixed parameter. The authors argue this uncertainty-aware construction produces more robust allocations than using fixed-lexicon sentiment scoring."
+      },
+      {
+        "title": "VAKRA: Evaluating Multi-Hop Reasoning Across APIs and Retrieval Under Tool-Use Policies",
+        "url": "https://arxiv.org/abs/2608.12282v1",
+        "source": "arXiv",
+        "paragraph": "Researchers have released VAKRA, a benchmark designed to evaluate AI agents on multi-hop reasoning tasks that combine structured API calls with document retrieval, two capabilities that existing benchmarks typically assess in isolation. The benchmark comprises over 8,000 executable APIs spanning 62 domains, with tasks organized across three settings of increasing difficulty to reflect realistic enterprise deployment conditions. The work addresses a notable gap in evaluation methodology, as enterprise agents must routinely chain API interactions and knowledge retrieval steps under real-world tool-use policies. By unifying these evaluation axes, VAKRA aims to give practitioners a more complete picture of agent capability before production deployment."
+      }
+    ]
+  }
+]
