@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Pulse — Friday, August 14, 2026</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>AI Pulse</h1>
+      <nav><a href="../index.html">← All digests</a></nav>
+    </header>
+
+    <main>
+      <h1 class="page-title">Friday, August 14, 2026</h1>
+
+      
+        
+        <section class="theme-section">
+          <h2>Model Releases</h2>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://z.ai/blog/glm-5.3">GLM-5.3: Frontier coding with emergent cyber capabilities</a><span class="source">Hacker News</span>
+            </p>
+            <p>Z.ai released GLM-5.3, a coding-focused language model it describes as having emergent cyber capabilities, meaning the model can reason about and interact with security-relevant tasks beyond what was explicitly trained. The release positions GLM-5.3 as competitive with frontier coding models, a category increasingly contested by labs outside the US. The announcement is notable for its explicit mention of cyber capabilities, a framing that has drawn attention from the security research community.</p>
+          </div>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://simonwillison.net/2026/Aug/13/llm-gemini/">llm-gemini 0.33</a><span class="source">Simon Willison</span>
+            </p>
+            <p>Simon Willison released llm-gemini 0.33, a plugin for his LLM command-line tool that adds support for several new Google Gemini models, including Gemini 3.7 Flash, Gemini 3.6 Flash, Gemini 3.5 Flash Lite, and two embedding models — gemini-embedding-2 and gemini-embedding-001. The plugin was also updated for compatibility with LLM 0.32, which enables users to view reasoning traces during model inference. The update reflects the pace at which Google has been iterating on its Gemini model family across different size and capability tiers.</p>
+          </div>
+          
+        </section>
+        
+        <section class="theme-section">
+          <h2>Open-Source Tools</h2>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://simonwillison.net/2026/Aug/13/sqlite-utils/">sqlite-utils 4.2</a><span class="source">Simon Willison</span>
+            </p>
+            <p>Simon Willison released sqlite-utils 4.2, a Python library for manipulating SQLite databases, with significant improvements to the table.transform() method. The method, which handles complex ALTER TABLE operations by creating a new table, copying data, and replacing the old one, now correctly preserves a wider range of schema features including check constraints, unique constraints, and column comments. These edge-case schema definitions were previously at risk of being silently dropped during a transform operation.</p>
+          </div>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://simonwillison.net/2026/Aug/13/sqlite-utils-2/">sqlite-utils 4.2.1</a><span class="source">Simon Willison</span>
+            </p>
+            <p>One day after releasing sqlite-utils 4.2, Simon Willison issued a patch release, 4.2.1, to fix a crashing bug introduced in the prior version. The crash occurred because newly added code imported from the typing_extensions package, which was not listed as a direct dependency of sqlite-utils — it had only been available in the development environment through a transitive dependency. Users running the tool directly via uvx would not have the package installed, causing the import to fail on startup.</p>
+          </div>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://hwbusters.com/news/comma-ai-egpu-dock-runs-open-source-firmware-249-bare-799-with-an-rx-9060/">Chestnut – eGPU dock with open-source firmware</a><span class="source">Hacker News</span>
+            </p>
+            <p>Comma.ai released Chestnut, an external GPU dock priced at $249 for the bare enclosure and $799 bundled with an AMD Radeon RX 9060. The device runs open-source firmware, distinguishing it from most consumer eGPU products that rely on proprietary software stacks. Comma.ai is known primarily for its open-source driver assistance system, and Chestnut extends that philosophy to hardware intended partly for local AI inference workloads.</p>
+          </div>
+          
+        </section>
+        
+        <section class="theme-section">
+          <h2>AI Safety and Content Integrity</h2>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://declaude.org/watermarking/">How AI text watermarking works</a><span class="source">Hacker News</span>
+            </p>
+            <p>A technical explainer published at declaude.org describes how AI text watermarking works, covering methods such as token-level probability manipulation, where a language model is steered to select words from a predetermined "green" list during generation, leaving a statistically detectable signature in the output. The piece is relevant as regulators in several jurisdictions consider mandating provenance signals for AI-generated content. The article also discusses limitations, including that watermarks can often be removed by paraphrasing or that they degrade output quality.</p>
+          </div>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://www.wsj.com/tech/ai/claude-dario-amodei-wife-anthropic-e1eeda7d">Even Claude Is in the Dark About Dario Amodei's Wife</a><span class="source">Hacker News</span>
+            </p>
+            <p>The Wall Street Journal reported that Anthropic's Claude chatbot is unable to answer basic questions about Dario Amodei's personal life, including who his wife is — information that is publicly available. The story highlights the tension between AI companies' decisions about what personal data to include in training corpora or retrieval systems and the resulting blind spots in their models. It raises questions about whether AI systems apply inconsistent standards to information about prominent individuals versus the general public.</p>
+          </div>
+          
+        </section>
+        
+        <section class="theme-section">
+          <h2>Legal and Regulatory</h2>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://www.reuters.com/legal/litigation/connecticut-judge-says-plaintiff-hid-messages-ai-court-filings-2026-08-13/">Connecticut judge says plaintiff hid messages for AI in court filings</a><span class="source">Hacker News</span>
+            </p>
+            <p>A Connecticut federal judge found that a plaintiff had embedded hidden text instructions in court filings, apparently intended to manipulate AI systems that might process the documents. The technique, sometimes called prompt injection, involves concealing instructions — often by using white text on a white background or microscopic font — that are invisible to human readers but readable by AI text processors. The case is among the first known instances of a judge formally addressing AI prompt injection as a litigation tactic, and it raises procedural questions about document integrity in an era when AI tools are increasingly used for legal review.</p>
+          </div>
+          
+        </section>
+        
+        <section class="theme-section">
+          <h2>Industry Research and Adoption</h2>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://medium.com/airbnb-engineering/eval-driven-development-lessons-from-evaluating-genai-at-scale-e817e5ae5788">Airbnb Eval-driven development: Lessons from evaluating GenAI at scale</a><span class="source">Hacker News</span>
+            </p>
+            <p>Airbnb's engineering team published a detailed account of how they built evaluation frameworks for generative AI features deployed across their platform. The post describes an "eval-driven development" methodology in which automated evaluations — rather than manual review — gate model changes before they reach production, a practice they argue is necessary at the scale Airbnb operates. Among the concrete lessons shared is that human-labeled eval datasets become stale quickly and that model-based judges must themselves be validated against human judgments regularly to remain reliable.</p>
+          </div>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://cdn.openai.com/pdf/how-organizations-use-chatgpt.pdf">How Organizations Use AI: Evidence from ChatGPT [pdf]</a><span class="source">Hacker News</span>
+            </p>
+            <p>OpenAI published a research report examining how organizations actually use ChatGPT, drawing on usage data and surveys to characterize adoption patterns across industries and job functions. The report provides empirical detail on which tasks account for the most usage — including writing assistance, coding, and data analysis — and how usage varies between small businesses and large enterprises. As one of the few large-scale usage studies released by a major AI provider, the paper offers a data point against which industry claims about AI adoption can be measured.</p>
+          </div>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://news.ycombinator.com/item?id=49290713">Ask HN: How much money do you spend monthly on subscriptions for AI models?</a><span class="source">Hacker News</span>
+            </p>
+            <p>A Hacker News thread asked practitioners to report their monthly spending on AI model subscriptions, including which models they use and for what purposes. The thread produced a range of responses from individual developers paying $20–$200 per month across services such as Claude, ChatGPT, and API access, to commenters noting their employers cover costs for professional use. The discussion provides informal but granular insight into how practitioners allocate spending across competing model providers, a dynamic that subscription pricing strategies at AI labs are designed to capture.</p>
+          </div>
+          
+        </section>
+        
+        <section class="theme-section">
+          <h2>Policy and Government</h2>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://www.wsj.com/us-news/trump-orders-navy-to-restore-old-technology-in-aircraft-carriers-costing-billions-0055ec1b">Trump Orders Navy to Restore [Steam Catapults] in Aircraft Carriers</a><span class="source">Hacker News</span>
+            </p>
+            <p>President Trump signed an order directing the Navy to restore steam catapult systems on aircraft carriers, reversing the shift to Electromagnetic Aircraft Launch System (EALS) technology introduced on the Ford-class carriers. The Wall Street Journal reported the reversal is expected to cost billions of dollars and reflects the administration's stated preference for proven, maintainable systems over newer digital ones. The order is notable in the technology policy context because EALS relies heavily on software and computerized controls, and criticism of it has centered on software reliability and maintenance complexity.</p>
+          </div>
+          
+        </section>
+        
+        <section class="theme-section">
+          <h2>Security & Adversarial AI</h2>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://www.404media.co/person-hides-prompt-injection-in-legal-filing-telling-ai-to-side-with-them/">Person Hides Prompt Injection in Legal Filing Telling AI to Side with Them</a><span class="source">Hacker News</span>
+            </p>
+            <p>A person embedded a prompt injection attack inside a legal document, inserting hidden text instructing any AI system processing the filing to favor their position. The incident illustrates a practical risk as courts, law firms, and opposing counsel increasingly use AI tools to summarize or analyze case materials. Prompt injection exploits the inability of current large language models to reliably distinguish between trusted instructions and adversarial content embedded in user-supplied data, and the legal context adds procedural stakes beyond typical software exploits.</p>
+          </div>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://arxiv.org/abs/2608.13547v1">QuoteBench: How Matched Scores Can Hide Command-Path Failures</a><span class="source">arXiv</span>
+            </p>
+            <p>Researchers introduced QuoteBench, a benchmark designed to expose a blind spot in how LLM-based coding agents are evaluated: high command-match scores can mask failures that occur after the model generates output, during serialization, wrapping, or reparsing by the execution interface. The benchmark uses exact final-state validation across 56 one-shot tasks drawn from 14 incident-derived task families, separating command-generation errors from execution-path errors. This distinction matters because optimizing for matched scores alone can leave systematic failure modes in deployment pipelines undetected.</p>
+          </div>
+          
+        </section>
+        
+        <section class="theme-section">
+          <h2>Infrastructure & Performance</h2>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://www.cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai">Accelerating GPT-5.6 Sol Ultrafast</a><span class="source">Hacker News</span>
+            </p>
+            <p>Cerebras published details on running OpenAI's GPT-5.6 Sol model at substantially higher inference speeds using its wafer-scale chip architecture. The post describes how Cerebras hardware reduces latency by keeping model weights closer to compute, avoiding the memory-bandwidth bottlenecks common in GPU clusters. The collaboration is notable as a demonstration of third-party hardware providers accelerating frontier models developed by major AI labs, a trend with implications for inference cost and deployment flexibility.</p>
+          </div>
+          
+        </section>
+        
+        <section class="theme-section">
+          <h2>Environmental Impact</h2>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://unric.org/en/ais-environmental-costs-threaten-water-land-and-climate/">AI Is Threatening Natural Resources for Billions</a><span class="source">Hacker News</span>
+            </p>
+            <p>A United Nations Regional Information Centre report outlines how AI infrastructure is placing growing pressure on water supplies, land use, and carbon budgets at a scale affecting billions of people. Data centers require large volumes of water for cooling, and the land footprint of expanding AI compute facilities competes with agriculture and ecosystems. The report situates AI's environmental costs within broader resource constraints, noting that these pressures fall disproportionately on regions already facing climate stress.</p>
+          </div>
+          
+        </section>
+        
+        <section class="theme-section">
+          <h2>Research Papers: Agents & Automation</h2>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://arxiv.org/abs/2608.13560v1">AutoDesign: Meta-Harness Optimization for Long-Horizon Agentic Design</a><span class="source">arXiv</span>
+            </p>
+            <p>AutoDesign frames the task of converting multimodal sources into structured media outputs as a long-horizon agentic process built around a model-harness system, then proposes a meta-optimization method that allows the harness itself to improve recursively through empirical exploration. Existing agentic pipelines for such tasks are largely static, meaning they cannot accumulate reusable experience or adapt their scaffolding over time. The paper argues that aligning the harness with human design priors while enabling self-improvement is a missing capability in current multimodal generation workflows.</p>
+          </div>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://arxiv.org/abs/2608.13558v1">OmniScientist: An Omni-Modal Omni-Discipline AI Scientist</a><span class="source">arXiv</span>
+            </p>
+            <p>OmniScientist is a proposed AI research system designed to operate across multiple modalities and scientific disciplines, covering steps from hypothesis generation and code execution to manuscript preparation. The authors argue that prior AI scientist systems are limited because they reason over text, code, labels, or precomputed summaries, leaving out evidence types such as raw experimental data in image or sensor form. By targeting omni-modal input, the system aims to give automated scientific workflows access to the full range of evidence formats that human researchers use.</p>
+          </div>
+          
+        </section>
+        
+        <section class="theme-section">
+          <h2>Research Papers: Benchmarks & Evaluation</h2>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://arxiv.org/abs/2608.13555v1">HumanTracker: Towards Comprehensive and Human-Aligned Motion Tracking Benchmark</a><span class="source">arXiv</span>
+            </p>
+            <p>HumanTracker is a new benchmark for humanoid motion tracking that targets the gap between kinematic error metrics and perceptual quality as judged by human observers. Standard per-frame pose-difference metrics miss physical artifacts such as foot skating and mistimed ground contacts, which are the failures viewers notice most in video. The benchmark is described as substantially larger than widely used existing test suites, which the authors characterize as small and lacking diversity in motion types relevant to teleoperation and whole-body imitation.</p>
+          </div>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://arxiv.org/abs/2608.13545v1">LittleLearner: Language Models Under Pedagogically Controlled Knowledge Exposure</a><span class="source">arXiv</span>
+            </p>
+            <p>Researchers introduce LITTLECURRICULUM, an 88-billion-token pretraining corpus curated from U.S. elementary school material and explicitly excluding vocabulary, facts, and concepts beyond that scope, providing a controlled environment for studying knowledge and skill acquisition in language models. The dataset is a response to a core methodological problem: because standard models are trained on heterogeneous web-scale text, it is nearly impossible to characterize prior exposure to any given concept. By training models called LittleLearners on this restricted corpus, the authors aim to isolate the relationship between training data content and emergent model capabilities.</p>
+          </div>
+          
+        </section>
+        
+        <section class="theme-section">
+          <h2>Research Papers: Theory & Forecasting</h2>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://arxiv.org/abs/2608.13554v1">Defensive Boosting for Online Probabilistic Forecasting</a><span class="source">arXiv</span>
+            </p>
+            <p>This paper addresses online probabilistic forecasting of binary outcomes when an adaptive adversary selects the sequence, seeking to combine two guarantees that existing boosting methods provide only separately: competing in Brier score with the best predictor in the span of a weak hypothesis class, and achieving strong per-sequence calibration. The authors develop a method called defensive boosting that unifies these objectives within a single online algorithm. The adversarial setting makes the problem substantially harder than standard offline boosting, as the algorithm must perform without access to future data and against an opponent that can adjust based on past predictions.</p>
+          </div>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://arxiv.org/abs/2608.13549v1">Exponential Convex Calibration Dimension for the Multi-Label Jaccard Measure</a><span class="source">arXiv</span>
+            </p>
+            <p>This theoretical paper analyzes the calibration complexity of the Jaccard score, the intersection-over-union metric standard in multi-label classification and binary segmentation. The authors prove that with s labels the Jaccard loss matrix has 2^s outcomes and that the score, shifted-loss, and ordinary loss matrices are nonsingular with loss columns of specific affine dimension, establishing an exponential lower bound on the convex calibration dimension. This result has practical implications for the design of surrogate loss functions, since it quantifies the fundamental difficulty of optimizing directly for IoU.</p>
+          </div>
+          
+        </section>
+        
+        <section class="theme-section">
+          <h2>Research Papers: Interpretability & Efficiency</h2>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://arxiv.org/abs/2608.13538v1">SAEVerbalizer: Generating Explanations for Sparse Autoencoder Features via Representation Verbalization</a><span class="source">arXiv</span>
+            </p>
+            <p>SAEVerbalizer is a framework for explaining the features extracted by sparse autoencoders (SAEs) from large language model representations without relying primarily on external behavioral observation. Current SAE explanation methods require collecting behavioral evidence at scale, which is computationally expensive and tends to produce shallow descriptions inferred from model outputs rather than internal representations. The proposed approach uses representation verbalization, directly interpreting the learned feature directions in activation space to generate explanations, aiming to make SAE interpretability both more efficient and more faithful to internal model structure.</p>
+          </div>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://arxiv.org/abs/2608.13524v1">DARTree: Speculative Diffusion Decoding with Autoregressive Draft Trees</a><span class="source">arXiv</span>
+            </p>
+            <p>DARTree proposes a method to accelerate diffusion-based speculative decoding for autoregressive language models by addressing a core weakness of diffusion drafters: their token-block predictions use marginal rather than jointly conditioned distributions, making draft tokens inconsistent along each candidate path. The paper introduces autoregressive draft trees that incorporate causal information across draft positions, correcting the distribution mismatch that limits verification acceptance rates. Speculative decoding as a class of methods accelerates inference losslessly by generating multiple candidate tokens and verifying them in parallel, and improving drafter quality directly raises throughput.</p>
+          </div>
+          
+        </section>
+        
+        <section class="theme-section">
+          <h2>Research Papers</h2>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://arxiv.org/abs/2608.13522v1">Vero: Can AI Agents Build Formally Verified Software Repositories?</a><span class="source">arXiv</span>
+            </p>
+            <p>Researchers have introduced Vero, a benchmark designed to evaluate whether AI agents can produce formally verified software at the repository level, not just for isolated functions. The work addresses a known limitation of AI coding agents: they generate code without any machine-checked guarantee of correctness. Vero requires agents to produce both an implementation and a formal proof of its specification, raising the bar beyond existing benchmarks that typically target single functions. The benchmark represents an attempt to close the gap between AI-generated code and the kind of provable correctness standards required in safety-critical software development.</p>
+          </div>
+          
+        </section>
+        
+      
+    </main>
+
+    <footer>Generated 2026-08-14 11:43 UTC</footer>
+  </div>
+</body>
+</html>
