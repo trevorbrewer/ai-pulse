@@ -1,0 +1,239 @@
+{
+  "date": "2026-08-15",
+  "generated_at": "2026-08-15T11:16:25.634579+00:00",
+  "source_counts": {
+    "rss_feeds": 2,
+    "arxiv": 0,
+    "hackernews": 21,
+    "nitter": 0,
+    "total_raw": 23,
+    "total_deduped": 23,
+    "total_saved": 23
+  },
+  "items": [
+    {
+      "title": "Debian has begun voting on the future of AI/LLM contributions",
+      "url": "https://lists.debian.org/debian-devel-announce/2026/08/msg00002.html",
+      "source": "Hacker News",
+      "published": "2026-08-15T09:20:07+00:00",
+      "summary_raw": "",
+      "points": 13,
+      "num_comments": 7,
+      "hn_url": "https://news.ycombinator.com/item?id=49309050"
+    },
+    {
+      "title": "Suspecting court of using AI, man injected prompts in filings to try to win case",
+      "url": "https://arstechnica.com/tech-policy/2026/08/suspecting-court-of-using-ai-man-injected-prompts-in-filings-to-try-to-win-case/",
+      "source": "Hacker News",
+      "published": "2026-08-15T07:31:46+00:00",
+      "summary_raw": "",
+      "points": 35,
+      "num_comments": 27,
+      "hn_url": "https://news.ycombinator.com/item?id=49308553"
+    },
+    {
+      "title": "Ask HN: How do you keep up with HN these days?",
+      "url": "https://news.ycombinator.com/item?id=49308059",
+      "source": "Hacker News",
+      "published": "2026-08-15T05:59:12+00:00",
+      "summary_raw": "In the last 2-3 years, mostly because of AI, keeping up with interesting articles on HN has become harder and harder.<p>How do you deal with it? Besides the simple solution of simply ignoring interesting stuff more and more.",
+      "points": 45,
+      "num_comments": 82,
+      "hn_url": "https://news.ycombinator.com/item?id=49308059"
+    },
+    {
+      "title": "People Who Will Thrive in the AI Age",
+      "url": "https://www.theatlantic.com/ideas/2026/06/ai-open-ai-anthropic/687689/",
+      "source": "Hacker News",
+      "published": "2026-08-15T03:58:17+00:00",
+      "summary_raw": "",
+      "points": 14,
+      "num_comments": 11,
+      "hn_url": "https://news.ycombinator.com/item?id=49307507"
+    },
+    {
+      "title": "Northern Gannet",
+      "url": "https://simonwillison.net/2026/Aug/15/sighting-391300422/",
+      "source": "Simon Willison",
+      "published": "2026-08-15T03:22:00+00:00",
+      "summary_raw": "Northern Gannet, in Pillar Point Harbor, CA, USThis is Morris.\nMorris is a local celebrity: the only known Northern Gannet (Morus bassanus) in the entire Pacific Ocean.\nHe showed up in the Farallon Islands off the coast of San Francisco 14 years ago. He has since made Pillar Point harbor his home, where he's quite easy to spot: the only white bird with a yellow head, usually hanging out with the smaller black Brandt\u2019s cormorants near the harbor sign visible from the end of the commercial pier.\n    \n    \n        Tags: photography, wildlife, half-moon-bay"
+    },
+    {
+      "title": "Show HN: Deltix \u2013\u00a0AI Driven Testing",
+      "url": "https://app.deltix.ai",
+      "source": "Hacker News",
+      "published": "2026-08-15T02:42:14+00:00",
+      "summary_raw": "",
+      "points": 34,
+      "num_comments": 9,
+      "hn_url": "https://news.ycombinator.com/item?id=49307099"
+    },
+    {
+      "title": "AI productivity gains drive net CO\u2082 increase in global energy\u2013economy model",
+      "url": "https://www.nature.com/articles/s44168-026-00411-0",
+      "source": "Hacker News",
+      "published": "2026-08-15T01:42:40+00:00",
+      "summary_raw": "",
+      "points": 12,
+      "num_comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=49306800"
+    },
+    {
+      "title": "Don't classify. Hallucinate!",
+      "url": "https://simonwillison.net/2026/Aug/14/dont-classify-hallucinate/",
+      "source": "Simon Willison",
+      "published": "2026-08-14T21:54:35+00:00",
+      "summary_raw": "Don&#x27;t classify. Hallucinate!\nI still have quite a bit of older content on my blog that I never got round to tagging. My blog has 1,856 tags - likely too many to feed to an LLM in one go and say \"which of these tags match the following content\".\nDoug Turnbull has a neat solution. Tell the model to output tags without any details of the existing vocabulary, then use vector embeddings against the existing corpus to find the concrete tags that are closest to the ones the model imagined might fit!\nHis example prompt suggests including an example of the shape of your tags to help the model make a more useful guess:\n\nYour task is to create novel, never seen before, furniture, home goods, or hardware classification that best fit a search query.\nProduct classifications might look like:\nFurniture / Living Room Furniture / Coffee Tables &amp; End Tables / Coffee Tables\nD\u00e9cor &amp; Pillows / Decorative Pillows &amp; Blankets / Throw Pillows\nFurniture / Bedroom Furniture / Dressers &amp; Chests\nKitchen &amp; Tabletop / Kitchen Organization / Food Storage &amp; Canisters\nSchool Furniture and Supplies / School Furniture / School Chairs &amp; Seating / Stackable Chairs\nBaby &amp; Kids / Toddler &amp; Kids Bedroom Furniture / Kids Beds\nHere's the query to generate classifications for:\nbrown coffee table\n\n\n\n    Tags: search, ai, generative-ai, llms, embeddings, doug-turnbull"
+    },
+    {
+      "title": "Satellite Will Breathe Air to Stay in Orbit",
+      "url": "https://gizmodo.com/this-satellite-will-literally-breathe-air-to-stay-in-orbit-2000796713",
+      "source": "Hacker News",
+      "published": "2026-08-14T19:41:13+00:00",
+      "summary_raw": "",
+      "points": 10,
+      "num_comments": 3,
+      "hn_url": "https://news.ycombinator.com/item?id=49303645"
+    },
+    {
+      "title": "Z.ai Security Disclosure",
+      "url": "https://cvd.z.ai",
+      "source": "Hacker News",
+      "published": "2026-08-14T19:22:00+00:00",
+      "summary_raw": "",
+      "points": 32,
+      "num_comments": 4,
+      "hn_url": "https://news.ycombinator.com/item?id=49303433"
+    },
+    {
+      "title": "OpenAI talent exodus raises 'huge red flag' ahead of IPO",
+      "url": "https://www.cnbc.com/2026/08/14/open-ai-ipo-red-flag.html",
+      "source": "Hacker News",
+      "published": "2026-08-14T19:05:21+00:00",
+      "summary_raw": "",
+      "points": 17,
+      "num_comments": 2,
+      "hn_url": "https://news.ycombinator.com/item?id=49303230"
+    },
+    {
+      "title": "Why Open Source Matters for AI",
+      "url": "https://www.oreilly.com/radar/why-open-source-matters-for-ai/",
+      "source": "Hacker News",
+      "published": "2026-08-14T17:06:09+00:00",
+      "summary_raw": "",
+      "points": 10,
+      "num_comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=49301569"
+    },
+    {
+      "title": "Discrete Fourier Transform by Hand",
+      "url": "https://www.byhand.ai/p/28-discrete-fourier-transform",
+      "source": "Hacker News",
+      "published": "2026-08-14T16:52:46+00:00",
+      "summary_raw": "",
+      "points": 21,
+      "num_comments": 1,
+      "hn_url": "https://news.ycombinator.com/item?id=49301342"
+    },
+    {
+      "title": "AI by Hand",
+      "url": "https://www.byhand.ai/",
+      "source": "Hacker News",
+      "published": "2026-08-14T15:58:59+00:00",
+      "summary_raw": "",
+      "points": 315,
+      "num_comments": 23,
+      "hn_url": "https://news.ycombinator.com/item?id=49300568"
+    },
+    {
+      "title": "A Plane Ran Out of Fuel over the Atlantic. The Pilots Saved 306 Lives",
+      "url": "https://www.popularmechanics.com/flight/a73413706/air-transat-flight-fuel-glider/",
+      "source": "Hacker News",
+      "published": "2026-08-14T15:46:29+00:00",
+      "summary_raw": "",
+      "points": 13,
+      "num_comments": 8,
+      "hn_url": "https://news.ycombinator.com/item?id=49300368"
+    },
+    {
+      "title": "Google is making private AI practical with homomorphic encryption",
+      "url": "https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/",
+      "source": "Hacker News",
+      "published": "2026-08-14T15:43:10+00:00",
+      "summary_raw": "",
+      "points": 404,
+      "num_comments": 246,
+      "hn_url": "https://news.ycombinator.com/item?id=49300314"
+    },
+    {
+      "title": "Show HN: Mininote: Instant, plain-text note taking without tracking or lock-in",
+      "url": "https://mininote.ink/",
+      "source": "Hacker News",
+      "published": "2026-08-14T15:30:29+00:00",
+      "summary_raw": "So, I built this little thing over the past month or so now, I got tired of places for tickets, notes, and such being shoved front and center in apps.<p>Thus I created Mininote to get away from the noise I wanted something simple to move out of the way completely when I don&#x27;t need it but be there when I do need it<p>It contains a slew of features built right in, but the coolest is the sites own API is also the sites own public API no split seam",
+      "points": 21,
+      "num_comments": 3,
+      "hn_url": "https://news.ycombinator.com/item?id=49300129"
+    },
+    {
+      "title": "When Genius Fails: The Intellectual Arrogance of the AI Labs",
+      "url": "https://weightythoughts.com/p/when-genius-failsthe-intellectual",
+      "source": "Hacker News",
+      "published": "2026-08-14T14:34:49+00:00",
+      "summary_raw": "",
+      "points": 172,
+      "num_comments": 194,
+      "hn_url": "https://news.ycombinator.com/item?id=49299282"
+    },
+    {
+      "title": "AI Model Atlas \u2013 visualizing populations of ML models as interconnected 3D graph",
+      "url": "https://run.cosmograph.app/public/ca9fd1ad-fe83-4238-8b69-b707c633aef0",
+      "source": "Hacker News",
+      "published": "2026-08-14T14:22:39+00:00",
+      "summary_raw": "",
+      "points": 62,
+      "num_comments": 8,
+      "hn_url": "https://news.ycombinator.com/item?id=49299102"
+    },
+    {
+      "title": "'Masturbation Consultants' Were Hired to Pleasure Themselves with AI",
+      "url": "https://www.wired.com/story/these-masturbation-consultants-were-hired-to-pleasure-themselves-using-ai/",
+      "source": "Hacker News",
+      "published": "2026-08-14T14:17:43+00:00",
+      "summary_raw": "",
+      "points": 12,
+      "num_comments": 3,
+      "hn_url": "https://news.ycombinator.com/item?id=49299044"
+    },
+    {
+      "title": "Show HN: Is AI Dumber Today? An index of AI model experience from user's opinion",
+      "url": "https://isaidumber.today/",
+      "source": "Hacker News",
+      "published": "2026-08-14T13:50:46+00:00",
+      "summary_raw": "",
+      "points": 14,
+      "num_comments": 6,
+      "hn_url": "https://news.ycombinator.com/item?id=49298674"
+    },
+    {
+      "title": "HashAgent \u2013 Share an AI agent as a URL, runs locally via WebGPU",
+      "url": "https://hashagent.pages.dev/",
+      "source": "Hacker News",
+      "published": "2026-08-14T12:57:02+00:00",
+      "summary_raw": "",
+      "points": 51,
+      "num_comments": 7,
+      "hn_url": "https://news.ycombinator.com/item?id=49298088"
+    },
+    {
+      "title": "Dear people who work at the airport",
+      "url": "https://life-after-ssri.bearblog.dev/dear-people-who-work-at-the-airport/",
+      "source": "Hacker News",
+      "published": "2026-08-14T12:23:22+00:00",
+      "summary_raw": "",
+      "points": 200,
+      "num_comments": 254,
+      "hn_url": "https://news.ycombinator.com/item?id=49297801"
+    }
+  ]
+}
