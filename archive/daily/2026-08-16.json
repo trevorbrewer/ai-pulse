@@ -1,0 +1,199 @@
+{
+  "date": "2026-08-16",
+  "generated_at": "2026-08-16T11:16:30.031207+00:00",
+  "source_counts": {
+    "rss_feeds": 2,
+    "arxiv": 0,
+    "hackernews": 17,
+    "nitter": 0,
+    "total_raw": 19,
+    "total_deduped": 19,
+    "total_saved": 19
+  },
+  "items": [
+    {
+      "title": "Has the hallucination problem in AI been solved?",
+      "url": "https://news.ycombinator.com/item?id=49316330",
+      "source": "Hacker News",
+      "published": "2026-08-16T02:23:52+00:00",
+      "summary_raw": "My understanding that all AI can, and will hallucinate. I get downvoted for saying this, but no one ever says I&#x27;m wrong or cites any source. Perhaps it&#x27;s more nuanced than that? Please, enlighten me.",
+      "points": 13,
+      "num_comments": 38,
+      "hn_url": "https://news.ycombinator.com/item?id=49316330"
+    },
+    {
+      "title": "ChatGPT lost 22 points of web share in a year",
+      "url": "https://aicharts.grok.me/c/market-share",
+      "source": "Hacker News",
+      "published": "2026-08-16T00:22:20+00:00",
+      "summary_raw": "",
+      "points": 22,
+      "num_comments": 51,
+      "hn_url": "https://news.ycombinator.com/item?id=49315630"
+    },
+    {
+      "title": "AI-Assisted GPU Porting of a 250k Line Legacy Weather Simulation Code",
+      "url": "https://arxiv.org/abs/2608.13122",
+      "source": "Hacker News",
+      "published": "2026-08-15T22:41:51+00:00",
+      "summary_raw": "",
+      "points": 37,
+      "num_comments": 4,
+      "hn_url": "https://news.ycombinator.com/item?id=49314967"
+    },
+    {
+      "title": "AI makes foundational knowledge more important",
+      "url": "https://www.timeshighereducation.com/opinion/ai-makes-foundational-knowledge-more-important-ever",
+      "source": "Hacker News",
+      "published": "2026-08-15T21:18:21+00:00",
+      "summary_raw": "",
+      "points": 12,
+      "num_comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=49314435"
+    },
+    {
+      "title": "American Airlines 737s with the Same Callsign Flew Straight at Each Other",
+      "url": "https://simpleflying.com/american-airlines-boeing-737-same-callsign/",
+      "source": "Hacker News",
+      "published": "2026-08-15T20:30:40+00:00",
+      "summary_raw": "",
+      "points": 12,
+      "num_comments": 2,
+      "hn_url": "https://news.ycombinator.com/item?id=49314044"
+    },
+    {
+      "title": "Meta will train its AI on Newsmax, a far-right media outlet",
+      "url": "https://popular.info/p/meta-will-train-its-ai-on-far-right",
+      "source": "Hacker News",
+      "published": "2026-08-15T20:00:14+00:00",
+      "summary_raw": "",
+      "points": 22,
+      "num_comments": 13,
+      "hn_url": "https://news.ycombinator.com/item?id=49313778"
+    },
+    {
+      "title": "Why tech bosses keep sharing their manifestos about AI",
+      "url": "https://www.bbc.com/news/articles/cz97ljy91zxo",
+      "source": "Hacker News",
+      "published": "2026-08-15T19:30:32+00:00",
+      "summary_raw": "",
+      "points": 21,
+      "num_comments": 60,
+      "hn_url": "https://news.ycombinator.com/item?id=49313519"
+    },
+    {
+      "title": "AI in drug discovery \u2013 what it is, where we stand and the path forward",
+      "url": "https://www.science.org/content/blog-post/so-how-ai-drug-discovery-doing-really",
+      "source": "Hacker News",
+      "published": "2026-08-15T19:12:53+00:00",
+      "summary_raw": "<a href=\"https:&#x2F;&#x2F;www.nature.com&#x2F;articles&#x2F;s41573-026-01496-2\" rel=\"nofollow\">https:&#x2F;&#x2F;www.nature.com&#x2F;articles&#x2F;s41573-026-01496-2</a>",
+      "points": 144,
+      "num_comments": 78,
+      "hn_url": "https://news.ycombinator.com/item?id=49313367"
+    },
+    {
+      "title": "AI has access to a vastly larger working memory than the human brain",
+      "url": "https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians",
+      "source": "Hacker News",
+      "published": "2026-08-15T18:13:02+00:00",
+      "summary_raw": "",
+      "points": 507,
+      "num_comments": 428,
+      "hn_url": "https://news.ycombinator.com/item?id=49312845"
+    },
+    {
+      "title": "US to tell partners they must pick sides in AI race with China",
+      "url": "https://www.reuters.com/world/china/us-tell-partners-they-must-pick-sides-ai-race-with-china-2026-08-14/",
+      "source": "Hacker News",
+      "published": "2026-08-15T16:25:14+00:00",
+      "summary_raw": "",
+      "points": 22,
+      "num_comments": 7,
+      "hn_url": "https://news.ycombinator.com/item?id=49311888"
+    },
+    {
+      "title": "AI Can Now Design Functional Viruses. Should We Worry?",
+      "url": "https://spectrum.ieee.org/ai-designed-virus",
+      "source": "Hacker News",
+      "published": "2026-08-15T15:32:25+00:00",
+      "summary_raw": "",
+      "points": 61,
+      "num_comments": 126,
+      "hn_url": "https://news.ycombinator.com/item?id=49311445"
+    },
+    {
+      "title": "OpenAI talent exodus raises 'huge red flag' ahead of IPO",
+      "url": "https://www.cnbc.com/2026/08/14/open-ai-ipo-red-flag.html",
+      "source": "Hacker News",
+      "published": "2026-08-15T15:25:16+00:00",
+      "summary_raw": "",
+      "points": 26,
+      "num_comments": 3,
+      "hn_url": "https://news.ycombinator.com/item?id=49311379"
+    },
+    {
+      "title": "CORS Chat",
+      "url": "https://simonwillison.net/2026/Aug/15/cors-chat/",
+      "source": "Simon Willison",
+      "published": "2026-08-15T14:49:54+00:00",
+      "summary_raw": "Tool: CORS Chat\n        I built this today (with GPT-5.6-Sol xhigh) to help test Qwen 3.8 27B running in LM Studio on both my M5 MacBook Pro and an NVIDIA DGX Spark.\nIt provides a web UI for exercising an OpenAI-Responses-compatible chat endpoint. I've tried it against LM Studio with the --cors option and OpenRouter, and both work fine.\nConversations are persisted in the browser and can be exported as copy-pasted JSON. One fun detail is that it notices SVG images that are being generated and progressively renders them in the chat while the tokens are still streaming in.\n\n    \n    \n        Tags: svg, ai, generative-ai, llms, cors, openrouter, lm-studio"
+    },
+    {
+      "title": "The AI Situation in Software Development",
+      "url": "https://srikanth.ch/posts/the-ai-situation/",
+      "source": "Hacker News",
+      "published": "2026-08-15T14:12:27+00:00",
+      "summary_raw": "",
+      "points": 42,
+      "num_comments": 69,
+      "hn_url": "https://news.ycombinator.com/item?id=49310755"
+    },
+    {
+      "title": "Secondhand book sales are booming. Is it because of AI?",
+      "url": "https://www.bbc.co.uk/news/articles/cp3rprx2wl4o",
+      "source": "Hacker News",
+      "published": "2026-08-15T14:08:55+00:00",
+      "summary_raw": "",
+      "points": 68,
+      "num_comments": 70,
+      "hn_url": "https://news.ycombinator.com/item?id=49310725"
+    },
+    {
+      "title": "Cloudflare's AI Psychosis",
+      "url": "https://opensauce.it/cloudflare-ai-psychosis/",
+      "source": "Hacker News",
+      "published": "2026-08-15T14:08:40+00:00",
+      "summary_raw": "",
+      "points": 109,
+      "num_comments": 90,
+      "hn_url": "https://news.ycombinator.com/item?id=49310719"
+    },
+    {
+      "title": "Show HN: Visually Precise AI Tutoring on iOS",
+      "url": "https://useknowable.ai/",
+      "source": "Hacker News",
+      "published": "2026-08-15T13:53:17+00:00",
+      "summary_raw": "",
+      "points": 10,
+      "num_comments": 1,
+      "hn_url": "https://news.ycombinator.com/item?id=49310572"
+    },
+    {
+      "title": "Yadda 3.0.0: BDD in the Age of AI Agents",
+      "url": "http://www.stephen-cresswell.com/2026/08/15/Yadda-3.0.0-BDD-in-the-Age-of-AI-Agents.html",
+      "source": "Hacker News",
+      "published": "2026-08-15T13:43:46+00:00",
+      "summary_raw": "",
+      "points": 60,
+      "num_comments": 27,
+      "hn_url": "https://news.ycombinator.com/item?id=49310495"
+    },
+    {
+      "title": "Building an AI Text Detector From Scratch",
+      "url": "https://magazine.sebastianraschka.com/p/ai-detector-from-scratch",
+      "source": "Sebastian Raschka",
+      "published": "2026-08-15T11:54:24+00:00",
+      "summary_raw": "An End-to-End Project With Dataset Construction, Model Training, Local Deployment, and RLVR"
+    }
+  ]
+}
