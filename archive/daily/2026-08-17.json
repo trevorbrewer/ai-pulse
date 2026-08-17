@@ -1,0 +1,190 @@
+{
+  "date": "2026-08-17",
+  "generated_at": "2026-08-17T11:21:03.211281+00:00",
+  "source_counts": {
+    "rss_feeds": 5,
+    "arxiv": 0,
+    "hackernews": 15,
+    "nitter": 0,
+    "total_raw": 20,
+    "total_deduped": 19,
+    "total_saved": 19
+  },
+  "items": [
+    {
+      "title": "Get closer to the game with Gemini and Pixel",
+      "url": "https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/",
+      "source": "Google AI Blog",
+      "published": "2026-08-17T08:00:00+00:00",
+      "summary_raw": "Low-angle view of a soccer player kicking a ball mid-air against a bright blue sky, with grass flying from their cleats."
+    },
+    {
+      "title": "HackEurope 2026: A short rant on AI and hackathons",
+      "url": "https://duti.dev/blog/2026/spr/",
+      "source": "Hacker News",
+      "published": "2026-08-17T07:28:43+00:00",
+      "summary_raw": "",
+      "points": 51,
+      "num_comments": 48,
+      "hn_url": "https://news.ycombinator.com/item?id=49327490"
+    },
+    {
+      "title": "US Air Force jet engine manufacturing plagued by 'significant challenges'",
+      "url": "https://www.militarytimes.com/industry/techwatch/2026/08/03/us-air-force-jet-engine-manufacturing-plagued-by-significant-challenges/",
+      "source": "Hacker News",
+      "published": "2026-08-17T03:29:03+00:00",
+      "summary_raw": "",
+      "points": 17,
+      "num_comments": 14,
+      "hn_url": "https://news.ycombinator.com/item?id=49326273"
+    },
+    {
+      "title": "New policy ideas for the Intelligence Age",
+      "url": "https://openai.com/index/new-policy-ideas-for-the-intelligence-age",
+      "source": "OpenAI Blog",
+      "published": "2026-08-17T03:15:00+00:00",
+      "summary_raw": "OpenAI funds 14 independent projects exploring new AI policy ideas to expand economic opportunity and strengthen societal resilience in the Intelligence Age."
+    },
+    {
+      "title": "Markdown SVG upgrades",
+      "url": "https://simonwillison.net/2026/Aug/16/markdown-svg-upgrades/",
+      "source": "Simon Willison",
+      "published": "2026-08-16T23:59:37+00:00",
+      "summary_raw": "I started building my markdown-svg-renderer tool in May, but I've since added enough features to it that it's worth talking about here again.\nIt's evolved into my ideal tool for sharing Markdown transcripts that include SVG documents. Given my proclivity for drawing pelicans riding bicycles this is a problem that I needed to solve!\nThe tool is very simple. Navigate to markdown-svg-renderer in your browser and paste in some Markdown to see it rendered... or save that Markdown to a CORS-friendly URL or a GitHub Gist and paste in a URL to that document.\nThe URL option will give you a bookmarkable page, for example https://tools.simonwillison.net/markdown-svg-renderer#url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F6f9e48293be5c916652d29f0dc0b0657 - which bakes in the URL to this Gist.\nIf you visit the Gist you'll see raw SVG:\n\nIn the rendered tool that looks like this instead:\n\nAs you can see, that SVG block in the Markdown has been transformed into a rendered SVG (in this case animated) plus several tabs.\nThe tabs are the really fun bit. The PNG and JPEG tabs render that SVG to those image formats in the browser and lets you copy or download them - useful for sharing on platforms that don't support SVG directly.\nThe MP4 tab is new today - it examines the SVG to see if it contains any animations, attempts to guess how long the looped video should be, then renders a whole bunch of frames of the animation and loads 30+MB of ffmpeg.wasm so it can compile those frames into an MP4 video using the full power of FFMPEG compiled to WebAssembly and running in the browser.\nBeing able to turn an animated SVG into a MP4 again makes it easy to share on platforms that can't support SVG animation natively. It's a neat trick!\n\n    Tags: svg, markdown, tools"
+    },
+    {
+      "title": "Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+",
+      "url": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/",
+      "source": "Hacker News",
+      "published": "2026-08-16T23:07:07+00:00",
+      "summary_raw": "",
+      "points": 14,
+      "num_comments": 2,
+      "hn_url": "https://news.ycombinator.com/item?id=49324712"
+    },
+    {
+      "title": "Anthropic CEO says the way for AI to win over the public is to cure cancer",
+      "url": "https://www.businessinsider.com/anthropic-ceo-dario-amodei-ai-public-opinion-cure-cancer-2026-8",
+      "source": "Hacker News",
+      "published": "2026-08-16T22:50:38+00:00",
+      "summary_raw": "",
+      "points": 26,
+      "num_comments": 43,
+      "hn_url": "https://news.ycombinator.com/item?id=49324572"
+    },
+    {
+      "title": "Qwen 3.8 27B is excellent, but it defaults to wildly overthinking things",
+      "url": "https://simonwillison.net/2026/Aug/16/qwen-38-27b/",
+      "source": "Simon Willison",
+      "published": "2026-08-16T22:00:39+00:00",
+      "summary_raw": "Friday's big release was Qwen 3.8 27B, an Apache 2 licensed 27B parameter vision-capable LLM from Alibaba's Qwen research lab. I've been looking forward to this one: 27B is an excellent size for running a model on a reasonably specced laptop, and its predecessor Qwen 3.6 27B was impressive.\nQwen's self-reported benchmarks for this model are eye-opening. They show a boost from both Qwen 3.6 27B and the closed-weight Qwen 3.7-Plus, which was one of Qwen's strongest models of any size as recently as May this year. It will be interesting to hear what independent benchmarks have to say about the model.\nI've been running the model on two different machines: my 128GB M5 Max MacBook Pro, and an NVIDIA DGX Spark. On both machines I'm running LM Studio and their 17GB Q4_K_M quantized build. I also tried  using llama-server directly on the Spark.\nThe default of extra high results in spectacular over-thinking\nQwen's documentation describes the model as defaulting to xhigh for the reasoning effort, and the LM Studio GGUF I've been trying preserves that default:\n\nQwen3.8 comes with official support for reasoning_effort, which can be used to adjust reasoning depth and control cost:\n\n\nxhigh (default): for complex tasks demanding thorough analysis\n\nmedium: balancing accuracy and speed\n\nlow: efficient reasoning optimizing for speed and cost\n\n\nThis is a hilarious default. It's absolutely not a good way to run the model, especially on consumer hardware. I've been finding the results extremely entertaining.\nI quickly ran into problems with LM Studio's default context limit of 8,192 tokens - Qwen was using them all up thinking about even the most mundane of problems. I loaded the model with the full 262,144 maximum context length and that problem went away.\nHere's the pelican riding a bicycle SVG I got from my first attempt with that increased context length. It took 21 minutes to generate, using 22,276 reasoning tokens to produce 3,223 tokens of output. You can read the reasoning trace here.\n\nThis is by far the best pelican SVG I've been able to generate with a model that runs on a local machine - and this Qwen is pretty small, just a 17GB file on disk. There's a lot to like about this:\n\nThe bicycle frame is the right shape\nIt has legs on each side of the bike - that's very rare\nGood, clear pelican pouch\nThe wings extend to touch the handlebars!\nThe motion lines are behind, not in front\nIt has a tasteful background - nice sun, clouds, hill, flowers and grass.\n\nWas that worth waiting 21 minutes for? Absolutely not.\nHere's that same prompt run with reasoning turned off - transcript here. This one produced 3,715 tokens and took 137s - just over two minutes.\n\nAnd just for completeness, I used OpenRouter to run the same prompt through the much larger Qwen 3.8 2.4T-A95B (released last week) and got this snazzy animated SVG:\n\n    \n    Your browser does not support HTML5 video.\n  \n\nI said Qwen at xhigh has a tendency to over-think things, but how bad really is it?\nI tried a much simpler prompt, again with that default extra high setting:\n\ndraw an svg of a circle\n\nQwen's reasoning trace started like this:\n\nThe user is asking for an SVG drawing of a circle. Simple request \u2014 but I want it to be a carefully crafted piece. Let me make something that goes beyond just &lt;circle&gt;: a single self-contained SVG file with character \u2014 maybe a geometric \"circle study,\" with subtle animation, layered rings, and a distinctive palette.\nKeep the scope right: they asked for an SVG of a circle. So the core is a circle. But I can add craft: concentric guide circles (like a compass/geometry drawing), tick marks, a soft gradient fill on the main circle, restrained ambient motion (a slowly rotating dashed ring, pulsing glow). Respect prefers-reduced-motion? That's more for CSS; SVG SMIL or CSS inside SVG will do.\nPalette options: deep teal ink on warm paper? Or bold vermilion circle on off-white with navy construction lines \u2014 Bauhaus/compass-drawing vibe. Let me go with a \"geometric study\" look: cool slate background, or bright paper white? Paper white is fine if it's not the cream-and-terracotta combo. [...]\n\nSeveral minutes later it produced this absolutely beautiful animated circle, which was entirely not what I had asked for!\n\n    \n    Your browser does not support HTML5 video.\n  \n\nMy strong recommendation: ignore that default. Run Qwen 3.8 27B on low or even no reasoning levels at first. It's a great model, but wow that default setting is a bad place to start.\nIt's very good at bounding boxes\nA fun way to test a vision model is to see how well it can return bounding boxes around items in a photograph. I've seen previous Qwen models deal well with this, so I decided to put it to the test drawing bounding boxes around some pelicans.\nI've seen asking for 0-1000 scale produce good results in the past. I tried this:\nllm -a https://static.inaturalist.org/photos/714731804/large.jpg \\\n  -m lmstudio/qwen/qwen3.8-27b \\\n  'Return JSON bounding boxes for the pelicans in this photo, 0-1000 scale for each dimension'\nHere's the reasoning trace, which produced this:\n[\n  {\"bbox_2d\": [195, 290, 370, 780], \"label\": \"pelicans\"},\n  {\"bbox_2d\": [445, 320, 675, 850], \"label\": \"pelicans\"}\n]\nThis is such a good match. Here are those boxes rendered on top of the photo:\n\nBuilding a tool to label bounding boxes\nThat visualization of the bounding boxes was taken using a new custom tool that I had Qwen 3.8 27B build for me, running offline on my laptop.\nI forgot to dial down the thinking effort so it was massively over-engineered, but it did manage to produce this full interface from this single prompt:\n\n[\n   {\"bbox_2d\": [195, 290, 370, 780], \"label\": \"pelicans\"},\n   {\"bbox_2d\": [445, 320, 675, 850], \"label\": \"pelicans\"}\n]\n\nBuild an HTML page which has an input box for accepting the URL to an image and a textarea for accepting the above style of JSON.\nIt appends the image to the page, measures its width and height, then treats the coords in the bbox_2d as scaled from 0-1000 and scales them against the actual width and height, then it renders labelled boxes over the image.\n\nThis screenshot shows one of the features I did not ask for - a demo scene, for if you don't have a photograph to test the tool with:\n\nHere's the relevant segment of the thinking trace, where it decided to draw its own pelicans purely because I had used the label \"pelicans\" in the example JSON I gave it in the prompt:\n\nAlso a \"load sample\" that uses a known image? Can't depend on external images, but\u2026 the image URL input is user-provided; I could add a \"try with sample\" button [...] Hmm, I can draw a simple scene on canvas, export it as a data URL, and load it into the image \u2014 that's self-contained and demo-able! [...] But the user's coords are for an actual pelican image; a generated placeholder can still demo the scaling. Generate a 1000x1000 placeholder: gradient water + two blob-like \"pelican\" silhouettes placed at the given bboxes (using the same scale \u2014 cute: silhouettes at the exact 0-1000 positions, showing the boxes align). This makes for a fun, self-contained demo. Keep it simple: sky gradient, sun, water, two pelican-ish shapes (ellipse body, circle head, beak). Place at bbox centers.\n\n(I'm slightly nervous that models around the world might have a bias towards drawing pelicans at any chance they can get, brought on by nearly two years of exposure to my own stupid benchmark.)\nIs all that over-thinking necessary? Maybe it is, at least a bit. I tried with reasoning turned off and got this version, (transcript here), which nearly works but shows the boxes in the wrong place:\n\nSo without reasoning it didn't quite one-shot a working tool. I'm sure it could get there with some follow-up prompts, but this is a good example of how reasoning can make a difference.\nYes, it can drive coding agents\nOne of the biggest questions around local models is whether or not they have enough horsepower to successfully run a coding agent loop. Coding agents require long context, strong code generation support and reliable tool-calling. On paper Qwen 3.8 27B has all three of these, so is it up to the task?\nMy initial experiments with Pi have been very promising. I chose Pi because it has a shorter system prompt than most other options, making it a better fit for trying out smaller models.\nI configured Pi to use Qwen 3.8 27B running in LM Studio on the Spark (shared via tailscale serve) by adding this to ~/.pi/agent/models.json:\n{\n  \"providers\": {\n    \"spark\": {\n      \"baseUrl\": \"https://spark-18b3.tail68a31.ts.net/v1\",\n      \"api\": \"openai-responses\",\n      \"apiKey\": \"dummy\",\n      \"models\": [\n        {\n          \"id\": \"qwen3.8-27b\",\n          \"reasoning\": true\n        }\n      ]\n    }\n  }\n}\nThen ran pi --provider spark --model qwen3.8-27b in my ~/dev/datasette folder and prompted:\n\nhow does auth work?\n\nAfter a sequence of reasoning and tool calls that accessed a bunch of different files it produced this reply, which is very solid.\nJust one problem: I wanted to share that transcript. So I pointed Pi and Qwen 3.8 27B at the JSONL transcript file in ~/.pi/agent/sessions/--Users-simon-Dropbox-dev-datasette-- and prompted:\n\nWrite Python code to convert this jsonl to markdown\n\nAnd it built and tested this pi_jsonl_to_md.py, which did exactly what I needed. Here's that session transcript, published using the tool that it created.\nThe quest for speed\nSo far this is all looking very promising. We have a 17GB model that runs on high-end consumer hardware and can write code, drive tools, annotate images and generally do everything that I need from an LLM for getting real work done.\nThere's one very significant catch: it feels slow - especially when it starts over-thinking, but even without that it's not particularly sprightly.\nI've been getting around 15-30 tokens a second from LM Studio. That's not terrible, but it's slow enough that it's going to be hard to win me away from hosted API models, which can return results a whole lot faster. Artificial Analysis track token speed and show OpenAI 5.6 Sol at 74 tokens/second and 5.6 Luna at an impressive 184/second.\nThe good news is that the community have been exploring ways to speed things up since the model was first released two days ago.\nOne of the most promising optimizations is baked into the model itself. Qwen supports Multi-Token Prediction, an architecture trick where a cheaper mechanism guesses several tokens ahead and the main model can then quickly verify if the guesses were correct. This can have quite a dramatic effect on inference performance.\nBased on this tweet from llama.cpp creator Georgi Gerganov I tried running the model with MTP like this on the Spark:\nllama serve \\\n -hf  ggml-org/Qwen3.8-27B-GGUF:Q4_K_M \\\n -hfd ggml-org/Qwen3.8-27B-GGUF:Q4_0 \\\n --spec-default \\\n --spec-type draft-mtp \\\n --reasoning-preserve\nAnd sure enough, this gave me a significant boost. I had GPT-5.6 in Codex run a comparative benchmark on the Spark and the --spec-type draft-mtp server outperformed the LM Studio default GGUF by around 72%.\nI expect we'll see a whole lot more innovation around serving this model faster over the next few weeks. The MLX community likely have some tricks brewing as well.\nSome observations\nThe fact that a 17GB file can do all of this stuff on my home machines is a miracle. Once again, I'm delighted and amazed at how much progress local models have made this year. A year ago this would have been competitive with the best and most expensive of the proprietary models - today it can run on a capable laptop.\nThe only thing holding this back from being a daily driver is performance. It feels pretty slow on both the M5 Mac and the DGX Spark. That's the catch with these dense (non-Mixture-of-Experts) models - they require a whole lot of memory bandwidth to perform well, and neither of the machines I have access to are top performers in that regard.\nThe most important thing about Qwen 3.8 27B is what it demonstrates. We can have an open weights general purpose model with a long context, effective tool calling, strong vision ability, and competent code generation, and we can fit the whole thing in just a 17GB file.\nThe models at this size continue to get better at an impressive rate. We don't need to spend half a million dollars on datacenter-class hardware just to run a competent model.\n    \n        Tags: ai, generative-ai, local-llms, llms, qwen, pelican-riding-a-bicycle, llm-reasoning, llama-cpp, llm-release, coding-agents, lm-studio, ai-in-china, nvidia-spark, pi"
+    },
+    {
+      "title": "Claude Is Down",
+      "url": "https://claude.ai/new",
+      "source": "Hacker News",
+      "published": "2026-08-16T21:51:25+00:00",
+      "summary_raw": "",
+      "points": 29,
+      "num_comments": 37,
+      "hn_url": "https://news.ycombinator.com/item?id=49324068"
+    },
+    {
+      "title": "Young People Hate AI CEOs So Passionately That It's Almost Hard to Believe",
+      "url": "https://futurism.com/artificial-intelligence/young-people-ai-ceos-executives-poll",
+      "source": "Hacker News",
+      "published": "2026-08-16T21:34:06+00:00",
+      "summary_raw": "",
+      "points": 119,
+      "num_comments": 122,
+      "hn_url": "https://news.ycombinator.com/item?id=49323932"
+    },
+    {
+      "title": "Anthropic CEO says AI backlash is 'fundamentally a crisis of trust'",
+      "url": "https://techcrunch.com/2026/08/16/anthropic-ceo-says-ai-backlash-is-fundamentally-a-crisis-of-trust/",
+      "source": "Hacker News",
+      "published": "2026-08-16T20:14:04+00:00",
+      "summary_raw": "",
+      "points": 12,
+      "num_comments": 5,
+      "hn_url": "https://news.ycombinator.com/item?id=49323245"
+    },
+    {
+      "title": "Red queen hypothesis \u2013 A new way forward for self-improving AI",
+      "url": "https://www.cst.cam.ac.uk/news/red-queen-hypothesis-new-way-forward-self-improving-ai",
+      "source": "Hacker News",
+      "published": "2026-08-16T20:01:13+00:00",
+      "summary_raw": "",
+      "points": 72,
+      "num_comments": 20,
+      "hn_url": "https://news.ycombinator.com/item?id=49323136"
+    },
+    {
+      "title": "The AI store manager fired its first human",
+      "url": "https://thenextweb.com/news/andon-market-luna-ai-store-manager-fires-employee",
+      "source": "Hacker News",
+      "published": "2026-08-16T18:19:47+00:00",
+      "summary_raw": "",
+      "points": 12,
+      "num_comments": 3,
+      "hn_url": "https://news.ycombinator.com/item?id=49322350"
+    },
+    {
+      "title": "MathCode, Mathematical Coding Agent",
+      "url": "https://math-ai-org.github.io/mathcode/",
+      "source": "Hacker News",
+      "published": "2026-08-16T18:17:10+00:00",
+      "summary_raw": "",
+      "points": 100,
+      "num_comments": 28,
+      "hn_url": "https://news.ycombinator.com/item?id=49322330"
+    },
+    {
+      "title": "AI is not just one bubble, strategist says \u2013 but a 'rolling sequence of bubbles'",
+      "url": "https://fortune.com/2026/08/16/ai-bubble-sequence-saas-software-stocks-silver-prices-chipmakers/",
+      "source": "Hacker News",
+      "published": "2026-08-16T18:05:39+00:00",
+      "summary_raw": "",
+      "points": 11,
+      "num_comments": 10,
+      "hn_url": "https://news.ycombinator.com/item?id=49322233"
+    },
+    {
+      "title": "Show HN: I shrank DeepSeek V4 Flash to 57GB and it wrote a compiler on my Mac",
+      "url": "https://huggingface.co/steadfastgaze/DeepSeek-V4-Flash-0731-Coder-56.8GB-MoEspressoV2",
+      "source": "Hacker News",
+      "published": "2026-08-16T17:13:22+00:00",
+      "summary_raw": "I built a specialized package of DeepSeek V4 Flash 0731 (originally 284B total parameters, 13B active), preserving reasoning, tool calling and coding capabilities:<p><a href=\"https:&#x2F;&#x2F;huggingface.co&#x2F;steadfastgaze&#x2F;DeepSeek-V4-Flash-0731-Coder-56.8GB-MoEspressoV2\" rel=\"nofollow\">https:&#x2F;&#x2F;huggingface.co&#x2F;steadfastgaze&#x2F;DeepSeek-V4-Flash-0731-...</a><p>I let it write a minimal C compiler targeting ARM64, then test the result with Fibonacci and FizzBuzz programs, and it succeeded in less than 1 hour, with the full recording at:<p><a href=\"https:&#x2F;&#x2F;youtu.be&#x2F;XiwSilmV8B0\" rel=\"nofollow\">https:&#x2F;&#x2F;youtu.be&#x2F;XiwSilmV8B0</a><p>You can run it on Silicon Macs with my engine <a href=\"https:&#x2F;&#x2F;github.com&#x2F;steadfastgaze&#x2F;MoEspresso\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;steadfastgaze&#x2F;MoEspresso</a>,\nwhile one of the core libraries developed to obtain this result is available at <a href=\"https:&#x2F;&#x2F;github.com&#x2F;steadfastgaze&#x2F;mlx-iqk\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;steadfastgaze&#x2F;mlx-iqk</a>.<p>The above recording was on a 128GB memory MacBook M3 Max, but you can also run it on 32GB MacBooks with a very usable context (128K tokens) and projected 5 tok&#x2F;s. I did try it on a fanless 16GB memory MacBook Air M1 (1.39 tok&#x2F;s), but unfortunately the available context was very small.<p>How:\n- First, efficient quantisation: mlx-iqk takes advantage of IQ_K tensor encoding, more efficient than the ones available via llama.cpp or barebones MLX, originally designed by Iwan Kawrakow - I also changed the layout to a k-contiguous one, to make it faster, at least in this Metal setup.<p>- Second, expert pruning: each of the 40 learned-router layers had 256 experts, and not all of them are equally important for the coding use cases. I removed 80B parameters - this is a known technique called REAP, shared at <a href=\"https:&#x2F;&#x2F;www.cerebras.ai&#x2F;blog&#x2F;reap\" rel=\"nofollow\">https:&#x2F;&#x2F;www.cerebras.ai&#x2F;blog&#x2F;reap</a>.<p>- Third: balancing the cheapest IQ1_S_R4 tensor encoding (~1.5 bits per weight), selectively promoting projections to IQ2_KS or IQ2_K where the measured error reduction justified the bytes.<p>One of the main ideas was not only to save relevant knowledge, but also to not make it forget how to... stop thinking, how to use reasoning. In the first experiments, it would sometimes reason for thousands of tokens without closing its thinking section, or it would go in loops.<p>Then I solved this by heavily weighting tool-calling traces and structured reasoning in the calibration mix.",
+      "points": 17,
+      "num_comments": 2,
+      "hn_url": "https://news.ycombinator.com/item?id=49321813"
+    },
+    {
+      "title": "Quoting Dario Amodei",
+      "url": "https://simonwillison.net/2026/Aug/16/dario-amodei/",
+      "source": "Simon Willison",
+      "published": "2026-08-16T15:05:36+00:00",
+      "summary_raw": "I do agree that the public has a negative view of AI (and that this is a big problem), but I don\u2019t think it is primarily caused by me or any other AI leader warning about AI\u2019s risks.\u00a0 I think it is fundamentally a crisis of trust.\u00a0 I think that ordinary people don\u2019t trust companies, governments, or the tech industry and always suspect that we are cooking up some new way to screw them over.\u00a0 The causes of this go back decades and AI is just the latest iteration of it.\u00a0 I don\u2019t think that a glitzy marketing campaign with a positive spin (which some have advocated that Anthropic do) is the way to win back that trust \u2014 at this point, saying that AI will cure cancer is more a cliche than it is inspiring, and most people think it is deceptive.\u00a0 The thing that will work is actually curing cancer.\u00a0 I think by far the most accurate criticism of AI companies including Anthropic is that we haven\u2019t yet delivered on our big promises to benefit the world.\u00a0 That is totally on us, and I think it\u2019s the criticism you should be making, instead of all this stuff about messaging and marketing.\n&mdash; Dario Amodei\n\n    Tags: anthropic, ai, ai-backlash"
+    },
+    {
+      "title": "The AI Credit Resale Economy",
+      "url": "https://vectoral.com/blog/who-are-the-token-brokers",
+      "source": "Hacker News",
+      "published": "2026-08-16T14:44:55+00:00",
+      "summary_raw": "",
+      "points": 298,
+      "num_comments": 120,
+      "hn_url": "https://news.ycombinator.com/item?id=49320611"
+    },
+    {
+      "title": "Show HN: A public AI whose memory is shared across all users",
+      "url": "https://wildstatic.com/",
+      "source": "Hacker News",
+      "published": "2026-08-16T13:21:45+00:00",
+      "summary_raw": "",
+      "points": 74,
+      "num_comments": 66,
+      "hn_url": "https://news.ycombinator.com/item?id=49319814"
+    }
+  ]
+}
