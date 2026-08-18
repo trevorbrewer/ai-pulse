@@ -1,0 +1,241 @@
+{
+  "date": "2026-08-18",
+  "generated_at": "2026-08-18T11:21:22.406803+00:00",
+  "source_counts": {
+    "rss_feeds": 5,
+    "arxiv": 50,
+    "hackernews": 34,
+    "nitter": 0,
+    "total_raw": 89,
+    "total_deduped": 88,
+    "total_saved": 25
+  },
+  "items": [
+    {
+      "title": "Partnering with CodeAI to prepare the first AI generation",
+      "url": "https://openai.com/index/partnering-with-codeai",
+      "source": "OpenAI Blog",
+      "published": "2026-08-18T11:00:00+00:00",
+      "summary_raw": "OpenAI and CodeAI are partnering to help students build AI literacy, think critically about AI, and develop the skills to use and shape it responsibly."
+    },
+    {
+      "title": "Introducing ChatGPT for Teens: Built for learning, backed by protections",
+      "url": "https://openai.com/index/chatgpt-for-teens",
+      "source": "OpenAI Blog",
+      "published": "2026-08-18T11:00:00+00:00",
+      "summary_raw": "ChatGPT for Teens helps teens learn, think critically, and use AI with confidence, with stronger built-in protections, healthy-use features, and additional controls for parents."
+    },
+    {
+      "title": "Google buys crashed airline Spirit's data at auction, because AI",
+      "url": "https://www.theregister.com/ai-and-ml/2026/08/18/google-buys-crashed-airline-spirits-data-at-auction-because-ai/5288962",
+      "source": "Hacker News",
+      "published": "2026-08-18T10:13:28+00:00",
+      "summary_raw": "",
+      "points": 56,
+      "num_comments": 21,
+      "hn_url": "https://news.ycombinator.com/item?id=49343559"
+    },
+    {
+      "title": "Ask HN: Does anyone else feel like nothing matters anymore?",
+      "url": "https://news.ycombinator.com/item?id=49340013",
+      "source": "Hacker News",
+      "published": "2026-08-18T01:28:48+00:00",
+      "summary_raw": "New software releases? Who cares. Learning new CS concepts? Whatever. Studying for the next interview? Job probably won&#x27;t even exist in a year. Working on that side project? No one will care because it&#x27;s just another addition to the mountain of slop, and the guy bagging your groceries can do it. Everything is done and cooked with AI now.<p>It&#x27;s exactly like that feeling once you enable cheats in a game; sure you can do anything, but everything is meaningless now. Our entire purpose and joy in life has been taken from us.",
+      "points": 187,
+      "num_comments": 122,
+      "hn_url": "https://news.ycombinator.com/item?id=49340013"
+    },
+    {
+      "title": "Follow-Up Thoughts on Watermarking Schemes for AI-Generated Text",
+      "url": "https://daringfireball.net/2026/08/follow-up_thoughts_on_watermarking",
+      "source": "Hacker News",
+      "published": "2026-08-18T01:16:14+00:00",
+      "summary_raw": "",
+      "points": 10,
+      "num_comments": 2,
+      "hn_url": "https://news.ycombinator.com/item?id=49339918"
+    },
+    {
+      "title": "Google wins bankruptcy auction for Spirit Airlines emails, chats, documents",
+      "url": "https://www.axios.com/2026/08/17/google-spirit-airlines-bankruptcy",
+      "source": "Hacker News",
+      "published": "2026-08-18T00:29:15+00:00",
+      "summary_raw": "",
+      "points": 86,
+      "num_comments": 36,
+      "hn_url": "https://news.ycombinator.com/item?id=49339599"
+    },
+    {
+      "title": "Consumers Prefer AI Music Until They're Told It's AI",
+      "url": "https://www.promarket.org/2026/05/04/consumers-prefer-ai-music-until-theyre-told-its-ai/",
+      "source": "Hacker News",
+      "published": "2026-08-18T00:15:23+00:00",
+      "summary_raw": "",
+      "points": 14,
+      "num_comments": 5,
+      "hn_url": "https://news.ycombinator.com/item?id=49339494"
+    },
+    {
+      "title": "Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index",
+      "url": "https://simonwillison.net/2026/Aug/17/qwen-38-27b-scores-52/",
+      "source": "Simon Willison",
+      "published": "2026-08-17T23:58:14+00:00",
+      "summary_raw": "Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index\nThat's the same score as GPT-5.6 Luna (max), and just one point behind GLM-5.2 (max) and DeepSeek V4 Pro 0813 (max) - that GLM is 753B and that DeepSeek is 1.7T parameters, and Luna is size unknown but presumably a whole lot bigger than 27B.\nQwen 3.8 27B is a truly astonishing model.\n\n    Via Hacker News\n\n\n    Tags: ai, generative-ai, llms, qwen, ai-in-china, artificial-analysis"
+    },
+    {
+      "title": "Google to buy Spirit Airlines business data for $10M",
+      "url": "https://www.reuters.com/legal/litigation/google-buy-spirit-airlines-business-data-10-million-2026-08-17/",
+      "source": "Hacker News",
+      "published": "2026-08-17T23:12:51+00:00",
+      "summary_raw": "",
+      "points": 38,
+      "num_comments": 3,
+      "hn_url": "https://news.ycombinator.com/item?id=49338973"
+    },
+    {
+      "title": "AI writes dead code \u2013 the Go team's deadcode tool finds it in one command",
+      "url": "https://towardsdev.com/how-to-find-and-remove-the-dead-code-your-agent-wrote-752eb1e738d0?sk=283d17fe49cb51c9936d99371e7a9d2a",
+      "source": "Hacker News",
+      "published": "2026-08-17T22:36:06+00:00",
+      "summary_raw": "",
+      "points": 10,
+      "num_comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=49338608"
+    },
+    {
+      "title": "GPT-5.6 Sol Pricing Cut by 50%",
+      "url": "https://openrouter.ai/openai/gpt-5.6-sol",
+      "source": "Hacker News",
+      "published": "2026-08-17T21:03:18+00:00",
+      "summary_raw": "",
+      "points": 479,
+      "num_comments": 300,
+      "hn_url": "https://news.ycombinator.com/item?id=49337602"
+    },
+    {
+      "title": "Israel creates fake think tank in likely attempt to dupe AI chatbots",
+      "url": "https://responsiblestatecraft.org/israel-influence-chatgpt/",
+      "source": "Hacker News",
+      "published": "2026-08-17T20:46:10+00:00",
+      "summary_raw": "",
+      "points": 586,
+      "num_comments": 357,
+      "hn_url": "https://news.ycombinator.com/item?id=49337392"
+    },
+    {
+      "title": "AI;DR (AI; Didn't Read)",
+      "url": "https://www.rickmanelius.com/p/aidr-ai-didnt-read",
+      "source": "Hacker News",
+      "published": "2026-08-17T19:47:15+00:00",
+      "summary_raw": "",
+      "points": 912,
+      "num_comments": 554,
+      "hn_url": "https://news.ycombinator.com/item?id=49336573"
+    },
+    {
+      "title": "Ask HN: Who wants to fund DB research?",
+      "url": "https://news.ycombinator.com/item?id=49336147",
+      "source": "Hacker News",
+      "published": "2026-08-17T19:13:04+00:00",
+      "summary_raw": "You may have heard there\u2019s a funding crisis for science in general, and for computer science in particular. Within CS, despite billions of dollars being spent for AI research, there is less and less funding for traditional areas. I work in Databases, and have seen many colleagues switching to AI-related work like vector DBs and agent systems, even though there have been lots of exciting breakthroughs on core DB topics like WCOJ and Datalog, to name a few. As I write this, a post on DuckDB v2.0 is top 1 of Hacker News, with many users commenting it\u2019s one of their favorite pieces of software. DuckDB is the direct result of decades of DB research [1].<p>HN has a tradition of \u201cwho\u2019s hiring\u201d posts, and I figured we could also do a \u201cwho\u2019s funding\u201d post. If you are interested in funding DB research, feel free to leave a comment, or reach out to me directly [2]. If you are working in DB and are looking for funding, leave a comment under this post: [3].<p>[1]: https:&#x2F;&#x2F;duckdb.org&#x2F;why_duckdb#standing-on-the-shoulders-of-giants<p>[2]: https:&#x2F;&#x2F;remy.wang<p>[3]: https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49336154",
+      "points": 12,
+      "num_comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=49336147"
+    },
+    {
+      "title": "AirTag reveals Amazon is trashing rare books to train AI",
+      "url": "https://arstechnica.com/tech-policy/2026/08/hidden-airtag-reveals-amazon-is-trashing-rare-books-to-train-ai/",
+      "source": "Hacker News",
+      "published": "2026-08-17T19:06:11+00:00",
+      "summary_raw": "",
+      "points": 127,
+      "num_comments": 6,
+      "hn_url": "https://news.ycombinator.com/item?id=49336050"
+    },
+    {
+      "title": "Show HN: Visimer \u2013 open-source visual editor for Mermaid diagrams",
+      "url": "https://github.com/inkeep/visimer",
+      "source": "Hacker News",
+      "published": "2026-08-17T18:26:04+00:00",
+      "summary_raw": "Hi HN, Nick here, founder at OpenKnowledge. We built an open source library, Visimer, for editing Mermaid diagrams with a what-you-see-is-what-you-get visual editor. Try the playground at <a href=\"https:&#x2F;&#x2F;visimer.com&#x2F;playground\" rel=\"nofollow\">https:&#x2F;&#x2F;visimer.com&#x2F;playground</a>. You can rename labels, change shapes, add new nodes, etc. by clicking and dragging the visual canvas.<p>We set out to build this originally for OpenKnowledge, our markdown wysiwyg editor, then realized it\u2019d be great to share it as a proper embeddable component library so that other apps can leverage it as well.<p>Our general take is that AI is great for generating content, but whenever you want to tweak fine details, for example to create an artifact sharable with others, point-edit functionality is much better. We built Visimer to bring that to Mermaid diagrams, just like we did for markdown.<p>Some technical bits:<p>- Leverages the native Mermaid.js renderer for visualizing the Mermaid diagram true to how it\u2019s intended. We add point-edit functionality on top.<p>- We tried re-generating the entire file on every edit, but found that it would eat comments and formatting, etc. The final approach maps the rendered SVG elements back to a CST, so we can then edit only the parts of the file that should change.<p>You can pair the visual editor with any text-editor so you can have both visual and code-level editor experiences. The library provides bindings for Monaco and CodeMirror and is extensible. There&#x27;s also a low-level headless version.<p>If you just care about being able to edit your Mermaid diagrams in your markdown, you can try it in the OpenKnowledge app (our OSS markdown IDE, available as Mac&#x2F;Linux&#x2F;Windows apps).<p>Let us know what you think.",
+      "points": 14,
+      "num_comments": 1,
+      "hn_url": "https://news.ycombinator.com/item?id=49335470"
+    },
+    {
+      "title": "Tim O'Reilly \u2013 Why Open Source Matters for AI",
+      "url": "https://oreillyradar.substack.com/p/why-open-source-matters-for-ai",
+      "source": "Hacker News",
+      "published": "2026-08-17T18:25:53+00:00",
+      "summary_raw": "",
+      "points": 23,
+      "num_comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=49335468"
+    },
+    {
+      "title": "Cloudflare: Machine Traffic Could Hit 1,000x Human Traffic in 5 Years",
+      "url": "https://www.searchenginejournal.com/the-biggest-ai-crawler-on-my-website-was-hunting-for-credentials/585159/",
+      "source": "Hacker News",
+      "published": "2026-08-17T18:19:12+00:00",
+      "summary_raw": "",
+      "points": 14,
+      "num_comments": 3,
+      "hn_url": "https://news.ycombinator.com/item?id=49335343"
+    },
+    {
+      "title": "Amazon, which started off selling books, is destroying rare texts to train AI",
+      "url": "https://techcrunch.com/2026/08/17/amazon-once-an-online-bookseller-is-destroying-rare-books-to-train-ai-models/",
+      "source": "Hacker News",
+      "published": "2026-08-17T18:10:16+00:00",
+      "summary_raw": "",
+      "points": 92,
+      "num_comments": 16,
+      "hn_url": "https://news.ycombinator.com/item?id=49335216"
+    },
+    {
+      "title": "Don't Drop the BATON: Long-Horizon Robot Manipulation via Agentic Subtask Exploration and Transition-aware Memory",
+      "url": "https://arxiv.org/abs/2608.16889v1",
+      "source": "arXiv",
+      "published": "2026-08-17T17:59:57+00:00",
+      "summary_raw": "Long-horizon robot manipulation chains many contact-rich skills into one multi-stage task. Vision-language-action (VLA) models increasingly master the individual skills, yet the chain still fails: errors compound beyond the policy's ability to correct, and one subtask silently constrains the next. A promising recipe freezes the VLA and puts an LLM agent in charge: it plans in language, moves in free space with analytic primitives, invokes the VLA only for contact-rich segments, and writes adaptation into language memory. Applied to long horizons, it breaks twice. (1) Competence comes from whole-task exploration at test time, whose cost is multiplicative in stages: if one stage needs T episodes, a K-stage task needs about T^K, and a failure does not reveal which stage caused it. (2) It has no representation of transitions: the VLA primitive carries an exit but no entry condition, so a subtask can succeed in a form its successor cannot use. We present BATON. Against (1), BATON makes the subtask the unit of exploration: each is explored in the cheap short-horizon regime and its solution stored in memory; a long-horizon trajectory is then composed from these solutions rather than discovered whole. Cost becomes additive (T*K) and every failure is attributed to a single stage. Against (2), BATON equips exploration with a transition-aware memory. Within a subtask, a verifier agent governs the invocation transition: the VLA is called only after the wrist view confirms the scene is ready. Across subtasks, a handoff transition restores an entry state disturbed by the predecessor's residue, and a lookahead transition selects the strategy whose outcome the successor can inherit. No parameters are updated. On the long-horizon benchmark RoboMemArena, BATON improves task success by 11.6% and cumulative success by 14.9% over the SoTA."
+    },
+    {
+      "title": "Q-based Variational Inverse Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2608.16888v1",
+      "source": "arXiv",
+      "published": "2026-08-17T17:59:55+00:00",
+      "summary_raw": "The development of safe and beneficial AI requires that systems can learn and act in accordance with human preferences. However, explicitly specifying these preferences by hand is often infeasible. Inverse reinforcement learning (IRL) addresses this challenge by inferring preferences, represented as reward functions, from expert behaviour. We introduce Q-based Variational IRL (QVIRL), a novel Bayesian IRL method that recovers a posterior distribution over rewards from expert demonstrations via primarily learning a variational distribution over optimal Q-values. Unlike previous approaches, QVIRL combines scalability with uncertainty quantification, important for safety-critical applications as well as active learning. We demonstrate QVIRL's strong performance in apprenticeship learning across various tasks, including gridworlds, Lunar Lander, the Highway Environment, and two ATARI games both with static expert data and with active learning. It is the first method for Bayesian IRL that demonstrates training from raw pixel observations."
+    },
+    {
+      "title": "Improving the matrix multiplication exponent with modern optimization and AlphaEvolve",
+      "url": "https://arxiv.org/abs/2608.16884v1",
+      "source": "arXiv",
+      "published": "2026-08-17T17:59:05+00:00",
+      "summary_raw": "The current best bounds on the matrix multiplication exponent $\u03c9$ are obtained through a refinement of the laser method called combination loss analysis (Duan et al., 2022; Williams et al., 2024; Alman et al., 2025). In this note, we address the optimization problem at the core of this approach and propose several improvements. First, we reformulate the optimization problem allowing us to solve it in a larger setting than was previously possible. Second, we leverage recent advances in machine learning to design a new optimization algorithm for this problem. Finally, we refine the resulting optimization algorithm with AlphaEvolve. Our combined approach yields an upper bound of $\u03c9$ < 2.371177, improving the previous best bound of 2.371339."
+    },
+    {
+      "title": "Spectral Gaps of Hit-and-Run and Coordinate Hit-and-Run",
+      "url": "https://arxiv.org/abs/2608.16878v1",
+      "source": "arXiv",
+      "published": "2026-08-17T17:57:11+00:00",
+      "summary_raw": "For any convex body $\\mathcal{K}\\subset\\mathbb{R}^{n}$ containing a unit ball, the spectral gap of Hit-and-Run is $\u03a9(1/(n^2 C_{\\mathsf{PI}}))$, where $C_{\\mathsf{PI}}$ is the Poincar\u00e9 constant of the uniform distribution $\u03c0$ over $\\mathcal{K}$. This implies that Hit-and-Run converges to a distribution within $\u03c7^2$-divergence $\\varepsilon$ of the uniform distribution $\u03c0$ in $O(n^2 C_{\\mathsf{PI}}\\log(M/\\varepsilon))$ steps from any starting distribution $\u03c0_0$ with $M=\u03c7^2(\u03c0_{0}\\,\\|\\,\u03c0)$, thus refining the known bound of $O(n^2 R^2 \\log(M/\\varepsilon))$ by Lov\u00e1sz and Vempala (2004) in terms of the outer radius $R$; for nearly isotropic bodies, together with progress on the KLS conjecture, the complexity is $O(n^2\\log n\\log(M/\\varepsilon))$, improving the dimension dependence from cubic to nearly quadratic while maintaining logarithmic dependence on the initial distance. It was an open problem to connect the convergence of Hit-and-Run to Poincar\u00e9/KLS constants as was done for the Ball walk by Kannan, Lov\u00e1sz and Simonovits (1997). Unlike Hit-and-Run, the Ball walk has an unavoidable linear dependence on (a stronger notion) of the initial warmness. We directly bound the spectral gap of the Hit-and-Run Markov chain by connecting it to functional isoperimetric constants, inspired by the recent analysis of In-and-Out. Rewriting the spectral gap in terms of dual certificates leads to the Babu\u0161ka--Aziz constant studied in the analysis of PDEs; it is asymptotically bounded by the improved Poincar\u00e9 constant, which we show can be bounded in terms of the usual Poincar\u00e9 constant. The proof is based on duality and calculus, unlike known proofs of convergence for Hit-and-Run which are based on bounding the conductance. The same technique can be applied to Coordinate Hit-and-Run, resulting in a much improved mixing time of $O(n^3C_{\\mathsf{PI}}\\log(M/\\varepsilon))$."
+    },
+    {
+      "title": "Apple AirTag reveals how Amazon destroys rare books for AI training",
+      "url": "https://the-decoder.com/airtag-reveals-how-amazon-destroys-rare-books-for-ai-training/",
+      "source": "Hacker News",
+      "published": "2026-08-17T17:55:50+00:00",
+      "summary_raw": "",
+      "points": 41,
+      "num_comments": 2,
+      "hn_url": "https://news.ycombinator.com/item?id=49335009"
+    },
+    {
+      "title": "AutoSR: Automatic Symbolic Regression by Searching Research States",
+      "url": "https://arxiv.org/abs/2608.16876v1",
+      "source": "arXiv",
+      "published": "2026-08-17T17:55:26+00:00",
+      "summary_raw": "We introduce Automatic Symbolic Regression (AutoSR), a fully automated system that instantiates Research-Space Symbolic Regression by searching persistent scientific investigations rather than isolated equations. Finite, noisy data often yield numerically competitive expressions that imply very different behavior outside the observed regime, making numerical fit and syntactic complexity insufficient measures of scientific credibility. Existing approaches largely focus on improving expressions, yet the search typically retains little beyond the resulting formula and score, losing the scientific record, such as motivations and probes, that inform what to try next. AutoSR preserves this record in a \\textbf{Research State}, coupling each candidate equation with the reasoning, computational evidence, and independent review developed along its branch. Proposer--reviewer agents develop these states under progressive-widening Monte Carlo tree search (PW-MCTS), which allocates computation across competing investigations, while the accumulated research record is ultimately synthesized into a final report that explains the leading relation and the basis for its selection. Across nine selected challenges from two benchmark suites, AutoSR recovers algebraically equivalent relations in every case, including three cp3-bench problems that no published system recovers and six structurally diverse LSR-Transform problems. Overall, AutoSR extends symbolic regression from equation-level search toward automated scientific investigation, allowing scientific knowledge and accumulated evidence to shape both what is explored and how the resulting equation is justified."
+    }
+  ]
+}

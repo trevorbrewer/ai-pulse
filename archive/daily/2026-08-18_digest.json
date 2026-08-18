@@ -1,0 +1,207 @@
+[
+  {
+    "theme": "Model Releases & Benchmarks",
+    "stories": [
+      {
+        "title": "Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index",
+        "url": "https://simonwillison.net/2026/Aug/17/qwen-38-27b-scores-52/",
+        "source": "Simon Willison",
+        "paragraph": "Alibaba's Qwen 3.8 27B model has scored 52 on the Artificial Analysis Intelligence Index, matching OpenAI's GPT-5.6 Luna and trailing GLM-5.2 and DeepSeek V4 Pro 0813 by only one point. The result is notable because both GLM-5.2 and DeepSeek V4 Pro 0813 are estimated at 753B and 1.7T parameters respectively, making the 27B model's competitive score a significant efficiency data point. The comparison highlights ongoing progress in extracting high benchmark performance from smaller, more deployable model sizes."
+      },
+      {
+        "title": "GPT-5.6 Sol Pricing Cut by 50%",
+        "url": "https://openrouter.ai/openai/gpt-5.6-sol",
+        "source": "Hacker News",
+        "paragraph": "OpenAI has halved the price of GPT-5.6 Sol on OpenRouter, continuing a broader industry trend of rapid cost reductions for frontier model access. The cut makes Sol, one of OpenAI's recent model variants, more competitive with cheaper alternatives from other providers. Pricing pressure across frontier models has been intensifying as open-weight and smaller proprietary models approach comparable benchmark scores."
+      }
+    ]
+  },
+  {
+    "theme": "AI Safety, Alignment & Policy",
+    "stories": [
+      {
+        "title": "Israel creates fake think tank in likely attempt to dupe AI chatbots",
+        "url": "https://responsiblestatecraft.org/israel-influence-chatgpt/",
+        "source": "Hacker News",
+        "paragraph": "A report from Responsible Statecraft details evidence that Israeli actors created a fictitious think tank, apparently to seed content into web sources that AI chatbots use for training and retrieval. The operation is described as an influence campaign targeting AI-generated outputs rather than human readers directly, reflecting a shift in information operations toward manipulating model knowledge bases. The case illustrates an emerging vulnerability in AI systems that rely on web-crawled data: adversarial actors can attempt to shape AI responses by fabricating credible-looking sources."
+      },
+      {
+        "title": "Follow-Up Thoughts on Watermarking Schemes for AI-Generated Text",
+        "url": "https://daringfireball.net/2026/08/follow-up_thoughts_on_watermarking",
+        "source": "Hacker News",
+        "paragraph": "John Gruber published follow-up analysis on technical watermarking approaches for AI-generated text, revisiting earlier discussion of how such schemes work and where they fall short. Watermarking methods typically embed statistical signals into token selection during generation, but robustness to paraphrasing and adversarial stripping remains an open problem. The piece adds nuance to ongoing debates about whether watermarking can serve as a reliable provenance signal for AI content at scale."
+      }
+    ]
+  },
+  {
+    "theme": "Education & Youth AI Products",
+    "stories": [
+      {
+        "title": "Introducing ChatGPT for Teens: Built for learning, backed by protections",
+        "url": "https://openai.com/index/chatgpt-for-teens",
+        "source": "OpenAI Blog",
+        "paragraph": "OpenAI has launched ChatGPT for Teens, a tailored version of ChatGPT designed for users under 18, with stronger content filters, healthy-use prompts, and optional parental controls. The product is framed around educational use cases — helping teenagers think critically and learn — rather than general-purpose interaction. The launch comes as regulatory scrutiny of AI products accessible to minors has increased in multiple jurisdictions."
+      },
+      {
+        "title": "Partnering with CodeAI to prepare the first AI generation",
+        "url": "https://openai.com/index/partnering-with-codeai",
+        "source": "OpenAI Blog",
+        "paragraph": "OpenAI announced a partnership with CodeAI aimed at building AI literacy among students, with a focus on critical thinking and responsible use of AI tools. The collaboration positions both organizations around the idea that today's students will be the first generation to grow up with ubiquitous AI systems, making early literacy efforts consequential. Specific program details, including scale and geographic scope, were not disclosed in the announcement."
+      }
+    ]
+  },
+  {
+    "theme": "Industry News & Business",
+    "stories": [
+      {
+        "title": "Google to buy Spirit Airlines business data for $10M",
+        "url": "https://www.reuters.com/legal/litigation/google-buy-spirit-airlines-business-data-10-million-2026-08-17/",
+        "source": "Hacker News",
+        "paragraph": "Google agreed to purchase Spirit Airlines' business data for $10 million through a bankruptcy auction, acquiring a trove of internal emails, chats, and operational documents from the collapsed carrier. The acquisition is reported to be motivated by AI training and data enrichment purposes, adding real-world enterprise communications to Google's data assets. Spirit Airlines filed for bankruptcy in late 2024, and its data estate became available as part of asset liquidation proceedings."
+      },
+      {
+        "title": "Google wins bankruptcy auction for Spirit Airlines emails, chats, documents",
+        "url": "https://www.axios.com/2026/08/17/google-spirit-airlines-bankruptcy",
+        "source": "Hacker News",
+        "paragraph": "Axios confirmed that Google won the bankruptcy auction for Spirit Airlines' internal communications archive, covering emails, chat logs, and business documents accumulated over the airline's operations. The purchase raises questions about what protections, if any, cover personal data of former Spirit employees and customers contained in those records. Privacy advocates are likely to scrutinize how Google intends to use or process the acquired dataset under existing data protection frameworks."
+      },
+      {
+        "title": "Google buys crashed airline Spirit's data at auction, because AI",
+        "url": "https://www.theregister.com/ai-and-ml/2026/08/18/google-buys-crashed-airline-spirits-data-at-auction-because-ai/5288962",
+        "source": "Hacker News",
+        "paragraph": "The Register's coverage of the Google-Spirit Airlines data acquisition emphasizes the AI motivation explicitly flagged in court and auction proceedings, noting that enterprise communications data is increasingly valued for fine-tuning and evaluation of large language models. The piece contextualizes the $10 million purchase within a broader pattern of tech companies acquiring unconventional datasets as frontier model training becomes more data-constrained. It also raises questions about the precedent set by allowing AI companies to acquire sensitive organizational data through bankruptcy sales with limited oversight."
+      }
+    ]
+  },
+  {
+    "theme": "Research & Behavioral Studies",
+    "stories": [
+      {
+        "title": "Consumers Prefer AI Music Until They're Told It's AI",
+        "url": "https://www.promarket.org/2026/05/04/consumers-prefer-ai-music-until-theyre-told-its-ai/",
+        "source": "Hacker News",
+        "paragraph": "A study published via ProMarket found that listeners rated AI-generated music favorably in blind tests but shifted their preferences toward human-made music once told the AI provenance, a pattern researchers describe as a disclosure penalty. The finding is consistent with similar results in other creative domains — including writing and visual art — where perceived authenticity affects subjective quality judgments independent of the work's actual properties. The research has implications for how AI-generated creative content should be labeled, and whether mandatory disclosure requirements would materially affect market adoption."
+      }
+    ]
+  },
+  {
+    "theme": "Developer Tools & Productivity",
+    "stories": [
+      {
+        "title": "AI writes dead code – the Go team's deadcode tool finds it in one command",
+        "url": "https://towardsdev.com/how-to-find-and-remove-the-dead-code-your-agent-wrote-752eb1e738d0?sk=283d17fe49cb51c9936d99371e7a9d2a",
+        "source": "Hacker News",
+        "paragraph": "A Towards Dev article highlights the Go team's deadcode static analysis tool as a practical remedy for a growing problem: AI coding agents frequently generate unreachable or unused code that accumulates in codebases. The tool, invoked with a single command, performs whole-program analysis to identify functions and methods that can never be called at runtime. The piece frames dead code accumulation from AI agents as a maintainability concern distinct from traditional developer-written dead code, given the volume and speed at which agents can produce output."
+      }
+    ]
+  },
+  {
+    "theme": "Culture & Society",
+    "stories": [
+      {
+        "title": "Ask HN: Does anyone else feel like nothing matters anymore?",
+        "url": "https://news.ycombinator.com/item?id=49340013",
+        "source": "Hacker News",
+        "paragraph": "A Hacker News thread prompted by one user's expression of disillusionment — covering job security, learning motivation, and creative purpose in the context of widespread AI capability — drew substantial community discussion. The post articulates a sentiment circulating among software practitioners: that rapid AI automation undermines the perceived value of skill-building, side projects, and career investment. The thread reflects a documented shift in how some technical workers are relating to their profession as AI tools take on larger shares of coding, writing, and analysis tasks."
+      }
+    ]
+  },
+  {
+    "theme": "Industry News",
+    "stories": [
+      {
+        "title": "AirTag reveals Amazon is trashing rare books to train AI",
+        "url": "https://arstechnica.com/tech-policy/2026/08/hidden-airtag-reveals-amazon-is-trashing-rare-books-to-train-ai/",
+        "source": "Hacker News",
+        "paragraph": "An investigation using a concealed Apple AirTag tracked rare books donated or sold to Amazon and found that the company was destroying them rather than reselling them, apparently to harvest the text for AI training data. The findings are notable because Amazon built its early business as an online bookseller and continues to operate a large used-book marketplace. The practice raises legal and ethical questions about the treatment of culturally significant texts, including whether the destruction of rare volumes constitutes a waste of irreplaceable materials. The AirTag's location data provided concrete evidence of the books' fate after leaving sellers' hands."
+      },
+      {
+        "title": "Amazon, which started off selling books, is destroying rare texts to train AI",
+        "url": "https://techcrunch.com/2026/08/17/amazon-once-an-online-bookseller-is-destroying-rare-books-to-train-ai-models/",
+        "source": "Hacker News",
+        "paragraph": "TechCrunch's coverage of the same AirTag-based investigation adds context about Amazon's history as a company that began by selling books in 1994 before expanding into a general retailer and cloud-computing giant. The report notes that the destruction of rare books for AI training data represents a tension between the company's commercial origins and its current AI development priorities. Sellers and antiquarian book dealers have expressed concern that items they believed would be resold were instead being processed for data extraction. Amazon has not publicly detailed the scope or policy governing this practice."
+      },
+      {
+        "title": "Apple AirTag reveals how Amazon destroys rare books for AI training",
+        "url": "https://the-decoder.com/airtag-reveals-how-amazon-destroys-rare-books-for-ai-training/",
+        "source": "Hacker News",
+        "paragraph": "The Decoder's account of the rare-book destruction story focuses on the methodological detail of using an Apple AirTag — a Bluetooth and ultra-wideband tracking device — to follow a shipment of rare books after they were handed over to Amazon. The tracker revealed that the books were sent to a facility where they were destroyed rather than listed for sale. The story contributes to a broader discussion about the sourcing of training data for large language models, including questions about consent, compensation, and the destruction of physical cultural artifacts. No formal regulatory response has been reported as of this writing."
+      },
+      {
+        "title": "Cloudflare: Machine Traffic Could Hit 1,000x Human Traffic in 5 Years",
+        "url": "https://www.searchenginejournal.com/the-biggest-ai-crawler-on-my-website-was-hunting-for-credentials/585159/",
+        "source": "Hacker News",
+        "paragraph": "Cloudflare has projected that automated machine traffic on the web could reach 1,000 times the volume of human traffic within five years, driven largely by AI crawlers and agents. The Search Engine Journal report also documents a case in which the largest AI crawler observed on one site was found to be probing for exposed credentials rather than indexing content. This highlights a security dimension to the rise of automated web agents that goes beyond bandwidth consumption. Website operators are increasingly deploying bot-detection and rate-limiting tools to differentiate between legitimate crawlers and malicious automated traffic."
+      }
+    ]
+  },
+  {
+    "theme": "Policy and Ethics",
+    "stories": [
+      {
+        "title": "Tim O'Reilly – Why Open Source Matters for AI",
+        "url": "https://oreillyradar.substack.com/p/why-open-source-matters-for-ai",
+        "source": "Hacker News",
+        "paragraph": "Tim O'Reilly, the publisher and technology commentator who helped popularize the term 'open source' in the late 1990s, argues in a Substack essay that open-source principles are essential to preventing AI development from becoming concentrated in a small number of corporate actors. He draws on historical parallels with the open-source software movement, contending that transparency and community access to model weights and training methods serve as counterweights to monopolistic tendencies. The piece does not focus on a single model or product but instead makes a structural argument about governance and access. O'Reilly's standing in the open-source community gives the essay particular salience as debates over AI licensing intensify."
+      },
+      {
+        "title": "AI;DR (AI; Didn't Read)",
+        "url": "https://www.rickmanelius.com/p/aidr-ai-didnt-read",
+        "source": "Hacker News",
+        "paragraph": "Rick Manelius coins the term 'AI;DR' — a riff on the internet shorthand 'TL;DR' — to describe the emerging practice of consuming AI-generated summaries in place of original source material. The essay argues that this habit erodes the reader's ability to engage critically with primary sources and may systematically strip out nuance, ambiguity, and authorial intent. Manelius frames the problem as a cultural and epistemic one rather than a purely technical issue. The piece is notable for raising questions about information quality and reading behavior at a moment when AI summarization tools are increasingly embedded in browsers, email clients, and search engines."
+      },
+      {
+        "title": "Ask HN: Who wants to fund DB research?",
+        "url": "https://news.ycombinator.com/item?id=49336147",
+        "source": "Hacker News",
+        "paragraph": "A database researcher posted to Hacker News asking where funding for traditional computer science research might be found, citing a broad shift in academic and industry grants toward AI-related work. The post notes that colleagues in database research are migrating to adjacent AI fields such as vector databases and agent systems, even as the poster argues that non-AI CS areas continue to produce significant advances. The question reflects a structural concern in academia: that AI's dominance in funding conversations is crowding out other foundational research areas. No specific funding figures were cited, but the discussion drew responses pointing to DARPA, NSF, and industry research labs as potential sources."
+      }
+    ]
+  },
+  {
+    "theme": "Open-Source Tools",
+    "stories": [
+      {
+        "title": "Show HN: Visimer – open-source visual editor for Mermaid diagrams",
+        "url": "https://github.com/inkeep/visimer",
+        "source": "Hacker News",
+        "paragraph": "OpenKnowledge founder Nick has released Visimer, an open-source library that adds a what-you-see-is-what-you-get visual editing layer on top of Mermaid, the popular text-based diagramming tool. Users can rename labels, change node shapes, and add connections by clicking and dragging within the editor, with changes reflected in the underlying Mermaid syntax. A live playground is available at visimer.com/playground. The tool addresses a common friction point for teams that want Mermaid's text-based portability but find its syntax barrier too high for non-technical collaborators."
+      }
+    ]
+  },
+  {
+    "theme": "Research Papers",
+    "stories": [
+      {
+        "title": "Don't Drop the BATON: Long-Horizon Robot Manipulation via Agentic Subtask Exploration and Transition-aware Memory",
+        "url": "https://arxiv.org/abs/2608.16889v1",
+        "source": "arXiv",
+        "paragraph": "Researchers propose BATON, a framework for enabling robots to complete long-horizon manipulation tasks — sequences of many contact-rich steps — by pairing a frozen vision-language-action model with an LLM agent that handles high-level planning and error recovery. The key insight is that standard VLA models, while competent at individual skills, accumulate errors across multi-stage tasks because each subtask silently constrains the conditions needed for the next. BATON addresses this through agentic subtask exploration and a transition-aware memory module that tracks how the state of the environment evolves between steps. The approach keeps the low-level VLA policy unchanged, which means improvements generalize without retraining the base model."
+      },
+      {
+        "title": "Q-based Variational Inverse Reinforcement Learning",
+        "url": "https://arxiv.org/abs/2608.16888v1",
+        "source": "arXiv",
+        "paragraph": "The paper introduces Q-based Variational IRL (QVIRL), a Bayesian method for inferring reward functions from expert behavior without requiring explicit hand-specification of human preferences. Standard inverse reinforcement learning methods often struggle with scalability and uncertainty quantification; QVIRL addresses this by framing reward inference as a variational Bayesian problem grounded in Q-value estimation. The work is positioned as a contribution to AI safety and alignment research, where the ability to reliably recover human preferences from observed behavior is considered a core technical challenge. The authors report experimental results demonstrating that QVIRL produces well-calibrated reward estimates across a set of standard benchmark environments."
+      },
+      {
+        "title": "Improving the matrix multiplication exponent with modern optimization and AlphaEvolve",
+        "url": "https://arxiv.org/abs/2608.16884v1",
+        "source": "arXiv",
+        "paragraph": "A team of researchers reports improvements to the bound on the matrix multiplication exponent omega, a long-studied theoretical quantity that governs the computational complexity of multiplying two matrices. They work within the combination loss analysis framework introduced by Duan et al. in 2022 and subsequently refined through 2025, reformulating the core optimization problem in a way that makes it more tractable for modern solvers. Notably, the paper incorporates AlphaEvolve, Google DeepMind's AI-assisted algorithm discovery system, as part of the optimization pipeline. The result tightens the upper bound on omega beyond what previous human-designed approaches had achieved, illustrating a case where AI-assisted search contributes to a classical theoretical computer science problem."
+      },
+      {
+        "title": "Spectral Gaps of Hit-and-Run and Coordinate Hit-and-Run",
+        "url": "https://arxiv.org/abs/2608.16878v1",
+        "source": "arXiv",
+        "paragraph": "This paper establishes new spectral gap bounds for Hit-and-Run and Coordinate Hit-and-Run, two Markov chain Monte Carlo algorithms widely used for sampling from convex bodies. The authors prove that for any convex body in n-dimensional space containing a unit ball, the spectral gap of Hit-and-Run is at least Omega(1 / (n^2 * C_PI)), where C_PI is the Poincaré constant of the uniform distribution over the body. This implies that the algorithm converges to within chi-squared divergence epsilon of the uniform distribution in O(n^2 * C_PI * log(1/epsilon)) steps. The result is relevant to practitioners in Bayesian computation, optimization, and machine learning who rely on these samplers for high-dimensional inference tasks."
+      },
+      {
+        "title": "AutoSR: Automatic Symbolic Regression by Searching Research States",
+        "url": "https://arxiv.org/abs/2608.16876v1",
+        "source": "arXiv",
+        "paragraph": "Researchers have introduced AutoSR, a fully automated symbolic regression system that frames equation discovery as a persistent scientific investigation rather than a search over isolated expressions. The motivation is that finite, noisy datasets can produce numerically competitive equations with very different behaviors outside the observed data range, making raw numerical fit and syntactic complexity insufficient criteria for selecting a correct model. AutoSR addresses this by maintaining and searching \"research states\" — structured records of ongoing investigations — so that candidate expressions are evaluated in a broader scientific context rather than on a single data snapshot. The approach targets a known weakness in standard symbolic regression benchmarks, where methods are judged on in-distribution accuracy alone."
+      }
+    ]
+  }
+]
