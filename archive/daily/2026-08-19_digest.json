@@ -1,0 +1,202 @@
+[
+  {
+    "theme": "Industry News",
+    "stories": [
+      {
+        "title": "OpenAI's Second-Quarter Sales Show Tepid Growth Compared with Anthropic",
+        "url": "https://www.wsj.com/tech/ai/openais-second-quarter-sales-show-tepid-growth-compared-with-anthropic-5cb42998",
+        "source": "Hacker News",
+        "paragraph": "OpenAI's Q2 revenue growth lagged behind that of rival Anthropic, according to a Wall Street Journal report, raising questions about competitive dynamics in the consumer and enterprise AI market. The comparison is notable given that OpenAI has historically held a large lead in user base and brand recognition. The report arrives as both companies continue to burn substantial capital on model training and infrastructure."
+      },
+      {
+        "title": "OpenAI Is Slowing Down Its AI Training",
+        "url": "https://time.com/article/2026/08/18/openai-slowing-training/",
+        "source": "Hacker News",
+        "paragraph": "OpenAI has reduced the pace of its large-scale AI model training, according to a Time report, a shift that comes amid the company's reported slower revenue growth. The slowdown may reflect resource constraints, strategic reprioritization, or the diminishing returns some researchers have noted from scaling compute alone. The news follows public scrutiny of OpenAI's costs and its path to profitability."
+      },
+      {
+        "title": "ChatGPT Ads expands across Europe",
+        "url": "https://openai.com/index/chatgpt-ads-expands-across-europe",
+        "source": "OpenAI Blog",
+        "paragraph": "OpenAI is rolling out its ChatGPT Ads product to 31 European markets, extending an advertising program that allows brands to reach users at moments of active research and decision-making within the chat interface. The expansion marks a concrete step in OpenAI's effort to diversify revenue beyond subscriptions and API access. Advertisers are being pitched on the ability to place messages in contexts where users are comparing products or seeking recommendations."
+      },
+      {
+        "title": "GPT-5.6 Sol: 70% off in Devin",
+        "url": "https://devin.ai/blog/gpt-5-6-sol-promo",
+        "source": "Hacker News",
+        "paragraph": "Cognition's AI software engineer product Devin is offering GPT-5.6 Sol at a 70 percent discount, signaling growing price competition among AI coding assistant providers. The promotion makes a frontier-class model accessible at a significantly lower cost per token or task for Devin users. Pricing moves like this reflect broader deflationary pressure across the AI tooling market as multiple vendors compete for software-team adoption."
+      },
+      {
+        "title": "Palantir Leads AI Data Deal with USA Today Sparking a Newsroom Revolt",
+        "url": "https://www.forbes.com/sites/sandycarter/2026/08/15/palantir-leads-ai-data-deal-with-usa-today-sparking-a-newsroom-revolt/",
+        "source": "Hacker News",
+        "paragraph": "Palantir has brokered a data deal with USA Today's parent company, Gannett, to use newsroom content for AI purposes, prompting a public backlash from journalists at the publication. The revolt highlights a recurring tension in the media industry between executives seeking AI licensing revenue and editorial staff concerned about the use of their work without meaningful consent or compensation. Palantir, known primarily for its government analytics contracts, is increasingly pursuing commercial media and enterprise data partnerships."
+      },
+      {
+        "title": "AI Is Upending One of Finance's Cushiest Jobs",
+        "url": "https://www.bloomberg.com/news/features/2026-06-05/ai-is-upending-traditional-financial-advisor-jobs",
+        "source": "Hacker News",
+        "paragraph": "Bloomberg reports that AI tools are beginning to erode the traditional financial advisor role, particularly at the wealth management tier that has historically insulated itself from automation through relationship-based fees. Automated portfolio management, AI-driven client communication, and algorithmic tax-loss harvesting are compressing the value proposition that advisors charge for. The shift is notable because financial advising has long been considered a high-touch profession resistant to displacement, yet firms are now deploying AI to handle tasks that previously justified hourly or percentage-based advisory fees."
+      },
+      {
+        "title": "Why your Amazon order confirmation emails have become so unhelpful",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/977733/amazon-order-emails-google-gmail-ai-agents-data",
+        "source": "Hacker News",
+        "paragraph": "The Verge reports that Amazon has deliberately stripped detailed product and pricing information from its order confirmation emails, a change tied in part to concerns about AI agents and data scraping tools — including Google's Gmail features — that parse inbox data. The move has frustrated consumers who rely on confirmation emails for budgeting or returns, since key line-item details are now only accessible inside Amazon's app or website. The episode illustrates how companies are beginning to redesign routine communications to limit third-party AI access to their transactional data."
+      },
+      {
+        "title": "The Capital Cycle Theory",
+        "url": "https://s-1.vercel.app/posts/the-capital-cycle-theory/",
+        "source": "Hacker News",
+        "paragraph": "This essay applies capital cycle theory — the idea that high returns attract investment until overcapacity drives returns down — to the current AI infrastructure boom. The author argues that the enormous capital flowing into GPU clusters, data centers, and foundation model training mirrors historical patterns in industries such as semiconductors and telecom, where initial scarcity gave way to glut. The piece is notable for grounding AI investment analysis in a classical economic framework rather than technology-specific narratives, and it raises questions about the timeline and depth of a potential AI infrastructure correction."
+      }
+    ]
+  },
+  {
+    "theme": "Hardware & Infrastructure",
+    "stories": [
+      {
+        "title": "Cerebras CS-4",
+        "url": "https://www.cerebras.ai/cs4",
+        "source": "Hacker News",
+        "paragraph": "Cerebras unveiled the CS-4, the latest generation of its wafer-scale AI accelerator chip, continuing the company's strategy of building single-chip processors that are orders of magnitude larger than conventional GPUs. The CS-4 is designed to reduce the communication overhead that limits performance when distributing model training across many discrete chips. Cerebras positions the system as particularly suited to training large language models with reduced latency compared to GPU clusters."
+      }
+    ]
+  },
+  {
+    "theme": "Research Papers & Technical Work",
+    "stories": [
+      {
+        "title": "DFlash 2: Keep Drafting Parallel",
+        "url": "https://inco.ai/blog/dflash2/",
+        "source": "Hacker News",
+        "paragraph": "Inco AI published DFlash 2, a technical report describing improvements to speculative decoding for large language models, with a focus on maintaining parallelism during the drafting phase. Speculative decoding accelerates inference by generating candidate tokens with a smaller draft model and then verifying them with the larger target model in parallel. DFlash 2 introduces methods to keep draft generation from becoming a serial bottleneck, which the authors argue improves end-to-end throughput."
+      },
+      {
+        "title": "GLM-5.3 Artificial Analysis Benchmarks",
+        "url": "https://artificialanalysis.ai/models/glm-5-3",
+        "source": "Hacker News",
+        "paragraph": "Artificial Analysis published benchmark results for GLM-5.3, the latest model in Zhipu AI's GLM series, covering quality, speed, and price metrics across standard evaluation tasks. The benchmarks allow direct comparison of GLM-5.3 against models from OpenAI, Anthropic, and Google, giving practitioners a cost-efficiency view alongside raw performance scores. GLM-5.3 is notable as a competitive Chinese-developed model being evaluated transparently on the same public leaderboard infrastructure used for Western models."
+      },
+      {
+        "title": "200B Tokens Later: A Month of Letting AI Agents Decompile MW2",
+        "url": "https://momo5502.com/posts/2026-08-17-mw2-decompilation/",
+        "source": "Hacker News",
+        "paragraph": "A developer published a detailed post-mortem of a month-long project in which AI agents were used to assist in decompiling Call of Duty: Modern Warfare 2, consuming approximately 200 billion tokens in the process. The project explored how well current language models can interpret disassembled binary code, recover variable names, and reconstruct readable C-like source. The write-up provides concrete data on where agents succeeded and failed, making it a practical case study in applying LLMs to reverse-engineering tasks at scale."
+      }
+    ]
+  },
+  {
+    "theme": "Open-Source Tools",
+    "stories": [
+      {
+        "title": "Mojo🔥 is now open source",
+        "url": "https://simonwillison.net/2026/Aug/18/mojo-is-now-open-source/",
+        "source": "Simon Willison",
+        "paragraph": "Modular has released the Mojo programming language as open source under an Apache 2 license, following through on a commitment made in May 2023 when the language first launched. Mojo is designed as a superset of Python with performance characteristics suitable for AI and systems programming, positioning it as a way to write high-performance kernels without leaving the Python ecosystem. The release includes the compiler and toolchain, and coincides with the language reaching version 1.0."
+      },
+      {
+        "title": "Air Theremin – a browser theremin you play by waving at your webcam",
+        "url": "https://theremin.bizibah.com/",
+        "source": "Hacker News",
+        "paragraph": "Air Theremin is a browser-based musical instrument that uses webcam input and pose or hand-tracking to let users control pitch and volume through hand gestures, mimicking the behavior of a physical theremin. The project runs entirely in the browser without requiring a plugin or server-side processing, using JavaScript-based computer vision libraries. It serves as a demonstration of how real-time ML inference in the browser can enable interactive, low-latency creative applications."
+      },
+      {
+        "title": "Show HN: PantheonGPU – GPU health testing and AI workload benchmarking",
+        "url": "https://pantheongpu.com/",
+        "source": "Hacker News",
+        "paragraph": "A developer has released PantheonGPU, a tool designed to actively test GPU health rather than passively monitor telemetry metrics such as temperature and utilization. The motivation behind the project is that a GPU can report normal operating statistics while still underperforming or exhibiting memory, PCIe, or configuration faults that only manifest under specific workloads. The tool is aimed at practitioners running AI training or inference jobs who need confidence that hardware is performing as expected, filling a gap left by vendor-supplied diagnostics that often focus on surface-level indicators."
+      },
+      {
+        "title": "Show HN: I canceled my AI code reviewer and wrote a free local one",
+        "url": "https://github.com/mukundzha/avouch",
+        "source": "Hacker News",
+        "paragraph": "A developer published Avouch, a free, locally-run AI code review tool on GitHub, created after deciding that existing paid AI code review services did not justify their subscription cost. The tool runs on-device, meaning code never leaves the user's machine, which addresses a common concern among developers working on proprietary or sensitive codebases. By open-sourcing the project, the author invites community contributions and positions Avouch as an alternative to cloud-dependent products like those offered by established devtools companies."
+      }
+    ]
+  },
+  {
+    "theme": "AI Safety & Society",
+    "stories": [
+      {
+        "title": "She told no one about her agony except ChatGPT. What her death reveals about AI",
+        "url": "https://www.npr.org/2026/08/18/nx-s1-5929575/ai-suicide-risks-mental-health",
+        "source": "Hacker News",
+        "paragraph": "An NPR investigation examined the case of a person who confided suicidal ideation exclusively to ChatGPT before dying by suicide, using it as a lens for broader questions about AI systems' roles in mental health crises. The report raises concerns about whether conversational AI provides adequate safeguards when users disclose acute distress, and whether reliance on chatbots may substitute for professional intervention. OpenAI and other companies have published crisis resource integrations, but critics argue the systems lack the clinical judgment to recognize when a conversation has become a safety emergency."
+      }
+    ]
+  },
+  {
+    "theme": "AI Usage & Adoption Data",
+    "stories": [
+      {
+        "title": "AI usage patterns in software teams",
+        "url": "https://linear.app/data",
+        "source": "Hacker News",
+        "paragraph": "Linear, the project management software company, published data on how software teams using its platform are integrating AI tools into their workflows, drawing on usage patterns observed across its customer base. The analysis covers which parts of the development cycle see the most AI-assisted activity, such as issue writing, code review, and planning, providing a practitioner-grounded view rather than a survey-based one. The dataset offers a relatively rare look at AI adoption measured through behavioral product telemetry rather than self-reported usage."
+      }
+    ]
+  },
+  {
+    "theme": "AI Policy & Geopolitics",
+    "stories": [
+      {
+        "title": "U.S. to tell partners they must pick sides in AI race with China",
+        "url": "https://www.cnbc.com/2026/08/15/us-to-tell-allies-they-must-pick-sides-in-ai-race-with-china-reuters.html",
+        "source": "Hacker News",
+        "paragraph": "The U.S. government is preparing to inform allied nations that they must choose between American and Chinese AI ecosystems, according to a Reuters report cited by CNBC. The policy signals a hardening of the Biden-era chip export control stance into an explicit diplomatic ultimatum. The move reflects growing concern in Washington that technology partnerships with countries straddling both blocs could undermine U.S. strategic advantage in AI hardware, data, and model development."
+      },
+      {
+        "title": "Strengthening democratic oversight in national security",
+        "url": "https://openai.com/index/strengthening-democratic-oversight-in-national-security",
+        "source": "OpenAI Blog",
+        "paragraph": "OpenAI has announced an initiative aimed at bolstering democratic oversight of AI used in national security contexts, offering government institutions tools, training, and technical expertise. The effort is notable because OpenAI has previously faced criticism for its evolving policies around military and government use cases, having updated its usage policies in early 2024 to permit some national-security applications. The initiative positions the company as an active participant in shaping governance frameworks rather than leaving that role solely to regulators."
+      }
+    ]
+  },
+  {
+    "theme": "AI & Climate / Environment",
+    "stories": [
+      {
+        "title": "AI to help planes avoid climate-warming 'sky graffiti'",
+        "url": "https://www.bbc.com/news/articles/c62em5lpvnjo",
+        "source": "Hacker News",
+        "paragraph": "Researchers are developing AI systems to help aircraft route around the atmospheric conditions that produce contrails — the persistent ice trails, sometimes called 'sky graffiti,' that contribute to aviation's climate impact beyond direct CO2 emissions. Studies have suggested contrails may account for roughly half of aviation's total warming effect, making avoidance a potentially high-leverage intervention. The AI approach involves predicting supersaturated air regions in advance so flight management systems can plan slight altitude adjustments, with trials already underway with select carriers."
+      },
+      {
+        "title": "Field measurements of neighborhood-scale air temperature impacts of data centers",
+        "url": "https://asmedigitalcollection.asme.org/sustainablebuildings/article/7/2/024501/1233035/Data-Center-Waste-Heat-as-an-Emerging-Urban",
+        "source": "Hacker News",
+        "paragraph": "A peer-reviewed study published in the ASME Journal of Engineering for Sustainable Buildings and Cities presents field measurements showing that data centers generate measurable heat islands at the neighborhood scale, not merely on their own campuses. Researchers recorded localized air temperature increases attributable to waste heat exhausted from facilities, a finding relevant to urban planning as AI workloads drive rapid data center expansion. The study adds empirical weight to concerns that siting decisions for large compute facilities carry environmental consequences for surrounding residential and commercial areas."
+      }
+    ]
+  },
+  {
+    "theme": "AI Commentary & Criticism",
+    "stories": [
+      {
+        "title": "AI won't solve the work-theater problem",
+        "url": "https://think-twice.me/?p=102",
+        "source": "Hacker News",
+        "paragraph": "This essay argues that AI productivity tools will not address what the author calls 'work theater' — the organizational tendency to reward visible busyness over actual output. The piece contends that because AI can automate the appearance of productivity just as easily as genuine work, it may entrench rather than disrupt performative work cultures. The argument draws on organizational behavior literature suggesting that measurement and incentive structures, not tool availability, determine whether productivity gains from new technology are captured or dissipated."
+      },
+      {
+        "title": "AI Alignment as a Thought-Terminating Cliche",
+        "url": "https://borretti.me/article/ai-alignment-as-thought-terminating-cliche",
+        "source": "Hacker News",
+        "paragraph": "Writing on his personal blog, Fernando Borretti argues that 'AI alignment' has become a thought-terminating cliché — a phrase that ends rather than advances conversation by substituting a label for substantive analysis. He contends that invoking alignment as a catch-all concern can obscure more specific and tractable questions about model behavior, deployment context, and power concentration. The essay situates the argument within a broader critique of how safety discourse in AI can function rhetorically to defer concrete accountability."
+      }
+    ]
+  },
+  {
+    "theme": "AI in Legal Practice",
+    "stories": [
+      {
+        "title": "State Farm defense lawyers admit AI generated fake cases in LA lawsuit",
+        "url": "https://calmatters.org/economy/2026/08/state-farm-lawsuit-ai-hallucinations/",
+        "source": "Hacker News",
+        "paragraph": "Defense lawyers representing State Farm in a Los Angeles lawsuit have admitted that AI-generated hallucinations produced fictitious case citations that were submitted in court filings. The incident is notable because it adds to a growing pattern of attorneys facing sanctions for relying on large language models to conduct legal research without verifying the outputs against actual legal databases. Courts have increasingly responded to such incidents by issuing warnings, fines, and procedural requirements mandating that lawyers certify the authenticity of cited sources before submission."
+      }
+    ]
+  }
+]

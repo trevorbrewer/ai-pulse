@@ -1,0 +1,256 @@
+{
+  "date": "2026-08-19",
+  "generated_at": "2026-08-19T11:21:34.044520+00:00",
+  "source_counts": {
+    "rss_feeds": 3,
+    "arxiv": 0,
+    "hackernews": 23,
+    "nitter": 0,
+    "total_raw": 26,
+    "total_deduped": 26,
+    "total_saved": 25
+  },
+  "items": [
+    {
+      "title": "Air Theremin \u2013 a browser theremin you play by waving at your webcam",
+      "url": "https://theremin.bizibah.com/",
+      "source": "Hacker News",
+      "published": "2026-08-19T10:15:00+00:00",
+      "summary_raw": "",
+      "points": 23,
+      "num_comments": 9,
+      "hn_url": "https://news.ycombinator.com/item?id=49359425"
+    },
+    {
+      "title": "She told no one about her agony except ChatGPT. What her death reveals about AI",
+      "url": "https://www.npr.org/2026/08/18/nx-s1-5929575/ai-suicide-risks-mental-health",
+      "source": "Hacker News",
+      "published": "2026-08-19T02:09:31+00:00",
+      "summary_raw": "",
+      "points": 11,
+      "num_comments": 2,
+      "hn_url": "https://news.ycombinator.com/item?id=49355684"
+    },
+    {
+      "title": "Cerebras CS-4",
+      "url": "https://www.cerebras.ai/cs4",
+      "source": "Hacker News",
+      "published": "2026-08-19T00:28:18+00:00",
+      "summary_raw": "",
+      "points": 305,
+      "num_comments": 204,
+      "hn_url": "https://news.ycombinator.com/item?id=49354949"
+    },
+    {
+      "title": "DFlash 2: Keep Drafting Parallel",
+      "url": "https://inco.ai/blog/dflash2/",
+      "source": "Hacker News",
+      "published": "2026-08-19T00:20:19+00:00",
+      "summary_raw": "",
+      "points": 12,
+      "num_comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=49354885"
+    },
+    {
+      "title": "OpenAI's Second-Quarter Sales Show Tepid Growth Compared with Anthropic",
+      "url": "https://www.wsj.com/tech/ai/openais-second-quarter-sales-show-tepid-growth-compared-with-anthropic-5cb42998",
+      "source": "Hacker News",
+      "published": "2026-08-18T22:45:43+00:00",
+      "summary_raw": "",
+      "points": 18,
+      "num_comments": 4,
+      "hn_url": "https://news.ycombinator.com/item?id=49353874"
+    },
+    {
+      "title": "GPT-5.6 Sol: 70% off in Devin",
+      "url": "https://devin.ai/blog/gpt-5-6-sol-promo",
+      "source": "Hacker News",
+      "published": "2026-08-18T22:12:14+00:00",
+      "summary_raw": "",
+      "points": 18,
+      "num_comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=49353484"
+    },
+    {
+      "title": "AI usage patterns in software teams",
+      "url": "https://linear.app/data",
+      "source": "Hacker News",
+      "published": "2026-08-18T22:08:07+00:00",
+      "summary_raw": "",
+      "points": 147,
+      "num_comments": 96,
+      "hn_url": "https://news.ycombinator.com/item?id=49353432"
+    },
+    {
+      "title": "GLM-5.3 Artificial Analysis Benchmarks",
+      "url": "https://artificialanalysis.ai/models/glm-5-3",
+      "source": "Hacker News",
+      "published": "2026-08-18T22:06:10+00:00",
+      "summary_raw": "",
+      "points": 129,
+      "num_comments": 50,
+      "hn_url": "https://news.ycombinator.com/item?id=49353407"
+    },
+    {
+      "title": "ChatGPT Ads expands across Europe",
+      "url": "https://openai.com/index/chatgpt-ads-expands-across-europe",
+      "source": "OpenAI Blog",
+      "published": "2026-08-18T22:00:00+00:00",
+      "summary_raw": "ChatGPT Ads is expanding to 31 European markets. Learn how advertisers can reach people as they explore, compare options, and make decisions."
+    },
+    {
+      "title": "Mojo\ud83d\udd25 is now open source",
+      "url": "https://simonwillison.net/2026/Aug/18/mojo-is-now-open-source/",
+      "source": "Simon Willison",
+      "published": "2026-08-18T21:39:20+00:00",
+      "summary_raw": "Mojo\ud83d\udd25 is now open source\nMojo\ud83d\udd25 is now open source\nThe Mojo programming language has been promising an open source release since May 2023. Last week they shipped their 1.0 and today they have followed through on that original promise, releasing the compiler and toolchain under an Apache 2 license.\nWhen Mojo first launched the stated goal was to produce a superset of Python, so existing Python code could be used to bootstrap their own ecosystem. That plan changed around August 2025:\n\nMojo may or may not evolve into a full superset of Python, and it\u2019s okay if it doesn\u2019t.\nWe\u2019re encouraged by how well AI-assisted coding tools already help migrate Python to Mojo today, and we\u2019re confident that future tooling and ecosystem maturity will make this evolution even smoother.\n\nToday Mojo is its own language, optimized to make GPU programming as painless as possible using syntax inspired by Python, if not 100% compatible with existing code.\n\n    Via Lobste.rs\n\n\n    Tags: open-source, python, mojo"
+    },
+    {
+      "title": "OpenAI Is Slowing Down Its AI Training",
+      "url": "https://time.com/article/2026/08/18/openai-slowing-training/",
+      "source": "Hacker News",
+      "published": "2026-08-18T19:46:28+00:00",
+      "summary_raw": "",
+      "points": 14,
+      "num_comments": 3,
+      "hn_url": "https://news.ycombinator.com/item?id=49351580"
+    },
+    {
+      "title": "200B Tokens Later: A Month of Letting AI Agents Decompile MW2",
+      "url": "https://momo5502.com/posts/2026-08-17-mw2-decompilation/",
+      "source": "Hacker News",
+      "published": "2026-08-18T19:28:09+00:00",
+      "summary_raw": "",
+      "points": 14,
+      "num_comments": 3,
+      "hn_url": "https://news.ycombinator.com/item?id=49351299"
+    },
+    {
+      "title": "Palantir Leads AI Data Deal with USA Today Sparking a Newsroom Revolt",
+      "url": "https://www.forbes.com/sites/sandycarter/2026/08/15/palantir-leads-ai-data-deal-with-usa-today-sparking-a-newsroom-revolt/",
+      "source": "Hacker News",
+      "published": "2026-08-18T19:24:05+00:00",
+      "summary_raw": "",
+      "points": 18,
+      "num_comments": 2,
+      "hn_url": "https://news.ycombinator.com/item?id=49351223"
+    },
+    {
+      "title": "The Capital Cycle Theory",
+      "url": "https://s-1.vercel.app/posts/the-capital-cycle-theory/",
+      "source": "Hacker News",
+      "published": "2026-08-18T19:13:07+00:00",
+      "summary_raw": "",
+      "points": 16,
+      "num_comments": 1,
+      "hn_url": "https://news.ycombinator.com/item?id=49351066"
+    },
+    {
+      "title": "U.S. to tell partners they must pick sides in AI race with China",
+      "url": "https://www.cnbc.com/2026/08/15/us-to-tell-allies-they-must-pick-sides-in-ai-race-with-china-reuters.html",
+      "source": "Hacker News",
+      "published": "2026-08-18T19:09:00+00:00",
+      "summary_raw": "",
+      "points": 13,
+      "num_comments": 1,
+      "hn_url": "https://news.ycombinator.com/item?id=49351005"
+    },
+    {
+      "title": "Strengthening democratic oversight in national security",
+      "url": "https://openai.com/index/strengthening-democratic-oversight-in-national-security",
+      "source": "OpenAI Blog",
+      "published": "2026-08-18T19:00:00+00:00",
+      "summary_raw": "OpenAI launches an initiative to strengthen democratic oversight of AI in national security, supporting government institutions with tools, training, and expertise."
+    },
+    {
+      "title": "AI Is Upending One of Finance's Cushiest Jobs",
+      "url": "https://www.bloomberg.com/news/features/2026-06-05/ai-is-upending-traditional-financial-advisor-jobs",
+      "source": "Hacker News",
+      "published": "2026-08-18T18:59:38+00:00",
+      "summary_raw": "",
+      "points": 10,
+      "num_comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=49350858"
+    },
+    {
+      "title": "Show HN: PantheonGPU \u2013 GPU health testing and AI workload benchmarking",
+      "url": "https://pantheongpu.com/",
+      "source": "Hacker News",
+      "published": "2026-08-18T18:47:51+00:00",
+      "summary_raw": "Hi HN, I built PantheonGPU because I wanted a better way to answer a simple question: is this GPU actually healthy and performing the way it should?<p>A GPU can show normal temperatures and utilization and still be underperforming, unstable under certain workloads, or have memory, PCIe, or configuration issues.<p>PantheonGPU actively tests the GPU instead of only monitoring telemetry. It currently includes 45+ tests covering compute, tensor workloads, memory, cache, PCIe, thermals, stability, and AI&#x2F;LLM inference.<p>It supports both NVIDIA CUDA and AMD ROCm.<p>I\u2019m also exploring a larger use case: running Pantheon across GPU fleets to identify individual GPUs that behave differently from the rest of a server or cluster.<p>I\u2019d especially appreciate feedback from people running AI infrastructure, multi-GPU systems, local LLMs, or GPU clouds.",
+      "points": 13,
+      "num_comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=49350637"
+    },
+    {
+      "title": "Field measurements of neighborhood-scale air temperature impacts of data centers",
+      "url": "https://asmedigitalcollection.asme.org/sustainablebuildings/article/7/2/024501/1233035/Data-Center-Waste-Heat-as-an-Emerging-Urban",
+      "source": "Hacker News",
+      "published": "2026-08-18T17:24:53+00:00",
+      "summary_raw": "",
+      "points": 302,
+      "num_comments": 463,
+      "hn_url": "https://news.ycombinator.com/item?id=49349147"
+    },
+    {
+      "title": "Why your Amazon order confirmation emails have become so unhelpful",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/977733/amazon-order-emails-google-gmail-ai-agents-data",
+      "source": "Hacker News",
+      "published": "2026-08-18T16:54:42+00:00",
+      "summary_raw": "",
+      "points": 68,
+      "num_comments": 30,
+      "hn_url": "https://news.ycombinator.com/item?id=49348627"
+    },
+    {
+      "title": "AI won't solve the work-theater problem",
+      "url": "https://think-twice.me/?p=102",
+      "source": "Hacker News",
+      "published": "2026-08-18T15:21:29+00:00",
+      "summary_raw": "",
+      "points": 33,
+      "num_comments": 5,
+      "hn_url": "https://news.ycombinator.com/item?id=49347015"
+    },
+    {
+      "title": "AI to help planes avoid climate-warming 'sky graffiti'",
+      "url": "https://www.bbc.com/news/articles/c62em5lpvnjo",
+      "source": "Hacker News",
+      "published": "2026-08-18T13:36:30+00:00",
+      "summary_raw": "",
+      "points": 10,
+      "num_comments": 16,
+      "hn_url": "https://news.ycombinator.com/item?id=49345448"
+    },
+    {
+      "title": "AI Alignment as a Thought-Terminating Cliche",
+      "url": "https://borretti.me/article/ai-alignment-as-thought-terminating-cliche",
+      "source": "Hacker News",
+      "published": "2026-08-18T13:33:28+00:00",
+      "summary_raw": "",
+      "points": 18,
+      "num_comments": 5,
+      "hn_url": "https://news.ycombinator.com/item?id=49345406"
+    },
+    {
+      "title": "Show HN: I canceled my AI code reviewer and wrote a free local one",
+      "url": "https://github.com/mukundzha/avouch",
+      "source": "Hacker News",
+      "published": "2026-08-18T13:13:17+00:00",
+      "summary_raw": "",
+      "points": 22,
+      "num_comments": 23,
+      "hn_url": "https://news.ycombinator.com/item?id=49345154"
+    },
+    {
+      "title": "State Farm defense lawyers admit AI generated fake cases in LA lawsuit",
+      "url": "https://calmatters.org/economy/2026/08/state-farm-lawsuit-ai-hallucinations/",
+      "source": "Hacker News",
+      "published": "2026-08-18T12:15:15+00:00",
+      "summary_raw": "",
+      "points": 10,
+      "num_comments": 1,
+      "hn_url": "https://news.ycombinator.com/item?id=49344577"
+    }
+  ]
+}
