@@ -1,0 +1,232 @@
+{
+  "date": "2026-08-20",
+  "generated_at": "2026-08-20T11:22:30.465743+00:00",
+  "source_counts": {
+    "rss_feeds": 5,
+    "arxiv": 50,
+    "hackernews": 21,
+    "nitter": 0,
+    "total_raw": 76,
+    "total_deduped": 76,
+    "total_saved": 25
+  },
+  "items": [
+    {
+      "title": "Pine AI getting 75.4% (SoTA) on \u03c4\u00b3-Voice Leaderboard",
+      "url": "http://taubench.com/leaderboard/",
+      "source": "Hacker News",
+      "published": "2026-08-20T10:24:06+00:00",
+      "summary_raw": "",
+      "points": 11,
+      "num_comments": 2,
+      "hn_url": "https://news.ycombinator.com/item?id=49372693"
+    },
+    {
+      "title": "Don't Paste the AI, please",
+      "url": "https://dontpastetheai.com/",
+      "source": "Hacker News",
+      "published": "2026-08-20T08:20:44+00:00",
+      "summary_raw": "",
+      "points": 387,
+      "num_comments": 191,
+      "hn_url": "https://news.ycombinator.com/item?id=49371857"
+    },
+    {
+      "title": "Flock Has a Powerful New AI Tool for Police. We Got Its Code",
+      "url": "https://www.wired.com/story/flock-safety-os-investigate/",
+      "source": "Hacker News",
+      "published": "2026-08-20T06:40:14+00:00",
+      "summary_raw": "",
+      "points": 18,
+      "num_comments": 1,
+      "hn_url": "https://news.ycombinator.com/item?id=49371195"
+    },
+    {
+      "title": "smolmachines / smolvm as a sandbox for untrusted Python & JavaScript",
+      "url": "https://simonwillison.net/2026/Aug/19/smolmachines-untrusted-sandbox/",
+      "source": "Simon Willison",
+      "published": "2026-08-19T23:16:00+00:00",
+      "summary_raw": "Research: smolmachines / smolvm as a sandbox for untrusted Python &amp; JavaScript\n        I tasked Claude Fable 5 running in Claude Code for web with the following research task:\n\nPut https://smolmachines.com through its paces as a fast secure sandbox. Explore what it would take to use this to run untrusted Python and JavaScript code in a way that is limited in what RAM and CPU time it can take up (protection against \"while true\") with no network access and filesystem access only to designated files\nGoal is to be able to use this to execute user-provided tasks for things like data transformations\n\nIt quickly ran into a problem: the Claude Code for web environment can't run smol machines. Quoting the notes it wrote:\n\n\nThis Claude Code container: Linux 6.18.5-fc-v20 (itself a Firecracker guest), 4 vCPU, 15GB RAM. No /dev/kvm, no vmx/svm CPU flags \u2192 no nested virt.\nsmolvm machine run fails as expected: \"kvm not available\".\nPlan B: GitHub Actions ubuntu runners DO expose /dev/kvm \u2192 run the real test battery via a temporary workflow on this branch, collect logs, remove workflow in final commit.\n\n\nAnd Plan B is what it did, installing smolvm and running these tests directly in a GitHub Actions runner against that branch.\nThat was a creative solution to the environmental limits posed by Claude Code for web. Another example of Fable being relentlessly proactive.\n    \n    \n        Tags: research, sandboxing, ai, github-actions, generative-ai, llms, coding-agents, claude-mythos-fable"
+    },
+    {
+      "title": "Technical leaders should have the largest AI exhaust",
+      "url": "https://schipper.ai/posts/technical-leaders-should-have-the-largest-ai-exhaust/",
+      "source": "Hacker News",
+      "published": "2026-08-19T23:12:38+00:00",
+      "summary_raw": "",
+      "points": 10,
+      "num_comments": 15,
+      "hn_url": "https://news.ycombinator.com/item?id=49368389"
+    },
+    {
+      "title": "Quoting Jeremy Morrell",
+      "url": "https://simonwillison.net/2026/Aug/19/jeremy-morrell/",
+      "source": "Simon Willison",
+      "published": "2026-08-19T22:56:31+00:00",
+      "summary_raw": "My hypothesis is that\u00a0there is a new opportunity for Extensible Software on the web. LLMs radically lower the cost of authoring extensions, and modern sandbox primitives lower the deployment cost and provide good security boundaries. We can build our app as a solid, accountable core, and allow users to safely extend it in many directions by having LLMs fill in the missing pieces.\u00a0We can give our users super powers.\n&mdash; Jeremy Morrell, Extensible Software in the age of LLMs\n\n    Tags: sandboxing, llms, ai, generative-ai"
+    },
+    {
+      "title": "Conceptual integrity and counting lines of code",
+      "url": "https://simonwillison.net/2026/Aug/19/conceptual-integrity-and-counting-lines-of-code/",
+      "source": "Simon Willison",
+      "published": "2026-08-19T22:46:07+00:00",
+      "summary_raw": "Last week I recorded an episode of the Talking Postgres podcast with Claire Giordano on the subject of \"How AI is changing software development\". We had a really great conversation. Here are a couple of my highlights from a lightly edited transcript (prompt to Claude: \"very minor edits to remove disfluencies\").\nThis is the latest version of an argument I've been trying to build about why sometimes it does make sense to talk about lines of code as an indicator of productivity with coding agents, at 35:01:\n\nA lot of people will tell you it makes no sense to measure productivity in lines of code. I\u2019d actually disagree, because there\u2019s a hard limit. In the before-times, a software engineer could produce a few hundred lines of production-ready code per day \u2014 and 200 lines of working, debugged, production-level code is an incredibly good day. Most days you\u2019d produce 50 or 60.\nIf agents let you produce a thousand lines of debugged code, that really is a very meaningful improvement \u2014 as long as the code is the same quality: maintainable, tested, all of that. You can get to that point with agents, but it takes a huge amount of skill and knowledge and experience. That\u2019s what senior engineers are made of.\nI can do way more work as a single engineer than I could without agents. So you could argue, why should a company have more than one engineer? Beyond the obvious bus factor thing \u2014 a team of one is a very badly designed team \u2014 the answer is that the new limiting factor is cognitive capacity. I can churn out code a hundred times faster. I don\u2019t have the cognitive capacity to stay on top of 100 times the amount of code. So you still need a team of engineers, so you can load balance that cognitive capacity across the team.\n\nAnd this section on conceptual integrity at 46:03, which Claire equated to the Winchester Mystery House!\n\nSimon: There\u2019s a concept in The Mythical Man-Month \u2014 conceptual integrity \u2014 where well-designed software has an integrity to it: there are no surprises in it, it covers exactly the right domain of things, everything fits together and makes sense. That\u2019s so much harder with coding agents, where you can have an idea for a feature, run a prompt, and five minuteslater you\u2019ve got the feature. Your software grows little weird bumps in funny different directions.\nClaire: You know my analogy for that? The Winchester Mystery House.\nSimon: It\u2019s got 140 rooms, because the woman who built it was the widow of the guy who invented the Winchester rifle, and her psychic told her she\u2019d be haunted by the ghosts of everyone killed with that rifle unless she kept building the house forever. So for 40 years she kept adding new rooms.\n\nThat\u2019s exactly the problem with coding agents and software: it\u2019s very easy to keep adding new rooms, because the cost of adding those rooms is so much cheaper. What you end up with is something where the conceptual integrity falls apart \u2014 and then it\u2019s harder to make decisions about it.\nIt all keeps coming back to discipline. It used to be that the discipline was enforced on you by the amount of time it took. You\u2019d come up with an idea for a crazy feature and think \u201cyeah, but that would take me a week \u2014 I cannot justify that, so I\u2019ll forget about it.\u201d If it takes an hour, it\u2019s so much easier to justify.\n\n(Side-note: the Wikipedia article includes credible sources that dispute the story about the psychic.)\n    \n        Tags: ai, generative-ai, llms, podcast-appearances, coding-agents"
+    },
+    {
+      "title": "PINE64 halts their open-source hardware manufacturing until the AI bubble bursts",
+      "url": "https://www.hackster.io/news/pine64-calls-time-on-the-linux-hardware-market-ceases-production-until-the-ai-bubble-bursts-a865c8345041",
+      "source": "Hacker News",
+      "published": "2026-08-19T22:20:14+00:00",
+      "summary_raw": "",
+      "points": 15,
+      "num_comments": 1,
+      "hn_url": "https://news.ycombinator.com/item?id=49367929"
+    },
+    {
+      "title": "Japan to require AI firms to disclose training data",
+      "url": "https://www.japantimes.co.jp/news/2026/08/19/japan/ai-training-data-disclosure/",
+      "source": "Hacker News",
+      "published": "2026-08-19T22:12:52+00:00",
+      "summary_raw": "",
+      "points": 17,
+      "num_comments": 4,
+      "hn_url": "https://news.ycombinator.com/item?id=49367870"
+    },
+    {
+      "title": "New AirPods leak reveals built-in cameras and Visual Intelligence",
+      "url": "https://www.dexerto.com/entertainment/new-airpods-leak-reveals-built-in-cameras-and-visual-intelligence-3400062/",
+      "source": "Hacker News",
+      "published": "2026-08-19T21:42:32+00:00",
+      "summary_raw": "",
+      "points": 12,
+      "num_comments": 8,
+      "hn_url": "https://news.ycombinator.com/item?id=49367576"
+    },
+    {
+      "title": "AI is less likely to launch a nuclear strike when it reasons in Japanese",
+      "url": "https://www.unite.ai/ai-is-less-likely-to-launch-a-nuclear-strike-when-it-reasons-in-japanese/",
+      "source": "Hacker News",
+      "published": "2026-08-19T21:02:31+00:00",
+      "summary_raw": "",
+      "points": 10,
+      "num_comments": 6,
+      "hn_url": "https://news.ycombinator.com/item?id=49367180"
+    },
+    {
+      "title": "DFlash 2: Keep Drafting Parallel",
+      "url": "https://inco.ai/blog/dflash2/",
+      "source": "Hacker News",
+      "published": "2026-08-19T20:28:43+00:00",
+      "summary_raw": "",
+      "points": 89,
+      "num_comments": 17,
+      "hn_url": "https://news.ycombinator.com/item?id=49366792"
+    },
+    {
+      "title": "\"Two 2030 AMD racks are expected to deliver same compute as 570 racks in 2024\"",
+      "url": "https://newsroom.amd.com/news/amd-tracks-ahead-of-rack-scale-ai-energy-efficiency-goal/",
+      "source": "Hacker News",
+      "published": "2026-08-19T20:20:19+00:00",
+      "summary_raw": "",
+      "points": 11,
+      "num_comments": 3,
+      "hn_url": "https://news.ycombinator.com/item?id=49366670"
+    },
+    {
+      "title": "AI was supposed to win people over by now \u2013 it hasn't",
+      "url": "https://techcrunch.com/2026/08/19/ai-was-supposed-to-win-people-over-by-now-it-hasnt/",
+      "source": "Hacker News",
+      "published": "2026-08-19T19:58:01+00:00",
+      "summary_raw": "",
+      "points": 12,
+      "num_comments": 10,
+      "hn_url": "https://news.ycombinator.com/item?id=49366416"
+    },
+    {
+      "title": "OpenAI 'will be a public company in 2027' or sooner, CFO Friar tells employees",
+      "url": "https://www.cnbc.com/2026/08/19/open-ai-ipo-timing-2027-friar.html",
+      "source": "Hacker News",
+      "published": "2026-08-19T19:42:35+00:00",
+      "summary_raw": "",
+      "points": 20,
+      "num_comments": 2,
+      "hn_url": "https://news.ycombinator.com/item?id=49366252"
+    },
+    {
+      "title": "Daily Reminder to Not Listen to Google's AI Overview",
+      "url": "https://whatever.scalzi.com/2026/08/19/daily-reminder-to-not-listen-to-googles-ai-overview/",
+      "source": "Hacker News",
+      "published": "2026-08-19T19:26:46+00:00",
+      "summary_raw": "",
+      "points": 11,
+      "num_comments": 1,
+      "hn_url": "https://news.ycombinator.com/item?id=49366075"
+    },
+    {
+      "title": "Offering Zero Data Retention for frontier models",
+      "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
+      "source": "OpenAI Blog",
+      "published": "2026-08-19T19:00:00+00:00",
+      "summary_raw": "OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI safety without compromising data privacy."
+    },
+    {
+      "title": "5 new ways to level up your learning with Search",
+      "url": "https://blog.google/products-and-platforms/products/search/back-to-school-study-tools/",
+      "source": "Google AI Blog",
+      "published": "2026-08-19T19:00:00+00:00",
+      "summary_raw": "an illustrated image with icons and phrasing like \"Add Notebook\" and \"Ask Google\""
+    },
+    {
+      "title": "Unsloth Dynamic 3.0 GGUFs",
+      "url": "https://unsloth.ai/docs/basics/dynamic-3.0-ggufs",
+      "source": "Hacker News",
+      "published": "2026-08-19T18:36:45+00:00",
+      "summary_raw": "",
+      "points": 282,
+      "num_comments": 99,
+      "hn_url": "https://news.ycombinator.com/item?id=49365443"
+    },
+    {
+      "title": "SPADE: Self-Play in Adaptive Synthetic Executable Environments",
+      "url": "https://arxiv.org/abs/2608.19197v1",
+      "source": "arXiv",
+      "published": "2026-08-19T17:58:56+00:00",
+      "summary_raw": "Continuous self-improvement requires an ever-expanding pool of self-generated, diverse, adaptive goals. For language agents, existing training environment pools (hand-curated, statically synthesized, or frozen-verifier) keep the goal distribution fixed as the learner scales. We introduce SPADE (Self-Play in Adaptive Synthetic Executable Environments), a self-play RL framework in which a single LLM plays two roles: an Environment Designer that writes complete, long-horizon training environments as executable code with an OpenAI Gym-style reset()/step() interface, and a Reasoning Agent that learns to act in them. Each is a stateful, multi-turn environment (state transitions, reward functions, and verification code), so one interface spans reasoning problems and multi-step agentic tool use. The Reasoning Agent's regret is estimated using the gap between its reward with and without privileged hints; in optimizing this regret signal the Environment Designer learns to target environments at the edge of the agent's capabilities while keeping them feasible. Through extensive experimentation, we find several components critical to success: grounding the Environment Designer on documents sampled from a large pretraining corpus, and giving it an accumulated environment memory. Scaling to 30B-parameter models, SPADE improves over the strongest fixed-environment baseline by +5.3 on average across eight held-out math, science, code, and reasoning benchmarks, and lifts the tool-use setting by +5.7 on BFCL-v4 multi-turn and +13.9 on ACEBench-Agent; on the games setting, the margin over the strongest baseline grows with model scale. By making environment design itself a learnable component, SPADE takes a concrete step toward open-ended self-improvement."
+    },
+    {
+      "title": "ADEPT: Accelerating Dexterity via Pre-Training and Post-Training using Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2608.19182v1",
+      "source": "arXiv",
+      "published": "2026-08-19T17:55:06+00:00",
+      "summary_raw": "We introduce Accelerating Dexterity via Pre-Training (ADEPT), a large-scale reinforcement learning (RL) framework for learning sim-to-real transferable dexterity across high degree-of-freedom (DoF) robot embodiments that can solve long-horizon tasks directly from raw visuo-tactile perception. ADEPT pretrains a dexterous policy on a generic object reposing task, then post-trains downstream policies with this pretrained behavior as a prior. ADEPT enables learning new behaviors that are otherwise difficult to discover from scratch on multi-fingered robots and avoids learning the same set of skills over again for every new downstream task. The pretrained policy zero-shots the reposing phase of downstream tasks, but na\u00efve RL fine-tuning rapidly degrades this capability during transfer. We address this with a stable post-training recipe combining behavior-cloning distillation, critic warm-up, and conservative on-policy updates. To safely exploit the full kinematic dexterity, we introduce a joint-space Geometric Fabric that mediates between the RL policy and the robot. We distill post-trained teachers into perceptive students that zero-shot sim-to-real transfer on two embodiments: a 23 DoF Kuka-Allegro with two RGB cameras, and a 29 DoF Flexiv-Sharpa with two RGB cameras and five vision-based tactile sensors, and can solve long-horizon tasks from challenging initial states with dexterity at human-level speed."
+    },
+    {
+      "title": "Beyond Teacher Likelihood: Group-Calibrated On-Policy Distillation for Long-Context Reasoning",
+      "url": "https://arxiv.org/abs/2608.19181v1",
+      "source": "arXiv",
+      "published": "2026-08-19T17:54:58+00:00",
+      "summary_raw": "On-policy distillation (OPD) trains a student on its own responses using dense token-level guidance from a stronger teacher. In long-context tasks, however, token-level teacher support can favor locally plausible responses that omit evidence distributed across the input or violate global task constraints. Task-specific verifiers, in contrast, evaluate task completion at the response level and may return graded rewards that reflect partial success. We diagnose this mismatch on fixed responses from two representative long-context evidence-aggregation tasks. Across longer input ranges, trajectory-level OPD scores become progressively less aligned with verifier rewards, indicating teacher-verifier disagreement. Motivated by this observation, we introduce Group-Calibrated On-Policy Distillation (GC-OPD). GC-OPD separately normalizes verifier rewards and trajectory-level OPD scores within each rollout group and uses their difference as a signed teacher-verifier disagreement residual. Relative-advantage-based credit assignment (RACA) distributes this trajectory-level residual across tokens according to their relative OPD advantages while preserving the original OPD signal. Across five long-context benchmarks, post-training with GC-OPD raises the five-benchmark averages of the official Qwen3-4B and Qwen3-8B checkpoints from 29.08 to 40.47 and from 35.12 to 44.65, respectively. Vanilla OPD reaches 39.31 and 43.56 under the same setup. Controlled ablations show that the signed residual is more effective than either an additional OPD-derived term or direct group-normalized verifier reward addition, while RACA further improves over uniform token allocation. Together, these results demonstrate that group-relative residual calibration can incorporate verifier outcomes without discarding dense token-level guidance. Code is available at https://github.com/SolereZhang/GC-OPD."
+    },
+    {
+      "title": "Finetuning Strategies for Querying Sounds by Vocal Imitation",
+      "url": "https://arxiv.org/abs/2608.19174v1",
+      "source": "arXiv",
+      "published": "2026-08-19T17:51:50+00:00",
+      "summary_raw": "This technical report describes our winning submission to the AES AIMLA 2025 Challenge on querying sound effects by vocal imitation. We investigate two complementary fine-tuning strategies: contrastive learning with a frozen, pretrained CED encoder, and joint contrastive-triplet learning with semi-hard negatives using a MobileNetV3 encoder. This report has been updated for posterity to include details released after the challenge."
+    },
+    {
+      "title": "L\u00e9vy Attention: Single-Pass Predictive Uncertainty for Continuous-Time Attention",
+      "url": "https://arxiv.org/abs/2608.19171v1",
+      "source": "arXiv",
+      "published": "2026-08-19T17:50:16+00:00",
+      "summary_raw": "Deep models for irregularly-sampled time series answer queries at arbitrary continuous timestamps, yet report nothing about how far each answer should be trusted. We show the attention layer itself can close that gap: with the right stochastic formulation, the pass that makes each prediction also reports, in closed form and at no extra cost, how far it should be trusted. We introduce L\u00e9vy Attention, a cross-attention operator whose output is a stochastic integral against an inhomogeneous Poisson random measure: query-key compatibilities assemble an intensity over a continuous (time x channel) index space, the measure scatters atoms under it, and the output averages an interpolated value field at those atoms. In expectation it reduces to a mollified cosine-kernel attention, so it replaces a softmax layer and trains with exact gradients. What softmax discards, the Poisson construction preserves in closed form: the evidence $\u039b_q$ (total compatibility mass) and the disagreement $\\mathrm{tr}\\,\u03a3_V(q)$ (value spread). An exact variance identity makes their combination $\\hat\u03c3(q)=\\sqrt{\\mathrm{tr}\\,\u03a3_V(q)\\,\\varphi(\u039b_q)}$ the root-mean-square deviation of the sampled operator, emitted by the deterministic pass with no trained head. Empirically, disagreement carries the signal, while the evidence factor swings from uninformative on dense data to strongly informative on sparse. On t-PatchGNN the operator swap costs at most 5.6% accuracy against a matched control and nothing on the sparsest dataset. The free disagreement signal improves on 20-pass MC dropout across matched five-seed suites, and $\\hat\u03c3$ scales a calibrated Gaussian whose zero-sample CRPS beats a fifty-draw sampler; a split-conformal wrapper reaches nominal coverage at every level, and one pass ranks 3,383 unseen patients by trust in 1.4 seconds."
+    },
+    {
+      "title": "Learned, Then Lost: A Measured Single-Example Counterfactual in Pre-training",
+      "url": "https://arxiv.org/abs/2608.19168v1",
+      "source": "arXiv",
+      "published": "2026-08-19T17:46:08+00:00",
+      "summary_raw": "A single training example's contribution to a finished model is normally estimated rather than measured, because measuring it takes two expensive full pre-training runs that differ in one row of one batch. We ran that counterfactual 24 times at a small scale. We trained 32 GPT-2 models at 124M parameters from scratch on OpenWebText, over four conditions and eight seeds. At step 200 of 9,536, at peak learning rate, we replaced one row of a 256-row batch with a fixed context injection carrying a 194-token passage. The three injected conditions are: 1. fluent prose with a corpus-attested subject, 2. fluent prose with a fabricated subject matched to it within 0.14% on full-batch gradient delta, and 3. random keyboard characters. The fourth condition is an uninjected twin. The passage is learned from one exposure and then decays. Fifty steps after injection, the arm that saw a passage predicts it better than the arm that did not by 0.039 and 0.044 nats of cross-entropy on the passage, at eight of eight seeds with p < $10^{-4}$. At the final step we do not detect that difference for either passage, at p = 0.25 and p = 0.71, against minimum detectable effects of 0.025 and 0.079 nats, nor between the two passages, at p=0.54. Every geometric measure we report is taken after that decay. Our pre-registered contrast on interpolation loss barrier is +0.0068 with p = 0.509, against a minimum detectable effect of 0.032 barrier units. Held-out cross-entropy is $-0.00044$ with p = 0.310. Per-layer centered kernel alignment does not detectably separate any condition at any layer. Weight displacement reaches 44.1% of the seed-to-seed Euclidean distance and is 92% settled by the midpoint of training, while the barrier reaches 3.0% of the seed-to-seed barrier. Those two figures sit roughly 15 times apart, and that is a lower bound. The injection relocates the model within its basin without moving it out."
+    }
+  ]
+}
