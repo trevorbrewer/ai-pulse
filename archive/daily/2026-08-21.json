@@ -1,0 +1,223 @@
+{
+  "date": "2026-08-21",
+  "generated_at": "2026-08-21T11:21:34.334645+00:00",
+  "source_counts": {
+    "rss_feeds": 2,
+    "arxiv": 50,
+    "hackernews": 23,
+    "nitter": 0,
+    "total_raw": 75,
+    "total_deduped": 75,
+    "total_saved": 25
+  },
+  "items": [
+    {
+      "title": "DeepSeek-V4-Flash-Vision-Exp Is Now Live on the DeepSeek API Platform",
+      "url": "https://twitter.com/deepseek_ai/status/2090730032574631962",
+      "source": "Hacker News",
+      "published": "2026-08-21T09:37:54+00:00",
+      "summary_raw": "",
+      "points": 15,
+      "num_comments": 1,
+      "hn_url": "https://news.ycombinator.com/item?id=49385812"
+    },
+    {
+      "title": "Young Americans increasingly fear AI will take their jobs",
+      "url": "https://www.pewresearch.org/short-reads/2026/08/18/young-adults-in-the-us-are-increasingly-wary-of-ai-concerned-it-will-take-jobs/",
+      "source": "Hacker News",
+      "published": "2026-08-21T06:49:46+00:00",
+      "summary_raw": "",
+      "points": 18,
+      "num_comments": 10,
+      "hn_url": "https://news.ycombinator.com/item?id=49384642"
+    },
+    {
+      "title": "Micron announces $10B research hub in Boise",
+      "url": "https://investors.micron.com/news/press-release/2026/Micron-Unveils-Micron-Research-Labs-a-U-S--Based-Long-Horizon-Innovation-Hub-to-Shape-the-Future-of-Memory-and-AI/default.aspx",
+      "source": "Hacker News",
+      "published": "2026-08-21T03:51:58+00:00",
+      "summary_raw": "",
+      "points": 30,
+      "num_comments": 1,
+      "hn_url": "https://news.ycombinator.com/item?id=49383582"
+    },
+    {
+      "title": "AI companies destroy physical books \u2013 let's scan rare books before it's too late",
+      "url": "https://annas-archive.gl/blog/physical-destruction.html",
+      "source": "Hacker News",
+      "published": "2026-08-21T02:37:47+00:00",
+      "summary_raw": "",
+      "points": 349,
+      "num_comments": 259,
+      "hn_url": "https://news.ycombinator.com/item?id=49383026"
+    },
+    {
+      "title": "Copyright does not protect AI-generated content in EU",
+      "url": "https://mathstodon.xyz/@maxpool/117128107757895678",
+      "source": "Hacker News",
+      "published": "2026-08-21T00:15:12+00:00",
+      "summary_raw": "",
+      "points": 177,
+      "num_comments": 187,
+      "hn_url": "https://news.ycombinator.com/item?id=49382041"
+    },
+    {
+      "title": "ChatGPT search now uses the site:operator at scale",
+      "url": "https://simonwillison.net/2026/Aug/20/chatgpt-search-now-uses-the-siteoperator-at-scale/",
+      "source": "Simon Willison",
+      "published": "2026-08-20T23:57:32+00:00",
+      "summary_raw": "ChatGPT search now uses the site:operator at scale\nPromptwatch is part of the emerging \"GEO\" space, for Generative Engine Optimization - the chatbot version of SEO, where companies offer tools and consulting to help your site increase its presence in replies to prompts inside tools like ChatGPT.\nThe Promptwatch product uses automation to track responses to prompts across end-user chat products like ChatGPT, Claude, and Gemini. They publish aggregate reports on this as part of their own content marketing strategy, which do seem to provide credible hints as to otherwise invisible design changes to those products.\nTheir own tracking shows a notable change aligned with the GPT-5.6 rollout earlier this month:\n\nThe percentage of all ChatGPT Search fanout queries that contain the site:operator, per day. The share hovered between 0.3% and 0.5% for weeks, dipped briefly to 0.15% on August 3 to 5 (consistent with a staged rollout or pre-launch experiment), then jumped to 16-17% on August 8.\n\nIt's important to note that these figures only reflect the prompts for which they have automated tracking enabled.\nThis corresponds to OpenAI's somewhat vague August 6th announcement:\n\nFor Plus and Pro users, we\u2019re updating GPT\u20115.6 Sol in Chat to be more reliable with facts and provide more focused answers.\n\nOnce again I am hampered by OpenAI's decision to actively obscure their system prompts, but from poking at ChatGPT I believe their latest search tool has a shape like search(query, recency, domains) rather than encouraging a site: operator directly.\nIn a follow-up on August 18th Promptwatch reported that ChatGPT appeared to have greatly reduced the likelihood of Reddit being used in those searches. My own attempts to ascertain if the system prompt has been updated to discourage Reddit sourcing have been unsuccessful - the most thorough leaked system prompt collection I know of doesn't yet show any relevant changes.\n\n\n    Tags: reddit, seo, openai, chatgpt, ai-assisted-search, system-prompts"
+    },
+    {
+      "title": "Ox Alpha",
+      "url": "https://openrouter.ai/stealth/ox-alpha",
+      "source": "Hacker News",
+      "published": "2026-08-20T23:56:35+00:00",
+      "summary_raw": "<a href=\"https:&#x2F;&#x2F;twitter.com&#x2F;OpenRouter&#x2F;status&#x2F;2090544970923184269\" rel=\"nofollow\">https:&#x2F;&#x2F;twitter.com&#x2F;OpenRouter&#x2F;status&#x2F;2090544970923184269</a>, <a href=\"https:&#x2F;&#x2F;xcancel.com&#x2F;OpenRouter&#x2F;status&#x2F;2090544970923184269\" rel=\"nofollow\">https:&#x2F;&#x2F;xcancel.com&#x2F;OpenRouter&#x2F;status&#x2F;2090544970923184269</a>",
+      "points": 173,
+      "num_comments": 133,
+      "hn_url": "https://news.ycombinator.com/item?id=49381896"
+    },
+    {
+      "title": "Protesters haul a guillotine to city council meeting about an AI data center",
+      "url": "https://www.tomshardware.com/tech-industry/data-centers/protesters-haul-a-guillotine-to-city-council-meeting-about-a-potential-ai-data-center-company-rep-cornered-by-protestors-it-no-longer-felt-safe-to-stay-developer-escorted-out-by-police",
+      "source": "Hacker News",
+      "published": "2026-08-20T21:53:37+00:00",
+      "summary_raw": "",
+      "points": 17,
+      "num_comments": 4,
+      "hn_url": "https://news.ycombinator.com/item?id=49380775"
+    },
+    {
+      "title": "Introducing AI Futures",
+      "url": "https://openai.com/index/introducing-ai-futures/",
+      "source": "Hacker News",
+      "published": "2026-08-20T19:46:49+00:00",
+      "summary_raw": "",
+      "points": 29,
+      "num_comments": 8,
+      "hn_url": "https://news.ycombinator.com/item?id=49379261"
+    },
+    {
+      "title": "Show HN: Huzzah \u2013 a novel approach to coding with AI",
+      "url": "https://www.danielvaughn.dev/posts/huzzah/",
+      "source": "Hacker News",
+      "published": "2026-08-20T19:05:36+00:00",
+      "summary_raw": "Hello everyone. I&#x27;ve been working on this experimental editor called Huzzah.<p>I&#x27;ve been working almost exclusively with coding agents since January of this year, and over the past few months I began to feel utterly exhausted by them. They&#x27;re great, but I&#x27;m finding it more and more tedious to write full sentences for every change I want. Not only that, but it seems there&#x27;s a complexity limit for codebases - beyond a certain point the agent begins confusing itself.<p>I&#x27;d like to go back to writing code, but I don&#x27;t want to go all the way back to fully manual coding. So I&#x27;ve come up with this interaction paradigm where you:<p><pre><code>  1. write pseudocode in whatever way makes the most sense to you\n  2. on save, the editor synchronizes your work to real source code\n  3. the pseudocode is persisted alongside the generated code, making your prompt effectively a stored record of intent.\n</code></pre>\nIt may not work for every use case, but in my initial playthroughs I&#x27;ve found it very enjoyable.<p>Right now it&#x27;s just a proof of concept - installation instructions are here in the readme: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;danielvaughn&#x2F;hz\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;danielvaughn&#x2F;hz</a><p>You can also watch a video of it in action here: <a href=\"https:&#x2F;&#x2F;x.com&#x2F;danielvaughn&#x2F;status&#x2F;2090456808431165715\" rel=\"nofollow\">https:&#x2F;&#x2F;x.com&#x2F;danielvaughn&#x2F;status&#x2F;2090456808431165715</a><p>Cheers!",
+      "points": 325,
+      "num_comments": 171,
+      "hn_url": "https://news.ycombinator.com/item?id=49378768"
+    },
+    {
+      "title": "Show HN: Kandelo \u2013 a POSIX-compatible multi-process WASM kernel for the browser",
+      "url": "https://kandelo.dev/20260819-demo/",
+      "source": "Hacker News",
+      "published": "2026-08-20T18:25:30+00:00",
+      "summary_raw": "Kandelo is an open-source, Wasm-based multi-process kernel that runs POSIX programs in browsers and Node.js.<p>Kandelo is still experimental, but it already runs a substantial range of existing software.<p><i>Do you have use cases for this?</i><p>We are trying Kandelo as a new foundation for WordPress Playground which runs server-side WordPress entirely in the browser. Kandelo also looks promising as a sandbox for running agents in the the browser and on the command line. On the side, we&#x27;ve been playing with porting games and desktop environments and even compiling runnable programs within Kandelo.<p>Yet it feels like there are many possibilities we haven&#x27;t considered.<p>How would you like to use something like this?<p><i>Demos:</i><p>Some notes: The demos have been tested in desktop browsers. Unfortunately, YMMV on mobile today. Some of the disk images are large (~50MB) and may take a while to boot initially.<p>Main set, with Shell (bash, vim, nethack, and more), Nginx, PHP, WordPress, and Doom:\n<a href=\"https:&#x2F;&#x2F;kandelo.dev&#x2F;20260819-demo&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;kandelo.dev&#x2F;20260819-demo&#x2F;</a><p>L\u00d6VE game engine:\n<a href=\"https:&#x2F;&#x2F;kandelo.dev&#x2F;20260819-demo-love&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;kandelo.dev&#x2F;20260819-demo-love&#x2F;</a><p>SNKRX running under L\u00d6VE:\n<a href=\"https:&#x2F;&#x2F;kandelo.dev&#x2F;20260819-demo-love&#x2F;?vfs=love-snkrx-abi44.vfs.zst\" rel=\"nofollow\">https:&#x2F;&#x2F;kandelo.dev&#x2F;20260819-demo-love&#x2F;?vfs=love-snkrx-abi44...</a><p>Commander Keen running in DOSBox:\n<a href=\"https:&#x2F;&#x2F;kandelo.dev&#x2F;20260819-demo-dos&#x2F;?demo=keen\" rel=\"nofollow\">https:&#x2F;&#x2F;kandelo.dev&#x2F;20260819-demo-dos&#x2F;?demo=keen</a><p>LXDE desktop PoC:\n<a href=\"https:&#x2F;&#x2F;kandelo.dev&#x2F;20260819-demo-lxde&#x2F;?demo=desktop-lxde\" rel=\"nofollow\">https:&#x2F;&#x2F;kandelo.dev&#x2F;20260819-demo-lxde&#x2F;?demo=desktop-lxde</a><p><i>Background</i><p>I wanted an authentic OS-level foundation for running systems software in the browser and started this as a vibe-coded exploration. I figured it would end up being too slow and that we would have to offer many different ways to compromise default POSIX behavior to get anything usable. But after weeks of fighting agents, insisting on genuine POSIX compatibility as the default, I was surprised at how well the system worked without those compromises.<p>Nginx, PHP, Python, Ruby, Redis, and even MariaDB were able to be built using the SDK with minimal hacks.<p>Then we started porting games, having fun, and playing to see how far we could push it.<p><i>Notes on architecture:</i><p>There is a central, single-worker kernel, aiming to provide all supportable POSIX syscalls. Each process is a dedicated worker with independent memory. Each process thread is a dedicated worker that shares memory with threads from the same process. Syscalls are done with the process SharedArrayBuffer and the Atomics API. fork() is supported. The system is centered around virtual file system (VFS) images, and the VFS can contain lazy references to programs that may or may not be used. Vim is such a reference in the shell demo.<p><i>On GitHub:</i>\n<a href=\"https:&#x2F;&#x2F;github.com&#x2F;Automattic&#x2F;kandelo\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;Automattic&#x2F;kandelo</a>",
+      "points": 11,
+      "num_comments": 10,
+      "hn_url": "https://news.ycombinator.com/item?id=49378305"
+    },
+    {
+      "title": "Are you good at AI, or just using it?",
+      "url": "https://news.ycombinator.com/item?id=49378057",
+      "source": "Hacker News",
+      "published": "2026-08-20T18:04:18+00:00",
+      "summary_raw": "We\u2019re working on a ladder for individual AI proficiency and would love feedback on both the levels and the definitions.<p>L0 New: brand new to AI, or has not yet used it.<p>L1 Chat: simple prompt-and-response use. Work is serial: ask, wait for an answer, then ask again.<p>L2 Contextual Work: gives AI relevant documents, data, or workspace context so it can work within the actual artifact and produce a more useful result.<p>L3 Orchestrate: coordinates multiple agents or AI roles across independent workstreams, with work that may review, challenge, compare, or build on other work. This is not just for engineering.<p>L4 Automate: creates workflows that are triggered by business events and run without someone sitting at a laptop directing each step.<p>L5 Loop: feeds the output of those workflows back into shared knowledge or a company brain, so future workflows improve over time.<p>A few things I\u2019d love your perspective on:<p>Are these the right levels?\nAre any of the names unclear or overlapping?\nWhat observable behaviors would you use to distinguish one level from the next?\nDoes \u201cloop\u201d make sense as an individual proficiency level, or is it inherently a team or company capability?\nIs there a L6 and if so how would you define it?\nWe\u2019re trying to define these because, in customer conversations, we\u2019ve found that people are not very good at self-evaluating their own AI proficiency. Frequent use often gets mistaken for proficiency. And being low on a ladder like this can feel like admitting you are falling behind, do not fit in, or are less secure in your job, especially for leaders expected to set the pace. We want a more objective, behavior-based way to distinguish the two.",
+      "points": 11,
+      "num_comments": 9,
+      "hn_url": "https://news.ycombinator.com/item?id=49378057"
+    },
+    {
+      "title": "Information on trajectories: martingales and random times",
+      "url": "https://arxiv.org/abs/2608.20337v1",
+      "source": "arXiv",
+      "published": "2026-08-20T17:59:57+00:00",
+      "summary_raw": "Accounting for information flow on the path space of trajectories of a nonnegative martingale yields exact variational identities for it, even at arbitrary random times. This recovers the widely used classical concentration inequalities, from Ville to PAC-Bayes, and measures what each one discards. The tail a bound controls is itself a relative entropy, resolved by the chain rule into per-step conditional divergences. The discarded slack has an exact form in each of three geometries: a Gibbs tilt for the Azuma-Hoeffding and PAC-Bayes bounds, the crossing itself for Ville's and for pooled tests, and a dominating certificate for the $L^p$ maximal bound. That certificate's optional-stopping deficit resolves per step into Bregman divergences of the running maximum. On a path-time space, the same identity gains one factor that prices anticipation: an arbitrary random time carries an e-process ``peeking penalty.'' The partition function can be read as a coalescent--a prefix-sharing probability of independent copies--and geometric mixtures of test martingales gain a pooling benefit for multi-model safe testing."
+    },
+    {
+      "title": "ConceptGuard: Benchmarking Context-Sensitive Unlearning in Large Language Models",
+      "url": "https://arxiv.org/abs/2608.20338v1",
+      "source": "arXiv",
+      "published": "2026-08-20T17:59:57+00:00",
+      "summary_raw": "Large Language Models (LLMs) increasingly require selective removal of harmful or sensitive knowledge, called unlearning, yet existing methods and benchmarks fail to evaluate this capability completely. Current approaches rely on disjoint forget and retain sets composed of independent facts, and measure success using simple and direct factual recall. This framing fails to capture a key requirement of unlearning, namely the ability to eliminate harmful behaviors while preserving benign and beneficial knowledge. We argue that effective unlearning must operate at the level of concepts, ensuring complete removal of unsafe applications while maintaining their correct and useful usage, thereby achieving conceptually meaningful and complete unlearning. To better evaluate unlearning techniques from such a practical viewpoint, we introduce the notion of dual-use concepts: concepts that can be used in both harmful and benign contexts. Building on these concepts, we construct a benchmark called ConceptGuard where forget and retain sets are explicitly complementary in concept usage. Our benchmark uniquely enables unlearning to be explored and gauged at the level of concepts, instead of sparse facts, and evaluation is intent-sensitive with the goal of maximizing contextual separation to promote safer behavior. We demonstrate that current unlearning techniques perform poorly under this setting, showing weak contextual separation alongside poor performance in ROUGE and concept-level metrics. Our results reveal strong forgetting-utility trade-offs, limited gains in contextual sensitivity, and poor consistency in concept-level control across methods, and provide ideas for unlearning approaches that better align with real-world safety requirements. Our dataset is publicly available."
+    },
+    {
+      "title": "G-CARL: Grounded Checklist-Aligned Reward Learning for Patient-Oriented Medical Report Interpretation",
+      "url": "https://arxiv.org/abs/2608.20331v1",
+      "source": "arXiv",
+      "published": "2026-08-20T17:59:46+00:00",
+      "summary_raw": "Personalized interpretation of medical reports has emerged as an increasingly important need among patients. Addressing this need requires both evidence-grounded medical factuality and context-dependent patient communication, yet existing medical vision-language tasks do not adequately capture these dual requirements. To bridge this gap, we introduce Patient-oriented Medical Report Interpretation (PMRI), a novel open-ended multimodal generation task that requires models to explain medical reports in accurate and accessible language based on a user's query and dialogue history. These two objectives differ fundamentally in their verifiability, yet remain tightly coupled, making them difficult to optimize jointly under conventional supervised fine-tuning and holistic reinforcement learning paradigms. To address this challenge, we propose G-CARL, a grounded, checklist-aligned reinforcement learning framework that combines multi-source retrieval for atomic claim verification with context-aware, instance-specific weighted checklists for response coverage, providing structured supervision for factuality, user-demand satisfaction, and expression quality without constraining response diversity. We further construct MMedReport, a real-world PMRI benchmark, along with a clinician-designed three-dimensional evaluation protocol. Extensive experiments demonstrate that G-CARL consistently outperforms existing post-training baselines in overall quality, claim-level precision, and checklist recall. Pairwise preference evaluation by clinicians further confirms that G-CARL produces interpretations that are more accurate and better aligned with patient needs."
+    },
+    {
+      "title": "$TCP_\u03b1$: Margin-Controlled Confidence estimation for reliable Music Information Retrieval",
+      "url": "https://arxiv.org/abs/2608.20326v1",
+      "source": "arXiv",
+      "published": "2026-08-20T17:58:50+00:00",
+      "summary_raw": "Deep neural networks are often overconfident, assigning high confidence even to incorrect predictions. Consequently, users lack a reliable signal for deciding when a prediction can be trusted. Post-hoc confidence estimation addresses this by training a lightweight auxiliary head over a frozen classifier. Existing targets, however, suffer from inherent ambiguity: they assign overlapping confidence values to correct and incorrect predictions, while errors near the decision boundary receive confidence scores indistinguishable from correct predictions. In this work, we propose $TCP_\u03b1$, a novel confidence target that resolves these limitations by introducing a margin-controlled penalty for misclassified samples. We prove that $TCP_\u03b1$ guarantees complete separation between the target values of correct and incorrect predictions, with a separation margin that is independent of the number of classes and increases monotonically with the penalty parameter. Since accurate classifiers naturally produce very few errors, learning these targets results in a severely imbalanced regression problem. We therefore present a systematic study of training strategies for learning under this imbalance and identify an effective training configuration through extensive ablation studies. We evaluate the proposed approach on r\u0101ga identification, investigate its robustness under domain shift, and further validate it on frame-wise ornamentation detection without modifying the selected configuration. Across all settings, $TCP_\u03b1$ consistently outperforms existing confidence targets for failure prediction. Rejecting only the least-confident 8\\% of predictions improves the base model's macro-F1 from 0.89 to 0.98, while fine-tuning the confidence head with only 5\\% labeled samples from a new corpus effectively restores performance under domain shift."
+    },
+    {
+      "title": "A comparison between ceiling-mounted FMCW, IR-UWB and Wi-Fi radar for in-bedroom human activity monitoring and sleep interruption detection",
+      "url": "https://arxiv.org/abs/2608.20322v1",
+      "source": "arXiv",
+      "published": "2026-08-20T17:58:22+00:00",
+      "summary_raw": "Despite their growing importance for contact-free radio frequency (RF) based healthcare monitoring, different radio technologies such as frequency-modulated continuous wave (FMCW) radar, impulse radio ultra-wideband (IR-UWB), and Wi-Fi sensing are rarely compared under identical deployment conditions, as existing studies typically differ in hardware, datasets, and evaluation methodologies. In addition, the performance of ceiling-mounted radars, despite their practical deployment and cost advantages in healthcare environments, remain underexplored. Therefore, this paper presents a controlled comparison and analysis of ceiling-mounted FMCW, IR-UWB, and Wi-Fi sensing using synchronized recordings from 20 participants across six room layouts. All technologies are evaluated with the same convolutional neural network (CNN) on both a fine-grained 10-class human activity recognition (HAR) task and a coarse 4-class sleep monitoring task. IR-UWB achieves the highest cross-subject activity recognition performance (89.0% macro F1), while FMCW generalizes best to unseen room layouts (83.8% macro F1). For sleep monitoring, all technologies exceed 92% macro F1 in unseen environments. The results reveal a fundamental trade-off between recognition performance and environmental robustness, which can be explained through differences in range resolution, antenna diversity, Doppler resolution, and spatial information retention. These findings provide practical guidelines for the design of healthcare-oriented RF sensing systems."
+    },
+    {
+      "title": "An Agentic Approach for Active Data Collection, Travel Behavior Modeling, and Weather-Sensitive Demand Prediction",
+      "url": "https://arxiv.org/abs/2608.20320v1",
+      "source": "arXiv",
+      "published": "2026-08-20T17:57:42+00:00",
+      "summary_raw": "Travel behavior research increasingly combines digital data collection with predictive modeling, yet these stages are often developed and evaluated separately. This study proposes a three-agent workflow integrating conversational data collection, structured data processing, and behavioral prediction. A chatbot-administered, image-augmented stated-preference survey collected mode choices from student commuters across five predefined weather scenarios, yielding 454 respondent-scenario observations. Weather-related associations were analyzed using a multinomial logit model, while logistic regression and random forest provided machine-learning benchmarks. Nine locally deployed large language models (LLMs), ranging from 2 to 35 billion parameters, were evaluated across four zero-shot prompt-and-context conditions and extended through persona, few-shot, and vision-based configurations. Random forest achieved 69.6% five-class accuracy, while the best text-only zero-shot LLM reached 69.9% without task-specific fitting. Habitual travel information produced the most consistent gains, Expert framing generally outperformed Role-Play, and persona information was most useful when habitual travel information was unavailable. Few-shot prompting improved prediction for several models, with gains stabilizing after a small number of examples. Using the same weather images shown to respondents, the best vision-based configuration reached 71.5% five-class accuracy, indicating that visual context may provide additional predictive information for selected models. Overall, the study shows how conversational surveys, structured data processing, conventional behavioral modeling, machine learning, and multimodal LLM prediction can be coordinated within an auditable multi-agent workflow."
+    },
+    {
+      "title": "Inducing Task Models from Computer-Use Traces",
+      "url": "https://arxiv.org/abs/2608.20319v1",
+      "source": "arXiv",
+      "published": "2026-08-20T17:57:00+00:00",
+      "summary_raw": "Naturalistic computer-use traces, passively recorded screenshots and mouse or keyboard actions, are a valuable resource for deriving symbolic, auditable, and reusable models of how everyday work is done. Such models matter as computer-use agents enter real work, where agents need to learn how tasks are actually performed, and organizations need to audit and reuse that knowledge. However, inducing such task models is challenging, as activity is observed only as low-level events and real-world work is multi-threaded with interleaved goals. Existing methods assume a given task or a single workflow, and produce step-level summaries rather than structured task models. We introduce Task Model Induction (TMI), which (i) discovers the latent tasks in an unconstrained trace, disentangling concurrent activity, and (ii) for each latent task, induces a task model pairing a hierarchical objective model of recursive goal decomposition with a procedure model of the control flow that organized the execution. Intrinsically, on controlled human and agent trajectories, TMI recovers interleaved tasks with 0.974 agreement against ground-truth groupings and reconstructs 74.9% of the observed execution steps, far more than the strongest workflow induction baseline. Extrinsically, skills derived from TMI's task models improve held-out task accuracy by 30.0% over the strongest baseline."
+    },
+    {
+      "title": "AI4AI-Bench: Benchmarking LLM Agents in Algorithmic Design for Recursive Self-Improvement",
+      "url": "https://arxiv.org/abs/2608.20318v1",
+      "source": "arXiv",
+      "published": "2026-08-20T17:56:59+00:00",
+      "summary_raw": "Recursive self-improvement (RSI) asks whether an AI system can improve the process that produces AI systems, so that the next system inherits the improvement. That process is the training algorithm: a better objective or update rule improves the compute\\mbox{-}capability exchange rate for every subsequent run, including the one that produces the next agent. Whether RSI is feasible therefore turns on whether an agent can design training algorithms. No benchmark isolates that ability: existing suites are won by collecting data or by tuning hyperparameters, and none tells a change to how a run is executed apart from a change to how the model learns. We present AI4AI\\mbox{-}Bench, 10 frozen research repositories spanning 10 training algorithm families. In each task, an agent has 4 hours on one B300 to rewrite the training algorithm; its code is then rerun from scratch for up to 12 hours and scored by a fixed evaluator hidden from the agent, against the repository's original algorithm under the same procedure. Because the 10 metrics are incommensurable, every task is mapped onto one scale on which $0$ is an uninformative model, $0.1$ is the algorithm the repository ships, and $1.0$ is the task optimum. Across 29 configurations of 6 systems on all 10 tasks the mean score is $0.166$, and the best system reaches $0.250$: even the strongest closes under a fifth of the distance between the algorithm that was already there and the optimum. The submissions show where that distance went: most never change how the model learns at all, and the minority that do average $0.226$ against $0.126$ for the rest. More reasoning effort mostly buys the willingness to go there, taking that minority from $8\\%$ of submissions to $64\\%$ and the mean score from $0.094$ to $0.196$. We release the task suite, the evaluators and every scored submission, so that the measurement can be repeated as these systems change."
+    },
+    {
+      "title": "Pandora's AI Model Routing Box: Efficient Allocation with Costly Value Estimation",
+      "url": "https://arxiv.org/abs/2608.20316v1",
+      "source": "arXiv",
+      "published": "2026-08-20T17:54:37+00:00",
+      "summary_raw": "Heterogeneous AI systems composed of multiple models, architectures, harnesses, or inference-time settings can improve quality and efficiency by routing queries to the specialist who can answer most effectively at the lowest cost. Routing requires estimating each specialist's expected return, but this value estimation has a cost. Cheap estimators (e.g., embedding-based predictors) are fast but noisy, while accurate estimators (e.g., fine-tuned models with access to retrieval results or partial reasoning traces) are expensive. We formalize this tradeoff as an instance of Pandora's Box, the classical problem of optimal search with costly inspection. Under a Gaussian signal model, the resulting policies have closed-form value-of-information expressions that determine, for each specialist and input, whether refining the value estimate is worth its cost. We call the centralized policy Pandora's Router. We extend this to a decentralized setting, Pandora's Bidder, where specialists independently decide whether to invest in self-assessment before accepting an offered price to claim a query. Experiments across three domains---a standard multi-LLM benchmark, retrieval-augmented specialists, and LLMs with variable inference-time reasoning---show that Pandora's Router matches the routing quality of exhaustive estimation, while querying the expensive estimator far less often. In the decentralized setting, value-of-information reasoning improves allocative efficiency when competing estimates are accurate; when competing estimates are noisy, however, it can increase the strategic specialist's utility at the expense of others."
+    },
+    {
+      "title": "Explainable Transformer Models for Clinical Prediction Tasks on Structured Electronic Health Records",
+      "url": "https://arxiv.org/abs/2608.20315v1",
+      "source": "arXiv",
+      "published": "2026-08-20T17:54:17+00:00",
+      "summary_raw": "Predictive models over structured electronic health records (EHRs) remain central to machine learning for healthcare, but few have jointly emphasized quantitative laboratory information and interpretability with respect to input medical events. We present BERT-LER, a BERT-style model for coded EHR timelines pretrained and fine-tuned from a de-identified EHR dataset of 75 million patients, that encodes laboratory test results as discrete tokens while retaining graded information through percentile-based binning, paired with Integrated Gradients for token-level attributions grounded in the input EHR sequence. We benchmark our approach on the public EHRShot benchmark suite and on an asthma severity progression study based on real-world data. This addresses a methodological gap in EHR foundation-style modeling by unifying laboratory value representation and explainability in a single framework, while assessing whether both predictive performance and explanations generalize beyond standard clinical prediction tasks. Across EHRShot and asthma tasks, BERT-LER achieves predictive performance that is competitive with, and on laboratory-related tasks often exceeds, publicly available benchmark models, and provides attributions that align with clinically known risk factors. Our architecture and explainability approach can be applied to many therapeutic areas and prediction tasks using language models trained on structured EHRs."
+    },
+    {
+      "title": "MidTool: Mid-training Data Synthesis for Agentic Tool Use",
+      "url": "https://arxiv.org/abs/2608.20314v1",
+      "source": "arXiv",
+      "published": "2026-08-20T17:53:59+00:00",
+      "summary_raw": "Mid-training is increasingly recognized as a critical stage for shaping the capabilities of large language models. Recent work has shown that targeted mid-training can strengthen reasoning-intensive abilities such as math and science, and can also improve agentic capabilities in software-engineering settings. In this work, we study the parallel but less explored agentic capability: general tool use. We present MidTool, an open corpus construction pipeline for agentic tool-use mid-training that combines large-scale web, PDF, and code data with synthesized supervision from real-world tool APIs, MCP skills, and document-grounded workflows. MidTool is designed to teach models how to recognize tool affordances, ground arguments from context, compose tool call workflow, and recover from incomplete information. We mid-train Qwen3-4B-Base and Qwen3-8B-Base on MidTool-Mix, and then apply follow-up post-training with both supervised fine-tuning and reinforcement learning. Compared with baselines, MidTool-Mix consistently improves downstream performance under both SFT and RL on BFCL, tau2-Bench, and MCP Universe. These results suggest that general tool use, like other important LLM capabilities, benefits from dedicated mid-training rather than being left entirely to post-training."
+    },
+    {
+      "title": "Physical-Support Confidence Sets for Highly Coherent Dictionaries",
+      "url": "https://arxiv.org/abs/2608.20295v1",
+      "source": "arXiv",
+      "published": "2026-08-20T17:35:26+00:00",
+      "summary_raw": "Sparse pursuit after dictionary learning can yield a precise atom support even when its physical interpretation is not justified by the calibration data, especially for highly coherent dictionaries where alternative calibration-compatible dictionaries may assign different physical meanings to the same selected support. We develop resolution-aware physical-support inference that jointly accounts for uncertainty in the learned dictionary and in the representation of a deployment signal. Our cross-dictionary confidence correspondence retains calibration-compatible dictionaries and deployment-compatible sparse representations, then projects the surviving explanations onto physical-support space. For local coherent-atom classes with separation scale s, once the deployment data resolve the coherent-block explanation and its atom support, the minimax physical resolution from N calibration signals satisfies $\u03b4_{\\mathrm{opt}}(N,s)\\asymp\\min\\{s,\\frac{1}{\\sqrt{N}s^2}\\}$, with relative resolution governed by the orientation-information scale $Ns^6$. Deployment replication improves physical localization only when orientation changes cannot be absorbed by adjusting the active coefficients. For computation, we introduce active endpoint bracketing (AEB), an adaptive finite-bank procedure that evaluates only candidates that can still affect the physical report and otherwise safely coarsens or abstains. Finite-bank experiments, including a four-region synthetic application, show that a point-valued plug-in selector can be physically overprecise, whereas AEB avoids unsupported refinement with fewer candidate evaluations."
+    },
+    {
+      "title": "Phantom Gains: Auditing Self-Improvement Against a Measured Null",
+      "url": "https://arxiv.org/abs/2608.20290v1",
+      "source": "arXiv",
+      "published": "2026-08-20T17:30:14+00:00",
+      "summary_raw": "Whether a language model has improved itself is increasingly judged not by mean accuracy but by which individual problems it gains and loses. Tracking these transitions means differencing two noisy estimates, leaving them vulnerable to measurement artifacts. Auditing three rounds of rank-$32$ LoRA self-training on Qwen3-8B against a frozen control pushed through the identical pipeline, we identify seven measurement failures, each of which inverts a reported finding when its control is absent. Several are standard practice. A ledger built on a single greedy decode manufactures capability changes on an untrained model, largely an artifact of inference batching; the expansion statistic separating acquisition from sharpening assigns that same model a rate of $0.280$. The natural threshold repair does not survive replication: estimated across the frozen comparisons such a design already contains, its null stays non-zero. We replace it with a per-problem exact test against a pooled baseline under false-discovery-rate control, which detects nothing on any held-out replicate and is unchanged under the multiple-testing rule, error rate and pool size. Applied to a ladder of arms matched in stream, volume and evaluation, the audit finds that external distillation improves problems the base model rarely reaches while three forms of self-training do not; a regression rejects this asymmetry as a by-product of distillation's larger overall gain ($p < 10^{-8}$). On the far smaller set of problems the base model never reaches, the evidence is inconclusive, while self-training corrupts problems solved at baseline at rates well above the measured floor. Transition-level auditing therefore requires a separately measured null for every statistic it reports: nulls that cost no new experiments, built from baseline replicates a multi-arm study already owns, though not from as few as most possess."
+    }
+  ]
+}
