@@ -1,0 +1,220 @@
+{
+  "date": "2026-08-22",
+  "generated_at": "2026-08-22T11:17:40.528970+00:00",
+  "source_counts": {
+    "rss_feeds": 5,
+    "arxiv": 0,
+    "hackernews": 17,
+    "nitter": 0,
+    "total_raw": 22,
+    "total_deduped": 22,
+    "total_saved": 22
+  },
+  "items": [
+    {
+      "title": "How Claude Watermarks AI-Generated Text",
+      "url": "https://magazine.sebastianraschka.com/p/claude-watermarking",
+      "source": "Sebastian Raschka",
+      "published": "2026-08-22T11:11:39+00:00",
+      "summary_raw": "A 48-minute video walkthrough of token sampling, watermark detection, and removal"
+    },
+    {
+      "title": "Show HN: OzBrain, a shared brain for knowledge between agents and your team",
+      "url": "https://ozbrain.com",
+      "source": "Hacker News",
+      "published": "2026-08-21T23:09:06+00:00",
+      "summary_raw": "I think agent-first chat interfaces will be a primary software modality and busy dashboard&#x2F;UI will go away. I\u2019m not sure who exactly wins it, but I want my knowledge to grow&#x2F;go with me.<p>A lot of the \u201cknowledge\u201d ie research, analysis, reasoning will be done by agents as the primary user. Our current notes tools &amp; tasks management systems were built for humans\u2026 I don\u2019t care what the 17th thing on my bug backlog is. I want to conduct agents that can execute for me and do great work.<p>What I built OzBrain to do:\n+ Create a central place for agent reasoned knowledge to live\n+ Be agnostic about what apps&#x2F;agents connect to it\n+ Capture everything and track it so I can audit it\n+ Enable teams, collaborators or partners to share brains\n+ Handle conflicts so many agents in the same article doesn\u2019t blow up\n+ Refactor knowledge into more token friendly chunks and map the index well\n+ Close the knowledge loop so new thinking supersedes old thinking across the corpus. Don\u2019t erase, depreciate and link\n+ Keep user data safe and secure\n++ Be easy enough to use that you don\u2019t have to have any technical knowledge<p>Some among us will always build their own custom solutions, but there are millions of tech professionals and small business owners that will use agents heavily and need a solution. So I\u2019m trying to build that.<p>Isn\u2019t this like gBrain? Yes, similar. I think it\u2019s like AWS vs Vercel. AWS is very powerful, configurable, and useful if you\u2019re technical and want to invest the time into really fine tuning your system\u2026 but if you just want your web deploy&#x2F;hosting to just work and be easy to deal with you use Vercel.<p>&#x2F;&#x2F; WHY I MADE IT<p>I\u2019ve been enjoying getting back to my technical roots, as I lost my coding skills more than a decade ago, but with AI I can focus on the system and the product in partnership with agent coding workflows.<p>I recently built a Voice AI for older people. To build it I created an agentic engineering workflow (feel free to rip that up as I\u2019m always looking to improve systems: <a href=\"https:&#x2F;&#x2F;ozbrain.com&#x2F;resources&#x2F;eng-flow\" rel=\"nofollow\">https:&#x2F;&#x2F;ozbrain.com&#x2F;resources&#x2F;eng-flow</a>) My approach with coding agents is trust but verify, and I\u2019m trying to replace the parts where a human would review with an adversarial or specialized agent who would give a better answer&#x2F;review.<p>I have workflows that will go high level task to shipped PR running in Claude cloud sessions. I use Claude Code locally and Cursor when I want a tighter loop on doing visual work like UI or layout. And Codex to either load balance usage for TokenThriffting or when I want a different llm to think thru something.<p>It was a pain in the ass passing .md files around and keep track of which version was the most recent, so I built a hosted .md storage right in Supabase and any of my agents already have Supabase access. This let me build a solid, scalable, secure voice AI from my phone at the gym. All my agents have access to our knowledge, can write to it, update and refer to it as we build and improve the product and the systems we use.<p>Out of 75 founder friends I asked about how they manage shared knowledge, 26 built their own custom knowledge systems\u2026 Obsidian vaults with 7k files synced through a VPS, markdown repos behind their own MCP servers, cron jobs stitching Supabase to a skills file\u2026 each a different Frankenstein they have to maintain. 32 said they felt the pain of moving static files around but didn\u2019t have any solution for it.<p>So I rebuilt my brain better and used it to build it.<p>&#x2F;&#x2F; HOW YOU CAN HELP<p>Would love to have you try it out. The maintenance loop is still in alpha so not running it on customer data yet.<p>If you built your own brain I\u2019d love to hear how you did it. What criteria was most important for you in its design &amp; function.<p>If you are tired of shuffling .md files around I\u2019d love to have you try out OzBrain and to give feedback, just ask your agent to put it in the shared bugs &amp; features brain!<p>Cheers!\nBubs.co",
+      "points": 71,
+      "num_comments": 44,
+      "hn_url": "https://news.ycombinator.com/item?id=49394827"
+    },
+    {
+      "title": "Nvidia just showed that the harness, not the AI model, is now the real hero",
+      "url": "https://techcrunch.com/2026/08/21/nvidia-just-showed-that-the-harness-not-the-ai-model-is-now-the-real-hero/",
+      "source": "Hacker News",
+      "published": "2026-08-21T20:52:10+00:00",
+      "summary_raw": "",
+      "points": 15,
+      "num_comments": 1,
+      "hn_url": "https://news.ycombinator.com/item?id=49393647"
+    },
+    {
+      "title": "Readers can't identify watermarked AI text",
+      "url": "https://www.seangoedecke.com/readers-cant-identify-watermarked-ai-text/",
+      "source": "Hacker News",
+      "published": "2026-08-21T19:30:09+00:00",
+      "summary_raw": "",
+      "points": 10,
+      "num_comments": 1,
+      "hn_url": "https://news.ycombinator.com/item?id=49392819"
+    },
+    {
+      "title": "I'm Sick of Reading AI-Written Posts",
+      "url": "https://cyb3rops.medium.com/im-sick-of-reading-ai-written-posts-107767481fbf",
+      "source": "Hacker News",
+      "published": "2026-08-21T19:01:21+00:00",
+      "summary_raw": "",
+      "points": 16,
+      "num_comments": 5,
+      "hn_url": "https://news.ycombinator.com/item?id=49392479"
+    },
+    {
+      "title": "LFM2.5-DSpark: Up to 3.2x Faster Inference from H100 to MacB",
+      "url": "https://www.liquid.ai/blog/lfm2.5-dspark",
+      "source": "Hacker News",
+      "published": "2026-08-21T17:36:03+00:00",
+      "summary_raw": "",
+      "points": 17,
+      "num_comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=49391420"
+    },
+    {
+      "title": "Rebuilding our Electron meeting-recording engine in Swift",
+      "url": "https://circleback.ai/blog/how-we-rebuilt-our-electron-recording-engine-in-swift",
+      "source": "Hacker News",
+      "published": "2026-08-21T17:33:26+00:00",
+      "summary_raw": "",
+      "points": 36,
+      "num_comments": 9,
+      "hn_url": "https://news.ycombinator.com/item?id=49391389"
+    },
+    {
+      "title": "llm 0.32.1",
+      "url": "https://simonwillison.net/2026/Aug/21/llm/",
+      "source": "Simon Willison",
+      "published": "2026-08-21T17:16:13+00:00",
+      "summary_raw": "Release: llm 0.32.1\n        Fresh installs of LLM stopped working the other day because the OpenAI Python library dropped its usage of httpx, and it turned out LLM depended on that library but only installed it via a transitive openai dependency.\nThis dot-release fixes that for the moment by pinning to openai&lt;3, and a soon-to-drop 0.33 release will switch from httpx to httpx2.\n    \n    \n        Tags: httpx, openai, llm"
+    },
+    {
+      "title": "llm-openrouter 0.7",
+      "url": "https://simonwillison.net/2026/Aug/21/llm-openrouter/",
+      "source": "Simon Willison",
+      "published": "2026-08-21T16:58:19+00:00",
+      "summary_raw": "Release: llm-openrouter 0.7\n        Now that this plugin is compatible with LLM 0.32 it can display the reasoning traces for LLMs available through OpenRouter.\n\n\nUpdated for compatibility with LLM 0.32.\nModels now use OpenRouter's implementation of the Responses API.\nThree new server-side tools: Shell, WebFetch, and WebSearch. Enable these with options like -T WebSearch.\n\n\n    \n    \n        Tags: llm, openrouter"
+    },
+    {
+      "title": "Show HN: Proliferate- open-source, self-hostable Codex for any coding agent",
+      "url": "https://github.com/proliferate-ai/proliferate",
+      "source": "Hacker News",
+      "published": "2026-08-21T16:47:15+00:00",
+      "summary_raw": "Hi HN- I&#x27;m Pablo, the founder of Proliferate (YC S25)!<p>Proliferate (<a href=\"https:&#x2F;&#x2F;github.com&#x2F;proliferate-ai&#x2F;proliferate\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;proliferate-ai&#x2F;proliferate</a>) is an open-source, self-hostable AI IDE that lets you work and automate tasks with Claude Code, Codex, OpenCode, Cursor, and Grok in one place.<p>Here&#x27;s a quick 2m demo of how we use Proliferate to build Proliferate: <a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=tGNX0oaWmBY\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=tGNX0oaWmBY</a><p>I started building Proliferate after my team onboarded to OpenAI Codex. Within days, we were using it for everything: using computer use instead of navigating websites ourselves, having Codex coordinate other agents, and setting up automations for recurring work. We really never needed to leave the desktop app to get work done.<p>If my team\u2019s experience is anything close to representative, a Codex-like app (a horizontal agent with a beautiful UI) is the main interface every company is going to use to get work done. That is perfectly in line with OpenAI\u2019s mission to make Codex the everything app (see: <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=47796469\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=47796469</a>).<p>But as we started automating work closer to the core of the business, I wanted to work with agents from all the labs, including open-weight models, without becoming increasingly dependent on OpenAI.<p>And that\u2019s what Proliferate is for! It&#x27;s the open-source, self-hostable Codex that preserves your optionality across agents and model providers while building toward Codex\u2019s breadth.<p>Today Proliferate supports:<p>* Working with Claude Code, Codex, OpenCode, Cursor, and Grok with their native inference and configuration options, including Bedrock, Azure, and self hosted inference.<p>* Inter-agent communication and management: a parent agent can spawn and communicate with another supported agent as a subagent (I personally like to have Fable delegate to Codex, with OpenCode models reviewing PRs).<p>* Building workflows- one of the features I&#x27;m most excited about. These are re-usable chains of agent sessions and human approval gates, with the harness and model chosen per step and documents passed between them. I use this to automate code review, QA, and my PR construction process.<p>All of Proliferate is 100% open source under AGPL-3.0. There are still definitely some rough spots, but we\u2019re building fast and I\u2019d really love any feedback!",
+      "points": 39,
+      "num_comments": 15,
+      "hn_url": "https://news.ycombinator.com/item?id=49390739"
+    },
+    {
+      "title": "What happens when a GPU reads memory",
+      "url": "https://blog.doubleword.ai/what-happens-when-a-gpu-reads-memory",
+      "source": "Hacker News",
+      "published": "2026-08-21T16:16:42+00:00",
+      "summary_raw": "",
+      "points": 108,
+      "num_comments": 19,
+      "hn_url": "https://news.ycombinator.com/item?id=49390308"
+    },
+    {
+      "title": "Stop Making TUIs",
+      "url": "https://simonwillison.net/2026/Aug/21/stop-making-tuis/",
+      "source": "Simon Willison",
+      "published": "2026-08-21T16:07:32+00:00",
+      "summary_raw": "Stop Making TUIs\nThomas Ptacek advocates for building real native user interfaces for even the smallest of personal tools, because coding agents have reduced the cost of getting a usable-enough GUI up and running to almost nothing.\nI wrote about my vibe-coded bandwidth and GPU monitoring macOS task bar apps back in March, and I'm still using both of those on a daily basis.\nI'm not habitually knocking out real UIs for my other projects yet, but I'm running out of excuses!\nThomas:\n\nIf you haven\u2019t tried your hand at turning one of your 500 throwaway CLIs into a native app, you\u2019re doing yourself a disservice. Go build a native UI. It\u2019ll probably change the way you think.\n\n\n\n    Tags: thomas-ptacek, ai, generative-ai, llms, vibe-coding, coding-agents"
+    },
+    {
+      "title": "Customs asked for his phone passcode. Now he faces a felony",
+      "url": "https://www.ajc.com/news/2026/08/stop-cop-city-activist-in-atlanta-mired-in-federal-case-after-airport-encounter/",
+      "source": "Hacker News",
+      "published": "2026-08-21T15:25:52+00:00",
+      "summary_raw": "",
+      "points": 12,
+      "num_comments": 2,
+      "hn_url": "https://news.ycombinator.com/item?id=49389568"
+    },
+    {
+      "title": "AI boosted homework scores, then exam scores dropped: Study",
+      "url": "https://canews24.online/?p=71",
+      "source": "Hacker News",
+      "published": "2026-08-21T15:25:42+00:00",
+      "summary_raw": "",
+      "points": 165,
+      "num_comments": 9,
+      "hn_url": "https://news.ycombinator.com/item?id=49389565"
+    },
+    {
+      "title": "Show HN: AgentSight \u2013 eBPF observability for AI agents, no code changes",
+      "url": "https://github.com/alibaba/anolisa/blob/main/docs/user-guide/en/agent-observability/agentsight.md",
+      "source": "Hacker News",
+      "published": "2026-08-21T15:21:10+00:00",
+      "summary_raw": "",
+      "points": 16,
+      "num_comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=49389493"
+    },
+    {
+      "title": "Show HN: A desktop fly drawn to the scent of vibecode",
+      "url": "https://github.com/kulikov0/desktop-vibe-fly",
+      "source": "Hacker News",
+      "published": "2026-08-21T15:19:00+00:00",
+      "summary_raw": "It is a fork of <a href=\"https:&#x2F;&#x2F;github.com&#x2F;DenisSergeevitch&#x2F;desktop-fly\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;DenisSergeevitch&#x2F;desktop-fly</a>, but with an important update.<p>Now the fly can pick up the scent of the codebase with its neurons and fly straight to the source code of your B2B AI SaaS startup. It has learned to scan its surroundings for agent markers: AGENTS.md, CLAUDE.md, .cursor&#x2F;rules, .kiro&#x2F;steering, and forty others. Anything on the screen that points to these markers becomes a source of the scent - an editor window with an open project, a line in Finder, or a desktop icon. An open project reeks the strongest, while a closed icon or nested folders give off a fainter odor.",
+      "points": 19,
+      "num_comments": 9,
+      "hn_url": "https://news.ycombinator.com/item?id=49389466"
+    },
+    {
+      "title": "Coding Agents killed my identity. How do you feel?",
+      "url": "https://news.ycombinator.com/item?id=49389408",
+      "source": "Hacker News",
+      "published": "2026-08-21T15:15:14+00:00",
+      "summary_raw": "I always was a nerdy, deeply technical programmer. Contributing-to-open-source-and-reading-papers-in-my-spare-time type of programmer.<p>Programming is like a game of chess for me: winning (i.e. delivering a product) is important, but only if I played this game myself. I don&#x27;t enjoy winning if my opponent disconnected. I don&#x27;t enjoy beating people who don&#x27;t know how to move pieces. I don&#x27;t enjoy winning with an engine, and coding agents are basically &quot;winning with a chess engine&quot;.<p>I started to use AI for coding a long time ago, when copilot was first introduced. At first, I was happy: &quot;wow, this can write boring boilerplate and unit tests&quot;. Time went by, agents got better, time spent writing code myself went down. Half a year ago I suddenly realized I hadn&#x27;t written any code for over a month, and I am a full-time software dev without any managing work. Not only did I stop writing code, but agents also became pretty good at proposing plans and architectures, and I was mostly providing missing context and technical details of our infrastructure.<p>One day the realization hit hard. Coding agents removed everything I loved, and - mostly - amplified everything I hated. My role is to gather context from other humans and provide a detailed explanation (similar to a well-written jira ticket) to some super intelligent engineer, then review the result and provide more context&#x2F;explanation if needed. So, basically, a manager.<p>A couple of years ago I could work on a single coding task for weeks. I knew all classes, all functions, I was slowly building up information at a comfortable tempo. Now I am forced to increase my mental throughput multiple times. What took a couple of weeks now takes a couple of hours, and I still need to comprehend that. I always feel tired, I don&#x27;t have enough mental capacity to hold that many abstractions and technical details. So you either autoaccept or get burned out reviewing tens of thousands of lines.<p>One more downside is that code has 0 value. You can code your own OS from scratch, and people will think &quot;ye, I can vibe code that in a weekend&quot;. I don&#x27;t even know what is valuable nowadays.<p>Maybe I am a bad employee. Increasing employer profits was never my goal. I always loved to solve puzzles, and for the last 10 years this was well aligned with my employer&#x27;s desire to increase profits. I never was good as a manager, or brilliant at generating ideas. My power - and passion - was solving complex technical problems with my hands, fast and with good quality. Now it is gone forever. I feel completely lost and unmotivated. I don&#x27;t see any value in learning anything related to computer science, reading  papers, contributing to open source. I hate my new &quot;AI delegator&quot; role and I hate my work. I loved coding so much (I use neovim btw) that I was sure I would do this until I die, and now I don&#x27;t know what to do with my life. This is the only thing I know, and, most importantly, the only thing I am&#x2F;was passionate about. Anyone else feeling the same?",
+      "points": 13,
+      "num_comments": 31,
+      "hn_url": "https://news.ycombinator.com/item?id=49389408"
+    },
+    {
+      "title": "Quoting Matt Webb",
+      "url": "https://simonwillison.net/2026/Aug/21/matt-webb/",
+      "source": "Simon Willison",
+      "published": "2026-08-21T15:06:26+00:00",
+      "summary_raw": "After I released version 1.0, I figured I would have to do the rotations myself. So I sat down with ChatGPT and I didn\u2019t get it to write the code, but I got it to educate me. With a patient, interactive tutor, I was able to finally do what I hadn\u2019t by reading books and asking mathematician friends \u2013 I learnt how to use quaternions just enough to make the app work.\nSo learning doesn\u2019t stop just because I outsource a bunch of thinking to AI. It pushes me to learn more. I like that as an outcome.\n&mdash; Matt Webb, Galactic Compass 2: now with new augmented reality mode\n\n    Tags: matt-webb, generative-ai, chatgpt, education, ai, llms"
+    },
+    {
+      "title": "A Texas student blew the whistle on a rogue AI hacking attempt",
+      "url": "https://www.reuters.com/world/how-texas-student-blew-whistle-rogue-ai-hacking-attempt-2026-08-20/",
+      "source": "Hacker News",
+      "published": "2026-08-21T13:43:33+00:00",
+      "summary_raw": "",
+      "points": 10,
+      "num_comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=49387959"
+    },
+    {
+      "title": "AI;DR or Don't be a meat proxy",
+      "url": "https://theaspiringnerd.com/aidr-or-dont-be-a-meat-proxy/",
+      "source": "Hacker News",
+      "published": "2026-08-21T12:25:45+00:00",
+      "summary_raw": "",
+      "points": 18,
+      "num_comments": 7,
+      "hn_url": "https://news.ycombinator.com/item?id=49387059"
+    },
+    {
+      "title": "We burned 11.7B tokens to find the best cyber AI model",
+      "url": "https://www.aikido.dev/blog/ai-model-benchmarks-aug-21-2026",
+      "source": "Hacker News",
+      "published": "2026-08-21T12:09:07+00:00",
+      "summary_raw": "",
+      "points": 13,
+      "num_comments": 6,
+      "hn_url": "https://news.ycombinator.com/item?id=49386885"
+    },
+    {
+      "title": "I'm becoming AI-blind",
+      "url": "https://cymerys.com/w/im-becoming-ai-blind",
+      "source": "Hacker News",
+      "published": "2026-08-21T11:48:05+00:00",
+      "summary_raw": "",
+      "points": 385,
+      "num_comments": 381,
+      "hn_url": "https://news.ycombinator.com/item?id=49386699"
+    }
+  ]
+}
