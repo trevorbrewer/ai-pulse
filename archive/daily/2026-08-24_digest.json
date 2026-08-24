@@ -1,0 +1,30 @@
+[
+  {
+    "theme": "Industry News",
+    "stories": [
+      {
+        "title": "Anthropic's best AI model struggles to attract users as cheaper tools thrive",
+        "url": "https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t/",
+        "source": "Simon Willison",
+        "paragraph": "Anthropic's top-tier model is facing adoption headwinds even as the company's overall revenue continues to climb, according to figures cited in a Financial Times report. Annualized revenue reached $65 billion in July, up from $47 billion in May, and the company expects Q3 to be profitable by the same accounting methodology used for Q2. The tension highlighted in the story is that users are increasingly gravitating toward cheaper alternatives rather than Anthropic's most capable — and most expensive — offering."
+      },
+      {
+        "title": "Quoting Drew Breunig",
+        "url": "https://simonwillison.net/2026/Aug/23/drew-breunig/",
+        "source": "Simon Willison",
+        "paragraph": "Drew Breunig, writing via Simon Willison's link blog, describes a shift in how development teams are thinking about AI model selection and tooling investment. Before a model referred to as \"Fable\" arrived, teams felt little incentive to invest heavily in prompt engineering or context strategies, expecting new models to solve problems at similar or lower cost. Fable changed that calculus by being notably capable but expensive enough that teams began treating model selection and harness optimization as genuine engineering decisions rather than afterthoughts — with Opus and several other models remaining competitive for most coding tasks at lower cost."
+      }
+    ]
+  },
+  {
+    "theme": "Education and Skills Development",
+    "stories": [
+      {
+        "title": "Andrew Ng: \"AI Engineering Skills Map: Building and Deploying AI Applications\"",
+        "url": "https://twitter.com/AndrewYNg/status/2090840747738374568",
+        "source": "Hacker News",
+        "paragraph": "Andrew Ng shared an AI Engineering Skills Map aimed at practitioners who want to build and deploy AI applications. The resource is positioned as a structured guide to the competencies required at different stages of the AI development lifecycle, from foundational concepts through to production deployment. Ng is a co-founder of Coursera and former head of AI at Baidu, and his publicly shared learning frameworks tend to reach a broad audience of developers and data scientists looking for structured career guidance."
+      }
+    ]
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "date": "2026-08-24",
+  "generated_at": "2026-08-24T11:23:26.249544+00:00",
+  "source_counts": {
+    "rss_feeds": 2,
+    "arxiv": 0,
+    "hackernews": 1,
+    "nitter": 0,
+    "total_raw": 3,
+    "total_deduped": 3,
+    "total_saved": 3
+  },
+  "items": [
+    {
+      "title": "Anthropic\u2019s best AI model struggles to attract users as cheaper tools thrive",
+      "url": "https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t/",
+      "source": "Simon Willison",
+      "published": "2026-08-23T20:24:52+00:00",
+      "summary_raw": "Anthropic\u2019s best AI model struggles to attract users as cheaper tools thrive\nA few interesting numbers in this FT story gathered from \"people with knowledge of the matter\":\n\nAnthropic's \"annualized revenue\" for July is up to $65bn - it was $47bn in May, and I collected more historic numbers here.\nAnthropic expect Q3 to be profitable according to the same model they used to declare Q2 profitable. \"It also told investors that it had 6,000 customers that spend $100,000 annually or more.\"\nAs for OpenAI, \"annualised revenue has jumped 35 per cent in the quarter to date and is now over $40bn, with the launch of GPT 5.6 in July jolting the company\u2019s performance after a sluggish start to the year\".\n\nThis article also introduced me to the Ramp AI index, which uses billing data from 70,000 Ramp credit card using companies to estimate model adoption.\nHere's Ramp's breakdown of Anthropic model spend for July 2026, which looks reasonable given that Opus 5 was only released on July 24th, and supports the idea that Fable's cost has made it a less popular model:\n\nOpus 4.8: 28.0%\nSonnet 4.6: 8.3%\nFable 5: 8.0%\nOpus 4.6: 6.9%\nSonnet 5: 3.6%\nOpus 5: 3.5%\nOpus 4.7: 1.7%\nSonnet 4.5: 1.3%\nHaiku 4.5: 1.0%\nOpus 4.5: 0.7%\n\n\n    Via Hacker News\n\n\n    Tags: ai, openai, generative-ai, llms, anthropic, claude, claude-mythos-fable"
+    },
+    {
+      "title": "Quoting Drew Breunig",
+      "url": "https://simonwillison.net/2026/Aug/23/drew-breunig/",
+      "source": "Simon Willison",
+      "published": "2026-08-23T19:55:30+00:00",
+      "summary_raw": "Prior to Fable, it felt silly to waste\u00a0too\u00a0much time improving your coding harness or context strategies. A new model would arrive at the same price (or cheaper!) and paper over most of your problems.\nBut then Fable landed. It was (and still is!)\u00a0incredible. But the cost was so high and Opus was\u00a0good enough\u00a0(as was 5.6, K3, and even GLM) for\u00a0most\u00a0of the code we needed.\nSo we started to think about what work went where.\n&mdash; Drew Breunig, Fable &amp; The End of the Free Lunch\n\n    Tags: drew-breunig, anthropic, claude, llm-pricing, ai, llms, generative-ai, claude-mythos-fable"
+    },
+    {
+      "title": "Andrew Ng: \"AI Engineering Skills Map: Building and Deploying AI Applications\"",
+      "url": "https://twitter.com/AndrewYNg/status/2090840747738374568",
+      "source": "Hacker News",
+      "published": "2026-08-23T11:28:08+00:00",
+      "summary_raw": "",
+      "points": 15,
+      "num_comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=49407944"
+    }
+  ]
+}
