@@ -1,0 +1,207 @@
+[
+  {
+    "theme": "Research Papers",
+    "stories": [
+      {
+        "title": "How to Train a Critic Stably and Efficiently",
+        "url": "https://arxiv.org/abs/2608.23566v1",
+        "source": "arXiv",
+        "paragraph": "Researchers have published Best-Practice Critic Optimization (BPCO), a training recipe designed to stabilize critic-based reinforcement learning for large language models. The work addresses a known problem with group-based methods like GRPO, which sidestep training a critic entirely by sampling multiple responses per prompt at significant computational cost. A reliable critic could instead estimate token-level advantages from a single response, and BPCO aims to make that path tractable by diagnosing and correcting the instabilities that have historically plagued critic training."
+      },
+      {
+        "title": "ReWorld: An Interactive World Model with Long-Horizon Memory",
+        "url": "https://arxiv.org/abs/2608.23565v1",
+        "source": "arXiv",
+        "paragraph": "ReWorld is an interactive world model designed to simultaneously follow user actions, retain spatial memory across long sequences, and stream output in real time. The core technical challenge is that action control favors short context windows while spatial memory requires an unbounded one; ReWorld addresses this by separating the two objectives during training and bounding them differently at inference. The architecture uses mixed per-head attention windows, where most heads attend only to the recent past and a small set of global heads attends over the full history."
+      },
+      {
+        "title": "SWE Refactor Bench: Can Coding Agents Complete a Long-Horizon, Whole-Repository Stack Migration?",
+        "url": "https://arxiv.org/abs/2608.23564v1",
+        "source": "arXiv",
+        "paragraph": "SWE Refactor Bench is a new benchmark that tests whether coding agents can perform full repository-level stack migrations rather than isolated bug fixes. Existing benchmarks measure only behavioral correctness, which the authors argue allows agents to pass tests without actually completing the migration, a gap the new benchmark is designed to close. The work is motivated by the observation that technical debt accumulated over decades makes such migrations expensive and largely manual, and that growing agent capability in narrower coding tasks has outpaced evaluation frameworks."
+      },
+      {
+        "title": "EG-ARSA: An Expert-Grounded Open Model for Visual Road Safety Auditing in Low-Resource Settings",
+        "url": "https://arxiv.org/abs/2608.23563v1",
+        "source": "arXiv",
+        "paragraph": "Researchers propose Expert-Grounded Distillation (EGD), a framework that transfers institutional road safety knowledge into an open AI model for visual road safety auditing, targeting low- and middle-income countries. The motivation is that such countries face high rates of road traffic injuries while lacking sufficient qualified auditors, complete crash records, and budget for large-scale field inspections. By grounding the model in expert knowledge rather than relying solely on data-driven learning, the approach attempts to compensate for the sparse labeled datasets typical in low-resource settings."
+      },
+      {
+        "title": "Correcting a learned physical invariant improves world-model rollouts",
+        "url": "https://arxiv.org/abs/2608.23526v1",
+        "source": "arXiv",
+        "paragraph": "Researchers tested whether a frozen DreamerV3 model trained on pendulum video implicitly learns a conserved scalar — analogous to an energy invariant — within its latent transition dynamics, without being explicitly trained to do so. A label-free search procedure successfully recovered the same energy-like invariant across independently trained conservative models, while finding no comparable invariant in non-conservative settings, suggesting the conservation is genuine rather than an artifact of the search. The study then showed that correcting rollouts using this recovered invariant improves prediction quality over time, pointing to a way of leveraging implicit physical structure in world models without modifying training."
+      }
+    ]
+  },
+  {
+    "theme": "Safety and Misuse",
+    "stories": [
+      {
+        "title": "Disrupting a new covert influence campaign from Russia",
+        "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
+        "source": "OpenAI Blog",
+        "paragraph": "OpenAI announced that it has banned a set of Russia-origin accounts that were using its AI tools to conduct a covert influence operation. The campaign involved creating content to promote a fictitious Israel-based think tank and producing a fabricated \"sovereignty\" index designed to praise Russia while criticizing Western nations. The action is part of OpenAI's ongoing efforts to detect and remove accounts that misuse its platforms for political manipulation rather than legitimate purposes."
+      }
+    ]
+  },
+  {
+    "theme": "Industry News",
+    "stories": [
+      {
+        "title": "Nvidia customers notified about AI-related price hikes above 15%",
+        "url": "https://www.reuters.com/business/nvidia-customers-notified-about-ai-related-price-hikes-above-15-bloomberg-news-2026-08-22/",
+        "source": "Hacker News",
+        "paragraph": "Nvidia has begun notifying customers of price increases exceeding 15% on AI-related products, according to a Reuters report citing Bloomberg. The increases reflect continued strong demand for AI compute hardware at a time when supply chains remain constrained. The notification signals that the cost of AI infrastructure is rising for enterprises and cloud providers that depend heavily on Nvidia's chips for model training and inference workloads."
+      },
+      {
+        "title": "Deno team releases Dactyl, an AI app builder that runs on your ChatGPT plan",
+        "url": "https://dactyl.dev/",
+        "source": "Hacker News",
+        "paragraph": "The team behind the Deno JavaScript runtime has released Dactyl, a tool that lets users build AI-powered applications using their existing ChatGPT subscription rather than requiring a separate API key or billing arrangement. The product is notable because it lowers the barrier to building AI apps by reusing credentials most users already have, bypassing the need to manage OpenAI API costs independently. Dactyl represents Deno's move into the application-building layer on top of large language model infrastructure."
+      },
+      {
+        "title": "Ox Alpha – A mysterious new AI model",
+        "url": "https://oxalpha.com",
+        "source": "Hacker News",
+        "paragraph": "A new AI model called Ox Alpha appeared on Hacker News with minimal accompanying documentation or attribution, generating discussion around its origins and capabilities. The sparse public information makes it difficult to evaluate the model's architecture, training data, or intended use cases. The post attracted attention partly because undisclosed or anonymously released AI models have become a recurring pattern in the community, prompting questions about transparency and provenance."
+      }
+    ]
+  },
+  {
+    "theme": "Developer Tools and Open-Source",
+    "stories": [
+      {
+        "title": "Show HN: I built a lite LPU that can do inference on Karpathy's MicroGPT",
+        "url": "https://www.lpulite.com",
+        "source": "Hacker News",
+        "paragraph": "A student-built project called LPU Lite demonstrates a lightweight Language Processing Unit capable of running inference on Andrej Karpathy's MicroGPT, a minimal GPT implementation used widely for educational purposes. The creators built the chip design independently after finding that their university's digital logic course only progressed as far as constructing a full adder in Quartus using logic blocks, without reaching register-transfer level design. The project serves as a self-directed exercise in ML hardware, filling a gap they identified in formal curriculum offerings."
+      }
+    ]
+  },
+  {
+    "theme": "AI Behavior and Critique",
+    "stories": [
+      {
+        "title": "80% of developers find AI coding more addictive than helpful",
+        "url": "https://www.zdnet.com/article/i-cant-stop-80-of-developers-find-ai-coding-more-addictive-than-helpful/",
+        "source": "Hacker News",
+        "paragraph": "A survey reported by ZDNet found that 80% of developers describe AI coding tools as more addictive than genuinely useful, suggesting that the compulsion to use these tools may not track with measurable productivity gains. The finding raises questions about how developers assess the value of AI assistance and whether engagement metrics are being conflated with effectiveness. The result is notable given that productivity improvement is the primary justification most organizations use when purchasing AI coding subscriptions."
+      },
+      {
+        "title": "Em Dash Is Fine – It Is AI That Sucks",
+        "url": "https://blog.torh.net/2026/08/24/em-dash-is-fine-it-is-ai-that-sucks/",
+        "source": "Hacker News",
+        "paragraph": "A blog post argues that the em dash has become unfairly stigmatized as a marker of AI-generated writing, when the real issue is the overall quality and homogeneity of AI text output. The author contends that attributing poor writing to a specific punctuation mark misidentifies the underlying problem, which is that AI language models tend to produce generic, flat prose regardless of the punctuation they use. The piece contributes to a broader ongoing discussion about how readers and editors are developing heuristics, sometimes inaccurate ones, for detecting AI-generated content."
+      },
+      {
+        "title": "What languages are agent skills written in?",
+        "url": "https://plicara.ai/research/agent-skill-languages/",
+        "source": "Hacker News",
+        "paragraph": "Research from Plicara examines which programming languages are being used to implement skills or tools in AI agent frameworks, an area that has received less systematic attention than the models themselves. Understanding the language distribution matters for tooling decisions, security analysis, and interoperability as agent ecosystems mature. The study provides empirical data on a layer of the agent stack that is often assumed but rarely measured directly."
+      }
+    ]
+  },
+  {
+    "theme": "Research Papers: Machine Learning Methods",
+    "stories": [
+      {
+        "title": "Provably adaptive sampling with uniform and remasking discrete diffusion models",
+        "url": "https://arxiv.org/abs/2608.23554v1",
+        "source": "arXiv",
+        "paragraph": "Researchers have analyzed sampling efficiency in discrete diffusion models, which offer parallel token generation as an alternative to autoregressive methods. The study focuses on how the choice of forward process affects the number of steps required to generate high-quality outputs, noting that existing lower bounds for the standard τ-leaping sampler scale linearly with ambient dimension d. The paper identifies conditions under which uniform and remasking forward processes allow provably adaptive sampling, potentially reducing this dimensional dependence."
+      },
+      {
+        "title": "ConvergeFlow: Language Flow with Provable Convergence to Token Embeddings",
+        "url": "https://arxiv.org/abs/2608.23551v1",
+        "source": "arXiv",
+        "paragraph": "ConvergeFlow is a new continuous flow-based language model framework that addresses a structural limitation in existing continuous diffusion and flow models: their trajectories are not guaranteed to terminate at valid token embeddings, forcing reliance on cross-entropy-supervised decoders. The proposed method introduces an embedding-constrained flow formulation with provable convergence guarantees to the token embedding space. This removes the need for a separate decoder stage while maintaining performance competitive with discrete language models."
+      },
+      {
+        "title": "Interpretable AI with Local Distillation",
+        "url": "https://arxiv.org/abs/2608.23538v1",
+        "source": "arXiv",
+        "paragraph": "This paper proposes local distillation as a method for extracting interpretable linear approximations from high-performing but opaque models such as tabular foundation models and gradient-boosted ensembles. The approach exploits the fact that a smooth regression function can be locally well approximated by a linear one, allowing practitioners to reason about individual predictions without sacrificing the predictive accuracy of the underlying model. The method is positioned as a practical path toward meeting interpretability requirements in high-stakes decision settings."
+      },
+      {
+        "title": "Inertial Manifold Neural Operator for Dissipative Time-Dependent Partial Differential Equations",
+        "url": "https://arxiv.org/abs/2608.23546v1",
+        "source": "arXiv",
+        "paragraph": "The Inertial Manifold Neural Operator (IMNO) is introduced for solving dissipative time-dependent partial differential equations by explicitly exploiting the low-dimensional structure that emerges in their long-time dynamics. Unlike standard architectures such as the Fourier Neural Operator (FNO), IMNO encodes an inertial manifold constraint directly into the network design, aiming to improve accuracy and efficiency on problems where dissipation drives the system toward a compact attractor. The approach targets a class of PDEs where standard neural operators may waste capacity modeling transient high-dimensional behavior."
+      }
+    ]
+  },
+  {
+    "theme": "Research Papers: AI Agents and Multi-Agent Systems",
+    "stories": [
+      {
+        "title": "Prime Agent: A Self-Improving RLM Harness",
+        "url": "https://arxiv.org/abs/2608.23552v1",
+        "source": "arXiv",
+        "paragraph": "Prime Agent is an open-source harness designed for long-horizon evaluation and coding-agent workflows, built around the Recursive Language Model (RLM) abstraction. It provides a persistent IPython REPL for programmatic context processing and test-time computation, addressing the limitation that language models as sequential processors lack access to external information across extended tasks. The system incorporates a continual learning component, allowing the agent to accumulate experience across runs rather than resetting state between evaluations."
+      },
+      {
+        "title": "The Interaction Tax: When Communication Erases Diversity in Multi-Agent Teams",
+        "url": "https://arxiv.org/abs/2608.23541v1",
+        "source": "arXiv",
+        "paragraph": "This paper examines whether communication between LLM agents in multi-agent teams reliably improves outputs, finding that interaction can actually reduce diversity by pushing agents toward consensus rather than maintaining independent perspectives. The study engages with a contested literature: some prior work by Du et al. (2024) and Wang et al. (2025) reports gains from debate and mixture-of-agents synthesis, while other studies find that interaction adds cost without quality improvement under equal compute budgets. The authors frame the net cost of homogenization as an \"interaction tax\" and analyze conditions under which it dominates any coordination benefit."
+      }
+    ]
+  },
+  {
+    "theme": "Research Papers: AI Safety and Robustness",
+    "stories": [
+      {
+        "title": "Robustness of Anomaly Detection Models for Industrial Control Systems under Training-Time Data Contamination",
+        "url": "https://arxiv.org/abs/2608.23547v1",
+        "source": "arXiv",
+        "paragraph": "This paper evaluates how machine-learning-based anomaly detection systems for industrial control systems (ICS) behave when their training data has been corrupted, a scenario largely unexamined in prior literature. Sources of contamination considered include compromised logs, labeling errors, manipulated historian records, and unsafe retraining pipelines — all realistic threats in operational ICS environments. The study assesses multiple offline detection pipelines to quantify how different contamination types and rates degrade detection performance."
+      },
+      {
+        "title": "Adapter-Based Few-Shot Continual Learning for Malicious Packet Recognition",
+        "url": "https://arxiv.org/abs/2608.23536v1",
+        "source": "arXiv",
+        "paragraph": "The paper addresses the Few-Shot Class-Incremental Learning (FSCIL) setting for malware detection in network traffic, where models must recognize new malware variants from limited examples without forgetting previously learned classes. Standard continual learning approaches face catastrophic forgetting when updated on new data, while full retraining is computationally expensive in rapidly evolving threat environments. The proposed adapter-based method inserts lightweight trainable modules into a frozen backbone, allowing the model to incorporate new threat classes using only a small number of labeled malicious packet samples."
+      }
+    ]
+  },
+  {
+    "theme": "Research Papers: Human-AI Interaction and Cognitive Effects",
+    "stories": [
+      {
+        "title": "How AI Assistance Affects Human Skill Development: A Study of Learning with Logic Puzzles",
+        "url": "https://arxiv.org/abs/2608.23543v1",
+        "source": "arXiv",
+        "paragraph": "A controlled experiment using logic puzzles examined the trade-off between short-term performance gains from AI assistance and longer-term skill development, finding that lower-cost access to AI help leads to greater reliance and reduced independent skill acquisition. Participants completed tasks before, during, and after an AI assistance period, with the cost of requesting help varied experimentally across groups. The results suggest that frictions in accessing AI tools — such as requiring explicit effort to invoke assistance — may preserve skill development even when the assistance itself is high quality."
+      }
+    ]
+  },
+  {
+    "theme": "Research Papers: AI in Healthcare and Clinical Applications",
+    "stories": [
+      {
+        "title": "Physics-Constrained Deep Learning Model for Contactless Blood Pressure Monitoring from Triaxial Bodyseismography",
+        "url": "https://arxiv.org/abs/2608.23562v1",
+        "source": "arXiv",
+        "paragraph": "Researchers present a physics-constrained deep learning model for estimating blood pressure from ballistocardiography (BCG), a contactless sensing modality that measures body vibrations caused by cardiac activity. A core challenge addressed is that BCG signals vary with body-bed interaction and individual hemodynamics, producing misaligned temporal and amplitude representations that reduce model generalizability. By incorporating physical constraints into the model architecture, the approach aims to improve robustness across subjects and measurement sessions in laboratory settings."
+      },
+      {
+        "title": "Predicting Multiple Clinical Outcomes Related to Functional Recovery and Social Isolation Among Older Adults After Lower-Limb Fracture or Hip Replacement",
+        "url": "https://arxiv.org/abs/2608.23531v1",
+        "source": "arXiv",
+        "paragraph": "This study applies machine learning to predict multiple simultaneous clinical outcomes — including functional recovery and social isolation — for older adults recovering at home after lower-limb fracture or hip replacement surgery. The work uses the MAISON-LLF dataset, which contains multimodal sensor and clinical assessment data from 18 older adults, and treats recovery outcomes jointly rather than in isolation. Modeling outcomes together is intended to reveal interdependencies that single-outcome studies may obscure, providing a more complete picture of post-surgical recovery trajectories."
+      }
+    ]
+  },
+  {
+    "theme": "Open-Source Tools",
+    "stories": [
+      {
+        "title": "Show HN: See how much your AI knows about you",
+        "url": "https://www.withcorpus.com/knows",
+        "source": "Hacker News",
+        "paragraph": "Corpus has released a tool that allows users to query what personal information an AI system has inferred or stored about them, surfacing it in a readable format. The tool is presented as a transparency utility, letting individuals audit the personal profile that an AI may have built from their interactions. It was submitted to Hacker News as a community project, indicating it is an early-stage or independent release rather than a product from a major AI lab."
+      }
+    ]
+  }
+]
