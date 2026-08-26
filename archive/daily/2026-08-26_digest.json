@@ -1,0 +1,207 @@
+[
+  {
+    "theme": "Model Releases & Open Weights",
+    "stories": [
+      {
+        "title": "Z.ai confirms Ox Alpha is a new GLM-series model and will release its weights",
+        "url": "https://www.bloomberg.com/news/articles/2026-08-26/china-s-z-ai-made-ox-alpha-stealth-model-that-rivals-deepseek",
+        "source": "Hacker News",
+        "paragraph": "Chinese AI company Z.ai has confirmed that Ox Alpha, a model that surfaced quietly online, belongs to its GLM series and that the weights will be publicly released. The model attracted attention after benchmarks suggested it performs at a level comparable to DeepSeek. Z.ai's decision to open the weights follows a pattern among Chinese AI labs of using open releases to build developer adoption and international credibility."
+      }
+    ]
+  },
+  {
+    "theme": "AI in Software Development",
+    "stories": [
+      {
+        "title": "Quoting Paul Dix",
+        "url": "https://simonwillison.net/2026/Aug/26/paul-dix/",
+        "source": "Simon Willison",
+        "paragraph": "Simon Willison highlighted a quote from Paul Dix describing how AI wrote one million lines of code and then refined that code over several months to produce software now running on millions of developer machines. Dix acknowledges critics who argue the task was simplified by having an oracle to compare against during a language migration, but contends that framing understates the achievement. The case is notable as a concrete, large-scale example of AI-assisted software production moving beyond prototypes into production systems used at significant scale."
+      },
+      {
+        "title": "EVE Online: The Move to Python 3 Begins!",
+        "url": "https://simonwillison.net/2026/Aug/25/eve-online-move-to-python-3/",
+        "source": "Simon Willison",
+        "paragraph": "EVE Online has begun migrating its codebase from Stackless Python 2.7 to Python 3, a significant undertaking given the game has run on Stackless Python since its 2003 launch and last underwent a major upgrade in 2010. The migration will apply the automated futurize script against approximately 2.4 million lines of code as a first step. The project is a notable case study in maintaining and modernizing a large Python codebase that has been in continuous production for over two decades."
+      },
+      {
+        "title": "How loveholidays is making everyone a builder with Codex",
+        "url": "https://openai.com/index/loveholidays",
+        "source": "OpenAI Blog",
+        "paragraph": "Travel company loveholidays has adopted OpenAI's Codex to allow non-engineering staff to participate in software development, aiming to reduce bottlenecks between business teams and technical output. The initiative is framed around enabling employees without formal coding backgrounds to turn product ideas into working software faster. The case study is one of a growing number of enterprise examples OpenAI is publishing to demonstrate Codex's use in commercial settings beyond individual developer productivity."
+      }
+    ]
+  },
+  {
+    "theme": "AI Safety, Misuse & Influence Operations",
+    "stories": [
+      {
+        "title": "Disrupting a new covert influence campaign from Russia",
+        "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia/",
+        "source": "Hacker News",
+        "paragraph": "OpenAI published details of its disruption of a covert Russian influence operation that was using its models to generate content as part of a coordinated campaign. The company did not specify which models were exploited but described detecting and terminating the accounts involved. The disclosure adds to a documented pattern of state-linked actors attempting to use large language models for information operations, a threat category OpenAI and other labs have flagged in previous reports."
+      }
+    ]
+  },
+  {
+    "theme": "Policy, Regulation & Governance",
+    "stories": [
+      {
+        "title": "U.S. gov't moves to suppress pushback on data centers",
+        "url": "https://www.tomshardware.com/tech-industry/data-centers/u-s-govt-moves-to-suppress-pushback-on-data-centers-by-removing-requirements-for-public-input-on-pollution-epa-change-would-allow-air-pollution-permits-without-publicizing-them",
+        "source": "Hacker News",
+        "paragraph": "The U.S. government is pursuing an EPA rule change that would allow air pollution permits for data centers to be issued without publicizing them, effectively removing the current requirement for public comment. The change is directly tied to the rapid expansion of AI infrastructure, which demands large amounts of power and cooling that carry associated emissions. Critics argue the move curtails a longstanding mechanism for community oversight of industrial pollution near residential areas."
+      },
+      {
+        "title": "Bill Gates says world has \"no plan\" on AI in new essay",
+        "url": "https://www.gatesnotes.com/a-turbulent-ai-era-and-critical-choices-to-make",
+        "source": "Hacker News",
+        "paragraph": "Bill Gates published an essay arguing that the world currently lacks a coherent plan for managing the societal effects of AI, framing the current period as one of critical and time-sensitive choices. Gates does not propose a specific policy framework but emphasizes areas including access, labor disruption, and the risk of benefits concentrating among a small number of people and countries. The essay is notable given Gates's decades of involvement in global technology and health policy, lending institutional weight to concerns that have previously come mainly from academic and civil society sources."
+      }
+    ]
+  },
+  {
+    "theme": "Industry & Corporate AI Strategy",
+    "stories": [
+      {
+        "title": "Big Tech's Frantic Race to Quell the Growing Backlash to AI",
+        "url": "https://www.wsj.com/tech/inside-big-techs-frantic-race-to-quell-the-growing-backlash-to-ai-2a717339",
+        "source": "Hacker News",
+        "paragraph": "A Wall Street Journal investigation details how major technology companies are organizing lobbying, public relations, and partnership efforts to counter mounting public and legislative skepticism toward AI. The piece describes internal urgency at firms including Google, Microsoft, and Meta to manage narratives around job displacement, energy use, and reliability concerns. The report follows a series of high-profile public controversies over AI products, including image generation bias incidents and questions about AI-generated content accuracy."
+      }
+    ]
+  },
+  {
+    "theme": "AI in Education & Consumer Applications",
+    "stories": [
+      {
+        "title": "Analyzing student votes across AI models for college essay help",
+        "url": "https://studyarena.com/blog/chatgpt-vs-claude-vs-gemini-college-essays-2026",
+        "source": "Hacker News",
+        "paragraph": "Study Arena published an analysis comparing ChatGPT, Claude, and Gemini on college essay assistance tasks, using student preference votes as the primary evaluation metric. The methodology relies on head-to-head comparisons where students selected which AI-produced essay feedback or draft they found more useful, rather than expert rubric scoring. The study is one of a growing number of domain-specific, user-preference evaluations that aim to complement formal benchmarks with real-world feedback from the intended user population."
+      }
+    ]
+  },
+  {
+    "theme": "AI-Generated Content & Media Quality",
+    "stories": [
+      {
+        "title": "The New York Times is publishing AI slop",
+        "url": "https://unpublishablepapers.substack.com/p/the-new-york-times-is-publishing",
+        "source": "Hacker News",
+        "paragraph": "A Substack analysis accuses The New York Times of publishing articles that show hallmarks of AI-generated text, including factual errors, generic phrasing, and structural patterns associated with large language model output. The post points to specific examples within Times content rather than making a blanket claim about editorial policy. The allegation is particularly notable given the Times's ongoing litigation against OpenAI over copyright, making the paper's own potential use of generative AI a point of significant public interest."
+      }
+    ]
+  },
+  {
+    "theme": "Open-Source Tools & Developer Projects",
+    "stories": [
+      {
+        "title": "Show HN: TeXbrain, a LaTeX editor that runs pdfTeX in the browser via WASM",
+        "url": "https://github.com/swimmingbrain/texbrain",
+        "source": "Hacker News",
+        "paragraph": "A master's engineering student released TeXbrain, a browser-based LaTeX editor that runs pdfTeX via WebAssembly, eliminating the need for a server-side compilation step or a paid subscription. The project was motivated by Overleaf's decision to put Git synchronization behind a paywall, and TeXbrain offers that functionality without a subscription. Running a full TeX engine in the browser via WASM is technically non-trivial, and the project represents a self-hosted alternative for researchers and students who need LaTeX compilation with version control integration."
+      },
+      {
+        "title": "Ripping Off the Hey.com Band-Aid",
+        "url": "https://kylemcgough.com/blogs/ripping-off-the-heycom-band-aid",
+        "source": "Hacker News",
+        "paragraph": "Developer Kyle McGough documented his decision to leave Hey.com, the email service from Basecamp, describing the friction involved in migrating away from a proprietary email product with a non-standard workflow model. The post details practical steps for exporting data and transitioning to a self-hosted or alternative service, and reflects a broader pattern of developers re-evaluating subscription services that lock in workflow or data. Hey.com charges $99 per year for personal use and has faced recurring criticism for its opinionated approach to email management that complicates standard integrations."
+      }
+    ]
+  },
+  {
+    "theme": "Industry News",
+    "stories": [
+      {
+        "title": "Perplexity Portable Computer",
+        "url": "https://www.perplexity.ai/hub/blog/introducing-portable-computer-for-local-first-ai",
+        "source": "Hacker News",
+        "paragraph": "Perplexity has announced a portable computing device designed to run AI models locally rather than relying on cloud inference. The product positions itself within a growing category of edge AI hardware, emphasizing on-device processing as a privacy and latency advantage. The move marks Perplexity's first step beyond software into consumer hardware."
+      },
+      {
+        "title": "OpenAI's Head of Data Centers Has Left the Company",
+        "url": "https://www.wsj.com/tech/ai/openais-head-of-data-centers-has-left-company-6d24fd83",
+        "source": "Hacker News",
+        "paragraph": "OpenAI's head of data centers has departed the company, according to a report in The Wall Street Journal. The exit is notable given OpenAI's stated ambitions to dramatically expand its compute infrastructure, including a multi-billion-dollar partnership with Microsoft and the broader Stargate initiative. Losing a senior leader focused on data center buildout raises questions about continuity in the company's infrastructure strategy at a critical scaling period."
+      }
+    ]
+  },
+  {
+    "theme": "Practitioner Experience",
+    "stories": [
+      {
+        "title": "Is AI slowing you down?",
+        "url": "https://news.ycombinator.com/item?id=49438590",
+        "source": "Hacker News",
+        "paragraph": "A Hacker News discussion thread is gathering firsthand accounts from engineers on whether AI coding tools increase or decrease their productivity. The original poster, a principal engineer working on a large robotic process automation codebase, reports that AI agents can build complex features from scratch but require highly detailed, low-level specifications to avoid errors. The thread surfaces a recurring practitioner concern: that the overhead of prompting and reviewing AI output can offset speed gains, particularly in large or legacy codebases."
+      }
+    ]
+  },
+  {
+    "theme": "Research Papers",
+    "stories": [
+      {
+        "title": "What FID Hides: Detecting, Ranking, and Diagnosing Deviations in Generative Evaluation",
+        "url": "https://arxiv.org/abs/2608.24881v1",
+        "source": "arXiv",
+        "paragraph": "Researchers examine structural weaknesses in Fréchet Inception Distance (FID) and Kernel Inception Distance (KID), two of the most widely used metrics for ranking generative image models. The paper demonstrates that FID's reliance on only the first two moments of a distribution allows visually unrecognizable images, optimized purely to match reference statistics on ImageNet, to achieve low FID scores. The authors propose methods for detecting, ranking, and diagnosing distributional deviations that FID misses, arguing that a single scalar gap provides no calibrated test against sampling variation."
+      },
+      {
+        "title": "Recursive Experiential-Working Memory Evolution for Long-Horizon Agent Harnesses",
+        "url": "https://arxiv.org/abs/2608.24876v1",
+        "source": "arXiv",
+        "paragraph": "The paper introduces Recuris, a memory architecture for AI agents tackling long-horizon tasks where growing interaction histories obscure task state and degrade skill selection. Recuris separates Working Memory, which tracks current task progress, from Experiential Memory, which stores reusable skills, grounding skill invocation in present needs rather than historical recency. The architecture is designed to address recursive self-improvement failures that arise when agents lose track of where they are within complex, multi-step tasks."
+      },
+      {
+        "title": "SPO++: Stream-Aligned Policy Optimization for Asynchronous Agentic RL",
+        "url": "https://arxiv.org/abs/2608.24870v1",
+        "source": "arXiv",
+        "paragraph": "This paper addresses a throughput bottleneck in group-relative reinforcement learning, which requires waiting for sibling rollouts of the same prompt before updating a policy — a costly dependency when trajectories involve variable-length tool use. Building on Single-stream Policy Optimization (SPO), which replaces sibling rollouts with a persistent prompt-level value estimate, the authors introduce SPO++ and show that trajectory-level advantage centering generally does not improve training and can be removed. The work targets agentic RL settings where asynchronous, long-horizon rollouts make standard GRPO-style algorithms inefficient."
+      },
+      {
+        "title": "Parameterized Complexity of $L_p$-Lipschitz Constants for Input Convex Neural Networks and $L_p$-Norm Maximization over Zonotopes",
+        "url": "https://arxiv.org/abs/2608.24865v1",
+        "source": "arXiv",
+        "paragraph": "This theoretical paper examines how hard it is to compute Lipschitz constants for two-layer input-convex neural networks (ICNNs), a restricted architecture that enforces output convexity via nonnegative weights. The authors show that computing the Lp-Lipschitz constant for ICNNs is equivalent to Lp-norm maximization over zonotopes, and analyze this problem through the lens of parameterized complexity. The work contributes formal hardness results relevant to certifying neural network robustness, a problem that remains computationally difficult even for shallow architectures."
+      },
+      {
+        "title": "Improving Cross-Problem Vehicle Routing with Locally Augmented Preferences and Representation Disentanglement",
+        "url": "https://arxiv.org/abs/2608.24859v1",
+        "source": "arXiv",
+        "paragraph": "The paper addresses limitations in multi-task vehicle routing problem (VRP) solvers, which aim to handle multiple VRP variants within a single model without per-variant retraining. The authors identify two failure modes: reward-scale disparities and shrinking advantage signals during reinforcement learning training, and insufficient separation of variant-specific features in learned representations. They propose locally augmented preferences and representation disentanglement techniques to address both issues, improving cross-problem generalization."
+      },
+      {
+        "title": "Bellman Calibration for Marginalized Importance Weighting in Offline Reinforcement Learning",
+        "url": "https://arxiv.org/abs/2608.24858v1",
+        "source": "arXiv",
+        "paragraph": "This paper tackles bias in offline reinforcement learning policy evaluation caused by residual occupancy-balance violations in marginalized importance weighting estimators. Existing minimax, primal-dual, and fitted fixed-point approaches can leave such violations due to function-class approximation or incomplete optimization, leading to inaccurate policy value estimates. The authors introduce Bellman Calibration, a post-processing correction that reduces these residual violations to improve evaluation accuracy without requiring re-training of the base estimator."
+      },
+      {
+        "title": "BrowserForge: Scaling Web Episode via Parallel Browser Sandboxes",
+        "url": "https://arxiv.org/abs/2608.24848v1",
+        "source": "arXiv",
+        "paragraph": "BrowserForge addresses the data scarcity problem for training web agents that operate from rendered pixels rather than HTML or accessibility trees. Public datasets for such agents typically contain only a few thousand trajectories from a narrow set of websites, which limits generalization. The paper proposes a system of parallel browser sandboxes to generate interaction trajectories at scale, aiming to enable training on a broader and larger corpus of web episodes."
+      },
+      {
+        "title": "FedV-KGQA: Multi-Hop Question Answering over Vertically Partitioned Knowledge Graphs",
+        "url": "https://arxiv.org/abs/2608.24846v1",
+        "source": "arXiv",
+        "paragraph": "FedV-KGQA is a federated framework for answering multi-hop questions over knowledge graphs whose facts are distributed across organizationally siloed, vertically partitioned databases. Centralized knowledge graph QA systems cannot handle this setting because merging data across organizations violates governance and data sovereignty constraints. The framework enables multi-hop reasoning without centralizing data, addressing a gap in federated learning research that existing single-hop approaches do not cover."
+      },
+      {
+        "title": "LAION-BVD: A 10-Million-Hour Open Video Dataset for Multimodal Pre-training",
+        "url": "https://arxiv.org/abs/2608.24845v1",
+        "source": "arXiv",
+        "paragraph": "Researchers from the LAION project release LAION-BVD, an open video dataset built from 1.3 billion platform-specific video URLs collected via CommonCrawl, of which 80 million videos totaling 10 million hours were successfully downloaded. The dataset spans video, audio, and image modalities and uses content-aware scene detection to extract clips with associated metadata for multimodal pre-training. Its scale and open availability are intended to support research that has so far depended on proprietary video corpora."
+      },
+      {
+        "title": "Reading Is Not Using: Retrieval, Judgment, and the Design of AI Financial Research Workflows",
+        "url": "https://arxiv.org/abs/2608.24842v1",
+        "source": "arXiv",
+        "paragraph": "Researchers have identified what they call a \"retrieval-integration gap\" in LLM-based financial analysis systems, where models successfully locate relevant information from financial disclosures but fail to consistently incorporate that information into their final judgments. The study is notable because most existing evaluations of AI financial analysts measure retrieval accuracy rather than whether retrieved content actually shapes downstream decisions. The researchers tested this by holding focal-firm information fixed while varying contextual firm data, allowing them to isolate whether LLMs genuinely use what they read. The findings have direct implications for the design of AI-assisted investment workflows, where overconfidence in retrieval performance may mask systematic failures in judgment."
+      }
+    ]
+  }
+]
