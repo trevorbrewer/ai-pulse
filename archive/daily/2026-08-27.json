@@ -1,0 +1,259 @@
+{
+  "date": "2026-08-27",
+  "generated_at": "2026-08-27T20:53:37.065504+00:00",
+  "source_counts": {
+    "rss_feeds": 4,
+    "arxiv": 0,
+    "hackernews": 29,
+    "nitter": 0,
+    "total_raw": 33,
+    "total_deduped": 33,
+    "total_saved": 25
+  },
+  "items": [
+    {
+      "title": "Nvidia Starts Pac as AI Chip Maker Builds DC Influence Force",
+      "url": "https://news.bgov.com/bloomberg-government-news/nvidia-starts-a-pac-as-ai-chip-maker-buids-influence-force-in-dc",
+      "source": "Hacker News",
+      "published": "2026-08-27T18:34:40+00:00",
+      "summary_raw": "",
+      "points": 66,
+      "num_comments": 29,
+      "hn_url": "https://news.ycombinator.com/item?id=49469249"
+    },
+    {
+      "title": "Gemini-3.5-Transcribe",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe/",
+      "source": "Hacker News",
+      "published": "2026-08-27T18:03:42+00:00",
+      "summary_raw": "",
+      "points": 27,
+      "num_comments": 9,
+      "hn_url": "https://news.ycombinator.com/item?id=49468818"
+    },
+    {
+      "title": "Two German airport workers die of malaria after 'mosquito arrives on plane'",
+      "url": "https://www.bbc.com/news/articles/cz6zwgg9y8go",
+      "source": "Hacker News",
+      "published": "2026-08-27T17:33:13+00:00",
+      "summary_raw": "",
+      "points": 141,
+      "num_comments": 81,
+      "hn_url": "https://news.ycombinator.com/item?id=49468315"
+    },
+    {
+      "title": "Tell HN: Man, AI is killing my brain",
+      "url": "https://news.ycombinator.com/item?id=49468252",
+      "source": "Hacker News",
+      "published": "2026-08-27T17:28:27+00:00",
+      "summary_raw": "I was among the last to resist, but then I was given a subtle hint that if I won&#x27;t &quot;improve my productivity and be on par with my colleagues&quot; my work will be at risk. So I started to use Claude Code about a year ago. At first, I&#x27;d give it small tasks, review every line it wrote, opened a proper PR, review again, ask questions, ask it to fix stuff I don&#x27;t like.<p>But I saw that my colleagues were shipping more, and so I started to ease on my reviews. At first, I would push small features straight to main. But my colleagues were shipping 10x more than me, and I need my job, so I started to push more and rely more on AI. As the agent was doing its work, sometimes 20-30 minutes, I would mindlessly scroll social media, something I tried to avoid for a very long time. But then I saw that my peers are using work trees, running multiple agents. So I started to do the same. Now, instead of mindlessly scrolling, I was launching 4-5 agents, juggling between their output. At some point, I was no longer having mental capacity to understand so much context, so I just started to chose the &quot;Recommended&quot; suggestion by Claude. I no longer know the code, or how things work. If there is a bug, I just copy the user complaint &#x2F; bug description into Claude and let it figure it out. The good&#x2F;bad part is that it seems to work. And I&#x27;m afraid what&#x27;s next.<p>Almost one year later and I&#x27;m no longer sure I can write code any more. Hell, I&#x27;m even struggling to write this post because AI is very good at understanding wrongly spelled words, doesn&#x27;t care about punctuation or capital letters. Every single thing that made me think, was taken away from me. I no longer have brain ability to research for stuff, I just let AI do it.<p>&quot;Well, just do it yourself&quot;, &quot;write code by hand&quot; - I heard you scream from your chairs. I wish I could, but after 10 hours and 15 parallel agents, I no longer have the brain capacity to do anything. &quot;Then change your job&quot; you object, and I hear you, but every interviewer I talk to either asks me &quot;please tell me how you use AI in day to day work&quot; or simply states &quot;we like to move fast, so we use AI as much as possible&quot;. I feel like a mindless blob, floating around, paying mortgage, trying to survive, while my brain is being destroyed. I never did drugs, but I think this is how it might feel.<p>No question. Not asking for advice. Just sharing my misery.",
+      "points": 43,
+      "num_comments": 20,
+      "hn_url": "https://news.ycombinator.com/item?id=49468252"
+    },
+    {
+      "title": "Gemini Omni 1.1 Flash",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/",
+      "source": "Hacker News",
+      "published": "2026-08-27T17:06:32+00:00",
+      "summary_raw": "",
+      "points": 133,
+      "num_comments": 79,
+      "hn_url": "https://news.ycombinator.com/item?id=49467922"
+    },
+    {
+      "title": "CMS with AI, Not AI CMS: Wagtail 8.0's New API",
+      "url": "https://wagtail.org/blog/cms-with-ai-not-ai-cms-wagtail-80s-new-api/",
+      "source": "Hacker News",
+      "published": "2026-08-27T16:32:21+00:00",
+      "summary_raw": "",
+      "points": 19,
+      "num_comments": 7,
+      "hn_url": "https://news.ycombinator.com/item?id=49467481"
+    },
+    {
+      "title": "Zonemaps(Oracle) vs BRIN Indexes(Postgres)",
+      "url": "https://deepsql.ai/blog/the-zonemap-shaped-hole-in-postgres",
+      "source": "Hacker News",
+      "published": "2026-08-27T16:26:49+00:00",
+      "summary_raw": "",
+      "points": 14,
+      "num_comments": 3,
+      "hn_url": "https://news.ycombinator.com/item?id=49467402"
+    },
+    {
+      "title": "3 new ways to plan and book travel in Search",
+      "url": "https://blog.google/products-and-platforms/products/search/book-travel-ai-mode/",
+      "source": "Google AI Blog",
+      "published": "2026-08-27T16:00:00+00:00",
+      "summary_raw": "Graphic depicting new travel features for AI Mode in Search"
+    },
+    {
+      "title": "Launch HN: Salem Robotics (YC S26) \u2013 Software for industrial inspection robots",
+      "url": "https://news.ycombinator.com/item?id=49466715",
+      "source": "Hacker News",
+      "published": "2026-08-27T15:46:04+00:00",
+      "summary_raw": "Hi HN, we&#x27;re the founders of Salem Robotics (<a href=\"https:&#x2F;&#x2F;salemroboticsinc.com\">https:&#x2F;&#x2F;salemroboticsinc.com</a>). We give existing mobile robots the task-specific intelligence to carry out surveys and physically interactive inspections in hazardous industrial facilities.<p>Here&#x27;s a video of it running on real robot hardware with a few words from us:\n<a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=U_228h3NE7c\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=U_228h3NE7c</a><p>We came to Salem through robotics research at UT Austin and a combined 15 years working in nuclear, including about 10 years developing and deploying autonomous robots at Los Alamos National Laboratory. Over the last five years, we kept running into the same gap: robot hardware had become very capable, but making a robot carry out a complete industrial procedure still required a surprising amount of robotics work and manual intervention.<p>The part that interested us most was manipulation. A nuclear contamination survey, for example, can require taking a &quot;smear&quot;: wiping a defined area of a surface so it can be checked for removable radioactive contamination. In an oil, gas, or chemical facility, an LDAR (leak detection and repair) inspection can require moving a detector around a particular valve, flange, or connection. Other inspections require positioning an instrument at a precise location and orientation relative to a pipe or piece of equipment.<p>These are easy tasks to compress into verbs like &quot;wipe&quot;, &quot;measure&quot;, or &quot;inspect&quot;, but considerably harder to make a robot do reliably. A probe might need to remain normal to a surface throughout a path, stay within a narrow offset from a pipe, or trace a region while maintaining a particular end-effector orientation. The planner has to find a feasible motion while respecting the task geometry, manipulator kinematics, joint limits, collisions, and the environment around it.<p>We work down to joint-level control for those interactions. One problem we&#x27;ve spent a lot of time on is generating constrained manipulation plans quickly enough that they can be based on the geometry the robot actually observes instead of requiring someone to carefully author a trajectory for every individual surface, valve, or flange.<p>The physical world makes this annoying. A few centimeters of error may not matter much when navigating down a hallway, but it matters if a sensor is supposed to remain normal to a curved surface. And successfully executing a trajectory doesn&#x27;t necessarily mean the inspection worked. The detector could be misaligned, contact could be wrong, the geometry could differ from the model, or the measurement itself could be invalid. We care about closing that loop around the inspection result, not just whether the arm reached the commanded pose.<p>Our approach is a combination of AI and classical robotics. A lot of robotics research and industry attention right now is going toward increasingly end-to-end learned systems, particularly around humanoids. Working in safety-critical environments has made us appreciate how relevant classical approaches still are when you want explicit constraints, predictable behavior, and theoretical guarantees about what a robot can and cannot do.<p>We use AI where semantic understanding and flexibility are useful, such as interpreting less structured information or understanding what in an unfamiliar scene is relevant to a procedure. Once the system knows what physical interaction it needs to perform, we prefer explicit geometry, planning, optimization, and control where possible. We&#x27;re interested in the marriage between the two rather than trying to make every part of the robotics stack learned.<p>The other idea behind Salem is that we don&#x27;t think every useful robot application should require building a new robot. Companies like Boston Dynamics are getting very good at building increasingly capable hardware platforms. We think there is room for a domain-specific application layer on top of that hardware. The same underlying robot might perform nuclear radiological surveys in one facility and LDAR inspections in another, but the procedures, sensors, manipulation constraints, success conditions, and outputs are different.<p>That&#x27;s also why we&#x27;re hardware agnostic. We don&#x27;t expect one robot to be the best platform forever, and facilities already own different hardware. We&#x27;d rather describe an inspection in terms of what needs to happen and then map that onto the capabilities of the right robot for the job.<p>One thing that surprised us after spending more time with facilities is how manual many inspection workflows still are. In sophisticated nuclear and industrial sites, people still physically walk survey routes, take measurements one at a time, visually inspect equipment, record results manually, and sometimes make judgments based on things like how a component sounds. Some of the basic workflows would be recognizable to someone doing the job decades ago, even though the sensors, computation, and robots available today are radically different.<p>We&#x27;re starting with radiological inspection in nuclear because it&#x27;s the industry we know best, and we&#x27;re also working on manipulation-heavy inspection problems in oil, gas, and hazardous chemical facilities. The technicians and inspectors still define the procedure, interpret results, and make the consequential judgments. We&#x27;re trying to automate more of the repetitive physical execution that currently requires someone to enter the environment or manually operate a robot.<p>We sell directly to industrial facilities, usually starting with a paid technical validation and then moving to an ongoing deployment. Pricing varies substantially with the workflow: validations range from tens of thousands to over $100k, and larger deployments can range from the low hundreds of thousands to roughly $500k per robot.<p>One thing we&#x27;re especially curious to hear HN&#x27;s thoughts on is where the abstraction boundary in robotics should sit. What should come from the robot manufacturer, what belongs in an application layer, and what will inevitably remain specific to the facility? We&#x27;d also be interested in hearing about other industries where you&#x27;ve seen physical inspection tasks that look trivial to a person but are surprisingly difficult to automate.",
+      "points": 31,
+      "num_comments": 18,
+      "hn_url": "https://news.ycombinator.com/item?id=49466715"
+    },
+    {
+      "title": "Needle: The benchmark your search engine can't memorize",
+      "url": "https://keenable.ai/blog/needle-the-benchmark-your-search-engine-can-t-memorize",
+      "source": "Hacker News",
+      "published": "2026-08-27T15:17:46+00:00",
+      "summary_raw": "",
+      "points": 30,
+      "num_comments": 10,
+      "hn_url": "https://news.ycombinator.com/item?id=49466250"
+    },
+    {
+      "title": "Meta projected to spend $10B on Anthropic AI",
+      "url": "https://www.nytimes.com/2026/08/27/technology/meta-anthropic-frenemies.html",
+      "source": "Hacker News",
+      "published": "2026-08-27T15:14:05+00:00",
+      "summary_raw": "",
+      "points": 11,
+      "num_comments": 2,
+      "hn_url": "https://news.ycombinator.com/item?id=49466201"
+    },
+    {
+      "title": "Nvidia projects $673B in sales as AI demand widens",
+      "url": "https://forgeeks.net/nvidia-673-billion-ai-growth-forecast/",
+      "source": "Hacker News",
+      "published": "2026-08-27T15:04:16+00:00",
+      "summary_raw": "",
+      "points": 97,
+      "num_comments": 93,
+      "hn_url": "https://news.ycombinator.com/item?id=49466052"
+    },
+    {
+      "title": "The Teaser Period: Why the AI Boom Is Hitting a Reset Wall",
+      "url": "https://www.groundbrkr.com/p/the-teaser-period-why-the-ai-boom",
+      "source": "Hacker News",
+      "published": "2026-08-27T14:27:39+00:00",
+      "summary_raw": "",
+      "points": 80,
+      "num_comments": 73,
+      "hn_url": "https://news.ycombinator.com/item?id=49465461"
+    },
+    {
+      "title": "Six months of writing code exclusively with agents",
+      "url": "https://blog.exe.dev/engineering-with-ai",
+      "source": "Hacker News",
+      "published": "2026-08-27T14:05:19+00:00",
+      "summary_raw": "",
+      "points": 64,
+      "num_comments": 86,
+      "hn_url": "https://news.ycombinator.com/item?id=49465119"
+    },
+    {
+      "title": "First patient to undergo live AI-assisted brain surgery has tumor removed",
+      "url": "https://www.bbc.com/news/articles/cjwg5n7y68xo",
+      "source": "Hacker News",
+      "published": "2026-08-27T14:01:58+00:00",
+      "summary_raw": "",
+      "points": 10,
+      "num_comments": 1,
+      "hn_url": "https://news.ycombinator.com/item?id=49465057"
+    },
+    {
+      "title": "AC2 Protocol: The missing security layer for AI agents",
+      "url": "https://www.ac2protocol.org",
+      "source": "Hacker News",
+      "published": "2026-08-27T13:55:42+00:00",
+      "summary_raw": "",
+      "points": 16,
+      "num_comments": 14,
+      "hn_url": "https://news.ycombinator.com/item?id=49464979"
+    },
+    {
+      "title": "Harness Engineering",
+      "url": "https://Habitat-Thinking.github.io/ai-literacy-superpowers/plugins/ai-literacy-superpowers/explanation/harness-engineering/",
+      "source": "Hacker News",
+      "published": "2026-08-27T13:54:57+00:00",
+      "summary_raw": "",
+      "points": 101,
+      "num_comments": 40,
+      "hn_url": "https://news.ycombinator.com/item?id=49464970"
+    },
+    {
+      "title": "MIT's Ad Hoc Committee on AI Use in Teaching, Learning, and Research Training",
+      "url": "https://aiandeducation.mit.edu/report/",
+      "source": "Hacker News",
+      "published": "2026-08-27T13:07:45+00:00",
+      "summary_raw": "",
+      "points": 86,
+      "num_comments": 66,
+      "hn_url": "https://news.ycombinator.com/item?id=49464314"
+    },
+    {
+      "title": "Are You Sure You Want a Car with a Giant Touch Screen?",
+      "url": "https://www.theatlantic.com/technology/2026/08/car-prices-memory-ram-ai/688329/",
+      "source": "Hacker News",
+      "published": "2026-08-27T13:05:40+00:00",
+      "summary_raw": "",
+      "points": 10,
+      "num_comments": 2,
+      "hn_url": "https://news.ycombinator.com/item?id=49464282"
+    },
+    {
+      "title": "Show HN: Derive \u2013 An open home for AI artifacts and workflows",
+      "url": "https://github.com/derive-to/derive",
+      "source": "Hacker News",
+      "published": "2026-08-27T13:02:46+00:00",
+      "summary_raw": "",
+      "points": 10,
+      "num_comments": 1,
+      "hn_url": "https://news.ycombinator.com/item?id=49464236"
+    },
+    {
+      "title": "Air Conditioning Is Not a Luxury, It Is a Necessity",
+      "url": "https://humanprogress.org/ac-is-not-a-luxury-it-is-a-necessity/",
+      "source": "Hacker News",
+      "published": "2026-08-27T12:01:03+00:00",
+      "summary_raw": "",
+      "points": 114,
+      "num_comments": 264,
+      "hn_url": "https://news.ycombinator.com/item?id=49463367"
+    },
+    {
+      "title": "Australia Bans Generative A.I. From Official Music Charts",
+      "url": "https://www.nytimes.com/2026/08/25/world/australia/australia-ai-music-chart-ban.html",
+      "source": "Hacker News",
+      "published": "2026-08-27T10:48:54+00:00",
+      "summary_raw": "",
+      "points": 102,
+      "num_comments": 90,
+      "hn_url": "https://news.ycombinator.com/item?id=49462687"
+    },
+    {
+      "title": "My software development workflow is AI now & it feels exhausting and soulless",
+      "url": "https://old.reddit.com/r/cscareerquestions/comments/1vi1i7m/my_entire_software_development_workflow_is_ai_now/",
+      "source": "Hacker News",
+      "published": "2026-08-27T09:24:20+00:00",
+      "summary_raw": "",
+      "points": 28,
+      "num_comments": 14,
+      "hn_url": "https://news.ycombinator.com/item?id=49461965"
+    },
+    {
+      "title": "Qwen3.8-Flash-Next Intelligence, Performance and Price Analysis",
+      "url": "https://artificialanalysis.ai/models/qwen3-8-flash-next",
+      "source": "Hacker News",
+      "published": "2026-08-27T09:06:30+00:00",
+      "summary_raw": "",
+      "points": 15,
+      "num_comments": 6,
+      "hn_url": "https://news.ycombinator.com/item?id=49461862"
+    },
+    {
+      "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
+      "url": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
+      "source": "OpenAI Blog",
+      "published": "2026-08-27T09:00:00+00:00",
+      "summary_raw": "A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and student performance on a real-world university assignment."
+    }
+  ]
+}

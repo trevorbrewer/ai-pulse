@@ -1,0 +1,232 @@
+[
+  {
+    "theme": "Model Releases",
+    "stories": [
+      {
+        "title": "Gemini-3.5-Transcribe",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe/",
+        "source": "Hacker News",
+        "paragraph": "Google has released Gemini 3.5 Transcribe, a dedicated speech-to-text model in the Gemini family. The release expands Google's lineup of task-specific Gemini variants beyond general-purpose chat and multimodal models. The model is positioned to compete with specialized transcription offerings from OpenAI and others in the enterprise speech recognition market."
+      },
+      {
+        "title": "Gemini Omni 1.1 Flash",
+        "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/",
+        "source": "Hacker News",
+        "paragraph": "Google has released Gemini Omni 1.1 Flash, an updated version of its multimodal model aimed at developers building applications. The 1.1 iteration follows the earlier Omni Flash release and is described as targeting use cases that require processing across text, audio, images, and video within a single model. The release is accompanied by developer documentation and tooling updates on the Gemini platform."
+      }
+    ]
+  },
+  {
+    "theme": "Industry News",
+    "stories": [
+      {
+        "title": "Nvidia Starts Pac as AI Chip Maker Builds DC Influence Force",
+        "url": "https://news.bgov.com/bloomberg-government-news/nvidia-starts-a-pac-as-ai-chip-maker-buids-influence-force-in-dc",
+        "source": "Hacker News",
+        "paragraph": "Nvidia has formed a political action committee as part of a broader effort to expand its lobbying presence in Washington, D.C. The move comes as the company faces ongoing federal scrutiny over chip export controls to China and other markets. Establishing a PAC allows Nvidia to make direct contributions to federal candidates, a tool previously absent from its political strategy."
+      },
+      {
+        "title": "Nvidia projects $673B in sales as AI demand widens",
+        "url": "https://forgeeks.net/nvidia-673-billion-ai-growth-forecast/",
+        "source": "Hacker News",
+        "paragraph": "Nvidia has projected cumulative sales of $673 billion, citing sustained and broadening demand for AI infrastructure hardware. The forecast reflects continued orders from hyperscalers and enterprises investing in GPU clusters for model training and inference. The projection underscores how Nvidia's data center segment has become the dominant revenue driver, eclipsing its legacy gaming business."
+      },
+      {
+        "title": "Meta projected to spend $10B on Anthropic AI",
+        "url": "https://www.nytimes.com/2026/08/27/technology/meta-anthropic-frenemies.html",
+        "source": "Hacker News",
+        "paragraph": "Meta is projected to spend approximately $10 billion on Anthropic's AI services, according to reporting by The New York Times. The arrangement is notable because Meta is simultaneously developing its own large language models under the Llama series, making it both a competitor to and a customer of Anthropic. The dynamic illustrates how AI infrastructure costs are driving companies to license external models even when they maintain internal research programs."
+      }
+    ]
+  },
+  {
+    "theme": "AI Products and Applications",
+    "stories": [
+      {
+        "title": "3 new ways to plan and book travel in Search",
+        "url": "https://blog.google/products-and-platforms/products/search/book-travel-ai-mode/",
+        "source": "Google AI Blog",
+        "paragraph": "Google has added three travel-focused features to AI Mode in Search, enabling users to plan itineraries, compare options, and complete bookings within the search interface. The integration brings trip planning closer to transactional completion without requiring users to leave Google's ecosystem. This expansion of AI Mode into travel follows similar moves in shopping and local search, reflecting Google's strategy of embedding AI assistance directly into high-intent query categories."
+      },
+      {
+        "title": "CMS with AI, Not AI CMS: Wagtail 8.0's New API",
+        "url": "https://wagtail.org/blog/cms-with-ai-not-ai-cms-wagtail-80s-new-api/",
+        "source": "Hacker News",
+        "paragraph": "Wagtail 8.0 introduces a new API designed to let developers integrate AI capabilities into the open-source Django-based CMS on their own terms, rather than shipping opinionated AI features directly into the platform. The release reflects a deliberate design philosophy: expose hooks and structured interfaces so that editors and developers can connect models of their choosing, rather than bundling a single AI vendor's tools. This approach contrasts with commercial CMS platforms that have begun embedding proprietary AI writing and content generation features directly into their products."
+      },
+      {
+        "title": "Launch HN: Salem Robotics (YC S26) – Software for industrial inspection robots",
+        "url": "https://news.ycombinator.com/item?id=49466715",
+        "source": "Hacker News",
+        "paragraph": "Salem Robotics, a YC S26 company, has launched software that adds task-specific intelligence to existing mobile robots for conducting surveys and physically interactive inspections in hazardous industrial facilities. Rather than selling new hardware, the company layers perception and decision-making software onto robots customers already own. The approach targets environments such as oil, gas, and chemical plants where human entry carries safety risk, a segment where autonomous inspection is gaining regulatory and operational traction."
+      }
+    ]
+  },
+  {
+    "theme": "Research and Benchmarks",
+    "stories": [
+      {
+        "title": "Needle: The benchmark your search engine can't memorize",
+        "url": "https://keenable.ai/blog/needle-the-benchmark-your-search-engine-can-t-memorize",
+        "source": "Hacker News",
+        "paragraph": "Keenable AI has published Needle, a benchmark designed to evaluate retrieval and search systems in ways that resist dataset memorization. Standard benchmarks are vulnerable to contamination when models or search engines are trained on queries that overlap with the test set, inflating reported scores. Needle addresses this by generating evaluation queries dynamically, making it harder for systems to achieve high marks through memorization rather than genuine retrieval capability."
+      },
+      {
+        "title": "Zonemaps(Oracle) vs BRIN Indexes(Postgres)",
+        "url": "https://deepsql.ai/blog/the-zonemap-shaped-hole-in-postgres",
+        "source": "Hacker News",
+        "paragraph": "A technical post from DeepSQL examines the architectural differences between Oracle's Zonemap indexing and PostgreSQL's BRIN (Block Range INdex) indexes, arguing that Postgres has a meaningful gap in its metadata-based pruning capabilities. Zonemaps store min/max statistics at a finer granularity and integrate more tightly with the query optimizer than BRIN, which can limit Postgres's ability to skip large ranges of data during scans. The analysis is relevant to practitioners running analytical workloads on Postgres who are weighing it against Oracle or columnar databases with native zonemap support."
+      }
+    ]
+  },
+  {
+    "theme": "AI and Human Behavior",
+    "stories": [
+      {
+        "title": "Tell HN: Man, AI is killing my brain",
+        "url": "https://news.ycombinator.com/item?id=49468252",
+        "source": "Hacker News",
+        "paragraph": "A Hacker News user describes a gradual shift in their software development habits after being pressured by their employer to adopt Claude Code roughly one year ago under implicit threat of job loss. Initially reviewing every line the tool produced and submitting proper pull requests, the user reports that their engagement with the code has since diminished, raising personal concerns about skill atrophy. The post sparked a broader discussion about workplace coercion around AI tool adoption and the cognitive trade-offs of delegating programming work to language models."
+      }
+    ]
+  },
+  {
+    "theme": "Non-AI News",
+    "stories": [
+      {
+        "title": "Two German airport workers die of malaria after 'mosquito arrives on plane'",
+        "url": "https://www.bbc.com/news/articles/cz6zwgg9y8go",
+        "source": "Hacker News",
+        "paragraph": "Two workers at a German airport have died of malaria after apparently being bitten by an infected mosquito believed to have arrived on an international flight, according to BBC reporting. The cases are classified as airport malaria, a rare phenomenon in which Anopheles mosquitoes carrying Plasmodium parasites survive transport in aircraft cargo or passenger cabins and bite individuals in non-endemic regions. German health authorities are investigating the source of the mosquito and reviewing protocols for aircraft arriving from malaria-endemic countries."
+      }
+    ]
+  },
+  {
+    "theme": "Model Releases & Benchmarks",
+    "stories": [
+      {
+        "title": "Qwen3.8-Flash-Next Intelligence, Performance and Price Analysis",
+        "url": "https://artificialanalysis.ai/models/qwen3-8-flash-next",
+        "source": "Hacker News",
+        "paragraph": "Artificial Analysis has published a detailed performance and pricing breakdown of Qwen3.8-Flash-Next, Alibaba's latest small-footprint language model. The analysis covers intelligence benchmarks, latency, and cost-per-token, positioning the model against comparable offerings in the sub-10B parameter class. The report is notable because it provides practitioners with concrete cost-efficiency comparisons at a time when the small-model segment is increasingly crowded."
+      }
+    ]
+  },
+  {
+    "theme": "AI in Software Development",
+    "stories": [
+      {
+        "title": "Six months of writing code exclusively with agents",
+        "url": "https://blog.exe.dev/engineering-with-ai",
+        "source": "Hacker News",
+        "paragraph": "A software engineer at exe.dev documents six months of using AI coding agents as the sole method for writing production code, describing practical lessons about agent limitations, prompt design, and when human intervention is still required. The author notes that agents handle routine CRUD logic well but struggle with cross-file refactors and ambiguous requirements. The post offers a grounded counterpoint to both enthusiastic and dismissive narratives about agent-driven development."
+      },
+      {
+        "title": "My software development workflow is AI now & it feels exhausting and soulless",
+        "url": "https://old.reddit.com/r/cscareerquestions/comments/1vi1i7m/my_entire_software_development_workflow_is_ai_now/",
+        "source": "Hacker News",
+        "paragraph": "A Reddit post in r/cscareerquestions describes the psychological toll of working in an engineering environment where AI tools have displaced most manual coding tasks, with the author reporting feelings of disengagement and reduced craft satisfaction. The post attracted significant discussion about whether the shift removes the problem-solving elements that many developers find intrinsically motivating. It reflects a broader conversation in the practitioner community about the human cost of rapid workflow automation."
+      },
+      {
+        "title": "Harness Engineering",
+        "url": "https://Habitat-Thinking.github.io/ai-literacy-superpowers/plugins/ai-literacy-superpowers/explanation/harness-engineering/",
+        "source": "Hacker News",
+        "paragraph": "Habitat Thinking has published an explainer on \"harness engineering,\" a proposed discipline focused on designing structured environments and constraints that make AI agent outputs more predictable and auditable. The piece argues that prompt engineering alone is insufficient and that practitioners need systematic scaffolding — including input validation, output testing, and workflow boundaries — to deploy agents reliably. The framing draws an analogy to software test harnesses, adapting that concept for LLM-based pipelines."
+      }
+    ]
+  },
+  {
+    "theme": "AI Safety & Security",
+    "stories": [
+      {
+        "title": "AC2 Protocol: The missing security layer for AI agents",
+        "url": "https://www.ac2protocol.org",
+        "source": "Hacker News",
+        "paragraph": "The AC2 Protocol project proposes an open specification for authenticating and authorizing communications between AI agents, addressing a gap where current agent frameworks lack a standardized trust layer. The protocol defines how agents should verify one another's identity and scope of permitted actions before exchanging data or triggering downstream tasks. Its authors position it as analogous to OAuth for human-facing web services, adapted for machine-to-machine agent interactions."
+      }
+    ]
+  },
+  {
+    "theme": "Open-Source Tools",
+    "stories": [
+      {
+        "title": "Show HN: Derive – An open home for AI artifacts and workflows",
+        "url": "https://github.com/derive-to/derive",
+        "source": "Hacker News",
+        "paragraph": "Derive is a newly open-sourced tool that provides a self-hosted repository for storing, versioning, and sharing AI artifacts such as prompts, chains, and workflow definitions. The project aims to fill a gap between ad hoc file storage and heavyweight MLOps platforms, targeting small teams that want artifact traceability without significant infrastructure overhead. The GitHub repository includes a CLI and a local web UI for browsing and comparing artifact versions."
+      }
+    ]
+  },
+  {
+    "theme": "AI in Medicine",
+    "stories": [
+      {
+        "title": "First patient to undergo live AI-assisted brain surgery has tumor removed",
+        "url": "https://www.bbc.com/news/articles/cjwg5n7y68xo",
+        "source": "Hacker News",
+        "paragraph": "Surgeons successfully removed a brain tumor from a patient using real-time AI assistance during the procedure, marking the first reported instance of live intraoperative AI guidance in neurosurgery, according to a BBC report. The AI system analyzed imaging data during the operation to help surgeons distinguish tumor tissue from healthy brain matter, a task that typically relies on a surgeon's visual judgment and frozen-section pathology. The case raises practical questions about liability, regulatory approval pathways, and the validation standards required before such tools enter routine clinical use."
+      }
+    ]
+  },
+  {
+    "theme": "AI Policy & Regulation",
+    "stories": [
+      {
+        "title": "Australia Bans Generative A.I. From Official Music Charts",
+        "url": "https://www.nytimes.com/2026/08/25/world/australia/australia-ai-music-chart-ban.html",
+        "source": "Hacker News",
+        "paragraph": "Australia's official music chart authority has enacted a rule barring tracks generated primarily by generative AI from appearing on its national charts, making it one of the first countries to formalize such an exclusion at an industry infrastructure level. The policy requires that charting tracks demonstrate meaningful human creative authorship, though the authority has not yet published detailed criteria for how that threshold will be assessed. The decision comes amid ongoing disputes between record labels, streaming platforms, and AI music companies over attribution and royalty eligibility."
+      }
+    ]
+  },
+  {
+    "theme": "AI in Education",
+    "stories": [
+      {
+        "title": "MIT's Ad Hoc Committee on AI Use in Teaching, Learning, and Research Training",
+        "url": "https://aiandeducation.mit.edu/report/",
+        "source": "Hacker News",
+        "paragraph": "MIT has released a formal report from its Ad Hoc Committee on AI Use in Teaching, Learning, and Research Training, outlining recommended policies and principles for how students, instructors, and researchers should engage with AI tools across the institution. The report distinguishes between different academic contexts — such as formative assignments versus high-stakes assessments — and recommends that instructors disclose their own AI use as a modeling behavior. Rather than a blanket ban or blanket endorsement, the committee advocates for course-level transparency requirements and ongoing faculty development."
+      }
+    ]
+  },
+  {
+    "theme": "Industry & Economic Analysis",
+    "stories": [
+      {
+        "title": "The Teaser Period: Why the AI Boom Is Hitting a Reset Wall",
+        "url": "https://www.groundbrkr.com/p/the-teaser-period-why-the-ai-boom",
+        "source": "Hacker News",
+        "paragraph": "An analysis from Groundbrkr argues that the current AI investment and adoption cycle is entering a correction phase, which the author terms a \"teaser period reset,\" where early adopters who received favorable pricing or outsized early results are now confronting higher costs and less differentiated outcomes. The piece cites rising inference costs, commoditization of foundation models, and slower-than-projected enterprise deployment rates as contributing factors. The author suggests that the next wave of value creation will require more domain-specific applications rather than general-purpose model adoption."
+      },
+      {
+        "title": "Are You Sure You Want a Car with a Giant Touch Screen?",
+        "url": "https://www.theatlantic.com/technology/2026/08/car-prices-memory-ram-ai/688329/",
+        "source": "Hacker News",
+        "paragraph": "The Atlantic examines how automakers are adding increasingly large touch screens and embedded AI features to vehicles, then charging consumers for hardware that often becomes obsolete faster than the car itself. The piece draws a parallel to the RAM and memory upgrade pricing practices of the PC era, noting that some manufacturers charge several thousand dollars for AI-enabled driver-assistance packages that run on hardware with a defined software support window. The article questions whether the industry's push to embed AI in vehicles aligns with consumer interests or primarily serves as a recurring revenue mechanism."
+      }
+    ]
+  },
+  {
+    "theme": "Off-Topic / Misrouted",
+    "stories": [
+      {
+        "title": "Air Conditioning Is Not a Luxury, It Is a Necessity",
+        "url": "https://humanprogress.org/ac-is-not-a-luxury-it-is-a-necessity/",
+        "source": "Hacker News",
+        "paragraph": "HumanProgress.org republishes an argument that air conditioning should be classified as a basic necessity rather than a discretionary amenity, citing mortality data showing that extreme heat kills more Americans annually than most other weather events combined. The piece references historical adoption curves for AC in the United States, where household penetration rose from roughly 10 percent in 1960 to over 90 percent by the 2000s, framing the technology as a proven public health intervention. While not directly related to AI, the article appeared in an AI-focused news feed, possibly due to broader discussions about data center cooling demands and the energy footprint of AI infrastructure."
+      }
+    ]
+  },
+  {
+    "theme": "Research Papers",
+    "stories": [
+      {
+        "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
+        "url": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
+        "source": "OpenAI Blog",
+        "paragraph": "OpenAI published findings from a randomized study involving more than 1,000 students that examined how access to ChatGPT, combined with critical-thinking instruction, affects academic performance on a real-world university assignment. The study is notable because it uses an experimental design rather than observational data, allowing for more direct comparisons between groups that did and did not use the tool. Researchers measured outcomes including answer quality, originality, and critical-thinking indicators. The results offer empirical data on a question that has become central to debates in higher education about AI's role in student learning."
+      }
+    ]
+  }
+]
