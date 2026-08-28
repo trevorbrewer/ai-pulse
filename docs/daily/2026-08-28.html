@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Pulse — Friday, August 28, 2026</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>AI Pulse</h1>
+      <nav><a href="../index.html">← All digests</a></nav>
+    </header>
+
+    <main>
+      <h1 class="page-title">Friday, August 28, 2026</h1>
+
+      
+        
+        <section class="theme-section">
+          <h2>Model Releases</h2>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://huggingface.co/zai-org/GLM-5.3">GLM-5.3 is now open-weight</a><span class="source">Hacker News</span>
+            </p>
+            <p>Zai.org has released GLM-5.3 as an open-weight model, making the weights publicly available on Hugging Face. The release expands the GLM model family, which originates from Zhipu AI's research lineage, into the open-weight ecosystem where developers can download and run the model locally. Details on parameter count and benchmark comparisons are documented on the z.ai blog accompanying the release.</p>
+          </div>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://hy.tencent.ai/research/hy4-preview">Hy4 Preview</a><span class="source">Hacker News</span>
+            </p>
+            <p>Tencent has published a preview of Hy4, the latest iteration of its Hunyuan model series. The release continues the company's effort to compete in the large-scale foundation model space alongside domestic and international rivals. Few technical specifics have been broadly disclosed at the preview stage, but the announcement signals Tencent's continued investment in developing proprietary frontier models.</p>
+          </div>
+          
+        </section>
+        
+        <section class="theme-section">
+          <h2>AI Safety and Agent Security</h2>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://talos-agent.ch/">Show HN: Talos – An AI agent with a permission kernel between model and shell</a><span class="source">Hacker News</span>
+            </p>
+            <p>Talos is an AI agent that inserts a permission kernel between the language model and the system shell, requiring explicit approval before the model can execute shell commands. The approach addresses a known risk in agentic workflows where models with shell access can perform unintended or destructive operations. By treating permissions as a first-class kernel-level concern rather than an application-level afterthought, Talos offers a structural constraint on what actions an agent can take without human sign-off.</p>
+          </div>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://infernalcode.com/posts/your-ai-agent-has-root/">AI Agent Has Root</a><span class="source">Hacker News</span>
+            </p>
+            <p>A post on Infernal Code examines the security implications of AI agents that are granted root or administrator privileges on host systems. The author argues that running agents with elevated permissions dramatically widens the blast radius of prompt injection, runaway tool calls, or model errors. The piece urges practitioners to apply least-privilege principles to agent deployments just as they would to any other automated system process.</p>
+          </div>
+          
+        </section>
+        
+        <section class="theme-section">
+          <h2>AI in Software Development</h2>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://blog.pragmaticengineer.com/the-pulse-we-need-to-talk-about-migrations-with-ai/">We need to talk about migrations with AI</a><span class="source">Hacker News</span>
+            </p>
+            <p>Pragmatic Engineer's newsletter examines how engineering teams are using AI coding assistants to handle large-scale code migrations, such as moving between frameworks or updating deprecated APIs across thousands of files. The post notes that while AI tools can accelerate the mechanical parts of migration work, they frequently introduce subtle bugs that are difficult to catch without thorough test coverage. The author cites real team experiences to argue that migrations with AI require more rigorous review processes, not fewer, than manual migrations.</p>
+          </div>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://blog.brokk.ai/dont-use-musl-if-you-care-about-performance/">Don't use musl if you care about performance</a><span class="source">Hacker News</span>
+            </p>
+            <p>Brokk AI's engineering blog publishes benchmarks showing that applications compiled against musl libc run measurably slower than those compiled against glibc, with some workloads showing double-digit percentage slowdowns. The post is relevant to AI practitioners who package model inference code inside Alpine Linux containers, which use musl by default. The authors recommend switching to glibc-based images for latency-sensitive inference pipelines.</p>
+          </div>
+          
+        </section>
+        
+        <section class="theme-section">
+          <h2>Practitioner Guides and Tools</h2>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://handbook.sutro.sh">The Analytical AI Handbook</a><span class="source">Hacker News</span>
+            </p>
+            <p>Sutro has published an online handbook aimed at practitioners who want to apply AI to analytical tasks, covering topics such as structured data querying, prompt design for analysis, and evaluation of model outputs. The handbook is positioned as a practical reference rather than a theoretical survey, with worked examples intended for data analysts and engineers. Its publication reflects a growing demand for domain-specific guidance as AI tools move from experimentation into everyday analytical workflows.</p>
+          </div>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://ref.tools/blog/how-i-design-with-ai">How I Design with AI</a><span class="source">Hacker News</span>
+            </p>
+            <p>A designer at Ref Tools describes their personal workflow for integrating AI image and layout tools into a product design process, detailing which tasks benefit from AI assistance and which still require manual refinement. The post covers using AI for rapid ideation and asset generation while noting that final polish and accessibility checks remain human-driven steps. The author provides specific examples of prompts and tools used at different stages of a design sprint.</p>
+          </div>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://perfloop.ai/blog/superhuman-attention">Superhuman Attention</a><span class="source">Hacker News</span>
+            </p>
+            <p>Perfloop AI's blog post examines attention mechanisms in transformer models and explores whether architectural modifications can extend the effective context window without proportional increases in compute cost. The piece walks through techniques such as sparse attention and sliding window attention as alternatives to full quadratic self-attention. It is written for ML engineers looking to understand the practical trade-offs between context length, memory usage, and inference latency.</p>
+          </div>
+          
+        </section>
+        
+        <section class="theme-section">
+          <h2>Industry News</h2>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://www.wsj.com/tech/ai/nvidia-insists-it-can-keep-printing-money-to-fund-the-ai-boom-195e7d5e">Nvidia Insists It Can Keep Printing Money to Fund the AI Boom</a><span class="source">Hacker News</span>
+            </p>
+            <p>The Wall Street Journal reports that Nvidia executives have told investors the company expects sustained demand for its AI chips to continue driving high revenue, even as competitors from AMD, Intel, and custom silicon efforts at cloud providers intensify. Nvidia's data center segment has been the primary growth driver, with quarterly revenues from that division reaching tens of billions of dollars in recent reporting periods. The company's argument rests on the claim that AI infrastructure build-out is still in early stages and that demand will outpace any near-term supply or competition constraints.</p>
+          </div>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://www.wsj.com/tech/ai/south-koreas-ai-for-all-push-gives-free-access-to-every-citizen-451f6b2c">South Korea's 'AI for All' Push Gives Free Access to Every Citizen</a><span class="source">Hacker News</span>
+            </p>
+            <p>South Korea's government has launched an initiative to provide every citizen with free access to AI services, framing the program as a national competitiveness measure. The Wall Street Journal reports that the policy involves government-subsidized access to AI platforms, with the goal of accelerating adoption across education, small business, and public services. South Korea joins a small number of countries attempting top-down AI access programs, though implementation details about which services are included and for how long remain partially defined.</p>
+          </div>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://www.theregister.com/applications/2026/08/28/libreoffice-268-is-out-local-first-and-with-no-ai/5293301">LibreOffice 26.8 is out – local first, and with no AI</a><span class="source">Hacker News</span>
+            </p>
+            <p>The Document Foundation has released LibreOffice 26.8, and The Register notes that the office suite continues to ship without built-in AI features, a deliberate choice that distinguishes it from Microsoft 365's Copilot integration and Google Workspace's Duet AI. The release focuses on performance improvements, bug fixes, and local-first functionality, meaning documents are processed and stored on the user's own machine without cloud dependency. The decision to omit AI reflects the project's emphasis on user privacy and software freedom, values central to its open-source community.</p>
+          </div>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://www.semafor.com/article/08/27/2026/alphabet-stock-sheds-700b-as-ai-bills-climb">Alphabet stock sheds $700B as AI bills climb</a><span class="source">Hacker News</span>
+            </p>
+            <p>Alphabet's market capitalization fell by approximately $700 billion as investors reacted to rising costs associated with its AI infrastructure buildout. The sell-off reflects broader market concern that capital expenditure on AI compute and data centers is outpacing near-term revenue gains for major technology companies. Alphabet is not alone in facing this scrutiny, but the scale of the single-session loss underscores how sensitive its valuation has become to signals about AI spending efficiency.</p>
+          </div>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://openai.com/index/supporting-next-generation-ai-startups-thailand">Supporting Thailand's next generation of AI startups</a><span class="source">OpenAI Blog</span>
+            </p>
+            <p>OpenAI and Thailand's Ministry of Higher Education, Science, Research and Innovation (MHESI) have jointly launched an eight-week accelerator program targeting 10 early-stage startups in the health, wellness, and education sectors. The program is designed to help participants move AI prototypes toward market-ready products that meet standards of trustworthiness and reliability. The partnership represents OpenAI's continued effort to establish relationships with national governments and expand its presence in Southeast Asian markets.</p>
+          </div>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://www.theguardian.com/business/2026/aug/27/uk-airports-operator-cyber-attack-customer-data-accessed">Three UK airports hit by cyber-attack with data of 8.7M customers accessed</a><span class="source">Hacker News</span>
+            </p>
+            <p>A cyber-attack on an operator managing three UK airports resulted in unauthorized access to the personal data of approximately 8.7 million customers. The incident is notable for its scale and for affecting critical transport infrastructure simultaneously across multiple sites. Authorities and the affected operator have not yet publicly attributed the attack, and an investigation is ongoing.</p>
+          </div>
+          
+        </section>
+        
+        <section class="theme-section">
+          <h2>AI and Design Consequences</h2>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://shubhamjain.co/2026/08/27/ai-food-photos-trypophobia/">Your AI Generated Menu Triggered My Trypophobia</a><span class="source">Hacker News</span>
+            </p>
+            <p>A personal essay by Shubham Jain describes how AI-generated food photography used in a restaurant menu caused him distress because the images contained repeating hole-like patterns characteristic of trypophobia triggers. The author points out that AI image models frequently produce these artifacts when generating close-up food textures, and that restaurants adopting AI-generated menus may be unaware of the effect. The piece raises a practical concern about deploying AI-generated imagery in consumer contexts without human review for accessibility and sensory impact.</p>
+          </div>
+          
+        </section>
+        
+        <section class="theme-section">
+          <h2>Safety Research</h2>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/">Breaking Claude Code Opus 5 Auto Mode</a><span class="source">Simon Willison</span>
+            </p>
+            <p>Security researcher Johann Rehberger, a recognized figure in prompt injection research, has demonstrated a successful attack against Anthropic's Claude Code Opus 5 Auto Mode, which Anthropic recently made the default setting for its coding agent. Anthropic has publicly positioned auto mode as a strong defense against prompt injection attacks targeting agent users. Rehberger's finding is notable because it undercuts confidence in a protection mechanism that Anthropic described with strong assurances, and it highlights the ongoing difficulty of hardening agentic AI systems against adversarial inputs.</p>
+          </div>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://www.terminal-bench-science.ai/announcement">Terminal-Bench-Science: Evaluating AI agents on scientific research workflows</a><span class="source">Hacker News</span>
+            </p>
+            <p>Terminal-Bench-Science is a new evaluation framework designed to test AI agents on tasks that mirror real scientific research workflows, such as running experiments, interpreting results, and managing data pipelines in a terminal environment. The benchmark addresses a gap in existing evals, which tend to focus on coding or general reasoning rather than the iterative, tool-heavy nature of scientific work. By grounding assessments in concrete research tasks, the framework aims to give practitioners a more realistic picture of where current agents succeed and fail.</p>
+          </div>
+          
+        </section>
+        
+        <section class="theme-section">
+          <h2>Open-Source Tools</h2>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://github.com/calmrocks/ai-engineer-notebooks">AI Engineer Notebooks – free, framework-free RAG/agents/evals on Colab</a><span class="source">Hacker News</span>
+            </p>
+            <p>The AI Engineer Notebooks repository offers a collection of free, self-contained Jupyter notebooks covering retrieval-augmented generation, agent construction, and evaluation techniques, all designed to run on Google Colab without requiring any specific framework. The framework-free approach lowers the barrier for practitioners who want to understand underlying mechanics rather than relying on library abstractions. The notebooks are hosted publicly on GitHub under the calmrocks account and cover multiple use cases in a format intended to be immediately executable.</p>
+          </div>
+          
+        </section>
+        
+        <section class="theme-section">
+          <h2>AI Limitations and Criticism</h2>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://pivot-to-ai.com/2026/08/27/your-agents-md-file-doesnt-actually-do-anything/">Your AGENTS.md file doesn't do anything</a><span class="source">Hacker News</span>
+            </p>
+            <p>A piece published on Pivot to AI argues that AGENTS.md files — configuration or instruction files intended to guide AI coding agents within a repository — do not reliably influence agent behavior in practice. The author contends that the files have become a form of cargo-cult practice, adopted widely despite limited evidence that agents consistently read, interpret, or act on their contents. The critique is directed at practitioners who treat such files as a meaningful control mechanism without empirical verification of their effect.</p>
+          </div>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://neilalexander.dev/2026/06/30/flooding-contributions">Please stop flooding our projects with AI slop to furnish your CV</a><span class="source">Hacker News</span>
+            </p>
+            <p>Open-source maintainer Neil Alexander published a post calling out a pattern of contributors using AI-generated code to submit low-quality pull requests to public repositories, apparently to pad their professional profiles. Alexander describes receiving contributions that are syntactically plausible but contextually incorrect or redundant, requiring maintainer time to review and reject. The post highlights a growing maintenance burden on volunteer-run projects caused by the low marginal cost of generating and submitting AI-assisted code.</p>
+          </div>
+          
+          <div class="story">
+            <p class="story-title">
+              <a href="https://blog.luanti.org/2026/08/27/luanti-dmca-tracer-ai/">Luanti removed from Google Play due to baseless AI copyright notice</a><span class="source">Hacker News</span>
+            </p>
+            <p>Luanti, a free and open-source game, was removed from the Google Play Store after receiving a DMCA copyright notice generated by an AI-based copyright detection service called Tracer. The Luanti team describes the notice as baseless, stating that no legitimate copyright claim exists against their software. The incident draws attention to the risks of automated copyright enforcement tools acting on AI-generated claims without adequate human review, with real consequences for legitimate open-source projects.</p>
+          </div>
+          
+        </section>
+        
+      
+    </main>
+
+    <footer>Generated 2026-08-28 21:20 UTC</footer>
+  </div>
+</body>
+</html>
