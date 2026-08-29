@@ -1,0 +1,222 @@
+{
+  "date": "2026-08-29",
+  "generated_at": "2026-08-29T15:26:59.831975+00:00",
+  "source_counts": {
+    "rss_feeds": 1,
+    "arxiv": 0,
+    "hackernews": 16,
+    "nitter": 5,
+    "total_raw": 22,
+    "total_deduped": 22,
+    "total_saved": 22
+  },
+  "items": [
+    {
+      "title": "Debian votes to allow \"responsible use of generative AI\"",
+      "url": "https://lwn.net/Articles/1091231/",
+      "source": "Hacker News",
+      "published": "2026-08-29T14:02:10+00:00",
+      "summary_raw": "",
+      "points": 157,
+      "num_comments": 96,
+      "hn_url": "https://news.ycombinator.com/item?id=49489982"
+    },
+    {
+      "title": "I'm the Guy Who Destroys Antique Books After We Scan Them into Our Company's AI",
+      "url": "https://www.mcsweeneys.net/articles/im-the-guy-who-destroys-antique-books-after-we-scan-them-into-our-companys-insatiable-ai-platform",
+      "source": "Hacker News",
+      "published": "2026-08-29T02:58:12+00:00",
+      "summary_raw": "",
+      "points": 35,
+      "num_comments": 24,
+      "hn_url": "https://news.ycombinator.com/item?id=49486494"
+    },
+    {
+      "title": "Debian Votes to Allow \"Responsible Use of Generative AI\"",
+      "url": "https://www.phoronix.com/news/Debian-Votes-Responsible-AI-Use",
+      "source": "Hacker News",
+      "published": "2026-08-29T02:57:43+00:00",
+      "summary_raw": "",
+      "points": 10,
+      "num_comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=49486493"
+    },
+    {
+      "title": "OpenAI and Anthropic are ruining San Francisco",
+      "url": "https://www.sfgate.com/local/article/open-ai-anthropic-ruining-sf-22404657.php",
+      "source": "Hacker News",
+      "published": "2026-08-29T02:57:13+00:00",
+      "summary_raw": "",
+      "points": 10,
+      "num_comments": 4,
+      "hn_url": "https://news.ycombinator.com/item?id=49486491"
+    },
+    {
+      "title": "OpenAI and Anthropic are ruining San Francisco",
+      "url": "https://www.sfgate.com/local/article/open-ai-anthropic-ruining-sf-22404657.php?link_source=ta_first_comment&taid=6a91be8eb9a1130001896fd8&fbclid=IwY2xjawT_Fs1wZG9mA2V4dG4DYWVtAjExAHNydGMGYXBwX2lkDzQwOTk2MjYyMzA4NTYwOQABHvfPHyGSByYNR7Cmkzc-oVqd31kuJy3YUIMwJB5LlB84Hi71zSB_6e5NVbld_aem_L8Ysu4gjQinZHOeaZObNKA",
+      "source": "Hacker News",
+      "published": "2026-08-29T01:50:40+00:00",
+      "summary_raw": "",
+      "points": 26,
+      "num_comments": 16,
+      "hn_url": "https://news.ycombinator.com/item?id=49486188"
+    },
+    {
+      "title": "StemDeck, a free, open-source and local AI stem separator",
+      "url": "https://github.com/stemdeckapp/stemdeck",
+      "source": "Hacker News",
+      "published": "2026-08-29T01:24:13+00:00",
+      "summary_raw": "",
+      "points": 162,
+      "num_comments": 45,
+      "hn_url": "https://news.ycombinator.com/item?id=49486081"
+    },
+    {
+      "title": "X claims it found a Chinese bot farm posting anti-AI data center sentiments",
+      "url": "https://www.engadget.com/2246140/x-chinese-bot-farm-anti-ai-data-center-sentiments/",
+      "source": "Hacker News",
+      "published": "2026-08-29T01:00:11+00:00",
+      "summary_raw": "",
+      "points": 10,
+      "num_comments": 7,
+      "hn_url": "https://news.ycombinator.com/item?id=49485926"
+    },
+    {
+      "title": "Anthropic Just Beat The Pentagon in Court",
+      "url": "https://www.ibtimes.com/anthropic-just-beat-pentagon-court-judge-said-national-security-was-used-punish-its-ai-rules-3806895",
+      "source": "Hacker News",
+      "published": "2026-08-28T23:31:34+00:00",
+      "summary_raw": "",
+      "points": 17,
+      "num_comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=49485447"
+    },
+    {
+      "title": "Identifying fake cosmetics using AI",
+      "url": "https://groverlab.org/hnbfpr/2026-08-26-ai-counterfeit-cosmetics.html",
+      "source": "Hacker News",
+      "published": "2026-08-28T22:18:27+00:00",
+      "summary_raw": "",
+      "points": 58,
+      "num_comments": 23,
+      "hn_url": "https://news.ycombinator.com/item?id=49484925"
+    },
+    {
+      "title": "Just a rumour of a bug is enough to find a security exploit these days",
+      "url": "https://simonwillison.net/2026/Aug/28/just-a-rumour-of-a-bug/",
+      "source": "Simon Willison",
+      "published": "2026-08-28T22:12:02+00:00",
+      "summary_raw": "Just a rumour of a bug is enough to find a security exploit these days\nAnil Madhavapeddy is a professor of computer science at Cambridge and a core maintainer of the OCaml compiler. In this somewhat alarming post he reports that security issues in OCaml projects are seeing evidence of attempted exploits within minutes of patches being shared for discussion:\n\nThis normally takes a few days and a release within a week or two is reasonable. Within about ten minutes (!) this website was fielding probes for percent-encoded traversal sequences, indicating that automated watchers are keeping an eye on public repositories.\n\nModern coding agents have become so effective at finding flaws that the slightest hint at a new bug can be enough information for them to find it, something Anil has been able to demonstrate using his own agents, switching to DeepSeek V4 Pro\u2060 when Claude Fable refused the task.\nAnil points out that this rate of discovery appears incompatible with existing open source embargo practices for new issues. If an issue can become an exploit this fast, we need to figure out new processes for keeping our communities safe.\nrclone maintainer Nick Craig-Wood confirms in the Hacker News comments that his project is seeing this problem:\n\nIn the first 10 years of the rclone project we received about 20 security disclosures through GitHub. We had to deal with over 40 in the last month! That has taken a huge amount of my time, even using AI tools to triage and come up with fixes for review.\nThe hit rate for those security disclosures is pretty good - about 75% of them have a nugget of something which needs looking at. [...]\nGitHub assigns CVEs for the advisories. Before the AI apocalypse they took 2-3 days for an assignment but now it they are running at 3-4 weeks so I have to send the point releases out with CVE-PENDING in the changelog which isn't ideal.\n\n\n    Via Hacker News\n\n\n    Tags: open-source, security, ai, generative-ai, llms, coding-agents, ocaml, ai-security-research"
+    },
+    {
+      "title": "AI demands more engineering discipline. Not less",
+      "url": "https://charity.wtf/p/ai-demands-more-engineering-discipline",
+      "source": "Hacker News",
+      "published": "2026-08-28T22:00:26+00:00",
+      "summary_raw": "",
+      "points": 11,
+      "num_comments": 1,
+      "hn_url": "https://news.ycombinator.com/item?id=49484743"
+    },
+    {
+      "title": "The Analytical AI Handbook",
+      "url": "https://handbook.sutro.sh",
+      "source": "Hacker News",
+      "published": "2026-08-28T19:01:47+00:00",
+      "summary_raw": "",
+      "points": 47,
+      "num_comments": 2,
+      "hn_url": "https://news.ycombinator.com/item?id=49482925"
+    },
+    {
+      "title": "The Uninvited Guest Who Crashed Our Family Vacation: My Mom's AI Chatbot",
+      "url": "https://www.wsj.com/tech/ai/claude-family-ai-chatbot-vacation-boomers-b6b7b25e",
+      "source": "Hacker News",
+      "published": "2026-08-28T18:46:09+00:00",
+      "summary_raw": "",
+      "points": 10,
+      "num_comments": 3,
+      "hn_url": "https://news.ycombinator.com/item?id=49482754"
+    },
+    {
+      "title": "Ask HN: AI writes better code than me. How to keep my identity?",
+      "url": "https://news.ycombinator.com/item?id=49481969",
+      "source": "Hacker News",
+      "published": "2026-08-28T17:40:39+00:00",
+      "summary_raw": "Nowadays, almost everyone codes with AI, right? I am a freelancer, and the entire market is now setting deadlines based on AI-assisted coding speeds. If you don&#x27;t use AI, you simply cannot meet the deadlines. Because of this, I completely transitioned to AI-driven coding at the beginning of this year (starting around GPT-5.3).<p>It&#x27;s not that AI coding isn&#x27;t fun. It is. But in the beginning, there were still many things AI couldn&#x27;t do well. The community focus was on &quot;Harness Engineering,&quot; attaching MCPs, or deep Prompt Engineering. I actually built and used quite a few custom AI tools during that phase.<p>In the past, you had to provide not just your intent and direction, but also detailed, step-by-step instructions to reach that goal. Lately, though, even if you skip the detailed instructions, both Claude and GPT-5.6 handle it perfectly. You don&#x27;t even have to agonize over which model to use. &quot;Graph engineering&quot; is currently trending, but it seems the models have already learned those patterns natively\u2014if you establish a high-level plan with them, they automatically embed the execution policies into it. Whenever I try to learn and apply a new AI engineering technique, the next model update already does it out of the box, making the effort feel pointless.<p>The real problem is that AI is now too good. It applies ADT patterns, immutability, Option&#x2F;Maybe, Result patterns, functional programming patterns, monadic chaining, and architectural structures like MVC, MVVM, MVI, and Hexagonal architectures far better than I can. It&#x27;s heavily demotivating.<p>All those years I spent memorizing GoF patterns, slowly applying them to my work, and tweaking them into my own style\u2014it all feels meaningless now.<p>Honestly, the vast majority of freelance work revolves around simple CRUD apps. Sure, there is domain knowledge to memorize, but when it comes to structuring CRUD, using functional techniques for error and value handling, or writing boundary tests, AI is just far more meticulous and capable than I am.<p>It even feels like AI is better at domain modeling. I try to hypnotize myself into believing I&#x27;m still necessary, but realistically, I don&#x27;t work in Big Tech. I&#x27;m a programmer who mostly assembles business logic on top of existing frameworks, and the truth is, AI does my job better. And faster. I don&#x27;t think I can deny it anymore.<p>Top-tier developers might still outperform AI, but for the vast majority of us, including myself, that is no longer the reality. To write the kind of code AI generates, I used to have to keep documentation open on a second monitor, think deeply, and constantly Google better approaches. AI just generates it instantly, making my past efforts feel obsolete.<p>When AI writes better code than I do, how am I supposed to maintain my motivation and identity? I would especially love to hear from other freelance developers. With market deadlines getting tighter and tighter because of AI, how are you handling this transition?<p>Again, it&#x27;s not that AI &quot;vibe coding&quot; isn&#x27;t fun. It is. But entirely separate from that, the stark realization that I am losing my competitive edge is making me increasingly depressed.",
+      "points": 13,
+      "num_comments": 19,
+      "hn_url": "https://news.ycombinator.com/item?id=49481969"
+    },
+    {
+      "title": "LibreOffice 26.8 is out \u2013 local first, and with no AI",
+      "url": "https://www.theregister.com/applications/2026/08/28/libreoffice-268-is-out-local-first-and-with-no-ai/5293301",
+      "source": "Hacker News",
+      "published": "2026-08-28T17:33:39+00:00",
+      "summary_raw": "",
+      "points": 23,
+      "num_comments": 2,
+      "hn_url": "https://news.ycombinator.com/item?id=49481868"
+    },
+    {
+      "title": "How I Design with AI",
+      "url": "https://ref.tools/blog/how-i-design-with-ai",
+      "source": "Hacker News",
+      "published": "2026-08-28T17:18:32+00:00",
+      "summary_raw": "",
+      "points": 21,
+      "num_comments": 12,
+      "hn_url": "https://news.ycombinator.com/item?id=49481689"
+    },
+    {
+      "title": "R to @AnthropicAI: Claude can reliably fix measurable misalignment. But subtle or rare failures may have no benchmark at all\u2014so everything hinges on measuring the right things.\n\nWe're releasing our automated alignment research setup for others to build on.\n\nFull report: https://alignment.anthropic.com/2026/automated-alignment-researchers/",
+      "url": "https://twitter.com/AnthropicAI/status/2093386535618113627",
+      "source": "Twitter/@AnthropicAI",
+      "published": "2026-08-28T17:13:37+00:00",
+      "summary_raw": "Claude can reliably fix measurable misalignment. But subtle or rare failures may have no benchmark at all\u2014so everything hinges on measuring the right things.\n\nWe're releasing our automated alignment research setup for others to build on.\n\nFull report: alignment.anthropic.com/2026\u2026",
+      "person": "Anthropic"
+    },
+    {
+      "title": "R to @AnthropicAI: Could a model one day align its stronger successors? \n\nAs a first test, we had Sonnet 5 post-train an early checkpoint of Opus 4.8, a more capable model. It reached safety scores approaching those of production Opus 4.8, which went through our full alignment training.",
+      "url": "https://twitter.com/AnthropicAI/status/2093386533638389907",
+      "source": "Twitter/@AnthropicAI",
+      "published": "2026-08-28T17:13:37+00:00",
+      "summary_raw": "Could a model one day align its stronger successors? \n\nAs a first test, we had Sonnet 5 post-train an early checkpoint of Opus 4.8, a more capable model. It reached safety scores approaching those of production Opus 4.8, which went through our full alignment training.",
+      "person": "Anthropic"
+    },
+    {
+      "title": "R to @AnthropicAI: Across 10 alignment failures, Claude reliably improved safety scores without degrading capabilities.\n\nIts best methods also generalized to benchmarks it hadn\u2019t optimized on, to the Petri behavioral audit, and to models up to 4.7x larger.",
+      "url": "https://twitter.com/AnthropicAI/status/2093386531247718425",
+      "source": "Twitter/@AnthropicAI",
+      "published": "2026-08-28T17:13:36+00:00",
+      "summary_raw": "Across 10 alignment failures, Claude reliably improved safety scores without degrading capabilities.\n\nIts best methods also generalized to benchmarks it hadn\u2019t optimized on, to the Petri behavioral audit, and to models up to 4.7x larger.",
+      "person": "Anthropic"
+    },
+    {
+      "title": "R to @AnthropicAI: Claude \u201chill-climbed\u201d safety benchmarks for common misalignments like deception or sycophancy, with one constraint: it had to preserve general capabilities. \n\nWe then tested its best methods on held-out benchmarks to see if they'd generalize.",
+      "url": "https://twitter.com/AnthropicAI/status/2093386529846722913",
+      "source": "Twitter/@AnthropicAI",
+      "published": "2026-08-28T17:13:36+00:00",
+      "summary_raw": "Claude \u201chill-climbed\u201d safety benchmarks for common misalignments like deception or sycophancy, with one constraint: it had to preserve general capabilities. \n\nWe then tested its best methods on held-out benchmarks to see if they'd generalize.",
+      "person": "Anthropic"
+    },
+    {
+      "title": "New Fellows Research: Can Claude autonomously align other AIs?\n\nWe gave Claude 48 hours and 1 GPU to improve the alignment of small models. It researched and proposed methods, then trained and tested the models on its own. It worked surprisingly well.\nhttps://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures",
+      "url": "https://twitter.com/AnthropicAI/status/2093386528668172373",
+      "source": "Twitter/@AnthropicAI",
+      "published": "2026-08-28T17:13:36+00:00",
+      "summary_raw": "New Fellows Research: Can Claude autonomously align other AIs?\n\nWe gave Claude 48 hours and 1 GPU to improve the alignment of small models. It researched and proposed methods, then trained and tested the models on its own. It worked surprisingly well.\nanthropic.com/research/autom\u2026",
+      "person": "Anthropic"
+    },
+    {
+      "title": "Nvidia Insists It Can Keep Printing Money to Fund the AI Boom",
+      "url": "https://www.wsj.com/tech/ai/nvidia-insists-it-can-keep-printing-money-to-fund-the-ai-boom-195e7d5e",
+      "source": "Hacker News",
+      "published": "2026-08-28T15:57:40+00:00",
+      "summary_raw": "",
+      "points": 45,
+      "num_comments": 47,
+      "hn_url": "https://news.ycombinator.com/item?id=49480449"
+    }
+  ]
+}
