@@ -1,0 +1,152 @@
+{
+  "date": "2026-08-30",
+  "generated_at": "2026-08-30T15:09:25.384998+00:00",
+  "source_counts": {
+    "rss_feeds": 1,
+    "arxiv": 0,
+    "hackernews": 13,
+    "nitter": 0,
+    "total_raw": 14,
+    "total_deduped": 14,
+    "total_saved": 14
+  },
+  "items": [
+    {
+      "title": "No AI Fridays",
+      "url": "https://noaifridays.com/",
+      "source": "Hacker News",
+      "published": "2026-08-30T12:31:05+00:00",
+      "summary_raw": "",
+      "points": 94,
+      "num_comments": 35,
+      "hn_url": "https://news.ycombinator.com/item?id=49498095"
+    },
+    {
+      "title": "Fair Work Commission condemns 'plain wrong' AI legal advice",
+      "url": "https://www.abc.net.au/news/2026-08-29/fair-work-commission-condemns-ai-legal-advice/107089766",
+      "source": "Hacker News",
+      "published": "2026-08-30T10:20:11+00:00",
+      "summary_raw": "",
+      "points": 47,
+      "num_comments": 19,
+      "hn_url": "https://news.ycombinator.com/item?id=49497357"
+    },
+    {
+      "title": "Nvidia's AI advantage is moving beyond the GPU",
+      "url": "https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu/",
+      "source": "Hacker News",
+      "published": "2026-08-30T09:57:06+00:00",
+      "summary_raw": "",
+      "points": 12,
+      "num_comments": 6,
+      "hn_url": "https://news.ycombinator.com/item?id=49497235"
+    },
+    {
+      "title": "Smartphone LED Detects Hidden Cameras with AI",
+      "url": "https://www.chosun.com/english/industry-en/2026/08/30/SBFXUIJQYZEARKP5T4FBAY25HQ/",
+      "source": "Hacker News",
+      "published": "2026-08-30T06:52:04+00:00",
+      "summary_raw": "",
+      "points": 14,
+      "num_comments": 1,
+      "hn_url": "https://news.ycombinator.com/item?id=49496292"
+    },
+    {
+      "title": "The Internet Archive's Vintage AI Collection",
+      "url": "https://archive.org/details/vintageai",
+      "source": "Hacker News",
+      "published": "2026-08-30T05:00:51+00:00",
+      "summary_raw": "",
+      "points": 22,
+      "num_comments": 1,
+      "hn_url": "https://news.ycombinator.com/item?id=49495845"
+    },
+    {
+      "title": "Meta Project OT plan to replace employees with AI agents",
+      "url": "https://www.thestreet.com/technology/mark-zuckerberg-shocking-message-meta-employee-layoffs-artificial-intelligence",
+      "source": "Hacker News",
+      "published": "2026-08-30T02:01:08+00:00",
+      "summary_raw": "",
+      "points": 12,
+      "num_comments": 7,
+      "hn_url": "https://news.ycombinator.com/item?id=49495009"
+    },
+    {
+      "title": "China is fueling America's data center rage",
+      "url": "https://www.axios.com/2026/08/28/china-ai-data-center-backlash-bots",
+      "source": "Hacker News",
+      "published": "2026-08-30T01:31:23+00:00",
+      "summary_raw": "",
+      "points": 14,
+      "num_comments": 17,
+      "hn_url": "https://news.ycombinator.com/item?id=49494853"
+    },
+    {
+      "title": "Open Oscar Server: open-source server compatible with AIM and ICQ clients",
+      "url": "https://github.com/mk6i/open-oscar-server",
+      "source": "Hacker News",
+      "published": "2026-08-30T00:33:35+00:00",
+      "summary_raw": "",
+      "points": 51,
+      "num_comments": 18,
+      "hn_url": "https://news.ycombinator.com/item?id=49494571"
+    },
+    {
+      "title": "Introducing Hy4 Preview",
+      "url": "https://simonwillison.net/2026/Aug/29/hy4/",
+      "source": "Simon Willison",
+      "published": "2026-08-29T23:53:13+00:00",
+      "summary_raw": "Introducing Hy4 Preview\nNew open weight text input (no vision)  LLM from Chinese company Tencent today: 770B total parameters, 49B active parameters, 1M token context window, 1.56TB on Hugging Face.\nThis is a big size increase from their previous Hy3 in July, which was 295B, 21B active, 256,000 context, 598GB.\nI recently started using model chat templates to better understand their capabilities. Here's Hy4's  chat_template.jinja on Hugging Face, which includes this section:\n{%- if not reasoning_effort is defined %}\n    {%- set reasoning_effort = 'high' %}\n{%- elif reasoning_effort not in ['high', 'no_think'] %}\n    {%- if reasoning_effort is none %}\n        {{- raise_exception('reasoning_effort error : None, should be no_think/high') }}\n    {%- else %}\n        {{- raise_exception('reasoning_effort error : ' + reasoning_effort + ', should be no_think/high') }}\n    {%- endif %}\n{%- endif %}\nSo it looks like there are just two reasoning effort levels: \"high\" (the default) and \"no_think\" (reason by disabled).\nI tried my \"Generate an SVG of a pelican riding a bicycle\" prompt with the default high reasoning via OpenRouter and got this:\n\nQuoting the reasoning trace:\n\n[...] Let's maybe add a helmet? It could improve riding theme, but may obscure head. Maybe a small cycling cap or helmet? The user didn't ask; can add red helmet? Might be cute. But pelican with big beak; a helmet might obscure. Better maybe no.\nMaybe add sunglasses? no.\nMaybe add water? no.\n\nIt's interesting how the reasoning trace uses slightly truncated English, presumably because perfect grammar isn't useful or token efficient for hidden reasoning text.\n\n\n    Tags: ai, generative-ai, llms, pelican-riding-a-bicycle, llm-reasoning, llm-release, ai-in-china"
+    },
+    {
+      "title": "Show HN: AI Agents for Osint/Sigint",
+      "url": "https://www.makralabs.org/about",
+      "source": "Hacker News",
+      "published": "2026-08-29T21:39:05+00:00",
+      "summary_raw": "The goal was to bring down the cost at the context eng. level. We do it with Layout Memoization.<p>Instead of dumping HTML into the context window, we have built a continual learning browser harness (read only for now).<p>We have built an early prototype for you to try out, where you can:<p>1. Spins up a browser instance\n2. Extract any structured or tabular data from anywhere on the open-web\n3. And you can do all this at the cost of a vector search<p>Would love to hear your thoughts on this. Thanks for taking the time to read it.",
+      "points": 10,
+      "num_comments": 2,
+      "hn_url": "https://news.ycombinator.com/item?id=49493576"
+    },
+    {
+      "title": "The elementary school pickup incident and the road ahead",
+      "url": "https://shitposting.ai/pickup-incident/",
+      "source": "Hacker News",
+      "published": "2026-08-29T19:25:01+00:00",
+      "summary_raw": "",
+      "points": 23,
+      "num_comments": 9,
+      "hn_url": "https://news.ycombinator.com/item?id=49492554"
+    },
+    {
+      "title": "LLMs are making me lose my savviness",
+      "url": "https://pgaleone.eu/ai/2026/08/29/losing-savviness/",
+      "source": "Hacker News",
+      "published": "2026-08-29T18:38:52+00:00",
+      "summary_raw": "",
+      "points": 60,
+      "num_comments": 76,
+      "hn_url": "https://news.ycombinator.com/item?id=49492184"
+    },
+    {
+      "title": "Good Culture Is the Biggest Productivity Hack, Not AI",
+      "url": "https://newsletter.eng-leadership.com/p/good-culture-is-the-biggest-productivity",
+      "source": "Hacker News",
+      "published": "2026-08-29T17:19:47+00:00",
+      "summary_raw": "",
+      "points": 420,
+      "num_comments": 104,
+      "hn_url": "https://news.ycombinator.com/item?id=49491568"
+    },
+    {
+      "title": "The growing divide between AI hype and software engineering reality",
+      "url": "https://optimizedbyotto.com/post/why-open-source-projects-ban-ai/",
+      "source": "Hacker News",
+      "published": "2026-08-29T16:16:32+00:00",
+      "summary_raw": "",
+      "points": 64,
+      "num_comments": 84,
+      "hn_url": "https://news.ycombinator.com/item?id=49491113"
+    }
+  ]
+}
