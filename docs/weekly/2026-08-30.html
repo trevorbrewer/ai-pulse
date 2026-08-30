@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Pulse — Week ending Sunday, August 30, 2026</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>AI Pulse</h1>
+      <nav><a href="../index.html">← All digests</a></nav>
+    </header>
+
+    <main>
+      <h1 class="page-title">Week ending Sunday, August 30, 2026</h1>
+      
+      <p class="days-covered">
+        7 days:
+        2026-08-24 · 2026-08-25 · 2026-08-26 · 2026-08-27 · 2026-08-28 · 2026-08-29 · 2026-08-30
+      </p>
+      
+
+      
+      <section>
+        <h2>This week's themes</h2>
+        
+        <div class="theme-block">
+          <h3>Developer experience and cognitive costs of AI-assisted coding</h3>
+          <p>This week produced an unusually concentrated set of firsthand accounts, surveys, and research examining what happens to developers when AI tools become the primary interface for their work. A ZDNet-reported survey found 80% of developers describe AI coding tools as more addictive than useful, while Hacker News threads collected accounts of engineers who feel their problem-solving instincts and professional identity eroding after months of mandatory or habitual agent use. A controlled experiment on logic puzzles provided experimental backing for the intuition: lower-cost access to AI help correlates with reduced independent skill acquisition. Several posts — including a six-month retrospective from exe.dev, a Reddit thread describing AI-driven work as 'exhausting and soulless,' and a Hacker News thread titled 'AI writes better code than me. How to keep my identity?' — frame the issue not as productivity measurement but as a question of craft and professional meaning. The week also produced practical responses, including a proposed 'No AI Fridays' discipline and Charity Majors' argument that AI code generation demands more engineering rigor, not less.</p>
+          
+          <ul class="key-stories">
+            
+            <li><a href="https://www.zdnet.com/article/i-cant-stop-80-of-developers-find-ai-coding-more-addictive-than-helpful/">80% of developers find AI coding more addictive than helpful</a></li>
+            
+            <li><a href="https://arxiv.org/abs/2608.23543v1">How AI Assistance Affects Human Skill Development: A Study of Learning with Logic Puzzles</a></li>
+            
+            <li><a href="https://news.ycombinator.com/item?id=49468252">Tell HN: Man, AI is killing my brain</a></li>
+            
+          </ul>
+          
+        </div>
+        
+        <div class="theme-block">
+          <h3>AI model economics: tiering, pricing pressure, and infrastructure costs</h3>
+          <p>A persistent tension ran through this week's industry coverage between the scale of AI investment and the difficulty of monetizing premium tiers. Anthropic's top model faces adoption headwinds even as the company's annualized revenue reached $65 billion, suggesting users are gravitating toward cheaper alternatives rather than the most capable offerings. Nvidia simultaneously announced price increases exceeding 15% on AI hardware while projecting $673 billion in cumulative sales, with the company expanding its influence into PAC formation and DC lobbying. Alphabet shed approximately $700 billion in market capitalization as investors reacted to rising infrastructure costs outpacing near-term revenue. A Groundbrkr analysis framed the current moment as a 'teaser period reset' where early favorable pricing is giving way to a harder economic reality for adopters. Taken together, the week's coverage suggests the cost structure of the AI stack is tightening at every layer simultaneously.</p>
+          
+          <ul class="key-stories">
+            
+            <li><a href="https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t/">Anthropic's best AI model struggles to attract users as cheaper tools thrive</a></li>
+            
+            <li><a href="https://www.reuters.com/business/nvidia-customers-notified-about-ai-related-price-hikes-above-15-bloomberg-news-2026-08-22/">Nvidia customers notified about AI-related price hikes above 15%</a></li>
+            
+            <li><a href="https://www.semafor.com/article/08/27/2026/alphabet-stock-sheds-700b-as-ai-bills-climb">Alphabet stock sheds $700B as AI bills climb</a></li>
+            
+          </ul>
+          
+        </div>
+        
+        <div class="theme-block">
+          <h3>AI agent security and trust infrastructure</h3>
+          <p>Several independent threads this week converged on the problem of what happens when AI agents operate with elevated privileges and no standardized trust layer. A prompt injection attack against Anthropic's Claude Code Opus 5 Auto Mode demonstrated that even models positioned as hardened for agentic use remain exploitable. A post cataloging the risks of agents with root access argued that elevated permissions dramatically widen the blast radius of model errors or injection attacks. Two new projects — Talos, which inserts a permission kernel between a model and the system shell, and the AC2 Protocol, an open specification for agent-to-agent authentication — represent early attempts to build structural mitigations rather than relying on model behavior alone. Research on multi-agent teams added a related finding: communication between agents can reduce output diversity by pushing toward consensus, complicating assumptions about multi-agent robustness.</p>
+          
+          <ul class="key-stories">
+            
+            <li><a href="https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/">Breaking Claude Code Opus 5 Auto Mode</a></li>
+            
+            <li><a href="https://infernalcode.com/posts/your-ai-agent-has-root/">AI Agent Has Root</a></li>
+            
+            <li><a href="https://www.ac2protocol.org">AC2 Protocol: The missing security layer for AI agents</a></li>
+            
+          </ul>
+          
+        </div>
+        
+        <div class="theme-block">
+          <h3>Open-weight model releases and the Chinese AI ecosystem</h3>
+          <p>The week saw a notable cluster of open-weight releases with significant Chinese provenance. Ox Alpha, which surfaced quietly online and generated speculation about its origins, was confirmed by Z.ai to be a GLM-series model with weights slated for public release. GLM-5.3 weights were simultaneously published on Hugging Face. Tencent released a preview of Hy4, a 770-billion-parameter mixture-of-experts model with 49 billion active parameters and a 1-million-token context window. Alibaba's Qwen3.8-Flash-Next received detailed performance and pricing analysis positioning it competitively in the sub-10B tier. The pattern across these releases — open weights, competitive benchmark performance, and Chinese institutional backing — continues to expand the set of capable models available to practitioners without API dependency.</p>
+          
+          <ul class="key-stories">
+            
+            <li><a href="https://www.bloomberg.com/news/articles/2026-08-26/china-s-z-ai-made-ox-alpha-stealth-model-that-rivals-deepseek">Z.ai confirms Ox Alpha is a new GLM-series model and will release its weights</a></li>
+            
+            <li><a href="https://simonwillison.net/2026/Aug/29/hy4/">Introducing Hy4 Preview</a></li>
+            
+            <li><a href="https://huggingface.co/zai-org/GLM-5.3">GLM-5.3 is now open-weight</a></li>
+            
+          </ul>
+          
+        </div>
+        
+      </section>
+      
+
+      
+      <section>
+        <h2>Build something</h2>
+        <div class="card">
+          <h3>Personal Skill-Decay Tracker: Measuring Your Coding Accuracy With and Without AI Assistance</h3>
+          <p>Using the logic puzzle study's methodology as inspiration, build a small self-administered experiment that tracks your accuracy and time-to-solution on a fixed set of LeetCode-style problems (sourced from the free LeetCode problem set or Project Euler) under three conditions: unaided, with autocomplete suggestions only, and with a full conversational AI assistant such as GPT-4o-mini via its free tier. Store results in a local SQLite database using Python's sqlite3 module, and produce a simple matplotlib chart comparing accuracy, time, and solution quality (measured by test-case pass rate) across sessions and conditions over several weeks.</p>
+          <p class="meta-line"><strong>Time:</strong> a weekend
+             &nbsp;·&nbsp; <strong>Theme:</strong> Developer experience and cognitive costs of AI-assisted coding
+          </p>
+          
+          <ul class="skill-tags">
+            
+            <li>Experimental design and self-measurement methodology</li>
+            
+            <li>SQLite data persistence with Python</li>
+            
+            <li>Matplotlib data visualization</li>
+            
+            <li>Prompt design for constrained AI assistance</li>
+            
+            <li>Quantitative evaluation of AI tool effects on task performance</li>
+            
+          </ul>
+          
+        </div>
+      </section>
+      
+
+      
+      <section>
+        <h2>Worth thinking about</h2>
+        <div class="card">
+          <p class="discussion-q">If measurable skill acquisition declines with AI assistance even when short-term task performance improves, how should engineering organizations structure AI tool policies to avoid degrading the capability base they depend on for tasks that AI cannot yet reliably handle?</p>
+          <p>The logic puzzle study published this week found a causal relationship between lower-cost AI access and reduced independent skill development, and multiple practitioner accounts describe noticing this effect in themselves over months of use. The implication is that the productivity gains organizations measure in the near term may be partially borrowed from future capability.</p>
+        </div>
+      </section>
+      
+    </main>
+
+    <footer>Generated 2026-08-30 17:15 UTC</footer>
+  </div>
+</body>
+</html>
