@@ -1,0 +1,236 @@
+{
+  "date": "2026-08-31",
+  "generated_at": "2026-08-31T17:49:57.734009+00:00",
+  "source_counts": {
+    "rss_feeds": 3,
+    "arxiv": 0,
+    "hackernews": 20,
+    "nitter": 0,
+    "total_raw": 23,
+    "total_deduped": 23,
+    "total_saved": 23
+  },
+  "items": [
+    {
+      "title": "Apple Is Suddenly an AI Infra Stock as OpenAI Buys 10k+ Macs",
+      "url": "https://247wallst.com/investing/2026/08/31/apple-is-suddenly-an-ai-infrastructure-stock-as-openai-buys-macs-by-the-tens-of-thousands/",
+      "source": "Hacker News",
+      "published": "2026-08-31T16:44:15+00:00",
+      "summary_raw": "",
+      "points": 11,
+      "num_comments": 5,
+      "hn_url": "https://news.ycombinator.com/item?id=49511824"
+    },
+    {
+      "title": "Launch HN: Almanac (YC S26) \u2013 AI that knows your company",
+      "url": "https://usealmanac.com/",
+      "source": "Hacker News",
+      "published": "2026-08-31T15:34:34+00:00",
+      "summary_raw": "Hi HN, I&#x27;m Kushagra, one of three founders of Almanac, a Hermes with a brain that knows everything about your company.<p>We started our journey with setting up Hermes for our company, thinking it must be easy. We wanted an agent that would know every context about our company, so we could ask questions and get context-appropriate responses to.<p>This started a very annoying and difficult journey. Setting up Hermes, getting it to talk right, building OAuth apps for every connector myself, then feeding it context myself, and ultimately struggling with Hermes&#x27;s default memory. At the same time, we saw our YC batchmates struggling with the same problem, and we saw an opportunity.<p>So we built Almanac. This is how it works. You sign up, you get a Hermes agent straight out of the box. You have a one-click connect to any account (Gmail, Calendar, Granola, PostHog, etc). You have personal accounts (only accessible by you) and also shared accounts (accessible by everyone in the company). The consequence being I can never see my cofounders&#x27; accounts.<p>The \u201cbrain\u201d of this agent is wikis. We pull in information from your connected sources, and start organizing this information in two wikis. A personal one, for you, which understands who you are, what your preferences are, the people in your life, and the things going on in your life. The second wiki is a company wiki, which includes what the company is, what you\u2019re working on, what the roadmap is, and what the blockers of the company are. Your agent ultimately has access to these two wikis and the original accounts, which invoke the feeling of \u201cit just knows you.\u201d<p>Here\u2019s a demo: <a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=ajXP5PHuK18\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=ajXP5PHuK18</a><p>We&#x27;re three cofounders, Rohan, Kushagra, and Divit, and we&#x27;ve been friends for 11 years, since studying for the IIT-JEE. We all did Electrical Engineering (Rohan at IIT Delhi, me at IIT Kharagpur, Divit at BITS Pilani, Hyderabad), and Rohan and I later went to Harvard, where this pre-compilation layer became our capstone thesis. We have built multiple products around the idea of a pre-compiled knowledge layer.<p>Our main differentiating point is the way we approach memory and context in general. Most AI assistant tools treat memory as an afterthought. We have worked on wikis for AI for more than a year now, building products for Harvard and NASA. The one thing we have learnt is that one needs to spend a lot more compute upfront, in the pre-compilation of this knowledge base, to get it right.<p>Having this pre-compiled knowledge base enables a lot of interesting ideas. First is a proactive agent. Since I have compiled what\u2019s going on in both my company and my current life, Almanac can start completing tasks on its own. Concretely, we run a background worker which takes a look at tasks that could be completed, pings the main agent, who then pings me, suggesting which tasks it could automate. As a result, I wake up to proactive notifications which look like \u201cI already prepared a draft of your fundraising pitch deck, want to take a look?\u201d<p>Second, long-horizon tasks. In our wikis, we maintain a section on ongoing projects, so Almanac can pick a task back up days later without losing the thread. Most agents are session-bound: they run once, finish, and forget. But a lot of real work isn&#x27;t one shot; it plays out over hours and days with people in the loop. The clearest example is anything that involves waiting on a human, like scheduling a meeting, following up on a sales thread, or chasing a document. Almanac can send an email on your behalf, and because it&#x27;s always on and remembers the project, it notices the reply four hours later and drafts the right follow-up in context.<p>Since launching, we&#x27;ve seen a lot of use cases for Almanac. One person runs her dog-rescue operation through it: finding available fosters, tracking pickups, and sending reminders for consent forms. Another researches Polymarket strategies with Almanac, where its memory holds what past strategies were, proposes new ones, and compares them against what went right or wrong last time. Another builds marketing campaigns on it without having to re-explain the business and the whole campaign every single time.<p>Regarding privacy and security, Almanac only accesses accounts you explicitly connect. Your OAuth credentials are held by our connection provider, not in Almanac\u2019s database. We only store the wiki and the source behind its citations. So an email used as a citation may be retained as Markdown.<p>We\u2019re live: <a href=\"https:&#x2F;&#x2F;usealmanac.com\">https:&#x2F;&#x2F;usealmanac.com</a>. We have a 7-day trial on all of our plans. Happy to hear if people have done similar setups, and what new features they\u2019d like in Almanac. If you\u2019re a company that wants to get an agent that actually gets tasks done, I would love to talk: <a href=\"https:&#x2F;&#x2F;cal.com&#x2F;team&#x2F;almanac&#x2F;demo\" rel=\"nofollow\">https:&#x2F;&#x2F;cal.com&#x2F;team&#x2F;almanac&#x2F;demo</a>.",
+      "points": 21,
+      "num_comments": 21,
+      "hn_url": "https://news.ycombinator.com/item?id=49511007"
+    },
+    {
+      "title": "Launch HN: Hebbian Robotics (YC S26) \u2013 Build scalable robotics data pipelines",
+      "url": "https://github.com/Hebbian-Robotics/hflow",
+      "source": "Hacker News",
+      "published": "2026-08-31T15:02:41+00:00",
+      "summary_raw": "Hi HN, we\u2019re Brandon and Kingston, the founders of Hebbian Robotics. We built HFlow (<a href=\"https:&#x2F;&#x2F;github.com&#x2F;Hebbian-Robotics&#x2F;hflow\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;Hebbian-Robotics&#x2F;hflow</a>), an SDK that turns multimodal recordings from robots and human operators into standardized, quality-checked episodes and queryable dataset manifests. A recording can contain synchronized video, joint states, actions, timestamps, and metadata, and HFlow processes those streams together.<p>Here\u2019s a demo of HFlow in action: <a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=xni0GwV-xAw\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=xni0GwV-xAw</a><p>Robotics data pipelines often begin as scripts: one transcodes video, another checks timestamps, another adds labels, and another copies selected recordings into a training set. This works until the corpus grows. Then it becomes difficult to know which code ran, why an episode was excluded, or whether a dataset can be reproduced. The first pain is usually quality control because frozen cameras, missing topics, timestamp drift, and duplicate recordings can quietly enter training data.<p>Brandon first encountered this while training embodied AI models for two-arm industrial cleaning robots. Kingston had run into related problems while building high-throughput infrastructure at Jane Street. Later, while speaking with robotics data providers, we kept seeing teams rebuild similar processing and quality-control infrastructure. We learnt that processing robotics data is itself one of the bottlenecks to improving robotics models.<p>An HFlow pipeline consists of transformations, checks, labels, and enrichments. The SDK exposes them as plain Python functions that receive an episode and return measurements, artifacts, or transformed data. During development, the functions can run in-process. For scheduled corpus processing, HFlow packages the same registered steps as Airflow 3 DAGs, where teams can inspect task status, logs, retries, and reruns.<p>HFlow currently accepts one MCAP file per episode. MCAP (<a href=\"https:&#x2F;&#x2F;mcap.dev&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;mcap.dev&#x2F;</a>) is an open container format by Foxglove for timestamped multimodal recordings, similar in purpose to a ROS bag. It lets video, robot state, actions, and other sensor streams remain synchronized in one file. We use it because HFlow needs to process these streams together, and because the resulting recordings remain compatible with Foxglove and Rerun. HFlow writes a canonical MCAP with in-band H.264 video, grouped camera and state chunks, and provenance describing how the output was produced. Each step has an explicit behavior version, and catalog records connect its measurements and artifacts to the source episode and pipeline run.<p>Quality checks store reusable evidence rather than imposing one universal definition of good data. Some failures, including black frames, frozen video, missing topics, timestamp drift, and impossible joint movements, can be measured deterministically without training a model. Others might be detected using VLMs and other models like MediaPipe Hands. But their meaning depends on the task. A smooth trajectory might indicate a successful demonstration in one setting and a stalled robot in another.<p>HFlow writes measurements, metadata, version stamps, and artifact locations to an append-only Parquet catalog. Teams query it with DuckDB SQL and produce a version-pinned manifest without opening the recordings again. Critical checks can quarantine an episode, but HFlow does not delete data. This separates the evidence from the policy used to assemble a particular dataset.<p>We did not want to replace the tools robotics teams already use. HFlow connects MCAP for synchronized recordings, Airflow for scheduled execution, Parquet for catalog data, and DuckDB for curation. Compared with a general workflow orchestrator, it adds contracts for robotics episodes, processing provenance, quality evidence, quarantine, and dataset manifests. Compared with a training dataset format, it operates earlier and stops at curated episodes plus a manifest.<p>Here are three examples of teams that would use HFlow:\n1. A data vendor or marketplace collecting egocentric recordings. They could use HFlow to detect black or frozen video, duplicate recordings, hand-object interaction, and other quality metrics before delivering the data, while retaining evidence of which checks ran on every episode.\n2. A robotics team collecting teleoperated demonstrations for its own models. They could use HFlow to standardize recordings, add labels and enrichments, and produce a reproducible training manifest.\n3. A team operating robots in the field. It could process incoming logs, quarantine incomplete or corrupted episodes, and query the catalog for particular robot versions, environments, or failure conditions.<p>The project is pre-v1, but the core lifecycle works end to end. You can try it without an account, Docker, or robot hardware by cloning the repository and following the quickstart.<p>HFlow is free under the Apache-2.0 license. The open source deployment is currently a single-tenant workspace, and we have not built the hosted, multi-tenant control plane yet. We are considering making money through managed workspaces and enterprise support for teams that do not want to operate the runtime themselves.<p>Because this processing layer is software and data, people can contribute without owning a robot. We would especially like feedback from people who have built pipelines for robotics, video, or other sensor-heavy systems. We are curious where our data model is wrong, which integrations are missing, and what would fail first on your workloads.",
+      "points": 24,
+      "num_comments": 6,
+      "hn_url": "https://news.ycombinator.com/item?id=49510632"
+    },
+    {
+      "title": "Agentic Trust Controls",
+      "url": "https://trustcontrols.ai/",
+      "source": "Hacker News",
+      "published": "2026-08-31T15:01:04+00:00",
+      "summary_raw": "",
+      "points": 18,
+      "num_comments": 3,
+      "hn_url": "https://news.ycombinator.com/item?id=49510612"
+    },
+    {
+      "title": "ChatGPT to face tougher regulation in the EU",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/986682/openai-chatgpt-eu-dsa",
+      "source": "Hacker News",
+      "published": "2026-08-31T14:52:44+00:00",
+      "summary_raw": "",
+      "points": 18,
+      "num_comments": 12,
+      "hn_url": "https://news.ycombinator.com/item?id=49510517"
+    },
+    {
+      "title": "Marx, Keynes, and AI",
+      "url": "https://www.unpopularfront.news/p/marx-keynes-and-ai",
+      "source": "Hacker News",
+      "published": "2026-08-31T14:36:03+00:00",
+      "summary_raw": "",
+      "points": 48,
+      "num_comments": 44,
+      "hn_url": "https://news.ycombinator.com/item?id=49510302"
+    },
+    {
+      "title": "Ask HN: What would happen if your company stopped using all AI tomorrow?",
+      "url": "https://news.ycombinator.com/item?id=49510066",
+      "source": "Hacker News",
+      "published": "2026-08-31T14:14:25+00:00",
+      "summary_raw": "This is something I\u2019ve been turning over in my head lately. I\u2019m not denying AI is being used everywhere, but I don\u2019t know if it\u2019s actually helping businesses overall. If we shut it all down it seems that businesses would be fine (and maybe even better since there\u2019d be no token burning budgets).",
+      "points": 25,
+      "num_comments": 34,
+      "hn_url": "https://news.ycombinator.com/item?id=49510066"
+    },
+    {
+      "title": "Apple Caught Off Guard by AI Demand for Mac Mini and Mac Studio",
+      "url": "https://www.macrumors.com/2026/08/30/apple-unexpected-mac-mini-and-studio-demand/",
+      "source": "Hacker News",
+      "published": "2026-08-31T12:41:22+00:00",
+      "summary_raw": "",
+      "points": 66,
+      "num_comments": 87,
+      "hn_url": "https://news.ycombinator.com/item?id=49508982"
+    },
+    {
+      "title": "AI-written code is still your code",
+      "url": "https://martiansoftware.com/articles/ai-written-code-is-still-yours",
+      "source": "Hacker News",
+      "published": "2026-08-31T12:08:25+00:00",
+      "summary_raw": "",
+      "points": 53,
+      "num_comments": 86,
+      "hn_url": "https://news.ycombinator.com/item?id=49508664"
+    },
+    {
+      "title": "What I Learned About AI Trust from Reconciling over 100B Transactions",
+      "url": "https://engineering.moniepoint.com/what-i-learned-about-ai-trust-from-reconciling",
+      "source": "Hacker News",
+      "published": "2026-08-31T11:34:28+00:00",
+      "summary_raw": "",
+      "points": 25,
+      "num_comments": 19,
+      "hn_url": "https://news.ycombinator.com/item?id=49508443"
+    },
+    {
+      "title": "DeepSeek-V4-Flash-Vision-Exp",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
+      "source": "Hacker News",
+      "published": "2026-08-31T11:25:09+00:00",
+      "summary_raw": "",
+      "points": 17,
+      "num_comments": 4,
+      "hn_url": "https://news.ycombinator.com/item?id=49508372"
+    },
+    {
+      "title": "The AI-Native SDLC Starts with Your Infrastructure",
+      "url": "https://metalbear.com/blog/ai-native-sdlc-infrastructure/",
+      "source": "Hacker News",
+      "published": "2026-08-31T10:57:30+00:00",
+      "summary_raw": "",
+      "points": 10,
+      "num_comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=49508200"
+    },
+    {
+      "title": "Meta Security Researcher's AI Agent Accidentally Deleted Her Emails",
+      "url": "https://au.pcmag.com/ai/116091/meta-security-researchers-ai-agent-accidentally-deleted-her-emails",
+      "source": "Hacker News",
+      "published": "2026-08-31T07:23:47+00:00",
+      "summary_raw": "",
+      "points": 57,
+      "num_comments": 58,
+      "hn_url": "https://news.ycombinator.com/item?id=49506655"
+    },
+    {
+      "title": "A milestone in expanding access to AI",
+      "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
+      "source": "OpenAI Blog",
+      "published": "2026-08-31T04:00:00+00:00",
+      "summary_raw": "ChatGPT Ads reaches $1 billion in annualized revenue run rate and expands globally, supporting broader access to AI through free and affordable options."
+    },
+    {
+      "title": "The EU has begun enforcing the AI Act: first RFIs to model providers",
+      "url": "https://tokenstead.ai/guides/eu-ai-act-first-enforcement-security-rfis",
+      "source": "Hacker News",
+      "published": "2026-08-31T03:45:57+00:00",
+      "summary_raw": "",
+      "points": 46,
+      "num_comments": 96,
+      "hn_url": "https://news.ycombinator.com/item?id=49505351"
+    },
+    {
+      "title": "OpenClaw 2.0, Accidentally",
+      "url": "https://openclaw.ai/blog/openclaw-2-accidentally",
+      "source": "Hacker News",
+      "published": "2026-08-31T03:38:02+00:00",
+      "summary_raw": "",
+      "points": 136,
+      "num_comments": 165,
+      "hn_url": "https://news.ycombinator.com/item?id=49505310"
+    },
+    {
+      "title": "Ask HN: What do your job interviews look like? (August 2026)",
+      "url": "https://news.ycombinator.com/item?id=49505033",
+      "source": "Hacker News",
+      "published": "2026-08-31T02:43:53+00:00",
+      "summary_raw": "For those who have recently (Summer 2026) gone through software engineering job interviews, have you noticed any changes in the interview process?<p>Is it still the usual Leetcode, system design, behavioral and leadership questions, and maybe technology specific questions (e.g., Spring for Java devs, borrow checker details for Rust devs, etc.)?<p>Or have you noticed something completely different because of the AI agentic era, with companies taking a fundamentally different approach to interviewing engineers? If so, could you share some of the more unique or unusual things you&#x27;ve seen?",
+      "points": 23,
+      "num_comments": 6,
+      "hn_url": "https://news.ycombinator.com/item?id=49505033"
+    },
+    {
+      "title": "Why do I lose my passion and want to do nothing?",
+      "url": "https://news.ycombinator.com/item?id=49505014",
+      "source": "Hacker News",
+      "published": "2026-08-31T02:40:37+00:00",
+      "summary_raw": "When AI makes results readily available, why do I lose my passion and want to do nothing?",
+      "points": 91,
+      "num_comments": 79,
+      "hn_url": "https://news.ycombinator.com/item?id=49505014"
+    },
+    {
+      "title": "Agency and Agents",
+      "url": "https://www.oneusefulthing.org/p/agency-and-agents",
+      "source": "Ethan Mollick",
+      "published": "2026-08-31T00:24:35+00:00",
+      "summary_raw": "From the Hugging Face Incident to Twilight Factories"
+    },
+    {
+      "title": "Understanding ChatGPT Work",
+      "url": "https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/",
+      "source": "Simon Willison",
+      "published": "2026-08-30T23:59:47+00:00",
+      "summary_raw": "OpenAI announced ChatGPT Work on July 9th, and have been furiously iterating on it ever since. It is an extraordinarily confusing and very powerful product. Here's what I've figured out about it so far.\nChatGPT Work is actually two products\nThe more interesting version of ChatGPT Work is the one that runs in the cloud. This can be accessed via chatgpt.com or through the ChatGPT mobile apps. Let's call it Work Cloud.\nIf you install the ChatGPT desktop app - the app that used to be called Codex - you gain access to a thing called ChatGPT Work that can access files and run programs directly on your computer. Let's call that one Work Local. This one feels more like regular Codex re-skinned to be less intimidating to non-software-developers.\n\n(Update: Work Cloud is also available from the ChatGPT desktop app, via a Where should this chat run? dropdown.)\n\nFor the rest of this article I'm going to talk exclusively about Work Cloud.\nWork is for paid subscribers only\nRight now, ChatGPT Work (in both flavors) is available only to $20/month and up subscribers. Free users and $8/month Go users do not have access.\nWork has features that aren't available in Chat\nThe interface for accessing Work is a tab selector, which presents it as an alternative to Chat:\n\nThe obvious question is when should I use Chat, and when should I use Work?\nOpenAI's official answer to that question is:\n\nUse Chat when you want an answer, explanation, brainstorm, or short draft. Use ChatGPT Work when you want ChatGPT to complete a task with a clear outcome, such as a brief, deck, analysis, recurring update, workflow, or file you can review and use.\n\nI find that almost entirely useless, because I've been using regular ChatGPT Chat for all of those task categories for years!\nThe better question then is what features does Work have that are missing from Chat?\nAfter extensive experimentation I think I've mostly figured that out:\n\nOptions to use Luna and Terra in place of Sol\nA code execution environment with Internet access\nA headless Chrome browser\nA persistent filesystem shared between sessions\nThe ability to publish ChatGPT Sites\nThe ability to run sub-agent sessions with Sol, Luna, and Terra\nScheduled prompt automations (may be in ChatGPT Chat too)\n\nModel selection\nIn Work, you get the option to pick GPT-5.6 Sol, Luna, or Terra, each with Light, Medium, High, Extra High, Max, or Ultra reasoning levels. You can also pick GPT-5.5 at Light, Medium, High, or Extra High.\nThese look to be the same models that are available through the OpenAI API.\nChat offers a different selection: 5.6 Instant, Medium, High, Extra High, and Pro (actually Extra High and Pro are only available for $100/month+ subscribers - $20/month subscribers cap out at High). It doesn't explain if those are Luna or Terra or Sol (I'm assuming Sol?). 5.6 Pro appears to be exclusive to Chat, with no equivalent in Work.\nMy current understanding from using Codex is that Ultra is a special mode that more eagerly delegates to sub-agents.\nI believe ChatGPT Work sessions are billed against your Codex allowance, while ChatGPT Chat Sessions get their own, separate allowance. This may help explain the model availability differences.\nCode execution with Internet access!\nAs a long-time fan of the Code Interpreter pattern - pioneered by OpenAI in 2023 - this is by far the most exciting feature of ChatGPT Work (Cloud) for me.\nThe code execution environment can now talk to the rest of the internet!\nChatGPT Chat can't do this - if you ask it to install additional software packages or interact with websites or APIs that access will be blocked by the container proxy.\n(Weirdly, back in January it grew the ability to install packages, but that doesn't seem to work any more. I wish they had better changelogs!)\nClaude's equivalent container has allowed restricted internet access since it launched last September. Claude can install packages from PYPI and NPM and clone repositories from GitHub. But that is about it: the allowlist of domains is very short.\nChatGPT Work allows a whole lot more than that. It can be configured with a specific list of allowed domains, but the default appears to be open to all.\nThis makes Work an incredibly useful tool. You can have it clone GitHub repositories, install their dependencies, then use them to interact with the rest of the web!\nA full, headless Chrome browser\nAnother killer feature of ChatGPT Work is the browser tool. ChatGPT Work can launch a full Chrome instance, load websites, fill out forms, and take screenshots.\n\n\n\nIf a site requires sign in the browser can prompt you to take over and enter both passwords and 2FA codes, without round-tripping those credentials through the model itself.\n\nIt can even run JavaScript against the DOM of loaded pages. I prompted:\n\nLoad simonwillison.net in your browser and extract the headings using JavaScript\n\nChatGPT Work fired up a browser instance and ran the code:\nawait tab.playwright.evaluate(() =&gt; {\n  return Array.from(document.querySelectorAll(\"h1,h2,h3,h4,h5,h6\"), heading =&gt; ({\n    level: heading.tagName.toLowerCase(),\n    text: heading.innerText.trim().replace(/\\s+/g, \" \"),\n    id: heading.id || null\n  }));\n});\nThis feels a lot like my shot-scraper javascript tool, only now I can access it on my phone!\nA persistent, shared filesystem\nChatGPT Chat gets a fresh filesystem for each chat session. These cannot be accessed from any other session.\nIn ChatGPT Work each session gets its own scratch folder - named something like /workspace/scratch/e00a0a017944 - but each of those are persisted across sessions, so you can access files from previous chats. I have 171 folders in /workspace/scratch right now!\nAs far as I can tell that /workspace volume is mounted to all Work sessions that are currently running - file edits from one can be instantly seen by the others. They don't seem to share the same process space though, and localhost servers running in one can't be accessed from another.\nChatGPT Sites\nChatGPT Work has the ability to build and deploy entire websites, using Cloudflare Workers. These can have HTML and JavaScript and can run server-side features too, including stateful features on top of Cloudflare D1 and R2.\nHere's a simple site I built with this feature:\nlondon-pelicans-in-her-piety.simonw.chatgpt.site\n\nMy prompt was:\n\nFigure out all of the places in London with a pelican in her piety, then turn that into a JSON file and build a ChatGPT sites site about them\n\n(A pelican in her piety is a fascinating piece of medieval Christian imagery - once you know about them you'll find them all over the place.)\nThese sites default to being private to the user that created them, but you can make them public and (on team plans) share them with other specific individuals.\nSub-agents with Sol, Luna, and Terra\nThere's not much to say about this one. ChatGPT Chat can't run sub-agents. ChatGPT Work can. This is very much a power-user feature: if you are running a complex project that can benefit from multiple parallel agents working together, Work can do that.\nScheduled prompt automations\nAnother feature that seems to have migrated from regular ChatGPT to ChatGPT Work at some point. You can prompt ChatGPT Work like this:\n\nrun a search to see if Waymo have announced a launch date for Half Moon Bay every day at 8am\n\nThis will schedule a prompt to run on that frequency. These prompts can decide that nothing interesting has happened, or they can decide to notify you of some new information.\nUpdate: Actually this seems to work in ChatGPT Chat as well.\nIt's still worth noting here though, as it can be used in conjunction with other ChatGPT Work exclusive features. You can set a scheduled task to update a ChatGPT Site on an hourly basis, for example.\nIs this safe?\nAn open question for me right now is how safe all of this stuff is.\nMy lethal trifecta model warns about the risks inherent in any agent system that combines access to private data with exposure to untrusted content and a way to communicate stolen information back to an attacker.\nChatGPT Work combines all three!\nI'd love to hear more from OpenAI about how they protect ChatGPT Work sessions against prompt injection attacks. I expect their answer is the same auto-review mechanism as Codex.\nOpenAI could make this a lot less confusing\nFiguring this all out took way more work than it should have.\nI think there are two key problems here:\n\nOpenAI explain Work in terms of what it's for, not what it actually does\nOpenAI still insist on hiding their system prompts and tools descriptions\n\nIf the ChatGPT Work documentation included the exact system prompt and tool descriptions used by the agent I wouldn't have needed to write this post.\nA list of all the tools\nShortly after publishing this article I had an idea. I started a fresh Work session and prompted:\nBuild a site that lists every one of your tools - nearly grouped into categories - and for each one explain what it does. Try to exactly duplicate arguments and tool descriptions where possible. Design aesthetic should be technical docs, minimal flare\nHere's the site it built, which includes details of 223 registered tools - though 6 of those are from my own personal MCPs served via datasette-mcp.\n\nAnd a whole lot of Skills\nI noticed that the only browser-related tool in the list was web.run, which has methods for running searches, opening URLs, and clicking links, but didn't look like the full story in regards to headless browser automation.\nThis made me suspicious that something was missing, so I told the ChatGPT Work session that built that tools reference site:\n\nAdd full copies of every skill to the website (separate pages linked to from the homepage)\n\nIt turns out ChatGPT Work uses a lot of skills - 44 in fact!\nThe control-browser skill explains how the browser works:\n\nRun browser setup code through the Node REPL js tool. In this environment the callable tool id typically appears as mcp__node_repl__js. [...]\nThe ability to interact directly with the browser is exposed through the browser-client runtime via the agent.browsers.* API. Before trying to interact with it, you MUST emit and read the complete documentation returned by await browser.documentation() in one go.\n\nSo I told Work:\n\nAdd the full output of await browser.documentation() to the bottom of the /skills/control-browser page\n\nAnd now you can read that on /skills/control-browser as well.\nA few more interesting Skills:\n\n\ndocuments for creating .docx files\n\nimagegen with tips on creating images with the image_gen tool\n\npdf for both reading and rendering PDFs\n\nSpreadsheets for manipulating .xlsx, .xls, .csv, .tsv\n\n\nsites:sites-building for creating ChatGPT Sites\n\nopenai-docs for answering questions about itself\n\ndata-analytics:build-dashboard for building data dashboards\n\n    \n        Tags: ai, openai, generative-ai, chatgpt, llms, code-interpreter, lethal-trifecta, skills, general-agents"
+    },
+    {
+      "title": "Show HN: Academa \u2013 Long-form STEM lecture videos generated by LLMs",
+      "url": "https://academa.ai/",
+      "source": "Hacker News",
+      "published": "2026-08-30T22:22:23+00:00",
+      "summary_raw": "Hi HN, we are Sina Atalay and Abdullah Geduk, co-founders of Academa. We are both PhD students.<p>We thought: what if lecture videos were written as code and compiled into video using computer graphics and TTS?<p>Then LLMs could write them, and lectures could be fixed with code edits instead of video production.<p>On correctness: LLMs may make mistakes. But these videos are code sitting in our repository, and we can maintain them. Every report and review becomes a fix in the source, and everyone who watches after that gets the corrected lecture. Every recorded lecture on the internet is stuck with its mistakes. Ours will continuously improve.<p>Each video also comes with an AI chat that understands everything said and shown in the lecture.<p>There is a longer write-up at the bottom of the page.<p>Happy to answer any questions.",
+      "points": 30,
+      "num_comments": 25,
+      "hn_url": "https://news.ycombinator.com/item?id=49503421"
+    },
+    {
+      "title": "Why your boss doesn't seem to care about your tech career anymore",
+      "url": "https://www.businessinsider.com/tech-managers-career-development-ai-great-flattening-2026-8",
+      "source": "Hacker News",
+      "published": "2026-08-30T21:26:58+00:00",
+      "summary_raw": "",
+      "points": 21,
+      "num_comments": 19,
+      "hn_url": "https://news.ycombinator.com/item?id=49503003"
+    },
+    {
+      "title": "Continuous Diffusion Language Models (CDLM's)",
+      "url": "https://sander.ai/2026/08/24/continuous-dlms.html",
+      "source": "Hacker News",
+      "published": "2026-08-30T20:46:53+00:00",
+      "summary_raw": "",
+      "points": 126,
+      "num_comments": 45,
+      "hn_url": "https://news.ycombinator.com/item?id=49502611"
+    }
+  ]
+}
