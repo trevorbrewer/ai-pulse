@@ -1,0 +1,105 @@
+[
+  {
+    "theme": "Privacy & Security",
+    "stories": [
+      {
+        "title": "Don't allow Gemini AI access to your Gmail",
+        "url": "https://tuta.com/blog/google-gemini-ai-email",
+        "source": "Hacker News",
+        "paragraph": "Encrypted email provider Tuta published an analysis warning users against granting Google's Gemini AI access to their Gmail accounts. The piece argues that allowing Gemini to read email content gives Google expanded data access beyond what users may intend, and that the permissions involved are broader than those required for basic email function. The warning is notable because it comes from a direct competitor, Tuta, whose business model depends on positioning itself as a privacy-first alternative to Gmail."
+      },
+      {
+        "title": "Welcome to the 'You Can't Trust Your Own Eyes' Election",
+        "url": "https://www.bloomberg.com/graphics/2026-opinion-ai-campaign-ads-need-more-safeguards/",
+        "source": "Hacker News",
+        "paragraph": "Bloomberg Opinion published a piece arguing that AI-generated imagery in political campaign advertising has outpaced existing disclosure regulations ahead of the 2026 election cycle. The article contends that current safeguards are insufficient to help voters distinguish synthetic media from authentic footage in political contexts. The piece calls for stricter labeling requirements, citing the growing availability of image and video generation tools that can produce realistic candidate likenesses."
+      }
+    ]
+  },
+  {
+    "theme": "Industry News",
+    "stories": [
+      {
+        "title": "The latest AI news we announced in August 2026",
+        "url": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/",
+        "source": "Google AI Blog",
+        "paragraph": "Google published its monthly AI news roundup for August 2026, highlighting several product updates across its Gemini family. Announcements included Gemini 3.7 Flash, an integration with the Pixel phone lineup, and a student plan offering one year of Gemini access at no cost. The roundup reflects Google's continued push to embed Gemini across consumer hardware and software products while expanding access to educational users."
+      },
+      {
+        "title": "AI is making back-office work extinct",
+        "url": "https://www.whitecollardream.com/",
+        "source": "Hacker News",
+        "paragraph": "A new piece on White Collar Dream argues that AI automation is systematically eliminating traditional back-office roles such as data entry, invoice processing, and compliance reporting. The author contends that these functions, once considered stable white-collar work, are being replaced by LLM-based pipelines that require minimal human oversight. The piece does not cite specific displacement figures but frames the trend as structural rather than cyclical."
+      },
+      {
+        "title": "Codex bundles LibreOffice",
+        "url": "https://simonwillison.net/2026/Sep/1/codex-libreoffice/",
+        "source": "Simon Willison",
+        "paragraph": "Simon Willison discovered that the OpenAI Codex desktop app — now rebranded as ChatGPT — stores 1.7 GB of cached data in a folder called codex-primary-runtime, which includes a full Python installation, a full Node.js installation, and native binaries for tools including Poppler, Git, and the LibreOffice office suite. The finding came from inspecting his ~/.cache/ folder using OmniDiskSweeper. The bundling of LibreOffice suggests the app is equipped to handle document parsing and editing tasks locally, though the full scope of its use has not been officially documented by OpenAI."
+      }
+    ]
+  },
+  {
+    "theme": "Open-Source Tools & Developer Resources",
+    "stories": [
+      {
+        "title": "AI Coding Agent Skills for Real Engineers",
+        "url": "https://github.com/mattpocock/skills",
+        "source": "Hacker News",
+        "paragraph": "TypeScript educator Matt Pocock published a GitHub repository called \"skills\" aimed at helping working engineers use AI coding agents more effectively in real-world development workflows. The resource focuses on practical techniques rather than introductory concepts, targeting developers who already use tools like Cursor or Copilot but want to use them more deliberately. The project is structured as a collection of discrete skills, each addressing a specific pattern or pitfall when working with AI-assisted coding."
+      },
+      {
+        "title": "Show HN: Weedout – Safari extension that hides YouTube AI-labeled videos",
+        "url": "https://masteranza.github.io/weedout/",
+        "source": "Hacker News",
+        "paragraph": "A developer released Weedout, a $1.99 Safari extension for macOS that removes videos carrying YouTube's \"Made with AI\" label from feeds, search results, related videos, playlists, and Shorts. The extension relies on YouTube's own label rather than performing independent AI detection, meaning unlabeled AI-generated content is not filtered. The developer built it in response to a personal increase in AI-generated conspiracy videos appearing in their YouTube feed, and the tool processes everything locally without sending data externally."
+      },
+      {
+        "title": "Show HN: HN Match Maker – Matching 'Who Wants to Be Hired?' With 'Who's Hiring?'",
+        "url": "https://hnmatchmaker.com/",
+        "source": "Hacker News",
+        "paragraph": "A developer built HN Match Maker, a tool that automatically pairs job seekers and employers from Hacker News's monthly \"Who Wants to Be Hired?\" and \"Who's Hiring?\" threads. The tool was assembled using abacus.ai and works by extracting structured data from thread posts via an LLM, then scoring matches across factors including salary, domain experience, and remote or on-site preference. It addresses a coordination problem that has existed in HN's hiring threads for years, where relevant posts exist alongside each other but require manual comparison."
+      },
+      {
+        "title": "GeoJSON Map Viewer",
+        "url": "https://simonwillison.net/2026/Sep/1/geojson/",
+        "source": "Simon Willison",
+        "paragraph": "Simon Willison described building a GeoJSON Map Viewer tool to display local political boundary files — specifically for the Granada Community Services District and the Midcoast Community Council — and export them as PNG images. The tool was created with assistance from GPT-5.6-Sol, which proactively proposed a solution when asked for suggestions, followed by additional iterations using Claude Code and Fable 5. The project illustrates a practical workflow where AI models are used collaboratively across different tools to produce a functional, task-specific utility."
+      }
+    ]
+  },
+  {
+    "theme": "Research Papers",
+    "stories": [
+      {
+        "title": "Beyond Scores: Understanding LLM-as-a-Judge Mechanisms in Summarization Evaluation",
+        "url": "https://arxiv.org/abs/2609.01604v1",
+        "source": "arXiv",
+        "paragraph": "Researchers published a paper investigating how LLM-based evaluators internally assign quality ratings to natural language generation outputs, a process that until now has been poorly characterized despite widespread deployment. The study uses an eight-attack perturbation taxonomy targeting two evaluation dimensions — Readability and Adequacy — to probe the internal mechanisms of LLM judges during summarization evaluation. The work is relevant because LLM-as-a-judge systems are used both as scoring tools and as automated training signals, meaning opaque failure modes in these systems could propagate into model training pipelines."
+      },
+      {
+        "title": "Efficient SWE Agent Benchmarking via Trajectory-Aware Evaluation",
+        "url": "https://arxiv.org/abs/2609.01603v1",
+        "source": "arXiv",
+        "paragraph": "Researchers have proposed a trajectory-aware evaluation method for software engineering (SWE) agents that reduces the cost of benchmarking on realistic coding tasks. Standard evaluation on benchmarks like SWE-bench is expensive because each task can require multi-step code exploration, modification, and test execution across potentially hundreds of tasks. Existing subset-selection methods estimate full-benchmark performance using only pass/fail outcomes or static task semantics, ignoring the actual sequence of actions an agent takes. The new approach incorporates agent trajectories — the step-by-step decision paths — into the evaluation framework, aiming to produce more accurate performance estimates while requiring fewer full task evaluations."
+      }
+    ]
+  },
+  {
+    "theme": "AI Criticism & Commentary",
+    "stories": [
+      {
+        "title": "How accurate have Ed Zitron's AI skeptic predictions been?",
+        "url": "https://danluu.com/zitron/",
+        "source": "Hacker News",
+        "paragraph": "Engineer and blogger Dan Luu published a detailed retrospective examining the track record of tech critic Ed Zitron's predictions about AI, assessing how many of his skeptical claims have held up against subsequent developments. Luu applies a structured approach to evaluating specific, verifiable claims rather than general sentiment, which distinguishes the piece from typical commentary on AI skepticism. The analysis is notable because it attempts to hold a prominent public commentator accountable to falsifiable statements at a time when AI forecasting is widespread but rarely audited."
+      },
+      {
+        "title": "There is no AI",
+        "url": "https://wadler.blogspot.com/2026/08/there-is-no-ai.html",
+        "source": "Hacker News",
+        "paragraph": "Computer scientist Philip Wadler published a post arguing that the term \"AI\" is conceptually misleading and that current systems do not constitute intelligence in any meaningful sense. Wadler, known for his foundational work in programming language theory including contributions to Haskell, contends that the label artificially inflates expectations and obscures what these systems actually do. The post contributes to a recurring debate among researchers about whether the framing of large language models as \"intelligent\" distorts both public understanding and technical practice."
+      }
+    ]
+  }
+]

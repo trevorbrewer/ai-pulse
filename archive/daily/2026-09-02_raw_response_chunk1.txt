@@ -1,0 +1,109 @@
+[
+  {
+    "theme": "Model Releases",
+    "stories": [
+      {
+        "title": "Claude Fable 5.1 made me a really nice animated pelican",
+        "url": "https://simonwillison.net/2026/Sep/1/claude-fable-5-1/",
+        "source": "Simon Willison",
+        "paragraph": "Anthropic released Claude Fable 5.1 and Mythos 5.1, positioning the models around coding, knowledge work, and long-running problem-solving tasks. The announcement highlights a score of 52.6% on the Terminal-Bench-Science 0.1 benchmark, up from 24.7% for Fable 5 and 29.0% for Opus 5, with that benchmark itself only having been announced on August 27th. Simon Willison tested the model by generating an animated pelican, using it as a practical, if informal, indicator of the model's generative capabilities."
+      },
+      {
+        "title": "Quasar 438B: Europe's Leading AI Model",
+        "url": "https://multiversecomputing.com/resources/introducing-quasar-438b-europe-s-leading-ai-model",
+        "source": "Hacker News",
+        "paragraph": "Multiverse Computing has released Quasar 438B, a large language model with 438 billion parameters that the company positions as Europe's leading AI model. The release is notable in the context of ongoing European efforts to develop competitive AI infrastructure independent of US-based providers. No independent benchmark comparisons against models such as GPT-4o or Claude were included in the announcement, leaving the performance claims largely self-reported at this stage."
+      }
+    ]
+  },
+  {
+    "theme": "AI Policy and System Transparency",
+    "stories": [
+      {
+        "title": "Claude's new system prompt really doesn't want to reproduce song lyrics",
+        "url": "https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt/",
+        "source": "Simon Willison",
+        "paragraph": "Anthropic has updated and reorganized the publicly visible system prompts for its Claude consumer products, including Claude.ai and the Claude mobile apps, though prompts for Claude Cowork and Claude Code remain unpublished. The updated prompts include notably strong language discouraging the reproduction of song lyrics, reflecting copyright concerns that have become a recurring point of contention for AI providers. Anthropic's practice of publishing not only current prompts but also their historical changes is relatively uncommon among major AI labs and provides a degree of transparency into how the company shapes model behavior over time."
+      },
+      {
+        "title": "Mistral now trains on user input by default, except on enterprise tier",
+        "url": "https://help.mistral.ai/en/articles/455207-can-i-opt-out-of-my-input-or-output-data-being-used-for-training",
+        "source": "Hacker News",
+        "paragraph": "Mistral has changed its data policy so that user inputs and outputs are used for model training by default, with an opt-out available only to enterprise-tier customers. This places Mistral in line with common industry practice but marks a shift from prior defaults and is likely to draw scrutiny given the company's European origins and the relevance of GDPR to data-use policies. Users on free and standard paid tiers who wish to exclude their data from training must now take active steps to do so, or upgrade to an enterprise plan."
+      }
+    ]
+  },
+  {
+    "theme": "AI Safety and Evaluation Research",
+    "stories": [
+      {
+        "title": "LLM Judges Verify Presence, Not Absence: Omission Blindness in AI Clinical Notes",
+        "url": "https://arxiv.org/abs/2608.31016",
+        "source": "Hacker News",
+        "paragraph": "A paper posted to arXiv identifies a systematic flaw in using LLMs as automated evaluators of clinical documentation, finding that these models reliably detect information that is present in a note but consistently fail to flag information that is missing. The researchers term this failure mode \"omission blindness\" and argue it poses a specific risk in clinical settings, where the absence of a documented finding can be as clinically significant as its presence. The finding has broader implications for any domain where LLM-based judges are used to audit AI-generated text for completeness rather than accuracy."
+      },
+      {
+        "title": "Six curl CVEs after OpenAI and Anthropic came back with zero",
+        "url": "https://aisle.com/blog/aisle-discovered-six-curl-cves-after-openai-and-anthropic-found-zero",
+        "source": "Hacker News",
+        "paragraph": "Security firm Aisle reports that it discovered six CVEs in the curl library after both OpenAI and Anthropic, using AI-assisted security tooling, returned zero findings on the same codebase. The result raises questions about the reliability of AI-powered vulnerability scanning, particularly when used as a primary or sole method for auditing widely deployed open-source software like curl. The six CVEs represent concrete, catalogued vulnerabilities, making the false-negative result a measurable rather than theoretical concern."
+      }
+    ]
+  },
+  {
+    "theme": "Misinformation and AI-Generated Content",
+    "stories": [
+      {
+        "title": "Three sites made 215,128 "best software" pages for AI. Perplexity cites them",
+        "url": "https://trellner.com/reports/manufactured-sources-behind-ai-recommendations/",
+        "source": "Hacker News",
+        "paragraph": "An investigation by Trellner found that just three websites collectively generated 215,128 near-identical \"best software\" pages apparently designed to be ingested by AI search tools, and that Perplexity has cited these manufactured sources in its recommendations. The findings illustrate a specific spam vector targeting AI-powered search systems, where bulk-generated content can be indexed and treated as authoritative without the contextual skepticism a human researcher might apply. The scale — over 215,000 pages from three domains — suggests the practice is systematic rather than incidental."
+      },
+      {
+        "title": "Mayor says 'large chunks' of Wellington council Deloitte report written by AI",
+        "url": "https://www.rnz.co.nz/news/regions/1229348/mayor-says-large-chunks-of-wellington-council-deloitte-report-written-by-ai",
+        "source": "Hacker News",
+        "paragraph": "Wellington's mayor has stated that large portions of a report produced by Deloitte for the city council were written by AI, raising concerns about transparency and the quality of work delivered under a professional consulting contract. The disclosure is notable because the report was commissioned as expert analysis to inform public policy decisions, and the use of AI-generated text was apparently not disclosed upfront to the council. The case adds to a growing number of instances where AI-generated content has appeared in formal professional deliverables without explicit client notification."
+      }
+    ]
+  },
+  {
+    "theme": "Open-Source Tools",
+    "stories": [
+      {
+        "title": "WebLLM: high-performance in-browser LLM inference engine",
+        "url": "https://github.com/mlc-ai/web-llm",
+        "source": "Hacker News",
+        "paragraph": "WebLLM is an open-source project from the MLC-AI group that enables large language model inference to run entirely within a web browser, using WebGPU for hardware acceleration. Running models client-side eliminates the need for a server backend and keeps user data local, which has privacy and cost implications for developers building LLM-powered applications. The project supports a range of models and is built on the Apache TVM compiler stack, which handles the compilation of model weights to run efficiently on browser-accessible GPU resources."
+      }
+    ]
+  },
+  {
+    "theme": "Industry News",
+    "stories": [
+      {
+        "title": "AI Billionaires Are Spending Millions to Change Your Mind About Data Centers",
+        "url": "https://www.gadgetreview.com/ai-billionaires-are-spending-millions-to-change-your-mind-about-data-centers",
+        "source": "Hacker News",
+        "paragraph": "Prominent figures in the AI industry are funding lobbying and public relations campaigns aimed at shifting public and regulatory opinion on data center construction, according to a Gadget Review report. Opposition to data centers has grown in various communities due to concerns about water consumption, energy use, and local infrastructure strain. The campaigns reportedly involve millions of dollars directed at framing data center expansion as an economic and national security necessity, a characterization that environmental and community groups have contested."
+      },
+      {
+        "title": "AI Isn't Making Everyone a Creator",
+        "url": "https://story.vjy.me/83",
+        "source": "Hacker News",
+        "paragraph": "An essay at vjy.me pushes back on the widely repeated claim that AI tools are democratizing creative production and turning ordinary users into prolific creators. The author argues that the gap between generating AI output and producing work that holds genuine creative or communicative value remains significant, and that most people lack the judgment or context to use AI outputs effectively. The piece does not cite specific studies but draws on observed patterns in how AI-generated content is actually used and received across platforms."
+      }
+    ]
+  },
+  {
+    "theme": "Software Development",
+    "stories": [
+      {
+        "title": "Quoting Rick Brewster",
+        "url": "https://simonwillison.net/2026/Sep/2/rick-brewster/",
+        "source": "Simon Willison",
+        "paragraph": "Paint.NET developer Rick Brewster has described implementing an internal, from-scratch reverse-engineered rewrite of Microsoft's Direct2D graphics API to enable the application to run under WINE on Linux. The rewrite lives in a dedicated assembly, PaintDotNet.Windows.Direct2D1.Managed.dll, and is triggered by a /wine flag, providing a compatibility layer without removing the standard Direct2D dependency for Windows users. Brewster noted that Direct2D support in WINE has long been the primary obstacle to Paint.NET running on Linux and that completing it through the WINE project itself appeared unlikely."
+      }
+    ]
+  }
+]

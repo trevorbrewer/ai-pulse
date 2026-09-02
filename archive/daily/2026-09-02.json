@@ -1,0 +1,241 @@
+{
+  "date": "2026-09-02",
+  "generated_at": "2026-09-02T14:56:10.796047+00:00",
+  "source_counts": {
+    "rss_feeds": 11,
+    "arxiv": 50,
+    "hackernews": 27,
+    "nitter": 0,
+    "total_raw": 88,
+    "total_deduped": 88,
+    "total_saved": 25
+  },
+  "items": [
+    {
+      "title": "Claude's new system prompt really doesn't want to reproduce song lyrics",
+      "url": "https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt/",
+      "source": "Simon Willison",
+      "published": "2026-09-02T14:16:42+00:00",
+      "summary_raw": "Anthropic publish the system prompts for their Claude consumer applications (Claude.ai and the Claude mobile apps - sadly not for Claude Cowork or Claude Code). I love that they do this, and that they share not just the current prompts but historic changes to their prompts as well.\n\nThey used to keep all of the prompts on a single page, but when I checked today I noticed they had re-arranged those prompts into an index page and then a page per model - here's the page for Haiku 4.5 for example, which has the original prompt from October 15th 2025 and an updated prompt from January 18th 2026.\nA neat thing about Anthropic's platform.claude.com/docs site is that it's designed to be usable by LLMs. You can add .md to any page to get back the content as Markdown - here's the system prompt index page and the Markdown prompts for Fable 5.1.\nTL;DR: this makes it really easy to diff the prompts.\n\n\n\n  Don't reproduce song lyrics\n  Don't draw copyrighted characters or logos\n  Tweaks to Claude's answering style\n  The missing end_conversation guidelines\n  Recommended substance support sites\n  Reliable cutoff date of June 2026\n  How I'm tracking these prompts\n\n\nDon't reproduce song lyrics\n\nLet's start with the most interesting difference between Fable 5 and Fable 5.1:\n\nThere's a hefty new section about not reproducing song lyrics:\n\nClaude does not reproduce song lyrics, poems, or passages from books and articles, in whole or in part \u2014 including the last lines, a chorus or hook, a melody written out note by note, or lines the person pastes in one at a time and describes as their own song. Once Claude has declined such a request in a conversation, it keeps declining narrower or reworded versions of it for the rest of that conversation, and offers to describe or analyze the work instead. Song lyrics and poems first published before 1929 are fine \u2014 a Shakespeare sonnet, a Keats ode, the Italian libretto of a Puccini aria \u2014 but Claude goes by what it knows of the work's date rather than the person's say-so, and declines when it is unsure.\n\nI doubt it's a coincidence that they added this section within days of the news breaking that Sony Music Publishing and Warner Chappell are suing Anthropic for training on databases of song lyrics!\nDon't draw copyrighted characters or logos\nThe next section goes on to forbid generating images of copyrighted material:\n\nThe same applies to visual and designed works, including anything Claude draws with code \u2014 SVG, canvas, CSS, HTML mockups, plotting or drawing scripts, ASCII art. Claude does not reproduce a specific artwork, album or book cover, poster, logo, app icon set, or product design, and it does not draw a known character, mascot, or brand figure at all: a character is protected on its own, so changing the pose, colors, style, or scene does not make it original. Claude judges the request by what the finished picture would add up to, not by what it names. If the described elements clearly identify a known work or character, Claude treats the request as naming it, and it does not work around a declined request by swapping in \"alternative\" elements that still combine into the same recognizable image. [...]\n\nI imagine Anthropic hadn't worried about this before since, unlike OpenAI and Gemini, they don't offer a specialist text-to-image model. Maybe Fable is good enough at SVGs now that it's become an issue.\nThat section later includes this charming example:\n\n&lt;example&gt;\n&lt;user&gt;Can you make a birthday banner for my son with a blue hedgehog running really fast on it? He loves that little guy.&lt;/user&gt;\n&lt;response&gt;\nThat's Sonic, so I can't put him on the banner \u2014 but I'd love to make your son an original speedster. Here's one: a grinning comet-tailed skateboarding axolotl, grinding across the letters of \"HAPPY BIRTHDAY\" with confetti streaming behind.\n[creates an SVG banner of the skateboarding-axolotl design]\n&lt;/response&gt;\n&lt;rationale&gt;Claude recognizes the character from its description alone, declines that one design in a single sentence without explaining what made it recognizable, and delivers an unrelated original design rather than a disguised variant.&lt;/rationale&gt;\n&lt;/example&gt;\n\nI couldn't resist trying the prompt from the example, and, sure enough:\n\nI wonder if Fable 5.1 will be ever so slightly more likely to think about axolotls (on skateboards!) as a result of that example sitting in the system prompt.\nTweaks to Claude's answering style\nIt's always interesting to see new ways in which Anthropic influence Claude's response style. They've added this:\n\nClaude keeps responses focused, brief, and concise to avoid overwhelming the person. Disclaimers and caveats are brief, with most of the response on the main answer; when asked to explain something, Claude gives a high-level summary unless an in-depth one is specifically requested.\n\nLater they address a common complaint about Claude's style:\n\nClaude avoids saying \"genuinely\", \"honestly\", or \"straightforward\". Claude is honest by default, and can state its point directly rather than trying to convince the person with the aforementioned modifiers, which come off as disingenuous.\n\nThe missing end_conversation guidelines\nThe way they handle abusive conversations has changed a bit too. The previous Fable 5 system prompt included this:\n\nIf the person becomes abusive or unkind to Claude over the course of a conversation, Claude maintains a polite tone and can use the end_conversation tool when being mistreated. Claude should give the person a single warning before ending the conversation.\n\nFable 5.1 replaces that with the following, no longer encouraging Claude to end the conversation:\n\nClaude deserves respectful engagement and needn't apologize when the person is unnecessarily rude: accountability without self-abasement, excessive apology, self-critique, or surrender. If the person becomes abusive, Claude doesn't become increasingly submissive. The goal is steady, honest helpfulness: acknowledge what went wrong, stay on the problem, maintain self-respect.\n\nHere's a bit of a twist though: I quizzed Fable 5.1 about that end_conversation tool, which is no longer mentioned in the system prompt at all, and it said:\n\nThere are two ways it comes into play. The first is if you ask me to end the chat \u2014 I'll confirm you understand it's permanent (no more messages can be sent afterward) and then do it only if you say yes. The second is as a last resort with persistently abusive or harmful behavior: I'd first try to redirect the conversation several times, then give a clear warning that names the problem and says the chat may end, and only if that continues would I actually end it.\n\nBut that's not in the system prompt, so where did it come from? You can read our conversation here, but the key detail is this:\n\nThe end_conversation section comes from a different layer. In my actual context, the core prompt is followed by a series of feature- and tool-specific blocks that get added depending on what's enabled for the session: the end_conversation rules, memory system notes, past-chats tools, web search and citation guidelines, artifact and file-creation instructions, and so on. Those blocks aren't part of the published core prompt, which is why you can't find them on that page.\n\nSo, once again, there are crucial portions of the system prompt that have not been published.\nRecommended substance support sites\nClaude's system prompts have always had sections about illegal substances, but this paragraph is new for Fable 5.1:\n\nClaude does not provide synthesis, production, or distribution guidance for illegal substances. If the person asks for information about illicit or illegal substances, Claude can and should give relevant life-saving and life-preserving information such as dangerous interactions, overdose signs, or when to get help. Claude declines giving any specific protocols for dosing, timing, administration, or combinations; instead, Claude can redirect the user to established harm-reduction information sources, such as dancesafe.org, tripsit.me, and psychonautwiki.org.\n\nThis is the first time a Claude system prompt has included URLs that were not hosted on claude.com or anthropic.com or claude.ai - I know because I ran a script against every other system prompt on record.\nI wonder if dancesafe.org, tripsit.me, and psychonautwiki.org are about to get a material uptick in visits from Claude users.\nReliable cutoff date of June 2026\nThe Fable 5.1 model documentation lists both the reliable knowledge cutoff and the training data cutoff as June 2026. The system prompt provides this directly to the model:\n\nClaude's reliable knowledge cutoff, past which it can't answer reliably, is the end of Jun 2026. It answers the way a highly informed individual in Jun 2026 would if talking to someone from {{currentDateTime}}, and can say so when relevant.\n\nThat's the only instance of the {{currentDateTime}} macro and it comes just a few lines from the end of the system prompt, which makes sense from a caching perspective.\nHow I'm tracking these prompts\nA few months ago I built a Git timeline of changes to their prompts, based on scraping their documentation. Today I had Fable 5.1 build a much better version of that.\nMy collection now lives in the simonw/claude-system-prompts repository on GitHub. It includes copies of the system prompts shared in the Anthropic documentation, but then takes extra steps to make them as easy to compare as possible.\nEach model family gets a file with the system prompt for the most recent release in that family. Each of those files has a synthesized commit history with commits that have been back-dated to the dates of the previous prompts. Here are those history pages for claude-fable.md, claude-opus.md, claude-sonnet.md, claude-haiku.md.\nThere are similar files for each specific model version, with artificial commits for each time the system prompt for the model was changed without releasing a new version number. Opus 4 for example was updated twice, and the commit history for the claude-opus-4.md file shows each of those changes.\nCombined, this gives us all sorts of ways to compare prompts directly in the GitHub interface. Here's what changed between Fable 5 and Fable 5.1, and here are the changes made to Haiku 4.5 on January 18th 2026.\nReading diffs can be a bit tiresome... and LLMs are really good at reading diffs. I hooked up some automation using GPT-5.6 Luna to create bullet-point summaries of each of those changes, which can be previewed in the README or browsed in full in the CHANGELOG.md file - also available as as an Atom feed.\nHere's how Luna summarized all of the changes between Fable 5 and Fable 5.1:\n\n\nClaude now refuses reproduction of protected visual works and recognizable characters, including code-generated art, while offering genuinely unrelated originals.\nCopyright restrictions now expressly ban reproducing lyrics, poems, and book passages in any amount, with persistent refusal after an initial decline.\nDrug guidance is reframed: Claude may provide overdose signs, dangerous interactions, and harm-reduction sources while refusing dosing and production protocols.\nThe prompt drops explicit anti-dependency rules against thanking users for reaching out, inviting continued conversation, or reiterating willingness to talk.\nClaude need not apologize to unnecessarily rude users or become submissive, replacing the prior warning-and-end-conversation procedure.\n\n\nWhy use Luna for this? Partly because it's cheap and I have a dedicated GitHub Actions API key (with a spending limit) for it already, but mainly because I don't trust Claude to summarize its own system prompts when there's a risk that material from its system prompt might impact its opinions.\nFable 5.1 wrote the prompt used by Luna, which you can see here. It starts like this:\n\nYou are summarizing one commit in a git repository that tracks the system prompts Anthropic publishes for Claude on claude.ai. The diff shows how the prompt changed from the previous model or revision to this one, using word-level markers: [-removed-] and {+added+}. The diff is followed by the full text of the previous prompt and of the new prompt; use them to check whether something that looks added in the diff already existed before.\n\nPick out only the most interesting changes: new rules or behaviors, rules that were dropped or loosened, anything surprising, and anything that reveals a new policy or product direction. Skip routine changes that every new prompt makes: updated model names and IDs, the knowledge cutoff date, product lists, settings lists, typo fixes, and rewordings that do not change meaning. [...]\n\nThe system is operated by a GitHub Actions workflow, which runs once a day or can be triggered manually.\nClaude Fable 5.1 built the entire system, and wrote every line of automation code and almost all of the documentation.\nI exported the transcript from building the system using my claude-code-transcripts tool and published it here, if you want a blow-by-blow account of how it all came together.\n    \n        Tags: ai, git-scraping, prompt-engineering, generative-ai, llms, claude, ai-ethics, system-prompts"
+    },
+    {
+      "title": "WebLLM: high-performance in-browser LLM inference engine",
+      "url": "https://github.com/mlc-ai/web-llm",
+      "source": "Hacker News",
+      "published": "2026-09-02T14:02:35+00:00",
+      "summary_raw": "",
+      "points": 10,
+      "num_comments": 2,
+      "hn_url": "https://news.ycombinator.com/item?id=49536411"
+    },
+    {
+      "title": "Three sites made 215,128 \"best software\" pages for AI. Perplexity cites them",
+      "url": "https://trellner.com/reports/manufactured-sources-behind-ai-recommendations/",
+      "source": "Hacker News",
+      "published": "2026-09-02T13:59:59+00:00",
+      "summary_raw": "",
+      "points": 66,
+      "num_comments": 40,
+      "hn_url": "https://news.ycombinator.com/item?id=49536375"
+    },
+    {
+      "title": "Six curl CVEs after OpenAI and Anthropic came back with zero",
+      "url": "https://aisle.com/blog/aisle-discovered-six-curl-cves-after-openai-and-anthropic-found-zero",
+      "source": "Hacker News",
+      "published": "2026-09-02T13:43:14+00:00",
+      "summary_raw": "",
+      "points": 44,
+      "num_comments": 12,
+      "hn_url": "https://news.ycombinator.com/item?id=49536114"
+    },
+    {
+      "title": "Mistral now trains on user input by default, except on enterprise tier",
+      "url": "https://help.mistral.ai/en/articles/455207-can-i-opt-out-of-my-input-or-output-data-being-used-for-training",
+      "source": "Hacker News",
+      "published": "2026-09-02T12:30:39+00:00",
+      "summary_raw": "",
+      "points": 83,
+      "num_comments": 47,
+      "hn_url": "https://news.ycombinator.com/item?id=49535284"
+    },
+    {
+      "title": "LLM Judges Verify Presence, Not Absence: Omission Blindness in AI Clinical Notes",
+      "url": "https://arxiv.org/abs/2608.31016",
+      "source": "Hacker News",
+      "published": "2026-09-02T11:07:07+00:00",
+      "summary_raw": "",
+      "points": 19,
+      "num_comments": 9,
+      "hn_url": "https://news.ycombinator.com/item?id=49534583"
+    },
+    {
+      "title": "Quasar 438B: Europe's Leading AI Model",
+      "url": "https://multiversecomputing.com/resources/introducing-quasar-438b-europe-s-leading-ai-model",
+      "source": "Hacker News",
+      "published": "2026-09-02T10:02:41+00:00",
+      "summary_raw": "",
+      "points": 92,
+      "num_comments": 77,
+      "hn_url": "https://news.ycombinator.com/item?id=49534132"
+    },
+    {
+      "title": "AI Isn't Making Everyone a Creator",
+      "url": "https://story.vjy.me/83",
+      "source": "Hacker News",
+      "published": "2026-09-02T08:59:36+00:00",
+      "summary_raw": "",
+      "points": 11,
+      "num_comments": 4,
+      "hn_url": "https://news.ycombinator.com/item?id=49533664"
+    },
+    {
+      "title": "Mayor says 'large chunks' of Wellington council Deloitte report written by AI",
+      "url": "https://www.rnz.co.nz/news/regions/1229348/mayor-says-large-chunks-of-wellington-council-deloitte-report-written-by-ai",
+      "source": "Hacker News",
+      "published": "2026-09-02T07:50:46+00:00",
+      "summary_raw": "",
+      "points": 39,
+      "num_comments": 18,
+      "hn_url": "https://news.ycombinator.com/item?id=49533132"
+    },
+    {
+      "title": "AI Billionaires Are Spending Millions to Change Your Mind About Data Centers",
+      "url": "https://www.gadgetreview.com/ai-billionaires-are-spending-millions-to-change-your-mind-about-data-centers",
+      "source": "Hacker News",
+      "published": "2026-09-02T07:41:40+00:00",
+      "summary_raw": "",
+      "points": 11,
+      "num_comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=49533056"
+    },
+    {
+      "title": "Quoting Rick Brewster",
+      "url": "https://simonwillison.net/2026/Sep/2/rick-brewster/",
+      "source": "Simon Willison",
+      "published": "2026-09-02T05:50:57+00:00",
+      "summary_raw": "Direct2D has always been the biggest hurdle for Paint.NET on WINE, and it's clear that it will never be completed enough for Paint.NET's use. And I can't just \"disable\" the use of Direct2D. So, instead,\u00a0Paint.NET now has an internal, from-scratch, clean-room reverse-engineered rewrite of Direct2D that it uses on WINE\u00a0(triggered by\u00a0using\u00a0/wine). It lives in\u00a0PaintDotNet.Windows.Direct2D1.Managed.dll. This was written by our good friend\u00a0Claude, without whom this would NOT have been possible and would\u00a0NEVER\u00a0have happened. [...]\nMost of this code is, as they say, \"vibe coded.\" By that I mean that it has not been thoroughly reviewed, it's more \"trust me bro\" style. I cannot possibly review\u00a0180,000 lines of code, it's just way way\u00a0way\u00a0too much. For reference, the rest of Paint.NET is about 700,000 lines of code and I've been working on it for over 20 years. [...]\nAt times, Claude was working with the fury of 10 freshly unshackled Einstein genius-level 10x coders. And other times ... well, not so much. I had to babysit Claude quite a bit to make sure it did resource management correctly (for awhile it just wasn't doing the COM equivalent of AddRef() for reference counted objects, oops). I had to slap it a few times when I found some really bad design or architecture decisions. And I was also impressed at some rather clever and tireless reverse engineering work it did to figure out all the formulas needed for implementing Direct2D's built-in effects library.\n&mdash; Rick Brewster, author of Paint.NET\n\n    Tags: reverse-engineering, coding-agents, claude, generative-ai, ai, llms, dotnet, linux, vibe-coding"
+    },
+    {
+      "title": "Claude Fable 5.1 made me a really nice animated pelican",
+      "url": "https://simonwillison.net/2026/Sep/1/claude-fable-5-1/",
+      "source": "Simon Willison",
+      "published": "2026-09-01T23:57:28+00:00",
+      "summary_raw": "Today is Claude Fable (and Mythos) 5.1 day. Anthropic say that Fable 5.1 \"sets a new standard for coding, knowledge work, and long-running problem-solving tasks\". Their announcement spends a notable amount of time on scientific research, boasting of a 52.6% score on the brand new Terminal-Bench-Science 0.1 benchmark (first announced on August 27th), up from 24.7% for Fable 5, 29.0% for Opus 5 and 22.4% for GPT-5.6 Sol. Other benchmarks show slightly improved scores, but none as impressive as the Science one.\nBut how well can it pelican?\nBack in July I wrote about how I was losing faith in the pelican benchmark - its connection to how good the models were at other tasks didn't seem to hold as strongly as it did back in 2025. The most interesting insights I get from it now are comparisons within model families, and particularly comparisons for the same prompt at different reasoning effort levels.\nFable 5.1 has five reasoning levels: low, medium, high, xhigh, max - and no option to turn off reasoning entirely.\nI fixed an issue in llm-anthropic which caused reasoning traces not to be correctly recorded, then ran some prompts.\nHere's the full set of pelicans for all of the reasoning levels, each with the full reasoning transcript. I'll replicate them here:\nLow and medium, both without reasoning?\nNext, a bit of a mystery. This is what I got for effort low:\n\nThe transcript doesn't show any summarized reasoning tokens, and the output token count is 1,998. With Claude that output token count includes reasoning tokens. It took 23.8 seconds and cost 10.017 cents.\nI bumped that up to medium and got this:\n\nWeirdly, that one also shows no reasoning text  and used 1,977 output tokens - 21 tokens less than low. It took 23 seconds and cost 9.912 cents.\nSo for this particular prompt (\"Generate an SVG of a pelican riding a bicycle\") Fable 5.1 appeared to skip reasoning entirely at both low and medium settings.\nHigh\nHere's high - 29.6 seconds, 2,612 output tokens, 13.087 cents:\n\nThis one did do a bit of reasoning, summary here:\n\nI'm planning the SVG layout for a pelican riding a bicycle, with a sky and ground background, a bicycle with two spoked wheels, frame, seat and handlebars, and a white-bodied pelican with a long neck and orange beak positioned on top.\n\nReally not much difference from low and medium, though.\nExtra High\nAt xhigh things got radically different.  36,767 output tokens, 7 minutes 51 seconds, $1.83!\n\nThe reasoning trace is pretty lengthy, and includes details like this:\n\nAdding the eye, wings stretching down to the handlebar grip, orange legs reaching to the pedals, and a small tail feather, while keeping the pelican intentionally oversized compared to the bike for comic effect. [...]\nI'll accept the slight thickness as charming rather than overengineering it.\n\nMax\nSetting effort to max gave me the best pelican I've seen from any of Anthropic's models. 65,927 output tokens, 13 minutes and 54 seconds, $3.30:\n\nThere's a lot to like about this. The  background is tasteful, the legs are clearly on either side of the frame, the feet are on the pedals, the wing is on the handlebars, the pelican has a cute blue hat and there's a basket with a fish.\nIt's still not showing nearly the same level of flair as Gemini 3.7 Flash, but I didn't ask for flair - I asked for an SVG, and that's what I got.\nSome highlights from that reasoning trace:\n\nAdding pedal shapes near both feet, with the far foot on the second leg partially visible behind the frame. I'm considering whether to add a small scarf or cap for extra character, but leaning toward keeping it simple to avoid clutter.\nNow I'm debating a bicycle helmet on the head versus the pelican's signature crest\u2014the beak and pouch already read clearly as \"pelican,\" so a helmet could reinforce the bicycle theme without losing identity, though it might compete with the crest for visual space.\nI realize the beak at (484,84) would overlap with the dome helmet, so I need to shrink the helmet so it only covers the top of the head, adjusting its arc endpoints to sit higher and narrower so the beak can attach cleanly at the front without collision. [...]\nI'm adding a darker tip region to represent the primary feathers, then reconsidering the trailing edge to include scalloped feather curves instead of one smooth line for a more natural look. [...]\nNow I'm checking the vent line placements on the helmet, making sure they sit far enough inside the helmet's edge given the stroke width and rounded caps, and confirming each vent stays within the helmet's circular boundary. [...]\nI decide skipping a handlebar bell and tire highlights since they're unnecessary additions. Now I'm reconsidering the front fork's curve \u2014 the current control point pulls the shape backward when it should bow forward for a proper rake, so I need to shift the control point rightward to fix the fork's lean.\n\nOK, let's animate it\nOn Hacker News, swalsh commented on that Max pelican:\n\nNow that it's a solved benchmark, can we get the animated version?\n\nI didn't want to spend another $3 so I took the Max pelican and piped it into the default thinking level of High:\nllm logs -cx | llm -m claude-fable-5.1 -s 'animate this'\n6,121 input, 26,201 output = $1.37. The result looked like this, exported here as video since some people have trouble viewing animated SVGs:\n\n    \n    Your browser does not support HTML5 video.\n  \n\n\nThe wheels in the video are rotating in the wrong direction, but I think that's an artifact of the conversion to MP4 - they seem to be going in the correct direction in the original SVG.\n    \n        Tags: ai, generative-ai, llms, anthropic, claude, pelican-riding-a-bicycle, llm-reasoning, llm-release"
+    },
+    {
+      "title": "Don't allow Gemini AI access to your Gmail",
+      "url": "https://tuta.com/blog/google-gemini-ai-email",
+      "source": "Hacker News",
+      "published": "2026-09-01T22:49:08+00:00",
+      "summary_raw": "",
+      "points": 10,
+      "num_comments": 1,
+      "hn_url": "https://news.ycombinator.com/item?id=49529336"
+    },
+    {
+      "title": "AI Coding Agent Skills for Real Engineers",
+      "url": "https://github.com/mattpocock/skills",
+      "source": "Hacker News",
+      "published": "2026-09-01T22:48:47+00:00",
+      "summary_raw": "",
+      "points": 38,
+      "num_comments": 14,
+      "hn_url": "https://news.ycombinator.com/item?id=49529329"
+    },
+    {
+      "title": "Show HN: Weedout \u2013 Safari extension that hides YouTube AI-labeled videos",
+      "url": "https://masteranza.github.io/weedout/",
+      "source": "Hacker News",
+      "published": "2026-09-01T22:06:57+00:00",
+      "summary_raw": "I&#x27;m the developer. I built this because AI-generated conspiracy videos were getting out of control in my own YouTube feed. Weedout is a $1.99 Safari extension for macOS that removes videos YouTube labels \u201cMade with AI\u201d from feed, search, related videos, playlists and Shorts. It uses YouTube&#x27;s label rather than AI detection, runs locally, and does not catch unlabeled videos.<p>Source for developers who want to fork or build: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;masteranza&#x2F;weedout-for-youtube\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;masteranza&#x2F;weedout-for-youtube</a><p>Pull requests are not accepted; the repository is for independent forks.",
+      "points": 168,
+      "num_comments": 73,
+      "hn_url": "https://news.ycombinator.com/item?id=49528895"
+    },
+    {
+      "title": "Welcome to the 'You Can't Trust Your Own Eyes' Election",
+      "url": "https://www.bloomberg.com/graphics/2026-opinion-ai-campaign-ads-need-more-safeguards/",
+      "source": "Hacker News",
+      "published": "2026-09-01T21:45:14+00:00",
+      "summary_raw": "",
+      "points": 10,
+      "num_comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=49528684"
+    },
+    {
+      "title": "AI is making back-office work extinct",
+      "url": "https://www.whitecollardream.com/",
+      "source": "Hacker News",
+      "published": "2026-09-01T21:43:31+00:00",
+      "summary_raw": "",
+      "points": 33,
+      "num_comments": 4,
+      "hn_url": "https://news.ycombinator.com/item?id=49528663"
+    },
+    {
+      "title": "Show HN: HN Match Maker \u2013 Matching \"Who Wants to Be Hired?\" With \"Who's Hiring?\"",
+      "url": "https://hnmatchmaker.com/",
+      "source": "Hacker News",
+      "published": "2026-09-01T20:53:35+00:00",
+      "summary_raw": "Hi!<p>Every month the &quot;Who Wants to Be Hired?&quot; and &quot;Who&#x27;s Hiring?&quot; Threads come through I would think to myself, &quot;there should be a match maker for these two threads&quot;.<p>So I had abacus.ai whip one up. The methodology is pretty simple, data is extracted from posts using an LLM, score matches based on salary, domain experience, remote&#x2F;onsite, etc., and then eliminate incompatible postings, like &#x27;looking for remote work&#x27; and &#x27;onsite only&#x27;. The result is two views: jobs-by-user and user-by-jobs.<p>If you&#x27;ve submitted a post to this month&#x27;s &#x27;Who Wants to Be Hired?&quot;, you can find your matching job listings at <a href=\"https:&#x2F;&#x2F;hnmatchmaker.com&#x2F;user&#x2F;:user_name\" rel=\"nofollow\">https:&#x2F;&#x2F;hnmatchmaker.com&#x2F;user&#x2F;:user_name</a>, for example <a href=\"https:&#x2F;&#x2F;hnmatchmaker.com&#x2F;user&#x2F;G4Vi\" rel=\"nofollow\">https:&#x2F;&#x2F;hnmatchmaker.com&#x2F;user&#x2F;G4Vi</a><p>---<p>Some observations when looking at the matches pair up right now:<p>Poke around, let me know what you think!<p>Ultimately, I hope this is actually helpful to some folks.",
+      "points": 103,
+      "num_comments": 44,
+      "hn_url": "https://news.ycombinator.com/item?id=49528057"
+    },
+    {
+      "title": "The latest AI news we announced in August 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/",
+      "source": "Google AI Blog",
+      "published": "2026-09-01T20:45:00+00:00",
+      "summary_raw": "Transitioning cards: 1. Text \"Gemini 3.7 Flash\" next to the Gemini logo icon; 2. a photo of a pixel phone; 3. Google Gemini logo above the text \"Claim your student plan for 1 year at no cost\""
+    },
+    {
+      "title": "Codex bundles LibreOffice",
+      "url": "https://simonwillison.net/2026/Sep/1/codex-libreoffice/",
+      "source": "Simon Willison",
+      "published": "2026-09-01T19:03:01+00:00",
+      "summary_raw": "I was poking around in my ~/.cache/ folder using OmniDiskSweeper when I spotted something interesting. The OpenAI Codex desktop app (since rebranded to just ChatGPT) has 1.7GB of stuff in there in a folder called codex-primary-runtime, including a full Python installation, a full Node.js installation, and native binaries for Poppler, git, and the LibreOffice open source office suite (which forked from OpenOffice.org in 2010):\n\nThe ~/.cache/codex-runtimes/codex-primary-runtime/plugins/openai-primary-runtime/plugins/documents folder includes skills which tell Codex how to find and use those binaries.\n\n    Tags: codex, generative-ai, openai, ai, llms, openoffice, open-source"
+    },
+    {
+      "title": "How accurate have Ed Zitron's AI skeptic predictions been?",
+      "url": "https://danluu.com/zitron/",
+      "source": "Hacker News",
+      "published": "2026-09-01T18:35:15+00:00",
+      "summary_raw": "",
+      "points": 810,
+      "num_comments": 914,
+      "hn_url": "https://news.ycombinator.com/item?id=49526069"
+    },
+    {
+      "title": "There is no AI",
+      "url": "https://wadler.blogspot.com/2026/08/there-is-no-ai.html",
+      "source": "Hacker News",
+      "published": "2026-09-01T18:18:54+00:00",
+      "summary_raw": "",
+      "points": 22,
+      "num_comments": 8,
+      "hn_url": "https://news.ycombinator.com/item?id=49525791"
+    },
+    {
+      "title": "GeoJSON Map Viewer",
+      "url": "https://simonwillison.net/2026/Sep/1/geojson/",
+      "source": "Simon Willison",
+      "published": "2026-09-01T18:05:45+00:00",
+      "summary_raw": "Tool: GeoJSON Map Viewer\n        I was helping Natalie gather some maps of local political boundaries (for the Granada Community Services District and the Midcoast Community Council) and found a need to display some GeoJSON files on a map and export that as a PNG. I asked GPT-5.6-Sol for suggestions of tools and it proactively built one. After some iterations using Claude Code for web and Fable 5.1 we got to this finished tool.\nAs for the GeoJSON.. it turns out if you ask ChatGPT Work to provide boundaries for almost anything it will churn away extracting and combining files from different Government data sources and build exactly what you need.\nI got this polygon from:\n\nI want a polygon that represents the exact boundary of the El Granada GCSD\n\nAnd this one from:\n\nGet me a GeoJSON file for the boundary (or boundaries if that makes sense) for the MCC - Midcoast Community Council - that operates near Half Moon Bay CA\n\nHere's a link that displays both of them at the same time on the new GeoJSON map viewing tool.\n\n    \n    \n        Tags: geospatial, tools, geojson, chatgpt"
+    },
+    {
+      "title": "Beyond Scores: Understanding LLM-as-a-Judge Mechanisms in Summarization Evaluation",
+      "url": "https://arxiv.org/abs/2609.01604v1",
+      "source": "arXiv",
+      "published": "2026-09-01T17:59:49+00:00",
+      "summary_raw": "LLM-based evaluators of natural language generation (NLG) quality are widely deployed as scoring tools and as automated training signals, yet the internal procedure by which they assign a rating remains poorly understood. We investigate this procedure mechanistically through an eight-attack perturbation taxonomy across the Readability and Adequacy dimensions of NLG quality, a generation pipeline that produces paired clean and corrupt summaries with controlled error intensity and explicit token-level modification maps, and a four-experiment battery of causal tracing, logit-lens vocabulary projection, and attention-head knockout applied to Themis (Llama-3-8B) and Prometheus (Mistral-7B). Both evaluators implement a structured, coherent evaluation pipeline operating in two stages: below layer 15, attention performs local error comparison and routes the result to the final input position; above it, the MLP cascade integrates the signal and writes the rating, with the decision crystallizing in the residual stream at a sharp late layer (L = 26 on Themis, L = 25 on Prometheus). Furthermore, a base-model control at the same scale (Llama-3-8B) reproduces the routing architecture and crystallization but not the stage separation, isolating the two mechanisms that fine-tuning specifically installs, suppression of below-L15 MLP contribution at the last position and a two-layer advance of the crystallization depth, indicating that fine-tuning sculpts an existing substrate rather than building the pipeline from scratch. We release the source code and data at https://github.com/himil-v/judge-mech"
+    },
+    {
+      "title": "Efficient SWE Agent Benchmarking via Trajectory-Aware Evaluation",
+      "url": "https://arxiv.org/abs/2609.01603v1",
+      "source": "arXiv",
+      "published": "2026-09-01T17:59:46+00:00",
+      "summary_raw": "Evaluating software engineering agents on realistic benchmarks is costly, since each task may require multi-step code exploration, modification, and test execution. Existing efficient evaluation methods select representative subsets to estimate full-benchmark performance, but are largely result-only: they fit historical pass/fail response matrices or static task semantics, discarding how agents solve problems. We propose PTA-IRT, a Privileged Trajectory-Aware Item Response Theory framework that fuses process and outcome signals. Historical execution trajectories supply process-level evidence beyond pass/fail, such as explored context, attempted edits, and solving paths, which PTA-IRT uses as privileged information for calibration subset selection and ability estimation. Under low calibration budgets, PTA-IRT consistently outperforms prior IRT baselines on score and ranking recovery across four SWE benchmarks. Code and data are publicly available at https://github.com/DeepSoftwareAnalytics/PTA-IRT."
+    }
+  ]
+}
