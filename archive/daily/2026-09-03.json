@@ -1,0 +1,244 @@
+{
+  "date": "2026-09-03",
+  "generated_at": "2026-09-03T14:51:23.038668+00:00",
+  "source_counts": {
+    "rss_feeds": 2,
+    "arxiv": 43,
+    "hackernews": 23,
+    "nitter": 0,
+    "total_raw": 68,
+    "total_deduped": 67,
+    "total_saved": 25
+  },
+  "items": [
+    {
+      "title": "A dark horse enters China's AI race: StartLux",
+      "url": "https://chinaonchina.com/article/chen-dawei-returns-enters-the-large-model-sector",
+      "source": "Hacker News",
+      "published": "2026-09-03T11:12:57+00:00",
+      "summary_raw": "",
+      "points": 45,
+      "num_comments": 23,
+      "hn_url": "https://news.ycombinator.com/item?id=49548530"
+    },
+    {
+      "title": "Kids go from curious to frustrated playing with AI-stuffed toys, UW study finds",
+      "url": "https://www.geekwire.com/2026/kids-go-from-curious-to-frustrated-playing-with-ai-stuffed-toys-uw-study-finds/",
+      "source": "Hacker News",
+      "published": "2026-09-03T08:20:51+00:00",
+      "summary_raw": "",
+      "points": 18,
+      "num_comments": 11,
+      "hn_url": "https://news.ycombinator.com/item?id=49547334"
+    },
+    {
+      "title": "No\u2013AI Agents Did Not Build Secret Civilizations Stop Anthropomorphizing Malware",
+      "url": "https://internetofbugs.substack.com/p/noai-agents-did-not-build-secret",
+      "source": "Hacker News",
+      "published": "2026-09-03T07:45:10+00:00",
+      "summary_raw": "",
+      "points": 15,
+      "num_comments": 7,
+      "hn_url": "https://news.ycombinator.com/item?id=49547073"
+    },
+    {
+      "title": "Go grandmaster Shin defeats AI KataGo in historic human victory",
+      "url": "https://www.kedglobal.com/artificial-intelligence/newsView/ked202607210007",
+      "source": "Hacker News",
+      "published": "2026-09-03T01:11:22+00:00",
+      "summary_raw": "",
+      "points": 46,
+      "num_comments": 7,
+      "hn_url": "https://news.ycombinator.com/item?id=49544762"
+    },
+    {
+      "title": "Reflections on Americans' Net Worth",
+      "url": "https://www.betonit.ai/p/reflections-on-americans-net-worth",
+      "source": "Hacker News",
+      "published": "2026-09-02T23:57:07+00:00",
+      "summary_raw": "",
+      "points": 36,
+      "num_comments": 50,
+      "hn_url": "https://news.ycombinator.com/item?id=49544226"
+    },
+    {
+      "title": "US Government worried that AI companies can't innovate without legal theft",
+      "url": "https://appleinsider.com/articles/26/09/02/us-government-worried-that-ai-companies-cant-innovate-without-legal-theft",
+      "source": "Hacker News",
+      "published": "2026-09-02T22:22:45+00:00",
+      "summary_raw": "",
+      "points": 11,
+      "num_comments": 3,
+      "hn_url": "https://news.ycombinator.com/item?id=49543408"
+    },
+    {
+      "title": "Reasons robotics is hard",
+      "url": "https://secondthoughts.ai/p/14-reasons-robotics-is-hard",
+      "source": "Hacker News",
+      "published": "2026-09-02T22:02:30+00:00",
+      "summary_raw": "",
+      "points": 114,
+      "num_comments": 65,
+      "hn_url": "https://news.ycombinator.com/item?id=49543191"
+    },
+    {
+      "title": "Mamdani Bans AI in NYC Schools",
+      "url": "https://www.nytimes.com/2026/09/01/nyregion/ai-ban-schools-nyc.html",
+      "source": "Hacker News",
+      "published": "2026-09-02T20:57:04+00:00",
+      "summary_raw": "",
+      "points": 196,
+      "num_comments": 147,
+      "hn_url": "https://news.ycombinator.com/item?id=49542443"
+    },
+    {
+      "title": "AI Agents and the Refactoring That Never Happens",
+      "url": "https://www.rosenfeld.page/articles/programming/2026_09_02_ai_agents_and_the_refactoring_that_never_happens/",
+      "source": "Hacker News",
+      "published": "2026-09-02T19:51:39+00:00",
+      "summary_raw": "",
+      "points": 46,
+      "num_comments": 61,
+      "hn_url": "https://news.ycombinator.com/item?id=49541496"
+    },
+    {
+      "title": "The Post-AI Internet Doesn't Look Great",
+      "url": "https://www.jordangoodman.xyz/the-post-ai-internet-doesnt-look-great/",
+      "source": "Hacker News",
+      "published": "2026-09-02T19:41:01+00:00",
+      "summary_raw": "",
+      "points": 74,
+      "num_comments": 83,
+      "hn_url": "https://news.ycombinator.com/item?id=49541331"
+    },
+    {
+      "title": "Muse Spark 1.3",
+      "url": "https://developer.meta.com/ai/models/muse-spark/",
+      "source": "Hacker News",
+      "published": "2026-09-02T19:35:04+00:00",
+      "summary_raw": "<a href=\"https:&#x2F;&#x2F;research.meta.ai&#x2F;blog&#x2F;introducing-muse-spark-1-3\" rel=\"nofollow\">https:&#x2F;&#x2F;research.meta.ai&#x2F;blog&#x2F;introducing-muse-spark-1-3</a>",
+      "points": 644,
+      "num_comments": 419,
+      "hn_url": "https://news.ycombinator.com/item?id=49541256"
+    },
+    {
+      "title": "Introducing Muse Spark 1.3",
+      "url": "https://research.meta.ai/blog/introducing-muse-spark-1-3",
+      "source": "Hacker News",
+      "published": "2026-09-02T19:25:47+00:00",
+      "summary_raw": "Main thread is here:<p><i>Muse Spark 1.3</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49541256\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49541256</a> - Sept 2026 (197 comments)",
+      "points": 65,
+      "num_comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=49541149"
+    },
+    {
+      "title": "Qantas Airbus A380 engine failure in 2010 (2023)",
+      "url": "https://admiralcloudberg.medium.com/a-matter-of-millimeters-the-story-of-qantas-flight-32-bdaa62dc98e7",
+      "source": "Hacker News",
+      "published": "2026-09-02T18:42:41+00:00",
+      "summary_raw": "",
+      "points": 166,
+      "num_comments": 99,
+      "hn_url": "https://news.ycombinator.com/item?id=49540565"
+    },
+    {
+      "title": "Freelancers are getting buried with 'soulless' AI slop cleanup",
+      "url": "https://www.theguardian.com/technology/2026/sep/02/ai-jobs-freelance-cleanup",
+      "source": "Hacker News",
+      "published": "2026-09-02T18:42:01+00:00",
+      "summary_raw": "",
+      "points": 10,
+      "num_comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=49540555"
+    },
+    {
+      "title": "Firefox's AI Switch Is Off. Telemetry Isn't",
+      "url": "https://marius.blog/firefox-155-ai-kill-switch-retest/",
+      "source": "Hacker News",
+      "published": "2026-09-02T18:30:49+00:00",
+      "summary_raw": "",
+      "points": 41,
+      "num_comments": 36,
+      "hn_url": "https://news.ycombinator.com/item?id=49540397"
+    },
+    {
+      "title": "No AI until high school:NYC schools announce major classroom technology overhaul",
+      "url": "https://abc7ny.com/post/new-york-city-public-schools-banning-ai-use-middle-school-year/19778716/",
+      "source": "Hacker News",
+      "published": "2026-09-02T18:13:54+00:00",
+      "summary_raw": "",
+      "points": 21,
+      "num_comments": 8,
+      "hn_url": "https://news.ycombinator.com/item?id=49540182"
+    },
+    {
+      "title": "AI is stopping startups from completing puberty",
+      "url": "https://ashley.rolfmore.com/ai-is-stopping-startups-from-completing-puberty/",
+      "source": "Hacker News",
+      "published": "2026-09-02T18:06:14+00:00",
+      "summary_raw": "",
+      "points": 36,
+      "num_comments": 3,
+      "hn_url": "https://news.ycombinator.com/item?id=49540078"
+    },
+    {
+      "title": "A Common Measure of Communication for Speech Brain-Computer Interfaces",
+      "url": "https://arxiv.org/abs/2609.02887v1",
+      "source": "arXiv",
+      "published": "2026-09-02T17:59:46+00:00",
+      "summary_raw": "Speech brain-computer interfaces (speech BCIs) translate neural activity into language, offering a path towards restoring speech for people with paralysis and, more broadly, enabling new forms of natural human-computer interaction. Despite this promise, the field lacks a common measure of progress because systems use different datasets, recording methods, types of speech, and vocabularies, so their reported scores are rarely comparable. Underlying this measurement problem are two unresolved questions: (i) what distribution of words should a speech BCI enable a user to communicate, and (ii) how much information from this distribution can a system convey. We address both by deriving open-vocabulary mutual information (OVMI), an information-theoretic quantity that measures the information conveyed by a decoder relative to a reference distribution over the words a user may wish to communicate. This allows capabilities measured under different conditions, such as distinct vocabularies, to be evaluated on a common communication scale. We show that ordinarily reported accuracy, word error rate (WER), and other metrics computed only over the words a system supports can overstate how much of a user's intended speech the system can communicate. We then use OVMI to compare existing systems, expose trade-offs between how much of the user's language a system supports and how accurately it decodes those words, show that these comparisons depend on what the user is expected to communicate, and demonstrate that selecting a vocabulary to maximise OVMI yields up to 16.3% relative improvement in accuracy across three speech domains. OVMI therefore provides the speech BCI community with a principled way to compare heterogeneous systems, improve vocabulary design, and measure progress in the field."
+    },
+    {
+      "title": "Discriminative World Models for Web Agents",
+      "url": "https://arxiv.org/abs/2609.02885v1",
+      "source": "arXiv",
+      "published": "2026-09-02T17:59:40+00:00",
+      "summary_raw": "Recent web agents use world models for test-time action selection by sampling candidate actions, predicting the resulting web states, and ranking them with a ranker model or a Process Reward Model (PRM). These world models are typically trained via supervised next-state prediction to generate fixed representations like HTML or AXTree snapshots. However, this objective is misaligned with the downstream ranker, which relies on predicted states being discriminative across candidates to accurately score them. To address this, we introduce predicted-state matching, a training objective where the predicted representation must distinguish the true resulting state from those reached by alternative actions. We train these models using a branching web-agent dataset derived from WebArena Go-Browse trajectories, where every decision point contains multiple alternative actions and their resulting states. Experiments on our held-out predicted-state matching benchmark show that our approach outperforms world models trained with supervised next-state prediction. We further show that our approach improves PRM-style action ranking on WebPRMBench compared with action-only PRMs and PRMs augmented with supervised-next-state world models. Finally, on WebArena-Lite, using our world model for test-time action selection improves end-to-end task success. Our project page is available at: https://dhruvpendharkar.github.io/dwm/."
+    },
+    {
+      "title": "Graph Machine: Towards Better Pretraining via Edges",
+      "url": "https://arxiv.org/abs/2609.02881v1",
+      "source": "arXiv",
+      "published": "2026-09-02T17:56:41+00:00",
+      "summary_raw": "We introduce the Graph Machine (GM), an architecture that maintains an $O(n)$-sized state and accesses it through sparse, dynamic routing. Unlike methods with fixed-size states or sparse but static routing, GM preserves $O(n)$ complexity in its sparse layers without restricting the potentially accessible state size to $O(1)$. Instead, GM uses edges - pointer-like objects updated differentiably by a referral mechanism resembling pointer chasing. We replace 75% of the dense Transformer layers in Qwen3-0.6B with GM sparse layers and pretrain from scratch on 15.7B tokens. With only 2 of 4,096 tokens retrieved per KV head in each sparse layer, loss degrades only slightly; with 4, the best model marginally improves loss."
+    },
+    {
+      "title": "GRADSOLVE: fast exact gradients for ODE ensembles on GPUs",
+      "url": "https://arxiv.org/abs/2609.02876v1",
+      "source": "arXiv",
+      "published": "2026-09-02T17:56:10+00:00",
+      "summary_raw": "Ordinary differential equations (ODEs) underlie models in science and engineering, and many applications need derivatives of their solutions with respect to parameters. Ensembles of independent trajectories suit graphics processing units (GPUs), but current GPU software forces a trade-off: the fastest ensemble solvers cannot be differentiated in reverse mode at the speed they solve, and the solvers built for differentiation solve more slowly. No single tool has yet offered a reverse-mode gradient at the speed of a fused-kernel solve. We present GRADSOLVE, an open-source JAX library for solving and reverse-mode differentiating low-dimensional ODE ensembles on NVIDIA GPUs. It records the steps an adaptive solver accepts and differentiates a fixed-step replay of them; the returned gradient is the exact discrete adjoint of those steps, the same derivative Diffrax returns by default, obtained more cheaply from a fixed-length chain than from an adaptive loop. It targets ensembles differentiated many times against one recorded mesh, keeps Diffrax as a fallback, and supports explicit and Rosenbrock integrators. Used as a solver, GRADSOLVE's forward-only kernel ran 2.8x faster than DiffEqGPU.jl; used for gradients, once a record exists, it computed them 5.6-14.1x faster than Diffrax's checkpointed adjoint at matched forward-state accuracy across three GPU generations, the advantage narrowing on large ensembles and, on stiff systems, down to parity at tight accuracy. GRADSOLVE is released at https://github.com/ECLIPSE-AI4Science/gradsolve."
+    },
+    {
+      "title": "Show HN: I built a version of Omarchy that runs on Apple Silicon",
+      "url": "https://github.com/themartiano/try-omarchy",
+      "source": "Hacker News",
+      "published": "2026-09-02T17:54:32+00:00",
+      "summary_raw": "I wanted to try out Omarchy before doing a full install, but I only have an M series MacBook so I would have to find a laptop and there&#x27;s no official M support yet.<p>So I decided to create something that allows people to test and run Omarchy on their devices so they can understand how it feels.<p>So I built an app that allows you to run Omarchy Quattro as a native, hardware-accelerated app on your Apple Silicon Mac!<p>It uses QEMU and Apple&#x27;s HVF, a custom built Omarchy ARM image, a swift app enclosing it, and custom patches on Omarchy, QEMU, Hyprland and more.<p>I tried many things, and this approach achieved the best results. The native keyboard experience with Super shortcuts works very well, along with all the rest.<p>It supports any resolution (fixed ratio), retina or non retina displays, audio input &#x2F; output devices, shared clipboard, and many other features.<p>Since it runs on top of macOS, native features like universal clipboard and AirPods work smoothly.<p>It takes ~3min to install, works the same as any other standard macOS app.<p>The whole project is open source, so feel free it check it out on GitHub, install, PRs, etc.",
+      "points": 22,
+      "num_comments": 6,
+      "hn_url": "https://news.ycombinator.com/item?id=49539913"
+    },
+    {
+      "title": "Towards Trustworthy Autonomous Robots: An Explainable AI-Based Decision Framework",
+      "url": "https://arxiv.org/abs/2609.02861v1",
+      "source": "arXiv",
+      "published": "2026-09-02T17:44:25+00:00",
+      "summary_raw": "Autonomous robots powered by deep learning face a fundamental auditability challenge: when incidents occur, investigators cannot reconstruct why the system made specific decisions. This paper presents TRACE (Transparent Reasoning Architecture for Credible Execution), a decision framework that ensures every autonomous action can be traced back to sensor evidence through documented causal chains. The framework organizes decision-making into four auditable layers: Semantic Perception for evidence-grounded entity recognition, Belief Reasoning for probabilistic state estimation with causal graphs, Action Synthesis for constraint-aware planning with counterfactual documentation, and Execution Verification for compliance monitoring. TRACE is model-agnostic yet designed to integrate learning-based perception modules (CNNs, transformers) while preserving decision-level auditability. We evaluate the framework using three objective metrics: Evidence Traceability (sensor-to-decision linkage), Decision Reconstructability (post-hoc analysis capability), and Temporal Continuity (audit trail completeness). Experimental evaluation on warehouse robot navigation demonstrates that TRACE achieves 98.6% evidence traceability, 99.0% temporal continuity, and 98.1% decision reconstructability across 500 simulated decision cycles. Post-hoc methods like LIME provide feature attributions but lack the artifact structure needed for decision-level reconstruction. The framework addresses EU AI Act requirements for high-risk system transparency and contributes to Explainable AI for safety-critical autonomous systems."
+    },
+    {
+      "title": "User Feedback Provides a Unique Signal that LLMs Can not Detect",
+      "url": "https://arxiv.org/abs/2609.02859v1",
+      "source": "arXiv",
+      "published": "2026-09-02T17:42:44+00:00",
+      "summary_raw": "Harnessing naturally occurring feedback from user interactions offers a promising learning signal for Large Language Models (LLMs). However, recent studies suggest this feedback is inherently noisy and difficult to leverage effectively. We challenge this conception by demonstrating that user feedback is a highly actionable signal for improvement, and that its perceived ineffectiveness stems from a systematic bias in current evaluation paradigms. To isolate the usefulness of feedback, we construct synthetic data with a definitive ground truth, alongside naturalistic data to validate that our findings hold in real-world scenarios. By comparing model revisions generated with and without access to feedback across both settings, we show that feedback-informed revisions resolve targeted issues at significantly higher rates than baseline revisions. Finally, we expose the root of the evaluation bias: when a model successfully fixes an issue exclusively due to feedback, LLM judges frequently fail to identify the genuinely corrected response, systematically preferring inferior baseline outputs instead."
+    },
+    {
+      "title": "Improved Gradient Descent Lower Bounds Beyond Nesterov",
+      "url": "https://arxiv.org/abs/2609.02855v1",
+      "source": "arXiv",
+      "published": "2026-09-02T17:39:52+00:00",
+      "summary_raw": "We study how far gradient descent (GD) can be accelerated by predetermined stepsizes in smooth convex optimization. Going beyond the classical $\u03a9(n^{-2})$ first-order oracle lower bound of Nemirovsky and Yudin, we prove an $\u03a9(n^{-1.6342})$ non-anytime lower bound and an $\u03a9(n^{-1.2408})$ anytime lower bound. These improve the recent $\u03a9(n^{-1.932})$ non-anytime lower bound of Ma and Chen and the $\u03a9(n^{-4/3})$ anytime lower bound of Tsai et al., respectively. Together with the non-anytime $O(n^{-\\log_2(1+\\sqrt{2})})$ rate achieved by silver schedules, our anytime lower bound establishes a strict separation between the achievable convergence exponents in the two settings."
+    }
+  ]
+}
